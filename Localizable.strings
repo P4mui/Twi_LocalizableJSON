@@ -5080,9 +5080,6 @@ Do not translate BOLD_TEXT or READ_MORE_LINK. */
 /* Tooltip for record button in News Camera capture screen. */
 "NEWSCAMERA_TOOLTIP_RECORD_BUTTON" = "Hold to record video";
 
-/* New label */
-"NEW_LABEL" = "New";
-
 /* Error description label for verification policy view. X is sending verified users a notification asking to fix their profile and account settings. This error description is shown when we are unable to fetch the policy data from the server. */
 "NEW_VERIFICATION_POLICY_ERROR_DESCRIPTION_LABEL" = "We’re sorry. This information isn’t available right now, please try again later.";
 
@@ -8247,18 +8244,6 @@ Do not translate BOLD_TEXT or READ_MORE_LINK. */
 
 /* Shopping menu item title */
 "SHOPPING_HOME_DASH_ITEM_LABEL" = "Shopping";
-
-/* 3D Touch application shortcut deeplinking to Grok */
-"SHORTCUT_GROK_TITLE" = "Ask Grok";
-
-/* 3D Touch application shortcut deeplinking to create a new DM */
-"SHORTCUT_NEW_MESSAGE_TITLE" = "New Message";
-
-/* 3D Touch application shortcut deeplinking to compose post */
-"SHORTCUT_NEW_TWEET_TITLE" = "New post";
-
-/* 3D Touch application shortcut deeplinking to search */
-"SHORTCUT_SEARCH_TITLE" = "Search";
 
 /* Message shown in gap for showing posts.  Should fit on one line. */
 "SHOW_MORE_TWEETS_ACTION_LABEL" = "Show more posts";
@@ -13335,6 +13320,12 @@ eg. "Super Following Jack" */
 /* DM Conversation Delete/Leave conversation action alert message */
 "DM_CONVERSATION_ACTION_DELETE_LEAVE_CONVERSATION_ALERT_MESSAGE" = "This conversation will be deleted from your inbox. Other people in the conversation will still be able to see it.";
 
+/* DM Conversation Block messages conversation action title */
+"DM_CONVERSATION_ACTION_DM_BLOCK_CONVERSATION_TITLE" = "Block messages";
+
+/* DM Conversation Unblock messages conversation action title */
+"DM_CONVERSATION_ACTION_DM_UNBLOCK_CONVERSATION_TITLE" = "Unblock messages";
+
 /* DM Conversation Leave conversation action alert action */
 "DM_CONVERSATION_ACTION_LEAVE_CONVERSATION_ALERT_ACTION" = "Leave";
 
@@ -13743,11 +13734,14 @@ eg. "Super Following Jack" */
 /* DM Edit Conversation Edit title */
 "DM_EDIT_CONVERSATION_TITLE" = "Edit group";
 
+/* DM Empty Conversation Title. Placeholder replaced with formatted list of participants. */
+"DM_EMPTY_CONVERSATION_FALLBACK_TITLE" = "This conversation looks pretty empty.";
+
 /* DM Empty Conversation Subtitle*/
 "DM_EMPTY_CONVERSATION_SUBTITLE" = "Try sending a message!";
 
-/* DM Empty Conversation Title. Placeholder replaced with formatted list of participants. */
-"DM_EMPTY_CONVERSATION_TITLE" = "This conversation with %@ looks pretty empty.";
+/* DM Empty Conversation with users Title. Placeholder replaced with formatted list of participants. */
+"DM_EMPTY_CONVERSATION_WITH_USERS_TITLE" = "This conversation with %@ looks pretty empty.";
 
 /* DM try again error message */
 "DM_ERROR_MESSAGE_TRY_AGAIN" = "Please try again later";
@@ -16303,6 +16297,9 @@ eg. "Super Following Jack" */
 /* Payments: Additional message shown when the system is unable to verify the user’s identity for X Payments, because they declined. */
 "PAYMENTS_ERROR_VERIFY_IDENTITY_DECLINED" = "The operation was cancelled.";
 
+/* Payments: Label for the button that allows a customer to add a bank account to a contact. */
+"PAYMENTS_EXTERNAL_CONTACTS_ADD_BANK_ACCOUNT_ACTION" = "Add bank account";
+
 /* Payments: Label for the contact’s address attribute. */
 "PAYMENTS_EXTERNAL_CONTACTS_ATTRIBUTE_ADDRESS" = "Address";
 
@@ -16350,6 +16347,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Title for contacts screen or section. */
 "PAYMENTS_EXTERNAL_CONTACTS_TITLE" = "Contacts";
+
+/* Payments: Label for the button that allows a customer to update the bank account attached to a contact. */
+"PAYMENTS_EXTERNAL_CONTACTS_UPDATE_BANK_ACCOUNT_ACTION" = "Update bank account";
 
 /* Payments: Title shown next to the transaction amount on the deposit/withdraw flows. */
 "PAYMENTS_EXTERNAL_TRANSACTION_AMOUNT_TITLE" = "Amount";
@@ -21975,6 +21975,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Accessibility action label for moving an item up in a list of items */
 "MOVE_UP_ACCESSIBILITY_ACTION" = "Move up";
 
+/* New label */
+"NEW_LABEL" = "New";
+
 /* Label for new posts indicator. */
 "NEW_TWEETS_INDICATOR_LABEL" = "New posts";
 
@@ -22526,6 +22529,18 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Button label to share a post via Direct Message */
 "SHARE_VIA_DIRECT_MESSAGE_SHORT_ACTION_LABEL" = "Message";
+
+/* 3D Touch application shortcut deeplinking to Grok */
+"SHORTCUT_GROK_TITLE" = "Ask Grok";
+
+/* 3D Touch application shortcut deeplinking to create a new DM */
+"SHORTCUT_NEW_MESSAGE_TITLE" = "New Message";
+
+/* 3D Touch application shortcut deeplinking to compose post */
+"SHORTCUT_NEW_TWEET_TITLE" = "New post";
+
+/* 3D Touch application shortcut deeplinking to search */
+"SHORTCUT_SEARCH_TITLE" = "Search";
 
 /* How many seconds in a video user skipped ahead by tapping a skip button.  */
 "SKIPPED_AHEAD_SECONDS" = "+%@ Seconds";
