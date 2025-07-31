@@ -6,32 +6,182 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 // Section: Frameworks/DMShared/Sources/DMSharedStrings/en.lproj/Localizable.strings
 
-/* DM Message Attachment Preview Audio */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_AUDIO" = "Sent a recording";
+/* DM display name you */
+"DM_DISPLAY_NAME_YOU" = "You";
 
-/* DM Message Attachment Preview File */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_FILE" = "Sent a file";
+/* DM Message Attachment Preview when unnamed user sent a file */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_FILE" = "Sent a file";
 
-/* DM Message Attachment Preview Gif */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_GIF" = "Sent a GIF";
+/* DM Message Attachment Preview when unnamed user sent a GIF */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_GIF" = "Sent a GIF";
 
-/* DM Message Attachment Preview Link */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_LINK" = "Sent a link";
+/* DM Message Attachment Preview when unnamed user sent a link */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_LINK" = "Sent a link";
 
-/* DM Message Attachment Preview Photo */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_PHOTO" = "Sent a photo";
+/* DM Message Attachment Preview when unnamed user sent a photo */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_PHOTO" = "Sent a photo";
 
-/* DM Message Attachment Preview Post */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_POST" = "Sent a post";
+/* DM Message Attachment Preview when unnamed user sent a post */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_POST" = "Sent a post";
 
-/* DM Message Attachment Preview Unknown */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_UNKNOWN" = "Sent an attachment";
+/* DM Message Attachment Preview when unnamed user sent an unknown attachment */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_UNKNOWN" = "Sent an attachment";
 
-/* DM Message Attachment Preview Video */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_VIDEO" = "Sent a video";
+/* DM Message Attachment Preview when unnamed user sent a video */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_VIDEO" = "Sent a video";
+
+/* DM Message Attachment Preview when unnamed user sent a voice message */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_VOICE_MESSAGE" = "Sent a voice message";
+
+/* DM Message Attachment Preview when user sent a file. %@: user display name */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_FILE" = "•|•%@•|•: Sent a file";
+
+/* DM Message Attachment Preview when user sent a GIF. %@: user display name */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_GIF" = "•|•%@•|•: Sent a GIF";
+
+/* DM Message Attachment Preview when user sent a link. %@: user display name */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_LINK" = "•|•%@•|•: Sent a link";
+
+/* DM Message Attachment Preview when user sent a photo. %@: user display name */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_PHOTO" = "•|•%@•|•: Sent a photo";
+
+/* DM Message Attachment Preview when user sent a post. %@: user display name */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_POST" = "•|•%@•|•: Sent a post";
+
+/* DM Message Attachment Preview when user sent an unknown attachment. %@: user display name */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_UNKNOWN" = "•|•%@•|•: Sent an attachment";
+
+/* DM Message Attachment Preview when user sent a video. %@: user display name */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_VIDEO" = "•|•%@•|•: Sent a video";
+
+/* DM Message Attachment Preview when user sent a voice message. %@: user display name */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_VOICE_MESSAGE" = "•|•%@•|•: Sent a voice message";
+
+/* DM Message Attachment Preview when you send a file */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_FILE" = "You sent a file";
+
+/* DM Message Attachment Preview when you send a GIF */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_GIF" = "You sent a GIF";
+
+/* DM Message Attachment Preview when you send a link */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_LINK" = "You sent a link";
+
+/* DM Message Attachment Preview when you send a photo */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_PHOTO" = "You sent a photo";
+
+/* DM Message Attachment Preview when you send a post */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_POST" = "You sent a post";
+
+/* DM Message Attachment Preview  when you send an unknown attachment */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_UNKNOWN" = "You sent an attachment";
+
+/* DM Message Attachment Preview when you send a video */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_VIDEO" = "You sent a video";
+
+/* DM Message Attachment Preview when you send a voice message */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_VOICE_MESSAGE" = "You sent a voice message";
+
+/* DM Message Reaction Preview when unnamed user reacted. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_FALLBACK" = "Reacted %@";
+
+/* DM Message Reaction Preview when unnamed user reacted to file. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_FILE" = "Reacted %@ to a file";
+
+/* DM Message Reaction Preview when unnamed user reacted to gif. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_GIF" = "Reacted %@ to a GIF";
+
+/* DM Message Reaction Preview when unnamed user reacted to link. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_LINK" = "Reacted %@ to a link";
+
+/* DM Message Reaction Preview when unnamed user reacted to photo. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_PHOTO" = "Reacted %@ to a photo";
+
+/* DM Message Reaction Preview when unnamed user reacted to post. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_POST" = "Reacted %@ to a post";
+
+/* DM Message Reaction Preview when unnamed user reacted to text. %1$@: emoji reaction, %2$@: message text */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_TEXT" = "Reacted %1$@ to “%2$@”";
+
+/* DM Message Reaction Preview when unnamed user reacted to an unknown attachment. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_UNKNOWN" = "Reacted %@ to an attachment";
+
+/* DM Message Reaction Preview when unnamed user reacted to video. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_VIDEO" = "Reacted %@ to a video";
+
+/* DM Message Reaction Preview when unnamed user reacted to voice message. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_VOICE_MESSAGE" = "Reacted %@ to a voice message";
+
+/* DM Message Reaction Preview when user reacted. %1$@: user display name, %2$@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_FALLBACK" = "•|•%1$@•|•: Reacted %2$@";
+
+/* DM Message Reaction Preview when user reacted to file. %1$@: user display name, %2$@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_FILE" = "•|•%1$@•|•: Reacted %2$@ to a file";
+
+/* DM Message Reaction Preview when user reacted to gif. %1$@: user display name, %2$@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_GIF" = "•|•%1$@•|•: Reacted %2$@ to a GIF";
+
+/* DM Message Reaction Preview when user reacted to link. %1$@: user display name, %2$@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_LINK" = "•|•%1$@•|•: Reacted %2$@ to a link";
+
+/* DM Message Reaction Preview when user reacted to photo. %1$@: user display name, %2$@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_PHOTO" = "•|•%1$@•|•: Reacted %2$@ to a photo";
+
+/* DM Message Reaction Preview when user reacted to post. %1$@: user display name, %2$@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_POST" = "•|•%1$@•|•: Reacted %2$@ to a post";
+
+/* DM Message Reaction Preview when user reacted to text. %1$@: user display name, %2$@: emoji reaction, %3$@: message text */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_TEXT" = "•|•%1$@•|•: Reacted %2$@ to “%3$@”";
+
+/* DM Message Reaction Preview when user reacted to an unknown attachment. %1$@: user display name, %2$@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_UNKNOWN" = "•|•%1$@•|•: Reacted %2$@ to an attachment";
+
+/* DM Message Reaction Preview when user reacted to video. %1$@: user display name, %2$@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_VIDEO" = "•|•%1$@•|•: Reacted %2$@ to a video";
+
+/* DM Message Reaction Preview when user reacted to voice message. %1$@: user display name, %2$@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_VOICE_MESSAGE" = "•|•%1$@•|•: Reacted %2$@ to a voice message";
+
+/* DM Message Reaction Preview when you reacted. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_FALLBACK" = "You reacted %@";
+
+/* DM Message Reaction Preview when you reacted to file. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_FILE" = "You reacted %@ to a file";
+
+/* DM Message Reaction Preview when you reacted to gif. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_GIF" = "You reacted %@ to a GIF";
+
+/* DM Message Reaction Preview when you reacted to link. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_LINK" = "You reacted %@ to a link";
+
+/* DM Message Reaction Preview when you reacted to photo. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_PHOTO" = "You reacted %@ to a photo";
+
+/* DM Message Reaction Preview when you reacted to post. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_POST" = "You reacted %@ to a post";
+
+/* DM Message Reaction Preview when you reacted to text. %1$@: emoji reaction, %2$@: message text */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_TEXT" = "You reacted %1$@ to “%2$@”";
+
+/* DM Message Reaction Preview when you reacted to an unknown attachment. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_UNKNOWN" = "You reacted %@ to an attachment";
+
+/* DM Message Reaction Preview when you reacted to video. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_VIDEO" = "You reacted %@ to a video";
+
+/* DM Message Reaction Preview when you reacted to voice message. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_VOICE_MESSAGE" = "You reacted %@ to a voice message";
+
+/* DM Message Text Preview when user sent a text message. %1$@: user display name, %2$@: message text */
+"DM_MESSAGE_PREVIEW_TEXT_USER_SENT_TEXT" = "•|•%1$@•|•: %2$@";
 
 /* DM notification body text in case we are unable to decrypt the message */
 "DM_NOTIFICATION_FALLBACK_BODY" = "Sent a message";
+
+/* DM notification group subtitle mention prefix preceding group title. %@: group title */
+"DM_NOTIFICATION_GROUP_SUBTITLE_MENTION_PREFIX" = "Mentioned you – %@";
+
+/* DM notification group subtitle reply prefix preceding group title. %@: group title */
+"DM_NOTIFICATION_GROUP_SUBTITLE_REPLY_PREFIX" = "Replied to you – %@";
 
 /* DM notification group title you and many others. %@: number of other users */
 "DM_NOTIFICATION_GROUP_TITLE_YOU_AND_MANY_OTHERS" = "You & %@ others";
@@ -8219,6 +8369,9 @@ Do not translate BOLD_TEXT or READ_MORE_LINK. */
 /* Menu label to present more Profile sharing options eg. Share @jack via... */
 "SHARE_PROFILE_VIA_ACTION_FORMAT" = "Share %@ via…";
 
+/* Label displayed at the top of the prompt displayed when a user takes a screenshot of a post */
+"SHARE_SCREENSHOT_TO" = "Share screenshot to";
+
 /* Plain text email body for 'share-to-gmail' activity in share sheet, example with substitution:
  jack (@jack) posted: just setting up my twttr https://twitter.com/jack/status/20?s=20
  */
@@ -8226,9 +8379,6 @@ Do not translate BOLD_TEXT or READ_MORE_LINK. */
 
 /* Label for a button to share a post that the user has taken a screen shot of displayed in the prompt shown to users after they have taken a screenshot of a post */
 "SHARE_TWEET_BUTTON_LABEL" = "Share post";
-
-/* Label displayed at the top of the prompt displayed when a user takes a screenshot of a post */
-"SHARE_TWEET_INSTEAD_LABEL" = "Share post instead?";
 
 /* Menu title label for post share sheet */
 "SHARE_TWEET_LABEL" = "Share post";
@@ -13386,11 +13536,17 @@ eg. "Super Following Jack" */
 /* DM Conversation footer read only reason unsupported unencrypted title */
 "DM_CONVERSATION_FOOTER_READ_ONLY_REASON_UNSUPPORTED_UNENCRYPTED_TITLE" = "Unsupported unencrypted conversation";
 
+/* DM Conversation footer for search when there are no results found title */
+"DM_CONVERSATION_FOOTER_SEARCH_NO_RESULTS_TITLE" = "Not found";
+
+/* DM Conversation footer for search when there are some results found title. The first placeholder is replaced by the current result being shown and the second placeholder is the total number of search results. */
+"DM_CONVERSATION_FOOTER_SEARCH_RESULTS_TITLE" = "%1$@ of %2$@ matches";
+
 /* Informational title audio AV call ended with a timestamp and duration of the call */
 "DM_CONVERSATION_INFORMATIONAL_AV_CALL_AUDIO_ENDED_DURATION_TITLE" = "Audio call ended %1$@ ⋅ %2$@";
 
 /* Informational title audio AV call ended with a timestamp */
-"DM_CONVERSATION_INFORMATIONAL_AV_CALL_AUDIO_ENDED_TITLE" = "Audio call ended %@";
+"DM_CONVERSATION_INFORMATIONAL_AV_CALL_AUDIO_ENDED_TITLE" = "Audio call %@";
 
 /* Informational title audio AV call missed with a timestamp */
 "DM_CONVERSATION_INFORMATIONAL_AV_CALL_AUDIO_MISSED_TITLE" = "Missed audio call %@";
@@ -13408,7 +13564,7 @@ eg. "Super Following Jack" */
 "DM_CONVERSATION_INFORMATIONAL_AV_CALL_VIDEO_ENDED_DURATION_TITLE" = "Video call ended %1$@ ⋅ %2$@";
 
 /* Informational title video AV call ended with a timestamp */
-"DM_CONVERSATION_INFORMATIONAL_AV_CALL_VIDEO_ENDED_TITLE" = "Video call ended %@";
+"DM_CONVERSATION_INFORMATIONAL_AV_CALL_VIDEO_ENDED_TITLE" = "Video call %@";
 
 /* Informational title video AV call missed with a timestamp */
 "DM_CONVERSATION_INFORMATIONAL_AV_CALL_VIDEO_MISSED_TITLE" = "Missed video call %@";
@@ -13680,6 +13836,9 @@ eg. "Super Following Jack" */
 /* DM Conversation Typing Indicator Single Person Label. Placeholder replaced with user's display name. */
 "DM_CONVERSATION_TYPING_INDICATOR_SINGLE_PERSON" = "%@ is typing…";
 
+/* DM Conversation Typing Indicator Single Person Label. */
+"DM_CONVERSATION_TYPING_INDICATOR_SINGLE_PERSON_GENERIC" = "Typing…";
+
 /* DM Conversation disappearing messages duration accessibility label, %@ = duration (e.g. 1 hour, 1 week, etc.) */
 "DM_CONVERSATION_VANISHING_MODE_DURATION_ACCESSIBILITY_LABEL" = "%@ disappearing messages";
 
@@ -13757,6 +13916,9 @@ eg. "Super Following Jack" */
 
 /* DM group invite request to join action title */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_ACTION_TITLE" = "Request to join";
+
+/* DM group invite request to join error already requested toast title */
+"DM_GROUP_INVITE_REQUEST_TO_JOIN_ERROR_ALREADY_REQUESTED_TITLE" = "You’ve already requested to join this group";
 
 /* DM group invite request to join subtitle */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_SUBTITLE" = "You have been invited to join a group. Tap the button below to request to join.";
@@ -16411,6 +16573,9 @@ eg. "Super Following Jack" */
 /* Payments: Footer text shown on the home screen, to explain that funds deposited are insured by FDIC insurance */
 "PAYMENTS_FUNDS_INSURANCE_FOOTER_TEXT" = "Your deposits are eligible for pass through FDIC insurance up to $250,000.\n\nX Payments LLC is a financial technology company, and not a bank. Funds are held at Cross River Bank, Member FDIC, and are eligible for pass through FDIC insurance if certain conditions are satisfied.";
 
+/* Payments: Toast shown when the user tries to use the geolocation feature but they denied the permission. */
+"PAYMENTS_GEOLOCATION_UNAVAILABLE_TOAST" = "Your location services are not currently enabled on this device. You can turn them on in your device settings.";
+
 /* Payments: Confirmation button text used in various dialogs throughout X Payments. */
 "PAYMENTS_GOT_IT_ACTION" = "Got it";
 
@@ -16506,6 +16671,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the identity verification screen */
 "PAYMENTS_IDENTITY_VERIFICATION_TITLE" = "Verify your identity";
+
+/* Payments: Toast shown when the user successfully verifies their identity */
+"PAYMENTS_IDENTITY_VERIFIED_TOAST" = "Your identity is now verified.";
 
 /* Payments: Shows the APY (annual percentage yield) of the account, on the interest screen. */
 "PAYMENTS_INTEREST_APY" = "%@ APY";
@@ -16677,6 +16845,12 @@ eg. "Super Following Jack" */
 
 /* Payments: Option in the More menu to report an issue with a payment in X Payments. */
 "PAYMENTS_MORE_MENU_REPORT_PAYMENT" = "Report payment";
+
+/* Payments: Subtitle shown when bank account linking failed because the name was not a match */
+"PAYMENTS_NAME_MISMATCH_ERROR_ACCOUNT_LINKING_MESSAGE" = "Please try a different account.";
+
+/* Payments: Title shown when bank account linking failed because the name was not a match */
+"PAYMENTS_NAME_MISMATCH_ERROR_ACCOUNT_LINKING_TITLE" = "This bank account can’t be linked due to a name mismatch";
 
 /* Payments: Action button to dismiss or postpone an action */
 "PAYMENTS_NOT_NOW_ACTION" = "Not Now";
@@ -17362,6 +17536,9 @@ eg. "Super Following Jack" */
 /* Payments: Generic message shown when a transaction error happens, and there is nothing the user can do to remediate it in the short term. */
 "PAYMENTS_TRANSACTION_ERROR_GENERIC_MESSAGE" = "We are looking into what went wrong.";
 
+/* Payments: Message indicating that a transaction has failed due to compliance reason (ex: OFAC) */
+"PAYMENTS_TRANSACTION_FAILED_OFAC_CHECK_MESSAGE" = "Failed due to compliance reasons";
+
 /* Payments: Toast shown when the transaction ID has been copied to the iOS clipboard */
 "PAYMENTS_TRANSACTION_ID_COPIED" = "Transaction ID copied to clipboard";
 
@@ -17518,8 +17695,8 @@ eg. "Super Following Jack" */
 /* Payments: Disclaimer text of a transfer method that involves no waiting. %@ is replaced by the already localized fees. */
 "PAYMENTS_TRANSFER_METHOD_DISCLAIMER_REALTIME" = "Funds will be available instantly";
 
-/* Payments: Fees for a transfer method that involves only a minimum amount. %@ is replaced by the formatted amount. */
-"PAYMENTS_TRANSFER_METHOD_FEE_MIN_AMOUNT" = "Min. %@ Fee";
+/* Payments: Fees for a transfer method that involves only an amount. %@ is replaced by the formatted amount. */
+"PAYMENTS_TRANSFER_METHOD_FEE_MIN_AMOUNT" = "%@ Fee";
 
 /* Payments: Fees for a transfer method that involve only a percentage. %@ is replaced by the formatted percentage. */
 "PAYMENTS_TRANSFER_METHOD_FEE_PERCENT" = "%@ Fee";
@@ -17608,10 +17785,13 @@ eg. "Super Following Jack" */
 /* Payments: Action to view the user’s account */
 "PAYMENTS_VIEW_ACCOUNT_ACTION" = "View account";
 
+/* Payments: Action to show all the transfer method options (wire, ACH, OCT, ...) */
+"PAYMENTS_VIEW_ALL_OPTIONS_ACTION" = "View all options";
+
 /* Payments: Action to view the user’s balance */
 "PAYMENTS_VIEW_BALANCE_ACTION" = "View balance";
 
-/* Payments: Action to open the screen that shows all the check details (check as in a piece of paper to pay someone else, not as a verification). */
+/* Payments: Action to open the screen that shows all the check details */
 "PAYMENTS_VIEW_CHECK_METADATA_ACTION" = "Check information";
 
 /* Payments: Action open the full account details screen */
@@ -17628,9 +17808,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Label for the memo attribute */
 "PAYMENTS_WIRE_ATTRIBUTE_MEMO" = "Memo";
-
-/* Payments: Label for the name attribute */
-"PAYMENTS_WIRE_ATTRIBUTE_NAME" = "Name";
 
 /* Payments: Label for the field where the user enters the address of the wire transfer recipient */
 "PAYMENTS_WIRE_BENEFICIARY_ADDRESS" = "Beneficiary Address";
@@ -17676,6 +17853,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Label for Input Message Accountability Data */
 "PAYMENTS_WIRE_IMAD" = "IMAD";
+
+/* Payments: Section header for intermediary bank information */
+"PAYMENTS_WIRE_INTERMEDIARY_SECTION" = "Intermediary";
 
 /* Payments: Title of the 'memo' field that allows a user to add a memo/note/description to a wire transfer */
 "PAYMENTS_WIRE_MEMO_FIELD" = "Memo";
