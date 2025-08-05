@@ -535,6 +535,39 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title for modal view affiliate label */
 "AFFILIATE_LABEL_MODAL_VIEW_TITLE" = "US election labels";
 
+/* Title of button used to present camera, in order to take a selfie for age verification. */
+"AGE_ASSURANCE_BUTTON_TAKE_SELFIE_LABEL" = "Take Selfie";
+
+/* Title of button used to present camera, in order to take a picture of an ID for age verification. */
+"AGE_ASSURANCE_BUTTON_USE_ID_LABEL" = "Use ID";
+
+/* Label placed between two buttons, e.g. [Take Selfie] "or" [Upload Photo of ID] */
+"AGE_ASSURANCE_OR_LABEL" = "or";
+
+/* Label shown for user consent before uploading a photo for age verification. */
+"AGE_ASSURANCE_PHOTO_SHARING_CONSENT" = "By continuing, you consent to X and xAI using your photo to confirm your age and for X safety, security and fraud prevention. Your photo will not be stored. X and xAI may retain your age information.";
+
+/* Label shown when a user's photo fails to upload during the selfie age verification flow. */
+"AGE_ASSURANCE_PHOTO_UPLOAD_FAILED_LABEL" = "Image failed to upload, tap continue to retry.";
+
+/* Label indicating that the selfie taken from the user is being processed for age verification. */
+"AGE_ASSURANCE_SELFIE_PROCESSING_LABEL" = "Analyzing selfie with Grok…";
+
+/* The explanation, shown on the sheet, of why we're asking to verify the user's age. */
+"AGE_ASSURANCE_SHEET_AGE_VERIFICATION_EXPLANATION" = "To comply with new regulations in the European Union and United Kingdom, X must verify your age before viewing various types of content.";
+
+/* Label to explain that the user's ID will be used to verify their age and that the photo will not be stored on our servers. */
+"AGE_ASSURANCE_SHEET_FOOTER_LABEL" = "Your photo or ID will only be used to determine if you are over 18. It will not be retained on our servers.";
+
+/* Title of sheet shown for a person to upload a photo in order to verify age. */
+"AGE_ASSURANCE_SHEET_TITLE" = "Verify your age to access sensitive content";
+
+/* Label shown when a user's request to verify their age fails. */
+"AGE_ASSURANCE_VERIFICATION_FAILED_CONTENT_HIDDEN" = "We couldn’t verify your age. Sensitive content is hidden due to age restrictions.";
+
+/* Label shown when a user's request to verify their age was successful and they are confirmed to be of an age which can view sensitive content. */
+"AGE_ASSURANCE_VERIFICATION_SUCCESS_CONTENT_VIEWABLE" = "We’ve verified your age. You can now access sensitive content.";
+
 /* Age gating message label reasoning why user should include birthday to follow the account. */
 "AGE_GATING_NO_BIRTHDATE_MESSAGE" = "To follow this account, you’ll need to include your birth date on your profile, ensuring you meet minimum age requirements.";
 
@@ -3908,6 +3941,9 @@ Do not translate BOLD_TEXT or READ_MORE_LINK. */
 
 /* Disclaimer/consent of the Identity Verification introduction screen for regular users going through the Au10tix flow. The %@ will be replaced by an already-localized "Learn more" link. */
 "IDENTITY_VERIFICATION_INTRO_USER_CONSENT" = "I consent to X and Au10tix using images of my ID and my selfie, including extracted biometric data, to confirm my identity and for X’s related safety and security purposes, including preventing impersonation. Au10tix may store such data for up to 30 days. %@";
+
+/* Disclaimer/consent of the Identity Verification introduction screen for regular users going through the Persona flow specifically for age assurance (viewing sensitive content). The %@ will be replaced by an already-localized "Learn more" link. */
+"IDENTITY_VERIFICATION_INTRO_USER_CONSENT_AGE_ASSURANCE" = "I agree to X and Persona using images of my ID and my photo to confirm my age. Your photo will not be stored. X and xAI may retain your age information. %@";
 
 /* Disclaimer/consent of the Identity Verification introduction screen for creators. The %@ will be replaced by an already-localized "Learn more" link. */
 "IDENTITY_VERIFICATION_INTRO_USER_CONSENT_CREATOR" = "I agree to X and Au10tix using images of my ID and my selfie, including extracted biometric data, to confirm my identity and for X’s related safety and security, fraud prevention, and payment purposes. Au10tix may store such data for up to 30 days. X may store full name, address, and hashes of my document ID number for as long as I participate in the %1$@ or %2$@ program. %3$@";
@@ -13629,23 +13665,59 @@ eg. "Super Following Jack" */
 /* Informational title when you update the group photo */
 "DM_CONVERSATION_INFORMATIONAL_GROUP_PHOTO_YOU_UPDATED" = "You updated the group photo";
 
+/* Informational title displayed above new messages from date (e.g. Wed, Jul 16 New) */
+"DM_CONVERSATION_INFORMATIONAL_NEW_MESSAGE_DATE" = "%@ •|•New•|•";
+
+/* Informational title displayed above new messages from date fallback */
+"DM_CONVERSATION_INFORMATIONAL_NEW_MESSAGE_DATE_FALLBACK" = "•|•New•|•";
+
+/* Informational title displayed above new messages from today (e.g. Today New) */
+"DM_CONVERSATION_INFORMATIONAL_NEW_MESSAGE_DATE_TODAY" = "Today •|•New•|•";
+
+/* Informational title displayed above new messages from today with time (e.g. Today 9:41 AM New) */
+"DM_CONVERSATION_INFORMATIONAL_NEW_MESSAGE_DATE_TODAY_WITH_TIME" = "Today %@ •|•New•|•";
+
+/* Informational title displayed above new messages from yesterday (e.g. Yesterday New) */
+"DM_CONVERSATION_INFORMATIONAL_NEW_MESSAGE_DATE_YESTERDAY" = "Yesterday •|•New•|•";
+
+/* Informational title displayed above new messages from yesterday with time (e.g. Yesterday 9:41 AM New) */
+"DM_CONVERSATION_INFORMATIONAL_NEW_MESSAGE_DATE_YESTERDAY_WITH_TIME" = "Yesterday %@ •|•New•|•";
+
 /* Informational title when 1 user leaves the group. %@: display name of user that left */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_LEFT_1" = "%@ left";
+
+/* Informational title when 1 user leaves the group as an admin. %@: display name of user that left as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_LEFT_1_AS_ADMIN" = "%@ resigned as an admin";
 
 /* Informational title when 2 users leave the group. %1$@: display name of first user that left, %2$@: display name of second user that left */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_LEFT_2" = "%1$@ and %2$@ left";
 
+/* Informational title when 2 users leave the group as admins. %1$@: display name of first user that left as an admin, %2$@: display name of second user that left as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_LEFT_2_AS_ADMIN" = "%1$@ and %2$@ resigned as admins";
+
 /* Informational title when many (>=3) users leave the group. %1$@: display name of first user that left, %2$@: number of remaining users that left */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_LEFT_MANY" = "%1$@ and %2$@ others left";
+
+/* Informational title when many (>=3) users leave the group as admins. %1$@: display name of first user that left as an admin, %2$@: number of remaining users that left as admins */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_LEFT_MANY_AS_ADMIN" = "%1$@ and %2$@ others resigned as admins";
 
 /* Informational title when unnamed user adds 1 user to group. %@: display name of user being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_1_USER" = "%@ was added";
 
+/* Informational title when unnamed user adds 1 user to group as an admin. %@: display name of user being added as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_1_USER_AS_ADMIN" = "%@ was added as an admin";
+
 /* Informational title when unnamed user adds 2 users to group. %1$@: display name of first user being added, %2$@: display name of second user being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_2_USERS" = "%1$@ and %2$@ were added";
 
+/* Informational title when unnamed user adds 2 users to group as admins. %1$@: display name of first user being added as an admin, %2$@: display name of second user being added as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_2_USERS_AS_ADMIN" = "%1$@ and %2$@ were added as admins";
+
 /* Informational title when unnamed user adds many (>=3) users to group. %1$@: display name of first user being added, %2$@: number of remaining users being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_MANY_USERS" = "%1$@ and %2$@ others were added";
+
+/* Informational title when unnamed user adds many (>=3) users to group as admins. %1$@: display name of first user being added as an admin, %2$@: number of remaining users being added as admins */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_MANY_USERS_AS_ADMIN" = "%1$@ and %2$@ others were added as admins";
 
 /* Informational title when unnamed user adds you to group */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_YOU" = "You were added";
@@ -13653,59 +13725,119 @@ eg. "Super Following Jack" */
 /* Informational title when unnamed user adds you and 1 other user to group. %@: display name of other user being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_YOU_AND_1_USER" = "You and %@ were added";
 
+/* Informational title when unnamed user adds you and 1 other user to group as admins. %@: display name of other user being added as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_YOU_AND_1_USER_AS_ADMIN" = "You and %@ were added as admins";
+
 /* Informational title when unnamed user adds you and many (>=2) other users to group. %@: number of remaining users being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_YOU_AND_MANY_USERS" = "You and %@ others were added";
+
+/* Informational title when unnamed user adds you and many (>=2) other users to group as admins. %@: number of remaining users being added as admins */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_YOU_AND_MANY_USERS_AS_ADMIN" = "You and %@ others were added as admins";
+
+/* Informational title when unnamed user adds you to group as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_ADDED_YOU_AS_ADMIN" = "You were added as an admin";
 
 /* Informational title when unnamed user removes 1 user from group. %@: display name of user being removed */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_REMOVED_1_USER" = "%@ was removed";
 
+/* Informational title when unnamed user removes 1 user from group as an admin. %@: display name of user being removed as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_REMOVED_1_USER_AS_ADMIN" = "%@ was removed as an admin";
+
 /* Informational title when unnamed user removes 2 users from group. %1$@: display name of first user being removed, %2$@: display name of second user being removed */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_REMOVED_2_USERS" = "%1$@ and %2$@ were removed";
+
+/* Informational title when unnamed user removes 2 users from group as admins. %1$@: display name of first user being removed as an admin, %2$@: display name of second user being removed as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_REMOVED_2_USERS_AS_ADMIN" = "%1$@ and %2$@ were removed as admins";
 
 /* Informational title when unnamed user removes many (>=3) users from group. %1$@: display name of first user being removed, %2$@: number of remaining users being removed */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_REMOVED_MANY_USERS" = "%1$@ and %2$@ others were removed";
 
+/* Informational title when unnamed user removes many (>=3) users from group as admins. %1$@: display name of first user being removed as an admin, %2$@: number of remaining users being removed as admins */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_REMOVED_MANY_USERS_AS_ADMIN" = "%1$@ and %2$@ others were removed as admins";
+
 /* Informational title when unnamed user removes you from the group */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_REMOVED_YOU" = "You were removed from the group";
+
+/* Informational title when unnamed user removes you from the group an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_UNNAMED_REMOVED_YOU_AS_ADMIN" = "You were removed as an admin";
 
 /* Informational title when user adds 1 user to group. %1$@: display name of user adding the user, %2$@: display name of user being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_1_USER" = "%1$@ added %2$@";
 
+/* Informational title when user adds 1 user to group as an admin. %1$@: display name of user adding the user as an admin, %2$@: display name of user being added as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_1_USER_AS_ADMIN" = "%1$@ added %2$@ as an admin";
+
 /* Informational title when user adds 2 users to group. %1$@: display name of user adding the users, %2$@: display name of first user being added, %3$@: display name of second user being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_2_USERS" = "%1$@ added %2$@ and %3$@";
+
+/* Informational title when user adds 2 users to group as admins. %1$@: display name of user adding the users as admins, %2$@: display name of first user being added as an admin, %3$@: display name of second user being added as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_2_USERS_AS_ADMIN" = "%1$@ added %2$@ and %3$@ as admins";
 
 /* Informational title when user adds many (>=3) users to group. %1$@: display name of user adding the users, %2$@: display name of first user being added, %3$@: number of remaining users being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_MANY_USERS" = "%1$@ added %2$@ and %3$@ others";
 
+/* Informational title when user adds many (>=3) users to group as admins. %1$@: display name of user adding the users as admins, %2$@: display name of first user being added as an admin, %3$@: number of remaining users being added as admins */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_MANY_USERS_AS_ADMIN" = "%1$@ added %2$@ and %3$@ others as admins";
+
 /* Informational title when user adds you to group. %@: display name of user adding you */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_YOU" = "%@ added you";
 
-/* Informational title when user adds you and 1 other user to group. %@: display name of other user being added */
+/* Informational title when user adds you and 1 other user to group. %1$@: display name of user adding the users, %2$@: display name of other user being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_YOU_AND_1_USER" = "%1$@ added you and %2$@";
+
+/* Informational title when user adds you and 1 other user as admins. %1$@: display name of user adding the users as admins, %2$@: display name of other being added as admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_YOU_AND_1_USER_AS_ADMIN" = "%1$@ added you and %2$@ as admins";
 
 /* Informational title when user adds you and many (>=2) other users to group. %1$@: display name of user adding the users, %2$@: number of remaining users being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_YOU_AND_MANY_USERS" = "%1$@ added you and %2$@ others";
 
+/* Informational title when user adds you and many (>=2) other users as admins. %1$@: display name of user adding the users as admins, %2$@: number of remaining users being added as admins */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_YOU_AND_MANY_USERS_AS_ADMIN" = "%1$@ added you and %2$@ others as admins";
+
+/* Informational title when user adds you as an admin. %@: display name of user adding you as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_USER_ADDED_YOU_AS_ADMIN" = "%@ added you as an admin";
+
 /* Informational title when you add 1 user to group. %@: display name of user being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_ADDED_1_USER" = "You added %@";
+
+/* Informational title when you add 1 user to group as an admin. %@: display name of user being added as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_ADDED_1_USER_AS_ADMIN" = "You added %@ as an admin";
 
 /* Informational title when you add 2 users to group. %1$@: display name of first user being added, %2$@: display name of second user being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_ADDED_2_USERS" = "You added %1$@ and %2$@";
 
+/* Informational title when you add 2 users to group as admins. %1$@: display name of first user being added as an admin, %2$@: display name of second user being added as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_ADDED_2_USERS_AS_ADMIN" = "You added %1$@ and %2$@ as admins";
+
 /* Informational title when you add many (>=3) users to group. %1$@: display name of first user being added, %2$@: number of remaining users being added */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_ADDED_MANY_USERS" = "You added %1$@ and %2$@ others";
+
+/* Informational title when you add many (>=3) users to group as admins. %1$@: display name of first user being added as an admin, %2$@: number of remaining users being added as admins */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_ADDED_MANY_USERS_AS_ADMIN" = "You added %1$@ and %2$@ others as admins";
 
 /* Informational title when you leave the group */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_LEFT" = "You left";
 
-/* Informational title when you remove 1 user to group. %@: display name of user being removed */
+/* Informational title when you leave the group as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_LEFT_AS_ADMIN" = "You resigned as an admin";
+
+/* Informational title when you remove 1 user from group. %@: display name of user being removed */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_REMOVED_1_USER" = "You removed %@";
 
-/* Informational title when you remove 2 users to group. %1$@: display name of first user being removed, %2$@: display name of second user being removed */
+/* Informational title when you remove 1 user from group as an admin. %@: display name of user being removed as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_REMOVED_1_USER_AS_ADMIN" = "You removed %@ as an admin";
+
+/* Informational title when you remove 2 users from group. %1$@: display name of first user being removed, %2$@: display name of second user being removed */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_REMOVED_2_USERS" = "You removed %1$@ and %2$@";
 
-/* Informational title when you remove many (>=3) users to group. %1$@: display name of first user being removed, %2$@: number of remaining users being removed */
+/* Informational title when you remove 2 users from group as admins. %1$@: display name of first user being removed as an admin, %2$@: display name of second user being removed as an admin */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_REMOVED_2_USERS_AS_ADMIN" = "You removed %1$@ and %2$@ as admins";
+
+/* Informational title when you remove many (>=3) users from group. %1$@: display name of first user being removed, %2$@: number of remaining users being removed */
 "DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_REMOVED_MANY_USERS" = "You removed %1$@ and %2$@ others";
+
+/* Informational title when you remove many (>=3) users from group as admins. %1$@: display name of first user being removed as an admin, %2$@: number of remaining users being removed as admins */
+"DM_CONVERSATION_INFORMATIONAL_PARTICIPANTS_YOU_REMOVED_MANY_USERS_AS_ADMIN" = "You removed %1$@ and %2$@ others as admins";
 
 /* Informational title when unnamed user disables screen capture blocking */
 "DM_CONVERSATION_INFORMATIONAL_SCREEN_CAPTURE_BLOCKING_UNNAMED_DISABLED" = "Screenshot blocking disabled";
@@ -16301,7 +16433,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_CREATE_WIRE_SUBTITLE" = "Please be safe and check the information below before continuing.";
 
 /* Payments: Title of the screen to create/send a wire */
-"PAYMENTS_CREATE_WIRE_TITLE" = "Send a wire transfer";
+"PAYMENTS_CREATE_WIRE_TITLE" = "Send a wire";
 
 /* Payments: Headline shown above the current balance of the user’s account, on the Payments home. */
 "PAYMENTS_CURRENT_BALANCE_TITLE" = "Balance";
@@ -16522,11 +16654,8 @@ eg. "Super Following Jack" */
 /* Payments: Title of the error screen after failing to schedule a deposit. */
 "PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_ERROR_TITLE" = "Deposit failed";
 
-/* Payments: Defines the subtitle for the initial payment method selection screen during a deposit transaction. */
-"PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_INITIAL_PAYMENT_METHOD_SUBTITLE" = "Funds are secure, insured, and will instantly start earning interest";
-
 /* Payments: Defines the title for the initial payment method selection screen during a deposit transaction. */
-"PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_INITIAL_PAYMENT_METHOD_TITLE" = "Choose a funding source";
+"PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_INITIAL_PAYMENT_METHOD_TITLE" = "How would you like to deposit your funds?";
 
 /* Payments: Title of the success screen after settling an instant card deposit. %@ is replaced by the deposit amount. */
 "PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_INSTANT_CARD_SUCCESS_TITLE" = "Your %@ deposit was successful";
@@ -16540,11 +16669,14 @@ eg. "Super Following Jack" */
 /* Payments: Value shown next to the "Fee" attribute on a transaction, when there is no fee. */
 "PAYMENTS_EXTERNAL_TRANSACTION_NO_FEE_VALUE" = "None";
 
-/* Payments: Defines the subtitle displayed during a deposit or withdrawal, informing the user that no payment method is selected yet. */
-"PAYMENTS_EXTERNAL_TRANSACTION_NO_PAYMENT_METHOD_SUBTITLE" = "You will link your account in the next step";
+/* Payments: Defines the title displayed during a deposit or withdrawal, informing the user that no payment method is selected yet. */
+"PAYMENTS_EXTERNAL_TRANSACTION_NO_PAYMENT_METHOD_BANK_ACCOUNT_TITLE" = "No bank account yet";
 
 /* Payments: Defines the title displayed during a deposit or withdrawal, informing the user that no payment method is selected yet. */
-"PAYMENTS_EXTERNAL_TRANSACTION_NO_PAYMENT_METHOD_TITLE" = "No funding sources yet";
+"PAYMENTS_EXTERNAL_TRANSACTION_NO_PAYMENT_METHOD_CARD_TITLE" = "No debit card yet";
+
+/* Payments: Defines the subtitle displayed during a deposit or withdrawal, informing the user that no payment method is selected yet. */
+"PAYMENTS_EXTERNAL_TRANSACTION_NO_PAYMENT_METHOD_SUBTITLE" = "You will link one in the next step";
 
 /* Payments: Title shown next to the transaction total amount (base + fees) on the deposit/withdraw flows. */
 "PAYMENTS_EXTERNAL_TRANSACTION_TOTAL_TITLE" = "Total deducted from your account";
@@ -17059,6 +17191,9 @@ eg. "Super Following Jack" */
 /* Payments: Action button text to verify the user passkey */
 "PAYMENTS_PASSKEY_VERIFY_ACTION" = "Verify Passkey";
 
+/* Payments: Attribute describing when a payment method (Card or Bank account) has been used for the last time. */
+"PAYMENTS_PAYMENT_METHOD_ATTRIBUTE_LAST_USED_AT" = "Last used";
+
 /* Payments: Error shown when the user attemps to create a transaction, but their bank account needs to be verified/linked again. */
 "PAYMENTS_PAYMENT_METHOD_LINK_REQUIRED_ERROR_TITLE" = "You need to login to verify your bank account before you can proceed.";
 
@@ -17396,7 +17531,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_SETTINGS_PERSONAL_INFORMATION_ID_VERIFICATION_SECTION" = "Identity verification";
 
 /* Payments: Title for the personal information settings screen */
-"PAYMENTS_SETTINGS_PERSONAL_INFORMATION_TITLE" = "Personal information";
+"PAYMENTS_SETTINGS_PERSONAL_INFORMATION_TITLE" = "Personal Information";
 
 /* Payments: Title for the Push Notifications section in settings */
 "PAYMENTS_SETTINGS_PUSH_NOTIFICATIONS_TITLE" = "Push Notifications";
@@ -21591,6 +21726,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Error message shown when the user tries to do an action (record a video, start a Space, etc.) during an audio/video call. */
 "AV_CHAT_ERROR_ACTION_NOT_AVAILABLE_DURING_A_CALL" = "This action is not available during a call.";
 
+/* Error message shown when the audio/video call ends because of an audio session activation error */
+"AV_CHAT_ERROR_AUDIO_SESSION" = "Could not activate audio session on this device right now";
+
 /* Error message shown when the audio/video call ends because the other person is busy (for example, hosting a Space) */
 "AV_CHAT_ERROR_BUSY_CALL" = "The other person is unavailable";
 
@@ -22609,6 +22747,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Accessibility label for button containing share actions in post details view */
 "SHARE_ACTION_ACCESSIBILITY_LABEL" = "Share";
+
+/* Title of the share sheet invite success toast (when inviting another user to register for Chat/Encrypted DMs was sent successfully). The placeholder is replaced by the recipient user's display name. */
+"SHARE_SHEET_INVITE_SUCCESS_TOAST_TITLE" = "Invite sent to %@";
 
 /* Title of the share sheet send separately button */
 "SHARE_SHEET_SEND_BUTTON_SEPARATELY_TITLE" = "Send separately";
