@@ -556,11 +556,11 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* The explanation, shown on the sheet, of why we're asking to verify the user's age. */
 "AGE_ASSURANCE_SHEET_AGE_VERIFICATION_EXPLANATION" = "To comply with new regulations in the European Union and United Kingdom, X must verify your age before viewing various types of content.";
 
-/* Label to explain that the user's ID will be used to verify their age and that the photo will not be stored on our servers. */
-"AGE_ASSURANCE_SHEET_FOOTER_LABEL" = "Your photo or ID will only be used to determine if you are over 18. It will not be retained on our servers.";
+/* Label confirming that photos used for age verification on not stored . */
+"AGE_ASSURANCE_SHEET_PHOTO_PRIVACY_LABEL" = "Photos are not saved";
 
 /* Title of sheet shown for a person to upload a photo in order to verify age. */
-"AGE_ASSURANCE_SHEET_TITLE" = "Verify your age to access sensitive content";
+"AGE_ASSURANCE_SHEET_TITLE_CONFIRMATION" = "Confirm age instantly";
 
 /* Label shown when a user's request to verify their age fails. */
 "AGE_ASSURANCE_VERIFICATION_FAILED_CONTENT_HIDDEN" = "We couldn’t verify your age. Sensitive content is hidden due to age restrictions.";
@@ -12878,6 +12878,15 @@ eg. "Super Following Jack" */
 /* Label for Grok image source */
 "GROK_IMAGE_SOURCE" = "Image generated with FLUX.1 by Black Forest Labs";
 
+/* Message displayed when transferring an image to Grok app fails */
+"GROK_IMAGINE_TRANSFER_IMAGE_FAILURE_MESSAGE" = "Failed to transfer image";
+
+/* Message displayed while transferring an image to Grok app */
+"GROK_IMAGINE_TRANSFER_IMAGE_PROCESSING_MESSAGE" = "Transferring image to Grok…";
+
+/* Title for the button to process the displayed image or video with Grok Imagine */
+"GROK_IMAGINE_WITH_GROK_BUTTON_TITLE" = "Animate with Grok Imagine";
+
 /* Button to attach files */
 "GROK_INPUT_ATTACH_BUTTON" = "Attach";
 
@@ -13557,6 +13566,21 @@ eg. "Super Following Jack" */
 /* DM Conversation Voice action title */
 "DM_CONVERSATION_ACTION_VOICE_TITLE" = "Voice";
 
+/* DM Conversation footer message requests action accept title */
+"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_ACCEPT_TITLE" = "Accept";
+
+/* DM Conversation footer message requests action block title */
+"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_BLOCK_TITLE" = "Block";
+
+/* DM Conversation footer message requests action delete title */
+"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_DELETE_TITLE" = "Delete";
+
+/* DM Conversation footer message requests title */
+"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_UNNAMED_TITLE" = "Do you want to let this user message you? They won’t know you’ve seen their message until you accept.";
+
+/* DM Conversation footer message requests title. %@: user screen name */
+"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_USER_TITLE" = "Do you want to let •|•%@•|• message you? They won’t know you’ve seen their message until you accept.";
+
 /* DM Conversation footer read only reason encryption key failure title */
 "DM_CONVERSATION_FOOTER_READ_ONLY_REASON_ENCRYPTION_KEY_FAILURE_TITLE" = "Unable to retrieve latest encryption keys. Please check your network connection or try again later.";
 
@@ -14109,6 +14133,9 @@ eg. "Super Following Jack" */
 /* DM Inbox pill to show group messages */
 "DM_INBOX_PILL_GROUPS_TITLE" = "Groups";
 
+/* DM Inbox pill to message requests */
+"DM_INBOX_PILL_REQUESTS_TITLE" = "Requests";
+
 /* DM Inbox pill to show unencrypted messages with unencrypted message count */
 "DM_INBOX_PILL_UNENCRYPTED_COUNT_TITLE" = "Unencrypted %@";
 
@@ -14118,8 +14145,14 @@ eg. "Super Following Jack" */
 /* DM Inbox pill to show unread messages */
 "DM_INBOX_PILL_UNREAD_TITLE" = "Unread";
 
-/* DM Inbox search bar placeholder text */
-"DM_INBOX_SEARCH_BAR_PLACEHOLDER_TEXT" = "Search Direct Messages";
+/* DM Inbox Requests Empty message */
+"DM_INBOX_REQUESTS_EMPTY_MESSAGE" = "Incoming messages from people you don’t follow will show up here, and you’ll be able to accept or ignore them";
+
+/* DM Inbox Requests Empty title */
+"DM_INBOX_REQUESTS_EMPTY_TITLE" = "No requests yet";
+
+/* DM Inbox Requests Header title */
+"DM_INBOX_REQUESTS_HEADER_TITLE" = "Message requests from people you don’t follow live here. To reply to their messages, you need to accept the request. •|•Learn more•|•";
 
 /* DM Inbox search Conversations section title */
 "DM_INBOX_SEARCH_SECTION_CONVERSATIONS_TITLE" = "Conversations";
@@ -16994,16 +17027,16 @@ eg. "Super Following Jack" */
 "PAYMENTS_OFFBOARD_CONFIRM_CONTINUE_ACTION" = "Continue to Close Account";
 
 /* Payments: Message warning about the irreversible action of closing an account and expressing sentiment */
-"PAYMENTS_OFFBOARD_CONFIRM_MESSAGE" = "This cannot be undone. If you continue, we will help you transfer out your remaining interest and your balance. Most importantly, we’ll be sad to see you go.";
+"PAYMENTS_OFFBOARD_CONFIRM_MESSAGE_FORMAT" = "Closing your account means you won’t be able to send or receive payments, and your debit card will be canceled. You’ll still have access to your transaction history. If you change your mind, you can reopen your account within %@ days.";
 
 /* Payments: Title for the account closure confirmation prompt */
-"PAYMENTS_OFFBOARD_CONFIRM_TITLE" = "Are you sure you would like to close your account?";
+"PAYMENTS_OFFBOARD_CONFIRM_TITLE" = "Are you sure you want to close your account?";
 
 /* Payments: Title for selecting the destination for the remaining balance */
-"PAYMENTS_OFFBOARD_PAYMENT_METHOD_PICKER_TITLE" = "Where would you like to send your remaining balance?";
+"PAYMENTS_OFFBOARD_PAYMENT_METHOD_PICKER_TITLE" = "Where would you like us to send any future account funds?";
 
 /* Payments: Message informing about the time required to transfer the balance */
-"PAYMENTS_OFFBOARD_PENDING_MESSAGE" = "Please allow 1-3 days for your balance to be transferred.";
+"PAYMENTS_OFFBOARD_PENDING_MESSAGE_FORMAT" = "If you change your mind, you’ll be able to reopen your account within %@ days. Any remaining funds in your account would be transferred to the account of your choice post that.";
 
 /* Payments: Title indicating the account closure process has started */
 "PAYMENTS_OFFBOARD_PENDING_TITLE" = "We have begun the process of closing your account";
@@ -20758,6 +20791,9 @@ eg. "Super Following Jack" */
 
 /* Button label to open a post in Grok */
 "GROK_ACTION" = "Open in Grok";
+
+/* Title for a button to create your own version of a Grok created (image, video, text) post made by someone else. */
+"GROK_CREATE_OWN_BUTTON_TITLE" = "Create your own";
 
 /* Accessibility hint for likes count plural case */
 "LIKES_COUNT_ACCESSIBILITY_HINT" = "Views Likes count";
