@@ -536,10 +536,10 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 "AFFILIATE_LABEL_MODAL_VIEW_TITLE" = "US election labels";
 
 /* Title of button used to present camera, in order to take a selfie for age verification. */
-"AGE_ASSURANCE_BUTTON_TAKE_SELFIE_LABEL" = "Take Selfie";
+"AGE_ASSURANCE_BUTTON_TAKE_QUICK_SELFIE_LABEL" = "Use Fast Selfie";
 
-/* Title of button used to present camera, in order to take a picture of an ID for age verification. */
-"AGE_ASSURANCE_BUTTON_USE_ID_LABEL" = "Use ID";
+/* Title of button used to present camera, in order to take a picture of an ID + selfie for age verification. */
+"AGE_ASSURANCE_BUTTON_USE_SELFIE_AND_ID_LABEL" = "Use Selfie and ID";
 
 /* Label placed between two buttons, e.g. [Take Selfie] "or" [Upload Photo of ID] */
 "AGE_ASSURANCE_OR_LABEL" = "or";
@@ -7310,15 +7310,6 @@ Do not translate BOLD_TEXT or READ_MORE_LINK. */
 /* Profile details Magic Recs recommendation */
 "RECOMMENDED_BY_TWITTER_LABEL" = "Recommended by X";
 
-/* Title for the notification shown when a user reports a reply as not spam, but the report fails. */
-"REEVALUATE_SPAM_REPLAY_FAIL_TO_REPORT_NOTIFICATION_TITLE" = "An error occurred. Please try again later.";
-
-/* Title for the notification shown when a user reports a reply as not spam. */
-"REEVALUATE_SPAM_REPLAY_NOTIFICATION_TITLE" = "This post is being evaluated";
-
-/* Title for the action to report a post as not spam. */
-"REEVALUATE_SPAM_REPLAY_TIMELINE_TITLE" = "This is not spam";
-
 /* Subtitle shown when there are no related posts */
 "RELATED_POSTS_EMPTY_STATE_SUBTITLE_TEXT" = "Try again later";
 
@@ -12885,7 +12876,7 @@ eg. "Super Following Jack" */
 "GROK_IMAGINE_TRANSFER_IMAGE_PROCESSING_MESSAGE" = "Transferring image to Grok…";
 
 /* Title for the button to process the displayed image or video with Grok Imagine */
-"GROK_IMAGINE_WITH_GROK_BUTTON_TITLE" = "Animate with Grok Imagine";
+"GROK_IMAGINE_WITH_GROK_BUTTON_TITLE" = "Make Video with Grok";
 
 /* Button to attach files */
 "GROK_INPUT_ATTACH_BUTTON" = "Attach";
@@ -13601,6 +13592,15 @@ eg. "Super Following Jack" */
 
 /* DM Conversation footer for search when there are some results found title. The first placeholder is replaced by the current result being shown and the second placeholder is the total number of search results. */
 "DM_CONVERSATION_FOOTER_SEARCH_RESULTS_TITLE" = "%1$@ of %2$@ matches";
+
+/* DM conversation header followers count title (plural). %@: number of followers */
+"DM_CONVERSATION_HEADER_FOLLOWERS_COUNT_TITLE" = "%@ Followers";
+
+/* DM conversation header followers count title (singular). %@: number of followers */
+"DM_CONVERSATION_HEADER_FOLLOWER_COUNT_TITLE" = "%@ Follower";
+
+/* DM conversation header joined date title. %@: date joined */
+"DM_CONVERSATION_HEADER_JOINED_DATE_TITLE" = "Joined %@";
 
 /* Informational title audio AV call ended with a timestamp and duration of the call */
 "DM_CONVERSATION_INFORMATIONAL_AV_CALL_AUDIO_ENDED_DURATION_TITLE" = "Audio call ended %1$@ ⋅ %2$@";
@@ -17356,6 +17356,9 @@ eg. "Super Following Jack" */
 /* Payments: Action to reject an unrecognized payment */
 "PAYMENTS_REJECT_UNRECOGNIZED_PAYMENT_ACTION" = "I did not make this purchase";
 
+/* Payments: Action to remove an existing external contact */
+"PAYMENTS_REMOVE_CONTACT_ACTION" = "Remove this contact";
+
 /* Payments: Error shown when we were not able to trigger a card replacement for the user */
 "PAYMENTS_REPLACE_CARD_ERROR_TITLE" = "We ran into an issue when attempting to replace your card";
 
@@ -20793,7 +20796,7 @@ eg. "Super Following Jack" */
 "GROK_ACTION" = "Open in Grok";
 
 /* Title for a button to create your own version of a Grok created (image, video, text) post made by someone else. */
-"GROK_CREATE_OWN_BUTTON_TITLE" = "Create your own";
+"GROK_CREATE_OWN_BUTTON_TITLE" = "Make Your Own Video";
 
 /* Accessibility hint for likes count plural case */
 "LIKES_COUNT_ACCESSIBILITY_HINT" = "Views Likes count";
@@ -22342,6 +22345,31 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
    Notifications settings button title */
 "NOTIFICATIONS_LABEL" = "Notifications";
 
+/* Accessibility hint for the back button */
+"NOTIFICATIONS_PERMISSION_REQUEST_BACK_BUTTON_ACCESSIBILITY_HINT" = "Returns to previous screen";
+
+/* Button title for enabling all notifications */
+"NOTIFICATIONS_PERMISSION_REQUEST_ENABLE_BUTTON" = "Enable Notifications";
+
+/* Accessibility hint for the enable all notifications button */
+"NOTIFICATIONS_PERMISSION_REQUEST_ENABLE_BUTTON_ACCESSIBILITY_HINT" = "Enable all notifications";
+
+/* Accessibility label for the notification icon with badge */
+"NOTIFICATIONS_PERMISSION_REQUEST_ICON_ACCESSIBILITY_LABEL" = "Notification icon with badge";
+
+/* Button title for enabling only important notifications */
+"NOTIFICATIONS_PERMISSION_REQUEST_ONLY_IMPORTANT_BUTTON" = "Only Important Notifications";
+
+/* Accessibility hint for the only important notifications button */
+"NOTIFICATIONS_PERMISSION_REQUEST_ONLY_IMPORTANT_BUTTON_ACCESSIBILITY_HINT" = "Enable only important notifications";
+
+/* Subtitle text explaining what notifications the user will receive */
+"NOTIFICATIONS_PERMISSION_REQUEST_SUBTITLE" = "Get notified for when your posts go viral and new messages & follows";
+
+/* MARK: - Notifications Permission Request */
+/* Title text for the notification permission request screen */
+"NOTIFICATIONS_PERMISSION_REQUEST_TITLE" = "Never miss a moment";
+
 /* Accept button for the alert that precedes notifications request and looks exactly like it */
 "NOTIFICATIONS_REQUEST_ALERT_ACCEPT" = "Allow";
 
@@ -23400,6 +23428,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* XChat */
 "XCHAT" = "Chat";
+
+/* XChat reset PIN error message */
+"XCHAT_RESET_PIN_ERROR_MESSAGE" = "In order to reset passcode, you must have access to your inbox on this device.";
+
+/* XChat reset PIN error title */
+"XCHAT_RESET_PIN_ERROR_TITLE" = "Cannot reset passcode";
 
 /* X Premium service */
 "X_PREMIUM_SERVICE_LABEL" = "X Premium service";
@@ -24877,6 +24911,9 @@ eg. "- @jack" */
 
 /* Error title when unable to load playable for unknown reason */
 "PLAYABLE_ERROR_TITLE" = "Hmm…\nsomething went wrong.";
+
+/* Subtitle for Unified Card Collection layout type which contains 1 URL that is passed into the placeholder. */
+"UC_COLLECTION_FROM_SUBTITLE" = "From %@";
 
 /* Accessibility label for the Unified Card Collection layout type which contains 1 to many images that can be interacted with. We will announce how many images are in the collection.*/
 "UC_COLLECTION_IMAGE_ACCESSIBILITY_LABEL" = "Collection of %d images";
