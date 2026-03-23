@@ -758,6 +758,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Localized caller name shown in the system call UI for group calls */
 "AV_CHAT_GROUP_CALL_ON_X" = "Group call on X";
 
+/* Label shown while audio route is loading in a group call */
+"AV_CHAT_LOADING_AUDIO_ROUTE" = "Waiting for audio route\U2026";
+
 /* Button title to lower hand in a group call */
 "AV_CHAT_LOWER_HAND" = "Lower Hand";
 
@@ -1164,6 +1167,9 @@ e.g. Removed from MyRecipes.
 /* Card accessibility string format for the image if it has alternative text. */
 "CARD_IMAGE_ACCESSIBILITY_LABEL_FORMAT" = "Image: %@";
 
+/* Label for the after hours row in the cashtag info asset view. */
+"CASHTAG_INFO_AFTER_HOURS_LABEL" = "After hours";
+
 /* Candle size label for 1 day candles in the cashtag info chart. */
 "CASHTAG_INFO_CANDLE_SIZE_1D_LABEL" = "1D";
 
@@ -1178,6 +1184,9 @@ e.g. Removed from MyRecipes.
 
 /* Candle size label for 1 year candles in the cashtag info chart. */
 "CASHTAG_INFO_CANDLE_SIZE_1Y_LABEL" = "1Y";
+
+/* Candle size label for 2 week candles in the cashtag info chart. */
+"CASHTAG_INFO_CANDLE_SIZE_2W_LABEL" = "2W";
 
 /* Candle size label for 30 minute candles in the cashtag info chart. */
 "CASHTAG_INFO_CANDLE_SIZE_30M_LABEL" = "30m";
@@ -3041,6 +3050,9 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Title for the downvote sheet */
 "DOWNVOTE_SHEET_TITLE" = "Reply feedback";
+
+/* Label for a tooltip that appears on the downvote inline action the first time a user opens a conversation focused on a reply */
+"DOWNVOTE_TOOLTIP_LABEL" = "Don’t like this? Tap to share feedback";
 
 /* Title when there's no text but there's an animated gif attachment */
 "DRAFTS_ANIMATED_GIF_DEFAULT_TITLE" = "Animated GIF";
@@ -11420,7 +11432,7 @@ eg. "Super Following Jack" */
 /* Text for the header of the Subscription upsell for Richtext feature name */
 "SUBSCRIPTION_UPSELL_RICHTEXT_FEATURE_NAME" = "Rich Text";
 
-// Section: Frameworks/ChatUi/Sources/ChatStrings/en.lproj/Localizable.strings
+// Section: Frameworks/ChatUI/Sources/ChatStrings/en.lproj/Localizable.strings
 
 /* DM Attachments Files screen title */
 "DM_ATTACHMENT_LIST_FILES_TITLE" = "Files";
@@ -12064,6 +12076,15 @@ eg. "Super Following Jack" */
 /* DM Conversation message composer text reply placeholder */
 "DM_CONVERSATION_MESSAGE_COMPOSER_TEXT_REPLY_PLACEHOLDER" = "Reply";
 
+/* DM Conversation message request action disabled message */
+"DM_CONVERSATION_MESSAGE_REQUEST_ACTION_DISABLED_MESSAGE" = "This feature cannot be used while this conversation is a message request.";
+
+/* DM Conversation message request action disabled title */
+"DM_CONVERSATION_MESSAGE_REQUEST_ACTION_DISABLED_TITLE" = "Feature unavailable";
+
+/* DM Conversation message request sent description */
+"DM_CONVERSATION_MESSAGE_REQUEST_SENT_DESCRIPTION" = "Your message request needs to be accepted before you can send more messages.";
+
 /* DM Conversation participant Admin label */
 "DM_CONVERSATION_PARTICIPANT_ADMIN_LABEL" = "Admin";
 
@@ -12268,14 +12289,26 @@ eg. "Super Following Jack" */
 /* DM Inbox message requests delete all button title */
 "DM_INBOX_MESSAGE_REQUESTS_DELETE_ALL_TITLE" = "Delete All";
 
+/* DM Inbox message requests hidden empty message */
+"DM_INBOX_MESSAGE_REQUESTS_HIDDEN_EMPTY_MESSAGE" = "Messages from other people will appear here";
+
+/* DM Inbox message requests hidden empty title */
+"DM_INBOX_MESSAGE_REQUESTS_HIDDEN_EMPTY_TITLE" = "No hidden requests";
+
 /* DM Inbox message requests hidden tab title */
 "DM_INBOX_MESSAGE_REQUESTS_HIDDEN_TITLE" = "Hidden";
+
+/* DM Inbox message requests priority empty message */
+"DM_INBOX_MESSAGE_REQUESTS_PRIORITY_EMPTY_MESSAGE" = "Messages from people you might know will appear here";
+
+/* DM Inbox message requests priority empty title */
+"DM_INBOX_MESSAGE_REQUESTS_PRIORITY_EMPTY_TITLE" = "No priority requests";
 
 /* DM Inbox message requests priority tab title */
 "DM_INBOX_MESSAGE_REQUESTS_PRIORITY_TITLE" = "Priority";
 
-/* DM Inbox message requests screen title */
-"DM_INBOX_MESSAGE_REQUESTS_TITLE" = "Message requests";
+/* DM Inbox message requests title */
+"DM_INBOX_MESSAGE_REQUESTS_TITLE" = "Message Requests";
 
 /* DM Inbox new message button accessibility label */
 "DM_INBOX_NEW_MESSAGE_ACCESSIBILITY_LABEL" = "Compose New Message";
@@ -12614,6 +12647,12 @@ eg. "Super Following Jack" */
 
 /* DM message action Reply title */
 "DM_MESSAGE_ACTION_REPLY_TITLE" = "Reply";
+
+/* DM message action Report error title */
+"DM_MESSAGE_ACTION_REPORT_ERROR_TITLE" = "Unable to report message";
+
+/* DM message action Report title */
+"DM_MESSAGE_ACTION_REPORT_TITLE" = "Report";
 
 /* DM message action Retry title */
 "DM_MESSAGE_ACTION_RETRY_TITLE" = "Retry";
@@ -13250,6 +13289,21 @@ eg. "Super Following Jack" */
 
 /* DM Settings notification section title */
 "DM_SETTINGS_NOTIFICATION_SECTION_TITLE" = "Notifications";
+
+/* Title of setting for receiving Direct Messages from anyone */
+"DM_SETTINGS_RECEIVE_FROM_ANYONE_TITLE" = "Everyone";
+
+/* Description of setting for receiving Direct Messages. %@ is a URL for the Learn more link. */
+"DM_SETTINGS_RECEIVE_FROM_DESCRIPTION" = "People you follow will always be able to message you. [Learn more](%@)";
+
+/* Title of setting for receiving Direct Messages from following users only */
+"DM_SETTINGS_RECEIVE_FROM_FOLLOWING_TITLE" = "No one";
+
+/* Title of setting for receiving Direct Messages from (anyone, following, verified, ...) */
+"DM_SETTINGS_RECEIVE_FROM_TITLE" = "Allow message requests from";
+
+/* Title of setting for receiving Direct Messages from verified users */
+"DM_SETTINGS_RECEIVE_FROM_VERIFIED_TITLE" = "Verified users";
 
 /* DM Settings section clear data item toast title */
 "DM_SETTINGS_SECTION_CLEAR_DATA_ITEM_TOAST_TITLE" = "Reset complete";
@@ -14144,6 +14198,15 @@ eg. "Super Following Jack" */
 
 /* Label to delete a conversation */
 "GROK_DELETE_CONVERSATION" = "Delete";
+
+/* Button label to install the Grok app for free from the prompt sheet */
+"GROK_DIRECT_FLOW_PROMPT_SHEET_INSTALL_BUTTON" = "Install for free";
+
+/* Subtitle for the prompt sheet encouraging users to install the Grok app */
+"GROK_DIRECT_FLOW_PROMPT_SHEET_SUBTITLE" = "Get the Grok App for the best experience";
+
+/* Title for the prompt sheet encouraging users to install the Grok app */
+"GROK_DIRECT_FLOW_PROMPT_SHEET_TITLE" = "You\U2019re not on the latest Grok";
 
 /* Button to like the chat response */
 "GROK_DISLIKE" = "Dislike";
@@ -16662,6 +16725,15 @@ eg. "Super Following Jack" */
 /* Payments: Label displayed next to the bank's name on the account details screen, in the context of receiving a wire */
 "PAYMENTS_BANK_NAME" = "Bank Name";
 
+/* Payments: Option label for the corporation or limited partnership business entity type */
+"PAYMENTS_BUSINESS_ENTITY_TYPE_US_CORP_LP" = "Corporation, LP";
+
+/* Payments: Option label for the LLC business entity type */
+"PAYMENTS_BUSINESS_ENTITY_TYPE_US_LLC" = "LLC";
+
+/* Payments: Option label for the sole proprietorship business entity type */
+"PAYMENTS_BUSINESS_ENTITY_TYPE_US_SOLE_PROP" = "Sole Proprietorship";
+
 /* Payments: Title of the button that allows a user to cancel a money transfer */
 "PAYMENTS_CANCEL_TRANSFER_ACTION" = "Cancel";
 
@@ -17778,6 +17850,15 @@ eg. "Super Following Jack" */
 /* Payments: Title of the screen where users enter their date of birth during X Payments onboarding. */
 "PAYMENTS_ONBOARDING_BIRTH_DATE_TITLE" = "What’s your date of birth?";
 
+/* Payments: Title of the screen asking the user to select their business entity type */
+"PAYMENTS_ONBOARDING_BUSINESS_ENTITY_TYPE_SELECTION_TITLE" = "What is your business structure?";
+
+/* Payments: Title shown when business payments is not yet available */
+"PAYMENTS_ONBOARDING_BUSINESS_NOT_AVAILABLE_TITLE" = "X Money for your business is not here yet";
+
+/* Payments: Title of the onboarding screen for sole proprietorship businesses */
+"PAYMENTS_ONBOARDING_BUSINESS_US_SOLE_PROP_TITLE" = "X Money for Sole Proprietorships";
+
 /* Payments: Label for the city field in the X Payments onboarding process. */
 "PAYMENTS_ONBOARDING_CITY_FIELD_NAME" = "City";
 
@@ -17969,6 +18050,12 @@ eg. "Super Following Jack" */
 
 /* Payments: Label for the state field in the X Payments onboarding process. */
 "PAYMENTS_ONBOARDING_STATE_FIELD_NAME" = "State";
+
+/* Payments: Action to switch to the business customer onboarding flow */
+"PAYMENTS_ONBOARDING_SWITCH_TO_BUSINESS_ACTION" = "Business accounts, this way";
+
+/* Payments: Action to switch to the individual customer onboarding flow */
+"PAYMENTS_ONBOARDING_SWITCH_TO_INDIVIDUAL_ACTION" = "Individual accounts, this way";
 
 /* Payments: Title of the X Payments onboarding welcome screen. */
 "PAYMENTS_ONBOARDING_TITLE_WITHOUT_NAME" = "Welcome to Money";
@@ -18578,6 +18665,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the 'Rewards' tab, which shows information about cashback and interest */
 "PAYMENTS_TAB_REWARDS" = "Rewards";
+
+/* Payments: Type of account (business) on the customer's cash account tile */
+"PAYMENTS_TILE_CASH_ACCOUNT_TYPE_BUSINESS" = "Business account";
 
 /* Payments: Type of account (individual) on the customer's cash account tile */
 "PAYMENTS_TILE_CASH_ACCOUNT_TYPE_INDIVIDUAL" = "Individual account";
@@ -21737,6 +21827,9 @@ eg. "Super Following Jack" */
 /* Direct Messages title */
 "CHAT_DIRECT_MESSAGES" = "Direct Messages";
 
+/* Dismiss button label */
+"CHAT_DISMISS" = "Dismiss";
+
 /* Documents section title */
 "CHAT_DOCUMENTS" = "Documents";
 
@@ -21899,6 +21992,9 @@ eg. "Super Following Jack" */
 /* No label */
 "CHAT_NO" = "No";
 
+/* Notifications toolbar title */
+"CHAT_NOTIFICATIONS_COUNT" = "X notifications";
+
 /* OK button label */
 "CHAT_OK" = "OK";
 
@@ -21985,6 +22081,9 @@ eg. "Super Following Jack" */
 
 /* Unknown user fallback name */
 "CHAT_REPLY_UNKNOWN_USER" = "Someone";
+
+/* Requests label */
+"CHAT_REQUESTS" = "Requests";
 
 /* Save to photos label */
 "CHAT_SAVE_TO_PHOTOS" = "Save to Photos";
@@ -24257,6 +24356,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Super Follow creator onboarding title on vip card */
 "SUPER_FOLLOW_CREATOR_ONBOARDING_VIP_CARD_TITLE" = "Find your people and get recognized";
+
+/* Hint shown when long pressing to fast forward video, instructing user to swipe down to lock the fast forward speed */
+"SWIPE_DOWN_TO_LOCK" = "Swipe down to lock";
 
 /* More accounts */
 "SWITCH_ACCOUNTS_ACCESSIBILITY_LABEL" = "More accounts";
@@ -27163,8 +27265,11 @@ eg. "- @jack" */
 /* Title for undo unpin action in Timelines Settings screen */
 "PINNED_TIMELINES_UNDO_UNPIN_LABEL" = "Undo unpin";
 
+/* Label for the browse topics row in the tab management sheet */
+"TAB_MANAGEMENT_DISCOVER_TOPICS" = "Browse Topics";
+
 /* Empty state text shown when no feeds are pinned */
-"TAB_MANAGEMENT_PINNED_EMPTY" = "Pin your favorite feeds for easy access";
+"TAB_MANAGEMENT_PINNED_EMPTY" = "No topics are currently pinned";
 
 /* Section header for communities in the tab management sheet */
 "TAB_MANAGEMENT_SECTION_COMMUNITIES" = "My Communities";
@@ -27175,8 +27280,8 @@ eg. "- @jack" */
 /* Section header for pinned feeds in the tab management sheet */
 "TAB_MANAGEMENT_SECTION_PINNED" = "Pinned";
 
-/* Section header for suggested topic feeds in the tab management sheet */
-"TAB_MANAGEMENT_SECTION_SUGGESTED_TOPICS" = "Suggested Topics";
+/* Section header for topic feeds in the tab management sheet */
+"TAB_MANAGEMENT_SECTION_SUGGESTED_TOPICS" = "Topics";
 
 /* Done button in the tab management sheet */
 "TAB_MANAGEMENT_SHEET_DONE" = "Done";
