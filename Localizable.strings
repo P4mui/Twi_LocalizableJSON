@@ -5632,6 +5632,12 @@ This text is the accessibility hint for the button that lets the user change the
 /* Accessibility value for selected */
 "OPTION_SELECTED_ACCESSIBILITY_VALUE" = "Selected";
 
+/* Toast shown when the palm liveness check fails. */
+"PALM_LIVENESS_ERROR_TOAST" = "Verification failed. Please try again.";
+
+/* Toast shown after the user successfully completes the palm liveness check. */
+"PALM_LIVENESS_SUCCESS_TOAST" = "Success! You’ve proven you’re human";
+
 /* Description text for Parody Commentary and Fan Account Label under account settings. */
 "PARODY_COMMENTARY_FAN_ACCOUNT_DESCRIPTION_LABEL" = "Manage your parody, commentary and fan account.";
 
@@ -7075,6 +7081,18 @@ This text is the accessibility hint for the button that lets the user change the
 /* Label for header section of the profile upgrade upsell */
 "PROFILE_UPGRADE_UPSELL_BOOST_INFLUENCE_TITLE_VARIANT" = "Boost your influence with verification";
 
+/* CTA button label for profile upgrade upsell card - finish setup variant */
+"PROFILE_UPGRADE_UPSELL_CARD_CTA_FINISH_SETUP" = "Finish Setup";
+
+/* CTA button label for profile upgrade upsell card - finish verification variant */
+"PROFILE_UPGRADE_UPSELL_CARD_CTA_FINISH_VERIFICATION" = "Finish Verification";
+
+/* Subtitle for the profile upgrade upsell card */
+"PROFILE_UPGRADE_UPSELL_CARD_SUBTITLE" = "Get verified to increase your account’s credibility and grow faster.";
+
+/* Title for the profile upgrade upsell card */
+"PROFILE_UPGRADE_UPSELL_CARD_TITLE" = "You’re not verified yet";
+
 /* Label for header section of the profile upgrade upsell */
 "PROFILE_UPGRADE_UPSELL_NO_VERIFICATION_TITLE_VARIANT" = "You aren’t verified yet";
 
@@ -7102,7 +7120,7 @@ This text is the accessibility hint for the button that lets the user change the
 /* Banner shown in composer when a user is replying from a protected account to a user who doesn't follow them */
 "PROTECTED_REPLY_BANNER_MESSAGE" = "They can’t see your Protected reply.";
 
-/* Link to learn more about why a user might not see this protected account's post */
+/* Link to learn more about why a user might not see this protected account’s post */
 "PROTECTED_REPLY_LEARN_MORE_LINK" = "Learn more";
 
 /* Description of informational modal that provides information about why a reply might not be visible from a protected account */
@@ -7129,13 +7147,13 @@ This text is the accessibility hint for the button that lets the user change the
 /* Shown on a profile for a user whose posts are protected */
 "PROTECTED_TWEETS_PROFILE_LABEL" = "These posts are protected.";
 
-/* Description shown under a setting to protect an account's posts */
+/* Description shown under a setting to protect an account’s posts */
 "PROTECT_TWEETS_SETTING_DESCRIPTION" = "Only show your posts to people who follow you. If selected, you will need to approve each new follower. %@";
 
 /* Title for a setting to protect your posts */
 "PROTECT_TWEETS_SETTING_TITLE" = "Protect your posts";
 
-/* Description shown under a setting to protect an account's videos */
+/* Description shown under a setting to protect an account’s videos */
 "PROTECT_VIDEOS_SETTING_DESCRIPTION" = "If selected, videos you post or send via Chat will not be downloadable by default. This setting applies to videos shared going forward and is not retroactive. %@";
 
 /* Title for a setting to protect your videos */
@@ -9581,6 +9599,9 @@ eg. "Super Following Jack" */
 /* Label with count to see how many views the post has received (not video related) (plural) */
 "TWEET_VIEW_COUNT_PLURAL_FORMAT" = "%@ Views";
 
+/* Label with count to see how many views the post has received (not video related) (singular, with count) */
+"TWEET_VIEW_COUNT_SINGULAR_FORMAT" = "%@ View";
+
 /* Label for a button that when tapped opens a page containing information about X Ad campaigns this user is running. */
 "TWITTER_ADS_LABEL" = "Ads";
 
@@ -11790,8 +11811,17 @@ eg. "Super Following Jack" */
 /* DM Conversation footer message requests action block title */
 "DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_BLOCK_TITLE" = "Block";
 
+/* DM Conversation footer message requests action decline title */
+"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_DECLINE_TITLE" = "Decline";
+
 /* DM Conversation footer message requests action delete title */
 "DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_DELETE_TITLE" = "Delete";
+
+/* DM Conversation footer message requests action report title */
+"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_REPORT_TITLE" = "Report";
+
+/* DM Conversation footer message requests declined title. */
+"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_DECLINED_TITLE" = "Message request declined. •|•Undo•|•";
 
 /* DM Conversation footer message requests title */
 "DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_UNNAMED_TITLE" = "Accept message request from user?";
@@ -12317,6 +12347,12 @@ eg. "Super Following Jack" */
 
 /* DM Conversation Typing Indicator Two People Label. %1$@: first user display name, %2$@: second user display name */
 "DM_CONVERSATION_TYPING_INDICATOR_TWO_PEOPLE" = "%1$@ and %2$@ are typing…";
+
+/* DM Conversation Media undecryptable metadata Subtitle */
+"DM_CONVERSATION_UNDECRYPTABLE_METADATA_INFO_NOTICE" = "Your group title is end-to-end encrypted. After a passcode reset, it is unavailable until another member comes online.";
+
+/* DM Conversation Media undecryptable metadata Subtitle */
+"DM_CONVERSATION_UNDECRYPTABLE_METADATA_SUBTITLE" = "Unable to recover title";
 
 /* DM Conversation Media Unencrypted accessibility label */
 "DM_CONVERSATION_UNENCRYPTED_ACCESSIBILITY_LABEL" = "Unencrypted conversation";
@@ -13555,6 +13591,9 @@ eg. "Super Following Jack" */
 
 /* DM Pull Failure Title */
 "DM_PULL_FAILURE_TITLE" = "Your messages failed to load.";
+
+/* DM Pull Failure Title shown when the server reports the user has too many messages and the inbox preview pull was throttled. */
+"DM_PULL_FAILURE_TOO_MANY_MESSAGES_TITLE" = "Sorry! You have too many messages. Please wait a bit and try again.";
 
 /* DM Emoji picker Add reaction accessibility hint */
 "DM_REACTIONS_ADD_REACTION_ACCESSIBILITY_HINT" = "Adds reaction";
@@ -17615,6 +17654,12 @@ eg. "Super Following Jack" */
 /* Payments: Title of the error shown when the document (ex: Monthly statement) is loading properly */
 "PAYMENTS_ERROR_DOCUMENT_LOADING_TITLE" = "Unable to load document";
 
+/* Payments: Title of the screen shown when we've detected that the customer already has another account (on another X username) */
+"PAYMENTS_ERROR_DUPLICATE_ACCOUNT_MESSAGE" = "It looks like you already have an X Money account associated with your identity. Each person can only have one account.";
+
+/* Payments: Title of the screen shown when we've detected that the customer already has another account (on another X username) */
+"PAYMENTS_ERROR_DUPLICATE_ACCOUNT_TITLE" = "Account already exists";
+
 /* Payments: Generic error message shown when an unexpected issue occurs in X Payments. */
 "PAYMENTS_ERROR_GENERIC_MESSAGE" = "Please try again later.";
 
@@ -18102,10 +18147,10 @@ eg. "Super Following Jack" */
 "PAYMENTS_LIMITS_SEND_TITLE" = "Send";
 
 /* Payments: Format string for displaying monthly limits in X Payments. %1$@ is replaced by the limit amount. */
-"PAYMENTS_LIMITS_THIRTY_DAY_FORMAT" = "%1$@ per month";
+"PAYMENTS_LIMITS_THIRTY_DAY_FORMAT" = "%1$@ per 30 days";
 
 /* Payments: Format string for displaying monthly limits in X Payments. %1$@ is replaced by the limit amount, and %2$@ by what the user has used so far. */
-"PAYMENTS_LIMITS_THIRTY_DAY_WITH_USED_FORMAT" = "%1$@ per month (%2$@ used)";
+"PAYMENTS_LIMITS_THIRTY_DAY_WITH_USED_FORMAT" = "%1$@ per 30 days (%2$@ used)";
 
 /* Payments: Format string for displaying weekly limits in X Payments. %1$@ is replaced by the limit amount. */
 "PAYMENTS_LIMITS_WEEKLY_FORMAT" = "%1$@ per week";
@@ -18135,13 +18180,13 @@ eg. "Super Following Jack" */
 "PAYMENTS_LIMIT_EXCEEDED_ERROR_MONTHLY_MAX_UNKNOWN_VALUE_MESSAGE" = "Please retry tomorrow.";
 
 /* Payments: Additional message shown when a user has exceeded their monthly transaction limits, advising them to try again later. %1$@ is replaced by the formatted amount corresponding to the limit. */
-"PAYMENTS_LIMIT_EXCEEDED_ERROR_MONTHLY_MAX_VALUE_MESSAGE" = "You have already used your %1$@ monthly limit. Please retry tomorrow.";
+"PAYMENTS_LIMIT_EXCEEDED_ERROR_MONTHLY_MAX_VALUE_MESSAGE" = "You have already used your %1$@ 30-day limit. Please retry tomorrow.";
 
 /* Payments: Error message shown when a user has exceeded their transaction limits in X Payments. */
-"PAYMENTS_LIMIT_EXCEEDED_ERROR_MONTHLY_TITLE" = "This action would exceed your monthly limit";
+"PAYMENTS_LIMIT_EXCEEDED_ERROR_MONTHLY_TITLE" = "This action would exceed your 30-day limit";
 
 /* Payments: Additional message shown when a user has exceeded their monthly transaction limits, advising them to try again later. %1$@ is replaced by the formatted amount corresponding to the limit. %2$@ is replaced by the formatted amount corresponding to the used portion. */
-"PAYMENTS_LIMIT_EXCEEDED_ERROR_MONTHLY_USED_VS_MAX_VALUE_MESSAGE" = "You have already used %1$@ out of your %2$@ monthly limit. Please try again with a lower amount or retry tomorrow.";
+"PAYMENTS_LIMIT_EXCEEDED_ERROR_MONTHLY_USED_VS_MAX_VALUE_MESSAGE" = "You have already used %1$@ out of your %2$@ 30-day limit. Please try again with a lower amount or retry tomorrow.";
 
 /* Payments: Additional message shown when a user has exceeded their transaction limits, advising them to try again with a lower amount. */
 "PAYMENTS_LIMIT_EXCEEDED_ERROR_PER_ENTRY_LIMIT_MESSAGE" = "Please try again with a lower amount.";
@@ -22080,6 +22125,18 @@ eg. "Super Following Jack" */
 /* Label shown for posts that are being boosted by a third party */
 "BOOSTED_LABEL" = "Boosted";
 
+/* Label shown to the booster when the boost campaign is actively running */
+"BOOSTED_LABEL_ACTIVE" = "Boosting";
+
+/* Label shown to the booster when the boost campaign has completed */
+"BOOSTED_LABEL_COMPLETED" = "Boost completed";
+
+/* Label shown to the booster when the boost campaign is paused */
+"BOOSTED_LABEL_PAUSED" = "Boost paused";
+
+/* Label shown to the booster when the boost campaign is under review */
+"BOOSTED_LABEL_UNDER_REVIEW" = "Boost starting";
+
 /* Text label/badge shown next to a user's name when they are an Admin of a Community. This text may appear in a tight area so using an abbreviation to make it shorter would be preferred. For example, we choose to use "Admin" instead of "Administrator" */
 "COMMUNITY_TWEET_ADMIN_BADGE_LABEL" = "Admin";
 
@@ -24567,6 +24624,24 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Accessibility label for identity verified icons. */
 "VERIFIED_ID_ACCESSIBILITY_LABEL" = "Identity verified";
 
+/* Video Editor - Tag / Allow downloads toggle */
+"VIDEO_EDITOR_TAG_ALLOW_DOWNLOADS" = "Allow downloads";
+
+/* Video Editor - Tag / Allow modifications by Grok toggle */
+"VIDEO_EDITOR_TAG_ALLOW_GROK_MODIFICATIONS" = "Allow modifications by Grok";
+
+/* Video Editor - Tag / Content Warnings section description */
+"VIDEO_EDITOR_TAG_CONTENT_FLAGS_DESCRIPTION" = "Choose any categories to apply content warnings to your video. This helps people avoid content they don’t want to see.";
+
+/* Video Editor - Tag / Content Warnings section title */
+"VIDEO_EDITOR_TAG_CONTENT_FLAGS_TITLE" = "Content Flags";
+
+/* Video Editor - Tag / Permissions section description */
+"VIDEO_EDITOR_TAG_PERMISSIONS_DESCRIPTION" = "Select what actions people can take on your video.";
+
+/* Video Editor - Tag / Permissions section title */
+"VIDEO_EDITOR_TAG_PERMISSIONS_TITLE" = "Permissions";
+
 /* Label shown after a user gives feedback on a video saying it's not relevant */
 "VIDEO_FEEDBACK_NOT_RELEVANT_TOAST" = "We will suggest fewer videos like this";
 
@@ -26047,6 +26122,39 @@ eg. "- @jack" */
 "UPSELL_CARD_NEW_LABEL" = "New";
 
 // Section: Frameworks/TwitterSelfServeAds/Sources/TwitterSelfServeAdsStrings/en.lproj/Localizable.strings
+
+/* Label for the Apple payment option on the redesigned Boost sheet. */
+"BOOST_SHEET_PAY_WITH_APPLE" = "Apple";
+
+/* Label for the payment method row on the redesigned Boost sheet. */
+"BOOST_SHEET_PAY_WITH_LABEL" = "Pay with";
+
+/* Label for the X Money payment option on the redesigned Boost sheet. */
+"BOOST_SHEET_PAY_WITH_X_MONEY" = "X Money";
+
+/* Placeholder text for the region search field on the redesigned Boost sheet region selector. */
+"BOOST_SHEET_REGION_SEARCH_PLACEHOLDER" = "Search Country, City, or Region";
+
+/* Text displayed below the title on the redesigned Boost sheet when boosting your own post (1P) and education is disabled. No Learn more link. */
+"BOOST_SHEET_SUBTITLE_1P" = "Get up to 3x more likes";
+
+/* Text displayed below the title on the redesigned Boost sheet when boosting your own post (1P). The %@ placeholder is replaced by QUICK_PROMOTE_HEADER_SUBTITLE_LEARN_MORE_LINK which is rendered as a tappable link. */
+"BOOST_SHEET_SUBTITLE_1P_FORMAT" = "Get up to 3x more likes. %@";
+
+/* Text displayed below the headline on the redesigned Boost sheet when boosting another user's post (3P) and education is disabled. No Learn more link. */
+"BOOST_SHEET_SUBTITLE_3P_BODY" = "Others will see that you boosted this post";
+
+/* Text displayed below the headline on the redesigned Boost sheet when boosting another user's post (3P). The %@ placeholder is replaced by QUICK_PROMOTE_HEADER_SUBTITLE_LEARN_MORE_LINK. */
+"BOOST_SHEET_SUBTITLE_3P_BODY_FORMAT" = "Others will see that you boosted this post. %@";
+
+/* Text displayed below the title on the redesigned Boost sheet when boosting another user's post (3P). The %@ placeholder is replaced by QUICK_PROMOTE_HEADER_SUBTITLE_LEARN_MORE_LINK which is rendered as a tappable link. */
+"BOOST_SHEET_SUBTITLE_3P_HEADLINE" = "Get up to 3x more likes on this post.";
+
+/* Simplified terms and conditions text for the redesigned Boost sheet. %@ is replaced by the Terms and Conditions link text. */
+"BOOST_SHEET_TERMS_FORMAT" = "By clicking Boost post, you agree to our %@";
+
+/* Title displayed at the top of the redesigned Boost sheet and on the primary CTA button. */
+"BOOST_SHEET_TITLE" = "Boost Post";
 
 /* Bonus label format string. Eg. '20% bonus' */
 "BUDGET_BONUS_FORMAT" = "%@ bonus";
@@ -28024,8 +28132,20 @@ eg. "- @jack" */
 /* CTA button label on the Topics upsell screen */
 "TOPICS_UPSELL_CTA_BUTTON" = "Add Timelines";
 
+/* Subtitle on the education modal for custom timelines */
+"TOPICS_UPSELL_EDUCATION_SUBTITLE" = "Curate your timeline the way you want";
+
+/* Title on the education modal for custom timelines */
+"TOPICS_UPSELL_EDUCATION_TITLE" = "Custom Timelines";
+
 /* CTA button label for free users to upgrade to Premium on the Topics upsell screen */
 "TOPICS_UPSELL_GET_PREMIUM_BUTTON" = "Upgrade to Premium";
+
+/* Button label for the education explainer on the Topics upsell */
+"TOPICS_UPSELL_HOW_IT_WORKS" = "How it works";
+
+/* Dismiss button on the education modal */
+"TOPICS_UPSELL_NOT_NOW" = "Not Now";
 
 /* Title shown on the Topics upsell screen for free users */
 "TOPICS_UPSELL_PREMIUM_TITLE" = "Create custom timelines";
