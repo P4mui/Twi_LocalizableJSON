@@ -1005,6 +1005,18 @@ e.g. Removed from MyRecipes.
 /* Title for the Boosted segment in the Boost page */
 "BOOST_BOOSTED_TAB_TITLE" = "Boosted";
 
+/* Action text for the Boost CTA download button */
+"BOOST_CTA_ACTION_TEXT_DOWNLOAD" = "Download";
+
+/* Action text for the Boost CTA learn more button */
+"BOOST_CTA_ACTION_TEXT_LEARN_MORE" = "Learn more";
+
+/* Action text for the Boost CTA shop now button */
+"BOOST_CTA_ACTION_TEXT_SHOP_NOW" = "Shop now";
+
+/* Action text for the Boost CTA visit now button */
+"BOOST_CTA_ACTION_TEXT_VISIT_NOW" = "Visit now";
+
 /* Empty state subtitle for the filter tab */
 "BOOST_FILTER_EMPTY_SUBTITLE" = "Posts you can boost will show here";
 
@@ -1302,17 +1314,27 @@ e.g. Removed from MyRecipes.
 /* Timeframe button label for the 1 day range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_1D_LABEL" = "1D";
 
+"CASHTAG_INFO_TIMEFRAME_1D_LABEL_LONG" = "1 day";
+
 /* Timeframe button label for the 1 month range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_1M_LABEL" = "1M";
+
+"CASHTAG_INFO_TIMEFRAME_1M_LABEL_LONG" = "1 month";
 
 /* Timeframe button label for the 1 week range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_1W_LABEL" = "1W";
 
+"CASHTAG_INFO_TIMEFRAME_1W_LABEL_LONG" = "1 week";
+
 /* Timeframe button label for the 1 year range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_1Y_LABEL" = "1Y";
 
+"CASHTAG_INFO_TIMEFRAME_1Y_LABEL_LONG" = "1 year";
+
 /* Timeframe button label for the full range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_ALL_LABEL" = "ALL";
+
+"CASHTAG_INFO_TIMEFRAME_ALL_LABEL_LONG" = "All-time";
 
 /* Segment title for the Top timeline in the cashtag info sheet. */
 "CASHTAG_INFO_TOP_TAB_TITLE" = "Top";
@@ -5686,6 +5708,12 @@ This text is the accessibility hint for the button that lets the user change the
 /* short message describing success in opening the content associated with the data pasted by the user; this message is to appear in a small window that will appear for 1-2 seconds, and then disappear, as feedback to help the user understand why the content they see is being displayed..*/
 "PASTE_OPENED_CONTENT_TOAST_MESSAGE" = "Opened pasted content";
 
+/* Trivia fact shown on the X Money onboarding warmup screen, between the Jetfuel sign-up flow and the first onboarding form. */
+"PAYMENTS_ONBOARDING_WARMUP_TRIVIA_PENNY_COST" = "A U.S. penny costs more than three cents to make.";
+
+/* Trivia title shown above a fun fact on the X Money onboarding warmup screen, between the Jetfuel sign-up flow and the first onboarding form. */
+"PAYMENTS_ONBOARDING_WARMUP_TRIVIA_TITLE" = "Did you know?";
+
 /* Description message with app-links shown in account settings when there is a pending email. Example: "Your new email (test@twitter.com) has not been confirmed. Resend email or remove email. */
 "PENDING_EMAIL_ACCOUNT_SETTINGS_DESCRIPTION_ITEM" = "Your new email %1$@ has not been confirmed. %2$@ or %3$@.";
 
@@ -7088,10 +7116,10 @@ This text is the accessibility hint for the button that lets the user change the
 "PROFILE_UPGRADE_UPSELL_CARD_CTA_FINISH_VERIFICATION" = "Finish Verification";
 
 /* Subtitle for the profile upgrade upsell card */
-"PROFILE_UPGRADE_UPSELL_CARD_SUBTITLE" = "Get verified to increase your account’s credibility and grow faster.";
+"PROFILE_UPGRADE_UPSELL_CARD_SUBTITLE" = "Get verified to increase your account\U2019s credibility and grow faster.";
 
 /* Title for the profile upgrade upsell card */
-"PROFILE_UPGRADE_UPSELL_CARD_TITLE" = "You’re not verified yet";
+"PROFILE_UPGRADE_UPSELL_CARD_TITLE" = "You\U2019re not verified yet";
 
 /* Label for header section of the profile upgrade upsell */
 "PROFILE_UPGRADE_UPSELL_NO_VERIFICATION_TITLE_VARIANT" = "You aren’t verified yet";
@@ -7120,7 +7148,7 @@ This text is the accessibility hint for the button that lets the user change the
 /* Banner shown in composer when a user is replying from a protected account to a user who doesn't follow them */
 "PROTECTED_REPLY_BANNER_MESSAGE" = "They can’t see your Protected reply.";
 
-/* Link to learn more about why a user might not see this protected account’s post */
+/* Link to learn more about why a user might not see this protected account's post */
 "PROTECTED_REPLY_LEARN_MORE_LINK" = "Learn more";
 
 /* Description of informational modal that provides information about why a reply might not be visible from a protected account */
@@ -7147,13 +7175,13 @@ This text is the accessibility hint for the button that lets the user change the
 /* Shown on a profile for a user whose posts are protected */
 "PROTECTED_TWEETS_PROFILE_LABEL" = "These posts are protected.";
 
-/* Description shown under a setting to protect an account’s posts */
+/* Description shown under a setting to protect an account's posts */
 "PROTECT_TWEETS_SETTING_DESCRIPTION" = "Only show your posts to people who follow you. If selected, you will need to approve each new follower. %@";
 
 /* Title for a setting to protect your posts */
 "PROTECT_TWEETS_SETTING_TITLE" = "Protect your posts";
 
-/* Description shown under a setting to protect an account’s videos */
+/* Description shown under a setting to protect an account's videos */
 "PROTECT_VIDEOS_SETTING_DESCRIPTION" = "If selected, videos you post or send via Chat will not be downloadable by default. This setting applies to videos shared going forward and is not retroactive. %@";
 
 /* Title for a setting to protect your videos */
@@ -14801,6 +14829,9 @@ eg. "Super Following Jack" */
 /* Input button that activates voice mode */
 "GROK_INPUT_BUTTON_VOICE_MODE_TITLE" = "Speak";
 
+/* Context menu action shown on a rendered LaTeX/math equation in a Grok message; copies the raw LaTeX source string to the clipboard. */
+"GROK_LATEX_ACTION_COPY_LATEX" = "Copy LaTeX";
+
 /* Button to like the chat response */
 "GROK_LIKE" = "Like";
 
@@ -15416,6 +15447,9 @@ eg. "Super Following Jack" */
 
 /* Title text for the 'About this account' page that displays the account registration date of the user */
 "PROFILE_ABOUT_THIS_ACCOUNT_DATE_JOINED_TITLE_LABEL" = "Date joined";
+
+/* Title and button CTA for modal sheet that links to upgrade for Premium (shown when verified-to-premium relabeling is enabled, e.g. in EU) */
+"PROFILE_ABOUT_THIS_ACCOUNT_GET_PREMIUM_UPGRADE_BUTTON_LABEL" = "Upgrade to get premium";
 
 /* Title and button CTA for modal sheet that links to upgrade to for Premium verified */
 "PROFILE_ABOUT_THIS_ACCOUNT_GET_VERIFIED_UPGRADE_BUTTON_LABEL" = "Upgrade to get verified";
@@ -18713,6 +18747,9 @@ eg. "Super Following Jack" */
 /* Payments: Represents an unknown provider on X Money. */
 "PAYMENTS_PROVIDER_UNKNOWN" = "Unknown Provider";
 
+/* Payments: Represents provider called "X" on X Money. */
+"PAYMENTS_PROVIDER_X" = "X";
+
 /* Payments: Subtitle for the second step in the additional public key credential attestation view, describing the prompt after verification */
 "PAYMENTS_PUBKEY_CREDENTIAL_ADDITIONAL_ADD_NEW_SUBTITLE" = "Once we know it’s you, you’ll be prompted to create a new one";
 
@@ -19331,7 +19368,7 @@ eg. "Super Following Jack" */
 /* Payments: Disclaimer text of a transfer method that involves waiting multiple days. %@ is replaced by the number of days. */
 "PAYMENTS_TRANSFER_METHOD_DISCLAIMER_DELAYED_N_BUSINESS_DAYS" = "Funds will be available in up to %@ business days";
 
-/* Payments: Disclaimer text of a transfer method that involves no waiting. %@ is replaced by the already localized fees. */
+/* Payments: Disclaimer text of a transfer method that involves no waiting. */
 "PAYMENTS_TRANSFER_METHOD_DISCLAIMER_REALTIME" = "Funds will be available instantly";
 
 /* Payments: Fees for a transfer method that involves only an amount. %@ is replaced by the formatted amount. */
@@ -21023,45 +21060,6 @@ eg. "Super Following Jack" */
 
 /* Accessibility label for a custom action which allows sharing a post attached to an existing direct message to a different direct message conversation. */
 "DIRECT_MESSAGE_SEND_TWEET_VIA_DIRECT_MESSAGE_ACTION_ACCESSIBILITY_LABEL" = "Send via Chat";
-
-/* Description of the section that allows the current user to select who can call them */
-"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_DESCRIPTION" = "To reduce unwanted calls, you’ll need to have messaged an account at least once before they’re able to call you.";
-
-/* Title of the item to accept calls from people in the current user's address book */
-"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_ITEM_ADDRESS_BOOK" = "People in your address book";
-
-/* Title of the item to accept calls from everyone (all the users) */
-"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_ITEM_EVERYONE" = "Everyone";
-
-/* Title of the item to accept calls from people followed by the current user */
-"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_ITEM_FOLLOWING" = "People you follow";
-
-/* Title of the item to accept calls from verified people */
-"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_ITEM_VERIFIED" = "Verified users";
-
-/* Title of the section that allows the current user to select who can call them */
-"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_TITLE" = "Allow audio and video calls from:";
-
-/* Description of the item to enable/disable enhanced calls privacy. %@ will be replaced by an already localized "Learn more" link. */
-"DIRECT_MESSAGE_SETTINGS_CALL_ENABLE_ENHANCED_PRIVACY_ITEM_DESCRIPTION" = "Enable this setting to avoid revealing your IP address to your contact during the call. This will reduce call quality. %@";
-
-/* Title of the item to enable/disable enhanced calls privacy */
-"DIRECT_MESSAGE_SETTINGS_CALL_ENABLE_ENHANCED_PRIVACY_ITEM_TITLE" = "Always relay calls";
-
-/* Description of the item to enable/disable calls. %@ will be replaced by an already localized "Learn more" link. */
-"DIRECT_MESSAGE_SETTINGS_CALL_ENABLE_ITEM_DESCRIPTION" = "Take messaging to the next level with audio and video calls. When enabled you can select who you’re comfortable using it with. %@";
-
-/* Title of the item to enable/disable calls */
-"DIRECT_MESSAGE_SETTINGS_CALL_ENABLE_ITEM_TITLE" = "Enable audio and video calling";
-
-/* Description of the item to disable calls on this specific device for the current user (reserved to employees) */
-"DIRECT_MESSAGE_SETTINGS_CALL_UNREGISTRATION_DESCRIPTION" = "[Employee only] When using both EarlyX and X on the same device, receiving a call can conflict and result in an error. If you have this setup, we encourage you to unregister one of the two apps.";
-
-/* Title of the item to disable calls on this specific device for the current user (reserved to employees) */
-"DIRECT_MESSAGE_SETTINGS_CALL_UNREGISTRATION_TITLE" = "No calls on this app for this user";
-
-/* Title for Direct Message settings page */
-"DIRECT_MESSAGE_SETTINGS_TITLE" = "Chat settings";
 
 /* Error details shown when attempting to search for users to share a post with after selecting an existing group. */
 "DIRECT_MESSAGE_SHARE_TWEET_CANNOT_ADD_USER_ERROR_DETAILS_TEXT" = "In order to add more people, you have to delete the group first.";
@@ -23448,6 +23446,45 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Accessibility text for reaction-creation button */
 "DIRECT_MESSAGE_REACTION_CREATION_BUTTON_ACCESSIBILITY_LABEL" = "Add reaction";
+
+/* Description of the section that allows the current user to select who can call them */
+"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_DESCRIPTION" = "To reduce unwanted calls, you’ll need to have messaged an account at least once before they’re able to call you.";
+
+/* Title of the item to accept calls from people in the current user's address book */
+"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_ITEM_ADDRESS_BOOK" = "People in your address book";
+
+/* Title of the item to accept calls from everyone (all the users) */
+"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_ITEM_EVERYONE" = "Everyone";
+
+/* Title of the item to accept calls from people followed by the current user */
+"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_ITEM_FOLLOWING" = "People you follow";
+
+/* Title of the item to accept calls from verified people */
+"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_ITEM_VERIFIED" = "Verified users";
+
+/* Title of the section that allows the current user to select who can call them */
+"DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_TITLE" = "Allow audio and video calls from:";
+
+/* Description of the item to enable/disable enhanced calls privacy. %@ will be replaced by an already localized "Learn more" link. */
+"DIRECT_MESSAGE_SETTINGS_CALL_ENABLE_ENHANCED_PRIVACY_ITEM_DESCRIPTION" = "Enable this setting to avoid revealing your IP address to your contact during the call. This will reduce call quality. %@";
+
+/* Title of the item to enable/disable enhanced calls privacy */
+"DIRECT_MESSAGE_SETTINGS_CALL_ENABLE_ENHANCED_PRIVACY_ITEM_TITLE" = "Always relay calls";
+
+/* Description of the item to enable/disable calls. %@ will be replaced by an already localized "Learn more" link. */
+"DIRECT_MESSAGE_SETTINGS_CALL_ENABLE_ITEM_DESCRIPTION" = "Take messaging to the next level with audio and video calls. When enabled you can select who you’re comfortable using it with. %@";
+
+/* Title of the item to enable/disable calls */
+"DIRECT_MESSAGE_SETTINGS_CALL_ENABLE_ITEM_TITLE" = "Enable audio and video calling";
+
+/* Description of the item to disable calls on this specific device for the current user (reserved to employees) */
+"DIRECT_MESSAGE_SETTINGS_CALL_UNREGISTRATION_DESCRIPTION" = "[Employee only] When using both EarlyX and X on the same device, receiving a call can conflict and result in an error. If you have this setup, we encourage you to unregister one of the two apps.";
+
+/* Title of the item to disable calls on this specific device for the current user (reserved to employees) */
+"DIRECT_MESSAGE_SETTINGS_CALL_UNREGISTRATION_TITLE" = "No calls on this app for this user";
+
+/* Title for Direct Message settings page */
+"DIRECT_MESSAGE_SETTINGS_TITLE" = "Chat settings";
 
 /* Placeholder text shown until users are chosen for sharing a post via Direct Message." */
 "DIRECT_MESSAGE_SHARE_TWEET_ADDRESSING_BAR_PLACEHOLDER_TEXT" = "Search for people and groups";
@@ -26129,6 +26166,9 @@ eg. "- @jack" */
 /* Label for the payment method row on the redesigned Boost sheet. */
 "BOOST_SHEET_PAY_WITH_LABEL" = "Pay with";
 
+/* Short label for the X Money payment option shown next to the X logo on the main Boost sheet. */
+"BOOST_SHEET_PAY_WITH_MONEY" = "Money";
+
 /* Label for the X Money payment option on the redesigned Boost sheet. */
 "BOOST_SHEET_PAY_WITH_X_MONEY" = "X Money";
 
@@ -26337,7 +26377,7 @@ eg. "- @jack" */
 "QUICK_PROMOTE_SEARCH_LOCATION_GLOBAL_BUTTON" = "Boost Global";
 
 /* Text displayed in search screen when no search results are available to let users know they can boost globally instead of in a particular location */
-"QUICK_PROMOTE_SEARCH_LOCATION_GLOBAL_MESSAGE" = "Search for a location or boost your post globally";
+"QUICK_PROMOTE_SEARCH_LOCATION_GLOBAL_MESSAGE" = "Search for a location or boost globally";
 
 /* Text displayed before the location options to prompt the user which location they want to run the campaign in. */
 "QUICK_PROMOTE_SEARCH_LOCATION_LABEL" = "Where to boost your post?";
@@ -27102,6 +27142,18 @@ eg. "- @jack" */
 
 /* Settings section header grouping data and information management */
 "CHAT_SETTINGS_SECTION_DATA_AND_INFORMATION" = "Data & Information";
+
+/* Cancel button shown in the X Chat share extension navigation bar to dismiss the share sheet without sending. */
+"CHAT_SHARE_EXTENSION_CANCEL_TITLE" = "Cancel";
+
+/* Body shown to signed-out users when they invoke the X Chat share extension. Explains that signing in to XChat is required before sharing. */
+"CHAT_SHARE_EXTENSION_LOGGED_OUT_MESSAGE" = "Open XChat and sign in to share.";
+
+/* Title shown to signed-out users when they invoke the X Chat share extension. They cannot share without signing in. */
+"CHAT_SHARE_EXTENSION_LOGGED_OUT_TITLE" = "Sign in to share";
+
+/* Navigation bar title for the X Chat share extension's conversation picker. */
+"CHAT_SHARE_EXTENSION_PICKER_TITLE" = "Share to";
 
 /* Show recent photos label */
 "CHAT_SHOW_RECENT_PHOTOS" = "Show recent photos";
