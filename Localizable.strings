@@ -1304,8 +1304,14 @@ e.g. Removed from MyRecipes.
 /* Chart style menu label for the line chart option. */
 "CASHTAG_INFO_CHART_STYLE_LINE_LABEL" = "Line";
 
+/* Message shown in place of the chart when the backend returned a successful response with no chart data. */
+"CASHTAG_INFO_CHART_UNAVAILABLE_MESSAGE" = "No chart data to display.";
+
 /* Segment title for the Latest timeline in the cashtag info sheet. */
 "CASHTAG_INFO_LATEST_TAB_TITLE" = "Latest";
+
+/* Label preceding the live (most recent) price in the cashtag info chart's custom data area. */
+"CASHTAG_INFO_LIVE_PRICE_NOW_AT" = "Now at";
 
 /* Percent change label format in the cashtag info chart.
    %1$@ = percent change, e.g. +1.23% */
@@ -1634,6 +1640,15 @@ e.g. Removed from MyRecipes.
 
 /* Placeholder text for empty composer when a poll is being attached */
 "COMPOSE_TEXT_VIEW_POLL_PLACEHOLDER" = "Ask a question…";
+
+/* Composer toolbar menu item label for adding location to a post */
+"COMPOSE_TOOLBAR_ADD_LOCATION_LABEL" = "Add location";
+
+/* Composer toolbar menu item label for generating an image with Grok */
+"COMPOSE_TOOLBAR_GENERATE_IMAGE_LABEL" = "Generate image";
+
+/* Composer toolbar menu item label for adding a quote to a post */
+"COMPOSE_TOOLBAR_QUOTE_LABEL" = "Quote";
 
 /* Tooltip text that suggests the user to post about the current search text */
 "COMPOSE_TOOLTIP_FOR_SEARCH_TEXT_FORMAT" = "Post about %@";
@@ -5338,6 +5353,42 @@ This text is the accessibility hint for the button that lets the user change the
 /* Accessibility value for mute button that mutes audio of the captured video in News camera preview screen. When this label is used, the captured video is muted. */
 "NEWSCAMERA_MUTE_BUTTON_UMUTE_ACCESSIBILITY_VALUE" = "Unmute Audio";
 
+/* Accessibility label for the render mode button in the video reaction camera that overlays the user's silhouette on top of the source post (a.k.a. "Green screen" mode). */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_GREEN_SCREEN" = "Person overlay";
+
+/* Accessibility label for the render mode button in the video reaction camera that shows the user's camera as a small picture-in-picture over the source post. */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_PICTURE_IN_PICTURE" = "Picture in picture";
+
+/* Accessibility label for the action button in the video reaction camera that toggles whether the source post media is rendered in the reaction. */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_POST_MEDIA" = "Toggle post media";
+
+/* Accessibility label for the render mode button in the video reaction camera that shows the source post and the user's camera side by side. */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_SIDE_BY_SIDE" = "Side by side";
+
+/* Accessibility label for the action button in the video reaction camera that swaps which side the source post is rendered on in split layouts. */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_SWAP_LAYOUT" = "Swap layout sides";
+
+/* Accessibility label for the render mode button in the video reaction camera that stacks the source post and the user's camera vertically. */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_TOP_AND_BOTTOM" = "Top and bottom";
+
+/* Display name for the "Green screen" render mode in the video reaction camera, which overlays the user's silhouette on top of the source post. */
+"NEWSCAMERA_REACTION_RENDER_MODE_GREEN_SCREEN" = "Green screen";
+
+/* Display name for the "Left & Right" render mode in the video reaction camera, which shows the source post and the user's camera side by side. */
+"NEWSCAMERA_REACTION_RENDER_MODE_LEFT_AND_RIGHT" = "Left & Right";
+
+/* Display name for the "Picture in Picture" render mode in the video reaction camera, which shows the user's camera as a small picture-in-picture over the source post. */
+"NEWSCAMERA_REACTION_RENDER_MODE_PICTURE_IN_PICTURE" = "Picture in Picture";
+
+/* Display name for the "Top & Bottom" render mode in the video reaction camera, which stacks the source post and the user's camera vertically. */
+"NEWSCAMERA_REACTION_RENDER_MODE_TOP_AND_BOTTOM" = "Top & Bottom";
+
+/* Toast shown in the video reaction camera when the user toggles off rendering the source post's media, leaving only the post itself in the reaction. */
+"NEWSCAMERA_REACTION_TOAST_RENDER_POST_MEDIA_ONLY" = "Render post media only";
+
+/* Toast shown in the video reaction camera when the user toggles on rendering the source post's media alongside the post. */
+"NEWSCAMERA_REACTION_TOAST_RENDER_POST_WITH_MEDIA" = "Render post with media";
+
 /* Accessibility value for remove location in camera composer */
 "NEWSCAMERA_REMOVE_LOCATION_ACCESSIBILITY_VALUE" = "Remove location";
 
@@ -6568,6 +6619,9 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Profile table view cell bad request error message */
 "PROFILE_GENERIC_USERNAME_LABEL" = "Account";
+
+/* Label for the message button in the redesigned profile header action row. */
+"PROFILE_HEADER_MESSAGE_BUTTON_LABEL" = "Message";
 
 /* Accessibility label for profile header photo */
 "PROFILE_HEADER_PHOTO_ACCESSIBILITY_LABEL" = "Header photo";
@@ -8302,6 +8356,9 @@ This text is the accessibility hint for the button that lets the user change the
 /* Accessibility hint for share inline action button */
 "SHARE_BUTTON_ACCESSIBILITY_HINT" = "Double-tap to share";
 
+/* Label for the share-profile button in the redesigned profile header action row. */
+"SHARE_PROFILE_BUTTON_LABEL" = "Share profile";
+
 /* Menu label to present more Profile sharing options eg. Share @jack via... */
 "SHARE_PROFILE_VIA_ACTION_FORMAT" = "Share %@ via…";
 
@@ -9894,6 +9951,9 @@ eg. "Super Following Jack" */
 
 /* Label for the Replies tab when viewing profile */
 "USER_PROFILE_REPLIES_TAB_LABEL" = "Replies";
+
+/* Label for the Reposts tab when viewing profile */
+"USER_PROFILE_REPOSTS_TAB_LABEL" = "Reposts";
 
 /* Label for Spaces tab when viewing profile */
 "USER_PROFILE_SPACES_LABEL" = "Spaces";
@@ -11629,6 +11689,9 @@ eg. "Super Following Jack" */
 /* Cancel action title */
 "CHAT_CANCEL" = "Cancel";
 
+/* Direct Messages title */
+"CHAT_DIRECT_MESSAGES" = "Direct Messages";
+
 /* Empty search conversations message */
 "CHAT_EMPTY_SEARCH_CONVERSATIONS_MESSAGE" = "Try searching for a different name or username.";
 
@@ -11640,6 +11703,12 @@ eg. "Super Following Jack" */
 
 /* Empty search messages title */
 "CHAT_EMPTY_SEARCH_MESSAGES_TITLE" = "No Messages Found";
+
+/* Group messages label */
+"CHAT_GROUP_MESSAGES" = "Group Messages";
+
+/* Unread messages filter label */
+"CHAT_UNREAD_MESSAGES" = "Unread Messages";
 
 /* DM Attachments Files screen title */
 "DM_ATTACHMENT_LIST_FILES_TITLE" = "Files";
@@ -11856,6 +11925,9 @@ eg. "Super Following Jack" */
 
 /* DM Conversation footer message requests title. %@: user screen name */
 "DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_USER_TITLE" = "Accept message request from •|•%@•|•?";
+
+/* DM Conversation footer read only admin only send messages title */
+"DM_CONVERSATION_FOOTER_READ_ONLY_REASON_ADMIN_ONLY_SEND_MESSAGES_TITLE" = "Only admins can send messages.";
 
 /* DM Conversation footer read only age restricted title */
 "DM_CONVERSATION_FOOTER_READ_ONLY_REASON_AGE_RESTRICTED_TITLE" = "You cannot message this user due to age restrictions.";
@@ -12465,6 +12537,9 @@ eg. "Super Following Jack" */
 
 /* DM Forward message sheet alert title when selecting a legacy conversation */
 "DM_FORWARD_SHEET_LEGACY_CONVERSATION_ALERT_TITLE" = "Cannot forward message";
+
+/* DM Forward message sheet alert message when selecting a read-only conversation that does not allow sending messages. */
+"DM_FORWARD_SHEET_READ_ONLY_CONVERSATION_ALERT_MESSAGE" = "You can’t send messages in this conversation.";
 
 /* DM Forward message sheet confirmation toast when forwarding message to a conversation with a name */
 "DM_FORWARD_SHEET_TOAST_CONVERSATION" = "Message forwarded to %@";
@@ -17526,11 +17601,17 @@ eg. "Super Following Jack" */
 /* Payments: Title of the button that opens the flow that allows a user to request or send money to someone else on the platform. */
 "PAYMENTS_CREATE_OR_REQUEST_TRANSFER_ACTION" = "Pay or Request";
 
+/* Payments: Title prompting the user to pick an end for a recurring scheduled payment */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_END_TITLE" = "When should we stop doing payments?";
+
 /* Payments: Title prompting the user to pick a date for a one-time scheduled payment */
 "PAYMENTS_CREATE_SCHEDULED_PAYMENT_START_DATE_ONCE_TITLE" = "When should we send this payment?";
 
+/* Payments: Title prompting the user to pick a date for a recurring scheduled payment */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_START_DATE_RECURRING_TITLE" = "When should we start doing payments?";
+
 /* Payments: Title prompting the user to select a scheduled payment type */
-"PAYMENTS_CREATE_SCHEDULED_PAYMENT_TYPE_TITLE" = "What do you want to schedule?";
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_TYPE_TITLE" = "How often do you want to do these payments?";
 
 /* Payments: Title of button on the amount screen when creating a shareable payment link */
 "PAYMENTS_CREATE_TRANSFER_LINK_ACTION" = "Create Link";
@@ -17598,23 +17679,95 @@ eg. "Super Following Jack" */
 /* Payments: Title the button that opens direct deposit options */
 "PAYMENTS_DIRECT_DEPOSIT_ACTION" = "Direct Deposit";
 
-/* Payments: Subtitle for direct deposit screen */
-"PAYMENTS_DIRECT_DEPOSIT_SUBTITLE" = "Provide the details below to your employer or use them in your HR/payroll software to set up direct deposit.";
+/* Payments: Button to setup direct deposit automatically (ex: going through a flow with Pinwheel) */
+"PAYMENTS_DIRECT_DEPOSIT_AUTOMATED_FLOW_ACTION" = "Connect Automatically";
+
+/* Payments: Button to generate a PDF form to give to HR to setup the direct deposit on the user's X Money account */
+"PAYMENTS_DIRECT_DEPOSIT_CREATE_FORM_ACTION" = "Create Direct Deposit Form";
+
+/* Payments: Description above the button to generate a PDF form to give to HR to setup the direct deposit on the user's X Money account */
+"PAYMENTS_DIRECT_DEPOSIT_CREATE_FORM_DESCRIPTION" = "Generate a pre-filled PDF you can send directly to your payroll team";
+
+/* Payments: Description shown when the payroll provider requires multi-factor authentication to be enabled */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_2FA_REQUIRED_DESCRIPTION" = "Your payroll provider needs you to turn on multi-factor authentication before connecting.";
+
+/* Payments: Title shown when the payroll provider requires multi-factor authentication (2FA/MFA) to be enabled before allowing direct deposit changes */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_2FA_REQUIRED_TITLE" = "Multi-factor auth required";
+
+/* Payments: Description shown when access to the user's payroll account is blocked */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_CANT_ACCESS_ACCOUNT_DESCRIPTION" = "Your payroll provider is blocking access right now.";
+
+/* Payments: Title shown when access to the user's payroll account is blocked (e.g. by the provider's security rules) */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_CANT_ACCESS_ACCOUNT_TITLE" = "We can’t access your payroll account";
+
+/* Payments: Generic description shown for any other direct deposit error that doesn't match a more specific case */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_GENERIC_DESCRIPTION" = "We ran into an issue connecting to your payroll provider.";
+
+/* Payments: Generic title shown for any other direct deposit error that doesn't match a more specific case */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_GENERIC_TITLE" = "Something went wrong";
+
+/* Payments: Description shown when the direct deposit setup process could not be completed successfully */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_INCOMPLETE_SETUP_DESCRIPTION" = "Your payroll provider didn’t accept the automatic update.";
+
+/* Payments: Title shown when the direct deposit setup process could not be completed successfully */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_INCOMPLETE_SETUP_TITLE" = "We couldn’t complete your setup";
+
+/* Payments: Description shown when a direct deposit setup fails because the user has no internet connection */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_OFFLINE_DESCRIPTION" = "Looks like your internet connection dropped. Please reconnect and try again.";
+
+/* Payments: Title shown when a direct deposit setup fails because the user has no internet connection */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_OFFLINE_TITLE" = "You’re offline";
+
+/* Payments: Description shown when the payroll provider's service is down or unreachable */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_PROVIDER_UNAVAILABLE_DESCRIPTION" = "We’re having trouble reaching your payroll provider right now.";
+
+/* Payments: Title shown when the payroll provider's service is down or unreachable during direct deposit setup */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_PROVIDER_UNAVAILABLE_TITLE" = "Your payroll provider is unavailable";
+
+/* Payments: Description shown when the payroll provider rejects the direct deposit change */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_PROVIDER_WONT_ACCEPT_DESCRIPTION" = "Your payroll account has restrictions that prevent the automatic update.";
+
+/* Payments: Title shown when the payroll provider rejects the direct deposit change (account restrictions, policy, etc.) */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_PROVIDER_WONT_ACCEPT_TITLE" = "Your payroll provider won’t accept this change";
+
+/* Payments: Description shown when a direct deposit setup fails due to session timeout */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_TIMEOUT_DESCRIPTION" = "This happens if the switching page was open for a while.";
+
+/* Payments: Title shown when a direct deposit setup fails due to session timeout (usually because the payroll login page was left open too long) */
+"PAYMENTS_DIRECT_DEPOSIT_ERROR_TIMEOUT_TITLE" = "Your session timed out";
+
+/* Payments: Sentence that explains how to retry the automatic linking of the direct deposit. Should contain PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_ACTION_LINK. */
+"PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_ACTION" = "Want to retry the connection? Try again";
+
+/* Payments: Title of the link to retry the automatic linking of the direct deposit. Should be in PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_ACTION. */
+"PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_ACTION_LINK" = "Try again";
+
+/* Payments: Sentence that explains that the user can use manual procedures to setup their direct deposit. */
+"PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_DESCRIPTION" = "You can set up direct deposit manually using your account details, or generate a pre-filled PDF you can email directly to your HR team.";
+
+/* Payments: Button to setup direct deposit manually (ex: get account/routing number to give them to HR) */
+"PAYMENTS_DIRECT_DEPOSIT_MANUAL_FLOW_ACTION" = "Connect Manually";
+
+/* Payments: Description of the flow to setup direct deposit manually (ex: get account/routing number to give them to HR) */
+"PAYMENTS_DIRECT_DEPOSIT_MANUAL_FLOW_DESCRIPTION" = "Copy and paste your info into your payroll portal";
+
+/* Payments: Title of the flow to setup direct deposit manually (ex: get account/routing number to give them to HR) */
+"PAYMENTS_DIRECT_DEPOSIT_MANUAL_FLOW_TITLE" = "Connect manually";
 
 /* Payments: Subtitle for the third benefit row in the automated direct deposit flow, explaining early monthly paycheck receipt */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_ADVANCED_PAYCHECK_SUBTITLE" = "Receive your paycheck up to two days earlier than your usual payday.";
+"PAYMENTS_DIRECT_DEPOSIT_SWITCH_ADVANCED_PAYCHECK_SUBTITLE" = "Receive your paycheck up to two days earlier than most banks";
 
 /* Payments: Title for the third benefit row in the automated direct deposit flow, highlighting early paycheck receipt */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_ADVANCED_PAYCHECK_TITLE" = "Accelerate Your Pay";
+"PAYMENTS_DIRECT_DEPOSIT_SWITCH_ADVANCED_PAYCHECK_TITLE" = "Get paid early";
 
 /* Payments: Subtitle for the first benefit row in the automated direct deposit flow, describing the partner’s solution for updating bank accounts */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_AUTOMATED_SUBTITLE" = "X uses Pinwheel to update your payroll provider automatically.";
+"PAYMENTS_DIRECT_DEPOSIT_SWITCH_AUTOMATED_SUBTITLE" = "X can update most payroll providers automatically";
 
 /* Payments: Title for the first benefit row in the automated direct deposit flow, highlighting automation */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_AUTOMATED_TITLE" = "Seamless Setup";
+"PAYMENTS_DIRECT_DEPOSIT_SWITCH_AUTOMATED_TITLE" = "Quick Setup";
 
-/* Payments: Disclaimer text shown in the automated direct deposit flow, linking to Pinwheel’s Terms of Service and Privacy Policy */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER" = "By selecting “Continue” you acknowledge you have reviewed and agree to Pinwheel’s Terms of Service & Privacy Policy.";
+/* Payments: Disclaimer text shown in the automated direct deposit flow, linking to Pinwheel’s Terms of Service and Privacy Policy. %@ is replaced by an action name already localized (ex: Continue). */
+"PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER_FORMAT" = "By selecting “%@” you acknowledge you have reviewed and agree to Pinwheel’s Terms of Service & Privacy Policy.";
 
 /* Payments: Text for the link to Pinwheel’s Privacy Policy in the automated direct deposit disclaimer. Must be included in 'PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER'. */
 "PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER_PRIVACY_POLICY_LINK" = "Privacy Policy";
@@ -17623,16 +17776,16 @@ eg. "Super Following Jack" */
 "PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER_TERMS_OF_SERVICE_LINK" = "Terms of Service";
 
 /* Payments: Subtitle for the second benefit row in the automated direct deposit flow, explaining immediate interest earnings */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_EARN_APY_SUBTITLE" = "Start earning big the moment your paycheck hits your account.";
+"PAYMENTS_DIRECT_DEPOSIT_SWITCH_EARN_APY_SUBTITLE" = "Start earning industry leading interest the moment your paycheck hits X";
 
 /* Payments: Title for the second benefit row in the automated direct deposit flow, highlighting interest earnings */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_EARN_APY_TITLE" = "Earn Leading Interest";
+"PAYMENTS_DIRECT_DEPOSIT_SWITCH_EARN_APY_TITLE" = "Earn High Interest";
 
 /* Payments: Toast message shown when the automated direct deposit setup is completed successfully */
 "PAYMENTS_DIRECT_DEPOSIT_SWITCH_SUCCESS_TOAST" = "You’ve setup your Direct Deposit successfully.";
 
 /* Payments: Title for direct deposit screen */
-"PAYMENTS_DIRECT_DEPOSIT_TITLE" = "Set up Direct Deposit";
+"PAYMENTS_DIRECT_DEPOSIT_TITLE" = "Set up direct deposit";
 
 /* Payments: Action to disable all the notifications for a specific mode (email, push). */
 "PAYMENTS_DISABLE_ALL_ACTION" = "Disable All";
@@ -18240,11 +18393,17 @@ eg. "Super Following Jack" */
 /* Payments: Additional message shown when a user has exceeded their weekly transaction limits, advising them to try again later. %1$@ is replaced by the formatted amount corresponding to the limit. %2$@ is replaced by the formatted amount corresponding to the used portion. */
 "PAYMENTS_LIMIT_EXCEEDED_ERROR_WEEKLY_USED_VS_MAX_VALUE_MESSAGE" = "You have already used %1$@ out of your %2$@ weekly limit. Please try again with a lower amount or retry tomorrow.";
 
-/* Payments: Subtitle for the notifications task, explaining the benefit of enabling notifications */
-"PAYMENTS_LOCAL_TASK_NOTIFICATIONS_SUBTITLE" = "Ensure you get important security alerts and stay on top of your spending";
+/* Payments: Subtitle for the ID verification task, prompting the user to ID verify to get a bank account */
+"PAYMENTS_LOCAL_TASK_ID_VERIFICATION_SUBTITLE" = "Get the full benefit of X Money and unleash your account";
 
-/* Payments: Title for the notifications task, prompting the user to enable notifications */
-"PAYMENTS_LOCAL_TASK_NOTIFICATIONS_TITLE" = "Enable Notifications";
+/* Payments: Title for the ID verification task, prompting the user to ID verify to get a bank account */
+"PAYMENTS_LOCAL_TASK_ID_VERIFICATION_TITLE" = "Verify your identity";
+
+/* Payments: Subtitle for the X Card task, prompting the user to order their physical X Card */
+"PAYMENTS_LOCAL_TASK_X_CARD_SUBTITLE" = "Spend your funds and get cash back on every purchase";
+
+/* Payments: Title for the X Card task, prompting the user to order their physical X Card */
+"PAYMENTS_LOCAL_TASK_X_CARD_TITLE" = "Get the X Card";
 
 /* Payments: Title of a button that terminates a X Money session on a user device */
 "PAYMENTS_LOG_OUT_ACTION" = "Log Out";
@@ -18531,6 +18690,9 @@ eg. "Super Following Jack" */
 /* Payments: Title of the screen where users create a PIN for use with TouchID during X Payments onboarding. %@ is replaced by the number of digits required for the PIN. */
 "PAYMENTS_ONBOARDING_PIN_TOUCH_ID_TITLE" = "Create a %@-digit PIN to secure your account. This can be used with TouchID";
 
+/* Payments: Label for the region field in the X Payments onboarding process. */
+"PAYMENTS_ONBOARDING_REGION_FIELD_NAME" = "Region";
+
 /* Payments: Title of requirement for X Payments eligibility stating the geographical restriction. */
 "PAYMENTS_ONBOARDING_REQUIREMENT_GEOGRAPHY_TITLE" = "We are currently only allowing US customers.";
 
@@ -18587,6 +18749,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the screen where users enter their zip code during X Payments onboarding. */
 "PAYMENTS_ONBOARDING_ZIP_CODE_TITLE" = "Enter your residential ZIP Code";
+
+/* Payments: Word shown on multiple options on the screen. Usually shown on its own, used as a separator. (ex: Option A [new line] or [new line] Option B. */
+"PAYMENTS_OPTIONS_OR_SEPARATOR" = "or";
 
 /* Payments: Attribute describing modes supported for deposits (ACH, AFT, ...) */
 "PAYMENTS_PAYMENT_METHOD_ATTRIBUTE_DEPOSIT_MODES" = "Deposit modes";
@@ -19029,14 +19194,29 @@ eg. "Super Following Jack" */
 /* Payments: Label for the amount attribute on a scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_AMOUNT" = "Amount";
 
-/* Payments: Label for the date attribute on a scheduled payment */
-"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_DATE" = "Date";
+/* Payments: Label for the end attribute on a scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_END" = "Ends";
+
+/* Payments: Label for the value equivalent to "never", for the end attribute on a scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_END_VALUE_NEVER" = "Never";
+
+/* Payments: Label for the frequency attribute on a scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_FREQUENCY" = "Sent";
 
 /* Payments: Label for the memo attribute on a scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_MEMO" = "Memo";
 
+/* Payments: Label for the next execution attribute on a scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_NEXT_EXECUTION" = "Next payment";
+
 /* Payments: Label for the recipient attribute on a scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_RECIPIENT" = "Recipient";
+
+/* Payments: Label for the date attribute on a scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_RECURRING_START_DATE" = "Starts";
+
+/* Payments: Label for the date attribute on a scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_START_DATE" = "Date";
 
 /* Payments: Annually frequency option for a recurring scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_FREQUENCY_ANNUALLY" = "Annually";
@@ -19047,26 +19227,29 @@ eg. "Super Following Jack" */
 /* Payments: Monthly frequency option for a recurring scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_FREQUENCY_MONTHLY" = "Monthly";
 
+/* Payments: One-time frequency option for a recurring scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_FREQUENCY_ONCE" = "Once";
+
 /* Payments: Weekly frequency option for a recurring scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_FREQUENCY_WEEKLY" = "Weekly";
 
-/* Payments: Message shown when a one-time scheduled payment is successfully created. %@ is replaced by the scheduled date. */
-"PAYMENTS_SCHEDULED_PAYMENT_ONCE_SUCCESS_MESSAGE" = "It will be sent on %@. You can cancel it in your app Settings page.";
+/* Payments: Message shown when a scheduled payment is successfully created. %@ is replaced by the scheduled date. */
+"PAYMENTS_SCHEDULED_PAYMENT_SUCCESS_MESSAGE" = "It will be sent on %@. You can cancel it in your app Settings page.";
 
-/* Payments: Title shown when a one-time scheduled payment is successfully created. %@ is replaced by a formatted amount (ex: $10). */
-"PAYMENTS_SCHEDULED_PAYMENT_ONCE_SUCCESS_TITLE" = "Your %@ payment is now scheduled";
-
-/* Payments: Subtitle for the one-time payment option in the scheduled payment type picker */
-"PAYMENTS_SCHEDULED_PAYMENT_TYPE_ONCE_SUBTITLE" = "Select any date in the future";
-
-/* Payments: Title for the one-time payment option in the scheduled payment type picker */
-"PAYMENTS_SCHEDULED_PAYMENT_TYPE_ONCE_TITLE" = "One time payment";
+/* Payments: Title shown when a scheduled payment is successfully created. %@ is replaced by a formatted amount (ex: $10). */
+"PAYMENTS_SCHEDULED_PAYMENT_SUCCESS_TITLE" = "Your %@ payment is now scheduled";
 
 /* Payments: Action button to confirm scheduling a payment */
 "PAYMENTS_SCHEDULE_ACTION" = "Schedule";
 
+/* Payments: Action to schedule a new issued check */
+"PAYMENTS_SCHEDULE_ISSUED_CHECK_ACTION" = "Schedule a check";
+
 /* Payments: Action to schedule a new transfer */
-"PAYMENTS_SCHEDULE_TRANSFER_ACTION" = "Schedule a new transfer";
+"PAYMENTS_SCHEDULE_TRANSFER_ACTION" = "Schedule a transfer";
+
+/* Payments: Action to schedule a new wire */
+"PAYMENTS_SCHEDULE_WIRE_ACTION" = "Schedule a wire";
 
 /* Payments: Error toast message when updating PIN settings fails */
 "PAYMENTS_SECURITY_AND_PRIVACY_PIN_SETTINGS_ERROR_TOAST" = "Unable to save changes";
@@ -26160,6 +26343,51 @@ eg. "- @jack" */
 
 // Section: Frameworks/TwitterSelfServeAds/Sources/TwitterSelfServeAdsStrings/en.lproj/Localizable.strings
 
+/* Label of the action-text picker row in the CTA editor sub-sheet. Tapping opens a drill-in selector. */
+"BOOST_SHEET_CTA_ACTION_LABEL" = "Label";
+
+/* Label of the toggle row in the CTA editor sub-sheet that controls whether a CTA will be attached to the boosted post. */
+"BOOST_SHEET_CTA_ENABLE_LABEL" = "Enable";
+
+/* Label for the call-to-action field row on the redesigned Boost sheet. Tapping the row opens the CTA editor sub-sheet. */
+"BOOST_SHEET_CTA_LABEL" = "Call to action";
+
+/* Label option in the CTA action-text picker. Displayed as the call-to-action button text on the boosted post. */
+"BOOST_SHEET_CTA_LABEL_DOWNLOAD" = "Download";
+
+/* Label option in the CTA action-text picker. Displayed as the call-to-action button text on the boosted post. */
+"BOOST_SHEET_CTA_LABEL_LEARN_MORE" = "Learn More";
+
+/* Label option in the CTA action-text picker that clears any selected label so the server picks a default. */
+"BOOST_SHEET_CTA_LABEL_NONE" = "None";
+
+/* Label option in the CTA action-text picker. Displayed as the call-to-action button text on the boosted post. */
+"BOOST_SHEET_CTA_LABEL_SHOP_NOW" = "Shop Now";
+
+/* Label option in the CTA action-text picker. Displayed as the call-to-action button text on the boosted post. */
+"BOOST_SHEET_CTA_LABEL_VISIT_NOW" = "Visit Now";
+
+/* Text on the primary action button at the bottom of the CTA editor sub-sheet. */
+"BOOST_SHEET_CTA_SAVE_BUTTON" = "Save";
+
+/* Title of the CTA editor sub-sheet shown in its header. */
+"BOOST_SHEET_CTA_TITLE" = "Call to action";
+
+/* Toast shown after the user backs out of the CTA editor with the Enable toggle on but no URL filled in. Their toggle/label edits aren't applied. */
+"BOOST_SHEET_CTA_UNSAVED_TOAST" = "Your changes were not saved";
+
+/* Label of the URL input row in the CTA editor sub-sheet. */
+"BOOST_SHEET_CTA_URL_LABEL" = "URL";
+
+/* Placeholder text shown in the URL input row of the CTA editor sub-sheet before the user types anything. */
+"BOOST_SHEET_CTA_URL_PLACEHOLDER" = "https://example.com";
+
+/* Value shown on the call-to-action field row in the main Boost sheet when a CTA has been configured. Tapping the row re-opens the editor. */
+"BOOST_SHEET_CTA_VALUE_EDIT" = "Edit";
+
+/* Value shown on the call-to-action field row in the main Boost sheet when no CTA has been configured yet. */
+"BOOST_SHEET_CTA_VALUE_SET" = "Set";
+
 /* Label for the Apple payment option on the redesigned Boost sheet. */
 "BOOST_SHEET_PAY_WITH_APPLE" = "Apple";
 
@@ -26238,17 +26466,35 @@ eg. "- @jack" */
 /* Title of the attribution section in the boost education animation. */
 "QUICK_PROMOTE_EDUCATION_BOOSTED_POST" = "Boosted Post";
 
-/* Decorative text in boost education animation showing an example impression range for a budget tier. */
-"QUICK_PROMOTE_EDUCATION_BUDGET_RANGE_01" = "6.1K - 14K impressions";
+/* Label on the call-to-action button at the bottom of the boost education screen that proceeds to the boost sheet. Used in NUX mode where the user is being introduced to boost for the first time. */
+"QUICK_PROMOTE_EDUCATION_CONTINUE_BUTTON" = "Continue";
 
-/* Decorative text in boost education animation showing an example impression range for a budget tier. */
-"QUICK_PROMOTE_EDUCATION_BUDGET_RANGE_02" = "13K - 27K impressions";
+/* Description text shown below the animation on the boost education screen, explaining how the boost feature works. */
+"QUICK_PROMOTE_EDUCATION_DESCRIPTION" = "Select your boost tier and watch your post go viral. Boosted posts will be labeled as boosted.";
 
-/* Decorative text in boost education animation showing an example impression range for a budget tier. */
-"QUICK_PROMOTE_EDUCATION_BUDGET_RANGE_03" = "66K - 136K impressions";
+/* Label on the call-to-action button at the bottom of the boost education screen that dismisses the education screen and returns the user to the boost sheet. Used in help-reference mode when the user opened the education screen as a reference from the boost sheet. */
+"QUICK_PROMOTE_EDUCATION_GOT_IT_BUTTON" = "Got It";
 
-/* Decorative text in boost education animation showing an example impression range for a budget tier. */
-"QUICK_PROMOTE_EDUCATION_BUDGET_RANGE_04" = "122K - 272K impressions";
+/* Decorative text in boost education animation showing an example view range for a budget tier. */
+"QUICK_PROMOTE_EDUCATION_PICKER_TIER_01_VIEWS" = "500 – 1.5K views";
+
+/* Decorative text in boost education animation showing an example view range for a budget tier. */
+"QUICK_PROMOTE_EDUCATION_PICKER_TIER_02_VIEWS" = "3K – 8K views";
+
+/* Decorative text in boost education animation showing an example view range for a budget tier. */
+"QUICK_PROMOTE_EDUCATION_PICKER_TIER_03_VIEWS" = "8K – 15K views";
+
+/* Decorative text in boost education animation showing an example view range for a budget tier. */
+"QUICK_PROMOTE_EDUCATION_PICKER_TIER_04_VIEWS" = "15K – 30K views";
+
+/* Decorative text in boost education animation showing an example view range for a budget tier. */
+"QUICK_PROMOTE_EDUCATION_PICKER_TIER_05_VIEWS" = "30K – 80K views";
+
+/* Decorative text in boost education animation showing an example view range for a budget tier. */
+"QUICK_PROMOTE_EDUCATION_PICKER_TIER_06_VIEWS" = "80K – 150K views";
+
+/* Decorative text in boost education animation showing an example view range for a budget tier. */
+"QUICK_PROMOTE_EDUCATION_PICKER_TIER_07_VIEWS" = "150K – 300K views";
 
 /* Show more link shown when post text is truncated in the boost education animation. */
 "QUICK_PROMOTE_EDUCATION_SHOW_MORE" = "Show more";
@@ -26777,9 +27023,6 @@ eg. "- @jack" */
 /* Delete conversation confirmation message */
 "CHAT_DELETE_CONVO_CONFIRM" = "Are you sure you want to delete this conversation? This action cannot be undone.";
 
-/* Direct Messages title */
-"CHAT_DIRECT_MESSAGES" = "Direct Messages";
-
 /* Dismiss button label */
 "CHAT_DISMISS" = "Dismiss";
 
@@ -26899,9 +27142,6 @@ eg. "- @jack" */
 
 /* Group invite requests to join label */
 "CHAT_GROUP_INVITE_REQUESTS" = "Requests to Join";
-
-/* Group messages label */
-"CHAT_GROUP_MESSAGES" = "Group Messages";
 
 /* Help settings label */
 "CHAT_HELP" = "Help";
@@ -27298,9 +27538,6 @@ eg. "- @jack" */
 
 /* Unblock messages confirmation message */
 "CHAT_UNBLOCK_MSGS_CONFIRM" = "You will receive messages from this person again.";
-
-/* Unread messages filter label */
-"CHAT_UNREAD_MESSAGES" = "Unread Messages";
 
 /* Unsupported attachment fallback text */
 "CHAT_UNSUPPORTED_ATTACHMENT" = "Unsupported attachment";
