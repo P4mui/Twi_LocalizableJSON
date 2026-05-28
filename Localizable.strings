@@ -1320,27 +1320,17 @@ e.g. Removed from MyRecipes.
 /* Timeframe button label for the 1 day range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_1D_LABEL" = "1D";
 
-"CASHTAG_INFO_TIMEFRAME_1D_LABEL_LONG" = "1 day";
-
 /* Timeframe button label for the 1 month range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_1M_LABEL" = "1M";
-
-"CASHTAG_INFO_TIMEFRAME_1M_LABEL_LONG" = "1 month";
 
 /* Timeframe button label for the 1 week range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_1W_LABEL" = "1W";
 
-"CASHTAG_INFO_TIMEFRAME_1W_LABEL_LONG" = "1 week";
-
 /* Timeframe button label for the 1 year range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_1Y_LABEL" = "1Y";
 
-"CASHTAG_INFO_TIMEFRAME_1Y_LABEL_LONG" = "1 year";
-
 /* Timeframe button label for the full range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_ALL_LABEL" = "ALL";
-
-"CASHTAG_INFO_TIMEFRAME_ALL_LABEL_LONG" = "All-time";
 
 /* Segment title for the Top timeline in the cashtag info sheet. */
 "CASHTAG_INFO_TOP_TAB_TITLE" = "Top";
@@ -7283,6 +7273,9 @@ This text is the accessibility hint for the button that lets the user change the
 /* Title for menu action to post video reaction */
 "REACT_WITH_VIDEO" = "React with Video";
 
+/* Prefix shown next to the original post's author below a video reaction post. The full label reads e.g. "Reaction to Jane Doe" and links to the original post being reacted to. */
+"REACT_WITH_VIDEO_ATTRIBUTION_PREFIX" = "Reaction to";
+
 /* Profile details Magic Recs recommendation */
 "RECOMMENDED_BY_TWITTER_LABEL" = "Recommended by X";
 
@@ -8358,6 +8351,9 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Label for the share-profile button in the redesigned profile header action row. */
 "SHARE_PROFILE_BUTTON_LABEL" = "Share profile";
+
+/* Footer text on the profile share card */
+"SHARE_PROFILE_CARD_FOOTER_LABEL" = "Join me on";
 
 /* Menu label to present more Profile sharing options eg. Share @jack via... */
 "SHARE_PROFILE_VIA_ACTION_FORMAT" = "Share %@ via…";
@@ -9610,6 +9606,9 @@ eg. "Super Following Jack" */
 
 /* Title for why you're seeing this post web page. */
 "TWEET_PROMOTE_WYSTP_INFO_WEB_VIEW_TITLE" = "Why this post";
+
+/* Title for the confirmation alert shown when the user taps undo to remove the last recorded clip in the video reaction camera. The alert presents Cancel and Discard buttons. */
+"TWEET_REACTION_DISCARD_LAST_CLIP_ALERT_TITLE" = "Discard the last clip?";
 
 /* Button action for a reported post tombstone */
 "TWEET_REPORTED_TOMBSTONE_ACTION_LABEL" = "View";
@@ -11686,11 +11685,32 @@ eg. "Super Following Jack" */
 
 // Section: Frameworks/ChatUI/Sources/ChatStrings/en.lproj/Localizable.strings
 
+/* Auto-download footer description */
+"CHAT_AUTO_DOWNLOAD_FOOTER" = "Automatically download media based on connection.";
+
+/* Auto-download never option */
+"CHAT_AUTO_DOWNLOAD_NEVER" = "Never";
+
+/* Auto-download WiFi option */
+"CHAT_AUTO_DOWNLOAD_WIFI" = "WiFi";
+
+/* Auto-download WiFi and cellular option */
+"CHAT_AUTO_DOWNLOAD_WIFI_CELLULAR" = "WiFi + Cellular";
+
 /* Cancel action title */
 "CHAT_CANCEL" = "Cancel";
 
+/* Data saver banner shown when on a constrained network */
+"CHAT_DATA_SAVER_BANNER_MESSAGE" = "Data saver is on due to limited network connectivity.";
+
+/* Data usage settings title */
+"CHAT_DATA_USAGE" = "Data Usage";
+
 /* Direct Messages title */
 "CHAT_DIRECT_MESSAGES" = "Direct Messages";
+
+/* Documents section title */
+"CHAT_DOCUMENTS" = "Documents";
 
 /* Empty search conversations message */
 "CHAT_EMPTY_SEARCH_CONVERSATIONS_MESSAGE" = "Try searching for a different name or username.";
@@ -11707,8 +11727,56 @@ eg. "Super Following Jack" */
 /* Group messages label */
 "CHAT_GROUP_MESSAGES" = "Group Messages";
 
+/* Storage settings title */
+"CHAT_STORAGE" = "Storage";
+
+/* Section title in DM Storage settings for the breakdown of downloaded media by attachment type (Photos & Videos, Documents, Voice Messages). */
+"CHAT_STORAGE_BY_TYPE" = "Storage by Type";
+
+/* Confirmation button label for destructive storage actions like clearing media. */
+"CHAT_STORAGE_CLEAR" = "Clear";
+
+/* Destructive button label in DM Storage settings that deletes all downloaded media from this device. */
+"CHAT_STORAGE_CLEAR_MEDIA" = "Clear Media";
+
+/* Confirmation alert message shown before clearing all downloaded DM media. %@ is the formatted size, e.g. 1.2 GB. */
+"CHAT_STORAGE_CLEAR_MEDIA_MESSAGE" = "This removes %@ of downloaded media from this device. Your messages remain available, but media must be downloaded again.";
+
+/* Confirmation alert title shown before clearing all downloaded DM media. */
+"CHAT_STORAGE_CLEAR_MEDIA_TITLE" = "Clear media?";
+
+/* Row title in DM Storage settings under "Storage by Type"; trailing value is the total bytes used by downloaded files and other documents, e.g. "1.2 GB". */
+"CHAT_STORAGE_DOCUMENTS" = "Documents";
+
+/* Eviction policy option in DM Storage settings: keep media for the last 30 days. */
+"CHAT_STORAGE_KEEP_MEDIA_30_DAYS" = "30 days";
+
+/* Eviction policy option in DM Storage settings: keep media for the last 60 days. */
+"CHAT_STORAGE_KEEP_MEDIA_60_DAYS" = "60 days";
+
+/* Eviction policy option in DM Storage settings: keep media for the last 6 months. */
+"CHAT_STORAGE_KEEP_MEDIA_6_MONTHS" = "6 months";
+
+/* Footer in DM Storage settings explaining the Keep Media auto-deletion behavior. */
+"CHAT_STORAGE_KEEP_MEDIA_FOOTER" = "Downloaded media older than your selection is automatically removed from this device.";
+
+/* Eviction policy option in DM Storage settings: never auto-delete media. */
+"CHAT_STORAGE_KEEP_MEDIA_FOREVER" = "Forever";
+
+/* Picker row title in DM Storage settings for selecting how long downloaded media is kept on this device. */
+"CHAT_STORAGE_KEEP_MEDIA_ROW_TITLE" = "Keep Media";
+
+/* Row title in DM Storage settings under "Storage by Type"; trailing value is the total bytes used by downloaded photos, videos, and GIFs, e.g. "1.2 GB". */
+"CHAT_STORAGE_PHOTOS_VIDEOS" = "Photos & Videos";
+
+/* Row title in DM Storage settings under "Storage by Type"; trailing value is the total bytes used by downloaded voice messages, e.g. "1.2 GB". */
+"CHAT_STORAGE_VOICE_MSGS" = "Voice Messages";
+
 /* Unread messages filter label */
 "CHAT_UNREAD_MESSAGES" = "Unread Messages";
+
+/* Videos section title */
+"CHAT_VIDEOS" = "Videos";
 
 /* DM Attachments Files screen title */
 "DM_ATTACHMENT_LIST_FILES_TITLE" = "Files";
@@ -13766,6 +13834,9 @@ eg. "Super Following Jack" */
 
 /* DM Settings section reset PIN item title */
 "DM_SETTINGS_SECTION_RESET_PIN_ITEM_TITLE" = "Change Passcode";
+
+/* DM Settings security section title; groups passcode/reset rows. */
+"DM_SETTINGS_SECTION_SECURITY_TITLE" = "Security";
 
 /* Button label that copies the uploaded debug logs link to the clipboard from the toast action. */
 "DM_SETTINGS_TROUBLESHOOTING_DEBUG_LOGS_COPY_ACTION" = "Copy link";
@@ -23732,6 +23803,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Title of the webview showing posts flagged as sensitive content in which a user can appeal */
 "FLAGGED_TWEETS_APPEAL_WEBVIEW_TITLE" = "We flagged these posts as sensitive content";
 
+/* Label for button indicating you have just followed this user. */
+"FOLLOWED_ACTION_LABEL" = "Followed";
+
+/* Label for button indicating you have just followed this user back (the user was already following you). */
+"FOLLOWED_BACK_ACTION_LABEL" = "Followed back";
+
 /* Title for Followers view */
 "FOLLOWERS_LABEL" = "Followers";
 
@@ -26930,18 +27007,6 @@ eg. "- @jack" */
 /* Audio call coming soon title */
 "CHAT_AUDIO_CALL_COMING_SOON" = "Audio Calling Coming Soon";
 
-/* Auto-download footer description */
-"CHAT_AUTO_DOWNLOAD_FOOTER" = "Automatically download media based on connection.";
-
-/* Auto-download never option */
-"CHAT_AUTO_DOWNLOAD_NEVER" = "Never";
-
-/* Auto-download WiFi option */
-"CHAT_AUTO_DOWNLOAD_WIFI" = "WiFi";
-
-/* Auto-download WiFi and cellular option */
-"CHAT_AUTO_DOWNLOAD_WIFI_CELLULAR" = "WiFi + Cellular";
-
 /* Back button label */
 "CHAT_BACK" = "Back";
 
@@ -27008,12 +27073,6 @@ eg. "- @jack" */
 /* Copyright notice. %@: year */
 "CHAT_COPYRIGHT" = "Copyright © %@ X Corp.";
 
-/* Data saver banner shown when on a constrained network */
-"CHAT_DATA_SAVER_BANNER_MESSAGE" = "Data saver is on due to limited network connectivity.";
-
-/* Data usage settings title */
-"CHAT_DATA_USAGE" = "Data Usage";
-
 /* Light/day theme option */
 "CHAT_DAY" = "Day";
 
@@ -27025,9 +27084,6 @@ eg. "- @jack" */
 
 /* Dismiss button label */
 "CHAT_DISMISS" = "Dismiss";
-
-/* Documents section title */
-"CHAT_DOCUMENTS" = "Documents";
 
 /* Double tap interaction section header */
 "CHAT_DOUBLE_TAP" = "Double Tap";
@@ -27335,6 +27391,9 @@ eg. "- @jack" */
 /* Reset button label */
 "CHAT_RESET" = "Reset";
 
+/* Alert message shown when the user taps the Save action on a media attachment in a chat message but photo library access was previously denied. Instructs the user to allow access in iOS Settings. */
+"CHAT_SAVE_MEDIA_PHOTO_ACCESS_DENIED_MESSAGE" = "Allow photo library access in Settings to save photos and videos from messages to your library.";
+
 /* Save to photos label */
 "CHAT_SAVE_TO_PHOTOS" = "Save to Photos";
 
@@ -27422,56 +27481,23 @@ eg. "- @jack" */
 /* Start a conversation with Grok action */
 "CHAT_START_CONVO_WITH_GROK" = "Start a conversation with Grok";
 
-/* Storage settings title */
-"CHAT_STORAGE" = "Storage";
-
 /* Storage by conversations section title */
 "CHAT_STORAGE_BY_CONVERSATIONS" = "Storage by Conversations";
-
-/* Storage by type section title */
-"CHAT_STORAGE_BY_TYPE" = "Storage by Type";
 
 /* Cache storage category */
 "CHAT_STORAGE_CACHE" = "Cache";
 
-/* Clear action label */
-"CHAT_STORAGE_CLEAR" = "Clear";
-
-/* Clear all action label */
-"CHAT_STORAGE_CLEAR_ALL" = "Clear All";
-
-/* Clear all data button label */
-"CHAT_STORAGE_CLEAR_ALL_DATA" = "Clear All Data";
-
-/* Clear all data confirmation message. %@: formatted size */
-"CHAT_STORAGE_CLEAR_ALL_DATA_MESSAGE" = "This removes %@ of downloaded media from this device. Your messages remain available, but media must be downloaded again.";
-
-/* Clear all data confirmation dialog title */
-"CHAT_STORAGE_CLEAR_ALL_DATA_TITLE" = "Clear All Data?";
-
-/* Clear cache button label */
+/* Destructive button label in DM Storage settings that deletes all cached files from this device. */
 "CHAT_STORAGE_CLEAR_CACHE" = "Clear Cache";
 
-/* Clear cache confirmation message. %@: formatted size */
-"CHAT_STORAGE_CLEAR_CACHE_MESSAGE" = "This clears %@ of cached data. Your messages and media remain available.";
+/* Confirmation alert message shown before clearing cached DM files. %@ is the formatted size, e.g. 1.2 GB. */
+"CHAT_STORAGE_CLEAR_CACHE_MESSAGE" = "This removes %@ of cached files from this device. Cached items will be re-downloaded as needed.";
 
-/* Clear cache confirmation dialog title */
-"CHAT_STORAGE_CLEAR_CACHE_TITLE" = "Clear Cache?";
+/* Confirmation alert title shown before clearing cached DM files. */
+"CHAT_STORAGE_CLEAR_CACHE_TITLE" = "Clear cache?";
 
-/* Documents storage category */
-"CHAT_STORAGE_DOCUMENTS" = "Documents";
-
-/* Manage storage title */
-"CHAT_STORAGE_MANAGE" = "Manage Storage";
-
-/* Manage storage footer description */
-"CHAT_STORAGE_MANAGE_FOOTER" = "Clearing cache does not delete your messages or media. Clearing all data removes downloaded media from this device.";
-
-/* Empty state for stored conversations */
-"CHAT_STORAGE_NO_CONVERSATIONS" = "No stored conversations";
-
-/* Photos and videos storage category */
-"CHAT_STORAGE_PHOTOS_VIDEOS" = "Photos & Videos";
+/* Empty state shown in DM Storage settings under the per-conversation breakdown when the user has not downloaded any DM media yet. */
+"CHAT_STORAGE_NO_CONVERSATIONS" = "No downloaded media";
 
 /* Gigabytes storage unit */
 "CHAT_STORAGE_UNIT_GB" = "GB";
@@ -27484,9 +27510,6 @@ eg. "- @jack" */
 
 /* Fallback for unknown conversation name */
 "CHAT_STORAGE_UNKNOWN_CONVO" = "Unknown conversation";
-
-/* Voice messages storage category */
-"CHAT_STORAGE_VOICE_MSGS" = "Voice Messages";
 
 /* Swipe gestures interaction section header */
 "CHAT_SWIPE_GESTURES" = "Swipe Gestures";
@@ -27574,9 +27597,6 @@ eg. "- @jack" */
 
 /* App version label */
 "CHAT_VERSION" = "Version";
-
-/* Videos section title */
-"CHAT_VIDEOS" = "Videos";
 
 /* Video call coming soon title */
 "CHAT_VIDEO_CALL_COMING_SOON" = "Video Calling Coming Soon";
