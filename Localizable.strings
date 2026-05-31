@@ -236,15 +236,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Content type filter option for videos */
 "ACTIVITY_HISTORY_CONTENT_TYPE_VIDEOS" = "Videos";
 
-/* Filter tab for showing all videos in Activity History */
-"ACTIVITY_HISTORY_FILTER_ALL_VIDEOS" = "All videos";
-
-/* Empty state message when no videos match the 5+ minute filter */
-"ACTIVITY_HISTORY_FILTER_EMPTY_MESSAGE" = "No videos 5 minutes or longer";
-
-/* Filter tab for showing videos 5 minutes or longer in Activity History */
-"ACTIVITY_HISTORY_FILTER_FIVE_PLUS_MINUTES" = "5+ minute videos";
-
 /* Accessibility label for the history info button */
 "ACTIVITY_HISTORY_INFO_BUTTON" = "History info";
 
@@ -265,9 +256,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Simple message for the Activity History video empty state when no minimum duration applies */
 "ACTIVITY_HISTORY_VIDEO_EMPTY_MESSAGE_SHORT" = "Videos you watch will show here";
-
-/* Label showing when a video was watched, e.g. "Watched 7m ago" */
-"ACTIVITY_HISTORY_WATCHED_TIME_AGO" = "Watched %@ ago";
 
 /* Label for universal notifications settings button */
 "ACTIVITY_SETTINGS_BUTTON_ACCESSIBILITY_LABEL" = "Notifications settings";
@@ -806,15 +794,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* System Face ID prompt reason explaining why the app needs biometric authentication. */
 "BIOMETRIC_LOCK_REASON" = "Verify your identity to continue using X";
 
-/* Label shown when no biometric authentication is available on the device. */
-"BIOMETRIC_LOCK_REQUIRED_LABEL" = "Biometric authentication required";
-
-/* Button title to retry Face ID / Touch ID authentication on the biometric lock screen. */
-"BIOMETRIC_LOCK_RETRY_BUTTON" = "Verify with Face ID";
-
-/* Prompt shown on the biometric lock screen asking the user to verify their identity. */
-"BIOMETRIC_LOCK_VERIFY_PROMPT" = "Verify your identity to continue";
-
 /** Title of an action which allows users to add missing context to posts for a feature called Community Notes */
 "BIRDWATCH_CONTRIBUTION_ACTION_TITLE" = "Write a Community Note";
 
@@ -871,9 +850,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Label for 'Bookmarks' entry in the Dash menu */
 "BOOKMARKS_LABEL" = "Bookmarks";
-
-/* Tooltip shown on the History dash item when Bookmarks has been moved into it */
-"BOOKMARKS_MOVED_HERE_TOOLTIP" = "Bookmarks moved here";
 
 /* Label for the confirmation button in the alert view when the user attempts to remove all Bookmarks */
 "BOOKMARKS_REMOVE_ALL_BOOKMARKS_ALERT_CONFIRMATION_BUTTON_LABEL" = "Yes, I’m sure";
@@ -1335,11 +1311,8 @@ e.g. Removed from MyRecipes.
 /* Segment title for the Top timeline in the cashtag info sheet. */
 "CASHTAG_INFO_TOP_TAB_TITLE" = "Top";
 
-/* Button title to trade the displayed stock/crypto in the cashtag info sheet */
-"CASHTAG_INFO_TRADE_BUTTON_TITLE" = "Trade";
-
-/* A description label below the trade button in the cashtag info sheet that specifies which service powers the trading functionality */
-"CASHTAG_INFO_TRADE_POWERED_BY_LABEL" = "Powered by";
+/* Button title to trade the displayed stock/crypto in the cashtag info sheet. %@ is the name of the trade platform (e.g. "Wealthsimple"). */
+"CASHTAG_INFO_TRADE_BUTTON_TITLE_FORMAT" = "Trade on %@";
 
 /* Change Password Error Bad Request Cannot Change Password */
 "CHANGE_PASSWORD_ERROR_CANNOT_CHANGE_PASSWORD" = "Please use the “Forgot password” link to reset your password and unlock your account.";
@@ -2181,10 +2154,6 @@ This text gives the short description for a type of conversation in which only a
 /* Conversation Control refers to the feature that allows users to restrict who can reply to a particular post.
 This text is the accessibility hint for the button that lets the user change the current conversation control setting. */
 "CONVERSATION_CONTROL_SELECTION_BUTTON_ACCESSIBILITY_HINT" = "Changes who can reply to your post";
-
-/* Conversation Control refers to the feature that allows users to restrict who can reply to a particular post.
- This text gives the short description as shown in a timeline post for a type of conversation in which the current user can reply. */
-"CONVERSATION_CONTROL_TIMELINE_TEXT_USER_CAN_REPLY" = "You can reply to this conversation";
 
 /* Text shown in conversation facepile indicating who replied (multiple replies), e.g. "John and 3 others replied" */
 "CONVERSATION_FACEPILE_REPLIES_COUNT_FORMAT" = "%1$@ and %2$@ others replied";
@@ -5794,12 +5763,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Title of a prompt to get a notification whenever somebody posts a live video on X */
 "PERISCOPE_FOLLOW_PROMPT_FORMAT" = "Get notified when %@ goes live";
 
-/* Title of a message that shows up when entering a broadcast to say your presence is visible */
-"PERISCOPE_LOCAL_CHAT_MESSAGE_INTRO" = "Welcome to this broadcast. The broadcaster and other viewers can see that you’ve joined.";
-
-/* Title of a button that prompts a user to repost a broadcast. Text between the "•|•" is highlighted in bold. */
-"PERISCOPE_SHARE_PROMPT_STRING" = "•|•Share this broadcast•|• so your followers don’t miss it.";
-
 /* Title of broadcast details screen with multiple views. */
 "PERISCOPE_TOTAL_VIEWS_STRING" = "TOTAL VIEWS";
 
@@ -7147,12 +7110,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Label for profile tab in extended layout (X for Mac and iPad) */
 "PROFILE_TAB_ACCESSIBILITY_LABEL" = "Profile";
 
-/* Label for body section of the profile upgrade upsell */
-"PROFILE_UPGRADE_UPSELL_BODY_LABEL" = "Get verified for boosted replies, analytics, ad-free browsing, and more. Upgrade your profile now.";
-
-/* Label for header section of the profile upgrade upsell */
-"PROFILE_UPGRADE_UPSELL_BOOST_INFLUENCE_TITLE_VARIANT" = "Boost your influence with verification";
-
 /* CTA button label for profile upgrade upsell card - finish setup variant */
 "PROFILE_UPGRADE_UPSELL_CARD_CTA_FINISH_SETUP" = "Finish Setup";
 
@@ -7164,12 +7121,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Title for the profile upgrade upsell card */
 "PROFILE_UPGRADE_UPSELL_CARD_TITLE" = "You\U2019re not verified yet";
-
-/* Label for header section of the profile upgrade upsell */
-"PROFILE_UPGRADE_UPSELL_NO_VERIFICATION_TITLE_VARIANT" = "You aren’t verified yet";
-
-/* Label for header section of the profile upgrade upsell */
-"PROFILE_UPGRADE_UPSELL_UNLOCK_FEATURES_TITLE_VARIANT" = "Unlock VIP features: verify your account";
 
 /* Accessibility label for website bullet item */
 "PROFILE_WEBSITE_ACCESSIBILITY_LABEL_FORMAT" = "Website %@";
@@ -8473,6 +8424,60 @@ This text is the accessibility hint for the button that lets the user change the
 /* Title of button for user to stay in the app (as opposed to signing out). */
 "STAY_ACTION_LABEL" = "Stay";
 
+/* Header for storage breakdown bar chart */
+"STORAGE_BREAKDOWN_HEADER" = "Storage breakdown";
+
+/* Header for the storage categories section */
+"STORAGE_CATEGORIES_HEADER" = "Categories";
+
+/* Busy message shown while clearing all storage */
+"STORAGE_CLEARING_ALL_BUSY_MESSAGE" = "Clearing all storage";
+
+/* Busy message shown while clearing a specific category. %@ is the category name */
+"STORAGE_CLEARING_CATEGORY_BUSY_MESSAGE" = "Clearing %@";
+
+/* Button to clear all storage */
+"STORAGE_CLEAR_ALL_BUTTON" = "Clear all storage";
+
+/* Warning shown when clearing all storage */
+"STORAGE_CLEAR_ALL_WARNING" = "This will clear all cached media, videos, offline content, and web data. You may need to re-download content to view it again.";
+
+/* Button to clear a specific category. %@ is the category name */
+"STORAGE_CLEAR_CATEGORY_BUTTON" = "Clear %@";
+
+/* Warning shown when clearing data (model cache + databases) */
+"STORAGE_DATA_CLEAR_WARNING" = "Clearing data will remove cached models and database files. Content will be re-fetched from the network as needed.";
+
+/* Label for data storage category (model cache + databases) */
+"STORAGE_DATA_LABEL" = "Data";
+
+/* Title for the storage management screen */
+"STORAGE_MANAGEMENT_TITLE" = "Storage";
+
+/* Warning shown when clearing network cache */
+"STORAGE_NETWORK_CACHE_CLEAR_WARNING" = "Clearing network cache will remove cached data.";
+
+/* Label for network cache storage category */
+"STORAGE_NETWORK_CACHE_LABEL" = "Network cache";
+
+/* Warning shown when clearing offline videos */
+"STORAGE_OFFLINE_VIDEOS_CLEAR_WARNING" = "Clearing offline videos will remove all downloaded videos from this device. You can download them again later.";
+
+/* Label for offline videos storage category */
+"STORAGE_OFFLINE_VIDEOS_LABEL" = "Offline videos";
+
+/* Detail description shown when clearing other storage */
+"STORAGE_OTHER_DETAIL" = "Other storage includes app binaries, preferences, and temporary files. Clearing will remove temporary files only.";
+
+/* Label for the other/miscellaneous storage category */
+"STORAGE_OTHER_LABEL" = "Other";
+
+/* Detail description for the storage settings item */
+"STORAGE_SETTINGS_ITEM_DETAIL" = "Manage how X uses storage on this device. Review and clear cached media, videos, and other data.";
+
+/* Summary description showing X app storage usage out of device total. %1$@ is used storage, %2$@ is device total */
+"STORAGE_SUMMARY_DESCRIPTION" = "X is using %1$@ of storage on this device (%2$@ total).";
+
 /* Text for toast message that informs the user their X app icon will be reverting to the default X app icon. This alert shows when the custom icons feature switch is turned off. */
 "SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_FEATURE_SWITCH_OFF_TEXT" = "An app icon you were using has been discontinued. Please choose a new one in Premium Hub.";
 
@@ -9094,9 +9099,6 @@ eg. "Super Following Jack" */
 /* Tab accessibility value for one new item */
 "TAB_SINGLE_ITEM_ACCESSIBILITY_VALUE" = "1 new item.";
 
-/* 'Top Articles' tab label */
-"TAB_TOP_ARTICLES_LABEL" = "Top Articles";
-
 /* 'Spaces' tab label */
 "TAB_VOICE_LABEL" = "Spaces";
 
@@ -9349,9 +9351,6 @@ eg. "Super Following Jack" */
 /* Text used for unfollow feedback action for a Topic. e.g. "Unfollow New England Patriots" */
 "TOPIC_UNFOLLOW_FEEDBACK_ACTION_FORMAT" = "Unfollow %@";
 
-/* Accessibility label for the "Filters" button. When tapped, the user will be able to filter their news articles by different time intervals, e.g. "1 hour" or "24 hours". */
-"TOP_ARTICLES_FILTERS_BUTTON_ACCESSIBILITY_LABEL" = "Filters";
-
 /* Empty message button text when the user's followings haven't shared any news articles at all. Tapping the button will take them to a new screen where they can find new accounts to follow. */
 "TOP_ARTICLES_TIMELINE_EMPTY_BUTTON_LABEL" = "Find people to follow";
 
@@ -9361,35 +9360,11 @@ eg. "Super Following Jack" */
 /* Empty message title when the user's followings haven't shared any news articles at all. */
 "TOP_ARTICLES_TIMELINE_EMPTY_TITLE_LABEL" = "No articles have been shared in your network.";
 
-/* Text for a button that when tapped will dismiss an overlaid message asking the user to visit their `People they follow` timeline. */
-"TOP_ARTICLES_TIMELINE_FRIENDS_OF_FREINDS_ANNOUNCEMENT_ACTION_LATER" = "Maybe later";
-
-/* Text for a button that when tapped will take a user to a new tab showing their Friends of Friends most shared news articles. */
-"TOP_ARTICLES_TIMELINE_FRIENDS_OF_FREINDS_ANNOUNCEMENT_ACTION_VIEW" = "Check it out";
-
-/* Message that appears in an overlay pointing to a Tab bar item which allows users to view the news articles that their friends' friends shared. Appears below TOP_ARTICLES_TIMELINE_FRIENDS_OF_FREINDS_ANNOUNCEMENT_TITLE. */
-"TOP_ARTICLES_TIMELINE_FRIENDS_OF_FREINDS_ANNOUNCEMENT_MESSAGE" = "“People they follow” expands your results, showing the most-shared articles from the people you follow, plus the people they follow.";
-
-/* Title that appears in an overlay pointing to a Tab bar item which allows users to view the news articles that their friends' friends shared. Appears above TOP_ARTICLES_TIMELINE_FRIENDS_OF_FREINDS_ANNOUNCEMENT_MESSAGE. */
-"TOP_ARTICLES_TIMELINE_FRIENDS_OF_FREINDS_ANNOUNCEMENT_TITLE" = "Get more news";
-
-/* Text for the navigation bar subtitle label shown when you navigate to a screen full of news Articles that people in your follow graph posted about. The argument will be a string representing the time span that the articles come from, e.g. "Last 24 hours" or "Last hour". Shown just below TOP_ARTICLES_TIMELINE_TITLE_LABEL. */
-"TOP_ARTICLES_TIMELINE_SUBTITLE_FORMAT" = "Most shared in your network · %@";
-
-/* Text that appears in a tooltip pointing to a button which allows users to change the time window that news articles will appear from (e.g. 1 hours or 24 hours, etc. */
-"TOP_ARTICLES_TIMELINE_TIME_WINDOW_TOOLTIP" = "Tap to change time frame";
-
 /* Text for the tab bar label shown above a list of news Articles that people you follow posted about. */
 "TOP_ARTICLES_TIMELINE_TITLE_FOLLOWERS_ONLY_LABEL" = "People you follow";
 
 /* Text for the tab bar label shown above a list of news Articles that people your followers follow posted about. */
 "TOP_ARTICLES_TIMELINE_TITLE_FRIENDS_OF_FRIENDS_LABEL" = "People they follow";
-
-/* Text for the navigation bar title label shown when you navigate to a screen full of news Articles that people in your follow graph posted about. */
-"TOP_ARTICLES_TIMELINE_TITLE_LABEL" = "Top Articles";
-
-/* Accessibility label for the navigation bar title shown when you navigate to a screen full of news Articles that people in your follow graph posted about, which also indicates that the feature being used is reserved for Premium customers. */
-"TOP_ARTICLES_TIMELINE_TITLE_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Top Articles with Premium";
 
 /* The time stamp displayed to the user when the article's publish date is 0 seconds ago. */
 "TOP_ARTICLES_TIMESTAMP_NOW" = "Now";
@@ -9508,9 +9483,6 @@ eg. "Super Following Jack" */
 /* Accessibility hint for the post origin source */
 "TWEET_DETAIL_EDIT_HISTORY_ACCESSIBILITY_HINT" = "Opens edit history";
 
-/* Accessibility hint for the post origin location */
-"TWEET_DETAIL_ORIGIN_PLACE_ACCESSIBILITY_HINT" = "Displays this post’s location information";
-
 /* Title for post details view for self thread */
 "TWEET_DETAIL_SELF_THREAD_VIEW_TITLE" = "Thread";
 
@@ -9607,6 +9579,9 @@ eg. "Super Following Jack" */
 /* Title for why you're seeing this post web page. */
 "TWEET_PROMOTE_WYSTP_INFO_WEB_VIEW_TITLE" = "Why this post";
 
+/* Title for the confirmation alert shown when the user taps Retake on the video reaction preview screen. The alert presents Cancel and Discard buttons and clears all recorded clips if confirmed. */
+"TWEET_REACTION_DISCARD_ALL_CLIPS_ALERT_TITLE" = "Discard all clips?";
+
 /* Title for the confirmation alert shown when the user taps undo to remove the last recorded clip in the video reaction camera. The alert presents Cancel and Discard buttons. */
 "TWEET_REACTION_DISCARD_LAST_CLIP_ALERT_TITLE" = "Discard the last clip?";
 
@@ -9668,17 +9643,8 @@ eg. "Super Following Jack" */
 /* Label for disconnected replies tombstone */
 "TWEET_TOMBSTONE_DISCONNECT_LABEL" = "This conversation has too many replies to show them all.";
 
-/* Label to describe the end of a post's text has been expanded from the collapsed state */
-"TWEET_TRUNCATION_LESS_LABEL" = "less";
-
-/* Label to describe the end of a post's text has been truncated */
-"TWEET_TRUNCATION_MORE_LABEL" = "more";
-
 /* Shown in activity view from long press on video. */
 "TWEET_VIDEO_ACTIVITY_VIEW_LABEL" = "Post Video";
-
-/* Label with count to see how many views the post has received (not video related) (singular) */
-"TWEET_VIEW_COUNT_FORMAT" = "View";
 
 /* Label with count to see how many views the post has received (not video related) (plural) */
 "TWEET_VIEW_COUNT_PLURAL_FORMAT" = "%@ Views";
@@ -10081,17 +10047,8 @@ eg. "Super Following Jack" */
 /* Title for a screen that lets you toggle whether to auto-advance next video or not */
 "VIDEO_SETTINGS_AUTO_ADVANCE_TITLE" = "Auto-advance";
 
-/* Button shown in video player for adjusting video settings */
-"VIDEO_SETTINGS_BUTTON_ACCESSIBILITY_LABEL" = "Video settings";
-
 /* Title for a screen that lets you change the captions (on/off) of a video*/
 "VIDEO_SETTINGS_CAPTIONS_TITLE" = "Captions";
-
-/* Subtitle that indicates whether off caption is auto generated or not */
-"VIDEO_SETTINGS_CAPTION_AUTO_GENERATED_OFF_LABEL" = "Off (Auto-generated)";
-
-/* Subtitle that indicates whether on caption is auto generated or not */
-"VIDEO_SETTINGS_CAPTION_AUTO_GENERATED_ON_LABEL" = "On (Auto-generated)";
 
 /* Settings menu that allows you to download a video (this specific copy is displayed when the video is currently downloading) */
 "VIDEO_SETTINGS_DOWNLOADING_VIDEO" = "Downloading video";
@@ -10104,12 +10061,6 @@ eg. "Super Following Jack" */
 
 /* Title for button to open the current YouTube video in the YouTube app or website */
 "VIDEO_SETTINGS_OPEN_IN_YOUTUBE" = "Open in YouTube";
-
-/* Title for a button to put a video picture-in-picture */
-"VIDEO_SETTINGS_PICTURE_IN_PICTURE" = "Picture-in-Picture";
-
-/* Title for a screen that lets you change the playback speed of a video*/
-"VIDEO_SETTINGS_PLAYBACK_SPEED_TITLE" = "Playback speed";
 
 /* Title for a screen that lets you change the quality of a video*/
 "VIDEO_SETTINGS_QUALITY_AUTO_TITLE" = "Auto";
@@ -11712,20 +11663,14 @@ eg. "Super Following Jack" */
 /* Documents section title */
 "CHAT_DOCUMENTS" = "Documents";
 
-/* Empty search conversations message */
-"CHAT_EMPTY_SEARCH_CONVERSATIONS_MESSAGE" = "Try searching for a different name or username.";
-
-/* Empty search conversations title */
-"CHAT_EMPTY_SEARCH_CONVERSATIONS_TITLE" = "No Conversations Found";
-
-/* Empty search messages message */
-"CHAT_EMPTY_SEARCH_MESSAGES_MESSAGE" = "Try searching for different keywords.";
-
-/* Empty search messages title */
-"CHAT_EMPTY_SEARCH_MESSAGES_TITLE" = "No Messages Found";
-
 /* Group messages label */
 "CHAT_GROUP_MESSAGES" = "Group Messages";
+
+/* OK button label */
+"CHAT_OK" = "OK";
+
+/* Replying to yourself label */
+"CHAT_REPLYING_TO_YOURSELF" = "Replying to yourself";
 
 /* Storage settings title */
 "CHAT_STORAGE" = "Storage";
@@ -11775,6 +11720,12 @@ eg. "Super Following Jack" */
 /* Unread messages filter label */
 "CHAT_UNREAD_MESSAGES" = "Unread Messages";
 
+/* Unsupported file alert message */
+"CHAT_UNSUPPORTED_FILE_MESSAGE" = "The selected file type is not supported. Please select a regular file.";
+
+/* Unsupported file alert title */
+"CHAT_UNSUPPORTED_FILE_TITLE" = "Unsupported File";
+
 /* Videos section title */
 "CHAT_VIDEOS" = "Videos";
 
@@ -11802,8 +11753,14 @@ eg. "Super Following Jack" */
 /* DM disconnected connection status update required title */
 "DM_CONNECTION_STATUS_UPDATE_REQUIRED_TITLE" = "Update required";
 
+/* DM Conversation Add members action error admin only title */
+"DM_CONVERSATION_ACTION_ADD_MEMBERS_ERROR_ADMIN_ONLY_TITLE" = "You must be an admin of this group in order to add members.";
+
 /* DM Conversation Add members action error removed from group title */
 "DM_CONVERSATION_ACTION_ADD_MEMBERS_ERROR_REMOVED_FROM_GROUP_TITLE" = "You must be a member of this group in order to add members.";
+
+/* DM Conversation Add members action error too many members title */
+"DM_CONVERSATION_ACTION_ADD_MEMBERS_ERROR_TOO_MANY_MEMBERS_TITLE" = "This group has reached the maximum supported number of members.";
 
 /* DM Conversation Add members action title */
 "DM_CONVERSATION_ACTION_ADD_MEMBERS_TITLE" = "Add members";
@@ -11816,6 +11773,9 @@ eg. "Super Following Jack" */
 
 /* DM Conversation Block user alert title */
 "DM_CONVERSATION_ACTION_BLOCK_USER_ALERT_TITLE" = "Block %@?";
+
+/* Error message displayed when the caller isn’t an admin of the group. */
+"DM_CONVERSATION_ACTION_CALL_ERROR_ADMIN_REQUIRED" = "You must be an admin in order to start a group call.";
 
 /* Error message displayed when the user taps on the audio or video call button and */
 "DM_CONVERSATION_ACTION_CALL_ERROR_GENERIC" = "Can’t call this account.";
@@ -11888,6 +11848,12 @@ eg. "Super Following Jack" */
 
 /* DM Conversation Unblock messages conversation action title */
 "DM_CONVERSATION_ACTION_DM_UNBLOCK_CONVERSATION_TITLE" = "Unblock messages";
+
+/* DM Conversation Edit group name action error admin only title */
+"DM_CONVERSATION_ACTION_EDIT_GROUP_NAME_ERROR_ADMIN_ONLY_TITLE" = "You must be an admin of this group in order to edit group name.";
+
+/* DM Conversation Edit group photo action error admin only title */
+"DM_CONVERSATION_ACTION_EDIT_GROUP_PHOTO_ERROR_ADMIN_ONLY_TITLE" = "You must be an admin of this group in order to edit group photo.";
 
 /* DM Conversation Leave conversation action alert title */
 "DM_CONVERSATION_ACTION_LEAVE_CONVERSATION_ALERT_TITLE" = "Leave conversation?";
@@ -12026,9 +11992,6 @@ eg. "Super Following Jack" */
 
 /* DM Conversation footer read only needs verified title */
 "DM_CONVERSATION_FOOTER_READ_ONLY_REASON_NEEDS_VERIFIED_TITLE" = "You cannot message this user because you are not verified.";
-
-/* DM Conversation footer read only no permission title */
-"DM_CONVERSATION_FOOTER_READ_ONLY_REASON_NO_PERMISSION_TITLE" = "You cannot send messages to this user.";
 
 /* DM Conversation footer read only reason removed from group title */
 "DM_CONVERSATION_FOOTER_READ_ONLY_REASON_REMOVED_FROM_GROUP_TITLE" = "You must be re-added to this group in order to send messages.";
@@ -12465,9 +12428,6 @@ eg. "Super Following Jack" */
 /* DM Conversation message request action disabled title */
 "DM_CONVERSATION_MESSAGE_REQUEST_ACTION_DISABLED_TITLE" = "Feature unavailable";
 
-/* DM Conversation message request sent description */
-"DM_CONVERSATION_MESSAGE_REQUEST_SENT_DESCRIPTION" = "Your message request needs to be accepted before you can send more messages.";
-
 /* DM Conversation participant Admin label */
 "DM_CONVERSATION_PARTICIPANT_ADMIN_LABEL" = "Admin";
 
@@ -12678,9 +12638,6 @@ eg. "Super Following Jack" */
 /* DM Group invite view group action button title */
 "DM_GROUP_INVITE_VIEW_GROUP_ACTION_TITLE" = "View Group";
 
-/* DM Group invite view group subtitle */
-"DM_GROUP_INVITE_VIEW_GROUP_SUBTITLE" = "You are already part of this group. Tap the button below to start messaging.";
-
 /* DM Inbox conversation muted accessibility label */
 "DM_INBOX_CONVERSATION_MUTED_ACCESSIBILITY_LABEL" = "Muted";
 
@@ -12732,9 +12689,6 @@ eg. "Super Following Jack" */
 /* DM Inbox message requests hidden tab title */
 "DM_INBOX_MESSAGE_REQUESTS_HIDDEN_TITLE" = "Hidden";
 
-/* DM Inbox message requests priority tab title with count. %@: total count */
-"DM_INBOX_MESSAGE_REQUESTS_PRIORITY_COUNT_TITLE" = "Priority (%@)";
-
 /* DM Inbox message requests priority empty message */
 "DM_INBOX_MESSAGE_REQUESTS_PRIORITY_EMPTY_MESSAGE" = "Messages from people you might know will appear here";
 
@@ -12762,9 +12716,6 @@ eg. "Super Following Jack" */
 /* DM Inbox unread pill menu option for marking all unread conversation as read */
 "DM_INBOX_PILL_MARK_ALL_READ_MENU_TITLE" = "Mark All Read";
 
-/* DM Inbox pill to message requests with # pending requests */
-"DM_INBOX_PILL_REQUESTS_COUNT_TITLE" = "Requests (%@)";
-
 /* DM Inbox pill to message requests */
 "DM_INBOX_PILL_REQUESTS_TITLE" = "Requests";
 
@@ -12786,25 +12737,6 @@ eg. "Super Following Jack" */
 /* Title shown when searching messages yields no results.
    Shown in the DM Inbox search empty state. */
 "DM_INBOX_SEARCH_EMPTY_MESSAGES_TITLE" = "No message results";
-
-/* Message shown before typing while the Chats filter is selected.
-   Shown in the DM Inbox search empty state. */
-"DM_INBOX_SEARCH_EMPTY_QUERY_CONVERSATIONS_MESSAGE" = "Search conversations to find what you’re looking for.";
-
-/* Title shown before typing while the Chats filter is selected.
-   Shown in the DM Inbox search empty state. */
-"DM_INBOX_SEARCH_EMPTY_QUERY_CONVERSATIONS_TITLE" = "Search conversations";
-
-/* Message shown before typing while the Messages filter is selected.
-   Shown in the DM Inbox search empty state. */
-"DM_INBOX_SEARCH_EMPTY_QUERY_MESSAGES_MESSAGE" = "Search messages to find what you’re looking for.";
-
-/* Title shown before typing while the Messages filter is selected.
-   Shown in the DM Inbox search empty state. */
-"DM_INBOX_SEARCH_EMPTY_QUERY_MESSAGES_TITLE" = "Search messages";
-
-/* DM Inbox search load all messages button */
-"DM_INBOX_SEARCH_LOAD_ALL_MESSAGES" = "Load all messages";
 
 /* DM Inbox search Conversations section title */
 "DM_INBOX_SEARCH_SECTION_CONVERSATIONS_TITLE" = "Conversations";
@@ -12905,6 +12837,9 @@ eg. "Super Following Jack" */
 /* DM Manage Conversation Set ttl action error title */
 "DM_MANAGE_CONVERSATION_ACTION_SET_TTL_ERROR_TITLE" = "Unable to set disappearing messages";
 
+/* DM Manage Conversation Update group admin settings action error title */
+"DM_MANAGE_CONVERSATION_ACTION_UPDATE_GROUP_ADMIN_SETTINGS_ERROR_TITLE" = "Unable to update group permissions.";
+
 /* DM Manage Conversation Update group action error title */
 "DM_MANAGE_CONVERSATION_ACTION_UPDATE_GROUP_ERROR_TITLE" = "Unable to update group";
 
@@ -12928,6 +12863,9 @@ eg. "Super Following Jack" */
 
 /* DM Manage Conversation Nickname description */
 "DM_MANAGE_CONVERSATION_NICKNAME_DESCRIPTION" = "Nicknames are end-to-end encrypted and visible only to you.";
+
+/* DM Manage Conversation No longer admin toast title */
+"DM_MANAGE_CONVERSATION_NO_LONGER_ADMIN_TOAST_TITLE" = "You’re no longer an admin";
 
 /* DM Manage Conversation Safety number action mark verified title */
 "DM_MANAGE_CONVERSATION_SAFETY_NUMBER_ACTION_MARK_UNVERIFIED_TITLE" = "Mark unverified";
@@ -12965,6 +12903,9 @@ eg. "Super Following Jack" */
 /* DM Manage Conversation Disappearing messages description */
 "DM_MANAGE_CONVERSATION_VANISHING_MODE_DESCRIPTION" = "After messages in this chat are read, they will vanish for all users after the selected time above.";
 
+/* DM Manage Conversation Disappearing messages section title */
+"DM_MANAGE_CONVERSATION_VANISHING_MODE_PERMISSIONS_ERROR_SECTION_TITLE" = "Only admins can make changes to disappearing messages";
+
 /* DM Manage Conversation Disappearing messages title */
 "DM_MANAGE_CONVERSATION_VANISHING_MODE_TITLE" = "Disappearing messages";
 
@@ -12973,9 +12914,6 @@ eg. "Super Following Jack" */
 
 /* DM message action Add reaction title */
 "DM_MESSAGE_ACTION_ADD_REACTION_TITLE" = "Add Reaction";
-
-/* DM message Cancel message error title */
-"DM_MESSAGE_ACTION_CANCEL_ERROR_TITLE" = "Unable to cancel message";
 
 /* DM message action Cancel title */
 "DM_MESSAGE_ACTION_CANCEL_TITLE" = "Cancel Message";
@@ -13105,6 +13043,9 @@ eg. "Super Following Jack" */
 
 /* DM message action Retry title */
 "DM_MESSAGE_ACTION_RETRY_TITLE" = "Retry";
+
+/* Label for the action that exports a file attachment to the Files app from the DM message action menu. */
+"DM_MESSAGE_ACTION_SAVE_FILE_TITLE" = "Save File";
 
 /* DM message action Save GIF title */
 "DM_MESSAGE_ACTION_SAVE_GIF_TITLE" = "Save GIF";
@@ -13250,9 +13191,6 @@ eg. "Super Following Jack" */
 /* DM Message Attachment Preview when unnamed user sent multiple photos */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_MANY_PHOTO" = "Sent %@ photos";
 
-/* DM Message Attachment Preview when unnamed user sent multiple unknown attachments */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_MANY_UNKNOWN" = "Sent %@ attachments";
-
 /* DM Message Attachment Preview when unnamed user sent multiple videos */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_MANY_VIDEO" = "Sent %@ videos";
 
@@ -13286,9 +13224,6 @@ eg. "Super Following Jack" */
 /* DM Message Attachment Preview when user sent multiple photos. %1$@: user display name, %2$@: count */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_MANY_PHOTO" = "•|•%1$@•|•: Sent %2$@ photos";
 
-/* DM Message Attachment Preview when user sent multiple unknown attachments. %1$@: user display name, %2$@: count */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_MANY_UNKNOWN" = "•|•%1$@•|•: Sent %2$@ attachments";
-
 /* DM Message Attachment Preview when user sent multiple videos. %1$@: user display name, %2$@: count */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_MANY_VIDEO" = "•|•%1$@•|•: Sent %2$@ videos";
 
@@ -13321,9 +13256,6 @@ eg. "Super Following Jack" */
 
 /* DM Message Attachment Preview when you send multiple photos */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_MANY_PHOTO" = "You sent %@ photos";
-
-/* DM Message Attachment Preview  when you send multiple unknown attachments */
-"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_MANY_UNKNOWN" = "You sent %@ attachments";
 
 /* DM Message Attachment Preview when you send multiple videos */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_MANY_VIDEO" = "You sent %@ videos";
@@ -13469,18 +13401,6 @@ eg. "Super Following Jack" */
 /* DM Message requests education title */
 "DM_MESSAGE_REQUESTS_EDUCATION_TITLE" = "Message requests";
 
-/* DM Message requests empty hidden subtitle */
-"DM_MESSAGE_REQUESTS_EMPTY_HIDDEN_SUBTITLE" = "Message requests from outside of your network, or potentially containing spam";
-
-/* DM Message requests empty hidden title */
-"DM_MESSAGE_REQUESTS_EMPTY_HIDDEN_TITLE" = "No hidden requests";
-
-/* DM Message requests empty priority subtitle */
-"DM_MESSAGE_REQUESTS_EMPTY_PRIORITY_SUBTITLE" = "You don’t have any message requests from accounts in your network";
-
-/* DM Message requests empty priority title */
-"DM_MESSAGE_REQUESTS_EMPTY_PRIORITY_TITLE" = "No priority requests";
-
 /* Message send failure when failed to send */
 "DM_MESSAGE_SEND_ERROR_FAILED_TO_SEND" = "Message failed to send";
 
@@ -13603,6 +13523,51 @@ eg. "Super Following Jack" */
 
 /* Passcode entry type option for 6-digit numeric passcodes. */
 "DM_PASSCODE_ENTRY_TYPE_OPTION_SIX_DIGIT_NUMERIC" = "6-Digit numeric";
+
+/* DM Permissions section subtitle: add members */
+"DM_PERMISSIONS_ADD_MEMBERS_SUBTITLE" = "Choose who can add or remove members.";
+
+/* DM Permissions section title: add members */
+"DM_PERMISSIONS_ADD_MEMBERS_TITLE" = "Add members";
+
+/* DM Permissions section subtitle: block screenshots */
+"DM_PERMISSIONS_BLOCK_SCREENSHOTS_SUBTITLE" = "Choose who can toggle screenshot blocking.";
+
+/* DM Permissions section title: block screenshots */
+"DM_PERMISSIONS_BLOCK_SCREENSHOTS_TITLE" = "Block screenshots";
+
+/* DM Permissions section subtitle: disappearing messages */
+"DM_PERMISSIONS_DISAPPEARING_MESSAGES_SUBTITLE" = "Choose who can configure disappearing messages duration.";
+
+/* DM Permissions section title: disappearing messages */
+"DM_PERMISSIONS_DISAPPEARING_MESSAGES_TITLE" = "Disappearing messages";
+
+/* DM Permissions section subtitle: edit group info */
+"DM_PERMISSIONS_EDIT_GROUP_INFO_SUBTITLE" = "Choose who can edit the group name and photo.";
+
+/* DM Permissions section title: edit group info */
+"DM_PERMISSIONS_EDIT_GROUP_INFO_TITLE" = "Edit group info";
+
+/* DM Permissions option: all members */
+"DM_PERMISSIONS_OPTION_ALL_MEMBERS" = "All members";
+
+/* DM Permissions option: only admins */
+"DM_PERMISSIONS_OPTION_ONLY_ADMINS" = "Only admins";
+
+/* DM Permissions section subtitle: send messages */
+"DM_PERMISSIONS_SEND_MESSAGES_SUBTITLE" = "Choose who can send messages in this group.";
+
+/* DM Permissions section title: send messages */
+"DM_PERMISSIONS_SEND_MESSAGES_TITLE" = "Send messages";
+
+/* DM Permissions section subtitle: start group call */
+"DM_PERMISSIONS_START_GROUP_CALL_SUBTITLE" = "Choose who can start audio and video calls in this group.";
+
+/* DM Permissions section title: start group call */
+"DM_PERMISSIONS_START_GROUP_CALL_TITLE" = "Start group call";
+
+/* DM Permissions screen title */
+"DM_PERMISSIONS_TITLE" = "Permissions";
 
 /* DM PIN Entry Education Cancel Button Title */
 "DM_PIN_ENTRY_BUTTON_TITLE_EDUCATION_CANCEL" = "Go Back";
@@ -17069,9 +17034,6 @@ eg. "Super Following Jack" */
 /* Payments: Error message shown when there is an issue with the 2FA method configuration */
 "PAYMENTS_2FA_ERROR_MESSAGE_METHOD_ISSUE" = "We encountered an issue with your 2FA method. Please review your Security settings and try again.";
 
-/* Payments: Title of the link in the error message shown when there is an issue with the 2FA method configuration. Should be contained in the original error message. */
-"PAYMENTS_2FA_ERROR_MESSAGE_METHOD_ISSUE_LINK" = "Security settings";
-
 /* Payments: Error message shown when too many authentication attempts have been made */
 "PAYMENTS_2FA_ERROR_MESSAGE_RATE_LIMIT" = "Too many attempts, please try again later.";
 
@@ -17095,9 +17057,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the button that allows a user to accept a money transfer. %@ is replaced by a formatted amount (ex: $10). */
 "PAYMENTS_ACCEPT_TRANSFER_AMOUNT_ACTION" = "Accept %@";
-
-/* Payments: Title the button that gives access to the account details on the Payments Home. */
-"PAYMENTS_ACCOUNT_DETAILS_ACTION" = "Account Details";
 
 /* Payments: Title the of 'Account' details screen */
 "PAYMENTS_ACCOUNT_DETAILS_TITLE" = "Account Details";
@@ -17603,6 +17562,12 @@ eg. "Super Following Jack" */
 /* Payments: Title shown on the error screen when the sender of a payment link is unavailable (suspended, deactivated, etc.). */
 "PAYMENTS_CLAIM_TRANSFER_LINK_ERROR_SENDER_UNAVAILABLE_TITLE" = "This payment link is unavailable";
 
+/* Payments: Body line below the sender's name on the claim payment link screen when there is no memo. The sender's display name is rendered separately above this line. First parameter (%1$@) is the formatted currency amount. e.g. sent you $10.00 */
+"PAYMENTS_CLAIM_TRANSFER_LINK_SENT_FORMAT" = "sent you %1$@";
+
+/* Payments: Body lines below the sender's name on the claim payment link screen when the sender included a memo. The sender's display name is rendered separately above these lines. First parameter (%1$@) is the formatted currency amount, second (%2$@) is the memo text. The \n separates the "sent you ... for" line from the quoted memo on the next line. e.g. sent you $10.00 for\n“Lunch” */
+"PAYMENTS_CLAIM_TRANSFER_LINK_SENT_WITH_DESCRIPTION_FORMAT" = "sent you %1$@ for\n“%2$@”";
+
 /* Payments: Toast message shown when funds from a payment link are successfully claimed. */
 "PAYMENTS_CLAIM_TRANSFER_LINK_SUCCESS_TOAST" = "Funds successfully claimed";
 
@@ -17668,9 +17633,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Title for the mailed check creation screen. */
 "PAYMENTS_CREATE_ISSUED_CHECK_TITLE" = "Mail a check";
-
-/* Payments: Title of the button that opens the flow that allows a user to request or send money to someone else on the platform. */
-"PAYMENTS_CREATE_OR_REQUEST_TRANSFER_ACTION" = "Pay or Request";
 
 /* Payments: Title prompting the user to pick an end for a recurring scheduled payment */
 "PAYMENTS_CREATE_SCHEDULED_PAYMENT_END_TITLE" = "When should we stop doing payments?";
@@ -17930,9 +17892,6 @@ eg. "Super Following Jack" */
 /* Payments: Additional message shown when a potential duplicate payment is detected. */
 "PAYMENTS_ERROR_IDEMPOTENCY_KEY_CONFLICT_MESSAGE" = "The transfer failed because a similar one was already sent. Check your recent transactions and try again if needed.";
 
-/* Payments: Link inside the additional message shown when a potential duplicate payment is detected. This should be a sub-string of the overall error message (PAYMENTS_ERROR_IDEMPOTENCY_KEY_CONFLICT_MESSAGE), to be properly transformed into a link. */
-"PAYMENTS_ERROR_IDEMPOTENCY_KEY_CONFLICT_MESSAGE_LINK" = "recent transactions";
-
 /* Payments: Error message when something goes wrong while we verify the customer's identity with the provider "Socure" */
 "PAYMENTS_ERROR_IDENTITY_VERIFICATION_DOCUMENTS_FAILED_MESSAGE" = "An issue occured with our verification provider. Please try again later.";
 
@@ -18122,15 +18081,6 @@ eg. "Super Following Jack" */
 /* Payments: Value shown next to the "Fee" attribute on a transaction, when there is no fee. */
 "PAYMENTS_EXTERNAL_TRANSACTION_NO_FEE_VALUE" = "None";
 
-/* Payments: Defines the title displayed during a deposit or withdrawal, informing the user that no payment method is selected yet. */
-"PAYMENTS_EXTERNAL_TRANSACTION_NO_PAYMENT_METHOD_BANK_ACCOUNT_TITLE" = "No bank account yet";
-
-/* Payments: Defines the title displayed during a deposit or withdrawal, informing the user that no payment method is selected yet. */
-"PAYMENTS_EXTERNAL_TRANSACTION_NO_PAYMENT_METHOD_CARD_TITLE" = "No debit card yet";
-
-/* Payments: Defines the subtitle displayed during a deposit or withdrawal, informing the user that no payment method is selected yet. */
-"PAYMENTS_EXTERNAL_TRANSACTION_NO_PAYMENT_METHOD_SUBTITLE" = "You will link one in the next step";
-
 /* Payments: Title shown next to the purpose on wires flows. Purpose is a code selected in a list by the customer. */
 "PAYMENTS_EXTERNAL_TRANSACTION_PURPOSE" = "Purpose";
 
@@ -18314,9 +18264,6 @@ eg. "Super Following Jack" */
 /* Payments: Title of the error screen after failing to mail a check. */
 "PAYMENTS_ISSUED_CHECK_ERROR_TITLE" = "Mailed check failed";
 
-/* Payments: Disclaimer noting that the memo will appear on the mailed check. */
-"PAYMENTS_ISSUED_CHECK_MEMO_DISCLAIMER" = "Memo will appear on the check";
-
 /* Payments: Section header for recipient information */
 "PAYMENTS_ISSUED_CHECK_RECIPIENT_SECTION" = "Recipient";
 
@@ -18359,35 +18306,11 @@ eg. "Super Following Jack" */
 /* Payments: Text for a button or link that provides more information about a feature or process in X Payments. */
 "PAYMENTS_LEARN_MORE_ACTION" = "Learn more";
 
-/* Payments: Title of the item about ATMs limits */
-"PAYMENTS_LIMITS_ATM_TITLE" = "ATM Withdrawals";
-
-/* Payments: Title of the item about bank accounts limits */
-"PAYMENTS_LIMITS_BANK_ACCOUNTS_TITLE" = "Linked Bank Account";
-
-/* Payments: Title of the item about bank cards limits */
-"PAYMENTS_LIMITS_BANK_CARDS_TITLE" = "Linked Bank Card";
-
-/* Payments: Title for the Issued card spend limit section in X Payments, when it comes to purchases (as opposed to ATM withdrawals).*/
-"PAYMENTS_LIMITS_CARD_PURCHASES_TITLE" = "Purchases";
-
-/* Payments: Title for the Issued card spend limit section in X Payments.*/
-"PAYMENTS_LIMITS_CARD_SPEND_TITLE" = "X Card";
-
-/* Payments: Title of the item about cash limits */
-"PAYMENTS_LIMITS_CASH_TITLE" = "Cash";
-
-/* Payments: Title of the item about checks limits */
-"PAYMENTS_LIMITS_CHECKS_TITLE" = "Checks";
-
 /* Payments: Format string for displaying daily limits in X Payments. %1$@ is replaced by the limit amount. */
 "PAYMENTS_LIMITS_DAILY_FORMAT" = "%1$@ per day";
 
 /* Payments: Format string for displaying daily limits in X Payments. %1$@ is replaced by the limit amount, and %2$@ by what the user has used so far. */
 "PAYMENTS_LIMITS_DAILY_WITH_USED_FORMAT" = "%1$@ per day (%2$@ used)";
-
-/* Payments: Title for the deposit limit section in X Payments. */
-"PAYMENTS_LIMITS_DEPOSIT_TITLE" = "Deposit";
 
 /* Payments: Label showing up if a limit has been increased by X Money agents. %@ is replaced by the expiration date of this increase, already localized (ex: March 25th). */
 "PAYMENTS_LIMITS_INCREASED_UNTIL_FORMAT" = "Increased until %@";
@@ -18397,12 +18320,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Format string for displaying per transaction limits in X Payments. %1$@ is replaced by the limit amount. */
 "PAYMENTS_LIMITS_PER_ENTRY_FORMAT" = "%1$@ per transaction";
-
-/* Payments: Title of the item about on-platform (X) limits */
-"PAYMENTS_LIMITS_PLATFORM_TITLE" = "On X";
-
-/* Payments: Title for the send limit section in X Payments. */
-"PAYMENTS_LIMITS_SEND_TITLE" = "Send";
 
 /* Payments: Format string for displaying monthly limits in X Payments. %1$@ is replaced by the limit amount. */
 "PAYMENTS_LIMITS_THIRTY_DAY_FORMAT" = "%1$@ per 30 days";
@@ -18415,12 +18332,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Format string for displaying weekly limits in X Payments. %1$@ is replaced by the limit amount, and %2$@ by what the user has used so far. */
 "PAYMENTS_LIMITS_WEEKLY_WITH_USED_FORMAT" = "%1$@ per week (%2$@ used)";
-
-/* Payments: Title of the item about wires limits */
-"PAYMENTS_LIMITS_WIRES_TITLE" = "Wires";
-
-/* Payments: Title for the withdraw limit section in X Payments. */
-"PAYMENTS_LIMITS_WITHDRAW_TITLE" = "Withdraw";
 
 /* Payments: Additional message shown when a user has exceeded their daily transaction limits, advising them to try again later. */
 "PAYMENTS_LIMIT_EXCEEDED_ERROR_DAILY_MAX_UNKNOWN_VALUE_MESSAGE" = "Please retry tomorrow.";
@@ -18493,9 +18404,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Error shown on the shipping address screen, when the apartment or unit number is missing */
 "PAYMENTS_MAILING_ADDRESS_ERROR_MISSING_SUBPREMISE" = "Please provide an Apartment, Suite, etc.";
-
-/* Payments: Title of the button to open an external app website. */
-"PAYMENTS_MORE_INFORMATION_ACTION" = "More information";
 
 /* Payments: Menu option allowing the user to initiate a dispute for a specific charge */
 "PAYMENTS_MORE_MENU_DISPUTE_CHARGE" = "Dispute charge";
@@ -18763,12 +18671,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Label for the region field in the X Payments onboarding process. */
 "PAYMENTS_ONBOARDING_REGION_FIELD_NAME" = "Region";
-
-/* Payments: Title of requirement for X Payments eligibility stating the geographical restriction. */
-"PAYMENTS_ONBOARDING_REQUIREMENT_GEOGRAPHY_TITLE" = "We are currently only allowing US customers.";
-
-/* Payments: Title of requirement for X Payments eligibility stating the need for the X account to be in good standing. */
-"PAYMENTS_ONBOARDING_REQUIREMENT_SAFETY_TITLE" = "Money isn’t available due to your account status";
 
 /* Payments: Label for the residential address field in the X Payments onboarding process. */
 "PAYMENTS_ONBOARDING_RESIDENTIAL_ADDRESS_FIELD_NAME" = "Residential address";
@@ -19460,9 +19362,6 @@ eg. "Super Following Jack" */
 /* Payments: Title for the security and privacy settings screen */
 "PAYMENTS_SETTINGS_SECURITY_AND_PRIVACY_TITLE" = "Security and Privacy";
 
-/* Payments: Option in the Settings to access support (that also contains a way to send feedback). */
-"PAYMENTS_SETTINGS_SUPPORT" = "Support and Feedback";
-
 /* Payments: Title for the Tax & Statements settings screen */
 "PAYMENTS_SETTINGS_TAX_AND_STATEMENTS_TITLE" = "Statements and Tax Forms";
 
@@ -19505,9 +19404,6 @@ eg. "Super Following Jack" */
 /* Payments: Title of the 'Rewards' tab, which shows information about cashback and interest */
 "PAYMENTS_TAB_REWARDS" = "Rewards";
 
-/* Payments: Type of account (business) on the customer's cash account tile */
-"PAYMENTS_TILE_CASH_ACCOUNT_TYPE_BUSINESS" = "Business account";
-
 /* Payments: Type of account (individual) on the customer's cash account tile */
 "PAYMENTS_TILE_CASH_ACCOUNT_TYPE_INDIVIDUAL" = "My account";
 
@@ -19531,6 +19427,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Toast shown when some data has been copied to the iOS clipboard. %@ is replaced by the name of the data (ex: Account Number). */
 "PAYMENTS_TOAST_COPIED" = "“%@” copied to clipboard";
+
+/* Payments: Action to open an issued check shipping tracking page on X Money */
+"PAYMENTS_TRACK_SHIPPING_ACTION" = "Track shipping";
 
 /* Payments: Title when the transactions list is empty */
 "PAYMENTS_TRANSACTIONS_EMPTY_SUBTITLE" = "Once you have some activity, it will show up here.";
@@ -19730,18 +19629,6 @@ eg. "Super Following Jack" */
 /* Payments: Action to open the screen that shows all the wire details */
 "PAYMENTS_VIEW_WIRE_METADATA_ACTION" = "Wire information";
 
-/* Payments: Name of the Payments wallet during a deposit/withdrawal */
-"PAYMENTS_WALLET_NAME" = "My Balance";
-
-/* Payments: Label for the memo attribute */
-"PAYMENTS_WIRE_ATTRIBUTE_MEMO" = "Memo";
-
-/* Payments: Label for the field where the user enters the address of the wire transfer recipient */
-"PAYMENTS_WIRE_BENEFICIARY_ADDRESS" = "Beneficiary Address";
-
-/* Payments: Label for the field where the user enters the name of the wire transfer recipient */
-"PAYMENTS_WIRE_BENEFICIARY_NAME" = "Beneficiary Name";
-
 /* Payments: Section header for beneficiary information */
 "PAYMENTS_WIRE_BENEFICIARY_SECTION" = "Beneficiary";
 
@@ -19775,14 +19662,8 @@ eg. "Super Following Jack" */
 /* Payments: Section header for intermediary bank information */
 "PAYMENTS_WIRE_INTERMEDIARY_SECTION" = "Intermediary";
 
-/* Payments: Text shown next to the memo when the text input is empty, to indicate that they're mandatory. */
-"PAYMENTS_WIRE_MEMO_REQUIRED" = "Memo is required";
-
 /* Payments: Label for Output Message Accountability Data */
 "PAYMENTS_WIRE_OMAD" = "OMAD";
-
-/* Payments: Text shown next to the memo added by the user on a wire transfer */
-"PAYMENTS_WIRE_OPTIONAL_MEMO_DISCLAIMER" = "Memo will appear on recipients statements";
 
 /* Payments: Section header for originator information */
 "PAYMENTS_WIRE_ORIGINATOR_SECTION" = "Originator";
@@ -20269,9 +20150,6 @@ eg. "Super Following Jack" */
 
 /* Undo button title for undoing a reaction on an entry */
 "DIRECT_MESSAGES_UNDO_REACTION_BUTTON_TITLE" = "Undo";
-
-/* Title of button to view your direct message settings, as seen in the requests inbox overflow menu*/
-"DIRECT_MESSAGES_VIEW_MESSAGE_SETTINGS_BUTTON_TITLE" = "View Chat settings";
 
 /* Add people to group label for participants viewer or user picker */
 "DIRECT_MESSAGE_ADD_PEOPLE_ACTION" = "Add people";
@@ -22452,9 +22330,6 @@ eg. "Super Following Jack" */
 /* Format to indicate a trend has been promoted by a political organization */
 "PROMOTED_POLITICAL_LABEL" = "Promoted (political)";
 
-/* Format to indicate that a post is boosted by a third party. The %@ will be replaced with @username. e.g. "Boosted by @elonmusk" */
-"PROMOTED_THIRD_PARTY_BOOST_BY_USERNAME_FORMAT" = "Boosted by %@";
-
 /* Format to indicate that a bottom wysta description is available i, e.g "Promoted • Because you love coffee". */
 "PROMOTED_WYSTA_INFO_WEB_VIEW_TITLE" = "Why this ad";
 
@@ -23686,9 +23561,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Title of setting to always allow messages from subscribers as a creator */
 "DIRECT_MESSAGE_ALWAYS_ALLOW_MESSAGES_FROM_SUBSCRIBERS_SETTING_TITLE" = "Allow messages from my subscribers";
 
-/* Message sent as part of a direct message when a video conference is started within the conversation. Allows people from the group chat to join the conference. */
-"DIRECT_MESSAGE_CONFERENCE_SHARE_MESSAGE" = "Join the conference: %@";
-
 /* Description of setting to filter out low quality conversations in DM request inbox */
 "DIRECT_MESSAGE_LOW_QUALITY_FILTER_SETTING_DESCRIPTION" = "Hide message requests that have been detected as being potentially spam or low-quality. These will be sent to a separate inbox located at the bottom of your message requests. You can still access them if you want. %@";
 
@@ -23751,9 +23623,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Title of the cancel action for the Verification upsell sheet displayed when someone tries to DM someone else while being unverified. */
 "DIRECT_MESSAGE_VERIFIED_CANCEL_ACTION_LABEL" = "No thanks";
-
-/* Message of the Verification upsell sheet displayed when someone tries to DM someone else while not having Premium. */
-"DIRECT_MESSAGE_VERIFIED_ERROR_SENDER_NOT_PREMIUM_MESSAGE" = "Only Premium users can send message requests to this user. Get Premium to continue.";
 
 /* Title of the Verification upsell sheet displayed when someone tries to DM someone else while not having Premium. */
 "DIRECT_MESSAGE_VERIFIED_ERROR_SENDER_NOT_PREMIUM_TITLE" = "Get Premium to message %@";
@@ -24521,9 +24390,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Activity label for share sheet to a third-party app, Viber, in App Store. Please translate this as a localized name of the app, not the literal translation. If there's no localized version of the name, please leave it as English. */
 "SHARE_TO_OFF_PLATFORM_VIBER_ACTIVITY_CAROUSEL_LABEL" = "Viber";
 
-/* Footer line drawn at the bottom of an Instagram Stories share sticker when the video was trimmed. %@ is the X brand glyph (the Unicode character that represents the X logo) and must be preserved verbatim in translations. */
-"SHARE_TO_OFF_PLATFORM_VIDEO_TRIMMED_FOOTER_FORMAT" = "Watch full on %@";
-
 /* Toast message shown when a video is automatically trimmed (measured in minutes) to fit the share limit. %ld is the maximum duration in minutes. */
 "SHARE_TO_OFF_PLATFORM_VIDEO_TRIMMED_MINUTES_FORMAT" = "This video has been trimmed to %ld minutes for sharing.";
 
@@ -24987,18 +24853,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Sentence displayed in multiple places when the Audio Space is not available because it has been ended by the Admin. */
 "VOICE_ROOM_ERROR_STATUS_ENDED" = "This Space has ended";
 
-/* Text of the toast shown to a user if they can't join a specific conference Space (ex: if they're not an employee). */
-"VOICE_ROOM_ERROR_STATUS_NOT_AUTHORIZED" = "You are not authorized to join this conference.";
-
-/* Action of the toast shown to a user if they can't join a specific conference Space (ex: if they're not an employee). */
-"VOICE_ROOM_ERROR_STATUS_NOT_AUTHORIZED_REQUEST_ACTION" = "Request to join";
-
-/* Text of the toast shown to a user if they can't join a specific conference Space (ex: if they're not an employee), and they cannot submit a request (usually because the room is empty). */
-"VOICE_ROOM_ERROR_STATUS_NOT_AUTHORIZED_REQUEST_NOT_SENT" = "You are not authorized to join this conference, and cannot currently request to join.";
-
-/* Text of the toast shown to a user if they can't join a specific conference Space (ex: if they're not an employee), and they submitted a request to join. */
-"VOICE_ROOM_ERROR_STATUS_NOT_AUTHORIZED_REQUEST_PENDING" = "Your request to join this conference is pending.";
-
 /* Sentence displayed in multiple places when the Audio Space is not available, for various (and undefined) reasons. */
 "VOICE_ROOM_ERROR_STATUS_UNAVAILABLE" = "This Space is not available";
 
@@ -25341,12 +25195,6 @@ eg. "- @jack" */
 
 /* Fallback perk title when the perk type is unknown */
 "SUPER_FOLLOW_NEW_PAYWALL_PERK_UNKNOWN" = "Perk";
-
-/* Prefix for "Replying to @username" in the reply preview */
-"SUPER_FOLLOW_NEW_PAYWALL_REPLYING_TO" = "Replying to ";
-
-/* Placeholder text for the reply input in the preview card */
-"SUPER_FOLLOW_NEW_PAYWALL_REPLY_PLACEHOLDER" = "Post your reply";
 
 /* Social proof text with one name and no others.
  eg. "Jack also subscribes" */
@@ -26944,38 +26792,11 @@ eg. "- @jack" */
 
 // Section: Frameworks/ChatApp/Sources/ChatAppStrings/en.lproj/Localizable.strings
 
-/* Two-factor backup code field */
-"CHAT_2FA_BACKUP_CODE" = "Backup code";
-
-/* Two-factor verification code field */
-"CHAT_2FA_CODE" = "Verification code";
-
-/* Two-factor code required error */
-"CHAT_2FA_CODE_REQUIRED" = "Enter the verification code";
-
-/* Two-factor invalid code error */
-"CHAT_2FA_INVALID_CODE" = "Incorrect verification code.";
-
-/* Two-factor authenticator prompt */
-"CHAT_2FA_PROMPT_AUTH" = "Enter the code from your authenticator app";
-
-/* Two-factor backup code prompt */
-"CHAT_2FA_PROMPT_BACKUP" = "Enter one of your backup codes";
-
-/* Two-factor SMS prompt */
-"CHAT_2FA_PROMPT_SMS" = "Enter the code sent via SMS";
-
-/* Two-factor verify button */
-"CHAT_2FA_VERIFY" = "Verify";
-
 /* Account settings title */
 "CHAT_ACCOUNT_SETTINGS" = "Account";
 
 /* Add member failed error */
 "CHAT_ADD_MEMBER_FAILED" = "Unable to add member. Please try again.";
-
-/* Add photos button label */
-"CHAT_ADD_PHOTOS" = "Add photos";
 
 /* Appearance settings title */
 "CHAT_APPEARANCE" = "Appearance";
@@ -27043,9 +26864,6 @@ eg. "- @jack" */
 /* Call error: verification required */
 "CHAT_CALL_ERROR_VERIFY_REQUIRED" = "Verification is required for secret DM calls.";
 
-/* Cannot make call alert title */
-"CHAT_CANNOT_CALL" = "Cannot call";
-
 /* Cannot mix media and files message */
 "CHAT_CANNOT_MIX_MEDIA_FILES" = "You cannot send files and media together. Please remove the existing attachments first.";
 
@@ -27058,14 +26876,8 @@ eg. "- @jack" */
 /* Characters remaining count. %@: remaining count */
 "CHAT_CHARS_REMAINING" = "%@ characters remaining";
 
-/* Choose from library action */
-"CHAT_CHOOSE_FROM_LIBRARY" = "Choose from your library";
-
 /* Close button label */
 "CHAT_CLOSE" = "Close";
-
-/* Continue as username label. %@: username */
-"CHAT_CONTINUE_AS_USER" = "Continue as @%@";
 
 /* Cookie use label */
 "CHAT_COOKIE_USE" = "Cookie Use";
@@ -27172,26 +26984,11 @@ eg. "- @jack" */
 /* Filter by label */
 "CHAT_FILTER_BY" = "Filter by";
 
-/* Filter chats label */
-"CHAT_FILTER_CHATS" = "Filter Chats";
-
 /* Forwarded message label */
 "CHAT_FORWARDED_MESSAGE" = "Forwarded message";
 
 /* Forwarded message with sender label. %@: sender name */
 "CHAT_FORWARDED_MESSAGE_WITH_SENDER" = "%@ forwarded a message";
-
-/* Number of conversations forwarded to. %@: count */
-"CHAT_FORWARD_CONVERSATIONS_COUNT" = "%@ conversations";
-
-/* Generate with AI action */
-"CHAT_GENERATE_WITH_AI" = "Generate with AI";
-
-/* Photos permission prompt */
-"CHAT_GRANT_PHOTOS_PERMISSION" = "Please grant permission to use photos";
-
-/* Grok label */
-"CHAT_GROK" = "Grok";
 
 /* Group invite link footer description */
 "CHAT_GROUP_INVITE_FOOTER" = "When enabled, anyone with the link can request to join this group conversation and see the group name, group photo and member count.";
@@ -27201,9 +26998,6 @@ eg. "- @jack" */
 
 /* Help settings label */
 "CHAT_HELP" = "Help";
-
-/* Imagine label */
-"CHAT_IMAGINE" = "Imagine";
 
 /* Info item sheet title for added members */
 "CHAT_INFO_ITEM_ADDED_MEMBERS" = "Added Members";
@@ -27228,27 +27022,6 @@ eg. "- @jack" */
 
 /* Legal notices label */
 "CHAT_LEGAL_NOTICES" = "Legal Notices";
-
-/* Account load failed error */
-"CHAT_LOGIN_ACCOUNT_LOAD_FAILED" = "Unable to load your account. Please try again.";
-
-/* Account save failed error */
-"CHAT_LOGIN_ACCOUNT_SAVE_FAILED" = "Unable to save your account. Please try again.";
-
-/* Login failed error */
-"CHAT_LOGIN_FAILED" = "Unable to sign in. Please try again.";
-
-/* Invalid credentials error */
-"CHAT_LOGIN_INVALID_CREDENTIALS" = "Incorrect username or password.";
-
-/* Password required validation error */
-"CHAT_LOGIN_PASSWORD_REQUIRED" = "Enter a password.";
-
-/* Unsupported login step error */
-"CHAT_LOGIN_UNSUPPORTED_STEP" = "This login flow isn’t supported yet.";
-
-/* Username required validation error */
-"CHAT_LOGIN_USERNAME_REQUIRED" = "Enter a username.";
 
 /* Manage account button label */
 "CHAT_MANAGE_ACCOUNT" = "Manage account";
@@ -27277,38 +27050,20 @@ eg. "- @jack" */
 /* Notifications settings title */
 "CHAT_NOTIFICATIONS" = "Notifications";
 
-/* Notifications toolbar title */
-"CHAT_NOTIFICATIONS_COUNT" = "X notifications";
-
 /* Notifications permission denied alert message */
 "CHAT_NOTIFICATIONS_PERMISSION_DENIED_MESSAGE" = "Notification permissions are required to receive push alerts.\n\nPlease open Settings to enable.";
 
 /* Notifications permission denied alert title */
 "CHAT_NOTIFICATIONS_PERMISSION_DENIED_TITLE" = "Enable Notifications";
 
-/* OK button label */
-"CHAT_OK" = "OK";
-
 /* On toggle label */
 "CHAT_ON" = "On";
-
-/* Open conversation context menu action */
-"CHAT_OPEN" = "Open";
-
-/* Other accounts section title */
-"CHAT_OTHER_ACCOUNTS" = "Other Accounts";
 
 /* Passcode unknown error */
 "CHAT_PASSCODE_ERROR_UNKNOWN" = "Something went wrong. Please try again.";
 
 /* Passcode flow load error */
 "CHAT_PASSCODE_LOAD_ERROR" = "Unable to load passcode flow. Please try again.";
-
-/* Password field placeholder */
-"CHAT_PASSWORD" = "Password";
-
-/* Empty state for photos picker */
-"CHAT_PHOTOS_WILL_SHOW_HERE" = "Photos will show up here";
 
 /* Photo library access denied alert message */
 "CHAT_PHOTO_ACCESS_DENIED_MESSAGE" = "Allow photo library access in Settings to save photos and videos from the camera.";
@@ -27340,9 +27095,6 @@ eg. "- @jack" */
 /* Read-only conversation message */
 "CHAT_READ_ONLY_CONVO_MESSAGE" = "This conversation is read-only and cannot be modified.";
 
-/* Recent photos empty state */
-"CHAT_RECENT_PHOTOS_PLACEHOLDER" = "Recent photos will show up here";
-
 /* Remove admin confirmation action */
 "CHAT_REMOVE_ADMIN_ACTION" = "Remove";
 
@@ -27370,9 +27122,6 @@ eg. "- @jack" */
 /* Replied to with sender label. %1$@: sender, %2$@: recipient */
 "CHAT_REPLIED_TO_WITH_SENDER" = "%1$@ replied to %2$@";
 
-/* Replying to yourself label */
-"CHAT_REPLYING_TO_YOURSELF" = "Replying to yourself";
-
 /* Reply preview file attachment label */
 "CHAT_REPLY_ATTACHMENT_FILE" = "File";
 
@@ -27384,9 +27133,6 @@ eg. "- @jack" */
 
 /* Unknown user fallback name */
 "CHAT_REPLY_UNKNOWN_USER" = "Someone";
-
-/* Requests label */
-"CHAT_REQUESTS" = "Requests";
 
 /* Reset button label */
 "CHAT_RESET" = "Reset";
@@ -27409,29 +27155,11 @@ eg. "- @jack" */
 /* Seen by count header. %@: number of viewers */
 "CHAT_SEEN_BY_COUNT" = "Seen By (%@)";
 
-/* Select photos from library prompt */
-"CHAT_SELECT_PHOTOS_FROM_LIBRARY" = "Select photos from your library";
-
 /* Sender label in message info */
 "CHAT_SENDER" = "Sender";
 
 /* Message sending status */
 "CHAT_SENDING" = "Sending";
-
-/* Send a document action */
-"CHAT_SEND_DOCUMENT" = "Send a document";
-
-/* Send a GIF action */
-"CHAT_SEND_GIF" = "Send a GIF";
-
-/* Send singular photo button. %@: count */
-"CHAT_SEND_PHOTO" = "Send %@ Photo";
-
-/* Send plural photos button. %@: count */
-"CHAT_SEND_PHOTOS" = "Send %@ Photos";
-
-/* Send or request money action */
-"CHAT_SEND_REQUEST_MONEY" = "Send or request money";
 
 /* Settings title */
 "CHAT_SETTINGS" = "Settings";
@@ -27454,15 +27182,6 @@ eg. "- @jack" */
 /* Navigation bar title for the X Chat share extension's conversation picker. */
 "CHAT_SHARE_EXTENSION_PICKER_TITLE" = "Share to";
 
-/* Show recent photos label */
-"CHAT_SHOW_RECENT_PHOTOS" = "Show recent photos";
-
-/* Sign in button */
-"CHAT_SIGN_IN" = "Sign in";
-
-/* Sign in prompt message */
-"CHAT_SIGN_IN_TO_CONTINUE" = "Sign in with your X account to continue";
-
 /* Sign in with X button */
 "CHAT_SIGN_IN_WITH_X" = "Sign in with X";
 
@@ -27477,9 +27196,6 @@ eg. "- @jack" */
 
 /* Generic error title */
 "CHAT_SOMETHING_WENT_WRONG" = "Something Went Wrong";
-
-/* Start a conversation with Grok action */
-"CHAT_START_CONVO_WITH_GROK" = "Start a conversation with Grok";
 
 /* Storage by conversations section title */
 "CHAT_STORAGE_BY_CONVERSATIONS" = "Storage by Conversations";
@@ -27526,15 +27242,6 @@ eg. "- @jack" */
 /* System theme option */
 "CHAT_SYSTEM" = "System";
 
-/* Take a photo or video action */
-"CHAT_TAKE_PHOTO_VIDEO" = "Take a photo or video";
-
-/* Tap to select account hint */
-"CHAT_TAP_TO_SELECT" = "Tap to select";
-
-/* Tap to view action */
-"CHAT_TAP_TO_VIEW" = "Tap to view";
-
 /* Terms of service label */
 "CHAT_TERMS_OF_SERVICE" = "Terms of Service";
 
@@ -27565,12 +27272,6 @@ eg. "- @jack" */
 /* Unsupported attachment fallback text */
 "CHAT_UNSUPPORTED_ATTACHMENT" = "Unsupported attachment";
 
-/* Unsupported file alert message */
-"CHAT_UNSUPPORTED_FILE_MESSAGE" = "The selected file type is not supported. Please select a regular file.";
-
-/* Unsupported file alert title */
-"CHAT_UNSUPPORTED_FILE_TITLE" = "Unsupported File";
-
 /* Upload quality section title */
 "CHAT_UPLOAD_QUALITY" = "Upload Quality";
 
@@ -27585,12 +27286,6 @@ eg. "- @jack" */
 
 /* Upload quality standard option */
 "CHAT_UPLOAD_QUALITY_STANDARD" = "Standard";
-
-/* Username field placeholder */
-"CHAT_USERNAME" = "Username";
-
-/* Use a different account button */
-"CHAT_USE_ANOTHER_ACCOUNT" = "Use different account";
 
 /* Vanishing mode footer description */
 "CHAT_VANISHING_MODE_FOOTER" = "When enabled, messages will disappear once members have seen them and closed the chat after a duration specified above.";
@@ -28102,9 +27797,6 @@ eg. "- @jack" */
 /* Label of item in the post Audience Selector to select a public post audience.  */
 "TWEET_AUDIENCE_SELECTOR_PUBLIC_AUDIENCE_LABEL" = "Everyone";
 
-/* Subtitle shown below the title in the redesigned post Audience selector. */
-"TWEET_AUDIENCE_SELECTOR_SUBTITLE" = "Pick who can view this post";
-
 /* Accessibility hint for Audience selector item Super Followers in composer */
 "TWEET_AUDIENCE_SELECTOR_SUPER_FOLLOWERS_ACCESSIBILITY_HINT" = "Compose post to your Subscribers";
 
@@ -28235,18 +27927,6 @@ eg. "- @jack" */
 /* Title for the Edit with Grok button in the photo editor */
 "XPHOTOEDITOR_GROK_BUTTON_TITLE" = "Edit image";
 
-/* Message for the alert shown when a Grok edit requires freeing checkpoint memory */
-"XPHOTOEDITOR_GROK_EVICTION_ALERT_MESSAGE" = "This edit will permanently remove previous edit states to free up memory. You will not be able to revert past this point. Continue?";
-
-/* Title for the alert shown when a Grok edit requires freeing checkpoint memory */
-"XPHOTOEDITOR_GROK_EVICTION_ALERT_TITLE" = "Free Up Memory";
-
-/* Label for the continue action in the Grok eviction alert */
-"XPHOTOEDITOR_GROK_EVICTION_CONTINUE_LABEL" = "Continue";
-
-/* Label for the OK action in alerts */
-"XPHOTOEDITOR_OK_ACTION_LABEL" = "OK";
-
 /* Label for the Open Settings action when photo access is denied */
 "XPHOTOEDITOR_OPEN_SETTINGS_ACTION_LABEL" = "Open Settings";
 
@@ -28255,15 +27935,6 @@ eg. "- @jack" */
 
 /* Title for the alert shown when photo library access has been denied */
 "XPHOTOEDITOR_PHOTO_ACCESS_DENIED_TITLE" = "Photo Access Required";
-
-/* Accessibility label for the clear all redactions button */
-"XPHOTOEDITOR_REDACTION_CLEAR_ALL" = "Clear All";
-
-/* Display name for the detect text redaction mode */
-"XPHOTOEDITOR_REDACTION_MODE_DETECT" = "Detect";
-
-/* Display name for the draw region redaction mode */
-"XPHOTOEDITOR_REDACTION_MODE_DRAW" = "Draw";
 
 /* Display name for the black box redaction style */
 "XPHOTOEDITOR_REDACTION_STYLE_BLACKBOX" = "Black Box";
@@ -28288,9 +27959,6 @@ eg. "- @jack" */
 
 /* Accessibility label for the text tool toolbar button */
 "XPHOTOEDITOR_TEXT_TOOL_ACCESSIBILITY_LABEL" = "Text";
-
-/* Accessibility label for the undo button */
-"XPHOTOEDITOR_UNDO_ACCESSIBILITY_LABEL" = "Undo";
 
 // Section: Frameworks/TwitterHome/Sources/TwitterHomeStrings/en.lproj/Localizable.strings
 
@@ -28393,9 +28061,6 @@ eg. "- @jack" */
 /* Text shown when a search in the browse list yields no results */
 "TAB_MANAGEMENT_BROWSE_NO_RESULTS" = "No results found";
 
-/* Label for the browse topics row in the tab management sheet */
-"TAB_MANAGEMENT_DISCOVER_TOPICS" = "Browse Topics";
-
 /* Edit button for the pinned section */
 "TAB_MANAGEMENT_PINNED_EDIT" = "Edit";
 
@@ -28423,14 +28088,8 @@ eg. "- @jack" */
 /* Section header for topic feeds in the tab management sheet */
 "TAB_MANAGEMENT_SECTION_SUGGESTED_TOPICS" = "Topics";
 
-/* Done button in the tab management sheet */
-"TAB_MANAGEMENT_SHEET_DONE" = "Done";
-
 /* Title for the tab management sheet */
 "TAB_MANAGEMENT_SHEET_TITLE" = "Timelines";
-
-/* Label for the View All button on the topics section header */
-"TAB_MANAGEMENT_VIEW_ALL" = "View All";
 
 /* Action title for the Manage Timelines option in the tab popover menu */
 "TAB_POPOVER_MANAGE_FEEDS" = "Manage Timelines";
