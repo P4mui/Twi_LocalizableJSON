@@ -5664,6 +5664,12 @@ This text is the accessibility hint for the button that lets the user change the
 /* Accessibility value for selected */
 "OPTION_SELECTED_ACCESSIBILITY_VALUE" = "Selected";
 
+/* Body of the alert shown when a palm liveness verification link targets an X account that is not currently logged in to the app. */
+"PALM_LIVENESS_ACCOUNT_NOT_LOGGED_IN_MESSAGE" = "Log in to the account associated with this verification code to continue.";
+
+/* Title of the alert shown when a palm liveness verification link targets an X account that is not currently logged in to the app. */
+"PALM_LIVENESS_ACCOUNT_NOT_LOGGED_IN_TITLE" = "Log in required";
+
 /* Toast shown when the palm liveness check fails. */
 "PALM_LIVENESS_ERROR_TOAST" = "Verification failed. Please try again.";
 
