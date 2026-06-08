@@ -617,21 +617,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Message label shown when selecting prompt for previously granted permissions */
 "AUTHORIZATION_PREVIOUSLY_GRANTED_MESSAGE" = "Access was previously granted.";
 
-/* The list of autoblocked users is empty, i.e., the current user has not autoblocked any accounts */
-"AUTOBLOCKED_LIST_EMPTY_STREAM_MESSAGE" = "Autoblocked accounts";
-
-/* The list of autoblocked users is empty, i.e., the current user has not autoblocked any accounts. A learn more link will be added to this. */
-"AUTOBLOCKED_LIST_EMPTY_STREAM_MESSAGE_SUBTEXT_FORMAT" = "When you activate Safety Mode, accounts that X automatically blocks will show up here. %@";
-
-/* Generic message for autoblock ending in a few hours */
-"AUTOBLOCK_ENDS_FEW_HOURS_MESSAGE" = "This autoblock ends in a few hours";
-
-/* Relative date for when autoblock ends, i.e. Autoblock ends in 5 days, 4 hours */
-"AUTOBLOCK_ENDS_RELATIVE_DATE_FORMAT" = "This autoblock ends in %1$@, %2$@";
-
-/* Relative date for when autoblock ends with just days, i.e. Autoblock ends in 5 days */
-"AUTOBLOCK_ENDS_RELATIVE_DATE_NO_HOURS_FORMAT" = "This autoblock ends in %@";
-
 /* Accessibility hint for autocomplete item */
 "AUTOCOMPLETE_ITEM_ACCESSIBILITY_HINT" = "Autocomplete item";
 
@@ -820,9 +805,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* The list of blocked users is empty, i.e., the current user is not blocking any accounts */
 "BLOCK_LIST_EMPTY_STREAM_MESSAGE_SUBTEXT_V2" = "They will be able to see your public posts, but will no longer be able to engage with them. They will also not be able to follow or message you, and you will not see notifications from them. %@";
-
-/* Title of the list of users that are auto blocked by the current account */
-"BLOCK_LIST_SMART_TITLE" = "Autoblocked";
 
 /* The list of DM blocked users is empty, i.e., the current user is not blocking any accounts from messaging */
 "BLOCK_MESSAGE_LIST_EMPTY_STREAM_MESSAGE" = "Block unwanted accounts from messaging you";
@@ -1283,6 +1265,9 @@ e.g. Removed from MyRecipes.
 /* Message shown in place of the chart when the backend returned a successful response with no chart data. */
 "CASHTAG_INFO_CHART_UNAVAILABLE_MESSAGE" = "No chart data to display.";
 
+/* Label shown in place of the live price for an inactive (not yet tradable) cashtag asset. */
+"CASHTAG_INFO_COMING_SOON" = "Coming soon";
+
 /* Segment title for the Latest timeline in the cashtag info sheet. */
 "CASHTAG_INFO_LATEST_TAB_TITLE" = "Latest";
 
@@ -1292,6 +1277,9 @@ e.g. Removed from MyRecipes.
 /* Percent change label format in the cashtag info chart.
    %1$@ = percent change, e.g. +1.23% */
 "CASHTAG_INFO_PERCENT_CHANGE_BRACKET_FORMAT" = "(%1$@)";
+
+/* Label for the pre-market row in the cashtag info asset view. */
+"CASHTAG_INFO_PRE_MARKET_LABEL" = "Pre-market";
 
 /* Timeframe button label for the 1 day range in the cashtag info chart. */
 "CASHTAG_INFO_TIMEFRAME_1D_LABEL" = "1D";
@@ -1313,6 +1301,9 @@ e.g. Removed from MyRecipes.
 
 /* Button title to trade the displayed stock/crypto in the cashtag info sheet. %@ is the name of the trade platform (e.g. "Wealthsimple"). */
 "CASHTAG_INFO_TRADE_BUTTON_TITLE_FORMAT" = "Trade on %@";
+
+/* Button title to trade the displayed stock/crypto when multiple trade platforms are available. %@ is the asset ticker (e.g. "TSLA"). */
+"CASHTAG_INFO_TRADE_TICKER_FORMAT" = "Trade %@";
 
 /* Change Password Error Bad Request Cannot Change Password */
 "CHANGE_PASSWORD_ERROR_CANNOT_CHANGE_PASSWORD" = "Please use the “Forgot password” link to reset your password and unlock your account.";
@@ -6162,6 +6153,9 @@ This text is the accessibility hint for the button that lets the user change the
 /* Placeholder text format for optional poll choice prompts (eg. "Choice 3 (optional)") */
 "POLL_VIEW_OPTIONAL_CHOICE_PLACEHOLDER_FORMAT" = "Choice %d (optional)";
 
+/* Shown in the cashtag share sheet to compose a post containing the cashtag. */
+"POST_CHART_ACTIVITY_VIEW_LABEL" = "Post Chart";
+
 /* Prompt button asking user if they installed an advertised app */
 "POST_INSTALL_PROMPT_ALREADY_INSTALLED" = "It was already installed";
 
@@ -6692,45 +6686,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Professional category disclaimer title */
 "PROFILE_PROFESSIONAL_CATEGORY_DISCLAIMER_TITLE" = "Professional categories";
-
-/* Warning title for blocker when viewing auto blocked profile. NOTE: %1%@ is username of user who has been blocked */
-"PROFILE_SAFETY_MODE_BLOCKED_BY_VIEWER_MESSAGE_TITLE_FORMAT" = "%1$@ is autoblocked";
-
-/* Auto-blocked-by-you-view view posts button text */
-"PROFILE_SAFETY_MODE_BLOCKED_BY_VIEWER_VIEW_TWEETS_BUTTON_TEXT" = "View posts";
-
-/* Text for blocker when viewing auto blocked profile. NOTE: %1$@ is username of user who has been blocked, %2$@ is the relative date of expiration ('This autoblock ends in 4 days, 1 hours' or 'This autoblock ends in a few hours'), %@$3 is the username of user who has been blocked */
-"PROFILE_SAFETY_MODE_BLOCKED_BY_VIEWER_WE_AUTOBLOCKED_FORMAT" = "You turned on Safety Mode, so we autoblocked %1$@ for a week. %2$@.\n\nYou can view their profile to learn more about them or go to their flagged posts to see why we autoblocked them. Neither one of these actions will remove the autoblock from %3$@.";
-
-/* Guideline text for profile when user has been blocked by X via safety mode */
-"PROFILE_SAFETY_MODE_BLOCKING_VIEWER_MESSAGE_GUIDELINE_AVOID_REPLIES_TEXT" = "They can overwhelm people, even if the content is innocent.\n\n";
-
-/* Message text title guideline for profile when user has been blocked by X via safety mode */
-"PROFILE_SAFETY_MODE_BLOCKING_VIEWER_MESSAGE_GUIDELINE_AVOID_REPLIES_TITLE" = "Avoid repetitive, uninvited replies\n";
-
-/* Guideline text for profile when user has been blocked by X via safety mode */
-"PROFILE_SAFETY_MODE_BLOCKING_VIEWER_MESSAGE_GUIDELINE_REMEMBER_THE_HUMAN_TEXT" = "There’s a person on the other end of your post with feelings.\n\n";
-
-/* Message text title guideline for profile when user has been blocked by X via safety mode */
-"PROFILE_SAFETY_MODE_BLOCKING_VIEWER_MESSAGE_GUIDELINE_REMEMBER_THE_HUMAN_TITLE" = "Remember the human\n";
-
-/* Guideline text for profile when user has been blocked by X via safety mode */
-"PROFILE_SAFETY_MODE_BLOCKING_VIEWER_MESSAGE_GUIDELINE_SKIP_INSULTS_TEXT" = "Even if they seem playful to you, others might find them hurtful.\n\n";
-
-/* Message text title guideline for profile when user has been blocked by X via safety mode */
-"PROFILE_SAFETY_MODE_BLOCKING_VIEWER_MESSAGE_GUIDELINE_SKIP_INSULTS_TITLE" = "Skip the insults, name-calling, and harmful remarks\n";
-
-/* Message text for profile when user has been blocked by X via safety mode. NOTE: %1$@ is for the user who carried out the block. */
-"PROFILE_SAFETY_MODE_BLOCKING_VIEWER_MESSAGE_TEMP_AUTOBLOCKED_TEXT" = "You’re temporarily autoblocked from viewing and interacting with %1$@’s posts. This happened when they were in Safety Mode, and we flagged your interactions as potentially abusive or spammy.\n\nWe know we don’t get autoblocks right all the time, so we’re working to improve our detection.";
-
-/* Title text for profile when user has been blocked by X via safety mode */
-"PROFILE_SAFETY_MODE_BLOCKING_VIEWER_MESSAGE_TITLE" = "Autoblocked by X";
-
-/* Continued message text for profile when user has been blocked by X via safety mode. */
-"PROFILE_SAFETY_MODE_BLOCKING_VIEWER_MESSAGE_WAYS_TO_HEALTHY_CONVO_TEXT" = "\n\nHere are ways to keep your conversations healthy — and avoid getting autoblocked.\n\n";
-
-/* Text representing a link to a support page with more information about safety mode */
-"PROFILE_SAFETY_MODE_WHAT_IS_SAFETY_MODE_TEXT" = "What is Safety Mode?";
 
 /* Accessibility announcement as new profile is scrolled. Example: "Items 5 to 10 of 25" */
 "PROFILE_SCROLLING_ACCESSIBILITY_ANNOUNCEMENT_FORMAT" = "Items %1$d to %2$d of %3$d";
@@ -7367,95 +7322,8 @@ This text is the accessibility hint for the button that lets the user change the
 /* Label for the Reports section in the dash menu */
 "SAFETY_CENTER_REPORTS_LABEL" = "Reports";
 
-/* Label for the Safety section in Privacy and Safety Settings */
+/* No comment provided by engineer. */
 "SAFETY_LABEL" = "Safety";
-
-/* Button title to block user account */
-"SAFETY_MODE_ACCOUNT_ACTION_BLOCK_USER_BUTTON_TITLE" = "Block account";
-
-/* Button title to remove user from autoblocked list */
-"SAFETY_MODE_ACCOUNT_ACTION_REMOVE_AUTOBLOCK_BUTTON_TITLE" = "Remove from autoblocked accounts";
-
-/* Button title to remove user from flagged list */
-"SAFETY_MODE_ACCOUNT_ACTION_REMOVE_FLAGGED_BUTTON_TITLE" = "Remove from flagged accounts";
-
-/* Button title to report user account */
-"SAFETY_MODE_ACCOUNT_ACTION_REPORT_USER_BUTTON_TITLE" = "Report account";
-
-/* Nav bar title when opening safety mode autoblocked user's posts */
-"SAFETY_MODE_AUTOBLOCKED_TWEETS_NAV_TITLE" = "Autoblocked posts";
-
-/* Title of the list of users that are flagged to be autoblocked by the current account */
-"SAFETY_MODE_FLAGGED_ACCOUNTS_LIST_TITLE" = "Flagged accounts";
-
-/* The list of flagged users is empty, i.e., the current user has no flagged accounts - this will link to the blocked accounts timeline */
-"SAFETY_MODE_FLAGGED_LIST_EMPTY_STREAM_MESSAGE_BLOCKED_ACCOUNTS_ACTION_TEXT" = "View blocked accounts";
-
-/* The list of flagged users is empty, i.e., the current user has no flagged accounts */
-"SAFETY_MODE_FLAGGED_LIST_EMPTY_STREAM_MESSAGE_SUBTEXT_FORMAT" = "It looks like we haven’t flagged any accounts. Or you’ve already blocked them all. If we flag more accounts, they’ll show up here. %@";
-
-/* Nav bar title when opening safety mode flagged user's flagged posts */
-"SAFETY_MODE_FLAGGED_TWEETS_CONTROLLER_NAV_TITLE" = "Flagged posts";
-
-/* Safety mode modal button title to show flagged accounts */
-"SAFETY_MODE_MODAL_FLAGGED_ACCOUNTS_BUTTON_TITLE" = "Preview flagged accounts";
-
-/* Label text with details on what to do if a user is in danger */
-"SAFETY_MODE_MODAL_IF_IN_DANGER_DETAILS_LABEL" = "If you think you’re in danger, contact local emergency services.";
-
-/* Label telling a user how many accounts we have flagged. (ie. We have flagged more than 8 potentially ....) */
-"SAFETY_MODE_MODAL_NUMBER_FLAGGED_ACCOUNTS_LABEL" = "We flagged more than %@ potentially abusive or spammy accounts.";
-
-/* Label telling a user we flagged 1 account. */
-"SAFETY_MODE_MODAL_NUMBER_FLAGGED_ACCOUNT_LABEL" = "We flagged 1 potentially abusive or spammy account.";
-
-/* Label for safety mode modal title */
-"SAFETY_MODE_MODAL_TITLE" = "Limit unwelcome interactions";
-
-/* Detail text for prompt confirming the removal of a user from the flagged or autoblocked account list */
-"SAFETY_MODE_REMOVE_ACCOUNT_PROMPT_DETAILS" = "They’ll be able to see your posts, follow you, and send you messages in Chat.";
-
-/* Detail text for prompt confirming the removal of a user from the flagged or autoblocked account list */
-"SAFETY_MODE_REMOVE_ACCOUNT_PROMPT_DETAILS_V2" = "They’ll be able to engage with your public posts, follow you, and send you messages in Chat.";
-
-/* Button label for confirming to remove user from autoblock */
-"SAFETY_MODE_REMOVE_ACTION_LABEL" = "Remove";
-
-/* Title for prompt confirming the removal of a user from the autoblocked accounts list */
-"SAFETY_MODE_REMOVE_AUTOBLOCKED_ACCOUNT_PROMPT_TITLE_FORMAT" = "Remove @%@ from autoblocked accounts list?";
-
-/* Title for prompt confirming the removal of a user from the flagged accounts list */
-"SAFETY_MODE_REMOVE_FLAGGED_ACCOUNT_PROMPT_TITLE_FORMAT" = "Remove @%@ from flagged accounts list?";
-
-/* Row title in the Safety Mode settings Autoblock section */
-"SAFETY_MODE_SETTINGS_AUTOBLOCKED_ROW_TITLE" = "Autoblocked accounts";
-
-/* Section title in the Safety Mode settings */
-"SAFETY_MODE_SETTINGS_AUTOBLOCK_SECTION_TITLE" = "Autoblocks";
-
-/* Link title in the safety mode settings page title*/
-"SAFETY_MODE_SETTINGS_DETAIL_LINK_TITLE" = "What’s Safety Mode?";
-
-/* Description text for the Safety Mode Settings Page*/
-"SAFETY_MODE_SETTINGS_DETAIL_PAGE_DESCRIPTION" = "Manage settings that help limit unwelcome interactions. %@";
-
-/* Safety mode detail title for settings */
-"SAFETY_MODE_SETTINGS_DETAIL_TITLE" = "Manage autoblocks and preferences.";
-
-/* Label for safety mode settings server response error */
-"SAFETY_MODE_SETTINGS_RESPONSE_ERROR" = "An error occurred. Please try again later.";
-
-/* Safety Mode Settings navigation item Title */
-"SAFETY_MODE_SETTINGS_TITLE" = "Safety Mode";
-
-/* Safety Mode Settings Switch title Label */
-"SAFETY_MODE_SETTINGS_TITLE_SWITCH_LABEL" = "Safety Mode";
-
-/* Description of when safety mode is set to disable if expiration time is more than 24hrs, with localized date ex.) Ends on Aug 01, 6:05 PM */
-"SAFETY_MODE_SETTINGS_TOGGLE_SWITCH_DETAIL_TIMESTAMP_ENDS_ON" = "Ends on %@";
-
-/* Description of when safety mode is set to disable if within 24hrs, with localized date ex.) Ends within 1 hour */
-"SAFETY_MODE_SETTINGS_TOGGLE_SWITCH_DETAIL_TIMESTAMP_ENDS_WITHIN" = "Ends within 1 hour";
 
 /* No comment provided by engineer. */
 "SAVE_DRAFT_ACTION_LABEL" = "Save draft";
@@ -9591,6 +9459,9 @@ eg. "Super Following Jack" */
 /* Title for why you're seeing this post web page. */
 "TWEET_PROMOTE_WYSTP_INFO_WEB_VIEW_TITLE" = "Why this post";
 
+/* Title for the confirmation alert shown when the user taps the back button on the video reaction editor screen. The alert presents Cancel and Discard buttons and discards all recorded clips and edits if confirmed. */
+"TWEET_REACTION_DISCARD_ALL_CHANGES_ALERT_TITLE" = "Discard all changes?";
+
 /* Title for the confirmation alert shown when the user taps Retake on the video reaction preview screen. The alert presents Cancel and Discard buttons and clears all recorded clips if confirmed. */
 "TWEET_REACTION_DISCARD_ALL_CLIPS_ALERT_TITLE" = "Discard all clips?";
 
@@ -9669,9 +9540,6 @@ eg. "Super Following Jack" */
 
 /* Label on button that will take user to Our Rules web site. */
 "TWITTER_RULES_BUTTON_LABEL" = "Our Rules";
-
-/* Local notification that appears when DM conversation snooze request fails */
-"UNABLE_TO_SNOOZE_DM_CONVERSATION" = "Unable to snooze conversation";
 
 /* Accessibility label indicating you have removed your downvote from a status. */
 "UNDID_DOWNVOTE_ACTION_ACCESSIBILITY_LABEL" = "Undid Downvote";
@@ -9987,6 +9855,24 @@ eg. "Super Following Jack" */
 /* Label to display build number in Additional resources screen */
 "VERSION_LABEL_BUILD" = "Build";
 
+/* Button in the Video Editor Captions tab to start generating captions for the video. */
+"VIDEOEDITOR_CAPTIONS_GENERATE_BUTTON_TITLE" = "Generate captions";
+
+/* Button in the Video Editor Captions tab while captions are being generated. */
+"VIDEOEDITOR_CAPTIONS_GENERATING_BUTTON_TITLE" = "Generating";
+
+/* Label shown in a toast in the Video Editor when caption generation fails. */
+"VIDEOEDITOR_CAPTIONS_GENERATION_FAILED_LABEL" = "Caption generation failed";
+
+/* Button in the Video Editor Captions tab to remove previously generated captions from the video. */
+"VIDEOEDITOR_CAPTIONS_REMOVE_BUTTON_TITLE" = "Remove captions";
+
+/* Message of the confirmation alert shown when the user tries to close the Video Editor while having unsaved changes. */
+"VIDEOEDITOR_DISCARD_CHANGES_ALERT_MESSAGE" = "All video edits will be discarded.";
+
+/* Title of the confirmation alert shown when the user tries to close the Video Editor while having unsaved changes. */
+"VIDEOEDITOR_DISCARD_CHANGES_ALERT_TITLE" = "Discard Changes";
+
 /* Button in the Video Editor toolbar to complete a trim, when the selected length is the whole length. */
 "VIDEOEDITOR_DONE_BUTTON" = "Done";
 
@@ -9995,6 +9881,15 @@ eg. "Super Following Jack" */
 
 /* In the video editor, tooltip template for showing the duration in seconds of the trim. The %@ will be replaced by a number such as "1.2" or "7". */
 "VIDEOEDITOR_DURATION_TOOLTIP" = "%@s selected";
+
+/* Title for the Preview tab in the Video Editor toolbar. */
+"VIDEOEDITOR_TAB_PREVIEW_TITLE" = "Preview";
+
+/* Title for the Content Settings tab in the Video Editor toolbar. */
+"VIDEOEDITOR_TAB_TAG_TITLE" = "Content settings";
+
+/* Title for the Thumbnail tab in the Video Editor toolbar. */
+"VIDEOEDITOR_TAB_THUMBNAIL_TITLE" = "Thumbnail";
 
 /* Title for Video Editor view shown in the toolbar */
 "VIDEOEDITOR_TITLE" = "Edit video";
@@ -12465,9 +12360,6 @@ eg. "Super Following Jack" */
 /* Grok edit image create own button */
 "GROK_EDIT_IMAGE_CREATE_OWN_BUTTON_TITLE" = "Edit image";
 
-/* Button title for creating content with Grok, displayed next to the Made with AI label */
-"GROK_EDIT_IMAGE_CREATE_OWN_NEXT_TO_MADE_WITH_AI_LABEL_BUTTON_TITLE" = "Create with Grok";
-
 /* Grok edit image input button */
 "GROK_EDIT_IMAGE_INPUT_BUTTON" = "Edit Image";
 
@@ -14835,11 +14727,161 @@ eg. "Super Following Jack" */
 /* Payments: Title of the button that allows a user to accept a money transfer. %@ is replaced by a formatted amount (ex: $10). */
 "PAYMENTS_ACCEPT_TRANSFER_AMOUNT_ACTION" = "Accept %@";
 
+/* Payments: Section header listing users who have access to a shared or business account */
+"PAYMENTS_ACCOUNTS_AUTHORIZED_USERS_SECTION" = "Authorized Users";
+
+/* Payments: Title shown on the invitation claim screen. %@ is replaced with the inviter’s @username or name */
+"PAYMENTS_ACCOUNTS_CLAIM_INVITATION_TITLE_FORMAT" = "%@ invited you to share an account";
+
+/* Payments: Success toast title shown after an Extra account is successfully created */
+"PAYMENTS_ACCOUNTS_CREATION_EXTRA_SUCCESS_TOAST_TITLE" = "Your extra account is ready!";
+
+/* Payments: Generic success subtitle shown after any account type is created */
+"PAYMENTS_ACCOUNTS_CREATION_GENERIC_SUCCESS_TOAST_SUBTITLE" = "Your account is now active and ready to use.";
+
+/* Payments: Success subtitle shown after creating a shared account. %@ is replaced by the invited username (e.g. “@username received an invitation…”) */
+"PAYMENTS_ACCOUNTS_CREATION_SHARED_SUCCESS_TOAST_SUBTITLE_FORMAT" = "@%@ received an invitation to join you.";
+
+/* Payments: Success toast title shown after a Shared account is successfully created */
+"PAYMENTS_ACCOUNTS_CREATION_SHARED_SUCCESS_TOAST_TITLE" = "Your shared account is ready!";
+
+/* Payments: Success toast title shown after a Sole Proprietorship account is successfully created */
+"PAYMENTS_ACCOUNTS_CREATION_SOLE_PROP_SUCCESS_TOAST_TITLE" = "Your Sole proprietorship account is ready!";
+
+/* Payments: Title of the screen where the user chooses the type of account to create (Extra, Shared, Business, etc.) */
+"PAYMENTS_ACCOUNTS_CREATION_TYPE_PICKER_TITLE" = "Select account type";
+
+/* Payments: Subtitle in the close account confirmation explaining that remaining funds will move to the user’s main account */
+"PAYMENTS_ACCOUNTS_DELETE_CONFIRMATION_SUBTITLE" = "All the remaining funds will be transferred to your main account.";
+
+/* Payments: Title of the confirmation dialog when the user attempts to close/delete an account */
+"PAYMENTS_ACCOUNTS_DELETE_CONFIRMATION_TITLE" = "Do you want to close this account?";
+
+/* Payments: Benefit/fact subtitle explaining instant switching between main and extra accounts with the X Card */
+"PAYMENTS_ACCOUNTS_EXTRA_FACT_EASY_SWITCHING_SUBTITLE" = "Toggle between your main and extra accounts instantly with your X Card.";
+
+/* Payments: Benefit/fact title highlighting instant switching between accounts using the X Card */
+"PAYMENTS_ACCOUNTS_EXTRA_FACT_EASY_SWITCHING_TITLE" = "Easy Switching";
+
+/* Payments: Benefit/fact subtitle explaining that only the owner can see and manage an Extra account */
+"PAYMENTS_ACCOUNTS_EXTRA_FACT_PRIVATE_SUBTITLE" = "Only you can see and manage the balance and spending—no one else has access.";
+
+/* Payments: Benefit/fact title emphasizing privacy and control of Extra accounts */
+"PAYMENTS_ACCOUNTS_EXTRA_FACT_PRIVATE_TITLE" = "Fully Private & Controlled";
+
+/* Payments: Benefit/fact subtitle explaining that Extra accounts help keep goals or expenses organized */
+"PAYMENTS_ACCOUNTS_EXTRA_FACT_SEPARATE_FUNDS_SUBTITLE" = "Keep different goals or expenses organized in their own dedicated account.";
+
+/* Payments: Benefit/fact title highlighting the ability to separate funds when promoting Extra accounts */
+"PAYMENTS_ACCOUNTS_EXTRA_FACT_SEPARATE_FUNDS_TITLE" = "Separate Your Money";
+
+/* Payments: Success title shown after the user accepts a shared account invitation */
+"PAYMENTS_ACCOUNTS_INVITATION_ACCEPTED_TITLE" = "You now have access to this account!";
+
+/* Payments: Title or banner shown after the user declines a shared account invitation */
+"PAYMENTS_ACCOUNTS_INVITATION_DECLINED_TITLE" = "You declined this invitation";
+
+/* Payments: Subtitle shown for an expired invitation instructing the user to contact the sender */
+"PAYMENTS_ACCOUNTS_INVITATION_EXPIRED_SUBTITLE" = "Get in touch with the sender to receive a new one.";
+
+/* Payments: Title shown when the user opens an expired shared account invitation */
+"PAYMENTS_ACCOUNTS_INVITATION_EXPIRED_TITLE" = "This invitation expired";
+
+/* Payments: Subtitle shown for a revoked invitation instructing the user to contact the sender */
+"PAYMENTS_ACCOUNTS_INVITATION_REVOKED_SUBTITLE" = "Get in touch with the sender to receive a new one.";
+
+/* Payments: Title shown when the user opens a revoked/cancelled shared account invitation */
+"PAYMENTS_ACCOUNTS_INVITATION_REVOKED_TITLE" = "This invitation has been revoked";
+
+/* Payments: Status label shown for users who have been invited but have not yet accepted */
+"PAYMENTS_ACCOUNTS_INVITATION_STATUS_INVITED" = "Invited";
+
+/* Payments: Subtitle in the leave account confirmation warning the user they will lose access to the funds */
+"PAYMENTS_ACCOUNTS_LEAVE_CONFIRMATION_SUBTITLE" = "You will lose access to the funds in this account.";
+
+/* Payments: Title of the confirmation dialog when a member attempts to leave a shared account */
+"PAYMENTS_ACCOUNTS_LEAVE_CONFIRMATION_TITLE" = "Do you want to leave this account?";
+
+/* Payments: Success toast title shown after a member is removed from a shared account */
+"PAYMENTS_ACCOUNTS_MEMBER_REMOVED_SUCCESS_TOAST_TITLE" = "The member was removed";
+
+/* Payments: Section header for miscellaneous or additional account options */
+"PAYMENTS_ACCOUNTS_OTHER_SECTION" = "Other";
+
+/* Payments: Title for the account picker shown during direct deposit / payroll setup */
+"PAYMENTS_ACCOUNTS_PICKER_DIRECT_DEPOSIT_TITLE" = "What account do you want to use for your direct deposit?";
+
+/* Payments: Generic title used for account pickers when no more specific title applies */
+"PAYMENTS_ACCOUNTS_PICKER_GENERIC_TITLE" = "Which account?";
+
+/* Payments: Title for the account picker when selecting which account should receive funds (e.g. request money or incoming transfer) */
+"PAYMENTS_ACCOUNTS_PICKER_TRANSFER_REQUEST_TITLE" = "Where would you like to receive the funds?";
+
+/* Payments: Title for the account picker when selecting which account to pay/send money from */
+"PAYMENTS_ACCOUNTS_PICKER_TRANSFER_TITLE" = "What would you like to pay with?";
+
+/* Payments: Subtitle in the remove member confirmation warning that the member will lose access to the funds */
+"PAYMENTS_ACCOUNTS_REMOVE_MEMBER_CONFIRMATION_SUBTITLE" = "They will lose access to the funds in this account.";
+
+/* Payments: Title of the confirmation dialog when an owner attempts to remove a member from a shared account */
+"PAYMENTS_ACCOUNTS_REMOVE_MEMBER_CONFIRMATION_TITLE" = "Do you want to remove this member?";
+
+/* Payments: Role label for users who have been granted access to a shared account */
+"PAYMENTS_ACCOUNTS_ROLE_MEMBER" = "Member";
+
+/* Payments: Role label indicating the user who owns/created the account */
+"PAYMENTS_ACCOUNTS_ROLE_OWNER" = "Owner";
+
+/* Payments: Benefit/fact subtitle explaining that anyone on X can be invited to a shared account instantly */
+"PAYMENTS_ACCOUNTS_SHARED_FACT_EASY_ACCESS_SUBTITLE" = "Invite anyone on X to share the account and balance instantly.";
+
+/* Payments: Benefit/fact title highlighting easy access when promoting Shared accounts */
+"PAYMENTS_ACCOUNTS_SHARED_FACT_EASY_ACCESS_TITLE" = "Easy Access";
+
+/* Payments: Benefit/fact subtitle explaining instant switching between main and shared accounts with the X Card */
+"PAYMENTS_ACCOUNTS_SHARED_FACT_SWITCH_SPEND_SUBTITLE" = "Toggle between your main and extra accounts instantly with your X Card.";
+
+/* Payments: Benefit/fact title highlighting the ability to switch and spend freely from a shared account */
+"PAYMENTS_ACCOUNTS_SHARED_FACT_SWITCH_SPEND_TITLE" = "Switch & Spend Freely";
+
+/* Payments: Benefit/fact subtitle explaining that all members see the same real-time balance and transactions */
+"PAYMENTS_ACCOUNTS_SHARED_FACT_TRANSPARENCY_SUBTITLE" = "Everyone sees the same real-time balance and transactions—no surprises.";
+
+/* Payments: Benefit/fact title highlighting transparency for all members of a shared account */
+"PAYMENTS_ACCOUNTS_SHARED_FACT_TRANSPARENCY_TITLE" = "Total Transparency";
+
+/* Payments: Section header showing accounts that have been shared with the current user */
+"PAYMENTS_ACCOUNTS_SHARED_WITH_YOU_SECTION_TITLE" = "Shared with you";
+
+/* Payments: Subtitle in the share confirmation explaining that the recipient will receive an invitation and the account remains usable immediately */
+"PAYMENTS_ACCOUNTS_SHARE_CONFIRMATION_SUBTITLE" = "They’ll get a notification to accept. Until then, the account is yours to use right away.";
+
+/* Payments: Title of the confirmation dialog when sharing an account. %@ is replaced with the recipient’s @username or name */
+"PAYMENTS_ACCOUNTS_SHARE_CONFIRMATION_TITLE_FORMAT" = "Are you sure you’d like to share this account with %@?";
+
+/* Payments: Title of the screen where the user selects which X user to share an account with */
+"PAYMENTS_ACCOUNTS_SHARE_USER_SELECTION_TITLE" = "Select who you want to share this account with.";
+
+/* Payments: Toast title shown after the current user successfully leaves a shared account */
+"PAYMENTS_ACCOUNTS_SUCCESS_TOAST_ACCOUNT_LEFT_TITLE" = "You left the account";
+
+/* Payments: Success title or message shown after an account has been closed */
+"PAYMENTS_ACCOUNTS_SUCCESS_TOAST_CLOSED_TITLE" = "The account was closed";
+
+/* Payments: Toast title shown after successfully cancelling a pending invitation */
+"PAYMENTS_ACCOUNTS_SUCCESS_TOAST_INVITATION_CANCELLED_TITLE" = "The invitation was cancelled";
+
 /* Payments: Title the of 'Account' details screen */
 "PAYMENTS_ACCOUNT_DETAILS_TITLE" = "Account Details";
 
 /* Payments: "Account number" used for US bank accounts transfers */
 "PAYMENTS_ACCOUNT_NUMBER" = "Account Number";
+
+/* Payments: Subtitle reassuring the user that they can change the linked account later */
+"PAYMENTS_ACCOUNT_PICKER_CARD_SUBTITLE" = "You can change this at any time.";
+
+/* Payments: Title shown when linking a physical or virtual card to a Payments account */
+"PAYMENTS_ACCOUNT_PICKER_CARD_TITLE" = "Select the account to which you would like to link this card";
 
 /* Payments: Title of the section that deals with account customization (ex: nickname) */
 "PAYMENTS_ACCOUNT_SETTINGS_CUSTOMIZATION_SECTION_TITLE" = "Customization";
@@ -14852,6 +14894,15 @@ eg. "Super Following Jack" */
 
 /* Payments: Account type attribute (Checking, Savings, ...) */
 "PAYMENTS_ACCOUNT_TYPE" = "Account Type";
+
+/* Payments: Label for the Business account type in account creation and selectors */
+"PAYMENTS_ACCOUNT_TYPE_BUSINESS" = "Business account";
+
+/* Payments: Label for the Extra account type in account creation and selectors */
+"PAYMENTS_ACCOUNT_TYPE_EXTRA" = "Extra account";
+
+/* Payments: Label for the Shared account type in account creation and selectors */
+"PAYMENTS_ACCOUNT_TYPE_SHARED" = "Shared account";
 
 /* Payments: Title of the section that contains actions the user can do (ex: Verify identity, Pay, ...). */
 "PAYMENTS_ACTION_NEEDED_TITLE" = "Action required";
@@ -15348,11 +15399,8 @@ eg. "Super Following Jack" */
 /* Payments: Toast message shown when funds from a payment link are successfully claimed. */
 "PAYMENTS_CLAIM_TRANSFER_LINK_SUCCESS_TOAST" = "Funds successfully claimed";
 
-/* Payments: Full sentence on the claim payment link screen when there is no memo. First parameter (%1$@) is the sender's display name, second (%2$@) is the formatted currency amount. e.g. John sent you $10.00 */
-"PAYMENTS_CLAIM_TRANSFER_LINK_TITLE_FORMAT" = "%1$@ sent you %2$@";
-
-/* Payments: Full sentence on the claim payment link screen when the sender included a memo. First parameter (%1$@) is the sender's display name, second (%2$@) is the formatted currency amount, third (%3$@) is the memo text. The \n separates the amount from the description for display. e.g. John sent you $10.00\nfor “Lunch” */
-"PAYMENTS_CLAIM_TRANSFER_LINK_TITLE_WITH_DESCRIPTION_FORMAT" = "%1$@ sent you %2$@\nfor “%3$@”";
+/* Payments: Destructive action/button to permanently close an account */
+"PAYMENTS_CLOSE_ACCOUNT_ACTION" = "Close Account";
 
 /* Payments: Title shown when asking user to confirm a generic operation */
 "PAYMENTS_CONFIRMATION_GENERIC_TITLE" = "Confirm this operation";
@@ -15465,7 +15513,7 @@ eg. "Super Following Jack" */
 /* Payments: Title of the screen to create/send a wire */
 "PAYMENTS_CREATE_WIRE_TITLE" = "Send a wire";
 
-/* Payments: Headline shown above the current balance of the user’s account, on the Payments home. */
+/* Payments: Headline shown above the current balance of the user’s account, on an account details page. */
 "PAYMENTS_CURRENT_BALANCE_TITLE" = "Balance";
 
 /* Payments: Customize your card screen subtitle (name, username) */
@@ -15614,6 +15662,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the button that allows users to enter their address manually, instead of relying on the autocomplete. */
 "PAYMENTS_ENTER_ADDRESS_MANUALLY_ACTION" = "Enter address manually";
+
+/* Payments: Section header in entity/account pickers for accounts or users that exist on X */
+"PAYMENTS_ENTITY_PICKER_SECTION_ON_X_TITLE" = "On X";
 
 /* Payments: Toast detail text shown when the user tries to do an unauthorized action */
 "PAYMENTS_ERROR_ACCESS_DENIED_DETAIL_TEXT" = "You are not allowed to perform this action at this time.";
@@ -15843,12 +15894,6 @@ eg. "Super Following Jack" */
 /* Payments: Defines the title for the initial payment method selection screen during a deposit transaction. */
 "PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_INITIAL_PAYMENT_METHOD_TITLE" = "How would you like to deposit your funds?";
 
-/* Payments: Title shown next to estimated deposit date on the wire flows. */
-"PAYMENTS_EXTERNAL_TRANSACTION_ESTIMATED_DEPOSIT_DATE_TITLE" = "Estimated deposit date";
-
-/* Payments: Title shown next to the exchange rate used to calculate the amount received on the wire flows. */
-"PAYMENTS_EXTERNAL_TRANSACTION_EXCHANGE_RATE_TITLE" = "Exchange rate";
-
 /* Payments: Title shown next to the transaction fee amount on the deposit/withdraw flows. */
 "PAYMENTS_EXTERNAL_TRANSACTION_FEE_TITLE" = "Fee";
 
@@ -15858,20 +15903,11 @@ eg. "Super Following Jack" */
 /* Payments: Value shown next to the "Fee" attribute on a transaction, when there is no fee. */
 "PAYMENTS_EXTERNAL_TRANSACTION_NO_FEE_VALUE" = "None";
 
-/* Payments: Title shown next to the purpose on wires flows. Purpose is a code selected in a list by the customer. */
-"PAYMENTS_EXTERNAL_TRANSACTION_PURPOSE" = "Purpose";
-
 /* Payments: Title shown next to the recipient's address on the wire flows. */
 "PAYMENTS_EXTERNAL_TRANSACTION_RECIPIENT_ADDRESS_TITLE" = "Recipient’s address";
 
 /* Payments: Title shown next to the recipient's name on the wire flows. */
 "PAYMENTS_EXTERNAL_TRANSACTION_RECIPIENT_NAME_TITLE" = "Recipient’s name";
-
-/* Payments: Title shown next to the amount received on the wire flows. */
-"PAYMENTS_EXTERNAL_TRANSACTION_RECIPIENT_RECEIVES_TITLE" = "Recipient receives";
-
-/* Payments: Title shown next to today's date on the wire flows, to compare with the estimated deposit date. */
-"PAYMENTS_EXTERNAL_TRANSACTION_TODAY_DATE_TITLE" = "Today’s date";
 
 /* Payments: Title shown next to the transaction total amount (base + fees) on the deposit/withdraw flows. */
 "PAYMENTS_EXTERNAL_TRANSACTION_TOTAL_TITLE" = "You pay in total";
@@ -15999,26 +16035,8 @@ eg. "Super Following Jack" */
 /* Payments: Shows the APY (annual percentage yield) of the account, on the interest screen. */
 "PAYMENTS_INTEREST_APY" = "%@ APY";
 
-/* Payments: Disclaimer shown at the bottom of the wire form confirmation, about disputes. %1$@ is replaced by the number of days the user can appeal, %2$@ is replaced by X Money's phone number, %3$@ is replaced by X Money's HQ address and %4$@ is replaced by a clickable url. */
-"PAYMENTS_INTERNATIONAL_WIRE_DISCLAIMER_DISPUTE_WITH_URL_FORMAT" = "You have a right to dispute errors in your transaction. If you think there is an error, contact X Payments LLC within %1$@ days by calling %2$@, by mail at %3$@, or by visiting %4$@. You can also contact us for a written explanation of your rights.";
-
-/* Payments: Disclaimer shown at the bottom of the wire form confirmation, about fees applied to the transaction. */
-"PAYMENTS_INTERNATIONAL_WIRE_DISCLAIMER_FEES" = "This fee includes fees charged by X Payments and Cross River Bank where applicable.";
-
 /* Payments: Text shown if the customer trie to create a non-individual client to send an international wire. */
 "PAYMENTS_INTERNATIONAL_WIRE_DISCLAIMER_ONLY_INDIVIDUALS" = "International wires are currently only available for individuals.";
-
-/* Payments: Disclaimer shown at the bottom of the wire form confirmation, about the processing time. */
-"PAYMENTS_INTERNATIONAL_WIRE_DISCLAIMER_PROCESSING_TIME" = "Transfer may be made available sooner, or may be delayed or stopped if an issue is found.";
-
-/* Payments: Disclaimer shown at the bottom of the wire form confirmation, about questions and complains. */
-"PAYMENTS_INTERNATIONAL_WIRE_DISCLAIMER_QUESTIONS_AND_COMPLAINTS" = "For questions or complaints about X Payments LLC or Cross River Bank, you can contact state regulatory agencies listed here or the Consumer Financial Protection Bureau at 855-411-2372; 855-729-2372 (TTY/TDD) or www.consumerfinance.gov.";
-
-/* Payments: Disclaimer shown at the bottom of the wire form confirmation, about the amount received. */
-"PAYMENTS_INTERNATIONAL_WIRE_DISCLAIMER_RECEIVED_AMOUNT" = "Recipients may receive less due to fees charged by the recipient’s bank and foreign taxes.";
-
-/* Payments: Disclaimer shown at the bottom of the wire form confirmation, about refund claims. */
-"PAYMENTS_INTERNATIONAL_WIRE_DISCLAIMER_REFUND_FORMAT" = "You can cancel for a full refund within %@ minutes of payment, unless the funds have been picked up or deposited.";
 
 /* Payments: Title shown when a user has unclaimed funds in their X Payments account. %@ is replaced by the unclaimed amount. */
 "PAYMENTS_INVITE_AUTOCLAIM_TITLE" = "You have %@ waiting for you";
@@ -16040,9 +16058,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the error screen after failing to mail a check. */
 "PAYMENTS_ISSUED_CHECK_ERROR_TITLE" = "Mailed check failed";
-
-/* Payments: Section header for recipient information */
-"PAYMENTS_ISSUED_CHECK_RECIPIENT_SECTION" = "Recipient";
 
 /* Payments: Title for the screen where the user selects a recipient for a mailed check. */
 "PAYMENTS_ISSUED_CHECK_RECIPIENT_TITLE" = "Choose a recipient";
@@ -16082,6 +16097,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Text for a button or link that provides more information about a feature or process in X Payments. */
 "PAYMENTS_LEARN_MORE_ACTION" = "Learn more";
+
+/* Payments: Action/button for a member to remove themselves from a shared account */
+"PAYMENTS_LEAVE_ACCOUNT_ACTION" = "Leave Account";
 
 /* Payments: Format string for displaying daily limits in X Payments. %1$@ is replaced by the limit amount. */
 "PAYMENTS_LIMITS_DAILY_FORMAT" = "%1$@ per day";
@@ -16163,6 +16181,12 @@ eg. "Super Following Jack" */
 
 /* Payments: Title for the X Card task, prompting the user to order their physical X Card */
 "PAYMENTS_LOCAL_TASK_X_CARD_TITLE" = "Get the X Card";
+
+/* Payments: Subtitle of the screen shown when X Money is unavailable because iOS Lockdown mode is enabled, instructing the user how to resolve it. */
+"PAYMENTS_LOCKDOWN_MODE_ENABLED_SUBTITLE" = "Please turn it off or add an exception for the X app in your Settings.";
+
+/* Payments: Title of the screen shown when X Money is unavailable because iOS Lockdown mode is enabled. */
+"PAYMENTS_LOCKDOWN_MODE_ENABLED_TITLE" = "X Money is not available on this device due to Lockdown mode";
 
 /* Payments: Title of a button that terminates a X Money session on a user device */
 "PAYMENTS_LOG_OUT_ACTION" = "Log Out";
@@ -16415,6 +16439,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the screen where users enter their current mailing address during X Payments onboarding. */
 "PAYMENTS_ONBOARDING_MAILING_ADDRESS_TITLE" = "Enter your mailing address";
+
+/* Payments: Title of the screen shown when a user is not eligible for X Payments. */
+"PAYMENTS_ONBOARDING_NOT_ELIGIBLE_PROXY_TITLE" = "X Money isn’t available for you yet. If you’re using a VPN, please turn it off, or retry using a cellular network.";
 
 /* Payments: Title of the screen shown when a user is not eligible for X Payments. */
 "PAYMENTS_ONBOARDING_NOT_ELIGIBLE_TITLE" = "X Money isn’t available for you yet";
@@ -17208,6 +17235,9 @@ eg. "Super Following Jack" */
 /* Payments: Toast shown when some data has been copied to the iOS clipboard. %@ is replaced by the name of the data (ex: Account Number). */
 "PAYMENTS_TOAST_COPIED" = "“%@” copied to clipboard";
 
+/* Payments: Headline shown above the current balance of all the user’s accounts, on the Payments home. */
+"PAYMENTS_TOTAL_BALANCE_TITLE" = "Total Balance";
+
 /* Payments: Action to open an issued check shipping tracking page on X Money */
 "PAYMENTS_TRACK_SHIPPING_ACTION" = "Track shipping";
 
@@ -17409,9 +17439,6 @@ eg. "Super Following Jack" */
 /* Payments: Action to open the screen that shows all the wire details */
 "PAYMENTS_VIEW_WIRE_METADATA_ACTION" = "Wire information";
 
-/* Payments: Section header for beneficiary information */
-"PAYMENTS_WIRE_BENEFICIARY_SECTION" = "Beneficiary";
-
 /* Payments: Title for the screen where the user selects a beneficiary for a wire. */
 "PAYMENTS_WIRE_BENEFICIARY_TITLE" = "Choose a beneficiary";
 
@@ -17436,26 +17463,11 @@ eg. "Super Following Jack" */
 /* Payments: Title of the error screen after failing to schedule a wire. */
 "PAYMENTS_WIRE_ERROR_TITLE" = "Wire failed";
 
-/* Payments: Label for Input Message Accountability Data */
-"PAYMENTS_WIRE_IMAD" = "IMAD";
-
-/* Payments: Section header for intermediary bank information */
-"PAYMENTS_WIRE_INTERMEDIARY_SECTION" = "Intermediary";
-
-/* Payments: Label for Output Message Accountability Data */
-"PAYMENTS_WIRE_OMAD" = "OMAD";
-
-/* Payments: Section header for originator information */
-"PAYMENTS_WIRE_ORIGINATOR_SECTION" = "Originator";
-
 /* Payments: Subtitle of the screen that allows a customer to select a purpose for their wire. */
 "PAYMENTS_WIRE_PURPOSE_MESSAGE" = "Please make sure this is accurate.";
 
 /* Payments: Title of the screen that allows a customer to select a purpose for their wire. */
 "PAYMENTS_WIRE_PURPOSE_TITLE" = "This transfer requires you to indicate a purpose";
-
-/* Payments: Section header for reference numbers */
-"PAYMENTS_WIRE_REFERENCES_SECTION" = "Reference Numbers";
 
 /* Payments: Action to withdraw money from the Payments wallet */
 "PAYMENTS_WITHDRAW_ACTION" = "Withdraw";
@@ -21551,15 +21563,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Describes keyboard shortcut to navigate to the search bar in the Explore tab */
 "KEYBOARD_SHORTCUT_SEARCH" = "Search";
 
-/* A carousel of keywords. The argument will be a list of the Keyword names that appear in the carousel. For example, "Keyword list World News, Music, NBA" */
-"KEYWORDS_CAROUSEL_ACCESSIBILITY_LABEL_FORMAT" = "Keyword list %@";
-
-/* Select one or more keywords from the list */
-"KEYWORDS_CAROUSEL_SELECT_ACCESSIBILITY_ACTION" = "Select Keywords";
-
-/* A placeholder message guiding the user to enter keywords */
-"KEYWORDS_TEXTFIELD_PLACEHOLDER" = "Add keywords";
-
 /* Learn more */
 "LEARN_MORE_LABEL" = "Learn more";
 
@@ -21905,9 +21908,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Remove saved search button title */
 "REMOVE_ACTION_LABEL" = "Remove";
 
-/* Label for button to remove an autoblock (unblock) from a user */
-"REMOVE_AUTOBLOCK_ACTION_LABEL" = "Remove from autoblocked accounts";
-
 /* Label of the button that allows users to reorder items on a list. */
 "REORDER_ACTION_LABEL" = "Reorder";
 
@@ -21982,27 +21982,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* 'Web' default text to help user understand that the destination is the internet. */
 "REVENUE_UNIFIED_WEB_CARD_WEB_LABEL" = "Web";
-
-/* Label for settings safety mode title */
-"SAFETY_MODE_LEGACY_SETTINGS_TITLE" = "Safety Mode";
-
-/* Label for settings cell to turn on safety mode */
-"SAFETY_MODE_MODAL_SETTINGS_TITLE" = "Turn on Safety Mode";
-
-/* Safety mode duration title for label in settings*/
-"SAFETY_MODE_SETTINGS_DURATION_LABEL" = "Turn on Safety Mode for";
-
-/* Safety mode duration title for label 1 in settings*/
-"SAFETY_MODE_SETTINGS_DURATION_LIST_1_DAY" = "1 day";
-
-/* Safety mode duration title for label  3 in settings*/
-"SAFETY_MODE_SETTINGS_DURATION_LIST_3_DAY" = "3 days";
-
-/* Safety mode duration title for label  7 in settings*/
-"SAFETY_MODE_SETTINGS_DURATION_LIST_7_DAY" = "7 days";
-
-/* Toggle switch detail title in safety mode settings */
-"SAFETY_MODE_SETTINGS_TOGGLE_SWITCH_DETAIL_TITLE" = "Autoblock accounts for a week that might be acting abusive or spammy. Accounts you follow or message with aren’t autoblocked.";
 
 /* Save accessibility action label. */
 "SAVE_ACCESSIBILITY_ACTION_LABEL" = "Save";
@@ -22169,12 +22148,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Activity label for share sheet to a third-party app, Viber, in App Store. Please translate this as a localized name of the app, not the literal translation. If there's no localized version of the name, please leave it as English. */
 "SHARE_TO_OFF_PLATFORM_VIBER_ACTIVITY_CAROUSEL_LABEL" = "Viber";
-
-/* Toast message shown when a video is automatically trimmed (measured in minutes) to fit the share limit. %ld is the maximum duration in minutes. */
-"SHARE_TO_OFF_PLATFORM_VIDEO_TRIMMED_MINUTES_FORMAT" = "This video has been trimmed to %ld minutes for sharing.";
-
-/* Toast message shown when a video is automatically trimmed (measured in seconds) to fit the share limit. %ld is the maximum duration in seconds. */
-"SHARE_TO_OFF_PLATFORM_VIDEO_TRIMMED_SECONDS_FORMAT" = "This video has been trimmed to %ld seconds for sharing.";
 
 /* Activity label for share sheet to a third-party app, WhatsApp, in App Store. Please translate this as a localized name of the app, not the literal translation. If there's no localized version of the name, please leave it as English. */
 "SHARE_TO_OFF_PLATFORM_WHATSAPP_ACTIVITY_CAROUSEL_LABEL" = "WhatsApp";
@@ -22798,17 +22771,35 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Documents section title */
 "CHAT_DOCUMENTS" = "Documents";
 
+/* Group invite request approve button title */
+"CHAT_GROUP_INVITE_APPROVE" = "Approve";
+
+/* Group invite link footer description */
+"CHAT_GROUP_INVITE_FOOTER" = "When enabled, anyone with the link can request to join this group conversation and see the group name, group photo and member count.";
+
+/* Group invite requests to join label */
+"CHAT_GROUP_INVITE_REQUESTS" = "Requests to Join";
+
 /* Group messages label */
 "CHAT_GROUP_MESSAGES" = "Group Messages";
 
 /* Legacy conversation message */
 "CHAT_LEGACY_CONVO_MESSAGE" = "This feature requires the conversation to be encrypted.";
 
+/* Chat message send alert subtitle when sending message that is too long */
+"CHAT_MESSAGE_SEND_EXCEEDS_MAX_LENGTH_ALERT_SUBTITLE" = "This message is too long to send. Try shortening or splitting into multiple messages.";
+
+/* Chat message send alert title when sending message that is too long */
+"CHAT_MESSAGE_SEND_EXCEEDS_MAX_LENGTH_ALERT_TITLE" = "Too long!";
+
 /* OK button label */
 "CHAT_OK" = "OK";
 
 /* Replying to yourself label */
 "CHAT_REPLYING_TO_YOURSELF" = "Replying to yourself";
+
+/* Generic error title */
+"CHAT_SOMETHING_WENT_WRONG" = "Something went wrong";
 
 /* Storage settings title */
 "CHAT_STORAGE" = "Storage";
@@ -22863,6 +22854,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Unsupported file alert title */
 "CHAT_UNSUPPORTED_FILE_TITLE" = "Unsupported File";
+
+/* Vanishing mode footer description */
+"CHAT_VANISHING_MODE_FOOTER" = "When enabled, messages will disappear once members have seen them and closed the chat after a duration specified above.";
 
 /* Videos section title */
 "CHAT_VIDEOS" = "Videos";
@@ -23987,23 +23981,14 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Manage Conversation Update group action error title */
 "DM_MANAGE_CONVERSATION_ACTION_UPDATE_GROUP_ERROR_TITLE" = "Unable to update group";
 
-/* DM Manage Conversation Group invite link Copy link action subtitle */
-"DM_MANAGE_CONVERSATION_GROUP_INVITE_LINK_COPY_LINK_ACTION_SUBTITLE" = "Anyone with this link can see the group name, avatar, and member count.";
-
 /* DM Manage Conversation Group invite link Copy link action title */
 "DM_MANAGE_CONVERSATION_GROUP_INVITE_LINK_COPY_LINK_ACTION_TITLE" = "Copy link";
-
-/* DM Manage Conversation Group invite link Copy link action toast title */
-"DM_MANAGE_CONVERSATION_GROUP_INVITE_LINK_COPY_LINK_ACTION_TOAST_TITLE" = "Copied link";
 
 /* DM Manage Conversation Group invite link permissions section title */
 "DM_MANAGE_CONVERSATION_GROUP_INVITE_LINK_PERMISSIONS_ERROR_SECTION_TITLE" = "Only admins can make changes to group invite link settings";
 
 /* DM Manage Conversation Group invite link title */
 "DM_MANAGE_CONVERSATION_GROUP_INVITE_LINK_TITLE" = "Group invite link";
-
-/* DM Manage Conversation Group invite link toggle section subtitle */
-"DM_MANAGE_CONVERSATION_GROUP_INVITE_LINK_TOGGLE_SECTION_SUBTITLE" = "Creates a link for users to join this chat. When disabled, they will not be able to join, even with the link.";
 
 /* DM Manage Conversation Nickname description */
 "DM_MANAGE_CONVERSATION_NICKNAME_DESCRIPTION" = "Nicknames are end-to-end encrypted and visible only to you.";
@@ -24043,9 +24028,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Manage Conversation Screenshot settings permissions section title */
 "DM_MANAGE_CONVERSATION_SCREENSHOT_SETTINGS_PERMISSIONS_ERROR_SECTION_TITLE" = "Only admins can make changes to screenshot settings";
-
-/* DM Manage Conversation Disappearing messages description */
-"DM_MANAGE_CONVERSATION_VANISHING_MODE_DESCRIPTION" = "After messages in this chat are read, they will vanish for all users after the selected time above.";
 
 /* DM Manage Conversation Disappearing messages section title */
 "DM_MANAGE_CONVERSATION_VANISHING_MODE_PERMISSIONS_ERROR_SECTION_TITLE" = "Only admins can make changes to disappearing messages";
@@ -24668,9 +24650,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Passcode entry type option for 6-digit numeric passcodes. */
 "DM_PASSCODE_ENTRY_TYPE_OPTION_SIX_DIGIT_NUMERIC" = "6-Digit numeric";
 
-/* DM Permissions section subtitle: add members */
-"DM_PERMISSIONS_ADD_MEMBERS_SUBTITLE" = "Choose who can add or remove members.";
-
 /* DM Permissions section title: add members */
 "DM_PERMISSIONS_ADD_MEMBERS_TITLE" = "Add members";
 
@@ -24680,50 +24659,23 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Permissions toggle title controlling whether all members or only admins can send messages in a group. */
 "DM_PERMISSIONS_ANYONE_CAN_MESSAGE_TITLE" = "Anyone can send messages";
 
-/* DM Permissions section subtitle: block screenshots */
-"DM_PERMISSIONS_BLOCK_SCREENSHOTS_SUBTITLE" = "Choose who can toggle screenshot blocking.";
-
 /* DM Permissions section title: block screenshots */
 "DM_PERMISSIONS_BLOCK_SCREENSHOTS_TITLE" = "Block screenshots";
-
-/* DM Permissions section subtitle: disappearing messages */
-"DM_PERMISSIONS_DISAPPEARING_MESSAGES_SUBTITLE" = "Choose who can configure disappearing messages duration.";
-
-/* DM Permissions section title: disappearing messages */
-"DM_PERMISSIONS_DISAPPEARING_MESSAGES_TITLE" = "Disappearing messages";
 
 /* DM Permissions row label for the setting controlling who can edit a group's name and photo. */
 "DM_PERMISSIONS_EDIT_GROUP_DETAILS_TITLE" = "Edit group details";
 
-/* DM Permissions section subtitle: edit group info */
-"DM_PERMISSIONS_EDIT_GROUP_INFO_SUBTITLE" = "Choose who can edit the group name and photo.";
-
-/* DM Permissions section title: edit group info */
-"DM_PERMISSIONS_EDIT_GROUP_INFO_TITLE" = "Edit group info";
-
 /* DM Permissions option: admins only. Shown as a choice in a trailing menu picker, e.g. who can add members. */
 "DM_PERMISSIONS_OPTION_ADMINS" = "Admins";
 
-/* DM Permissions option: all members */
-"DM_PERMISSIONS_OPTION_ALL_MEMBERS" = "All members";
-
 /* DM Permissions option: everyone in the group. Shown as a choice in a trailing menu picker, e.g. who can add members. */
 "DM_PERMISSIONS_OPTION_EVERYONE" = "Everyone";
-
-/* DM Permissions option: only admins */
-"DM_PERMISSIONS_OPTION_ONLY_ADMINS" = "Only admins";
-
-/* DM Permissions section subtitle: send messages */
-"DM_PERMISSIONS_SEND_MESSAGES_SUBTITLE" = "Choose who can send messages in this group.";
 
 /* DM Permissions section title: send messages */
 "DM_PERMISSIONS_SEND_MESSAGES_TITLE" = "Send messages";
 
 /* DM Permissions row label for the setting controlling who can configure the disappearing messages duration. */
 "DM_PERMISSIONS_SET_DISAPPEARING_MESSAGES_TITLE" = "Set disappearing messages";
-
-/* DM Permissions section subtitle: start group call */
-"DM_PERMISSIONS_START_GROUP_CALL_SUBTITLE" = "Choose who can start audio and video calls in this group.";
 
 /* DM Permissions section title: start group call */
 "DM_PERMISSIONS_START_GROUP_CALL_TITLE" = "Start group call";
@@ -26317,6 +26269,20 @@ eg. "- @jack" */
 /* Title for label indicating that the card is showing content that is new to the app */
 "UPSELL_CARD_NEW_LABEL" = "New";
 
+// Section: Frameworks/XGifPicker/Sources/XGifPickerStrings/en.lproj/Localizable.strings
+
+/* Gif Picker error action retry title */
+"GIF_PICKER_ERROR_ACTION_RETRY_TITLE" = "Retry";
+
+/* Gif Picker error title */
+"GIF_PICKER_ERROR_TITLE" = "Something went wrong";
+
+/* Gif Picker search placeholder */
+"GIF_PICKER_SEARCH_PLACEHOLDER" = "Search GIFs";
+
+/* Gif Picker title */
+"GIF_PICKER_TITLE" = "Choose GIF";
+
 // Section: Frameworks/TwitterSelfServeAds/Sources/TwitterSelfServeAdsStrings/en.lproj/Localizable.strings
 
 /* Label of the action-text picker row in the CTA editor sub-sheet. Tapping opens a drill-in selector. */
@@ -26400,9 +26366,6 @@ eg. "- @jack" */
 /* Title displayed at the top of the redesigned Boost sheet and on the primary CTA button. */
 "BOOST_SHEET_TITLE" = "Boost Post";
 
-/* Bonus label format string. Eg. '20% bonus' */
-"BUDGET_BONUS_FORMAT" = "%@ bonus";
-
 /* Label for dismissing a prompt and delaying the action to some point later in the future */
 "NOT_NOW_LABEL" = "Not now";
 
@@ -26415,20 +26378,8 @@ eg. "- @jack" */
 /* Text representing an age bucket without an upper limit. The highest upper limit is 54. So if we have an age range without an upper limit, we'd say for example '13 and up". The variable %1$@ will be replaced by the age */
 "QUICK_PROMOTE_AGE_BUCKET_MIN_NO_MAX" = "%1$@ and up";
 
-/* Audio hint for Voice Over users spoken when tapped once on one of the budget options. */
-"QUICK_PROMOTE_BUDGET_BUTTON_ACCESSIBILITY_HINT" = "Double tap to select this option.";
-
-/* An estimate of the number of impressions that a Boost campaign will earn and budget. The "%1$@" part will be replaced by the lowest possible number of people reached, "%2$@" by the highest possible number of people reached "%3$@" is a price. e.g. "Estimated reach of 1200 to 1850 people each day for $23.53.". */
-"QUICK_PROMOTE_BUDGET_ESTIMATED_REACH_AND_BUDGET_ACESSIBILITY_LABEL" = "Estimated reach of %1$@ to %2$@ people each day for %3$@.";
-
-/* Message displayed in a popup after a successful creation of a Boost campaign. */
-"QUICK_PROMOTE_CAMPAIGN_CREATION_SUCCESS_MESSAGE" = "Check out post analytics at any time to measure your ad performance.";
-
 /* Message displayed in a popup after a successful creation of a Boost campaign. */
 "QUICK_PROMOTE_CAMPAIGN_CREATION_SUCCESS_MESSAGE_V2" = "Check back for progress at any time.";
-
-/* Title of a popup displayed after a successful creation of a Boost campaign. */
-"QUICK_PROMOTE_CAMPAIGN_CREATION_SUCCESS_TITLE" = "You boosted your post!";
 
 /* Title of a popup displayed after a successful creation of a Boost campaign. */
 "QUICK_PROMOTE_CAMPAIGN_CREATION_SUCCESS_TITLE_V2" = "Your post is getting a Boost";
@@ -26508,9 +26459,6 @@ eg. "- @jack" */
 /* Text displayed on the button which allows the user to select a budget for the campaign, above an estimate of the reach of the campaign. */
 "QUICK_PROMOTE_ESTIMATED_REACH_COMPACT_LABEL" = "Est. Reach";
 
-/* Text displayed on the button which allows the user to select a budget for the campaign, above an estimate of the reach of the campaign. */
-"QUICK_PROMOTE_ESTIMATED_REACH_LABEL" = "Estimated reach:";
-
 /* Tappable link text appended to the subtitle disclosure text. Tapping it opens the boost education screen. */
 "QUICK_PROMOTE_HEADER_SUBTITLE_LEARN_MORE_LINK" = "Learn more";
 
@@ -26537,9 +26485,6 @@ eg. "- @jack" */
 
 /* Text displayed before the selected location in which they want to run the campaign in. */
 "QUICK_PROMOTE_LOCATION_LABEL" = "Region";
-
-/* Text displayed on the button that dismisses success screen after a successfully creation of a Boost campaign */
-"QUICK_PROMOTE_OK_BUTTON" = "Got it";
 
 /* Message of half-sheet prompt which shows when going to an eligible post */
 "QUICK_PROMOTE_PROMPT_MESSAGE_PROMOTE_POST" = "Promote your post now to reach users who might be interested in your content.";
@@ -26583,29 +26528,11 @@ eg. "- @jack" */
 /* Detailed messages displayed in a dialog which allows the user to request a refund of a failed Boost campaign. */
 "QUICK_PROMOTE_REFUND_DIALOG_MESSAGE" = "You can request a refund of your purchase from Apple now or at any point in the future by navigating to your account settings in the App Store app";
 
-/* Text displayed on the button that dismisses the search screen */
-"QUICK_PROMOTE_SEARCH_LOCATION_CANCEL_BUTTON" = "Cancel";
-
-/* Button that offers user to change existing location they have selected. */
-"QUICK_PROMOTE_SEARCH_LOCATION_CHANGE_BUTTON" = "Change location";
-
 /* Text displayed on the button that switches to global location in search screen */
 "QUICK_PROMOTE_SEARCH_LOCATION_GLOBAL_BUTTON" = "Boost Global";
 
 /* Text displayed in search screen when no search results are available to let users know they can boost globally instead of in a particular location */
 "QUICK_PROMOTE_SEARCH_LOCATION_GLOBAL_MESSAGE" = "Search for a location or boost globally";
-
-/* Text displayed before the location options to prompt the user which location they want to run the campaign in. */
-"QUICK_PROMOTE_SEARCH_LOCATION_LABEL" = "Where to boost your post?";
-
-/* Texts says that there is no location set for an ad. */
-"QUICK_PROMOTE_SEARCH_LOCATION_NOT_SET" = "Location is not set";
-
-/* Button that offers user to set a location for a promotion. */
-"QUICK_PROMOTE_SEARCH_LOCATION_SET_BUTTON" = "Set location";
-
-/* Text displayed before the budget options to prompt the user how much to spend for the campaign. */
-"QUICK_PROMOTE_SPEND_AMOUNT_LABEL" = "How much do you want to spend?";
 
 /* Text displayed on the button that allows the user to start a new boost */
 "QUICK_PROMOTE_START_PROMOTION_BUTTON_TEXT" = "Boost post";
@@ -26619,24 +26546,13 @@ eg. "- @jack" */
 /* Inside the targeting page, there is an option to pick men. */
 "QUICK_PROMOTE_TARGETING_GENDER_MALE" = "Male";
 
-/* Text used for the terms and conditions label on the review boost screen. %@ will be substituted by QUICK_PROMOTE_TERMS_AND_CONDITIONS_LINK,
- e.g. "By clicking post with Boost, you’re indicating that you have read and agree to the Ads Terms and Conditions". */
-"QUICK_PROMOTE_TERMS_AND_CONDITIONS_FORMAT_V2" = "By clicking Boost post you’re agreeing to our %@.";
-
 /* Text used for the terms and conditions label on the review boost screen. %@ will be substituted by QUICK_PROMOTE_TERMS_AND_CONDITIONS_LINK_V3,
  e.g. "By clicking Boost post, you agree to our Terms and Conditions. If your post is an advertisement, you agree to identify it as such in compliance with applicable law.". */
 "QUICK_PROMOTE_TERMS_AND_CONDITIONS_FORMAT_V3" = "By clicking Boost post, you agree to our %@. If your post is an advertisement, you agree to identify it as such in compliance with applicable law.";
 
-/* Link to tap to navigate to terms and conditions web page from the review boost screen. This text will be used by the QUICK_PROMOTE_TERMS_AND_CONDITIONS_FORMAT,
- e.g. "By clicking Create Promotion, you’re indicating that you have read and agreed to the Terms and Advertising Guidelines". */
-"QUICK_PROMOTE_TERMS_AND_CONDITIONS_LINK" = "Ads Terms and Conditions";
-
 /* Link to tap to navigate to terms and conditions web page from the review boost screen. This text will be used by the QUICK_PROMOTE_TERMS_AND_CONDITIONS_FORMAT_V3,
  e.g. "By clicking Boost post, you agree to our Terms and Conditions. If your post is an advertisement, you agree to identify it as such in compliance with applicable law.". */
 "QUICK_PROMOTE_TERMS_AND_CONDITIONS_LINK_V3" = "Terms and Conditions";
-
-/* Text displayed at the top of the post Boost / Boost screen / Composer Screen. */
-"QUICK_PROMOTE_TITLE_TEXT" = "Boost your post";
 
 /* Text displayed at the top of the post & Boost button. */
 "QUICK_PROMOTE_TWEET_AND_BOOST_TITLE" = "Boost post";
@@ -27032,12 +26948,6 @@ eg. "- @jack" */
 /* Forwarded message with sender label. %@: sender name */
 "CHAT_FORWARDED_MESSAGE_WITH_SENDER" = "%@ forwarded a message";
 
-/* Group invite link footer description */
-"CHAT_GROUP_INVITE_FOOTER" = "When enabled, anyone with the link can request to join this group conversation and see the group name, group photo and member count.";
-
-/* Group invite requests to join label */
-"CHAT_GROUP_INVITE_REQUESTS" = "Requests to Join";
-
 /* Help settings label */
 "CHAT_HELP" = "Help";
 
@@ -27185,9 +27095,6 @@ eg. "- @jack" */
 /* Save to photos footer description */
 "CHAT_SAVE_TO_PHOTOS_FOOTER" = "Automatically save captured photos to your camera roll.";
 
-/* GIF picker search placeholder */
-"CHAT_SEARCH_GIFS" = "Search GIFs";
-
 /* Message seen status */
 "CHAT_SEEN" = "Seen";
 
@@ -27232,9 +27139,6 @@ eg. "- @jack" */
 
 /* Sign out confirmation dialog title */
 "CHAT_SIGN_OUT_CONFIRM_TITLE" = "Sign Out";
-
-/* Generic error title */
-"CHAT_SOMETHING_WENT_WRONG" = "Something Went Wrong";
 
 /* Storage by conversations section title */
 "CHAT_STORAGE_BY_CONVERSATIONS" = "Storage by Conversations";
@@ -27325,9 +27229,6 @@ eg. "- @jack" */
 
 /* Upload quality standard option */
 "CHAT_UPLOAD_QUALITY_STANDARD" = "Standard";
-
-/* Vanishing mode footer description */
-"CHAT_VANISHING_MODE_FOOTER" = "When enabled, messages will disappear once members have seen them and closed the chat after a duration specified above.";
 
 /* App version label */
 "CHAT_VERSION" = "Version";
@@ -27676,44 +27577,6 @@ eg. "- @jack" */
 /* Button text that shows post content when tapped */
 "SAFETY_CENTER_TWEET_DISCLOSURE_SHOW_BUTTON_TITLE" = "Show";
 
-// Section: Frameworks/HealthUI/Sources/HealthUIStrings/en.lproj/Localizable.strings
-
-/* Section 1 - description text of safety mode help view */
-"SAFETY_MODE_HELP_DESCRIPTION_1" = "When we detect potentially abusive or spammy replies, mentions, or Quotes, we temporarily autoblock those accounts. Unlike manual blocks, autoblocks only last for a week.";
-
-/* Section 2 - description text of safety mode help view */
-"SAFETY_MODE_HELP_DESCRIPTION_2" = "Autoblocked accounts, just like manually blocked accounts, can’t see your posts, follow you, or message you. If they view your profile, we let them know X autoblocked them, and not you.";
-
-/* Section 3 - description text of safety mode help view */
-"SAFETY_MODE_HELP_DESCRIPTION_3" = "Existing replies from autoblocked accounts are moved to the bottom of the conversation, so fewer people see them.";
-
-/* Button to dismiss safety mode about view controller */
-"SAFETY_MODE_HELP_GOT_IT_BUTTON" = "Got it";
-
-/* Title of safety mode help view */
-"SAFETY_MODE_HELP_HEADER_TITLE" = "Here’s what happens when Safety Mode is on";
-
-/* Section 1 - header of safety mode help view */
-"SAFETY_MODE_HELP_SUBHEADER_TITLE_1" = "X does the work, so you don’t have to";
-
-/* Section 2 - header of safety mode help view */
-"SAFETY_MODE_HELP_SUBHEADER_TITLE_2" = "You get a break";
-
-/* Section 3 - header of safety mode help view */
-"SAFETY_MODE_HELP_SUBHEADER_TITLE_3" = "Fewer people see replies from autoblocked accounts";
-
-/* Accessibility hint to tell user that the switch turns safety mode on and off */
-"SAFETY_MODE_MODAL_SETTINGS_TOGGLE_HINT" = "Toggle Safety Mode on and off";
-
-/* The message in a toast notification telling a user they successfully removed a user from their autoblocked accounts */
-"SAFETY_MODE_REMOVE_AUTOBLOCKED_USER_TOAST_TEXT_FORMAT" = "You removed @%@ from autoblocked accounts";
-
-/* The message in a toast notification telling a user they successfully removed a user from their flagged accounts */
-"SAFETY_MODE_REMOVE_FLAGGED_USER_TOAST_TEXT_FORMAT" = "You removed @%@ from flagged accounts";
-
-/* Accessibility hint telling the user that this control sets how long to turn safety mode on for */
-"SAFETY_MODE_SETTINGS_DURATION_HINT" = "Set how long to turn Safety Mode on for";
-
 // Section: Frameworks/SuperAwesomeVideoCache/Sources/SuperAwesomeVideoCacheStrings/en.lproj/Localizable.strings
 
 /* Title of a toast which is show on an event of error during a video download */
@@ -27763,9 +27626,6 @@ eg. "- @jack" */
 /* Label on button to follow user back */
 "FOLLOW_BACK_ACTION_LABEL" = "Follow back";
 
-/* Label for follow control showing state of user as being autoblocked.  Text must be short! */
-"FOLLOW_CONTROL_AUTO_BLOCKED_LABEL" = "Autoblocked";
-
 /* Label for follow control showing state of user as being blocked.  Text must be short! */
 "FOLLOW_CONTROL_BLOCKED_LABEL" = "Blocked";
 
@@ -27783,9 +27643,6 @@ eg. "- @jack" */
 
 /* VoiceOver announcement when New posts Pill appears */
 "HOME_TIMELINE_NEW_TWEETS_ANNOUNCEMENT_ACCESSIBILITY_LABEL" = "New posts available. Scroll up to read them.";
-
-/* Label for button to manage an autoblock of a user. */
-"MANAGE_AUTOBLOCK_ACTION_ACCESSIBILITY_LABEL_FORMAT" = "Manage Autoblock";
 
 /* Accessibility label for the lock icon used to indicate protected accounts */
 "PROTECTED_ACCESSIBILITY_LABEL" = "Protected";
