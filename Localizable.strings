@@ -54,6 +54,17 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title for a local push notification that tells the user their post failed to send. */
 "SUBSCRIPTION_UNDO_SEND_TWEET_FAILED_NOTIFICATION_TITLE" = "Reopen the app to try again.";
 
+// Section: Frameworks/XDesignSystem/Sources/XDesignSystemStrings/en.lproj/Localizable.strings
+
+/* Accessibility label for the XDS Tray header back button. */
+"XDS_TRAY_BACK_BUTTON_ACCESSIBILITY_LABEL" = "Back";
+
+/* Accessibility label for the XDS Tray header close button. */
+"XDS_TRAY_CLOSE_BUTTON_ACCESSIBILITY_LABEL" = "Close";
+
+/* Accessibility label for the XDS Tray header more (ellipsis) button. */
+"XDS_TRAY_MORE_BUTTON_ACCESSIBILITY_LABEL" = "More";
+
 // Section: Frameworks/T1Strings/Sources/T1Strings/en.lproj/Localizable.strings
 
 //* Text that appears in a menu option to copy an address to the clipboard. */
@@ -1963,7 +1974,7 @@ This text is the title for the button that shows your current conversation contr
 "CONVERSATION_CONTROL_CHANGE_FAILURE_TOAST_NOTIFICATION_TITLE" = "Error changing who can reply";
 
 /* Conversation Control picker option for My Network. */
-"CONVERSATION_CONTROL_CHANGE_MY_NETWORK_PICKER_TITLE" = "Accounts you follow and who they follow";
+"CONVERSATION_CONTROL_CHANGE_MY_NETWORK_PICKER_TITLE" = "Followers of accounts you follow";
 
 /* Conversation Control refers to the feature that allows users to restrict who can reply to a particular post.
  This text gives the short description for a type of conversation in which only the author can reply. */
@@ -2059,7 +2070,7 @@ This specific option is the "Community Conversation" option, meaning only the ac
 "CONVERSATION_CONTROL_CREATION_SHEET_ACCESSIBILITY_LABEL_COMMUNITY_CONVERSATION" = "Sets to accounts you follow or mention can reply";
 
 /* Conversation Control accessibility label for My Network option. */
-"CONVERSATION_CONTROL_CREATION_SHEET_ACCESSIBILITY_LABEL_MY_NETWORK_TITLE" = "Accounts you follow and who they follow";
+"CONVERSATION_CONTROL_CREATION_SHEET_ACCESSIBILITY_LABEL_MY_NETWORK_TITLE" = "Followers of accounts you follow";
 
 /* Conversation Control accessibility label for Premium option. */
 "CONVERSATION_CONTROL_CREATION_SHEET_ACCESSIBILITY_LABEL_PREMIUM" = "Premium";
@@ -2092,6 +2103,9 @@ This specific option is the "Community Conversation" option, meaning only the ve
 /* Conversation Control refers to the feature that allows users to restrict who can reply to a particular post.
  This text gives the short description for a type of conversation in which only accounts the author follows or mentions can reply. */
 "CONVERSATION_CONTROL_NAME_COMMUNITY_CONVERSATION" = "Accounts you follow";
+
+/* Label for the apply button at the bottom of the "Who can reply?" picker. Confirms the selected option and closes the picker. */
+"CONVERSATION_CONTROL_PICKER_APPLY_BUTTON_LABEL" = "Apply";
 
 /* Conversation Control refers to the feature that allows users to restrict who can reply to a particular post.
 This text gives the short description for a type of conversation in which only accounts the author mentioned can reply. */
@@ -7087,16 +7101,16 @@ This text is the accessibility hint for the button that lets the user change the
 "PROFILE_UPGRADE_UPSELL_CARD_CTA_UPGRADE_NOW" = "Upgrade Now";
 
 /* Title for the profile upgrade upsell card when the user is eligible for a Premium intro offer */
-"PROFILE_UPGRADE_UPSELL_CARD_INTRO_OFFER_TITLE_PREMIUM" = "You\U2019re eligible for Premium";
+"PROFILE_UPGRADE_UPSELL_CARD_INTRO_OFFER_TITLE_PREMIUM" = "You’re eligible for Premium";
 
 /* Title for the profile upgrade upsell card when the user is eligible for a Premium+ intro offer */
-"PROFILE_UPGRADE_UPSELL_CARD_INTRO_OFFER_TITLE_PREMIUM_PLUS" = "You\U2019re eligible for Premium+";
+"PROFILE_UPGRADE_UPSELL_CARD_INTRO_OFFER_TITLE_PREMIUM_PLUS" = "You’re eligible for Premium+";
 
 /* Subtitle for the profile upgrade upsell card */
-"PROFILE_UPGRADE_UPSELL_CARD_SUBTITLE" = "Get verified to increase your account\U2019s credibility and grow faster.";
+"PROFILE_UPGRADE_UPSELL_CARD_SUBTITLE" = "Get verified to increase your account’s credibility and grow faster.";
 
 /* Title for the profile upgrade upsell card */
-"PROFILE_UPGRADE_UPSELL_CARD_TITLE" = "You\U2019re not verified yet";
+"PROFILE_UPGRADE_UPSELL_CARD_TITLE" = "You’re not verified yet";
 
 /* Accessibility label for website bullet item */
 "PROFILE_WEBSITE_ACCESSIBILITY_LABEL_FORMAT" = "Website %@";
@@ -12367,7 +12381,7 @@ eg. "Super Following Jack" */
 "GROK_DIRECT_FLOW_PROMPT_SHEET_SUBTITLE" = "Get the Grok App for the best experience";
 
 /* Title for the prompt sheet encouraging users to install the Grok app */
-"GROK_DIRECT_FLOW_PROMPT_SHEET_TITLE" = "You\U2019re not on the latest Grok";
+"GROK_DIRECT_FLOW_PROMPT_SHEET_TITLE" = "You’re not on the latest Grok";
 
 /* Button to like the chat response */
 "GROK_DISLIKE" = "Dislike";
@@ -13269,6 +13283,9 @@ eg. "Super Following Jack" */
 
 /* Title text for the 'About this account' page that displays when the user's location may not be accurate (due to VPN usage) */
 "PROFILE_ABOUT_THIS_ACCOUNT_INACCURATE_LOCATION_TITLE_LABEL" = "Country or region may not be accurate";
+
+/* Label for the action button on the 'About this account' info trays. Confirms the user read the information and dismisses the tray. */
+"PROFILE_ABOUT_THIS_ACCOUNT_INFO_SHEET_CONFIRM_BUTTON_LABEL" = "Got it";
 
 /* Text for the 'About this account' page that displays the last date when the user changed their username. Example: Last on September 2022 */
 "PROFILE_ABOUT_THIS_ACCOUNT_LAST_USERNAME_CHANGE_LABEL" = "Last on %@";
@@ -14830,16 +14847,16 @@ eg. "Super Following Jack" */
 "PAYMENTS_ACCOUNTS_OTHER_SECTION" = "Other";
 
 /* Payments: Title for the account picker shown during direct deposit / payroll setup */
-"PAYMENTS_ACCOUNTS_PICKER_DIRECT_DEPOSIT_TITLE" = "What account do you want to use for your direct deposit?";
+"PAYMENTS_ACCOUNTS_PICKER_DIRECT_DEPOSIT_SUBTITLE" = "What account do you want to use for your direct deposit?";
 
 /* Payments: Generic title used for account pickers when no more specific title applies */
 "PAYMENTS_ACCOUNTS_PICKER_GENERIC_TITLE" = "Which account?";
 
 /* Payments: Title for the account picker when selecting which account should receive funds (e.g. request money or incoming transfer) */
-"PAYMENTS_ACCOUNTS_PICKER_TRANSFER_REQUEST_TITLE" = "Where would you like to receive the funds?";
+"PAYMENTS_ACCOUNTS_PICKER_TRANSFER_REQUEST_SUBTITLE" = "Where would you like to receive the funds?";
 
 /* Payments: Title for the account picker when selecting which account to pay/send money from */
-"PAYMENTS_ACCOUNTS_PICKER_TRANSFER_TITLE" = "What would you like to pay with?";
+"PAYMENTS_ACCOUNTS_PICKER_TRANSFER_SUBTITLE" = "What would you like to pay with?";
 
 /* Payments: Subtitle in the remove member confirmation warning that the member will lose access to the funds */
 "PAYMENTS_ACCOUNTS_REMOVE_MEMBER_CONFIRMATION_SUBTITLE" = "They will lose access to the funds in this account.";
@@ -14898,11 +14915,8 @@ eg. "Super Following Jack" */
 /* Payments: "Account number" used for US bank accounts transfers */
 "PAYMENTS_ACCOUNT_NUMBER" = "Account Number";
 
-/* Payments: Subtitle reassuring the user that they can change the linked account later */
-"PAYMENTS_ACCOUNT_PICKER_CARD_SUBTITLE" = "You can change this at any time.";
-
-/* Payments: Title shown when linking a physical or virtual card to a Payments account */
-"PAYMENTS_ACCOUNT_PICKER_CARD_TITLE" = "Select the account to which you would like to link this card";
+/* Payments: Subtitle shown when linking a physical or virtual card to a Payments account */
+"PAYMENTS_ACCOUNT_PICKER_CARD_SUBTITLE" = "Select the account to which you would like to link this card. You can change this at any time.";
 
 /* Payments: Title of the section that deals with account customization (ex: nickname) */
 "PAYMENTS_ACCOUNT_SETTINGS_CUSTOMIZATION_SECTION_TITLE" = "Customization";
@@ -15483,6 +15497,9 @@ eg. "Super Following Jack" */
 /* Payments: Title prompting the user to pick an end for a recurring scheduled payment */
 "PAYMENTS_CREATE_SCHEDULED_PAYMENT_END_TITLE" = "When should we stop doing payments?";
 
+/* Payments: Title shown when we were not able to schedule the customer's payment */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_ERROR_TITLE" = "Unable to schedule your payment";
+
 /* Payments: Title prompting the user to pick a date for a one-time scheduled payment */
 "PAYMENTS_CREATE_SCHEDULED_PAYMENT_START_DATE_ONCE_TITLE" = "When should we send this payment?";
 
@@ -15984,8 +16001,8 @@ eg. "Super Following Jack" */
 /* Payments: Title for the X Cash Sweep Program section, shown on the X Money home screen and on the details sheet. Highlights the extended FDIC insurance coverage of up to $10M. */
 "PAYMENTS_FUNDS_INSURANCE_SWEEP_TITLE" = "Up to $10M FDIC Insurance";
 
-/* Payments: Title shown on the X Money home screen and on the sheet that presents details about the FDIC Insurance */
-"PAYMENTS_FUNDS_INSURANCE_TITLE" = "FDIC Insurance";
+/* Payments: Title shown on the X Money home screen and on the sheet that presents details about the FDIC Insurance and other insurance/security mechanisms (Visa Zero Liability, Passkeys, etc.) */
+"PAYMENTS_FUNDS_INSURANCE_TITLE" = "Your assets are safe";
 
 /* Payments: Toast shown when the user tries to use the geolocation feature but they denied the permission. */
 "PAYMENTS_GEOLOCATION_UNAVAILABLE_TOAST" = "Your location services are not currently enabled on this device. You can turn them on in your device settings.";
@@ -16219,10 +16236,10 @@ eg. "Super Following Jack" */
 "PAYMENTS_LOCAL_TASK_ID_VERIFICATION_TITLE" = "Verify your identity";
 
 /* Payments: Subtitle for the X Card task, prompting the user to order their physical X Card */
-"PAYMENTS_LOCAL_TASK_X_CARD_SUBTITLE" = "Spend your funds and get cash back on every purchase";
+"PAYMENTS_LOCAL_TASK_X_CARD_SUBTITLE" = "Start Spending";
 
 /* Payments: Title for the X Card task, prompting the user to order their physical X Card */
-"PAYMENTS_LOCAL_TASK_X_CARD_TITLE" = "Get the X Card";
+"PAYMENTS_LOCAL_TASK_X_CARD_TITLE" = "X Card";
 
 /* Payments: Subtitle of the screen shown when X Money is unavailable because iOS Lockdown mode is enabled, instructing the user how to resolve it. */
 "PAYMENTS_LOCKDOWN_MODE_ENABLED_SUBTITLE" = "Please turn it off or add an exception for the X app in your Settings.";
@@ -20065,6 +20082,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /** Title of a page for Media tab */
 "MEDIA_PAGE_TITLE" = "Video";
 
+/* Accessibility label for the button that collapses a modal sheet from full screen back to its smaller floating size. */
+"MODAL_SHEET_COLLAPSE_BUTTON" = "Collapse";
+
+/* Accessibility label for the button that expands a modal sheet to full screen. */
+"MODAL_SHEET_EXPAND_BUTTON" = "Expand";
+
 /* Accessibility label for button containing more actions in post details view */
 "MORE_ACTIONS_ACCESSIBILITY_LABEL" = "More actions";
 
@@ -21144,15 +21167,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* XChat reset PIN error title */
 "XCHAT_RESET_PIN_ERROR_TITLE" = "Cannot change passcode";
 
-/* Accessibility label for the XDS Tray header back button. */
-"XDS_TRAY_BACK_BUTTON_ACCESSIBILITY_LABEL" = "Back";
-
-/* Accessibility label for the XDS Tray header close button. */
-"XDS_TRAY_CLOSE_BUTTON_ACCESSIBILITY_LABEL" = "Close";
-
-/* Accessibility label for the XDS Tray header more (ellipsis) button. */
-"XDS_TRAY_MORE_BUTTON_ACCESSIBILITY_LABEL" = "More";
-
 /* Body shown to signed-out users when they invoke the X app share extension. Explains that signing into X is required before sharing. */
 "X_APP_SHARE_EXTENSION_LOGGED_OUT_MESSAGE" = "Open X and sign in to share.";
 
@@ -21990,6 +22004,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Conversation members count singular title */
 "DM_CONVERSATION_MEMBERS_COUNT_SINGULAR_TITLE" = "1 member";
 
+/* DM Conversation message composer view more overflow action title */
+"DM_CONVERSATION_MESSAGE_COMPOSER_ACTION_VIEW_MORE" = "View more";
+
 /* DM Conversation message composer add Camera attachment action title */
 "DM_CONVERSATION_MESSAGE_COMPOSER_ADD_ATTACHMENT_ACTION_CAMERA_TITLE" = "Camera";
 
@@ -22020,11 +22037,26 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Conversation message composer attachment action convert to text (e.g. converting URL card or post to URL) */
 "DM_CONVERSATION_MESSAGE_COMPOSER_ATTACHMENT_ACTION_CONVERT_TO_TEXT" = "Convert to text";
 
+/* DM Conversation message composer attachment action to remove an attachment */
+"DM_CONVERSATION_MESSAGE_COMPOSER_ATTACHMENT_ACTION_REMOVE" = "Remove attachment";
+
+/* DM Conversation message composer character count accessibility label when over the limit. %ld is the number of characters over the limit */
+"DM_CONVERSATION_MESSAGE_COMPOSER_CHARACTER_COUNT_OVER_LIMIT_ACCESSIBILITY_LABEL" = "%ld characters over limit";
+
+/* DM Conversation message composer character count accessibility label. %ld is the number of characters remaining */
+"DM_CONVERSATION_MESSAGE_COMPOSER_CHARACTER_COUNT_REMAINING_ACCESSIBILITY_LABEL" = "%ld characters remaining";
+
+/* DM Conversation message composer cancel edit action title */
+"DM_CONVERSATION_MESSAGE_COMPOSER_EDIT_ACTION_CANCEL" = "Cancel edit";
+
 /* DM Conversation message composer quick reply button accessibility hint */
 "DM_CONVERSATION_MESSAGE_COMPOSER_QUICK_REPLY_BUTTON_ACCESSIBILITY_HINT" = "Toggles between quick reply and keyboard";
 
 /* DM Conversation message composer quick reply button accessibility label */
 "DM_CONVERSATION_MESSAGE_COMPOSER_QUICK_REPLY_BUTTON_ACCESSIBILITY_LABEL" = "Show quick reply input";
+
+/* DM Conversation message composer cancel reply action title */
+"DM_CONVERSATION_MESSAGE_COMPOSER_REPLY_ACTION_CANCEL" = "Cancel reply";
 
 /* DM Conversation message composer send button accessibility label */
 "DM_CONVERSATION_MESSAGE_COMPOSER_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Send";
@@ -22038,8 +22070,23 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Conversation message composer text legacy placeholder */
 "DM_CONVERSATION_MESSAGE_COMPOSER_TEXT_LEGACY_PLACEHOLDER" = "Unencrypted message";
 
+/* DM Conversation message composer text legacy placeholder */
+"DM_CONVERSATION_MESSAGE_COMPOSER_TEXT_LEGACY_PLACEHOLDER_SHORT" = "Unencrypted";
+
 /* DM Conversation message composer text reply placeholder */
 "DM_CONVERSATION_MESSAGE_COMPOSER_TEXT_REPLY_PLACEHOLDER" = "Reply";
+
+/* DM Conversation message composer voice playback pause action title */
+"DM_CONVERSATION_MESSAGE_COMPOSER_VOICE_ACTION_PAUSE" = "Pause";
+
+/* DM Conversation message composer voice playback play action title */
+"DM_CONVERSATION_MESSAGE_COMPOSER_VOICE_ACTION_PLAY" = "Play";
+
+/* DM Conversation message composer voice record action title */
+"DM_CONVERSATION_MESSAGE_COMPOSER_VOICE_ACTION_RECORD" = "Record voice message";
+
+/* DM Conversation message composer voice recording stop action title */
+"DM_CONVERSATION_MESSAGE_COMPOSER_VOICE_ACTION_STOP" = "Stop";
 
 /* DM Conversation message request action disabled message */
 "DM_CONVERSATION_MESSAGE_REQUEST_ACTION_DISABLED_MESSAGE" = "This feature cannot be used while this conversation is a message request.";
@@ -22287,8 +22334,20 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Inbox Groups Empty title */
 "DM_INBOX_GROUPS_EMPTY_TITLE" = "No group chats yet";
 
+/* DM Inbox item draft preview when the draft has multiple attachments of mixed or other types. %@: count */
+"DM_INBOX_ITEM_DRAFT_ATTACHMENTS" = "%@ attachments";
+
+/* DM Inbox item draft preview when the draft has multiple GIFs. %@: count */
+"DM_INBOX_ITEM_DRAFT_GIFS" = "%@ GIFs";
+
+/* DM Inbox item draft preview when the draft has multiple photos. %@: count */
+"DM_INBOX_ITEM_DRAFT_PHOTOS" = "%@ photos";
+
 /* DM Inbox item draft preview with the draft message (%1$@) */
 "DM_INBOX_ITEM_DRAFT_SUBTITLE" = "•|•Draft:•|• %1$@";
+
+/* DM Inbox item draft preview when the draft has multiple videos. %@: count */
+"DM_INBOX_ITEM_DRAFT_VIDEOS" = "%@ videos";
 
 /* DM Inbox message requests delete all confirmation dialog message */
 "DM_INBOX_MESSAGE_REQUESTS_DELETE_ALL_CONFIRM_MESSAGE" = "This action cannot be undone.";
@@ -22792,6 +22851,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Message Attachment Preview when unnamed user sent a link */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_LINK" = "Sent a link";
 
+/* DM Message Attachment Preview when unnamed user sent multiple attachments of mixed or other types. %@: count */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_MANY_ATTACHMENT" = "Sent %@ attachments";
+
 /* DM Message Attachment Preview when unnamed user sent multiple GIFs */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_MANY_GIF" = "Sent %@ GIFs";
 
@@ -22825,6 +22887,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Message Attachment Preview when user sent a link. %@: user display name */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_LINK" = "•|•%@•|•: Sent a link";
 
+/* DM Message Attachment Preview when user sent multiple attachments of mixed or other types. %1$@: user display name, %2$@: count */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_MANY_ATTACHMENT" = "•|•%1$@•|•: Sent %2$@ attachments";
+
 /* DM Message Attachment Preview when user sent multiple GIFs. %1$@: user display name, %2$@: count */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_MANY_GIF" = "•|•%1$@•|•: Sent %2$@ GIFs";
 
@@ -22857,6 +22922,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Message Attachment Preview when you send a link */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_LINK" = "You sent a link";
+
+/* DM Message Attachment Preview when you send multiple attachments of mixed or other types */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_MANY_ATTACHMENT" = "You sent %@ attachments";
 
 /* DM Message Attachment Preview when you send multiple GIFs */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_MANY_GIF" = "You sent %@ GIFs";
@@ -22987,11 +23055,20 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Message reply subtitle when replying to an audio message with no text */
 "DM_MESSAGE_REPLY_SUBTITLE_AUDIO" = "Voice message";
 
+/* DM Message reply subtitle when replying to a file message with no text */
+"DM_MESSAGE_REPLY_SUBTITLE_FILE" = "File";
+
 /* DM Message reply subtitle when replying to a GIF message with no text */
 "DM_MESSAGE_REPLY_SUBTITLE_GIF" = "GIF";
 
+/* DM Message reply subtitle when replying to a link message with no text */
+"DM_MESSAGE_REPLY_SUBTITLE_LINK" = "Link";
+
 /* DM Message reply subtitle when replying to a photo message with no text */
 "DM_MESSAGE_REPLY_SUBTITLE_PHOTO" = "Photo";
+
+/* DM Message reply subtitle when replying to a post message with no text */
+"DM_MESSAGE_REPLY_SUBTITLE_POST" = "Post";
 
 /* DM Message reply subtitle when replying to an unknown attachment with no text */
 "DM_MESSAGE_REPLY_SUBTITLE_UNKNOWN" = "Attachment";
@@ -24756,7 +24833,7 @@ eg. "- @jack" */
 "GIF_PICKER_ERROR_ACTION_RETRY_TITLE" = "Retry";
 
 /* Gif Picker error title */
-"GIF_PICKER_ERROR_TITLE" = "Something went wrong";
+"GIF_PICKER_ERROR_TITLE" = "Something went wrong. Check your connection and try again.";
 
 /* Gif Picker search placeholder */
 "GIF_PICKER_SEARCH_PLACEHOLDER" = "Search GIFs";
@@ -24841,8 +24918,8 @@ eg. "- @jack" */
 /* Text displayed below the title on the redesigned Boost sheet when boosting another user's post (3P). The %@ placeholder is replaced by QUICK_PROMOTE_HEADER_SUBTITLE_LEARN_MORE_LINK which is rendered as a tappable link. */
 "BOOST_SHEET_SUBTITLE_3P_HEADLINE" = "Get up to 3x more likes on this post.";
 
-/* Simplified terms and conditions text for the redesigned Boost sheet. %@ is replaced by the Terms and Conditions link text. */
-"BOOST_SHEET_TERMS_FORMAT" = "By clicking the Boost Post button below, you agree to our %@";
+/* Terms and conditions disclaimer for the redesigned Boost sheet. Please preserve the <a> HTML tag. It marks the tappable region that opens the Terms and Conditions web page. */
+"BOOST_SHEET_TERMS" = "By clicking the Boost Post button below, you agree to our <a href=\"#\">Terms and Conditions</a>";
 
 /* Title displayed at the top of the redesigned Boost sheet and on the primary CTA button. */
 "BOOST_SHEET_TITLE" = "Boost Post";
@@ -26470,24 +26547,6 @@ eg. "- @jack" */
 
 /* CTA button label on the Topics upsell screen */
 "TOPICS_UPSELL_CTA_BUTTON" = "Add Timelines";
-
-/* Subtitle on the education modal for custom timelines */
-"TOPICS_UPSELL_EDUCATION_SUBTITLE" = "Curate your timeline the way you want";
-
-/* Title on the education modal for custom timelines */
-"TOPICS_UPSELL_EDUCATION_TITLE" = "Custom Timelines";
-
-/* CTA button label for free users to upgrade to Premium on the Topics upsell screen */
-"TOPICS_UPSELL_GET_PREMIUM_BUTTON" = "Upgrade to Premium";
-
-/* Button label for the education explainer on the Topics upsell */
-"TOPICS_UPSELL_HOW_IT_WORKS" = "How it works";
-
-/* Dismiss button on the education modal */
-"TOPICS_UPSELL_NOT_NOW" = "Not Now";
-
-/* Title shown on the Topics upsell screen for free users */
-"TOPICS_UPSELL_PREMIUM_TITLE" = "Create custom timelines";
 
 /* Subtitle shown on the Topics upsell screen */
 "TOPICS_UPSELL_SUBTITLE" = "See topics that interest you";
