@@ -2169,14 +2169,26 @@ This text is the accessibility hint for the button that lets the user change the
 /* Text shown in conversation facepile indicating who replied (multiple replies), e.g. "John and 3 others replied" */
 "CONVERSATION_FACEPILE_REPLIES_COUNT_FORMAT" = "%1$@ and %2$@ others replied";
 
+/* Text shown in conversation facepile when the current user replied with multiple others, e.g. "You and 3 others replied" */
+"CONVERSATION_FACEPILE_REPLIES_COUNT_FORMAT_YOU" = "You and %1$@ others replied";
+
 /* Text shown in conversation facepile indicating who replied, e.g. "John replied" */
 "CONVERSATION_FACEPILE_REPLIES_FORMAT" = "%1$@ replied";
 
 /* Text shown in conversation facepile indicating who replied (singular reply), e.g. "John and 1 other replied" */
 "CONVERSATION_FACEPILE_REPLIES_FORMAT_SINGULAR" = "%1$@ and 1 other replied";
 
+/* Text shown in conversation facepile when the current user replied with one other, e.g. "You and 1 other replied" */
+"CONVERSATION_FACEPILE_REPLIES_FORMAT_SINGULAR_YOU" = "You and 1 other replied";
+
+/* Text shown in conversation facepile when only the current user replied, e.g. "You replied" */
+"CONVERSATION_FACEPILE_REPLIES_FORMAT_YOU" = "You replied";
+
 /* Text shown in conversation facepile indicating who replied, e.g. "John and Jill replied" */
 "CONVERSATION_FACEPILE_REPLIES_SOCIAL_CONTEXT_DOUBLE" = "%1$@ and %2$@ replied";
+
+/* Text shown in conversation facepile when the current user replied with one other named person, e.g. "You and Jill replied" */
+"CONVERSATION_FACEPILE_REPLIES_SOCIAL_CONTEXT_DOUBLE_YOU" = "You and %1$@ replied";
 
 /* Conversation module missing multiple posts with post author. Eg. "Show more replies to @jack's post" */
 "CONVERSATION_MODULE_SHOW_MORE_REPLIES_ACCESSIBILITY_LABEL_FORMAT" = "Show more replies to %@’s post";
@@ -5359,6 +5371,27 @@ This text is the accessibility hint for the button that lets the user change the
 /* Toast shown in the video reaction camera when the user toggles on rendering the source post's media alongside the post. */
 "NEWSCAMERA_REACTION_TOAST_RENDER_POST_WITH_MEDIA" = "Render post with media";
 
+/* Title for the confirmation alert shown when the user taps retake to discard a photo they just captured in the video recorder. The alert presents Cancel and Discard buttons. */
+"NEWSCAMERA_RECORDER_DISCARD_PHOTO_ALERT_TITLE" = "Discard photo?";
+
+/* Label in the video recorder's duration selector for a maximum recording length of 10 minutes, abbreviated. The "m" stands for minutes. Keep it short. */
+"NEWSCAMERA_RECORDER_DURATION_10M" = "10m";
+
+/* Label in the video recorder's duration selector for a maximum recording length of 15 seconds, abbreviated. The "s" stands for seconds. Keep it short. */
+"NEWSCAMERA_RECORDER_DURATION_15S" = "15s";
+
+/* Label in the video recorder's duration selector for a maximum recording length of 30 minutes, abbreviated. The "m" stands for minutes. Keep it short. */
+"NEWSCAMERA_RECORDER_DURATION_30M" = "30m";
+
+/* Label in the video recorder's duration selector for a maximum recording length of 60 seconds, abbreviated. The "s" stands for seconds. Keep it short. */
+"NEWSCAMERA_RECORDER_DURATION_60S" = "60s";
+
+/* Label in the video recorder's capture mode selector for switching to photo capture, shown to the right of the recording duration options. Displayed in all caps to match the design. Keep it short. */
+"NEWSCAMERA_RECORDER_MODE_PHOTO" = "PHOTO";
+
+/* Label shown at the bottom of the video recorder indicating that the captured media will be shared as a post. Displayed in all caps to match the design. Keep it short. */
+"NEWSCAMERA_RECORDER_POST_LABEL" = "POST";
+
 /* Accessibility value for remove location in camera composer */
 "NEWSCAMERA_REMOVE_LOCATION_ACCESSIBILITY_VALUE" = "Remove location";
 
@@ -5382,6 +5415,18 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* A title label to ask users to allow camera and microphone access to capture photos and videos. Displayed with a description about why we request camera and microphone access. */
 "NEWSCAMERA_SERVICE_AUTHORIZATION_TITLE" = "Allow X access to your camera and microphone";
+
+/* Accessibility label for the button in the video recorder that opens the menu for choosing a video background. */
+"NEWSCAMERA_SET_VIDEO_BACKGROUND_ACTION_ACCESSIBILITY_LABEL" = "Set video background";
+
+/* Menu option in the video recorder, shown under the "Set Video Background" title, that lets the user react to an existing post with their video. */
+"NEWSCAMERA_SET_VIDEO_BACKGROUND_REACT_TO_POST" = "React to a post";
+
+/* Title of the menu in the video recorder that lets the user pick a background for their video. */
+"NEWSCAMERA_SET_VIDEO_BACKGROUND_TITLE" = "Set video background";
+
+/* Menu option in the video recorder, shown under the "Set Video Background" title, that lets the user pick a video from their photo library to use as the background. */
+"NEWSCAMERA_SET_VIDEO_BACKGROUND_UPLOAD_FROM_LIBRARY" = "Upload from Library";
 
 /* Label for a button to "Stop broadcast" when broadcasting a video in the confirmation action sheet */
 "NEWSCAMERA_STOP_LIVE_ACTION_SHEET_LABEL" = "Stop broadcast";
@@ -15983,6 +16028,18 @@ eg. "Super Following Jack" */
 /* Payments: Footer text shown on the home screen, to explain that funds deposited are insured by FDIC insurance. This one is about specifying the limit. %@ is replaced by an amount in USD, already formatted (ex: $250,000). */
 "PAYMENTS_FUNDS_INSURANCE_FOOTER_TEXT_FORMAT" = "Your deposits are held by Cross River Bank (“the Bank”), Member FDIC and are insured by the FDIC up to %@ per individual and per legal entity for all accounts in each account ownership category held at the Bank (combined), including accounts held in a representative capacity.";
 
+/* Payments: Subtitle of the section explaining why X Money is secured thanks to customizable limits */
+"PAYMENTS_FUNDS_INSURANCE_LIMITS_SUBTITLE" = "Your purchases are protected by Visa’s Zero Liability Policy. Set custom purchase limits on your debit card for extra peace of mind.";
+
+/* Payments: Title of the section explaining why X Money is secured thanks to customizable limits */
+"PAYMENTS_FUNDS_INSURANCE_LIMITS_TITLE" = "Visa Zero Liability Policy & Custom Limits";
+
+/* Payments: Subtitle of the section explaining why X Money is secured thanks to passkeys */
+"PAYMENTS_FUNDS_INSURANCE_PASSKEY_SUBTITLE" = "Authenticate fund movements and new device logins with a secure Passkey and your biometrics.";
+
+/* Payments: Title of the section explaining why X Money is secured thanks to passkeys */
+"PAYMENTS_FUNDS_INSURANCE_PASSKEY_TITLE" = "Authentication & Passkeys";
+
 /* Payments: Detailed disclaimer text shown in the X Cash Sweep Program details view. Explains the partner banks involved (Cross River Bank and other FDIC-insured institutions), that X Payments LLC is not an FDIC-insured bank, and that certain conditions must be met for pass-through coverage. */
 "PAYMENTS_FUNDS_INSURANCE_SWEEP_DISCLAIMER" = "Deposits are held at Cross River Bank, Member FDIC, and at other FDIC-insured institutions. Certain conditions must be satisfied for pass-through deposit insurance coverage to apply. X Payments LLC is not an FDIC-insured bank. Deposit insurance only covers the failure of an insured bank.";
 
@@ -15993,13 +16050,13 @@ eg. "Super Following Jack" */
 "PAYMENTS_FUNDS_INSURANCE_SWEEP_DISCLAIMER_INSTITUTIONS_LINK" = "FDIC-insured institutions";
 
 /* Payments: Main presentation text shown on the home screen for the X Cash Sweep Program. Informs users that deposits are automatically enrolled for up to $10M in FDIC insurance. The trailing “Learn more” portion is a tappable link. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION" = "Your deposits are automatically enrolled in the X Cash Sweep Program, which provides up to $10M in FDIC insurance. Learn more";
+"PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION" = "Your deposits are automatically enrolled in the X Cash Sweep Program, which provides up to $10M of aggregate FDIC insurance coverage, subject to certain limitations. Learn more";
 
 /* Payments: Label for the “Learn more” link that appears at the end of PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION. */
 "PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION_LEARN_MORE_LINK" = "Learn more";
 
 /* Payments: Title for the X Cash Sweep Program section, shown on the X Money home screen and on the details sheet. Highlights the extended FDIC insurance coverage of up to $10M. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_TITLE" = "Up to $10M FDIC Insurance";
+"PAYMENTS_FUNDS_INSURANCE_SWEEP_TITLE" = "Up to $10M of FDIC Insurance";
 
 /* Payments: Title shown on the X Money home screen and on the sheet that presents details about the FDIC Insurance and other insurance/security mechanisms (Visa Zero Liability, Passkeys, etc.) */
 "PAYMENTS_FUNDS_INSURANCE_TITLE" = "Your assets are safe";
@@ -20526,6 +20583,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Accessibility label for button containing share actions in post details view */
 "SHARE_ACTION_ACCESSIBILITY_LABEL" = "Share";
 
+/* Title of the share sheet empty state row that opens the system share sheet to invite friends to chat */
+"SHARE_SHEET_EMPTY_INVITE_FRIENDS_TITLE" = "Invite friends to chat";
+
+/* Subtitle of the share sheet empty state row for messaging yourself */
+"SHARE_SHEET_EMPTY_MESSAGE_YOURSELF_SUBTITLE" = "Message yourself";
+
 /* Title of the share sheet send separately button */
 "SHARE_SHEET_SEND_BUTTON_SEPARATELY_TITLE" = "Send separately";
 
@@ -20610,6 +20673,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Activity label for share sheet to a third-party app, Telegram, in App Store. Please translate this as a localized name of the app, not the literal translation. If there's no localized version of the name, please leave it as English. */
 "SHARE_TO_OFF_PLATFORM_TELEGRAM_ACTIVITY_CAROUSEL_LABEL" = "Telegram";
+
+/* Activity label for share sheet to a third-party app, Tesla, in App Store. Please translate this as a localized name of the app, not the literal translation. If there's no localized version of the name, please leave it as English. */
+"SHARE_TO_OFF_PLATFORM_TESLA_ACTIVITY_CAROUSEL_LABEL" = "Tesla";
 
 /* Activity label for share sheet to a third-party app, Viber, in App Store. Please translate this as a localized name of the app, not the literal translation. If there's no localized version of the name, please leave it as English. */
 "SHARE_TO_OFF_PLATFORM_VIBER_ACTIVITY_CAROUSEL_LABEL" = "Viber";
@@ -21229,6 +21295,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Documents section title */
 "CHAT_DOCUMENTS" = "Documents";
+
+/* Forwarded message label */
+"CHAT_FORWARDED_MESSAGE" = "Forwarded message";
 
 /* Group invite request approve button title */
 "CHAT_GROUP_INVITE_APPROVE" = "Approve";
@@ -22048,6 +22117,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Conversation message composer cancel edit action title */
 "DM_CONVERSATION_MESSAGE_COMPOSER_EDIT_ACTION_CANCEL" = "Cancel edit";
+
+/* DM Conversation message composer cancel forward action title */
+"DM_CONVERSATION_MESSAGE_COMPOSER_FORWARD_ACTION_CANCEL" = "Cancel forward";
 
 /* DM Conversation message composer quick reply button accessibility hint */
 "DM_CONVERSATION_MESSAGE_COMPOSER_QUICK_REPLY_BUTTON_ACCESSIBILITY_HINT" = "Toggles between quick reply and keyboard";
@@ -25500,9 +25572,6 @@ eg. "- @jack" */
 /* Filter by label */
 "CHAT_FILTER_BY" = "Filter by";
 
-/* Forwarded message label */
-"CHAT_FORWARDED_MESSAGE" = "Forwarded message";
-
 /* Forwarded message with sender label. %@: sender name */
 "CHAT_FORWARDED_MESSAGE_WITH_SENDER" = "%@ forwarded a message";
 
@@ -26482,6 +26551,9 @@ eg. "- @jack" */
 /* Title describing the pinned timelines is a List (in plural) */
 "PINNED_TIMELINES_KIND_LIST_PLURAL" = "Lists";
 
+/* Subtitle describing the pinned timeline of exclusive posts from creators the user subscribes to */
+"PINNED_TIMELINES_KIND_SUBSCRIPTIONS" = "Exclusive content";
+
 /* Title describing the pinned timelines is a Topic */
 "PINNED_TIMELINES_KIND_TOPIC" = "Topic";
 
@@ -26532,6 +26604,9 @@ eg. "- @jack" */
 
 /* Section header for pinned feeds in the tab management sheet */
 "TAB_MANAGEMENT_SECTION_PINNED" = "Pinned";
+
+/* Section header for the subscriptions timeline in the tab management sheet */
+"TAB_MANAGEMENT_SECTION_SUBSCRIPTIONS" = "Subscriptions";
 
 /* Section header for topic feeds in the tab management sheet */
 "TAB_MANAGEMENT_SECTION_SUGGESTED_TOPICS" = "Topics";
