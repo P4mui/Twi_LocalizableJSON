@@ -1076,8 +1076,23 @@ e.g. Removed from MyRecipes.
 /* Text for scheduled broadcast alert, %1$@ is date when the broadcast is planned */
 "BROADCAST_SCHEDULED_BROADCAST_ALERT_MESSAGE" = "This broadcast is scheduled for %1$@, tune back in then.";
 
+/* Label shown in place of the countdown when a scheduled broadcast is about to begin */
+"BROADCAST_SCHEDULED_BROADCAST_STARTING_SOON" = "Starting soon";
+
 /* Title of scheduled broadcast alert */
 "BROADCAST_SCHEDULED_BROADCAST_TITLE" = "Scheduled broadcast";
+
+/* Unit label shown under the days value in the scheduled broadcast countdown */
+"BROADCAST_SCHEDULED_COUNTDOWN_DAYS" = "DAYS";
+
+/* Unit label shown under the hours value in the scheduled broadcast countdown */
+"BROADCAST_SCHEDULED_COUNTDOWN_HOURS" = "HR";
+
+/* Unit label shown under the minutes value in the scheduled broadcast countdown */
+"BROADCAST_SCHEDULED_COUNTDOWN_MINUTES" = "MIN";
+
+/* Unit label shown under the seconds value in the scheduled broadcast countdown */
+"BROADCAST_SCHEDULED_COUNTDOWN_SECONDS" = "SEC";
 
 /* Text displayed in context menu to compose a tweet with attached broadcast */
 "BROADCAST_SHARE_BROADCAST" = "Share Broadcast";
@@ -1156,9 +1171,6 @@ e.g. Removed from MyRecipes.
 
 /* Accessibility value for GIF looping mode: forward and reverse. GIF will loop by playing in its entirety, then playing in reverse until back to the beginning. */
 "CAMERA_GIF_LOOPING_MODE_FORWARD_AND_REVERSE_ACCESSIBILITY_VALUE" = "forward and reverse";
-
-/* A button label in the preview of photo or video taken by camera to discard it and retake it, alongside use button. */
-"CAMERA_RETAKE_BUTTON_LABEL" = "Retake";
 
 /* A button label in the preview of GIF taken by camera to use that GIF, alongside retake button. */
 "CAMERA_USE_GIF_BUTTON_LABEL" = "Use GIF";
@@ -1974,7 +1986,7 @@ This text is the title for the button that shows your current conversation contr
 "CONVERSATION_CONTROL_CHANGE_FAILURE_TOAST_NOTIFICATION_TITLE" = "Error changing who can reply";
 
 /* Conversation Control picker option for My Network. */
-"CONVERSATION_CONTROL_CHANGE_MY_NETWORK_PICKER_TITLE" = "Followers of accounts you follow";
+"CONVERSATION_CONTROL_CHANGE_MY_NETWORK_PICKER_TITLE" = "Accounts you follow and who they follow";
 
 /* Conversation Control refers to the feature that allows users to restrict who can reply to a particular post.
  This text gives the short description for a type of conversation in which only the author can reply. */
@@ -2070,7 +2082,7 @@ This specific option is the "Community Conversation" option, meaning only the ac
 "CONVERSATION_CONTROL_CREATION_SHEET_ACCESSIBILITY_LABEL_COMMUNITY_CONVERSATION" = "Sets to accounts you follow or mention can reply";
 
 /* Conversation Control accessibility label for My Network option. */
-"CONVERSATION_CONTROL_CREATION_SHEET_ACCESSIBILITY_LABEL_MY_NETWORK_TITLE" = "Followers of accounts you follow";
+"CONVERSATION_CONTROL_CREATION_SHEET_ACCESSIBILITY_LABEL_MY_NETWORK_TITLE" = "Accounts you follow and who they follow";
 
 /* Conversation Control accessibility label for Premium option. */
 "CONVERSATION_CONTROL_CREATION_SHEET_ACCESSIBILITY_LABEL_PREMIUM" = "Premium";
@@ -2286,12 +2298,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Description of the creator dashboard screen. */
 "CREATOR_DASHBOARD_DESCRIPTION" = "See how you can make money on X and manage your monetization options.";
 
-/* Label for the Help center item that is shown in the Get Help  section of the creator dashboard screen. Navigates to help center for monetization. */
-"CREATOR_DASHBOARD_HELP_CENTER_ITEM" = "Help center";
-
-/* Label for the tips item that is shown in the Monetization options section of the creator dashboard screen. Navigates to the tips screen or opens creator application flow. Both words should be capialized. */
-"CREATOR_DASHBOARD_TIP_JAR_ITEM" = "Tips";
-
 /* Title of the creator dashboard screen. */
 "CREATOR_DASHBOARD_TITLE" = "Monetization";
 
@@ -2313,425 +2319,14 @@ This text is the accessibility hint for the button that lets the user change the
 /* Title of the creator studio screen. */
 "CREATOR_STUDIO_TITLE" = "Creator Studio";
 
-/* Subtitle for the screen in Super Follows creator application flow that tells the user that their Super Follows creator application has been declined. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FLOW_STATE_DECLINED_SUBTITLE" = "Your account was not selected this time. Stay tuned for future opportunities to participate.";
-
-/* Headline for the screen in Super Follows creator application flow that tells the user that their Super Follows creator application has been declined. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FLOW_STATE_DECLINED_TITLE" = "Your account was not selected";
-
-/* Subtitle shown on the screen in super follows creator application flow that tells the user their application got approved but they need to fulfill one more step - they need to link/create a Stripe account. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FLOW_STATE_STRIPE_MISSING_DESCRIPTION" = "Add a verified Stripe account before getting started with Subscriptions.";
-
-/* Headline for the screen in Super Follows creator application flow that tells the user their application got approved but they need to fulfill one more step. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FLOW_STATE_STRIPE_MISSING_TITLE" = "Set up your payout details";
-
-/* Subtitle shown on the screen in Super Follows creator application flow that appears when the user submits their application. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FLOW_STATE_SUBMITTED_DESCRIPTION" = "Keep an eye out for an email with an update on your application status.";
-
-/* Subtitle for the screen in Super Follows creator application flow that tells the user that their Super Follows creator application has been waitlisted. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FLOW_STATE_WAITLISTED_SUBTITLE" = "We’ve added you to the waitlist and will let you know when there are more openings.";
-
-/* Header for content categories text area in Super Follows creator application form. This section allows the user to select their application categories based on a predefined list. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_HEADER" = "Content categories";
-
-/* Hint for content categories text area in Super Follows creator application form. This informs the user that they can select multiple categories. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_HINT" = "What kind of content do you create? Select all that apply.";
-
-/* Possible content category for the Super Follows application. Activist option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_1" = "Activist";
-
-/* Possible content category for the Super Follows application. Fashion option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_10" = "Fashion";
-
-/* Possible content category for the Super Follows application. Film & television option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_11" = "Film and television";
-
-/* Possible content category for the Super Follows application. Finance option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_12" = "Finance";
-
-/* Possible content category for the Super Follows application. Gaming option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_13" = "Gaming";
-
-/* Possible content category for the Super Follows application. Health & fitness option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_14" = "Health and fitness";
-
-/* Possible content category for the Super Follows application. Lifestyle option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_15" = "Lifestyle";
-
-/* Possible content category for the Super Follows application. Media option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_16" = "Media";
-
-/* Possible content category for the Super Follows application. Music option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_17" = "Music";
-
-/* Possible content category for the Super Follows application. News option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_18" = "News";
-
-/* Possible content category for the Super Follows application. Non-profits option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_19" = "Non-profit";
-
-/* Possible content category for the Super Follows application. Adult content option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_2" = "Adult";
-
-/* Possible content category for the Super Follows application. Opinion option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_20" = "Opinion";
-
-/* Possible content category for the Super Follows application. Photography option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_21" = "Photography";
-
-/* Possible content category for the Super Follows application. Podcast option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_22" = "Podcast";
-
-/* Possible content category for the Super Follows application. Podcast option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_23" = "Reality TV";
-
-/* Possible content category for the Super Follows application. Skincare option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_24" = "Skincare";
-
-/* Possible content category for the Super Follows application. Sports option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_25" = "Sports";
-
-/* Possible content category for the Super Follows application. Small and medium business option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_26" = "Small and medium business";
-
-/* Possible content category for the Super Follows application. Tech option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_27" = "Tech";
-
-/* Possible content category for the Super Follows application. Video option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_28" = "Video";
-
-/* Possible content category for the Super Follows application. Writing option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_29" = "Writing";
-
-/* Possible content category for the Super Follows application. Animals option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_3" = "Animals";
-
-/* Possible content category for the Super Follows application. Art option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_4" = "Art";
-
-/* Possible content category for the Super Follows application. Astrology option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_5" = "Astrology";
-
-/* Possible content category for the Super Follows application. B2B option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_6" = "B2B";
-
-/* Possible content category for the Super Follows application. Beauty option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_7" = "Beauty";
-
-/* Possible content category for the Super Follows application. Comedy option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_8" = "Comedy";
-
-/* Possible content category for the Super Follows application. Events option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_ITEM_9" = "Events";
-
-/* Hint for a non-listed content category for the Super Follows application. This tells the user that they can manually fill in their desired category. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_OTHER_HINT" = "Tell us more";
-
-/* Message explaining the user what category does their content fall into. Used for the Super Follows application form. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_OTHER_MESSAGE" = "What kind of content do you create?";
-
-/* Hint telling the user to add the category that fits their Super Follow application. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_OTHER_MESSAGE_HINT" = "Tell us about your content.";
-
-/* Possible content category or content platform option for the Super Follows application. This option takes the user to a new form in which they can manually input their desired category or content platform. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_OTHER_OPTION" = "Other";
-
-/* Title of the content category form. This form is presented if the user chose a non-listed category from the available options. Used for the Super Follows application form. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_CATEGORIES_OTHER_TITLE" = "Content category";
-
-/* Hint for content platforms text area in Super Follows creator application form. This hint tells the user that they can select multiple platforms. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_PLATFORMS_HINT" = "Where do you share content? Select all that apply.";
-
-/* Possible content platform for the Super Follows application. This is a brand name. Facebook option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_PLATFORMS_ITEM_1" = "Facebook";
-
-/* Possible content platform for the Super Follows application. This is a brand name. OnlyFans option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_PLATFORMS_ITEM_2" = "OnlyFans";
-
-/* Possible content platform for the Super Follows application. This is a brand name. Patreon option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_PLATFORMS_ITEM_3" = "Patreon";
-
-/* Possible content platform for the Super Follows application. This is a brand name. Substack option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_PLATFORMS_ITEM_4" = "Substack";
-
-/* Possible content platform for the Super Follows application. This is a brand name. Twitch option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_PLATFORMS_ITEM_5" = "Twitch";
-
-/* Possible content platform for the Super Follows application. This is a brand name. Youtube option. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_PLATFORMS_ITEM_6" = "Youtube";
-
-/* Message explaining to the user what platform will their content be created on. Used for the Super Follows application. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_PLATFORMS_OTHER_MESSAGE" = "What platforms do you use?";
-
-/* Hint explaining the user that they can manually enter any number of platforms they think fits their Super Follows application. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_PLATFORMS_OTHER_MESSAGE_HINT" = "Tell us about the platforms you use to share your content.";
-
-/* Title shown if the user selects a non-listed option from the content platform options. Used in the Super Follows application */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_CONTENT_PLATFORMS_OTHER_TITLE" = "Content platforms";
-
-/* Message explaining to the user what should they type for the planned usage of their Super Follows application. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_PLANNED_USAGE_MESSAGE" = "How do you plan to use Subscriptions?";
-
-/* Hint that serves as a guide for the planned usage of the user's Super Follows application. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_PLANNED_USAGE_MESSAGE_HINT" = "Describe how you plan to use Subscriptions, what type of content you’d like to offer, etc";
-
-/* Header for planned usage text area in Super Follows creator application form. This section allows the user to input the intended usage of their Super Follows content. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_PLANNED_USAGE_TITLE" = "Planned usage";
-
-/* Subtitle showing in Super Follows creator application form. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_SUBTITLE" = "Tell us more about who you are, what you love, and why your followers keep coming back for more.";
-
-/* Title showing for Super Follows creator application form. */
-"CREATOR_SUPER_FOLLOWS_APPLICATION_FORM_TITLE" = "Apply for Subscriptions";
-
-/* Text on the Super Follows Benefits pricing selector. Tapping on this text will take the user to a help center link. */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_INFORMATION" = "Learn More";
-
-/* Text on the Super Follows Benefits pricing selector. Explains the use of the subscription price to new creators. Note to translators: Please, keep the HTML tags <p></p> and <a id=\"TERMS\"></a> in the text - <p></p> should enclose the whole text and <a id=\"TERMS\"></a> should enclose the Learn More text. */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_INFORMATION_HTML_FORMAT" = "<p>Pick a monthly price that makes sense for you and your audience. Wondering what you can earn? <a id=\"TERMS\">Learn More</a></p>";
-
-/* Message shown below the subscription price of an offering. in the Super Follows Benefits pricing selector screen. Note to translators: This string is part of a bullet list, so please leave the "  •  " (including double white spaces before and after) intact. For example, this will be shown as:
-   •  Build an intimate base
- */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_ITEM_HIGH_TIER_MESSAGE_1" = "  •  Build an intimate base";
-
-/* Message shown below the subscription price of an offering. in the Super Follows Benefits pricing selector screen. Note to translators: This string is part of a bullet list, so please leave the "  •  " (including double white spaces before and after) intact. For example, this will be shown as:
-   •  Regular posting and interacting with subscribers
- */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_ITEM_HIGH_TIER_MESSAGE_2" = "  •  Regular posting and interacting with Subscribers";
-
-/* Message shown below the subscription price of an offering. in the Super Follows Benefits pricing selector screen. Note to translators: This string is part of a bullet list, so please leave the "  •  " (including double white spaces before and after) intact. For example, this will be shown as:
-   •  Build a bigger, broader base
- */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_ITEM_LOW_TIER_MESSAGE_1" = "  •  Build a bigger, broader base";
-
-/* Message shown below the subscription price of an offering. in the Super Follows Benefits pricing selector screen. Note to translators: This string is part of a bullet list, so please leave the "  •  " (including double white spaces before and after) intact. For example, this will be shown as:
-   •  Infrequent posting and interacting with subscribers
- */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_ITEM_LOW_TIER_MESSAGE_2" = "  •  Infrequent posting and interacting with Subscribers";
-
-/* Message shown below the subscription price of an offering. in the Super Follows Benefits pricing selector screen. Note to translators: This string is part of a bullet list, so please leave the "  •  " (including double white spaces before and after) intact. For example, this will be shown as:
-   •  Expand your base and maximize revenue
- */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_ITEM_MID_TIER_MESSAGE_1" = "  •  Expand your base and maximize revenue";
-
-/* Message shown below the subscription price of an offering. in the Super Follows Benefits pricing selector screen. Note to translators: This string is part of a bullet list, so please leave the "  •  " (including double white spaces before and after) intact. For example, this will be shown as:
-   •  Moderate posting and interacting with subscribers
- */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_ITEM_MID_TIER_MESSAGE_2" = "  •  Moderate posting and interacting with Subscribers";
-
 /* Title of a subscription price in the Super Follows Benefits pricing selector screen. This is a formatted string that includes the price of one offering. For example, if the offering obtained from the service is $2.99, this string will be "$2.99 per month". */
 "CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_ITEM_TITLE_FORMAT" = "%@ per month";
-
-/* Title of the button in the confirmation screen following the Super Follows Benefits pricing selector screen. */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_PAGE_CONFIRM_BUTTON_TITLE" = "Confirm";
-
-/* Message in the confirmation screen following the Super Follows Benefits pricing selector screen. */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_PAGE_CONFIRM_MESSAGE" = "Double-check and confirm your Subscription price. You won’t be able to change this after you submit.";
-
-/* Title of the confirmation screen following the Super Follows Benefits pricing selector screen. This will show the price selected by the user. For example "Confirm your $4.99 selection". */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_PAGE_CONFIRM_TITLE_FORMAT" = "Confirm your %@ selection";
-
-/* Title of the edit button in the confirmation screen following the Super Follows Benefits pricing selector screen. Tapping this button takes the user back to the price selector. */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_PAGE_EDIT_BUTTON_TITLE" = "Edit";
-
-/* Title of the first section of the Super Follows Benefits pricing selector screen. */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_PAGE_SECTION_1_TITLE" = "Choose what your Subscribers pay";
-
-/* Title of the Super Follows Benefits pricing selector screen. */
-"CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_PAGE_TITLE" = "Pricing setup";
-
-/* A description of the state of user's two-factor authentication - 2FA in creator application complete profile screen when it's turned off */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_2FA_LABEL_OFF" = "Off";
-
-/* A description of the state of user's two-factor authentication - 2FA in creator application complete profile screen when it's turned on */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_2FA_LABEL_ON" = "On";
-
-/* Placeholder shown in creator application complete profile screen that asks user to add their bio if the user does not have his/her bio set */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_BIO_ADD_NUDGE" = "Add a bio";
-
-/* Continue button title in creator application complete profile screen - button lets the user to continue to the creator application form. */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_CONTINUE_BUTTON" = "Continue";
-
-/* Accessibility hint for buttons in Creator application flow Complete profile screen. Buttons navigate to Edit profile screen to enable updating bio, location, profile picture and banner picture. */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_EDIT_PROFILE_BUTTONS_ACCESSIBILITY_HINT" = "Presents Edit profile screen";
-
-/* Placeholder shown in creator application complete profile screen that asks user to add their email if the user does not have his/her email set */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_EMAIL_ADD_NUDGE" = "Add an email";
-
-/* Show in a toast notification when a creator application complete profile screen cant load some of its content info. Toast notifications appear in a window that covers a part of the screen temporarily then disappears after a few seconds. */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_FAILED_TO_LOAD" = "Some settings failed to load.";
-
-/* Accessibility label for the header photo button in Creator application flow Complete profile screen. */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_HEADER_PHOTO_BUTTON_ACCESSIBILITY_LABEL" = "Header photo";
-
-/* Placeholder shown in creator application complete profile screen that asks user to add their location if the user does not have his/her location set */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_LOCATION_ADD_NUDGE" = "Add your location";
-
-/* Title in creator application complete profile screen. The screen shows the user's profile items that are necessary for the Creator application. User has to fill in empty items on profile in order to complete application. */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_TITLE" = "Complete profile";
-
-/* Accessibility hint for email button in Creator application flow Complete profile screen. */
-"CREATOR_TICKETS_APPLICATION_FLOW_COMPLETE_PROFILE_UPDATE_EMAIL_BUTTON_ACCESSIBILITY_HINT" = "Starts update email flow";
-
-/* Show in a toast notification when a creator eligibility page cant load eligibility details. Toast notifications appear in a window that covers a part of the screen temporarily then disappears after a few seconds. */
-"CREATOR_TICKETS_APPLICATION_FLOW_ELEGIBILITY_ACCOUNT_ACTIVITY_ELIGIBILITY_ERROR_LOADING" = "Eligibility data failed to load.";
-
-/* Label for the apply button in creator eligibility screen with which the user can agree to the spaces creator terms and apply to become a creator if they are eligible for it. */
-"CREATOR_TICKETS_APPLICATION_FLOW_ELEGIBILITY_APPLY_BUTTON_LABEL" = "Apply";
-
-/* Accessibility label format for eligibility requirements that are met by the current user. */
-"CREATOR_TICKETS_APPLICATION_FLOW_ELEGIBILITY_REQUIREMENT_MET_ACCESSIBILITY_HINT" = "You meet this requirement";
-
-/* Accessibility label format for eligibility requirements that are not met by the current user. */
-"CREATOR_TICKETS_APPLICATION_FLOW_ELEGIBILITY_REQUIREMENT_NOT_MET_ACCESSIBILITY_HINT" = "You do not meet this requirement";
-
-/* Label for the button on the screen in audio spaces creator application flow that is presented for the declined application. The button navigates to help center. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_DECLINED_BUTTON_LABEL" = "Go to Help Center";
-
-/* Label for the button on the screen in audio spaces creator application flow that tells the user they need to link/create a Stripe account to their X account in order to continue. Button opens the flow to complete the account. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_INCOMPLETE_BUTTON_LABEL" = "Complete account";
-
-/* Subtitle shown on the screen in audio spaces creator application flow that tells the user their Stripe account is not finished setting up. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_INCOMPLETE_DESCRIPTION" = "Looks like we still need some more information. To continue, please complete your account.";
-
-/* Headline for the screen in audio spaces creator application flow that tells the user their Stripe account is not finished setting up. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_INCOMPLETE_TITLE" = "Almost there…";
-
-/* Accessibility hint for the button on the screen in audio spaces creator application flow that tells the user their Stripe account integration is finished and they can start getting Super Followers. Button closes the screen. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_INTEGRATED_SUPER_FOLLOWS_BUTTON_ACCESSIBILITY_HINT" = "Closes the screen";
-
-/* Label for the button on the screen in audio spaces creator application flow that tells the user their Stripe account integration is finished and they can start getting Super Followers. Button closes the screen. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_INTEGRATED_SUPER_FOLLOWS_BUTTON_LABEL" = "Continue";
-
-/* Subtitle shown on the screen in audio spaces creator application flow that tells the user their Stripe account integration is finished and they can start getting Super Followers. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_INTEGRATED_SUPER_FOLLOWS_DESCRIPTION" = "We’ve verified your Stripe account and you’re good to go. We’ll send you a notification as soon as Subscriptions are enabled on your account.";
-
-/* Headline for the screen in audio spaces creator application flow that tells the user their Stripe account integration is finished and they can start getting Super Followers. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_INTEGRATED_SUPER_FOLLOWS_TITLE" = "You’re all set!";
-
-/* Label for the button on the screen in audio spaces creator application flow that tells the user they need to link/create a Stripe account to their X account in order to continue. Button opens the flow to create Stripe account. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_MISSING_BUTTON_ACCESSIBILITY_HINT" = "Navigates to Stripe onboarding web";
-
-/* Label for the button on the screen in audio spaces creator application flow that tells the user they need to link/create a Stripe account to their X account in order to continue. Button opens the flow to create Stripe account. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_MISSING_BUTTON_LABEL" = "Create Stripe account";
-
-/* Accessibility hint for the secondary button on the screen in audio spaces creator application flow that tells the user they need to link/create a Stripe account to their X account in order to continue. Button opens the flow to link Stripe account. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_MISSING_SECONDARY_BUTTON_ACCESSIBILITY_HINT" = "Navigates to Stripe onboarding web";
-
-/* Label for the secondary button on the screen in audio spaces creator application flow that tells the user they need to link/create a Stripe account to their X account in order to continue. Button opens the flow to link Stripe account. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_MISSING_SECONDARY_BUTTON_LABEL" = "Link Stripe account";
-
-/* Accessibility hint for the button on the screen in audio spaces creator application flow that tells the user their Stripe account integration is pending. Button closes the screen. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_PENDING_BUTTON_ACCESSIBILITY_HINT" = "Closes the screen";
-
-/* Label for the button on the screen in audio spaces creator application flow that tells the user their Stripe account integration is pending. Button closes the screen. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_PENDING_BUTTON_LABEL" = "Got it";
-
-/* Subtitle shown on the screen in audio spaces creator application flow that tells the user their Stripe account integration is pending. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_PENDING_DESCRIPTION" = "Thank you for creating your account. We’re still reviewing your application and will be in touch within 24 hours.";
-
-/* Headline for the screen in audio spaces creator application flow that tells the user their Stripe account integration is pending. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_STRIPE_PENDING_TITLE" = "Checking a few things…";
-
-/* Accessibility hint for the button on the screen in audio spaces creator application flow that is presented when the user submits their application. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_SUBMITTED_BUTTON_ACCESSIBILITY_HINT" = "Closes the screen";
-
-/* Label for the button on the screen in audio spaces creator application flow that is presented when the user submits their application. The button says "Got it" meaning that the user got the information presented on the screen. Button dismisses the screen. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_SUBMITTED_BUTTON_LABEL" = "Got it";
-
-/* A note on the screen in audio spaces creator application flow that appears when the user submits their application. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_SUBMITTED_NOTE" = "If your application is approved, we’ll contact you to finish the onboarding process.";
-
-/* Headline for the screen in audio spaces creator application flow that appears when the user submits their application. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_SUBMITTED_TITLE" = "Your application has been submitted";
-
-/* Accessibility hint for the button on the screen in audio spaces creator application flow that tells the user they need to update their X app to a newer version to continue the application flow. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_UPDATE_REQUIRED_BUTTON_ACCESSIBILITY_HINT" = "Closes the screen";
-
-/* Label for the button on the screen in audio spaces creator application flow that tells the user they need to update their X app to a newer version to continue the application flow. Button dismisses the screen. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_UPDATE_REQUIRED_BUTTON_LABEL" = "Got it";
-
-/* Subtitle shown on the screen in audio spaces creator application flow that tells the user they need to update their X app to a newer version to continue the application flow. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_UPDATE_REQUIRED_DESCRIPTION" = "Thank you for submitting your application. To continue the application, update X.";
-
-/* Headline for the screen in audio spaces creator application flow that tells the user they need to update their X app to a newer version to continue the application flow. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_UPDATE_REQUIRED_TITLE" = "Update X";
-
-/* Accessibility hint for the button on the screen in audio spaces creator application flow that is presented when the user is put on waitlist because the monetization beta is full. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_WAITLISTED_BUTTON_ACCESSIBILITY_HINT" = "Closes the screen";
-
-/* Label for the button on the screen in audio spaces creator application flow that is presented when the user is put on waitlist because the monetization beta is full. The button says "Got it" meaning that the user got the information presented on the screen. Button dismisses the screen. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_WAITLISTED_BUTTON_LABEL" = "Got it";
-
-/* Headline for the screen in audio spaces creator application flow that tells the user that they have been put on waitlist, because the monetization beta is currently full. */
-"CREATOR_TICKETS_APPLICATION_FLOW_STATE_WAITLISTED_TITLE" = "You’re on the waitlist";
-
-/* Label for Account section header picker in Audio Spaces creator application form. */
-"CREATOR_TICKETS_APPLICATION_FORM_ACCOUNT_SECTION_HEADER_LABEL" = "Account";
-
-/* Placeholder text of the Spaces content text area that asks the user what type of ticketed spaces the user would like to host. */
-"CREATOR_TICKETS_APPLICATION_FORM_SPACES_CONTENT_FIELD_PLACEHOLDER" = "What types of Ticketed Spaces would you like to host?";
-
-/* Header for Spaces content text area in Audio Spaces creator application form. Spaces content text area allows the user to fill in the purpose of the spaces the user wants to host. */
-"CREATOR_TICKETS_APPLICATION_FORM_SPACES_CONTENT_HEADER" = "Spaces content";
-
-/* Subtitle of the Spaces content text area that tells the user filling it in is required. */
-"CREATOR_TICKETS_APPLICATION_FORM_SPACES_CONTENT_HEADER_SUBTITLE" = "Required";
-
-/* Show in a toast notification when a creator application form cannot be submitted for some error. Toast notifications appear in a window that covers a part of the screen temporarily then disappears after a few seconds. */
-"CREATOR_TICKETS_APPLICATION_FORM_SUBMITTING_ERROR_MESSAGE" = "Failed to submit the application";
-
-/* HUD text informing the user that their Audio Spaces creator application form is being submitted. Appears as a HUD over in the middle of the screen while it disables user interaction with the screen behind it. */
-"CREATOR_TICKETS_APPLICATION_FORM_SUBMITTING_HUD_TEXT" = "Submitting application";
-
-/* Label for Username field in Audio Spaces creator application form. */
-"CREATOR_TICKETS_APPLICATION_FORM_USERNAME_FIELD_LABEL" = "Username";
-
-/* Title of the X tipping creator account agreement that the user must agree to if he/she wants to become a creator on X. */
-"CREATOR_TIP_JAR_APPLICATION_FLOW_ELEGIBILITY_ACCOUNT_AGREEMENT" = "General Tipping Policy";
-
-/* X creator account agreement that the user must agree to if he/she wants to become a creator on X. Note to translators: Please, keep the HTML tags <p></p> and <a id=\"TERMS\"></a> in the text - <p></p> should enclose the whole text and <a id=\"TERMS\"></a> should enclose the "General Tipping Policy" text. */
-"CREATOR_TIP_JAR_APPLICATION_FLOW_SUBMIT_ACCOUNT_AGREEMENT_HTML_FORMAT" = "<p>By tapping below, you agree to be bound by the <a id=\"TERMS\">General Tipping Policy</a></p>";
-
-/* Label for the agree button in Tips tutorial screen. After the user agrees, they will be taken to the Tips dashboard. */
-"CREATOR_TIP_JAR_APPLICATION_FORM_APPLY_BUTTON_LABEL" = "I agree";
-
-/* Message for the alert that appears when the user taps on the "Open wallet" button when tipping with Bitcoin. */
-"CREATOR_TIP_JAR_BITCOIN_SEND_TIP_ALERT_MESSAGE" = "Tipping is subject to the third-party platform’s terms, including what information is shared about people sending money to one another. No money goes to X.";
-
-/* Title for the alert that appears when the user taps on the "Open wallet" button when tipping with Bitcoin. */
-"CREATOR_TIP_JAR_BITCOIN_SEND_TIP_ALERT_TITLE" = "Open wallet";
-
-/* Creator Terms item in the Legal section of the tips main screen. Navigates to Creator Terms. */
-"CREATOR_TIP_JAR_MAIN_VIEW_CREATOR_TERMS_ITEM" = "General Tipping Policy";
-
-/* Get support item in the Help section of the tips main screen. Navigates to Get support form on X form. */
-"CREATOR_TIP_JAR_MAIN_VIEW_GET_SUPPORT_ITEM" = "Get support";
-
-/* Help center item in the Help section of the tips main screen. Navigates to Help Center. */
-"CREATOR_TIP_JAR_MAIN_VIEW_HELP_CENTER_ITEM" = "Help Center";
-
-/* Header for the Help section of the tips main screen that shows the items related to tips. Section contains the Help Center and Get support items. */
-"CREATOR_TIP_JAR_MAIN_VIEW_HELP_SECTION_HEADER" = "Help";
-
-/* Header for the Legal section of the tips main screen that shows the items related to tips. Section contains the Creator Terms and Terms of Service items. */
-"CREATOR_TIP_JAR_MAIN_VIEW_LEGAL_SECTION_HEADER" = "Legal";
-
-/* Terms item in the Legal section of the tips main screen. Navigates to the Terms of Service. */
-"CREATOR_TIP_JAR_MAIN_VIEW_TWITTER_TERMS_OF_SERVICE_ITEM" = "Our Terms of Service";
 
 /* Hashtag for the Tips prompt system alert. Note to translators: This will be a hashtag, (#SendTips). This should be localized based on the user's locale. */
 "CREATOR_TIP_JAR_PROMPT_MESSAGE_HASHTAG" = "SendTips";
 
 /* Template for the message for the Tips post takeover prompt */
 "CREATOR_TIP_JAR_PROMPT_TWEET_TEMPLATE" = "I just turned on Tips for my profile. Appreciate you. #%@";
-
-/* Title for the tips card. Below this title, the username of the recipient will be shown. */
-"CREATOR_TIP_JAR_SEND_TIP_CARD_TITLE" = "Send to";
-
-/* Title of the tips card when only the external services are available. */
-"CREATOR_TIP_JAR_SEND_TIP_MORE_OPTIONS_TITLE" = "More options";
 
 /* Current label */
 "CURRENT_LABEL" = "Current";
@@ -3334,15 +2929,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Label of button allowing user to take a profile photo with the device camera */
 "EDIT_PROFILE_TAKE_PROFILE_PHOTO_ACCESSIBILITY_LABEL" = "Take profile photo";
 
-/* Name of a row on profile editing page which opens financial support settings */
-"EDIT_PROFILE_TIPJAR_SUPPORT_ME_ITEM" = "Tips";
-
-/* Label on a support row saying that support is disabled */
-"EDIT_PROFILE_TIPJAR_SUPPORT_ME_ITEM_OFF" = "Off";
-
-/* Label on a support row saying that support is enabled */
-"EDIT_PROFILE_TIPJAR_SUPPORT_ME_ITEM_ON" = "On";
-
 /* Label for "followers" visibility choice */
 "EDIT_PROFILE_VISIBILITY_FOLLOWERS_LABEL" = "Your followers";
 
@@ -3757,7 +3343,7 @@ This text is the accessibility hint for the button that lets the user change the
 "FOLLOWING_EMPTY_STATE_HEADER" = "Be in the know";
 
 /* Message for empty state when you are not following anyone */
-"FOLLOWING_EMPTY_STATE_MESSAGE" = "Following accounts is an easy way to curate your timeline and know what’s happening with the topics and people you’re interested in.";
+"FOLLOWING_EMPTY_STATE_MESSAGE" = "Following accounts is an easy way to curate your timeline and know what’s happening with the people you’re interested in.";
 
 /* No comment provided by engineer. */
 "FOLLOWING_FAILED_AND_TRY_AGAIN_LABEL" = "Cannot follow this user at this time. Please try again later.";
@@ -3800,9 +3386,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Title for the tab that shows you who to follow. */
 "FOLLOW_TAB_TITLE" = "Follow";
-
-/* Accessibility label for action to follow a topic. Example: "Follow Topic: drums"*/
-"FOLLOW_TOPIC_ACTION_ACCESSIBILITY_LABEL_FORMAT" = "Follow Topic: %@";
 
 /* Description for confirm action to follow a user */
 "FOLLOW_USER_CONFIRM_DESCRIPTION" = "Do you want to follow %@?";
@@ -5296,24 +4879,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Accessibility label for hearts button selected in news camera capture view */
 "NEWSCAMERA_HEARTS_ENABLED_BUTTON_SELECTED_ACCESSIBILITY_VALUE" = "Hearts enabled";
 
-/* Label for Invite Guests button in News Camera */
-"NEWSCAMERA_INVITE_GUESTS_LABEL" = "Invite guests";
-
-/* Label for Invite Guests button in News Camera where more than 1 guest will be invited */
-"NEWSCAMERA_INVITE_GUESTS_MULTIPLE_LABEL" = "%d guests will be invited";
-
-/* Placeholder for Invite Guests search field */
-"NEWSCAMERA_INVITE_GUESTS_SEARCH_PLACEHOLDER" = "Search People";
-
-/* Label for Invite Guests button in News Camera where 1 guest will be invited */
-"NEWSCAMERA_INVITE_GUESTS_SINGLE_LABEL" = "1 guest will be invited";
-
-/* Label for Invite Guests subtitle for selecting users in News Camera */
-"NEWSCAMERA_INVITE_GUESTS_SUBTITLE_LABEL" = "Invites will be sent via Direct Message when you go LIVE";
-
-/* Label for Invite Guests title for selecting users in News Camera */
-"NEWSCAMERA_INVITE_GUESTS_TITLE_LABEL" = "Invite guests";
-
 /* Label for camera mode to capture a still photo or a video in the scrollable mode switcher. Capitalize text if possible in similar fashion of English expression. */
 "NEWSCAMERA_MODE_SWITCH_NAME_CAMERA" = "CAPTURE";
 
@@ -5334,63 +4899,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Accessibility value for mute button that mutes audio of the captured video in News camera preview screen. When this label is used, the captured video is muted. */
 "NEWSCAMERA_MUTE_BUTTON_UMUTE_ACCESSIBILITY_VALUE" = "Unmute Audio";
-
-/* Accessibility label for the render mode button in the video reaction camera that overlays the user's silhouette on top of the source post (a.k.a. "Green screen" mode). */
-"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_GREEN_SCREEN" = "Person overlay";
-
-/* Accessibility label for the render mode button in the video reaction camera that shows the user's camera as a small picture-in-picture over the source post. */
-"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_PICTURE_IN_PICTURE" = "Picture in picture";
-
-/* Accessibility label for the action button in the video reaction camera that toggles whether the source post media is rendered in the reaction. */
-"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_POST_MEDIA" = "Toggle post media";
-
-/* Accessibility label for the render mode button in the video reaction camera that shows the source post and the user's camera side by side. */
-"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_SIDE_BY_SIDE" = "Side by side";
-
-/* Accessibility label for the action button in the video reaction camera that swaps which side the source post is rendered on in split layouts. */
-"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_SWAP_LAYOUT" = "Swap layout sides";
-
-/* Accessibility label for the render mode button in the video reaction camera that stacks the source post and the user's camera vertically. */
-"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_TOP_AND_BOTTOM" = "Top and bottom";
-
-/* Display name for the "Green screen" render mode in the video reaction camera, which overlays the user's silhouette on top of the source post. */
-"NEWSCAMERA_REACTION_RENDER_MODE_GREEN_SCREEN" = "Green screen";
-
-/* Display name for the "Left & Right" render mode in the video reaction camera, which shows the source post and the user's camera side by side. */
-"NEWSCAMERA_REACTION_RENDER_MODE_LEFT_AND_RIGHT" = "Left & Right";
-
-/* Display name for the "Picture in Picture" render mode in the video reaction camera, which shows the user's camera as a small picture-in-picture over the source post. */
-"NEWSCAMERA_REACTION_RENDER_MODE_PICTURE_IN_PICTURE" = "Picture in Picture";
-
-/* Display name for the "Top & Bottom" render mode in the video reaction camera, which stacks the source post and the user's camera vertically. */
-"NEWSCAMERA_REACTION_RENDER_MODE_TOP_AND_BOTTOM" = "Top & Bottom";
-
-/* Toast shown in the video reaction camera when the user toggles off rendering the source post's media, leaving only the post itself in the reaction. */
-"NEWSCAMERA_REACTION_TOAST_RENDER_POST_MEDIA_ONLY" = "Render post media only";
-
-/* Toast shown in the video reaction camera when the user toggles on rendering the source post's media alongside the post. */
-"NEWSCAMERA_REACTION_TOAST_RENDER_POST_WITH_MEDIA" = "Render post with media";
-
-/* Title for the confirmation alert shown when the user taps retake to discard a photo they just captured in the video recorder. The alert presents Cancel and Discard buttons. */
-"NEWSCAMERA_RECORDER_DISCARD_PHOTO_ALERT_TITLE" = "Discard photo?";
-
-/* Label in the video recorder's duration selector for a maximum recording length of 10 minutes, abbreviated. The "m" stands for minutes. Keep it short. */
-"NEWSCAMERA_RECORDER_DURATION_10M" = "10m";
-
-/* Label in the video recorder's duration selector for a maximum recording length of 15 seconds, abbreviated. The "s" stands for seconds. Keep it short. */
-"NEWSCAMERA_RECORDER_DURATION_15S" = "15s";
-
-/* Label in the video recorder's duration selector for a maximum recording length of 30 minutes, abbreviated. The "m" stands for minutes. Keep it short. */
-"NEWSCAMERA_RECORDER_DURATION_30M" = "30m";
-
-/* Label in the video recorder's duration selector for a maximum recording length of 60 seconds, abbreviated. The "s" stands for seconds. Keep it short. */
-"NEWSCAMERA_RECORDER_DURATION_60S" = "60s";
-
-/* Label in the video recorder's capture mode selector for switching to photo capture, shown to the right of the recording duration options. Displayed in all caps to match the design. Keep it short. */
-"NEWSCAMERA_RECORDER_MODE_PHOTO" = "PHOTO";
-
-/* Label shown at the bottom of the video recorder indicating that the captured media will be shared as a post. Displayed in all caps to match the design. Keep it short. */
-"NEWSCAMERA_RECORDER_POST_LABEL" = "POST";
 
 /* Accessibility value for remove location in camera composer */
 "NEWSCAMERA_REMOVE_LOCATION_ACCESSIBILITY_VALUE" = "Remove location";
@@ -5415,18 +4923,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* A title label to ask users to allow camera and microphone access to capture photos and videos. Displayed with a description about why we request camera and microphone access. */
 "NEWSCAMERA_SERVICE_AUTHORIZATION_TITLE" = "Allow X access to your camera and microphone";
-
-/* Accessibility label for the button in the video recorder that opens the menu for choosing a video background. */
-"NEWSCAMERA_SET_VIDEO_BACKGROUND_ACTION_ACCESSIBILITY_LABEL" = "Set video background";
-
-/* Menu option in the video recorder, shown under the "Set Video Background" title, that lets the user react to an existing post with their video. */
-"NEWSCAMERA_SET_VIDEO_BACKGROUND_REACT_TO_POST" = "React to a post";
-
-/* Title of the menu in the video recorder that lets the user pick a background for their video. */
-"NEWSCAMERA_SET_VIDEO_BACKGROUND_TITLE" = "Set video background";
-
-/* Menu option in the video recorder, shown under the "Set Video Background" title, that lets the user pick a video from their photo library to use as the background. */
-"NEWSCAMERA_SET_VIDEO_BACKGROUND_UPLOAD_FROM_LIBRARY" = "Upload from Library";
 
 /* Label for a button to "Stop broadcast" when broadcasting a video in the confirmation action sheet */
 "NEWSCAMERA_STOP_LIVE_ACTION_SHEET_LABEL" = "Stop broadcast";
@@ -5479,8 +4975,8 @@ This text is the accessibility hint for the button that lets the user change the
 /* Label for providing feedback about an ad */
 "NOT_INTERESTED_IN_THIS_LABEL" = "Not interested in this";
 
-/* Label for dismissing a recommended topic as not interested */
-"NOT_INTERESTED_IN_THIS_TOPIC_LABEL" = "Not interested in %@";
+/* Action label for not interested */
+"NOT_INTERESTED_LABEL" = "Not interested";
 
 /* Label shown on top of a playing video in the multi-video carousel. */
 "NOW_PLAYING_LABEL" = "Now playing";
@@ -6752,392 +6248,8 @@ This text is the accessibility hint for the button that lets the user change the
 /* Accessibility announcement as new profile is scrolled. Example: "Items 5 to 10 of 25" */
 "PROFILE_SCROLLING_ACCESSIBILITY_ANNOUNCEMENT_FORMAT" = "Items %1$d to %2$d of %3$d";
 
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_BANDCAMP_ACTION_LABEL" = "Send via Bandcamp";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_BITCOIN_ACTION_LABEL" = "Copy Bitcoin address";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_CASHAPP_ACTION_LABEL" = "Send via Cash App";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_CHIPPER_ACTION_LABEL" = "Send via Chipper";
-
-/* Message body of an alert shown when we are unable to start payment flow with chosen provider. Shown in default system alert. */
-"PROFILE_SUPPORT_ERROR_ALERT_BODY" = "Something went wrong";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_ETHEREUM_ACTION_LABEL" = "Copy Ethereum address";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_FLUTTERWAVE_ACTION_LABEL" = "Send via Barter";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_GOFUNDME_ACTION_LABEL" = "Send via GoFundMe";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_KAKAOPAY_ACTION_LABEL" = "Send via Kakao Pay";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_PAGA_ACTION_LABEL" = "Send via Paga";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_PATREON_ACTION_LABEL" = "Send via Patreon";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_PAYPAL_ACTION_LABEL" = "Send via PayPal";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_PAYTM_ACTION_LABEL" = "Send via Paytm";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_PICPAY_ACTION_LABEL" = "Send via PicPay";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_RAZORPAY_ACTION_LABEL" = "Send via Razorpay";
-
-/* Title for an alert shown before redirecting the user to Bandcamp to financially support another user. Shown in stack after pressing "Send via Bandcamp" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_BANDCAMP_TITLE" = "Open Bandcamp";
-
-/* Title for an alert shown before redirecting the user to Cash App to financially support another user. Shown in stack after pressing "Send via Cash App" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_CASH_APP_TITLE" = "Open Cash App";
-
-/* Title for an alert shown before redirecting the user to Chipper to financially support another user. Shown in stack after pressing "Send via Chipper" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_CHIPPER_TITLE" = "Open Chipper";
-
-/* Title for an alert shown before redirecting the user to Barter (Flutterwave) to financially support another user. Shown in stack after pressing "Send via Barter" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_FLUTTERWAVE_TITLE" = "Open Barter";
-
-/* Title for an alert shown before redirecting the user to GoFundMe to financially support another user. Shown in stack after pressing "Send via GoFundMe" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_GOFUNDME_TITLE" = "Open GoFundMe";
-
-/* Title for an alert shown before redirecting the user to Kakao Pay to financially support another user. Shown in stack after pressing "Send via Kakao Pay" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_KAKAOPAY_TITLE" = "Open Kakao Pay";
-
-/* Message for an alert shown before redirecting the user to an external Tips service to financially support another user. We use the same message for all the platforms, the titles are different based on the platform. It also explains that the payment platforms may share more information about payers with the target user of the payment. */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_MESSAGE" = "You are leaving X. X plays no role in off-platform tipping and no money goes to X. When tipping, you’ll be subject to the third-party platform’s terms. Per their terms, your name, phone number, email and other personal information might be shared with the tip recipient.";
-
-/* Title for an alert shown before redirecting the user to Paga to financially support another user. Shown in stack after pressing "Send via Paga" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_PAGA_TITLE" = "Open Paga";
-
-/* Title for an alert shown before redirecting the user to Patreon to financially support another user. Shown in stack after pressing "Send via Patreon" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_PATREON_TITLE" = "Open Patreon";
-
-/* Title for an alert shown before redirecting the user to PayPal to financially support another user. Shown in stack after pressing "Send via PayPal" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_PAYPAL_TITLE" = "Open PayPal";
-
-/* Title for an alert shown before redirecting the user to Paytm to financially support another user. Shown in stack after pressing "Send via Paytm" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_PAYTM_TITLE" = "Open Paytm";
-
-/* Title for an alert shown before redirecting the user to PicPay to financially support another user. Shown in stack after pressing "Send via PicPay" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_PICPAY_TITLE" = "Open PicPay";
-
-/* Title for an alert shown before redirecting the user to Razorpay to financially support another user. Shown in stack after pressing "Send via Razorpay" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_RAZORPAY_TITLE" = "Open Razorpay";
-
-/* Title for an alert shown before redirecting the user to Venmo to financially support another user. Shown in stack after pressing "Send via Venmo" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_VENMO_TITLE" = "Open Venmo";
-
-/* Title for an alert shown before redirecting the user to Wealthsimple to financially support another user. Shown in stack after pressing "Send via Wealthsimple" item in tips options */
-"PROFILE_SUPPORT_REDIRECT_ACTION_CONFIRMATION_WEALTHSIMPLE_TITLE" = "Open Wealthsimple";
-
-/* Description for a setting to control visibility of financial support button on your profile. Shown underneath "Allow support" label. Note to translators: The word `Tips` should be capitalized. */
-"PROFILE_SUPPORT_SETTINGS_ALLOW_SUPPORT_DESCRIPTION_LABEL" = "Allow people to directly send you money through Tips.";
-
-/* Header title for enabling or disabling tips in tips V1 dashboard. */
-"PROFILE_SUPPORT_SETTINGS_ALLOW_SUPPORT_HEADER_TITLE" = "Manage";
-
-/* Label for a setting to control visibility of financial support button on your profile */
-"PROFILE_SUPPORT_SETTINGS_ALLOW_SUPPORT_LABEL" = "Allow tips";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_BANDCAMP_DESCRIPTION" = "People will send tips to the URL you’ve entered above. By adding your URL and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Description message on the alert that will be shown if the user enters an invalid Bandcamp URL. */
-"PROFILE_SUPPORT_SETTINGS_BANDCAMP_INVALID_URL_ALERT_DESCRIPTION" = "You’ve entered an invalid URL. Please try again.";
-
-/* Title for an alert that will be shown if the user enters an invalid Bandcamp URL. */
-"PROFILE_SUPPORT_SETTINGS_BANDCAMP_INVALID_URL_ALERT_TITLE" = "Invalid URL";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_BANDCAMP_LABEL" = "Bandcamp";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_BANDCAMP_USERNAME_TEXTFIELD_PLACEHOLDER" = "Enter your Bandcamp URL";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_BANDCAMP_USERTAG_LABEL" = "Bandcamp URL";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_BITCOIN_DESCRIPTION" = "People will send payments to the Bitcoin address you’ve entered above.";
-
-/* Description for an alert that will be shown if the user enters an invalid Bitcoin address. */
-"PROFILE_SUPPORT_SETTINGS_BITCOIN_INVALID_ADDRESS_ALERT_DESCRIPTION" = "You’ve entered an invalid address. Please try again.";
-
-/* Title for an alert that will be shown if the user enters an invalid Bitcoin address. */
-"PROFILE_SUPPORT_SETTINGS_BITCOIN_INVALID_ADDRESS_ALERT_TITLE" = "Invalid address";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_BITCOIN_LABEL" = "Bitcoin address";
-
-/* Financial support page subheader for Bitcoin payment service for tips v1. Note for translators: Do not translate "Lightning", since it's a name. */
-"PROFILE_SUPPORT_SETTINGS_BITCOIN_TITLE_V1" = "Bitcoin Lightning wallet";
-
-/* Description shown after the user taps on the example Bitcoin address. */
-"PROFILE_SUPPORT_SETTINGS_BITCOIN_TOAST_MESSAGE" = "Bitcoin address link copied";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_BITCOIN_USERNAME_TEXTFIELD_PLACEHOLDER" = "Enter your Bitcoin address";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_BITCOIN_USERTAG_LABEL" = "Bitcoin address";
-
-/* Description at the bottom of financial support settings explaining where to find support button */
-"PROFILE_SUPPORT_SETTINGS_BOTTOM_DESCRIPTION" = "Tipping options will appear on your profile when you’ve connected at least one third-party payment service. You can toggle it on or off at any time.";
-
-/* Description at the bottom of financial support settings explaining where to find support button */
-"PROFILE_SUPPORT_SETTINGS_BOTTOM_DESCRIPTION_V1" = "Creators keep 100% of payments made using third-party payment options.";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_CASHAPP_DESCRIPTION" = "People will send tips to the cashtag you’ve entered above. By adding your cashtag and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_CASHAPP_LABEL" = "Cash App";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_CASHAPP_USERNAME_TEXTFIELD_PLACEHOLDER" = "cashtag";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_CASHAPP_USERTAG_LABEL" = "Cashtag";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_CHIPPER_DESCRIPTION" = "People will send tips to the chippertag you’ve entered above. By adding your chippertag and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_CHIPPER_LABEL" = "Chipper";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_CHIPPER_USERNAME_TEXTFIELD_PLACEHOLDER" = "chippertag";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_CHIPPER_USERTAG_LABEL" = "Chippertag";
-
-/* Financial support page subheader for Bitcoin payment service for TipJar v1 */
-"PROFILE_SUPPORT_SETTINGS_DEACTIVATE_TIP_JAR" = "Deactivate tips";
-
-/* Error message for tips setting of a payment handle (username/cashtag) informing the user that their input contains characters that are not allowed for that payment handle. */
-"PROFILE_SUPPORT_SETTINGS_DISALLOWED_CHARACTERS_ERROR_MESSAGE" = "Invalid characters. Please try again.";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_ETHEREUM_DESCRIPTION" = "People will send payments to the Ethereum address you’ve entered above.";
-
-/* Description for an alert that will be shown if the user enters an invalid Ethereum address. */
-"PROFILE_SUPPORT_SETTINGS_ETHEREUM_INVALID_ADDRESS_ALERT_DESCRIPTION" = "You’ve entered an invalid address. Please try again.";
-
-/* Title for an alert that will be shown if the user enters an invalid Ethereum address. */
-"PROFILE_SUPPORT_SETTINGS_ETHEREUM_INVALID_ADDRESS_ALERT_TITLE" = "Invalid address";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_ETHEREUM_LABEL" = "Ethereum address";
-
-/* Description shown after the user taps on the example Bitcoin address. */
-"PROFILE_SUPPORT_SETTINGS_ETHEREUM_TOAST_MESSAGE" = "Ethereum address link copied";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_ETHEREUM_USERNAME_TEXTFIELD_PLACEHOLDER" = "Enter your Ethereum address";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_ETHEREUM_USERTAG_LABEL" = "Ethereum address";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_FLUTTERWAVE_DESCRIPTION" = "People will send tips to the username you’ve entered above. By adding your username and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_FLUTTERWAVE_LABEL" = "Barter";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_FLUTTERWAVE_USERNAME_TEXTFIELD_PLACEHOLDER" = "username";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_FLUTTERWAVE_USERTAG_LABEL" = "Username";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_GOFUNDME_DESCRIPTION" = "People will send tips to the URL you’ve entered above. By adding your URL and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Description message on the alert that will be shown if the user enters an invalid GoFundMe URL. */
-"PROFILE_SUPPORT_SETTINGS_GOFUNDME_INVALID_URL_ALERT_DESCRIPTION" = "You’ve entered an invalid URL. Please try again.";
-
-/* Title for an alert that will be shown if the user enters an invalid GoFundMe URL. */
-"PROFILE_SUPPORT_SETTINGS_GOFUNDME_INVALID_URL_ALERT_TITLE" = "Invalid URL";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_GOFUNDME_LABEL" = "GoFundMe";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_GOFUNDME_USERNAME_TEXTFIELD_PLACEHOLDER" = "Enter your GoFundMe URL";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_GOFUNDME_USERTAG_LABEL" = "GoFundMe URL";
-
-/* Description at the bottom of individual payment provider page. Note to translators: Please keep the new line after the first sentence, and the new lines after the first paragraph. */
-"PROFILE_SUPPORT_SETTINGS_KAKAOPAY_DESCRIPTION" = "People will send tips to the QR Link you’ve entered above.\nBy adding your QR Link and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.\n\nThe Kakao Pay QR Link can be found at KakaoTalk More > Scanner at the Top Right > Money Code > Clipboard Image Icon. Tap the icon to copy the link to your clipboard and then paste the link above.";
-
-/* Description message on the alert that will be shown if the user enters an invalid Kakao Pay QR Link. */
-"PROFILE_SUPPORT_SETTINGS_KAKAOPAY_INVALID_URL_ALERT_DESCRIPTION" = "You’ve entered an invalid QR Link. Please try again.";
-
-/* Title for an alert that will be shown if the user enters an invalid Kakao Pay QR Link. */
-"PROFILE_SUPPORT_SETTINGS_KAKAOPAY_INVALID_URL_ALERT_TITLE" = "Invalid QR Link";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_KAKAOPAY_LABEL" = "Kakao Pay";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_KAKAOPAY_USERNAME_TEXTFIELD_PLACEHOLDER" = "Enter your Kakao Pay QR Link";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_KAKAOPAY_USERTAG_LABEL" = "Kakao Pay QR Link";
-
-/* Title of a page showing financial support settings */
-"PROFILE_SUPPORT_SETTINGS_MAIN_TITLE" = "Tips";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_PAGA_DESCRIPTION" = "People will send tips to the username you’ve entered above. By adding your username and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_PAGA_LABEL" = "Paga";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_PAGA_USERNAME_TEXTFIELD_PLACEHOLDER" = "username";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_PAGA_USERTAG_LABEL" = "Username";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_PATREON_DESCRIPTION" = "People will send tips to the username you’ve entered above. By adding your username and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_PATREON_LABEL" = "Patreon";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_PATREON_USERNAME_TEXTFIELD_PLACEHOLDER" = "username";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_PATREON_USERTAG_LABEL" = "Username";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_PAYPAL_DESCRIPTION" = "People will send tips to the username you’ve entered above. By adding your username and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_PAYPAL_LABEL" = "PayPal";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_PAYPAL_USERNAME_TEXTFIELD_PLACEHOLDER" = "username";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_PAYPAL_USERTAG_LABEL" = "Username";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_PAYTM_DESCRIPTION" = "People will send tips to the Paytm linked mobile number you’ve entered above. By adding your mobile number and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, phone number, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_PAYTM_LABEL" = "Paytm";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_PAYTM_USERNAME_TEXTFIELD_PLACEHOLDER" = "mobile number";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_PAYTM_USERTAG_LABEL" = "Paytm linked mobile number";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_PICPAY_DESCRIPTION" = "People will send tips to the username you’ve entered above. By adding your username and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_PICPAY_LABEL" = "PicPay";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_PICPAY_USERNAME_TEXTFIELD_PLACEHOLDER" = "handle";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_PICPAY_USERTAG_LABEL" = "Username";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_RAZORPAY_DESCRIPTION" = "People will send tips to the Payment Link you’ve entered above. By adding your Payment Link and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Description message on the alert that will be shown if the user enters an invalid Payment Link URL. The phrase Payment Link is capitalized. */
-"PROFILE_SUPPORT_SETTINGS_RAZORPAY_INVALID_URL_ALERT_DESCRIPTION" = "You’ve entered an invalid Payment Link. Please try again.";
-
-/* Title for an alert that will be shown if the user enters an invalid Payment Link URL. The phrase Payment Link is capitalized. */
-"PROFILE_SUPPORT_SETTINGS_RAZORPAY_INVALID_URL_ALERT_TITLE" = "Invalid Payment Link";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_RAZORPAY_LABEL" = "Razorpay";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_RAZORPAY_USERNAME_TEXTFIELD_PLACEHOLDER" = "Enter your Payment Link";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_RAZORPAY_USERTAG_LABEL" = "Payment Link";
-
-/* Financial support page subheader for list of settings */
-"PROFILE_SUPPORT_SETTINGS_SECONDARY_TITLE" = "Payment services";
-
-/* Financial support page subheader for list of settings for TipJar v1 */
-"PROFILE_SUPPORT_SETTINGS_SECONDARY_TITLE_V1" = "More payment options";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_STRIKE_DESCRIPTION" = "People will send payments to the username you’ve entered above. By adding your username and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_STRIKE_LABEL" = "Strike";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_STRIKE_USERNAME_TEXTFIELD_PLACEHOLDER" = "username";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_STRIKE_USERTAG_LABEL" = "Username";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_VENMO_DESCRIPTION" = "People will send tips to the username you’ve entered above. By adding your username and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_VENMO_LABEL" = "Venmo";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_VENMO_USERNAME_TEXTFIELD_PLACEHOLDER" = "username";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_VENMO_USERTAG_LABEL" = "Username";
-
-/* Description at the bottom of individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_WEALTHSIMPLE_DESCRIPTION" = "People will send tips to the handle you’ve entered above. By adding your handle and accepting tips, you may be revealing information about yourself shared on the payment service, including your name, email address, and other information.";
-
-/* Name of a payment provider which is used on a row in support settings and as a title on individual provider page */
-"PROFILE_SUPPORT_SETTINGS_WEALTHSIMPLE_LABEL" = "Wealthsimple";
-
-/* Username text field placeholder shown on financial provider settings page */
-"PROFILE_SUPPORT_SETTINGS_WEALTHSIMPLE_USERNAME_TEXTFIELD_PLACEHOLDER" = "handle";
-
-/* Label for a payment provider handle field shown on individual payment provider page */
-"PROFILE_SUPPORT_SETTINGS_WEALTHSIMPLE_USERTAG_LABEL" = "Handle";
-
-/* Accessibility label template for the tip button on a profile. Label would have full name of a user e.g "Send a tip to Michael Jordan" */
-"PROFILE_SUPPORT_TIP_BUTTON_ACCESSIBILITY_LABEL_FORMAT" = "Send a tip to %@";
-
-/* Title of tips item shown in a menu that is presented by an overflow button (when tips button does not fit on the profile screen). It opens financial support options for tips. */
-"PROFILE_SUPPORT_TIP_JAR_BUTTON_OVERFLOW_TITLE" = "Tips";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_VENMO_ACTION_LABEL" = "Send via Venmo";
-
-/* Label for button initiating flow to financially support a user. Shown in stack after pressing "Tip" button on profile */
-"PROFILE_SUPPORT_WEALTHSIMPLE_ACTION_LABEL" = "Send via Wealthsimple";
-
 /* Label for profile tab in extended layout (X for Mac and iPad) */
 "PROFILE_TAB_ACCESSIBILITY_LABEL" = "Profile";
-
-/* CTA button label for profile upgrade upsell card - finish setup variant */
-"PROFILE_UPGRADE_UPSELL_CARD_CTA_FINISH_SETUP" = "Finish Setup";
 
 /* CTA button label for profile upgrade upsell card - finish verification variant */
 "PROFILE_UPGRADE_UPSELL_CARD_CTA_FINISH_VERIFICATION" = "Finish Verification";
@@ -7627,12 +6739,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Sensitive media interstitial, description */
 "SENSITIVE_MEDIA_INTERSTITIAL_DESCRIPTION" = "To view it, you need to change your Privacy and safety settings.";
 
-/* Sensitive media interstitial, description (for soft users). Sentence is usually appended by a link that reads "create an account" */
-"SENSITIVE_MEDIA_INTERSTITIAL_SOFT_USER_ACTION_LABEL" = "To view it, you must %@";
-
-/* Sensitive media interstitial, description (for soft users) */
-"SENSITIVE_MEDIA_INTERSTITIAL_SOFT_USER_DESCRIPTION" = "To view it, you must create an account.";
-
 /* Sensitive media interstitial, title */
 "SENSITIVE_MEDIA_INTERSTITIAL_TITLE" = "This post might include sensitive content.";
 
@@ -7841,7 +6947,7 @@ This text is the accessibility hint for the button that lets the user change the
 "SETTINGS_CONTENT_PREFERENCES_LABEL" = "Content preferences";
 
 /* Descriptive text that describes the content you see section on the Settings Page */
-"SETTINGS_CONTENT_YOU_SEE_ITEM_DETAIL" = "Decide what you see on X based on your preferences like Topics and interests.";
+"SETTINGS_CONTENT_YOU_SEE_ITEM_DETAIL" = "Decide what you see on X based on your preferences.";
 
 /* Title text that describes the content you see section on the Settings Page */
 "SETTINGS_CONTENT_YOU_SEE_ITEM_TITLE" = "Content you see";
@@ -7899,12 +7005,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Title text that describes the who can DM you settings section on the Settings Page */
 "SETTINGS_DM_ITEM_TITLE" = "Chat";
-
-/* Descriptive text that describes the download profile data option for open app users on the Settings Page */
-"SETTINGS_DOWNLOAD_DATA_FOR_SOFT_USERS_ITEM_DETAIL" = "Request info about the type of data stored for your account and get a download link within about 24 hours.";
-
-/* Title text that describes the download profile data option for open app users on the Settings Page */
-"SETTINGS_DOWNLOAD_DATA_FOR_SOFT_USERS_ITEM_TITLE" = "Download an archive of your data";
 
 /* Descriptive text that describes the download profile data option on the Settings Page */
 "SETTINGS_DOWNLOAD_DATA_ITEM_DETAIL" = "Get insights into the type of information stored for your account. ";
@@ -8263,9 +7363,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Button label to share a post with a Community */
 "SHARE_WITH_COMMUNITY_ACTION_LABEL" = "Community";
 
-/* Shopping menu item title */
-"SHOPPING_HOME_DASH_ITEM_LABEL" = "Shopping";
-
 /* Message shown in gap for showing posts.  Should fit on one line. */
 "SHOW_MORE_TWEETS_ACTION_LABEL" = "Show more posts";
 
@@ -8348,14 +7445,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Tooltip title for slideshow indicating that the user can view more content without closing the slideshow */
 "SLIDESHOW_YOU_CAN_VIEW_MORE_WITHOUT_CLOSE_SLIDESHOW_TOOLTIP_TITLE" = "You can view more without dismissing";
-
-/* Social context education tooltip text which informs the user about what following or tapping the x button in the UI does. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally.
-   Example: "Follow the K-pop Topic for more top posts, or select x to remove this recommendation."
- */
-"SOCIAL_CONTEXT_TOPIC_EDUCATION_TOOLTIP_BODY_FORMAT" = "Follow the %@ Topic for more top posts, or select x to remove this recommendation.";
-
-/* Social context education tooltip header used to make it clear to the user that this post is a recommendation" */
-"SOCIAL_CONTEXT_TOPIC_EDUCATION_TOOLTIP_TITLE" = "Recommended for you";
 
 /* Social context for a user that follows, e.g "John Doe follows" */
 "SOCIAL_CONTEXT_USER_FOLLOWS" = "%@ follows";
@@ -8816,129 +7905,6 @@ eg. "Super Following Jack" */
 /* Title label when super followers found there is a connection issue with the creator */
 "SUPER_FOLLOW_CONNECTION_ISSUE_TITLE_FORMAT" = "You can no longer access %@’s content";
 
-/* Header for benefits section in Super Follow creator subscription management */
-"SUPER_FOLLOW_CREATOR_MANAGEMENT_BENEFITS_HEADER_LABEL" = "Your Subscription";
-
-/* Label for perks in benefits section in Super Follow creator subscription management */
-"SUPER_FOLLOW_CREATOR_MANAGEMENT_BENEFITS_PERKS_LABEL" = "Perks";
-
-/* Label for Super Follows creator pricing description */
-"SUPER_FOLLOW_CREATOR_MANAGEMENT_PRICING_DESCRIPTION_LABEL" = "Your Subscribers are charged the monthly fee you have set";
-
-/* Disclaimer title for Super Follows creator pricing description */
-"SUPER_FOLLOW_CREATOR_MANAGEMENT_PRICING_DISCLAIMER_SUBTITLE_LABEL" = "In the future we plan to offer the ability to change your Subscription price. If you would like to change this you will have to set up your Subscription offering again and all your current Subscribers will have to Resubscribe.";
-
-/* Disclaimer title for Super Follows creator pricing description */
-"SUPER_FOLLOW_CREATOR_MANAGEMENT_PRICING_DISCLAIMER_TITLE_LABEL" = "This price cannot currently be changed.";
-
-/* Super Follows subscription price with renewal interval, example, $2.99/mo */
-"SUPER_FOLLOW_CREATOR_MANAGEMENT_PRICING_FORMAT" = "%@/mo";
-
-/* Header pricing section in Super Follows creator management */
-"SUPER_FOLLOW_CREATOR_MANAGEMENT_PRICING_HEADER_LABEL" = "Pricing";
-
-/* Super Follow creator onboarding edit button tile when adding introduction text */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_ADD_BENEFITS_BUTTON_TITLE" = "Add description";
-
-/* Super Follow creator onboarding edit button tile when adding introduction text */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_ADD_INTRO_BUTTON_TITLE" = "Add intro";
-
-/* Super Follow creator onboarding benefits text editor placeholder text */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_BENEFITS_EDITOR_PLACEHOLDER" = "Add a description…";
-
-/* Super Follow creator onboarding benefits example1 text */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_BENEFITS_EXAMPLE1_TEXT" = "You’ll get some cool behind the scenes content, early peeks at my books and other projects, and monthly AMAs.\n";
-
-/* Super Follow creator onboarding benefits example2 text */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_BENEFITS_EXAMPLE2_TEXT" = "You’re in for my hot takes, unscripted thoughts, and extra content from yours truly.\n";
-
-/* Super Follow creator onboarding benefits example1 text */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_BENEFITS_EXAMPLE3_TEXT" = "Get ready for a VIP experience. Think: Subscriber-only content like polls, videos, and deals.\n";
-
-/* Super Follow creator onboarding intro message example subtitle */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_BENEFITS_EXAMPLE_SUBTITLE" = "The kind of content you offer Subscribers is entirely up to you. Here are some examples to help get you started.";
-
-/* Super Follow creator onboarding benefits card subtitle */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_BENEFITS_SUBTITLE" = "Give people a taste of what they’re in for each month with a quick summary of the bonus content you’ll share.";
-
-/* Super Follow creator onboarding benefits message title */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_BENEFITS_TITLE" = "Describe the perks you’ll offer";
-
-/* Super Follow creator onboarding benefits example */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_EXAMPLE_BUTTON_TITLE" = "See examples";
-
-/* Super Follow creator onboarding example title */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_EXAMPLE_CONTROLLER_TITLE" = "Example";
-
-/* Super Follow creator onboarding intro card subtitle */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_INTRO_CARD_SUBTITLE" = "Support your favorite people on X for bonus content and extra perks.";
-
-/* Super Follow creator onboarding intro card title */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_INTRO_CARD_TITLE" = "Subscribe to\n%@";
-
-/* Super Follow creator onboarding introduction text editor placeholder text */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_INTRO_EDITOR_PLACEHOLDER" = "Add an introduction…";
-
-/* Super Follow creator onboarding intro message example1 */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_INTRO_EXAMPLE1_TEXT" = "Hi and welcome to my Subscription page! I’m so glad you’re here. Thanks for making it possible for me to do what I love.";
-
-/* Super Follow creator onboarding intro message example2 */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_INTRO_EXAMPLE2_TEXT" = "What’s up everyone? Thanks for checking out my Subscription. I think you’ll like what I have in store for you…";
-
-/* Super Follow creator onboarding intro message example3 */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_INTRO_EXAMPLE3_TEXT" = "Hey there! Can’t wait to share some top secret content and get to know you even better :)";
-
-/* Super Follow creator onboarding intro message example subtitle */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_INTRO_EXAMPLE_SUBTITLE" = "Keep your intro short and sweet, you’ll be able to describe your content later. Here are a few examples to help get you started.";
-
-/* Super Follow creator onboarding intro message example title */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_INTRO_EXAMPLE_TITLE" = "Not sure what to say?";
-
-/* Super Follow creator onboarding intro message subtitle */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_INTRO_SUBTITLE" = "Make a good first impression with a quick intro message for your potential Subscribers.";
-
-/* Super Follow creator onboarding intro message title */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_INTRO_TITLE" = "Take a minute to say hello";
-
-/* Super Follow creator onboarding navigation bar title when creator is filling out the benefits message */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_NAVIGATION_HEADER_BENEFITS_EDIT_TITLE" = "Description";
-
-/* Super Follow creator onboarding navigation bar subtitle while viewing benefits text */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_NAVIGATION_HEADER_BENEFITS_SUBTITLE" = "2 of 3";
-
-/* Super Follow creator onboarding navigation bar title when creator is filling out the intro message */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_NAVIGATION_HEADER_INTRO_EDIT_TITLE" = "Introduction";
-
-/* Super Follow creator onboarding navigation bar subtitle while viewing intro text */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_NAVIGATION_HEADER_INTRO_SUBTITLE" = "1 of 3";
-
-/* Super Follow creator onboarding navigation bar title */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_NAVIGATION_HEADER_TITLE" = "Perks setup";
-
-/* Super Follow creator onboarding navigation bar subtitle while viewing vip badge text */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_NAVIGATION_HEADER_VIP_SUBTITLE" = "3 of 3";
-
-/* Preview message subtitle in Super Follow creator onboarding */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_PREVIEW_MESSAGE_SUBTITLE" = "This is what people see before they Subscribe to you. Tweak and edit your descriptions until you’ve got them just right.";
-
-/* Preview message title in Super Follow creator onboarding */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_PREVIEW_MESSAGE_TITLE" = "What’s this preview?";
-
-/* Preview button title in Super Follow creator onboarding */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_PREVIEW_TITLE" = "Subscriber preview ";
-
-/* Super Follow creator onboarding message subtitle when creator is reviewing all benefits offered */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_REVIEW_SUBTITLE" = "Check your descriptions before continuing. You’ll need to contact X Support to make changes after confirming.";
-
-/* Super Follow creator onboarding message title when creator is reviewing all benefits */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_REVIEW_TITLE" = "How does everything look?";
-
-/* Super Follow creator onboarding message subtitle on when user is editing VIP benefits */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_VIP_SUBTITLE" = "Nothing to change or edit here. All of your Subscribers will get a public badge when they Subscribe to your account";
-
-/* Super Follow creator onboarding message title on when user is editing VIP benefits */
-"SUPER_FOLLOW_CREATOR_ONBOARDING_VIP_TITLE" = "Give your Subscribers badges";
-
 /* Button title for Super Follow education when user taps "Super Follower" badge on post. Button dismisses the dialog */
 "SUPER_FOLLOW_EDUCATION_PROMPT_CANCEL_BUTTON" = "Got it";
 
@@ -9031,9 +7997,6 @@ eg. "Super Following Jack" */
 
 /* Title of Lists tab */
 "TAB_LISTS_LABEL" = "Lists";
-
-/* 'Messages' tab label */
-"TAB_MESSAGES_LABEL" = "Messages";
 
 /* 'More' tab label */
 "TAB_MORE_LABEL" = "More";
@@ -9185,125 +8148,8 @@ eg. "Super Following Jack" */
 /* Accessibility action on a button that lets you toggle closed captions on or off*/
 "TOGGLE_CLOSED_CAPTIONS" = "Toggle closed captions";
 
-/* Label on button to view a Topic. */
-"TOPICS_BROWSE_ACTION_LABEL" = "Browse";
-
-/* Label on button to view a Topic. */
-"TOPICS_BROWSE_TWEETS_ACTION_LABEL" = "Browse posts";
-
-/* VoiceOver label for a Topics carousel in the home timeline. The argument will be a list of the Topic names that appear in the carousel. For example, "Topics list World News, Music, NBA" */
-"TOPICS_CAROUSEL_ACCESSIBILITY_LABEL_FORMAT" = "Topics list %@";
-
-/* The title for a menu item. When selected, a list of Topics will be presented and the user will be able to select one to start following. */
-"TOPICS_CAROUSEL_FOLLOW_ACCESSIBILITY_ACTION" = "Follow Topics";
-
-/* The title for a menu item. When selected, will allow the user to select a Topic that they are "not interested" in. The "not interested" topics are topics which X will not recommend to the user in the future. */
-"TOPICS_CAROUSEL_NOT_INTERESTED_ACCESSIBILITY_ACTION" = "Mark Not Interested";
-
-/* The title for a menu item. When selected, a list of followed Topics will be presented and the user will be able to select one to stop following. */
-"TOPICS_CAROUSEL_UNFOLLOW_ACCESSIBILITY_ACTION" = "Unfollow Topics";
-
-/* Title on the topic discovery page (page containing a directory of recommended topics) */
-"TOPICS_DISCOVERY_TITLE" = "Topics";
-
-/* Label on button to view a Topic. */
-"TOPICS_DISCOVER_MORE_ACTION_LABEL" = "Discover more";
-
-/* Explanation shown after following a Topic. Replacement will be the "your Topics" (TOPICS_MANAGEMENT_LINK_LABEL) string translated. e.g. "[...] You can always unfollow from your Topics.". The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPICS_EDUCATION_DESCRIPTION_FORMAT" = "You’ll see posts about this in your Home timeline. This Topic will help personalize your experience across X.\n\nYou can always unfollow from %@.";
-
-/* Title for button that closes the Topic education experience */
-"TOPICS_EDUCATION_DISMISS_LABEL" = "Got it";
-
-/* Title shown after following a Topic. e.g. "You're following New England Patriots" */
-"TOPICS_EDUCATION_TITLE_FORMAT" = "You’re following %@";
-
-/* Text shown on Topic Landing Page header when facepiles are visible. The text will show under the facepiles and will inform the user about the top accounts currently trending in the Topic. The name of the first account will be used as the first parameter and the second one will be the count of remaining accounts (without the first one). */
-"TOPICS_FACEPILE_TRENDING_CONTEXT_LABEL" = "%1$@ and %2$@ others are trending in this Topic";
-
-/* Label for Topics generally, often used in headers. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
+/* Label for Topics generally, often used in headers. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. Shown during onboarding. */
 "TOPICS_LABEL" = "Topics";
-
-/* Shown as a link to Topic management inside the education description. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPICS_MANAGEMENT_LINK_LABEL" = "your Topics";
-
-/* Label on button to view a Topic. */
-"TOPICS_MORE_ACTION_LABEL" = "More";
-
-/* Label on button to view a Topic. */
-"TOPICS_MORE_SUGGESTIONS_ACTION_LABEL" = "More suggestions";
-
-/* Label on button to view a Topic. */
-"TOPICS_MORE_TWEETS_ACTION_LABEL" = "More posts";
-
-/* Label shown after a user has selected "Not interested" for a topic. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPICS_NOT_INTERESTED_IN_TOPIC_LEAVE_BEHIND_LABEL" = "You’re not interested in this Topic";
-
-/* Label for Undo marking Topic as Not Interested. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPICS_NOT_INTERESTED_UNDO_LABEL" = "We won’t suggest this Topic anymore.";
-
-/* Label on button to view a Topic that the user does not already follow. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPICS_PREVIEW_TOPIC_ACTION_LABEL" = "Preview Topic";
-
-/* Alternative label for Not Interested Topics. Used in buttons. */
-"TOPICS_STOP_RECOMMENDING_LABEL" = "Stop recommending";
-
-/* Label shown after a user has selected 'Stop recommending` for a topic. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPICS_STOP_RECOMMENDING_LEAVE_BEHIND_LABEL" = "X will not prompt you with this Topic again.";
-
-/* Label on button to view a Topic that the user already follows. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPICS_VIEW_TOPIC_ACTION_LABEL" = "View Topic";
-
-/* Shown in a user profile prompting viewing the Topics they follow. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPICS_VIEW_USERS_TOPICS_LABEL" = "View Topics";
-
-/* Accessibility Label for Topic card, used when sharing a topic, if subtitles don't exist. Ex: "Topic card for Los Angeles Lakers"*/
-"TOPIC_CARD_ACCESSIBILITY_LABEL_FORMAT" = "Topic card for %@";
-
-/* Accessibility Label for Topic card, used when sharing a topic, if subtitles exist. Ex: "Topic card for Los Angeles Lakers, NBA Team*/
-"TOPIC_CARD_ACCESSIBILITY_LABEL_WITH_SUBTITLE_FORMAT" = "Topic card for %1$@, %2$@";
-
-/* Label for a topic in a topic card context, typically shown with the word "topic" followed by a dot followed by the topic category*/
-"TOPIC_CARD_LABEL_FORMAT" = "%@";
-
-/* Accessibility label for following a Topic, just like to follow an account */
-"TOPIC_FOLLOWING_ACTION_ACCESSIBILITY_LABEL" = "Unfollow";
-
-/* Label when already following a Topic, just like when following an account */
-"TOPIC_FOLLOWING_ACTION_LABEL" = "Following";
-
-/* Accessibility hint for following a Topic. When a user activates this item, they follow the Topic. */
-"TOPIC_FOLLOW_ACCESSIBILITY_HINT" = "Follows this Topic.";
-
-/* Accessibility label for following a Topic, just like to follow an account */
-"TOPIC_FOLLOW_ACTION_ACCESSIBILITY_LABEL" = "Follow";
-
-/* Label for following a Topic, just like to follow an account */
-"TOPIC_FOLLOW_ACTION_LABEL" = "Follow";
-
-/* Text used for follow feedback action for a Topic. e.g. "Follow New England Patriots" */
-"TOPIC_FOLLOW_FEEDBACK_ACTION_FORMAT" = "Follow %@";
-
-/* Label for Topic generally, often used in headers. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPIC_LABEL" = "Topic";
-
-/* Detailed description displayed when a Topic Landing timeline does not have any posts. */
-"TOPIC_LANDING_EMPTY_TIMELINE_SUBTEXT" = "Be the first to post about this Topic and see it here.";
-
-/* Title displayed when a Topic Landing timeline does not have any posts. */
-"TOPIC_LANDING_EMPTY_TIMELINE_TITLE" = "Talk about Topics";
-
-/* Label for saying the user is not interested a Topic. This helps X to know that it shouldn't suggest this topic to the user in the future. */
-"TOPIC_NOT_INTERESTED_LABEL" = "Not interested";
-
-/* Label to share a Topic via post. */
-"TOPIC_SHARE_LABEL" = "Post this";
-
-/* Accessibility hint for unfollowing a Topic. When a user activates this item, they will un follow the Topic. */
-"TOPIC_UNFOLLOW_ACCESSIBILITY_HINT" = "Unfollows this Topic.";
-
-/* Text used for unfollow feedback action for a Topic. e.g. "Unfollow New England Patriots" */
-"TOPIC_UNFOLLOW_FEEDBACK_ACTION_FORMAT" = "Unfollow %@";
 
 /* Empty message button text when the user's followings haven't shared any news articles at all. Tapping the button will take them to a new screen where they can find new accounts to follow. */
 "TOP_ARTICLES_TIMELINE_EMPTY_BUTTON_LABEL" = "Find people to follow";
@@ -9533,15 +8379,6 @@ eg. "Super Following Jack" */
 /* Title for why you're seeing this post web page. */
 "TWEET_PROMOTE_WYSTP_INFO_WEB_VIEW_TITLE" = "Why this post";
 
-/* Title for the confirmation alert shown when the user taps the back button on the video reaction editor screen. The alert presents Cancel and Discard buttons and discards all recorded clips and edits if confirmed. */
-"TWEET_REACTION_DISCARD_ALL_CHANGES_ALERT_TITLE" = "Discard all changes?";
-
-/* Title for the confirmation alert shown when the user taps Retake on the video reaction preview screen. The alert presents Cancel and Discard buttons and clears all recorded clips if confirmed. */
-"TWEET_REACTION_DISCARD_ALL_CLIPS_ALERT_TITLE" = "Discard all clips?";
-
-/* Title for the confirmation alert shown when the user taps undo to remove the last recorded clip in the video reaction camera. The alert presents Cancel and Discard buttons. */
-"TWEET_REACTION_DISCARD_LAST_CLIP_ALERT_TITLE" = "Discard the last clip?";
-
 /* Button action for a reported post tombstone */
 "TWEET_REPORTED_TOMBSTONE_ACTION_LABEL" = "View";
 
@@ -9635,9 +8472,6 @@ eg. "Super Following Jack" */
 
 /* Toast notification message_FORMAT confirming a successful unfollow action. @username is substituted into string (%@) */
 "UNFOLLOW_CONFIRMATION_MESSAGE_FORMAT" = "You unfollowed %@";
-
-/* Accessibility label for action to unfollow a topic. Example: "Unfollow Topic: drums"*/
-"UNFOLLOW_TOPIC_ACTION_ACCESSIBILITY_LABEL_FORMAT" = "Unfollow Topic: %@";
 
 /* Action label in caret menu option from Hidden Replies timeline to restore a hidden reply back to conversation. */
 "UNHIDE_REPLY_ACTION_LABEL" = "Unhide reply";
@@ -9874,9 +8708,6 @@ eg. "Super Following Jack" */
 /* Label for the Reposts tab when viewing profile */
 "USER_PROFILE_REPOSTS_TAB_LABEL" = "Reposts";
 
-/* Label for Spaces tab when viewing profile */
-"USER_PROFILE_SPACES_LABEL" = "Spaces";
-
 /* Cancel button label for Photo/Header upload failed alert */
 "USER_PROFILE_UPLOAD_FAILED_CANCEL_BUTTON_LABEL" = "Cancel";
 
@@ -10022,6 +8853,9 @@ eg. "Super Following Jack" */
 /* Title for inline media video end screen watch again button */
 "VIDEO_END_SCREEN_WATCH_AGAIN_LABEL" = "Watch again";
 
+/* Message shown over an inline video when the same video is currently playing in the dock */
+"VIDEO_PLAYING_IN_DOCK" = "Video is playing in dock";
+
 /* Title for button to open bluetooth and airplay menu*/
 "VIDEO_SETTINGS_AIRPLAY_AND_BLUETOOTH" = "Airplay & Bluetooth";
 
@@ -10096,9 +8930,6 @@ eg. "Super Following Jack" */
 
 /* Title for menu action to view post interactions */
 "VIEW_POST_INTERACTIONS_TOOLTIP" = "View quotes and reposts in Post Interactions";
-
-/* Accessibility label for action to view a topic. Example: "View Topic: History" */
-"VIEW_TOPIC_ACCESSIBILITY_LABEL_FORMAT" = "View Topic: %@";
 
 /* Accessibility action to view profile of post author */
 "VIEW_TWEET_AUTHOR_PROFILE_ACCESSIBILITY_ACTION" = "View post author’s profile";
@@ -12151,53 +10982,6 @@ eg. "Super Following Jack" */
 /* Title of the fourth section of the Ticketed Spaces onboarding screen, allowing the user to continue to the application flow. */
 "CREATOR_TICKETS_ONBOARDING_TS_SECTION_4_TITLE" = "Ready to get started?";
 
-// MARK: - Tips Tutorials
-/* Description for the How To Send item in the Tips Welcome tutorial. Explains the flow for tipping. */
-"CREATOR_TIPS_TUTORIAL_CHOOSE_HOW_TO_SEND_DESCRIPTION" = "Send Bitcoin or cash tips with the “More” option.";
-
-/* Title for the How To Send item in the Tips Welcome tutorial. */
-"CREATOR_TIPS_TUTORIAL_CHOOSE_HOW_TO_SEND_TITLE" = "Choose how to send";
-
-/* Description for the Give Thanks item in the Tips Welcome tutorial. Explains how the user can add notes and use the quick reply feature. */
-"CREATOR_TIPS_TUTORIAL_GIVE_THANKS_DESCRIPTION" = "When you tip using Bitcoin you can easily add a note and we make it easy for you to instantly reply to show your gratitude.";
-
-/* Title for the Give Thanks item in the Tips Welcome tutorial. */
-"CREATOR_TIPS_TUTORIAL_GIVE_THANKS_TITLE" = "Give thanks";
-
-/* Tips tutorial footer that prompts the user to learn more about tipping. Note to translators: Please, keep the HTML tags <p></p> and <a id=\"TERMS\"></a> in the text - <p></p> should enclose the whole text and <a id=\"TERMS\"></a> should enclose the Learn More text. */
-"CREATOR_TIPS_TUTORIAL_LEARN_MORE_TEXT_HTML" = "<p><a id=\"TERMS\">Learn more</a> about tipping</p>";
-
-/* Description for the Send Your Tip item in the Tips Welcome tutorial. Explains what happens when you send a tip. */
-"CREATOR_TIPS_TUTORIAL_SEND_YOUR_TIP_DESCRIPTION" = "Once you’ve added your note, send your tip and that’s it! We’ll let the recipient know.";
-
-/* Title for the Send Your Tip item in the Tips Welcome tutorial. */
-"CREATOR_TIPS_TUTORIAL_SEND_YOUR_TIP_TITLE" = "Send your tip";
-
-/* Subtitle for the initial Tips (Tip Jar) tutorial screen. Explains the Tips feature to new users. */
-"CREATOR_TIPS_TUTORIAL_WELCOME_SUBTITLE" = "Tips allows you to send Bitcoin or cash tips depending on how you configure your Tips settings and the regional availability of third-party payment providers.";
-
-/* Title for the initial Tips (Tip Jar) tutorial screen. Explains the Tips feature to new users. */
-"CREATOR_TIPS_TUTORIAL_WELCOME_TITLE" = "Welcome to Tips";
-
-// MARK: - Custom Tip Jar
-/* USD currency abbreviated format in custom Bitcoin tip screen. %@ gets replaced by a USD (US dollars) amount typed in by the user, e.g. "$123". Note for translators: Do not translate "$" as it's an international USD symbol. */
-"CREATOR_TIP_JAR_CUSTOM_TIP_CONVERSION_USD_ABBREVIATED_FORMAT" = "$%@";
-
-/* Accessibility label for a decimal point button in keypad for inputting a currency amount. Adds a decimal point to the current input. */
-"CREATOR_TIP_JAR_CUSTOM_TIP_DECIMAL_POINT_ACCESSIBILITY_LABEL" = "Decimal point";
-
-/* Accessibility label for a delete button in keypad for inputting a currency amount. Deletes last digit from input. */
-"CREATOR_TIP_JAR_CUSTOM_TIP_DELETE_ACCESSIBILITY_LABEL" = "Delete";
-
-/* Accessibility text read out user tries to input a tip amount greater than the maximum possible. For example: Cannot exceed maximum tip amount of $99.99. Amount is in USD currency. Note for translators: Do not translate "$" as it's an international USD symbol.*/
-"CREATOR_TIP_JAR_CUSTOM_TIP_MAXIMUM_AMOUNT_ACCESSIBILITY_LABEL_FORMAT" = "Cannot exceed maximum tip amount of $%@";
-
-/* Message shown when a user tries to input a tip amount greater than the maximum possible. For example $99.99 maximum tip. Amount is in USD currency. Note for translators: Do not translate "$" as it's an international USD symbol.*/
-"CREATOR_TIP_JAR_CUSTOM_TIP_MAXIMUM_AMOUNT_FORMAT" = "$%@ maximum tip";
-
-/* Title for the Next button on a tip custom bitcoin tip screen. Takes the tip amount typed by the user and proceeds to a tip sending screen. */
-"CREATOR_TIP_JAR_CUSTOM_TIP_NEXT_BUTTON_TITLE" = "Next";
-
 // MARK: - Tip Jar Onboarding
 /* Description of the first item, of the first section of the tips onboarding screen. Explains the steps to enable tips. Note to transaltors: The word `Tips` should be capitalized. */
 "CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_1_ITEM_1_DESCRIPTION" = "Turning on Tips lets people know you’re ready to start receiving money.";
@@ -12261,21 +11045,6 @@ eg. "Super Following Jack" */
 
 /* Title of the tips onboarding screen. */
 "CREATOR_TIP_JAR_ONBOARDING_TJ_TITLE" = "Tips";
-
-/* Title of the Bitcoin button for sending tips. */
-"CREATOR_TIP_JAR_SEND_TIP_BITCOIN_BUTTON_TITLE" = "Bitcoin";
-
-/* Message on the tips drawer, showing the option for the user to input a custom amount. */
-"CREATOR_TIP_JAR_SEND_TIP_CUSTOM_AMOUNT_BUTTON_TITLE" = "Custom";
-
-/* Title of the button for sending tips using external services. */
-"CREATOR_TIP_JAR_SEND_TIP_MORE_OPTIONS_BUTTON_TITLE" = "More";
-
-/* Title for the button that opens Strike. This allows the user to pay using Bitcoin */
-"CREATOR_TIP_JAR_SEND_TIP_OPEN_WALLET_BUTTON_TITLE" = "Open wallet";
-
-/* Title to dismiss the tutorial for tips. */
-"CREATOR_TIP_JAR_TUTORIAL_DONE_BUTTON_TITLE" = "Got it";
 
 // Section: Frameworks/XAppLibraries/Stamps/Sources/StampsStrings/en.lproj/Localizable.strings
 
@@ -12569,6 +11338,12 @@ eg. "Super Following Jack" */
 /* Label for button to save image */
 "GROK_IMAGE_ACTION_SAVE" = "Save Image";
 
+/* Shown in place of a generated image when image generation failed for a reason other than the prompt being moderated (e.g. a server or generation error). */
+"GROK_IMAGE_GEN_FAILED" = "Couldn’t generate image";
+
+/* Shown in place of a generated image when the user has reached their image generation limit (rate limit or quota). */
+"GROK_IMAGE_GEN_LIMIT_REACHED" = "Image limit reached";
+
 /* Label for Grok image messages */
 "GROK_IMAGE_LABEL" = "Image";
 
@@ -12692,12 +11467,6 @@ eg. "Super Following Jack" */
 /* Indicates Live results  (ie. real time results) . For sports games, stock prices, etc. */
 "GROK_LIVE" = "Live";
 
-/* Accessibility label for the button that collapses the Grok modal sheet from full screen back to a slideover. */
-"GROK_MODAL_SHEET_COLLAPSE_BUTTON" = "Collapse";
-
-/* Accessibility label for the button that expands the Grok modal sheet from a slideover to full screen. */
-"GROK_MODAL_SHEET_EXPAND_BUTTON" = "Expand";
-
 /*
  Title for the models submenu in the Grok model selection menu, like:
  - grok4
@@ -12758,6 +11527,24 @@ eg. "Super Following Jack" */
 
 /* Grok new user experience popup - AI Training and Personalization title */
 "GROK_NUX_TRAINING_TITLE" = "AI Training and Personalization";
+
+/* Label for the button at the bottom of the expanded Grok overview at the top of search results. Tapping it opens a Grok chat that asks Grok for more detailed information about the search query. */
+"GROK_OVERVIEW_ASK_MORE_DETAIL_BUTTON" = "Ask more detail";
+
+/* Prompt sent to Grok when the user taps the "Ask more detail" button at the bottom of the expanded Grok overview at the top of search results. %@ is the search query wrapped in quotes, e.g. Detail about “Space DataCenter” */
+"GROK_OVERVIEW_ASK_MORE_DETAIL_PROMPT_FORMAT" = "Detail about “%@”";
+
+/* Placeholder text for the text field where the user writes feedback about the Grok overview shown at the top of search results. */
+"GROK_OVERVIEW_FEEDBACK_PLACEHOLDER" = "Share your feedback";
+
+/* Label for the button that submits the user's written feedback about the Grok overview shown at the top of search results. */
+"GROK_OVERVIEW_FEEDBACK_SEND_BUTTON" = "Send";
+
+/* Confirmation message shown after the user submits feedback about the Grok overview shown at the top of search results. */
+"GROK_OVERVIEW_FEEDBACK_THANK_YOU" = "Thank you for your feedback!";
+
+/* Label for the See more button below the truncated Grok overview at the top of search results. Tapping it expands the overview to show the full content. */
+"GROK_OVERVIEW_SEE_MORE_BUTTON" = "See more";
 
 /* Grok paywall subscribe button */
 "GROK_PAYWALL_SUBSCRIBE_BUTTON" = "Subscribe now";
@@ -12888,8 +11675,8 @@ eg. "Super Following Jack" */
 /* Text that is displayed while the app is waiting on a response from Grok while it's searching the web and X */
 "GROK_SEARCHING" = "Searching";
 
-/* Header title for Grok AI summary shown in search results */
-"GROK_SEARCH_AI_SUMMARY_HEADER" = "Grok AI Summary";
+/* Header title for the Grok Overview shown at the top of search results */
+"GROK_SEARCH_AI_SUMMARY_HEADER" = "Grok Overview";
 
 /** Menu action title to set Grok Mode to Fun */
 "GROK_SET_MODE_FUN" = "Fun mode";
@@ -15006,7 +13793,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_ADD_MONEY_ACTION" = "Add Money";
 
 /* Payments: Title of the section providing alternative payment methods (checks, wires, ...) */
-"PAYMENTS_ALTERNATIVE_PAYMENT_METHODS_SECTION" = "Alternative payment methods";
+"PAYMENTS_ALTERNATIVE_PAYMENT_METHODS_SECTION" = "Other methods";
 
 /* Payments: Subtitle of the screen to authenticate card payment, after a transaction has been confirmed or not. */
 "PAYMENTS_AUTHENTICATE_CARD_PAYMENT_DONE_SUBTITLE" = "All the transactions have been reviewed.";
@@ -15309,7 +14096,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_CASH_DEPOSIT_FACTS_TITLE" = "How to deposit cash";
 
 /* Payments: Informational text about cash deposit fees, limits, and barcode expiration. %1$@ is replaced by the minimum amount to deposit, %2$@ the maximum, and %3$@ by the expiration time (in minutes) for a barcode */
-"PAYMENTS_CASH_DEPOSIT_INFORMATION_LABEL" = "Deposits are free. Limits apply (%1$@ min. %2$@ max. per transaction). Barcodes expire after %3$@ minutes, funds are available within minutes.";
+"PAYMENTS_CASH_DEPOSIT_INFORMATION_LABEL" = "Deposits are free. Limits apply (%1$@ min. %2$@ max. per day). Barcodes expire after %3$@ minutes, funds are available within minutes.";
 
 /* Payments: Link text for the Terms and Conditions related to cash deposits. Needs to be present in PAYMENTS_CASH_DEPOSIT_DISCLAIMER_WITH_ACTION and PAYMENTS_CASH_DEPOSIT_DISCLAIMER_WITHOUT_ACTION. */
 "PAYMENTS_CASH_DEPOSIT_TERMS_AND_CONDITIONS_LINK" = "Terms and Conditions";
@@ -15376,12 +14163,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the conversation when the user wants to contact the support about updating their legal name */
 "PAYMENTS_CHAT_SUPPORT_PREFILL_UPDATE_LEGAL_NAME_TITLE" = "Update Legal Name";
-
-/* Payments: Button that allows to setup their X Chat in order to contact X Money's support */
-"PAYMENTS_CHAT_SUPPORT_SETUP_ACTION" = "Set up";
-
-/* Payments: Title of the screen that requires the user to setup their X Chat in order to contact X Money's support */
-"PAYMENTS_CHAT_SUPPORT_SETUP_TITLE" = "In order to contact us, you need to set up Chat.";
 
 /* Payments: Title of the chat support screen, that lists the different conversations */
 "PAYMENTS_CHAT_SUPPORT_TITLE" = "Support";
@@ -15539,20 +14320,32 @@ eg. "Super Following Jack" */
 /* Payments: Title for the mailed check creation screen. */
 "PAYMENTS_CREATE_ISSUED_CHECK_TITLE" = "Mail a check";
 
-/* Payments: Title prompting the user to pick an end for a recurring scheduled payment */
-"PAYMENTS_CREATE_SCHEDULED_PAYMENT_END_TITLE" = "When should we stop doing payments?";
+/* Payments: Title prompting the user to confirm a scheduled payment */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_CONFIRMATION_TITLE" = "Confirm Payment";
+
+/* Payments: Subtitle prompting the user to pick an end date for a recurring scheduled payment */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_END_DATE_SUBTITLE" = "What date would you like this payment to stop repeating?";
+
+/* Payments: Title prompting the user to pick an end date for a recurring scheduled payment */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_END_DATE_TITLE" = "Schedule payment";
+
+/* Payments: Subtitle prompting the user to pick an end type for a recurring scheduled payment */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_END_TYPE_SUBTITLE" = "When would you like the payments to stop?\nYou can manage the payment anytime in settings";
+
+/* Payments: Title prompting the user to pick an end type for a recurring scheduled payment */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_END_TYPE_TITLE" = "End payments";
 
 /* Payments: Title shown when we were not able to schedule the customer's payment */
 "PAYMENTS_CREATE_SCHEDULED_PAYMENT_ERROR_TITLE" = "Unable to schedule your payment";
 
-/* Payments: Title prompting the user to pick a date for a one-time scheduled payment */
-"PAYMENTS_CREATE_SCHEDULED_PAYMENT_START_DATE_ONCE_TITLE" = "When should we send this payment?";
+/* Payments: Subtitle prompting the user to select a scheduled payment frequency */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_FREQUENCY_SUBTITLE" = "How often would like to send this payment?";
 
-/* Payments: Title prompting the user to pick a date for a recurring scheduled payment */
-"PAYMENTS_CREATE_SCHEDULED_PAYMENT_START_DATE_RECURRING_TITLE" = "When should we start doing payments?";
+/* Payments: Title prompting the user to select a scheduled payment frequency */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_FREQUENCY_TITLE" = "Payment frequency";
 
-/* Payments: Title prompting the user to select a scheduled payment type */
-"PAYMENTS_CREATE_SCHEDULED_PAYMENT_TYPE_TITLE" = "How often do you want to do these payments?";
+/* Payments: Title prompting the user to pick a date for a scheduled payment */
+"PAYMENTS_CREATE_SCHEDULED_PAYMENT_START_DATE_TITLE" = "Schedule payment";
 
 /* Payments: Title of button on the amount screen when creating a shareable payment link */
 "PAYMENTS_CREATE_TRANSFER_LINK_ACTION" = "Create Link";
@@ -15743,6 +14536,9 @@ eg. "Super Following Jack" */
 /* Payments: Title of the screen to customize the nickname of a card */
 "PAYMENTS_EDIT_NICKNAME_CARD_TITLE" = "What would you like to name this card?";
 
+/* Payments: Title of the screen to customize the nickname of a credential (passkey or security key) */
+"PAYMENTS_EDIT_NICKNAME_CREDENTIAL_TITLE" = "What would you like to name this credential?";
+
 /* Payments: Title of the button that allows users to enter their address manually, instead of relying on the autocomplete. */
 "PAYMENTS_ENTER_ADDRESS_MANUALLY_ACTION" = "Enter address manually";
 
@@ -15903,13 +14699,16 @@ eg. "Super Following Jack" */
 "PAYMENTS_EXTERNAL_CONTACTS_ATTRIBUTE_NICKNAME" = "Nickname";
 
 /* Payments: Title for the action to add a new contact. */
-"PAYMENTS_EXTERNAL_CONTACTS_CREATE_ACTION" = "Add a new contact";
+"PAYMENTS_EXTERNAL_CONTACTS_CREATE_ACTION" = "Add a new recipient";
 
 /* Payments: Title for the input field to enter the bank account number, with %@ replaced by the contact’s name. */
 "PAYMENTS_EXTERNAL_CONTACTS_STEP_ACCOUNT_NUMBER_TITLE" = "What is %@’s bank account number?";
 
+/* Payments: Subtitle emphasizing the need for an accurate address as it will be used to send a check. */
+"PAYMENTS_EXTERNAL_CONTACTS_STEP_ADDRESS_SUBTITLE_CHECKS" = "Where would you like the check to be sent?";
+
 /* Payments: Subtitle emphasizing the need for an accurate address to match banking records. */
-"PAYMENTS_EXTERNAL_CONTACTS_STEP_ADDRESS_SUBTITLE" = "This will be matched against banking records, so make sure it’s accurate.";
+"PAYMENTS_EXTERNAL_CONTACTS_STEP_ADDRESS_SUBTITLE_WIRES" = "This will be matched against banking records, so make sure it’s accurate.";
 
 /* Payments: Title for the input field to enter the contact’s address, with %@ replaced by the contact’s name. */
 "PAYMENTS_EXTERNAL_CONTACTS_STEP_ADDRESS_TITLE" = "What is %@’s address?";
@@ -15942,10 +14741,10 @@ eg. "Super Following Jack" */
 "PAYMENTS_EXTERNAL_CONTACTS_STEP_NAME_SUBTITLE_WIRES" = "Who would you like to receive the wire transfer?";
 
 /* Payments: Title for the input field to enter the contact’s full name. */
-"PAYMENTS_EXTERNAL_CONTACTS_STEP_NAME_TITLE" = "What is the contact full name?";
+"PAYMENTS_EXTERNAL_CONTACTS_STEP_NAME_TITLE" = "What is the recipient full name?";
 
 /* Payments: Title for contacts screen or section. */
-"PAYMENTS_EXTERNAL_CONTACTS_TITLE" = "Contacts";
+"PAYMENTS_EXTERNAL_CONTACTS_TITLE" = "Recipients";
 
 /* Payments: Subtitle describing the type of contact "individual" (people) */
 "PAYMENTS_EXTERNAL_CONTACTS_TYPE_INDIVIDUAL_SUBTITLE" = "Yourself or someone else";
@@ -15960,16 +14759,46 @@ eg. "Super Following Jack" */
 "PAYMENTS_EXTERNAL_CONTACTS_TYPE_INSTITUTION_TITLE" = "Institution";
 
 /* Payments: Title of the screen that allows the user to select the type of contact they'll create (individual or institution) */
-"PAYMENTS_EXTERNAL_CONTACTS_TYPE_SELECTION_TITLE" = "Who’s your contact?";
+"PAYMENTS_EXTERNAL_CONTACTS_TYPE_SELECTION_TITLE" = "Who’s your recipient?";
 
 /* Payments: Label for the button that allows a customer to update the bank account attached to a contact. */
 "PAYMENTS_EXTERNAL_CONTACTS_UPDATE_BANK_ACCOUNT_ACTION" = "Update bank account";
 
+/* Payments: Title for the account picker when selecting the destination account to deposit money to. */
+"PAYMENTS_EXTERNAL_TRANSACTION_ACCOUNT_SELECTION_DEPOSIT_TITLE" = "Deposit to";
+
+/* Payments: Title for the account picker when selecting the source account to transfer money from. */
+"PAYMENTS_EXTERNAL_TRANSACTION_ACCOUNT_SELECTION_TRANSFER_FROM_TITLE" = "Transfer from";
+
+/* Payments: Title for the account picker when selecting the destination account to transfer money to. */
+"PAYMENTS_EXTERNAL_TRANSACTION_ACCOUNT_SELECTION_TRANSFER_TO_TITLE" = "Transfer to";
+
+/* Payments: Title for the account picker when selecting the source account to withdraw money from. */
+"PAYMENTS_EXTERNAL_TRANSACTION_ACCOUNT_SELECTION_WITHDRAW_TITLE" = "Withdraw from";
+
+/* Payments: Action on the payment method selection screen to add a new bank account or card. */
+"PAYMENTS_EXTERNAL_TRANSACTION_ADD_BANK_OR_CARD_ACTION" = "+ Add Bank or Card";
+
+/* Payments: Title of the screen for adding a new bank account or card. */
+"PAYMENTS_EXTERNAL_TRANSACTION_ADD_NEW_BANK_OR_CARD_TITLE" = "Add New Bank or Card";
+
 /* Payments: Title shown next to the transaction amount on the deposit/withdraw flows. */
 "PAYMENTS_EXTERNAL_TRANSACTION_AMOUNT_TITLE" = "Amount";
 
+/* Payments: Prompt for the user to choose a payment method to deposit money from. */
+"PAYMENTS_EXTERNAL_TRANSACTION_CHOOSE_DEPOSIT_METHOD_TITLE" = "Choose deposit method";
+
+/* Payments: Prompt for the user to choose a payment method to withdraw money to. */
+"PAYMENTS_EXTERNAL_TRANSACTION_CHOOSE_WITHDRAWAL_METHOD_TITLE" = "Choose withdrawal method";
+
+/* Payments: First line of a deposit confirmation summary, indicating the amount to deposit. %@ is a formatted amount (ex: $10). */
+"PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_CONFIRMATION_DEPOSIT_FORMAT" = "Deposit %@";
+
+/* Payments: Line of a deposit confirmation summary, indicating the payment method the money comes from. %@ is the payment method name (ex: Chase ••1234). */
+"PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_CONFIRMATION_FROM_FORMAT" = "from %@";
+
 /* Payments: Title of the confirmation screen for depositing money into the user’s X Payments account. */
-"PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_CONFIRMATION_TITLE" = "Confirm deposit";
+"PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_CONFIRMATION_TITLE" = "Confirm Deposit";
 
 /* Payments: Title of the error screen after failing to schedule a deposit. */
 "PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_ERROR_TITLE" = "Deposit failed";
@@ -15986,6 +14815,9 @@ eg. "Super Following Jack" */
 /* Payments: Value shown next to the "Fee" attribute on a transaction, when there is no fee. */
 "PAYMENTS_EXTERNAL_TRANSACTION_NO_FEE_VALUE" = "None";
 
+/* Payments: Title shown next to the transaction processing time (Ex: Instant, 3 business days, etc.). */
+"PAYMENTS_EXTERNAL_TRANSACTION_PROCESSING_TIME_TITLE" = "Transaction time";
+
 /* Payments: Title shown next to the recipient's address on the wire flows. */
 "PAYMENTS_EXTERNAL_TRANSACTION_RECIPIENT_ADDRESS_TITLE" = "Recipient’s address";
 
@@ -15999,7 +14831,13 @@ eg. "Super Following Jack" */
 "PAYMENTS_EXTERNAL_TRANSACTION_WITHDRAWAL_INITIAL_PAYMENT_METHOD_TITLE" = "How would you like to withdraw your funds?";
 
 /* Payments: Title of the confirmation screen for withdrawing money from the user’s X Payments account. */
-"PAYMENTS_EXTERNAL_TRANSACTION_WITHDRAW_CONFIRMATION_TITLE" = "Confirm withdrawal";
+"PAYMENTS_EXTERNAL_TRANSACTION_WITHDRAW_CONFIRMATION_TITLE" = "Confirm Withdrawal";
+
+/* Payments: Line of a withdrawal confirmation summary, indicating the payment method the money goes to. %@ is the payment method name (ex: Chase ••1234). */
+"PAYMENTS_EXTERNAL_TRANSACTION_WITHDRAW_CONFIRMATION_TO_FORMAT" = "to %@";
+
+/* Payments: First line of a withdrawal confirmation summary, indicating the amount to withdraw. %@ is a formatted amount (ex: $10). */
+"PAYMENTS_EXTERNAL_TRANSACTION_WITHDRAW_CONFIRMATION_WITHDRAW_FORMAT" = "Withdraw %@";
 
 /* Payments: Title of the error screen after failing to schedule a withdrawal. */
 "PAYMENTS_EXTERNAL_TRANSACTION_WITHDRAW_ERROR_TITLE" = "Withdrawal failed";
@@ -16050,13 +14888,13 @@ eg. "Super Following Jack" */
 "PAYMENTS_FUNDS_INSURANCE_SWEEP_DISCLAIMER_INSTITUTIONS_LINK" = "FDIC-insured institutions";
 
 /* Payments: Main presentation text shown on the home screen for the X Cash Sweep Program. Informs users that deposits are automatically enrolled for up to $10M in FDIC insurance. The trailing “Learn more” portion is a tappable link. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION" = "Your deposits are automatically enrolled in the X Cash Sweep Program, which provides up to $10M of aggregate FDIC insurance coverage, subject to certain limitations. Learn more";
+"PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION" = "Your deposits are automatically enrolled in the X Cash Sweep Program, which provides access up to $10M of aggregate FDIC insurance coverage, subject to certain limitations. Learn more.";
 
 /* Payments: Label for the “Learn more” link that appears at the end of PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION. */
 "PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION_LEARN_MORE_LINK" = "Learn more";
 
 /* Payments: Title for the X Cash Sweep Program section, shown on the X Money home screen and on the details sheet. Highlights the extended FDIC insurance coverage of up to $10M. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_TITLE" = "Up to $10M of FDIC Insurance";
+"PAYMENTS_FUNDS_INSURANCE_SWEEP_TITLE" = "Access up to $10M of FDIC Insurance";
 
 /* Payments: Title shown on the X Money home screen and on the sheet that presents details about the FDIC Insurance and other insurance/security mechanisms (Visa Zero Liability, Passkeys, etc.) */
 "PAYMENTS_FUNDS_INSURANCE_TITLE" = "Your assets are safe";
@@ -16865,11 +15703,23 @@ eg. "Super Following Jack" */
 /* Payments: Title for the benefits list for public key credentials, emphasizing security */
 "PAYMENTS_PUBKEY_CREDENTIAL_BENEFIT_TITLE" = "Secure your account";
 
+/* Payments: Display name for the Android client/platform a public key credential was created or used on. */
+"PAYMENTS_PUBKEY_CREDENTIAL_CLIENT_TYPE_ANDROID" = "Android";
+
+/* Payments: Display name for the iOS client/platform a public key credential was created or used on. */
+"PAYMENTS_PUBKEY_CREDENTIAL_CLIENT_TYPE_IOS" = "iOS";
+
+/* Payments: Display name for the web client/platform a public key credential was created or used on. */
+"PAYMENTS_PUBKEY_CREDENTIAL_CLIENT_TYPE_WEB" = "Web";
+
 /* Payments: Title for the action to delete a passkey or security key */
 "PAYMENTS_PUBKEY_CREDENTIAL_DELETE_ACTION" = "Remove";
 
 /* Payments: Label for the creation date attribute in the public key credential details view */
 "PAYMENTS_PUBKEY_CREDENTIAL_DETAILS_CREATED_AT_TITLE" = "Created";
+
+/* Payments: Value in the public key credential details view combining a date and the client/platform it occurred on. %1$@ is a formatted date (ex: Jun 16, 2026 at 3:00 PM), %2$@ is the client type (ex: iOS). */
+"PAYMENTS_PUBKEY_CREDENTIAL_DETAILS_DATE_ON_CLIENT_FORMAT" = "%1$@ on %2$@";
 
 /* Payments: Label for the last usage date attribute in the public key credential details view */
 "PAYMENTS_PUBKEY_CREDENTIAL_DETAILS_LAST_USED_AT_TITLE" = "Last used";
@@ -16885,6 +15735,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Format string for the name of the passkey, where %@ is replaced by the customer’s name */
 "PAYMENTS_PUBKEY_CREDENTIAL_NAME_FORMAT" = "%@’s X Money";
+
+/* Payments: Format string for the name of the passkey including the client/platform. %1$@ is the customer’s name, %2$@ is the client type (ex: iOS). */
+"PAYMENTS_PUBKEY_CREDENTIAL_NAME_WITH_CLIENT_FORMAT" = "%1$@’s %2$@ X Money";
 
 /* Payments: Subtitle for the second step in the public key credential recovery view, describing the prompt after verification */
 "PAYMENTS_PUBKEY_CREDENTIAL_RECOVERY_ADD_NEW_SUBTITLE" = "Once you’ve been verified, you’ll be prompted to create a new credential";
@@ -16967,8 +15820,14 @@ eg. "Super Following Jack" */
 /* Payments: Text description for the transaction rail "Cash" (paper money). */
 "PAYMENTS_RAIL_CASH" = "Cash";
 
+/* Payments: Subtitle for the cash deposit transfer method, prompting the user to find a physical location to deposit cash. */
+"PAYMENTS_RAIL_CASH_SUBTITLE" = "Find a location to deposit cash";
+
 /* Payments: Text description for the transaction rail "Check". This is a Check as the paper method of payment, not a Check as a "verification".  */
 "PAYMENTS_RAIL_CHECK" = "Check";
+
+/* Payments: Subtitle for the check deposit transfer method, prompting the user to scan their paper check. */
+"PAYMENTS_RAIL_CHECK_SUBTITLE" = "Scan your check";
 
 /* Payments: Text description for the transaction rail "OCT" */
 "PAYMENTS_RAIL_OCT" = "Instant Card Transfer";
@@ -16998,7 +15857,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_REJECT_UNRECOGNIZED_PAYMENT_ACTION" = "I did not make this purchase";
 
 /* Payments: Action to remove an existing external contact */
-"PAYMENTS_REMOVE_CONTACT_ACTION" = "Remove this contact";
+"PAYMENTS_REMOVE_CONTACT_ACTION" = "Remove this recipient";
 
 /* Payments: Button to reopen an account during the grace period, after the customer requested to close it. */
 "PAYMENTS_REONBOARD_ACTION" = "Reopen my account";
@@ -17094,13 +15953,19 @@ eg. "Super Following Jack" */
 "PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_AMOUNT" = "Amount";
 
 /* Payments: Label for the end attribute on a scheduled payment */
-"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_END" = "Ends";
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_END" = "End payments";
+
+/* Payments: Label for the value equivalent to any date, for the end attribute on a scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_END_VALUE_DATE" = "On a date";
 
 /* Payments: Label for the value equivalent to "never", for the end attribute on a scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_END_VALUE_NEVER" = "Never";
 
+/* Payments: Label for the value equivalent to a number of payments, for the end attribute on a scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_END_VALUE_NUMBER_OF_PAYMENTS" = "Number of payments";
+
 /* Payments: Label for the frequency attribute on a scheduled payment */
-"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_FREQUENCY" = "Sent";
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_FREQUENCY" = "Frequency";
 
 /* Payments: Label for the memo attribute on a scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_MEMO" = "Memo";
@@ -17108,14 +15973,47 @@ eg. "Super Following Jack" */
 /* Payments: Label for the next execution attribute on a scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_NEXT_EXECUTION" = "Next payment";
 
-/* Payments: Label for the recipient attribute on a scheduled payment */
-"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_RECIPIENT" = "Recipient";
+/* Payments: Label for a scheduled payment that will be executed multiple times. %@ is replaced by the number (ex: 100). */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_NUMBER_OF_PAYMENTS_MULTIPLE" = "After %@ payments";
 
-/* Payments: Label for the date attribute on a scheduled payment */
-"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_RECURRING_START_DATE" = "Starts";
+/* Payments: Label for a scheduled payment that will be executed maximum one time */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_NUMBER_OF_PAYMENTS_ONE" = "After 1 payment";
+
+/* Payments: Label for the source account on a scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_SOURCE_ACCOUNT" = "Pay with";
 
 /* Payments: Label for the date attribute on a scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_ATTRIBUTE_START_DATE" = "Date";
+
+/* Payments: Line of a one-time scheduled payment confirmation summary, indicating the date the payment will be sent. %@ is a formatted date (ex: Jun 16, 2026). */
+"PAYMENTS_SCHEDULED_PAYMENT_CONFIRMATION_ON_DATE_FORMAT" = "on %@";
+
+/* Payments: Line of a recurring scheduled payment confirmation summary describing a payment that recurs once per year. */
+"PAYMENTS_SCHEDULED_PAYMENT_CONFIRMATION_RECURRENCE_ANNUALLY" = "every year";
+
+/* Payments: Line of a recurring scheduled payment confirmation summary describing a payment that recurs once per day. */
+"PAYMENTS_SCHEDULED_PAYMENT_CONFIRMATION_RECURRENCE_DAILY" = "every day";
+
+/* Payments: Line of a recurring scheduled payment confirmation summary describing a payment that recurs once per month. */
+"PAYMENTS_SCHEDULED_PAYMENT_CONFIRMATION_RECURRENCE_MONTHLY" = "every month";
+
+/* Payments: Line of a recurring scheduled payment confirmation summary describing a payment that recurs once per week. */
+"PAYMENTS_SCHEDULED_PAYMENT_CONFIRMATION_RECURRENCE_WEEKLY" = "every week";
+
+/* Payments: First line of a scheduled payment confirmation summary, indicating the amount to send. %@ is a formatted amount (ex: $10). */
+"PAYMENTS_SCHEDULED_PAYMENT_CONFIRMATION_SEND_FORMAT" = "Send %@";
+
+/* Payments: Line of a recurring scheduled payment confirmation summary, indicating when the recurring payments begin. %@ is a formatted date (ex: Jun 16, 2026). */
+"PAYMENTS_SCHEDULED_PAYMENT_CONFIRMATION_STARTING_FORMAT" = "starting %@";
+
+/* Payments: Line of a scheduled payment confirmation summary, indicating the recipient. %@ is the recipient's name (ex: Jane Doe). */
+"PAYMENTS_SCHEDULED_PAYMENT_CONFIRMATION_TO_FORMAT" = "to %@";
+
+/* Payments: Disclaimer shown on the confirmation page to schedule a payment. %@ is replaced by the name of the button (ex: "Continue"). */
+"PAYMENTS_SCHEDULED_PAYMENT_DISCLAIMER_FORMAT" = "By pressing “%@“, you authorize us to schedule payments as specified above.";
+
+/* Payments: Subtitle shown on the screen where the user inputs the maximum occurrences for a scheduled payment */
+"PAYMENTS_SCHEDULED_PAYMENT_END_NUMBER_OF_PAYMENTS_SUBTITLE" = "How many payments would you like this to repeat for?";
 
 /* Payments: Annually frequency option for a recurring scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_FREQUENCY_ANNUALLY" = "Annually";
@@ -17132,11 +16030,11 @@ eg. "Super Following Jack" */
 /* Payments: Weekly frequency option for a recurring scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_FREQUENCY_WEEKLY" = "Weekly";
 
-/* Payments: Message shown when a scheduled payment is successfully created. %@ is replaced by the scheduled date. */
-"PAYMENTS_SCHEDULED_PAYMENT_SUCCESS_MESSAGE" = "It will be sent on %@. You can cancel it in your app Settings page.";
+/* Payments: Title of the section that contains scheduled payments on X (on platform) */
+"PAYMENTS_SCHEDULED_PAYMENT_SECTION_TRANSFER" = "Transfers on X";
 
-/* Payments: Title shown when a scheduled payment is successfully created. %@ is replaced by a formatted amount (ex: $10). */
-"PAYMENTS_SCHEDULED_PAYMENT_SUCCESS_TITLE" = "Your %@ payment is now scheduled";
+/* Payments: Title shown when a scheduled payment is successfully created. */
+"PAYMENTS_SCHEDULED_PAYMENT_SUCCESS_WITHOUT_AMOUNT_TITLE" = "Payment scheduled!";
 
 /* Payments: Action button to confirm scheduling a payment */
 "PAYMENTS_SCHEDULE_ACTION" = "Schedule";
@@ -17144,8 +16042,11 @@ eg. "Super Following Jack" */
 /* Payments: Action to schedule a new issued check */
 "PAYMENTS_SCHEDULE_ISSUED_CHECK_ACTION" = "Schedule a check";
 
+/* Payments: Action to schedule a recurring payment */
+"PAYMENTS_SCHEDULE_RECURRING_PAYMENT_ACTION" = "Schedule recurring payment";
+
 /* Payments: Action to schedule a new transfer */
-"PAYMENTS_SCHEDULE_TRANSFER_ACTION" = "Schedule a transfer";
+"PAYMENTS_SCHEDULE_TRANSFER_ACTION" = "Schedule a transfer on X";
 
 /* Payments: Action to schedule a new wire */
 "PAYMENTS_SCHEDULE_WIRE_ACTION" = "Schedule a wire";
@@ -17202,13 +16103,13 @@ eg. "Super Following Jack" */
 "PAYMENTS_SETTINGS_OFFBOARD" = "Close Account";
 
 /* Payments: Action to add a new payment method */
-"PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_BANK_ACCOUNT_ACTION" = "Link a bank account";
+"PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_BANK_ACCOUNT_ACTION" = "Add bank account";
 
 /* Payments: Success message shown when a bank account has been linked to the user's account */
 "PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_BANK_ACCOUNT_SUCCESS" = "Your bank account is now linked to X Money";
 
 /* Payments: Action to add a new payment method */
-"PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_CARD_ACTION" = "Link a card";
+"PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_CARD_ACTION" = "Add a card";
 
 /* Payments: Message shown when a card cannot be linked */
 "PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_CARD_ERROR_GENERIC_MESSAGE" = "We are looking into what went wrong. Please try again or use a different card.";
@@ -17244,7 +16145,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_SETTINGS_PAYMENT_METHODS_BANK_ACCOUNT_DESCRIPTION" = "Bank Account";
 
 /* Payments: Title for the debit cards section in the payment methods list in settings */
-"PAYMENTS_SETTINGS_PAYMENT_METHODS_DEBIT_CARDS_SECTION" = "Debit Cards";
+"PAYMENTS_SETTINGS_PAYMENT_METHODS_DEBIT_CARDS_SECTION" = "Cards";
 
 /* Payments: Description for a debit card in the payment methods list in settings */
 "PAYMENTS_SETTINGS_PAYMENT_METHODS_DEBIT_CARD_DESCRIPTION" = "Debit Card";
@@ -17253,10 +16154,10 @@ eg. "Super Following Jack" */
 "PAYMENTS_SETTINGS_PAYMENT_METHODS_TITLE" = "Linked Accounts";
 
 /* Payments: Title for the linked banks screen, when the user is doing a deposit */
-"PAYMENTS_SETTINGS_PAYMENT_METHODS_TRANSACTION_DEPOSIT_TITLE" = "Where would you like to transfer the funds from?";
+"PAYMENTS_SETTINGS_PAYMENT_METHODS_TRANSACTION_DEPOSIT_TITLE" = "Deposit Method";
 
 /* Payments: Title for the linked banks screen, when the user is doing a withdrawal */
-"PAYMENTS_SETTINGS_PAYMENT_METHODS_TRANSACTION_WITHDRAW_TITLE" = "Where would you like to send your funds?";
+"PAYMENTS_SETTINGS_PAYMENT_METHODS_TRANSACTION_WITHDRAW_TITLE" = "Withdrawal Method";
 
 /* Payments: Description for the contact section in personal information settings */
 "PAYMENTS_SETTINGS_PERSONAL_INFORMATION_CONTACT_SECTION_DESCRIPTION" = "Keep this information current. We will use it to send you notifications and tax documents.";
@@ -17418,7 +16319,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_TRANSFER_ATTRIBUTE_TO" = "To";
 
 /* Payments: Text containing the available balance on a transfer screen. %@ is replaced by a localized amount. */
-"PAYMENTS_TRANSFER_AVAILABLE_BALANCE_FORMAT" = "Balance: %@";
+"PAYMENTS_TRANSFER_AVAILABLE_BALANCE_FORMAT" = "%@ available to transfer";
 
 /* Payments: Error message when a transfer fails. */
 "PAYMENTS_TRANSFER_ERROR_TITLE" = "Unable to send your payment";
@@ -17430,16 +16331,16 @@ eg. "Super Following Jack" */
 "PAYMENTS_TRANSFER_FUNDING_TITLE" = "Your balance isn’t high enough to cover this payment";
 
 /* Payments: Description of a transfer method that involves waiting one day. %@ is replaced by the already localized fees. */
-"PAYMENTS_TRANSFER_METHOD_DESCRIPTION_DELAYED_1_BUSINESS_DAY" = "Up to one business day (%@)";
+"PAYMENTS_TRANSFER_METHOD_DESCRIPTION_DELAYED_1_BUSINESS_DAY" = "Up to one business day · %@";
 
 /* Payments: Description of a transfer method that involves waiting multiple days. %1$@ is replaced by the number of days, and %2$@ by the the same number to which we added 2 (to take into account business days). For example, 3 and 5 would give "3-5 Days". */
 "PAYMENTS_TRANSFER_METHOD_DESCRIPTION_DELAYED_N_AND_N_PLUS_2_BUSINESS_DAYS_SHORT" = "%1$@-%2$@ Days";
 
 /* Payments: Description of a transfer method that involves waiting multiple days. %1$@ is replaced by the number of days, and %2$@ is replaced by the already localized fees. */
-"PAYMENTS_TRANSFER_METHOD_DESCRIPTION_DELAYED_N_BUSINESS_DAYS" = "Up to %1$@ business days (%2$@)";
+"PAYMENTS_TRANSFER_METHOD_DESCRIPTION_DELAYED_N_BUSINESS_DAYS" = "Up to %1$@ business days · %2$@";
 
 /* Payments: Description of a transfer method that involves no waiting. %@ is replaced by the already localized fees. */
-"PAYMENTS_TRANSFER_METHOD_DESCRIPTION_REALTIME" = "Instant (%@)";
+"PAYMENTS_TRANSFER_METHOD_DESCRIPTION_REALTIME" = "Instant · %@";
 
 /* Payments: Description of a transfer method that involves no waiting. */
 "PAYMENTS_TRANSFER_METHOD_DESCRIPTION_REALTIME_SHORT" = "Instant";
@@ -17823,186 +16724,6 @@ eg. "Super Following Jack" */
 
 /* Text for the about module that indicates the amout module has no operating hours for the business. */
 "ABOUT_PROFILE_MODULE_NO_HOURS_AVAILABLE_TEXT" = "No hours available";
-
-/* The invalid image alert action title text */
-"COMMERCE_SHOP_MODULE_ALERT_ACTION_TITLE_GOT_IT" = "Got it";
-
-/* The error dialog message when saving a large size image : user selected an image that is above the maximum acceptable size*/
-"COMMERCE_SHOP_MODULE_ALERT_MESSAGE_ABOVE_MAXIMUM_SIZE" = "Images cannot exceed 8MB in size. Please choose a smaller image and try again.";
-
-/* The error dialog message when saving a low resolution image : user selected an image that is below the minimum acceptable dimension*/
-"COMMERCE_SHOP_MODULE_ALERT_MESSAGE_BELOW_MINIMUM_DIMENSION" = "Please double check that the dimensions for this image are between 500x500 and 8192x8192 pixels and try again.";
-
-/* The error dialog message when saving an unknown image type : user selected an unknown image type*/
-"COMMERCE_SHOP_MODULE_ALERT_MESSAGE_UNKNOWN_IMAGE_TYPE" = "Please choose a GIF, JPEG, or PNG, and try again.";
-
-/* The error dialog title when saving a large size image : user selected an image that is above the maximum acceptable size*/
-"COMMERCE_SHOP_MODULE_ALERT_TITLE_ABOVE_MAXIMUM_SIZE" = "This image is too large";
-
-/* The error dialog title when saving a low resolution image : user selected an image that is below the minimum acceptable dimension*/
-"COMMERCE_SHOP_MODULE_ALERT_TITLE_BELOW_MINIMUM_DIMENSION" = "Incorrect image size";
-
-/* The error dialog title when saving an unknown image type : user selected an unknown image type*/
-"COMMERCE_SHOP_MODULE_ALERT_TITLE_UNKNOWN_IMAGE_TYPE" = "Invalid file type";
-
-/* Primary button text for the clear all data dialog */
-"COMMERCE_SHOP_MODULE_CLEAR_DATA_ALERT_PRIMARY_BUTTON_TEXT" = "Yes, delete";
-
-/* Secondary button text for the clear all data dialog */
-"COMMERCE_SHOP_MODULE_CLEAR_DATA_ALERT_SECONDARY_BUTTON_TEXT" = "No, cancel";
-
-/* Subtitle text for the clear all data dialog */
-"COMMERCE_SHOP_MODULE_CLEAR_DATA_ALERT_SUBTITLE_TEXT" = "This can’t be undone";
-
-/* Title text for the clear all data dialog */
-"COMMERCE_SHOP_MODULE_CLEAR_DATA_ALERT_TITLE_TEXT" = "Delete your product info?";
-
-/* Title text for the clear all data item */
-"COMMERCE_SHOP_MODULE_CLEAR_DATA_TEXT" = "Clear all";
-
-/* Label for the configure text in the module editing page when module does not exist */
-"COMMERCE_SHOP_MODULE_CONFIGURE_EMPTY_TEXT" = "Create";
-
-/* Label for the action text in the module modal screen */
-"COMMERCE_SHOP_MODULE_COPY_LINK" = "Copy link";
-
-/* Text displayed on a loading screen while a create operation is in progress */
-"COMMERCE_SHOP_MODULE_CREATE_LOADING_TEXT" = "Creating your Shop Spotlight — this may take a moment.";
-
-/* Landing title text for currency code */
-"COMMERCE_SHOP_MODULE_CURRENCY_CODE_LANDING_TITLE_TEXT" = "Currency code";
-
-/* Search text for currency code field */
-"COMMERCE_SHOP_MODULE_CURRENCY_CODE_SEARCH_TEXT" = "Search currency codes";
-
-/* Title text for currency code field */
-"COMMERCE_SHOP_MODULE_CURRENCY_CODE_TITLE_TEXT" = "Currency code";
-
-/* Disclaimer text for description field */
-"COMMERCE_SHOP_MODULE_DESCRIPTION_DISCLAIMER_TEXT" = "Add a plain-text description for this product (up to 5,000 characters, including spaces).";
-
-/* Hint text for description field */
-"COMMERCE_SHOP_MODULE_DESCRIPTION_HINT_TEXT" = "Enter product description";
-
-/* Title text for description field */
-"COMMERCE_SHOP_MODULE_DESCRIPTION_TITLE_TEXT" = "Product description";
-
-/* Validation error text for description field */
-"COMMERCE_SHOP_MODULE_DESCRIPTION_VALIDATION_ERROR_TEXT" = "Invalid product description";
-
-/* A generic shop module error message text to direct users to Shopping Manager*/
-"COMMERCE_SHOP_MODULE_ERROR_MESSAGE_SHOPPING_MANAGER" = "Please head over to Shopping Manager on a desktop device (ads.twitter.com/shopping_manager) and try again.";
-
-/* A generic shop module error message text for image upload failure*/
-"COMMERCE_SHOP_MODULE_ERROR_MESSAGE_UPLOAD_FAILED" = "We were unable to upload this image. Please reselect the image you’d like to upload and try again.";
-
-/* A generic shop module error title text */
-"COMMERCE_SHOP_MODULE_ERROR_TITLE_SOMETHING_WRONG" = "Something went wrong";
-
-/* The title text for the roadblock button */
-"COMMERCE_SHOP_MODULE_GOT_IT_BUTTON_TEXT" = "Got it";
-
-/* Accessibility label for the image cell add image button on a shop module product image cell. */
-"COMMERCE_SHOP_MODULE_IMAGE_CELL_ADD_IMAGE_BUTTON_ACCESSIBILITY_LABEL" = "Add image";
-
-/* Accessibility label for the image cell change image button on a shop module product image cell. */
-"COMMERCE_SHOP_MODULE_IMAGE_CELL_CHANGE_IMAGE_BUTTON_ACCESSIBILITY_LABEL" = "Change image";
-
-/* Accessibility label for the image cell image view on a shop module product image cell. */
-"COMMERCE_SHOP_MODULE_IMAGE_CELL_IMAGE_VIEW_ACCESSIBILITY_LABEL" = "Product image";
-
-/* Accessibility label for the image cell image view placeholder on a shop module product image cell. */
-"COMMERCE_SHOP_MODULE_IMAGE_CELL_IMAGE_VIEW_PLACEHOLDER_ACCESSIBILITY_LABEL" = "Product image will go here";
-
-/* Disclaimer text for image field */
-"COMMERCE_SHOP_MODULE_IMAGE_DISCLAIMER_TEXT" = "Media Requirements\n\n•  File types: GIF, JPEG, or PNG\n•  Minimum dimensions: 500x500 pixels\n•  Max size: 8MB";
-
-/* Subtitle text for image field */
-"COMMERCE_SHOP_MODULE_IMAGE_SUBTITLE_TEXT" = "Uploaded successfully";
-
-/* Title text for image field */
-"COMMERCE_SHOP_MODULE_IMAGE_TITLE_TEXT" = "Product image";
-
-/* Disclaimer text for link field */
-"COMMERCE_SHOP_MODULE_LINK_DISCLAIMER_TEXT" = "Add the URL that links directly to this product on your website. You must include “http://” or “https://” in front of the URL.";
-
-/* Hint text for link field */
-"COMMERCE_SHOP_MODULE_LINK_HINT_TEXT" = "Enter product link";
-
-/* Title text for link field */
-"COMMERCE_SHOP_MODULE_LINK_TITLE_TEXT" = "Product link";
-
-/* Validation error text for link field */
-"COMMERCE_SHOP_MODULE_LINK_VALIDATION_ERROR_TEXT" = "Invalid product link";
-
-/* Title text for the profile spotlight button*/
-"COMMERCE_SHOP_MODULE_MANAGE_PROFILE_SPOTLIGHTS_BUTTON_TEXT" = "Manage Profile Spotlights";
-
-/* Title text for preview field */
-"COMMERCE_SHOP_MODULE_PREVIEW_TITLE_TEXT" = "Preview";
-
-/* Disclaimer text for price field */
-"COMMERCE_SHOP_MODULE_PRICE_DISCLAIMER_TEXT" = "Enter the price formatted as a number. Use a period (“.”) as the decimal point between dollars and cents.";
-
-/* Hint text for price field */
-"COMMERCE_SHOP_MODULE_PRICE_HINT_TEXT" = "0.00";
-
-/* Landing title text for price */
-"COMMERCE_SHOP_MODULE_PRICE_LANDING_TITLE_TEXT" = "Price";
-
-/* Title text for price field */
-"COMMERCE_SHOP_MODULE_PRICE_TITLE_TEXT" = "Price";
-
-/* Validation error text for price field */
-"COMMERCE_SHOP_MODULE_PRICE_VALIDATION_ERROR_TEXT" = "Invalid price";
-
-/* Title text for product media module */
-"COMMERCE_SHOP_MODULE_PRODUCT_MEDIA_TEXT" = "Media";
-
-/* The header title text for the roadblock modal, displayed when the merchat has an existing catalog in the expressway flow */
-"COMMERCE_SHOP_MODULE_ROAD_BLOCK_HEADER_TEXT" = "You already have a catalog";
-
-/* The sub header title text for the roadblock modal, displayed when the merchant has an existing catalog in the expressway flow */
-"COMMERCE_SHOP_MODULE_ROAD_BLOCK_SUB_TITLE_TEXT" = "Since you have a catalog already, head over to Shopping Manager on a desktop device. Once you’re there, you’ll be able to edit, manage, and publish your Shop Spotlight.";
-
-/* Attributed text for shopping manager within modal  */
-"COMMERCE_SHOP_MODULE_SHOPPING_MANAGER_ATTRIBUTED_TEXT" = "Shopping Manager";
-
-/* Text for the shopping manager that indicates the web url */
-"COMMERCE_SHOP_MODULE_SHOPPING_MANAGER_DETAILS_TEXT" = "Shopping Manager \nads.twitter.com/shopping_manager \nCopy link";
-
-/* Landing title text for shop */
-"COMMERCE_SHOP_MODULE_SHOP_LANDING_TITLE_TEXT" = "Shop";
-
-/* The header title text for shop spot light display on the modal */
-"COMMERCE_SHOP_MODULE_SPOTLIGHT_HEADER_TEXT" = "Your Shop Spotlight is ready";
-
-/* The sub header title text for shop spot light display on the modal */
-"COMMERCE_SHOP_MODULE_SPOTLIGHT_SUB_TITLE_TEXT" = "To add more products, use this link to access Shopping Manager on your desktop device — that’s where it works best.";
-
-/* Disclaimer text for title field */
-"COMMERCE_SHOP_MODULE_TITLE_DISCLAIMER_TEXT" = "This should be the name as it’s listed on your website.";
-
-/* Hint text for title field */
-"COMMERCE_SHOP_MODULE_TITLE_HINT_TEXT" = "Enter product title";
-
-/* Title text for title field */
-"COMMERCE_SHOP_MODULE_TITLE_TITLE_TEXT" = "Product title";
-
-/* Validation error text for title field */
-"COMMERCE_SHOP_MODULE_TITLE_VALIDATION_ERROR_TEXT" = "Invalid product title";
-
-/* Text for the toast when the shopping manager link is copied to the clipboard */
-"COMMERCE_SHOP_MODULE_TOAST_TEXT" = "Link copied to clipboard";
-
-/* The terms of service policy disclaimer text. */
-"COMMERCE_SHOP_MODULE_TOS_POLICY_ACTIVE_TEXT" = "Shopping Policies.";
-
-/* The active text within the terms of service policy, which directs the user to the TOS webpage. */
-"COMMERCE_SHOP_MODULE_TOS_POLICY_TEXT" = "By clicking “Save” to publish a Shop Spotlight, you agree to be bound by our Shopping Policies.";
-
-/* The title text for the view profile button */
-"COMMERCE_SHOP_MODULE_VIEW_PROFILE_BUTTON_TEXT" = "View Profile";
 
 /* Subtitle displayed on the Community Spotlight configuration page when there are no eligible Communities to select  */
 "COMMUNITIES_MODULE_CONFIGURATION_EMPTY_SUBTITLE" = "Only admins and moderators of Communities can Spotlight them on their profiles. Want to create a Community of your own?";
@@ -18475,12 +17196,6 @@ eg. "Super Following Jack" */
 /* Text to indicate that more spotlights will be available soon */
 "PROFILE_MODULE_CONFIGURATION_MORE_SPOTLIGHTS_COMING_SOON_TEXT" = "More Spotlights coming soon";
 
-/* Placeholder subtitle displayed on the Spotlight Configuration Page for the Shop spotlight when no title is provided by the backend */
-"SHOP_MODULE_PLACEHOLDER_SUBTITLE_WHEN_EMPTY" = "Allow people visiting your profile to browse your storefront. Go to Shopping Manager to edit your product offerings.";
-
-/* Placeholder title displayed on the Spotlight Configuration Page for the Shop spotlight when no title is provided by the backend */
-"SHOP_MODULE_PLACEHOLDER_TITLE_WHEN_EMPTY" = "Shop";
-
 /* Accessibility hint text format for the disable spotlight button */
 "SPOTLIGHT_CONFIGURATION_PAGE_DISABLE_BUTTON_ACCESSIBILITY_HINT_FORMAT" = "Remove Spotlight: %@";
 
@@ -18548,8 +17263,17 @@ eg. "Super Following Jack" */
 /* Accessibility label for the boosted label, indicating it's tappable */
 "BOOSTED_ACCESSIBILITY_LABEL" = "Boosted. Tap for details.";
 
+/* Accessibility label for the third-party boost label, indicating who boosted the post and that it's tappable. %@ is the booster's @handle. */
+"BOOSTED_BY_ACCESSIBILITY_LABEL_FORMAT" = "Boosted by %@. Tap for details.";
+
+/* Label shown on a post that was boosted by a third party, naming the booster. %@ is the booster's @handle. */
+"BOOSTED_BY_LABEL_FORMAT" = "Boosted by %@";
+
 /* Description format for the boosted post info sheet. %@ is the booster's name */
 "BOOSTED_INFO_SHEET_DESCRIPTION_FORMAT" = "This organic post was boosted by %@";
+
+/* Button label on the boosted post info sheet that acknowledges and dismisses the sheet */
+"BOOSTED_INFO_SHEET_GOT_IT_BUTTON" = "Got it";
 
 /* Title for the boosted post info sheet */
 "BOOSTED_INFO_SHEET_TITLE" = "Boosted Post";
@@ -18696,12 +17420,6 @@ eg. "Super Following Jack" */
 
 /* The accessibility label for unread notifications for logged-in accounts. For example if the userName is "jack" and there are 10 unread items, this will read "Account menu, @jack, 10 new items."  */
 "DASH_AVATAR_UNREAD_NOTIFICATIONS_ACCESSIBILITY_LABEL" = "Account menu, %1$@, %2$d new items";
-
-/* Label indicating that Shopping is a new menu item */
-"DASH_SHOPPING_NEW_LABEL" = "New";
-
-/* Title of button for user to create an account */
-"DASH_SOFT_USER_HEADER_CREATE_ACCOUNT_BUTTON_TITLE" = "Create an account";
 
 // Section: Frameworks/TwitterAdFormats/Sources/TwitterAdFormatsStrings/en.lproj/Localizable.strings
 
@@ -18889,144 +17607,6 @@ eg. "Super Following Jack" */
 
 // Title of Premium Hub
 "PREMIUM_HUB_TITLE" = "Premium";
-
-// Section: Frameworks/TwitterCommerce/Sources/TwitterCommerceStrings/en.lproj/Localizable.strings
-
-/* Accessibility label for a UI displaying details of an upcoming product release, consisting of: a title, the product name, and a description of when the product will be availabile, in that order.  Example: "Product drop.  Nike shoes.  Available 4/7 at 12pm." */
-"COMMERCE_DROP_ACCESSIBILITY_LABEL" = "%1$@.  %2$@.  %3$@";
-
-/* The message displayed in an alert when the user requests a reminder for a product drop, but has not yet responded to prompts asking for notification permissions. */
-"COMMERCE_DROP_AUTHORIZATION_MESSAGE_NOTIFICATIONS" = "Get notified about this drop? You’ll also get notifications when people follow you or send you a message.";
-
-/* A label that displays the date at which a product becomes available, e.g. "Available 3/5 at 12:00pm".  The first placeholder is a date, and the second is a time. */
-"COMMERCE_DROP_AVAILABILITY_LABEL" = "Available %1$@ at %2$@";
-
-/* This label is the title of a section that provides information about a shop */
-"COMMERCE_DROP_DETAILS_ABOUT_THIS_SHOP_LABEL" = "About this Shop";
-
-/* A label that displays the date at which a product becomes available, e.g. "3/5 at 12:00pm".  The first placeholder is a date, and the second is a time. */
-"COMMERCE_DROP_DETAILS_AVAILABILITY_LABEL" = "%1$@ at %2$@";
-
-/* This label is the title of a section that includes a link to posts talking about a particular commerce product. */
-"COMMERCE_DROP_DETAILS_JOIN_CONVERSATION_LABEL" = "Join the conversation";
-
-/* A label that is displayed above a description of a commerce product.  In other words, "details" refers to a product's details. */
-"COMMERCE_DROP_DETAILS_PRODUCT_DETAILS_LABEL" = "Details";
-
-/* A label that displays the date at which a product became available, e.g. "Dropped 3/5 at 12:00pm".  The first placeholder is a date, and the second is a time. */
-"COMMERCE_DROP_DROPPED_ON_LABEL" = "Dropped %1$@ at %2$@";
-
-/* A label that describes the number of people who have chosen to be reminded about an upcoming product release.  Example: 14K people set reminders. */
-"COMMERCE_DROP_REMINDER_LABEL" = "%@ people set reminders";
-
-/* The subtitle of a "toast" pop-up UI that displays after a reminder for a product release has been sucessfully removed.*/
-"COMMERCE_DROP_REMINDER_REMOVED_TOAST_DETAIL" = "Did you decide to write it down instead?";
-
-/* The title of a "toast" pop-up UI that displays after a reminder for a product release has been sucessfully removed.*/
-"COMMERCE_DROP_REMINDER_REMOVED_TOAST_TITLE" = "Reminder removed";
-
-/* The title of a button that allows a user to set a reminder.  This text is shown when the reminder has already been set.  The user can tap the button to toggle the state, causing the button text to change. */
-"COMMERCE_DROP_REMINDER_SET_BUTTON_TITLE" = "Reminder set";
-
-/* The subtitle of a "toast" pop-up UI that displays after a reminder has been sucessfully set.*/
-"COMMERCE_DROP_REMINDER_SET_TOAST_DETAIL" = "We’ll let you know when it’s time to shop the drop.";
-
-/* The title of a "toast" pop-up UI that displays after a reminder has been sucessfully set.*/
-"COMMERCE_DROP_REMINDER_SET_TOAST_TITLE" = "Reminder set";
-
-/* The title of a button that allows a user to set a reminder.  This text is shown when the reminder has not been set.  The user can tap the button to toggle the state, causing the button text to change. */
-"COMMERCE_DROP_REMIND_ME_BUTTON_TITLE" = "Remind me";
-
-/* A label that serves as the title for a UI displaying a product, where "drop" refers to the fact the product will or did "drop", i.e. the product will be, or was, released.*/
-"COMMERCE_DROP_TITLE_LABEL" = "Product drop";
-
-/* Accessibility label for the more options button on a commerce product cell, to show options like: report product etc. */
-"COMMERCE_PRODUCT_CELL_MORE_OPTIONS_BUTTON_ACCESSIBILITY_LABEL" = "More options";
-
-/* Accessibility label for the product image thumbnail view on a commerce product cell. */
-"COMMERCE_PRODUCT_CELL_PRODUCT_IMAGE_ACCESSIBILITY_LABEL" = "Product image";
-
-/* Accessibility label for the product image thumbnail view placeholder on a commerce product cell. */
-"COMMERCE_PRODUCT_CELL_PRODUCT_IMAGE_PLACEHOLDER_ACCESSIBILITY_LABEL" = "Product image will go here";
-
-/* Accessibility label for the Product price label when the product is on sale. */
-"COMMERCE_PRODUCT_PRICE_LABEL_SALE_PRICE_ACCESSIBILITY_LABEL_FORMAT" = "Sale price %1$@. Previously %2$@.";
-
-/* A label for the product price when the price is masked and the user is directed to the website. */
-"COMMERCE_PRODUCT_PRICE_MORE_INFO_ON_WEBSITE_LABEL" = "More info on website";
-
-/* A label for the product price when the price is masked. */
-"COMMERCE_PRODUCT_PRICE_SEE_DETAILS_LABEL" = "See details";
-
-/* Message details of information toast displayed after reporting a commerce product */
-"COMMERCE_PRODUCT_REPORT_SUBMITTED_MESSAGE_DETAILS" = "Our team will take a look as soon as possible";
-
-/* Title of information toast displayed after reporting a commerce product */
-"COMMERCE_PRODUCT_REPORT_SUBMITTED_MESSAGE_LABEL" = "Report submitted";
-
-/* Detailed description displayed when a Shop Grid does not have any products. */
-"COMMERCE_PRODUCT_SHOP_GRID_EMPTY_STATE_SUBTEXT" = "Check back later to see the latest products.";
-
-/* Discount label to show % off. */
-"COMMERCE_PRODUCT_SHOP_GRID_PERCENT_OFF_LABEL" = "%@%% OFF";
-
-/* Price with availability as preorder in a Product Card cell
- Please maintain the html tags <p></p> at the beginning and end of the string. The <span id="BOLD_TEXT"></span> tags should contain the portion of the text that should be bolded. */
-"COMMERCE_PRODUCT_SHOP_GRID_PREORDER_PREFIX_LABEL" = "<p>Preorder for <span id=\"BOLD_TEXT\">%1$@</span></p>";
-
-/* Title of a button that navigates to a screen showing all products rather than a single product.  *Please prefer more succinct translations where possible*, as this UI has limited horizontal space.  Alternatives such as "Show all", or "View all" are fine. */
-"COMMERCE_PRODUCT_TICKER_SHOP_ALL_PRODUCTS_BUTTON_TITLE" = "Shop all";
-
-/* Title of Commerce Product menu option to report a Commerce Product. */
-"COMMERCE_REPORT_COMMERCE_PRODUCT_LABEL" = "Report product";
-
-/* Subtitle of the report menu sheet with an option to report a commerce item for Intellectual Property Violation, along with the information of Product Key to use in the report. */
-"COMMERCE_REPORT_PRODUCT_IP_VIOLATION_SUBTITLE_FORMAT" = "Report intellectual property issues %1$@. Use the following unique Product Key in your report:";
-
-/* Title of the report menu sheet with an option to report a commerce item for Intellectual Property Violation */
-"COMMERCE_REPORT_PRODUCT_IP_VIOLATION_TITLE" = "Intellectual property violation";
-
-/* The title text for displaying a Product Key Value */
-"COMMERCE_REPORT_PRODUCT_KEY_TITLE" = "Product Key";
-
-/* The linked text for the subtitle of Intellectual Property Violation reporting of a commerce item which links to a help center for X */
-"COMMERCE_REPORT_PRODUCT_LINK_TEXT_FOR_IP_VIOLATION" = "here";
-
-/* Subtitle of report menu sheet to report a Commerce Product asking to describe the issue being reported. */
-"COMMERCE_REPORT_PRODUCT_MENU_SHEET_SUBTITLE" = "Describe the issue";
-
-/* Title of report menu sheet to report a Commerce Product. */
-"COMMERCE_REPORT_PRODUCT_MENU_SHEET_TITLE" = "Report a product";
-
-/* Title of the report menu sheet for an option to report a Commerce Item with harmful content */
-"COMMERCE_REPORT_PRODUCT_OTHER_VIOLATION_TITLE" = "Other violation";
-
-/* The button title of the error when a disabled shop is loaded. */
-"COMMERCE_SHOP_DISABLED_ERROR_BUTTON_TITLE" = "Go back";
-
-/* The subtitle of the error when a disabled shop is loaded. */
-"COMMERCE_SHOP_DISABLED_ERROR_SUBTITLE" = "Nothing to see here.";
-
-/* The title of the error when a disabled shop is loaded. */
-"COMMERCE_SHOP_DISABLED_ERROR_TITLE" = "This shop is no longer active";
-
-/* The title of a button that appears under a product, and which directs the user to that product's website. */
-"COMMERCE_SHOP_ON_WEB_BUTTON_TITLE" = "Shop on website";
-
-/* The title of the share button in the more options menu in shops. */
-"COMMERCE_SHOP_SHARE_VIA_TWEET_BUTTON_TITLE" = "Share via post";
-
-/* Title of a button that navigates to a screen showing merchant shop with all products. */
-"COMMERCE_VIEW_SHOP_BUTTON_TITLE" = "View shop";
-
-/* Generic message to show when a previous action was unsuccessful. */
-"SOMETHING_WRONG_ERROR_LABEL" = "Looks like something went wrong.";
-
-/* Sub-title of a screen that shows that an unexpected error occurred. See SOMETHING_WRONG_ERROR_TITLE_LABEL for the title string. */
-"SOMETHING_WRONG_SUBTITLE_ERROR_LABEL" = "But don’t worry - it’s not your fault.";
-
-/* Title of a button that allows the user to try a failed operation again. */
-"SOMETHING_WRONG_TRY_AGAIN_ERROR_BUTTON_TITLE" = "Try again";
 
 // Section: Frameworks/TFSLocalizedUtilities/Sources/TFSLocalizedUtilitiesStrings/en.lproj/Localizable.strings
 
@@ -19467,15 +18047,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* View profile action after tapping the avatar */
 "AVATAR_VIEW_PROFILE" = "View profile";
 
-/* Status of the audio call in DMs when it has ended. */
-"AV_CHAT_AUDIO_ENDED_STATUS" = "Audio call ended";
-
-/* Status of the audio call in DMs when it was missed. */
-"AV_CHAT_AUDIO_MISSED_STATUS" = "Missed audio call";
-
-/* Status of the audio call in DMs when it was nor ended properly or missed. Meant to be more generic */
-"AV_CHAT_AUDIO_STATUS" = "Audio call";
-
 /* Status of the Audio/Video call in DMs when the other user has not answered yet. */
 "AV_CHAT_CALLING_STATUS" = "Calling…";
 
@@ -19515,12 +18086,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Accessibility label of the button in AV Chat calls to leave (end) the call. Will be associated to the "Button" trait, so there is no need to add it to the translation */
 "AV_CHAT_END_CALL_BUTTON_ACCESSIBILITY_LABEL" = "End call";
 
-/* Format of the event displayed in Direct Messages when a call ends. %1$@ is replaced by a localized explanation (ex: Missed audio call), %2$@ is replaced by a localized time of the event (ex: 12:22 PM). */
-"AV_CHAT_END_EVENT_FORMAT" = "%1$@ %2$@";
-
-/* Format of the event displayed in Direct Messages when a call ends. %1$@ is replaced by a localized explanation (ex: Audio call ended), %2$@ is replaced by a localized time of the event (ex: 12:22 PM), and %3$@ is replaced by the duration of the call. */
-"AV_CHAT_END_EVENT_WITH_DURATION_FORMAT" = "%1$@ %2$@ ⋅ %3$@";
-
 /* Error message shown when the user tries to do an action (record a video, start a Space, etc.) during an audio/video call. */
 "AV_CHAT_ERROR_ACTION_NOT_AVAILABLE_DURING_A_CALL" = "This action is not available during a call.";
 
@@ -19545,17 +18110,11 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Error message shown when the audio/video call ends because of a technical error */
 "AV_CHAT_ERROR_TECHNICAL" = "This call has ended because of a technical error";
 
-/* Accessibility label of the button to start an audio call with another user in DMs. */
-"AV_CHAT_MENU_AUDIO_CALL_ACCESSIBILITY_LABEL" = "Audio call";
-
 /* Menu title to start an audio call with another user in DMs. */
 "AV_CHAT_MENU_AUDIO_CALL_TITLE" = "Audio call";
 
 /* Menu title to start a group call in DMs. */
 "AV_CHAT_MENU_GROUP_CALL_TITLE" = "Group call";
-
-/* Accessibility label of the button to start a video call with another user in DMs. */
-"AV_CHAT_MENU_VIDEO_CALL_ACCESSIBILITY_LABEL" = "Video call";
 
 /* Menu title to start a video call with another user in DMs. */
 "AV_CHAT_MENU_VIDEO_CALL_TITLE" = "Video call";
@@ -19571,15 +18130,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Accessibility label of the button in AV Chat calls to switch to front camera. Will be associated to the "Button" trait, so there is no need to add it to the translation */
 "AV_CHAT_SWITCH_TO_FRONT_CAMERA_BUTTON_ACCESSIBILITY_LABEL" = "Switch to front camera";
-
-/* Status of the video call in DMs when it has ended. */
-"AV_CHAT_VIDEO_ENDED_STATUS" = "Video call ended";
-
-/* Status of the video call in DMs when it was missed. */
-"AV_CHAT_VIDEO_MISSED_STATUS" = "Missed video call";
-
-/* Status of the video call in DMs when it was nor ended properly or missed. Meant to be more generic */
-"AV_CHAT_VIDEO_STATUS" = "Video call";
 
 /* Accessibility hint for the generic back action */
 "BACK_ACTION_ACCESSIBILITY_HINT" = "Goes back to previous screen";
@@ -19598,12 +18148,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Label for button to block the user handle or full name (unfollow and prevent from following you) */
 "BLOCK_ACTION_LABEL_FORMAT" = "Block %@";
-
-/* Label for button to block everything from the user (unfollow and prevent from following you or messaging you) */
-"BLOCK_EVERYTHING_ACTION_LABEL" = "Block everything";
-
-/* Label for button to block direct messages (DMs) from the user */
-"BLOCK_MESSAGE_ACTION_LABEL" = "Block messages";
 
 /* Label for button to block direct messages (DMs) from the user handle or full name */
 "BLOCK_MESSAGE_ACTION_LABEL_FORMAT" = "Block messages from %@";
@@ -19640,6 +18184,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Accessibility value for generic on/off button state in "ON" state */
 "BUTTON_ON_ACCESSIBILITY_VALUE" = "On";
+
+/* A button label in the preview of photo or video taken by camera to discard it and retake it, alongside use button. */
+"CAMERA_RETAKE_BUTTON_LABEL" = "Retake";
 
 /* Generic Cancel button title */
 "CANCEL_ACTION_LABEL" = "Cancel";
@@ -19746,20 +18293,11 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Info label displayed on the composer when the character limit exceeds default character limit */
 "COMPOSE_VIEW_LONG_TWEET_INFO_LABEL" = "Only the first %d characters will be visible on the timeline";
 
-/* accessibility label for compose screen attach media button */
-"COMPOSE_VIEW_PLUS_BUTTON_ACCESSIBILITY_LABEL" = "Attach media";
-
 /* Title for compose screen plus button context menu Camera action */
 "COMPOSE_VIEW_PLUS_BUTTON_CONTEXT_MENU_ACTION_CAMERA" = "Camera";
 
-/* Title for compose screen plus button context menu GIFs action */
-"COMPOSE_VIEW_PLUS_BUTTON_CONTEXT_MENU_ACTION_GIFS" = "GIFs";
-
 /* Title for compose screen plus button context menu Photos action */
 "COMPOSE_VIEW_PLUS_BUTTON_CONTEXT_MENU_ACTION_PHOTOS" = "Photos";
-
-/* Error presented to the user when DM send fails. */
-"COMPOSITION_SEND_DM_ERROR_LABEL" = "Your message couldn’t be sent at this time. Please try again later.";
 
 /* Error presented to the user when post send fails. */
 "COMPOSITION_SEND_TWEET_ERROR_LABEL" = "Your post couldn’t be sent right now and has been saved as a draft. Please try sending it again later.";
@@ -19806,12 +18344,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Accessibility label for Dash account menu */
 "DASH_ACCESSIBILITY_LABEL" = "Account Menu";
 
-/* Subtitle text prompting soft users to join X */
-"DASH_JOIN_TWITTER_DESCRIPTION_LABEL" = "Create an official X account to get the full experience.";
-
-/* Title text prompting soft users to join X */
-"DASH_JOIN_TWITTER_TITLE_LABEL" = "Join X today";
-
 /* Symbol used to represent a day in date patterns like DD/MM/YYYY. Used when we need to explain to the user what to type in a text field, for example. In english, typically D. Only one character. Uppercased. */
 "DATE_SYMBOL_DAY" = "D";
 
@@ -19824,23 +18356,8 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* No comment provided by engineer. */
 "DELETE_ACTION_LABEL" = "Delete";
 
-/* Placeholder text for DM compose text entry */
-"DIRECT_MESSAGES_COMPOSE_PLACEHOLDER" = "Start a message";
-
-/* Placeholder text for DM compose text entry when the user chose to reply to another message. */
-"DIRECT_MESSAGES_COMPOSE_REPLY_PLACEHOLDER" = "Reply";
-
 /* Accessibility label for a new direct message button. The button is displayed when user has not selected a conversation yet and allows user to start a new conversation. */
 "DIRECT_MESSAGES_NEW_MESSAGE_ACCESSIBILITY_LABEL" = "Compose New Message";
-
-/* Title of modal sheet showing all reactions to a message */
-"DIRECT_MESSAGES_REACTIONS_TITLE" = "Reactions";
-
-/* Describes a setting that lets the user decide whether Direct Message recipients can see when they have read their messages (read receipts) */
-"DIRECT_MESSAGES_READ_RECEIPTS_SETTING_DESCRIPTION" = "Let people you’re messaging with know when you’ve seen their messages.\n\nRead receipts are not shown on message requests. %@";
-
-/* Title of a setting that lets the user decide whether Direct Message recipients can see when they have read their messages (read receipts) */
-"DIRECT_MESSAGES_READ_RECEIPTS_SETTING_TITLE" = "Show read receipts";
 
 /* Title of setting for receiving Direct Messages from anyone */
 "DIRECT_MESSAGES_RECEIVE_FROM_ANYONE_SETTING_TITLE" = "Everyone";
@@ -19860,26 +18377,11 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Title of setting for receiving Direct Messages from verified users + following users */
 "DIRECT_MESSAGES_RECEIVE_FROM_VERIFIED_AND_FOLLOWING_SETTING_TITLE" = "Verified users";
 
-/* Title of modal sheet showing the participants that have seen a message */
-"DIRECT_MESSAGES_SEEN_BY_TITLE" = "Seen by";
-
 /* Description of setting to always allow messages from subscribers as a creator */
 "DIRECT_MESSAGE_ALWAYS_ALLOW_MESSAGES_FROM_SUBSCRIBERS_SETTING_DESCRIPTION" = "Your subscribers will always be able to send you messages independent of other messaging settings. %@";
 
 /* Title of setting to always allow messages from subscribers as a creator */
 "DIRECT_MESSAGE_ALWAYS_ALLOW_MESSAGES_FROM_SUBSCRIBERS_SETTING_TITLE" = "Allow messages from my subscribers";
-
-/* Description of setting to filter out low quality conversations in DM request inbox */
-"DIRECT_MESSAGE_LOW_QUALITY_FILTER_SETTING_DESCRIPTION" = "Hide message requests that have been detected as being potentially spam or low-quality. These will be sent to a separate inbox located at the bottom of your message requests. You can still access them if you want. %@";
-
-/* Title of setting to filter out low quality conversations in DM request inbox */
-"DIRECT_MESSAGE_LOW_QUALITY_FILTER_SETTING_TITLE" = "Filter low-quality messages";
-
-/* In-app notification shown when an AI Trend is shared via Direct message by the current user. %@ represents the recipient. */
-"DIRECT_MESSAGE_QUICK_SHARE_SHEET_AI_TREND_SENT_NOTIFICATION_FORMAT" = "Trend shared with %@";
-
-/* Accessibility text for reaction-creation button */
-"DIRECT_MESSAGE_REACTION_CREATION_BUTTON_ACCESSIBILITY_LABEL" = "Add reaction";
 
 /* Description of the section that allows the current user to select who can call them */
 "DIRECT_MESSAGE_SETTINGS_CALL_ACCEPT_FROM_DESCRIPTION" = "To reduce unwanted calls, you’ll need to have messaged an account at least once before they’re able to call you.";
@@ -19922,12 +18424,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Placeholder text shown until users are chosen for sharing a post via Direct Message." */
 "DIRECT_MESSAGE_SHARE_TWEET_ADDRESSING_BAR_PLACEHOLDER_TEXT" = "Search for people and groups";
-
-/* Accessibility hint for DM user picker selected rows */
-"DIRECT_MESSAGE_USER_PICKER_SELECTED_ROW_ACCESSIBILITY_HINT" = "Removes user";
-
-/* Accessibility hint for DM user picker unselected rows */
-"DIRECT_MESSAGE_USER_PICKER_UNSELECTED_ROW_ACCESSIBILITY_HINT" = "Selects a user";
 
 /* Title of the cancel action for the Verification upsell sheet displayed when someone tries to DM someone else while being unverified. */
 "DIRECT_MESSAGE_VERIFIED_CANCEL_ACTION_LABEL" = "No thanks";
@@ -19982,9 +18478,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Label for button indicating you have just followed this user. */
 "FOLLOWED_ACTION_LABEL" = "Followed";
-
-/* Label for button indicating you have just followed this user back (the user was already following you). */
-"FOLLOWED_BACK_ACTION_LABEL" = "Followed back";
 
 /* Title for Followers view */
 "FOLLOWERS_LABEL" = "Followers";
@@ -20427,6 +18920,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Title shown at the top of the feedback sheet */
 "RELEVANCE_PROMPT_FEEDBACK_TITLE_LABEL" = "Feedback";
 
+/* Confirmation shown after a person taps No on the inline relevance prompt */
+"RELEVANCE_PROMPT_INLINE_NEGATIVE_CONFIRMATION" = "Thanks for your help. You’ll see fewer posts like this.";
+
+/* Confirmation shown after a person taps Yes on the inline relevance prompt */
+"RELEVANCE_PROMPT_INLINE_POSITIVE_CONFIRMATION" = "Thanks for your help. We’ll show you more posts like this.";
+
 /* Remove saved search button title */
 "REMOVE_ACTION_LABEL" = "Remove";
 
@@ -20450,9 +18949,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Report List user action in the List Details page. */
 "REPORT_LIST" = "Report List";
-
-/* Label for button to report a spammy or compromised account. */
-"REPORT_USER_ACTION_LABEL" = "Report";
 
 /* Label for button to report a spammy or compromised account showing the user handle or full name. */
 "REPORT_USER_ACTION_LABEL_FORMAT" = "Report %@";
@@ -20505,9 +19001,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* 'Web' default text to help user understand that the destination is the internet. */
 "REVENUE_UNIFIED_WEB_CARD_WEB_LABEL" = "Web";
 
-/* Save accessibility action label. */
-"SAVE_ACCESSIBILITY_ACTION_LABEL" = "Save";
-
 /* Save button  */
 "SAVE_ACTION_LABEL" = "Save";
 
@@ -20546,9 +19039,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Title for sending post(s) button. Note that the word "Post" is used as a verb here. */
 "SEND_TWEET_ACTION_LABEL" = "Post";
-
-/* Label for action item subtitle for the way the post will be shared */
-"SEND_VIA_DIRECT_MESSAGE_ACTION_LABEL" = "via Chat";
 
 /* Sensitive media interstitial separator used to separate multiple kinds of content types e.g. "This content was marked as Violence, Nudity, Sensitive" */
 "SENSITIVE_MEDIA_INTERSTITIAL_SEPARATOR" = ", ";
@@ -20694,9 +19184,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Button label to share a post via Direct Message */
 "SHARE_VIA_DIRECT_MESSAGE_ACTION_LABEL" = "Send via Chat";
-
-/* Button label to share a post via Direct Message */
-"SHARE_VIA_DIRECT_MESSAGE_SHORT_ACTION_LABEL" = "Message";
 
 /* 3D Touch application shortcut deeplinking to Grok */
 "SHORTCUT_GROK_TITLE" = "Ask Grok";
@@ -20960,18 +19447,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /*Label for displaying Tomorrow text */
 "TOMORROW_LABEL_TEXT" = "Tomorrow";
 
-/* Label on button to follow a Topic. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPICS_FOLLOW_TOPIC_ACTION_LABEL" = "Follow Topic";
-
-/* Label for Not Interested Topics. Used in headers. The word for "Topic" should always be capitalized, but is not a proper noun and should otherwise be translated normally. */
-"TOPICS_NOT_INTERESTED_LABEL" = "Not Interested";
-
-/* Label on button to view a Topic. */
-"TOPICS_SEE_MORE_ACTION_LABEL" = "See more";
-
-/* Accessibility hint for viewing a Topic. When a user activates this item, they will be take to a new screen that shows the posts associated with that Topic. */
-"TOPIC_VIEW_ACCESSIBILITY_HINT" = "Views posts associated with Topic.";
-
 /* Button title for translation button for post, bio, community notes etc.*/
 "TRANSLATION_BUTTON_TITLE" = "Show translation";
 
@@ -20980,9 +19455,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* The alert message that informs the user that an error occurred so their report could not be filed. */
 "TRENDS_AI_REPORT_TREND_FAILURE_ALERT_MESSAGE" = "An error occurred when reporting this trend. Please try again later.";
-
-/* The alert message that informs the user that an error occurred so their trend did not get saved. */
-"TRENDS_AI_SAVE_TREND_FAILURE_ALERT_MESSAGE" = "This trend could not be saved. Please try again later.";
 
 /* Label to share an AI Trend via post. */
 "TRENDS_AI_SHARE_LABEL" = "Post this";
@@ -21004,12 +19476,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Label for button to unblock the user handle or name */
 "UNBLOCK_ACTION_LABEL_FORMAT" = "Unblock %@";
-
-/* Label for button to unblock the user */
-"UNBLOCK_EVERYTHING_ACTION_LABEL" = "Unblock everything";
-
-/* Label for button to unblock direct messages (DMs) from the user */
-"UNBLOCK_MESSAGE_ACTION_LABEL" = "Unblock messages";
 
 /* Label for button to unblock direct messages (DMs) from the user handle or name */
 "UNBLOCK_MESSAGE_ACTION_LABEL_FORMAT" = "Unblock messages from %@";
@@ -21353,8 +19819,20 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Chat permission open settings button title */
 "CHAT_PERMISSION_OPEN_SETTINGS" = "Open Settings";
 
+/* Photo library access denied alert title */
+"CHAT_PHOTO_ACCESS_DENIED_TITLE" = "Photo Library Access Required";
+
 /* Replying to yourself label */
 "CHAT_REPLYING_TO_YOURSELF" = "Replying to yourself";
+
+/* Toast confirmation shown after the user sends a reply from the full-screen media viewer. */
+"CHAT_REPLY_SENT_TOAST" = "Reply sent";
+
+/* Alert message shown when the user taps the Save action on a media attachment in a chat message but photo library access was previously denied. Instructs the user to allow access in iOS Settings. */
+"CHAT_SAVE_MEDIA_PHOTO_ACCESS_DENIED_MESSAGE" = "Allow photo library access in Settings to save photos and videos from messages to your library.";
+
+/* Settings title */
+"CHAT_SETTINGS" = "Settings";
 
 /* Cancel button shown in the X Chat share extension navigation bar to dismiss the share sheet without sending. */
 "CHAT_SHARE_EXTENSION_CANCEL_TITLE" = "Cancel";
@@ -25020,6 +23498,9 @@ eg. "- @jack" */
 /* Label shown on the boosted badge in the boost education animation. */
 "QUICK_PROMOTE_EDUCATION_BOOSTED" = "Boosted";
 
+/* Label shown on the boosted badge in the boost education animation, naming the user who boosted the post. %1$@ is the booster's @handle. */
+"QUICK_PROMOTE_EDUCATION_BOOSTED_BY_FORMAT" = "Boosted by %1$@";
+
 /* Title of the attribution section in the boost education animation. */
 "QUICK_PROMOTE_EDUCATION_BOOSTED_POST" = "Boosted Post";
 
@@ -25239,18 +23720,6 @@ eg. "- @jack" */
 
 /* Accessibility label for the Unified Card Collection layout type which contains 1 to many images that can be interacted with. We will announce how many images are in the collection.*/
 "UC_COLLECTION_IMAGE_ACCESSIBILITY_LABEL" = "Collection of %d images";
-
-/* Unified Card Commerce Shop Details: Accessibility label format string for Merchant’s shop. */
-"UC_COMMERCE_SHOP_DETAILS_MERCHANT_SHOP_ACCESSIBILITY_LABEL_FORMAT" = "%@’s shop";
-
-/* Unified Card Commerce Shop Details: A format string to display multiple products count. */
-"UC_COMMERCE_SHOP_DETAILS_MULTIPLE_PRODUCTS_FORMAT" = "%d products";
-
-/* Unified Card Commerce Shop Details: A format string to display single product count. */
-"UC_COMMERCE_SHOP_DETAILS_SINGLE_PRODUCT_FORMAT" = "%d product";
-
-/* Unified Card Commerce Shop Details: A label text for View shop. */
-"UC_COMMERCE_SHOP_DETAILS_VIEW_SHOP_LABEL" = "View shop";
 
 /* Accessibility label for the Unified Card Swipeable component. Users can swipe horizontally to select an image or video slide. */
 "UC_COMPONENT_CAROUSEL_ACCESSIBILITY_LABEL" = "Carousel";
@@ -25644,9 +24113,6 @@ eg. "- @jack" */
 /* Photo library access denied alert message */
 "CHAT_PHOTO_ACCESS_DENIED_MESSAGE" = "Allow photo library access in Settings to save photos and videos from the camera.";
 
-/* Photo library access denied alert title */
-"CHAT_PHOTO_ACCESS_DENIED_TITLE" = "Photo Library Access Required";
-
 /* Translation attribution label. %@: source language name (e.g. "Japanese") */
 "CHAT_POST_TRANSLATED_FROM" = "Translated from %@";
 
@@ -25704,17 +24170,11 @@ eg. "- @jack" */
 /* Reply preview post attachment label */
 "CHAT_REPLY_ATTACHMENT_POST" = "Post";
 
-/* Reply preview URL attachment label */
-"CHAT_REPLY_ATTACHMENT_URL" = "URL";
-
 /* Unknown user fallback name */
 "CHAT_REPLY_UNKNOWN_USER" = "Someone";
 
 /* Reset button label */
 "CHAT_RESET" = "Reset";
-
-/* Alert message shown when the user taps the Save action on a media attachment in a chat message but photo library access was previously denied. Instructs the user to allow access in iOS Settings. */
-"CHAT_SAVE_MEDIA_PHOTO_ACCESS_DENIED_MESSAGE" = "Allow photo library access in Settings to save photos and videos from messages to your library.";
 
 /* Save to photos label */
 "CHAT_SAVE_TO_PHOTOS" = "Save to Photos";
@@ -25733,9 +24193,6 @@ eg. "- @jack" */
 
 /* Message sending status */
 "CHAT_SENDING" = "Sending";
-
-/* Settings title */
-"CHAT_SETTINGS" = "Settings";
 
 /* Settings section header grouping app-level preferences */
 "CHAT_SETTINGS_SECTION_APP" = "App";
@@ -26145,9 +24602,6 @@ eg. "- @jack" */
 /* Default title of users list */
 "SOCIAL_CONTEXT_USERS_TITLE_LABEL" = "Users";
 
-/* Accessibility label for social context to show that the post is related to a topic, ie "Post from Topic: Disney" */
-"TOPIC_SOCIAL_CONTEXT_ACCESSIBILITY_LABEL" = "Post from Topic: %@";
-
 /* Add location tag to the post separated by a dash. The purpose is to be able to first read the post and afterwards its location. The location will be a specific place (i.e. "X Building"). The "{{location}}" placeholder may be anywhere after the dash in the translated string. Do not translate {{tweet_text}}. */
 "TWEET_WITH_PLACE_DASH_FORMAT" = "{{tweet_text}} – at {{location}}";
 
@@ -26232,6 +24686,9 @@ eg. "- @jack" */
 /* Title of a prompt shown in the composer informing user that a poll cannot be included in Community posts. */
 "COMMUNITY_UNABLE_TO_ADD_POLL_TO_TWEET_TITLE" = "Polls aren’t allowed in Communities … yet";
 
+/* Label on the v2 follow button indicating you have followed this user back */
+"FOLLOWED_BACK_ACTION_LABEL_V2" = "Followed Back";
+
 /* Accessibility label indicating you are currently following this user. */
 "FOLLOWING_ACTION_ACCESSIBILITY_LABEL" = "Following";
 
@@ -26246,6 +24703,9 @@ eg. "- @jack" */
 
 /* Label on button to follow user back */
 "FOLLOW_BACK_ACTION_LABEL" = "Follow back";
+
+/* Label on the v2 follow button to follow user back */
+"FOLLOW_BACK_ACTION_LABEL_V2" = "Follow Back";
 
 /* Label for follow control showing state of user as being blocked.  Text must be short! */
 "FOLLOW_CONTROL_BLOCKED_LABEL" = "Blocked";
@@ -26476,6 +24936,86 @@ eg. "- @jack" */
 
 /* Accessibility label for the text tool toolbar button */
 "XPHOTOEDITOR_TEXT_TOOL_ACCESSIBILITY_LABEL" = "Text";
+
+// Section: Frameworks/XVideoRecorder/Sources/XVideoRecorderStrings/en.lproj/Localizable.strings
+
+/* Accessibility label for the render mode button in the video reaction camera that overlays the user's silhouette on top of the source post (a.k.a. "Green screen" mode). */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_GREEN_SCREEN" = "Person overlay";
+
+/* Accessibility label for the render mode button in the video reaction camera that shows the user's camera as a small picture-in-picture over the source post. */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_PICTURE_IN_PICTURE" = "Picture in picture";
+
+/* Accessibility label for the action button in the video reaction camera that toggles whether the source post media is rendered in the reaction. */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_POST_MEDIA" = "Toggle post media";
+
+/* Accessibility label for the render mode button in the video reaction camera that shows the source post and the user's camera side by side. */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_SIDE_BY_SIDE" = "Side by side";
+
+/* Accessibility label for the action button in the video reaction camera that swaps which side the source post is rendered on in split layouts. */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_SWAP_LAYOUT" = "Swap layout sides";
+
+/* Accessibility label for the render mode button in the video reaction camera that stacks the source post and the user's camera vertically. */
+"NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_TOP_AND_BOTTOM" = "Top and bottom";
+
+/* Display name for the "Green screen" render mode in the video reaction camera, which overlays the user's silhouette on top of the source post. */
+"NEWSCAMERA_REACTION_RENDER_MODE_GREEN_SCREEN" = "Green screen";
+
+/* Display name for the "Left & Right" render mode in the video reaction camera, which shows the source post and the user's camera side by side. */
+"NEWSCAMERA_REACTION_RENDER_MODE_LEFT_AND_RIGHT" = "Left & Right";
+
+/* Display name for the "Picture in Picture" render mode in the video reaction camera, which shows the user's camera as a small picture-in-picture over the source post. */
+"NEWSCAMERA_REACTION_RENDER_MODE_PICTURE_IN_PICTURE" = "Picture in Picture";
+
+/* Display name for the "Top & Bottom" render mode in the video reaction camera, which stacks the source post and the user's camera vertically. */
+"NEWSCAMERA_REACTION_RENDER_MODE_TOP_AND_BOTTOM" = "Top & Bottom";
+
+/* Toast shown in the video reaction camera when the user toggles off rendering the source post's media, leaving only the post itself in the reaction. */
+"NEWSCAMERA_REACTION_TOAST_RENDER_POST_MEDIA_ONLY" = "Render post media only";
+
+/* Toast shown in the video reaction camera when the user toggles on rendering the source post's media alongside the post. */
+"NEWSCAMERA_REACTION_TOAST_RENDER_POST_WITH_MEDIA" = "Render post with media";
+
+/* Title for the confirmation alert shown when the user taps retake to discard a photo they just captured in the video recorder. The alert presents Cancel and Discard buttons. */
+"NEWSCAMERA_RECORDER_DISCARD_PHOTO_ALERT_TITLE" = "Discard photo?";
+
+/* Label in the video recorder's duration selector for a maximum recording length of 10 minutes, abbreviated. The "m" stands for minutes. Keep it short. */
+"NEWSCAMERA_RECORDER_DURATION_10M" = "10m";
+
+/* Label in the video recorder's duration selector for a maximum recording length of 15 seconds, abbreviated. The "s" stands for seconds. Keep it short. */
+"NEWSCAMERA_RECORDER_DURATION_15S" = "15s";
+
+/* Label in the video recorder's duration selector for a maximum recording length of 30 minutes, abbreviated. The "m" stands for minutes. Keep it short. */
+"NEWSCAMERA_RECORDER_DURATION_30M" = "30m";
+
+/* Label in the video recorder's duration selector for a maximum recording length of 60 seconds, abbreviated. The "s" stands for seconds. Keep it short. */
+"NEWSCAMERA_RECORDER_DURATION_60S" = "60s";
+
+/* Label in the video recorder's capture mode selector for switching to photo capture, shown to the right of the recording duration options. Displayed in all caps to match the design. Keep it short. */
+"NEWSCAMERA_RECORDER_MODE_PHOTO" = "PHOTO";
+
+/* Label shown at the bottom of the video recorder indicating that the captured media will be shared as a post. Displayed in all caps to match the design. Keep it short. */
+"NEWSCAMERA_RECORDER_POST_LABEL" = "POST";
+
+/* Accessibility label for the button in the video recorder that opens the menu for choosing a video background. */
+"NEWSCAMERA_SET_VIDEO_BACKGROUND_ACTION_ACCESSIBILITY_LABEL" = "Set video background";
+
+/* Menu option in the video recorder, shown under the "Set Video Background" title, that lets the user react to an existing post with their video. */
+"NEWSCAMERA_SET_VIDEO_BACKGROUND_REACT_TO_POST" = "React to a post";
+
+/* Title of the menu in the video recorder that lets the user pick a background for their video. */
+"NEWSCAMERA_SET_VIDEO_BACKGROUND_TITLE" = "Set video background";
+
+/* Menu option in the video recorder, shown under the "Set Video Background" title, that lets the user pick a video from their photo library to use as the background. */
+"NEWSCAMERA_SET_VIDEO_BACKGROUND_UPLOAD_FROM_LIBRARY" = "Upload from Library";
+
+/* Title for the confirmation alert shown when the user taps the back button on the video reaction editor screen. The alert presents Cancel and Discard buttons and discards all recorded clips and edits if confirmed. */
+"TWEET_REACTION_DISCARD_ALL_CHANGES_ALERT_TITLE" = "Discard all changes?";
+
+/* Title for the confirmation alert shown when the user taps Retake on the video reaction preview screen. The alert presents Cancel and Discard buttons and clears all recorded clips if confirmed. */
+"TWEET_REACTION_DISCARD_ALL_CLIPS_ALERT_TITLE" = "Discard all clips?";
+
+/* Title for the confirmation alert shown when the user taps undo to remove the last recorded clip in the video reaction camera. The alert presents Cancel and Discard buttons. */
+"TWEET_REACTION_DISCARD_LAST_CLIP_ALERT_TITLE" = "Discard the last clip?";
 
 // Section: Frameworks/TwitterHome/Sources/TwitterHomeStrings/en.lproj/Localizable.strings
 
