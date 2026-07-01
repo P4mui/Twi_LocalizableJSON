@@ -56,6 +56,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 // Section: Frameworks/XDesignSystem/Sources/XDesignSystemStrings/en.lproj/Localizable.strings
 
+/* Accessibility label for an XDSButton whose content is a loading spinner. */
+"XDS_BUTTON_LOADING_ACCESSIBILITY_LABEL" = "Loading";
+
 /* Accessibility label for the XDS Tray header back button. */
 "XDS_TRAY_BACK_BUTTON_ACCESSIBILITY_LABEL" = "Back";
 
@@ -2907,6 +2910,9 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Label for edit profile button in Profiles.  Should be approx 17 characters or shorter */
 "EDIT_PROFILE_BUTTON_LABEL" = "Edit profile";
+
+/* Label for the edit-profile button in the redesigned profile header action row. */
+"EDIT_PROFILE_BUTTON_LABEL_V2" = "Edit Profile";
 
 /* Format for error message to show when edit profile field input exceeds the max length. */
 "EDIT_PROFILE_FORM_FIELD_MAX_LENGTH_FORMAT" = "Must be %d characters or fewer.";
@@ -7333,6 +7339,9 @@ This text is the accessibility hint for the button that lets the user change the
 /* Label for button the shows the setup profile flow (what new users see instead of “Edit profile”). */
 "SETUP_PROFILE_BUTTON_LABEL" = "Set up profile";
 
+/* Label for the setup-profile button in the redesigned profile header action row. */
+"SETUP_PROFILE_BUTTON_LABEL_V2" = "Set Up";
+
 /* Label for tooltip prompt shown when new users arrive on the profile */
 "SETUP_PROFILE_PROMPT_LABEL" = "Your posts will show up here, but let’s set up your profile first.";
 
@@ -7349,7 +7358,7 @@ This text is the accessibility hint for the button that lets the user change the
 "SHARE_BUTTON_ACCESSIBILITY_HINT" = "Double-tap to share";
 
 /* Label for the share-profile button in the redesigned profile header action row. */
-"SHARE_PROFILE_BUTTON_LABEL" = "Share profile";
+"SHARE_PROFILE_BUTTON_LABEL" = "Share Profile";
 
 /* Footer text on the profile share card */
 "SHARE_PROFILE_CARD_FOOTER_LABEL" = "Join me on";
@@ -7713,12 +7722,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Action label text in the post action menu that encourages users to edit their post with a Premium subscription */
 "SUBSCRIPTION_MARKETING_EDIT_TWEET_UPSELL_ACTION_LABEL" = "Edit with Premium";
-
-/* Longer description of the setting that allows users to hide their likes tab. */
-"SUBSCRIPTION_PREMIUM_HIDE_LIKES_SETTING_DETAIL" = "Your Likes tab on your profile will only be visible to you. Your Likes timeline will also be hidden from the X APIs. Your individual Likes will still be visible on posts.";
-
-/* Title of the setting that allows users to hide their likes tab. */
-"SUBSCRIPTION_PREMIUM_HIDE_LIKES_SETTING_TITLE" = "Hide Likes tab";
 
 /* Longer description of the setting that allows users to hide their subscriptions tab. */
 "SUBSCRIPTION_PREMIUM_HIDE_SUBSCRIPTIONS_SETTING_DETAIL" = "Your list of Subscriptions on your profile will only be visible to you.";
@@ -8853,8 +8856,8 @@ eg. "Super Following Jack" */
 /* Title for inline media video end screen watch again button */
 "VIDEO_END_SCREEN_WATCH_AGAIN_LABEL" = "Watch again";
 
-/* Message shown over an inline video when the same video is currently playing in the dock */
-"VIDEO_PLAYING_IN_DOCK" = "Video is playing in dock";
+/* Label shown over an inline video, next to a dock icon, when the same video is currently playing in the dock */
+"VIDEO_PLAYING_IN_DOCK" = "Docked";
 
 /* Title for button to open bluetooth and airplay menu*/
 "VIDEO_SETTINGS_AIRPLAY_AND_BLUETOOTH" = "Airplay & Bluetooth";
@@ -14167,6 +14170,9 @@ eg. "Super Following Jack" */
 /* Payments: Title of the chat support screen, that lists the different conversations */
 "PAYMENTS_CHAT_SUPPORT_TITLE" = "Support";
 
+/* Payments: Information shown on the check deposit flow amount screen */
+"PAYMENTS_CHECK_DEPOSIT_AMOUNT_DESCRIPTION" = "Enter the amount shown on your check";
+
 /* Payments: Section title for the check amount input on the check deposit screen */
 "PAYMENTS_CHECK_DEPOSIT_AMOUNT_TITLE" = "Check amount";
 
@@ -14198,10 +14204,10 @@ eg. "Super Following Jack" */
 "PAYMENTS_CHECK_DEPOSIT_RETRY_ACTION" = "Tap to retry";
 
 /* Payments: Button label to scan the back of the check */
-"PAYMENTS_CHECK_DEPOSIT_SCAN_BACK_ACTION" = "Scan back";
+"PAYMENTS_CHECK_DEPOSIT_SCAN_BACK_ACTION" = "Scan Back of Check";
 
 /* Payments: Button label to scan the front of the check */
-"PAYMENTS_CHECK_DEPOSIT_SCAN_FRONT_ACTION" = "Scan front";
+"PAYMENTS_CHECK_DEPOSIT_SCAN_FRONT_ACTION" = "Scan Front of Check";
 
 /* Payments: Label for the button to accept a payment link sent by another user. */
 "PAYMENTS_CLAIM_TRANSFER_LINK_ACCEPT_BUTTON" = "Accept Payment";
@@ -14637,6 +14643,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Error title shown when someone tries to onboard with a VPN or Proxy on. */
 "PAYMENTS_ERROR_ONBOARDING_WITH_VPN_TITLE" = "It appears you are using a VPN";
+
+/* Payments: Error shown when the customer tries to share a transaction and the other party (for a P2P payment) has disabled sharing. */
+"PAYMENTS_ERROR_OTHER_PARTY_DISABLED_SHARING_TITLE" = "The other user has disabled transaction sharing";
 
 /* Payments: Additional message shown when a transfer using a payment method is not possible because it has expired */
 "PAYMENTS_ERROR_PAYMENT_METHOD_EXPIRED_MESSAGE" = "Your payment method has expired. Please update it or add a new bank account/debit card and try again.";
@@ -15871,6 +15880,9 @@ eg. "Super Following Jack" */
 /* Payments: Title of the screen to replace the customer's virtual card */
 "PAYMENTS_REPLACE_VIRTUAL_CARD_CONFIRM_TITLE" = "Replace your card";
 
+/* Payments: Action to reply to a P2P transfer on X Money, using X Chat */
+"PAYMENTS_REPLY_WITH_XCHAT_ACTION" = "Message";
+
 /* Payments: Title of the button to request money */
 "PAYMENTS_REQUEST_ACTION" = "Request";
 
@@ -16203,6 +16215,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Action to set up two-factor authentication */
 "PAYMENTS_SETUP_TWO_FACTOR_AUTH_ACTION" = "Set up";
+
+/* Payments: Action to share a transaction (ex: in a post, messages, etc.) */
+"PAYMENTS_SHARE_TRANSACTION_ACTION" = "Share";
 
 /* Payments: Action to share the payment link that was just created */
 "PAYMENTS_SHARE_TRANSFER_LINK_ACTION" = "Share link";
@@ -20644,6 +20659,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Conversation message request action disabled title */
 "DM_CONVERSATION_MESSAGE_REQUEST_ACTION_DISABLED_TITLE" = "Feature unavailable";
 
+/* DM Conversation message request block alert message */
+"DM_CONVERSATION_MESSAGE_REQUEST_BLOCK_ALERT_MESSAGE" = "This message request will be deleted. They won’t be able to send you messages in the future.";
+
+/* DM Conversation message request block alert title */
+"DM_CONVERSATION_MESSAGE_REQUEST_BLOCK_ALERT_TITLE" = "Are you sure?";
+
 /* DM Conversation participant Admin label */
 "DM_CONVERSATION_PARTICIPANT_ADMIN_LABEL" = "Admin";
 
@@ -20908,14 +20929,20 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Inbox message requests delete all button title */
 "DM_INBOX_MESSAGE_REQUESTS_DELETE_ALL_TITLE" = "Delete All";
 
+/* DM Inbox message requests hidden disclaimer */
+"DM_INBOX_MESSAGE_REQUESTS_HIDDEN_DISCLAIMER" = "These message requests may be spam or lower priority.";
+
 /* DM Inbox message requests hidden empty message */
-"DM_INBOX_MESSAGE_REQUESTS_HIDDEN_EMPTY_MESSAGE" = "Messages from other people will appear here";
+"DM_INBOX_MESSAGE_REQUESTS_HIDDEN_EMPTY_MESSAGE" = "These message requests may be spam or lower priority";
 
 /* DM Inbox message requests hidden empty title */
 "DM_INBOX_MESSAGE_REQUESTS_HIDDEN_EMPTY_TITLE" = "No hidden requests";
 
 /* DM Inbox message requests hidden tab title */
 "DM_INBOX_MESSAGE_REQUESTS_HIDDEN_TITLE" = "Hidden";
+
+/* DM Inbox message requests other tab title */
+"DM_INBOX_MESSAGE_REQUESTS_OTHER_TITLE" = "Other";
 
 /* DM Inbox message requests priority empty message */
 "DM_INBOX_MESSAGE_REQUESTS_PRIORITY_EMPTY_MESSAGE" = "Messages from people you might know will appear here";
@@ -20925,6 +20952,18 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Inbox message requests priority tab title */
 "DM_INBOX_MESSAGE_REQUESTS_PRIORITY_TITLE" = "Priority";
+
+/* DM Inbox message requests row preview, exactly one additional sender beyond the two named */
+"DM_INBOX_MESSAGE_REQUESTS_ROW_PREVIEW_AND_OTHER" = "%@ and 1 other";
+
+/* DM Inbox message requests row preview, multiple additional senders beyond the two named */
+"DM_INBOX_MESSAGE_REQUESTS_ROW_PREVIEW_AND_OTHERS" = "%1$@ and %2$@ others";
+
+/* DM Inbox message requests row preview fallback */
+"DM_INBOX_MESSAGE_REQUESTS_ROW_PREVIEW_FALLBACK" = "Nothing to see here, yet";
+
+/* DM Inbox message requests row preview, two senders joined */
+"DM_INBOX_MESSAGE_REQUESTS_ROW_PREVIEW_TWO_NAMES" = "%1$@ and %2$@";
 
 /* DM Inbox message requests title */
 "DM_INBOX_MESSAGE_REQUESTS_TITLE" = "Message Requests";
@@ -21413,6 +21452,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Message Attachment Preview when unnamed user sent multiple videos */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_MANY_VIDEO" = "Sent %@ videos";
 
+/* DM Message Attachment Preview when unnamed user sent a payment */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_PAYMENT" = "Sent a payment";
+
 /* DM Message Attachment Preview when unnamed user sent a photo */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_PHOTO" = "Sent a photo";
 
@@ -21448,6 +21490,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Message Attachment Preview when user sent multiple videos. %1$@: user display name, %2$@: count */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_MANY_VIDEO" = "•|•%1$@•|•: Sent %2$@ videos";
+
+/* DM Message Attachment Preview when user sent a payment. %@: user display name */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_PAYMENT" = "•|•%@•|•: Sent a payment";
 
 /* DM Message Attachment Preview when user sent a photo. %@: user display name */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_PHOTO" = "•|•%@•|•: Sent a photo";
@@ -21485,6 +21530,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Message Attachment Preview when you send multiple videos */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_MANY_VIDEO" = "You sent %@ videos";
 
+/* DM Message Attachment Preview when you send a payment */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_PAYMENT" = "You sent a payment";
+
 /* DM Message Attachment Preview when you send a photo */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_PHOTO" = "You sent a photo";
 
@@ -21511,6 +21559,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Message Reaction Preview when unnamed user reacted to link. %@: emoji reaction */
 "DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_LINK" = "Reacted %@ to a link";
+
+/* DM Message Reaction Preview when unnamed user reacted to a payment. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_PAYMENT" = "Reacted %@ to a payment";
 
 /* DM Message Reaction Preview when unnamed user reacted to photo. %@: emoji reaction */
 "DM_MESSAGE_PREVIEW_REACTION_UNNAMED_REACTED_TO_PHOTO" = "Reacted %@ to a photo";
@@ -21542,6 +21593,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Message Reaction Preview when user reacted to link. %1$@: user display name, %2$@: emoji reaction */
 "DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_LINK" = "•|•%1$@•|•: Reacted %2$@ to a link";
 
+/* DM Message Reaction Preview when user reacted to a payment. %1$@: user display name, %2$@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_PAYMENT" = "•|•%1$@•|•: Reacted %2$@ to a payment";
+
 /* DM Message Reaction Preview when user reacted to photo. %1$@: user display name, %2$@: emoji reaction */
 "DM_MESSAGE_PREVIEW_REACTION_USER_REACTED_TO_PHOTO" = "•|•%1$@•|•: Reacted %2$@ to a photo";
 
@@ -21571,6 +21625,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Message Reaction Preview when you reacted to link. %@: emoji reaction */
 "DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_LINK" = "You reacted %@ to a link";
+
+/* DM Message Reaction Preview when you reacted to a payment. %@: emoji reaction */
+"DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_PAYMENT" = "You reacted %@ to a payment";
 
 /* DM Message Reaction Preview when you reacted to photo. %@: emoji reaction */
 "DM_MESSAGE_PREVIEW_REACTION_YOU_REACTED_TO_PHOTO" = "You reacted %@ to a photo";
@@ -21613,6 +21670,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Message reply subtitle when replying to a link message with no text */
 "DM_MESSAGE_REPLY_SUBTITLE_LINK" = "Link";
+
+/* DM Message reply subtitle when replying to a payment with no text */
+"DM_MESSAGE_REPLY_SUBTITLE_PAYMENT" = "Payment";
 
 /* DM Message reply subtitle when replying to a photo message with no text */
 "DM_MESSAGE_REPLY_SUBTITLE_PHOTO" = "Photo";
@@ -21670,6 +21730,15 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Message text sent accessibility label including sender. %@: message text */
 "DM_MESSAGE_TEXT_SENT_WITH_SENDER_ACCESSIBILITY_LABEL" = "You: %@";
+
+/* Status shown on a money card when the payment has completed */
+"DM_MONEY_CARD_STATUS_COMPLETED" = "Completed";
+
+/* Status shown on a money card while the payment is still being sent */
+"DM_MONEY_CARD_STATUS_PENDING" = "Pending";
+
+/* Status shown on a money card when the payment receipt could not be verified as authentic */
+"DM_MONEY_CARD_STATUS_UNVERIFIED" = "Unverified";
 
 /* DM network error title */
 "DM_NETWORK_ERROR_TITLE" = "Something went wrong. Check your connection and try again.";
@@ -21952,6 +22021,18 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Pull Failure Title shown when the server reports the user has too many messages and the inbox preview pull was throttled. */
 "DM_PULL_FAILURE_TOO_MANY_MESSAGES_TITLE" = "Sorry! You have too many messages. Please wait a bit and try again.";
+
+/* DM message-request rate limit upsell sheet secondary (dismiss) action title */
+"DM_RATE_LIMIT_UPSELL_DISMISS_ACTION" = "Not Now";
+
+/* DM message-request rate limit upsell sheet message */
+"DM_RATE_LIMIT_UPSELL_MESSAGE" = "You have hit your daily message request limit. Get Premium to send this message.";
+
+/* DM message-request rate limit upsell sheet title */
+"DM_RATE_LIMIT_UPSELL_TITLE" = "Send more message requests with Premium";
+
+/* DM message-request rate limit upsell sheet primary (upgrade) action title */
+"DM_RATE_LIMIT_UPSELL_UPGRADE_ACTION" = "Upgrade";
 
 /* DM Emoji picker Add reaction accessibility hint */
 "DM_REACTIONS_ADD_REACTION_ACCESSIBILITY_HINT" = "Adds reaction";
@@ -23377,21 +23458,13 @@ eg. "- @jack" */
 /* Title for label indicating that the card is showing content that is new to the app */
 "UPSELL_CARD_NEW_LABEL" = "New";
 
-// Section: Frameworks/XGifPicker/Sources/XGifPickerStrings/en.lproj/Localizable.strings
-
-/* Gif Picker error action retry title */
-"GIF_PICKER_ERROR_ACTION_RETRY_TITLE" = "Retry";
-
-/* Gif Picker error title */
-"GIF_PICKER_ERROR_TITLE" = "Something went wrong. Check your connection and try again.";
-
-/* Gif Picker search placeholder */
-"GIF_PICKER_SEARCH_PLACEHOLDER" = "Search GIFs";
-
-/* Gif Picker title */
-"GIF_PICKER_TITLE" = "Choose GIF";
-
 // Section: Frameworks/TwitterSelfServeAds/Sources/TwitterSelfServeAdsStrings/en.lproj/Localizable.strings
+
+/* Secondary action button shown alongside Confirm in the X Money payment confirmation step on the Boost sheet. Tapping it returns to the Boost Post button. */
+"BOOST_SHEET_CANCEL_PAYMENT_BUTTON" = "Cancel";
+
+/* Primary action button shown after tapping Boost Post when paying with X Money. X Money has no native payment confirmation dialog, so this button confirms the payment before the boost is submitted. */
+"BOOST_SHEET_CONFIRM_PAYMENT_BUTTON" = "Confirm";
 
 /* Label of the action-text picker row in the CTA editor sub-sheet. Tapping opens a drill-in selector. */
 "BOOST_SHEET_CTA_ACTION_LABEL" = "Label";
@@ -23585,11 +23658,11 @@ eg. "- @jack" */
 /* An estimate of the number of impressions that a Boost campaign will earn. The "%1$@" part will be replaced by the lowest possible number of impressions and "%2$@" by the highest possible number of impressions, e.g. "320 - 1.2K". This is the numerical part. The "people each day" part is a separate text". */
 "QUICK_PROMOTE_IMPRESSIONS_RANGE_FORMAT" = "%1$@ - %2$@";
 
-/* The unit over time of the range such as "people each day" shown behind the number of impressions */
-"QUICK_PROMOTE_IMPRESSIONS_RANGE_UNIT" = "impressions each day";
+/* Unit for multi-day estimated view ranges (e.g. "320 - 1.2K views each day") */
+"QUICK_PROMOTE_IMPRESSIONS_RANGE_UNIT" = "views each day";
 
-/* The unit of the range such as "people" shown behind the number of impressions, for a single day */
-"QUICK_PROMOTE_IMPRESSIONS_RANGE_UNIT_SINGLE_DAY" = "impressions";
+/* Unit for single-day estimated view ranges (e.g. "6M - 12M views") */
+"QUICK_PROMOTE_IMPRESSIONS_RANGE_UNIT_SINGLE_DAY" = "views";
 
 /* Text displayed when selecting the Global region indicating the boost campaign will run everywhere in the world. */
 "QUICK_PROMOTE_LOCATION_GLOBAL_LABEL" = "Global";
@@ -23610,10 +23683,10 @@ eg. "- @jack" */
 "QUICK_PROMOTE_PROMPT_PRIMARY_BUTTON_TITLE_BOOST" = "Boost visibility now";
 
 /* Primary button title of half-sheet prompt which shows when going to an eligible post */
-"QUICK_PROMOTE_PROMPT_PRIMARY_BUTTON_TITLE_PROMOTE" = "Promote now";
+"QUICK_PROMOTE_PROMPT_PRIMARY_BUTTON_TITLE_PROMOTE" = "Boost now";
 
 /* Secondary button title of half-sheet prompt which shows when going to an eligible post */
-"QUICK_PROMOTE_PROMPT_SECONDARY_BUTTON_TITLE" = "Maybe Later";
+"QUICK_PROMOTE_PROMPT_SECONDARY_BUTTON_TITLE" = "Maybe later";
 
 /* Title of half-sheet prompt which shows when going to an eligible post */
 "QUICK_PROMOTE_PROMPT_TITLE_BOOST_POST" = "Boost your post now for more visibility?";
@@ -24652,6 +24725,20 @@ eg. "- @jack" */
 /* Button text that shows post content when tapped */
 "SAFETY_CENTER_TWEET_DISCLOSURE_SHOW_BUTTON_TITLE" = "Show";
 
+// Section: Frameworks/XGif/Sources/XGifPickerStrings/en.lproj/Localizable.strings
+
+/* Gif Picker error action retry title */
+"GIF_PICKER_ERROR_ACTION_RETRY_TITLE" = "Retry";
+
+/* Gif Picker error title */
+"GIF_PICKER_ERROR_TITLE" = "Something went wrong. Check your connection and try again.";
+
+/* Gif Picker search placeholder */
+"GIF_PICKER_SEARCH_PLACEHOLDER" = "Search GIFs";
+
+/* Gif Picker title */
+"GIF_PICKER_TITLE" = "Choose GIF";
+
 // Section: Frameworks/SuperAwesomeVideoCache/Sources/SuperAwesomeVideoCacheStrings/en.lproj/Localizable.strings
 
 /* Title of a toast which is show on an event of error during a video download */
@@ -24862,6 +24949,9 @@ eg. "- @jack" */
 
 // Section: Frameworks/XPhotoEditor/XPhotoEditor/Sources/XPhotoEditor/en.lproj/Localizable.strings
 
+/* Navigation title shown while the blur tool is active */
+"XPHOTOEDITOR_BLUR_TITLE" = "Add Blur";
+
 /* Display name for the blur brush mode */
 "XPHOTOEDITOR_BRUSH_MODE_BLUR" = "Blur";
 
@@ -24897,6 +24987,9 @@ eg. "- @jack" */
 
 /* Title for the alert shown when the user taps cancel with unsaved changes */
 "XPHOTOEDITOR_DISCARD_CHANGES_ALERT_TITLE" = "Discard Changes?";
+
+/* Navigation title shown while the filters tool is active */
+"XPHOTOEDITOR_FILTERS_TITLE" = "Add Filter";
 
 /* Accessibility label for the Edit with Grok button */
 "XPHOTOEDITOR_GROK_BUTTON_ACCESSIBILITY_LABEL" = "Edit with Grok";
@@ -24936,6 +25029,9 @@ eg. "- @jack" */
 
 /* Accessibility label for the text tool toolbar button */
 "XPHOTOEDITOR_TEXT_TOOL_ACCESSIBILITY_LABEL" = "Text";
+
+/* Navigation title shown while the text tool is active */
+"XPHOTOEDITOR_TEXT_TOOL_TITLE" = "Add Text";
 
 // Section: Frameworks/XVideoRecorder/Sources/XVideoRecorderStrings/en.lproj/Localizable.strings
 
@@ -24978,20 +25074,11 @@ eg. "- @jack" */
 /* Title for the confirmation alert shown when the user taps retake to discard a photo they just captured in the video recorder. The alert presents Cancel and Discard buttons. */
 "NEWSCAMERA_RECORDER_DISCARD_PHOTO_ALERT_TITLE" = "Discard photo?";
 
-/* Label in the video recorder's duration selector for a maximum recording length of 10 minutes, abbreviated. The "m" stands for minutes. Keep it short. */
-"NEWSCAMERA_RECORDER_DURATION_10M" = "10m";
-
-/* Label in the video recorder's duration selector for a maximum recording length of 15 seconds, abbreviated. The "s" stands for seconds. Keep it short. */
-"NEWSCAMERA_RECORDER_DURATION_15S" = "15s";
-
-/* Label in the video recorder's duration selector for a maximum recording length of 30 minutes, abbreviated. The "m" stands for minutes. Keep it short. */
-"NEWSCAMERA_RECORDER_DURATION_30M" = "30m";
-
-/* Label in the video recorder's duration selector for a maximum recording length of 60 seconds, abbreviated. The "s" stands for seconds. Keep it short. */
-"NEWSCAMERA_RECORDER_DURATION_60S" = "60s";
-
-/* Label in the video recorder's capture mode selector for switching to photo capture, shown to the right of the recording duration options. Displayed in all caps to match the design. Keep it short. */
+/* Label in the video recorder's capture mode selector for switching to photo capture, shown to the right of the video option. Displayed in all caps to match the design. Keep it short. */
 "NEWSCAMERA_RECORDER_MODE_PHOTO" = "PHOTO";
+
+/* Label in the video recorder's capture mode selector for switching to video capture, shown to the left of the photo option. Displayed in all caps to match the design. Keep it short. */
+"NEWSCAMERA_RECORDER_MODE_VIDEO" = "VIDEO";
 
 /* Label shown at the bottom of the video recorder indicating that the captured media will be shared as a post. Displayed in all caps to match the design. Keep it short. */
 "NEWSCAMERA_RECORDER_POST_LABEL" = "POST";
