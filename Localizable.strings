@@ -1142,9 +1142,6 @@ e.g. Removed from MyRecipes.
 /* Camera chooser accessibility hint */
 "CAMERA_CHOOSER_ACCESSIBILITY_HINT" = "Toggles between front and back-facing cameras";
 
-/* Camera chooser accessibility label */
-"CAMERA_CHOOSER_ACCESSIBILITY_LABEL" = "Camera chooser";
-
 /* Camera chooser back facing accessibility value */
 "CAMERA_CHOOSER_BACK_FACING_ACCESSIBILITY_VALUE" = "Back-facing camera, selected";
 
@@ -1153,9 +1150,6 @@ e.g. Removed from MyRecipes.
 
 /* Camera Flash button turns on hint */
 "CAMERA_FLASH_BUTTON_ACCESSIBILITY_HINT" = "Switches between flash modes.";
-
-/* Camera flash button accessibility label */
-"CAMERA_FLASH_BUTTON_ACCESSIBILITY_LABEL" = "Flash";
 
 /* Camera flash button on accessibility value, flash off */
 "CAMERA_FLASH_BUTTON_OFF_ACCESSIBILITY_VALUE" = "off";
@@ -1806,9 +1800,6 @@ e.g. Removed from MyRecipes.
 
 /* Tooltip displayed on the composer the first time the user sees the Space creation button */
 "COMPOSE_VIEW_SPACE_CREATION_BUTTON_TOOLTIP" = "Create a Space? Here’s where to start.";
-
-/* Accessibility label for undo button on the composer */
-"COMPOSE_VIEW_UNDO_ACCESSIBILITY_LABEL" = "Undo";
 
 /* Accessibility hint for compose screen upload video button */
 "COMPOSE_VIEW_UPLOAD_VIDEO_ACCESSIBILITY_HINT" = "Toggles between the video library and keyboard";
@@ -4816,9 +4807,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Accessibility label for the shutter button in the camera, indicating it takes a photo. */
 "NEWSCAMERA_CAPTURE_BUTTON_ACCESSIBILITY_HINT" = "Double tap to take photo, double tap and hold to take video";
 
-/* Accessibility label for the shutter button in the camera, indicating it takes a photo. */
-"NEWSCAMERA_CAPTURE_BUTTON_ACCESSIBILITY_LABEL" = "Take photo";
-
 /* Camera composer hint to describe usage to go live) */
 "NEWSCAMERA_CAPTURE_BUTTON_LIVE_ACCESSIBILITY_HINT" = "Starts broadcasting live to your followers";
 
@@ -6139,6 +6127,9 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Profile table view cell bad request error message */
 "PROFILE_GENERIC_USERNAME_LABEL" = "Account";
+
+/* Label for the mention button in the redesigned profile header action row. */
+"PROFILE_HEADER_MENTION_BUTTON_LABEL" = "Mention";
 
 /* Label for the message button in the redesigned profile header action row. */
 "PROFILE_HEADER_MESSAGE_BUTTON_LABEL" = "Message";
@@ -8784,9 +8775,6 @@ eg. "Super Following Jack" */
 /* Button in the Video Editor toolbar to complete a trim, when the selected length is the whole length. */
 "VIDEOEDITOR_DONE_BUTTON" = "Done";
 
-/* Accessibility Label for VIDEOEDITOR_DONE_BUTTON */
-"VIDEOEDITOR_DONE_BUTTON_ACCESSIBILITY_LABEL" = "Done";
-
 /* In the video editor, tooltip template for showing the duration in seconds of the trim. The %@ will be replaced by a number such as "1.2" or "7". */
 "VIDEOEDITOR_DURATION_TOOLTIP" = "%@s selected";
 
@@ -8798,6 +8786,9 @@ eg. "Super Following Jack" */
 
 /* Title for the Thumbnail tab in the Video Editor toolbar. */
 "VIDEOEDITOR_TAB_THUMBNAIL_TITLE" = "Thumbnail";
+
+/* Title for the button in the Video Editor Thumbnail tab that uploads a new thumbnail image. */
+"VIDEOEDITOR_THUMBNAIL_UPLOAD_BUTTON_TITLE" = "Upload new";
 
 /* Title for Video Editor view shown in the toolbar */
 "VIDEOEDITOR_TITLE" = "Edit video";
@@ -13981,14 +13972,11 @@ eg. "Super Following Jack" */
 /* Payments: Title indicating card is locked */
 "PAYMENTS_CARD_SPEND_PHYSICAL_CARD_LOCKED_TITLE" = "Your physical card is locked";
 
-/* Payments: Subtitle indicating physical card is being processed, and can be used online in the meantime. Mentions Apple Pay, will be used if available. */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_PROCESSING_SUBTITLE" = "Use your virtual card online or in Apple Pay immediately";
+/* Payments: Subtitle indicating physical card is being processed, and that the virtual one can be used in the meantime. */
+"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_PROCESSING_SUBTITLE" = "Your virtual card is ready to use";
 
 /* Payments: Title indicating physical card is being processed */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_PROCESSING_TITLE" = "Your card is being shipped";
-
-/* Payments: Subtitle indicating physical card is being processed, and can be used online in the meantime. Doesn't mention Apple Pay, will be used if unavailable. */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_PROCESSING_WITHOUT_APPLE_PAY_SUBTITLE" = "Use your virtual card online immediately";
+"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_PROCESSING_TITLE" = "Your physical card has been ordered";
 
 /* Payments: Subtitle indicating physical card has shipped */
 "PAYMENTS_CARD_SPEND_PHYSICAL_CARD_SHIPPED_SUBTITLE" = "Tap here to activate when it arrives";
@@ -14549,7 +14537,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_ENTER_ADDRESS_MANUALLY_ACTION" = "Enter address manually";
 
 /* Payments: Section header in entity/account pickers for accounts or users that exist on X */
-"PAYMENTS_ENTITY_PICKER_SECTION_ON_X_TITLE" = "On X";
+"PAYMENTS_ENTITY_PICKER_SECTION_ON_X_TITLE" = "My Accounts";
 
 /* Payments: Toast detail text shown when the user tries to do an unauthorized action */
 "PAYMENTS_ERROR_ACCESS_DENIED_DETAIL_TEXT" = "You are not allowed to perform this action at this time.";
@@ -14648,10 +14636,10 @@ eg. "Super Following Jack" */
 "PAYMENTS_ERROR_OTHER_PARTY_DISABLED_SHARING_TITLE" = "The other user has disabled transaction sharing";
 
 /* Payments: Additional message shown when a transfer using a payment method is not possible because it has expired */
-"PAYMENTS_ERROR_PAYMENT_METHOD_EXPIRED_MESSAGE" = "Your payment method has expired. Please update it or add a new bank account/debit card and try again.";
+"PAYMENTS_ERROR_PAYMENT_METHOD_EXPIRED_MESSAGE" = "Your payment method has expired. Please update it or add a new bank account/card and try again.";
 
 /* Payments: Additional message shown when a transfer using a payment method is not possible because it is inactive */
-"PAYMENTS_ERROR_PAYMENT_METHOD_INACTIVE_MESSAGE" = "This payment method is no longer active. Please choose a different bank account or debit card, or add a new one.";
+"PAYMENTS_ERROR_PAYMENT_METHOD_INACTIVE_MESSAGE" = "This payment method is no longer active. Please choose a different bank account or card, or add a new one.";
 
 /* Payments: Title of the error shown when the transaction details are not loading properly */
 "PAYMENTS_ERROR_TRANSACTION_DETAILS_LOADING_TITLE" = "Transaction details are unable to load";
@@ -14797,6 +14785,9 @@ eg. "Super Following Jack" */
 /* Payments: Prompt for the user to choose a payment method to deposit money from. */
 "PAYMENTS_EXTERNAL_TRANSACTION_CHOOSE_DEPOSIT_METHOD_TITLE" = "Choose deposit method";
 
+/* Payments: Prompt for the user to choose an account or payment method to transfer money to. */
+"PAYMENTS_EXTERNAL_TRANSACTION_CHOOSE_TRANSFER_METHOD_TITLE" = "Choose transfer method";
+
 /* Payments: Prompt for the user to choose a payment method to withdraw money to. */
 "PAYMENTS_EXTERNAL_TRANSACTION_CHOOSE_WITHDRAWAL_METHOD_TITLE" = "Choose withdrawal method";
 
@@ -14835,6 +14826,12 @@ eg. "Super Following Jack" */
 
 /* Payments: Title shown next to the transaction total amount (base + fees) on the deposit/withdraw flows. */
 "PAYMENTS_EXTERNAL_TRANSACTION_TOTAL_TITLE" = "You pay in total";
+
+/* Payments: Title of the confirmation screen for transferring money in or out the user’s X Payments account. */
+"PAYMENTS_EXTERNAL_TRANSACTION_TRANSFER_CONFIRMATION_TITLE" = "Confirm Transfer";
+
+/* Payments: First line of a transfer confirmation summary, indicating the amount to transfer. %@ is a formatted amount (ex: $10). */
+"PAYMENTS_EXTERNAL_TRANSACTION_TRANSFER_CONFIRMATION_TRANSFER_FORMAT" = "Transfer %@";
 
 /* Payments: Defines the title for the initial payment method selection screen during a withdrawal transaction. */
 "PAYMENTS_EXTERNAL_TRANSACTION_WITHDRAWAL_INITIAL_PAYMENT_METHOD_TITLE" = "How would you like to withdraw your funds?";
@@ -15212,7 +15209,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_OFFBOARDING_ERROR_HAS_PENDING_TRANSACTIONS" = "You have pending transactions in your account. You’ll have to wait for them to settle.";
 
 /* Payments: Error message when the payment method is invalid, inactive, or deleted */
-"PAYMENTS_OFFBOARDING_ERROR_INVALID_PAYMENT_METHOD" = "Please try again with a valid bank account or debit card.";
+"PAYMENTS_OFFBOARDING_ERROR_INVALID_PAYMENT_METHOD" = "Please try again with a valid bank account or card.";
 
 /* Payments: Error message when the account can't be closed/offboarded */
 "PAYMENTS_OFFBOARDING_ERROR_TITLE" = "Unable to close your account";
@@ -15838,6 +15835,9 @@ eg. "Super Following Jack" */
 /* Payments: Subtitle for the check deposit transfer method, prompting the user to scan their paper check. */
 "PAYMENTS_RAIL_CHECK_SUBTITLE" = "Scan your check";
 
+/* Payments: Text description for the transaction rail "Internal Transfer". This is a transfer between X Money accounts (main <-> secondary for example)  */
+"PAYMENTS_RAIL_INTERNAL_TRANSFER" = "Internal Transfer";
+
 /* Payments: Text description for the transaction rail "OCT" */
 "PAYMENTS_RAIL_OCT" = "Instant Card Transfer";
 
@@ -16141,14 +16141,11 @@ eg. "Super Following Jack" */
 /* Payments: Title shown when the user tries to link their card but we haven't received a response for a while */
 "PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_CARD_PENDING_TITLE" = "Linking your card is taking longer than expected";
 
-/* Payments: Subtitle of the screen to add a card as a new payment method */
-"PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_CARD_SUBTITLE" = "Only Visa and Mastercard are accepted";
-
 /* Payments: Success message shown when a card has been linked to the user's account */
 "PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_CARD_SUCCESS" = "Your card is now linked to X Money";
 
 /* Payments: Title of the screen to add a card as a new payment method */
-"PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_CARD_TITLE" = "Add your debit card";
+"PAYMENTS_SETTINGS_PAYMENT_METHODS_ADD_CARD_TITLE" = "Add a card";
 
 /* Payments: Title for the debit cards section in the payment methods list in settings */
 "PAYMENTS_SETTINGS_PAYMENT_METHODS_BANK_ACCOUNTS_SECTION" = "Bank Accounts";
@@ -17547,6 +17544,14 @@ eg. "Super Following Jack" */
 /* Format for string listing how many likes the user has remaining to complete */
 "FOCUSED_TIMELINE_ACTIONS_LIKES_PROGRESS_PLURAL_LABEL_FORMAT" = "%@ likes to go";
 
+// Section: Frameworks/QR/Sources/QRStrings/en.lproj/Localizable.strings
+
+/* QR Code: Title of the tab that shows a QR Code to scan*/
+"QR_MY_CODE" = "My code";
+
+/* QR Code: Title of the tab that shows a QR Code scanner (a camera) */
+"QR_SCAN_CODE" = "Scan code";
+
 // Section: Frameworks/TwitterSearch/Sources/TwitterSearchStrings/en.lproj/Localizable.strings
 
 /* Advanced search - search bar title for tweet author filter from */
@@ -18200,6 +18205,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Accessibility value for generic on/off button state in "ON" state */
 "BUTTON_ON_ACCESSIBILITY_VALUE" = "On";
 
+/* Camera chooser accessibility label */
+"CAMERA_CHOOSER_ACCESSIBILITY_LABEL" = "Camera chooser";
+
+/* Camera flash button accessibility label */
+"CAMERA_FLASH_BUTTON_ACCESSIBILITY_LABEL" = "Flash";
+
 /* A button label in the preview of photo or video taken by camera to discard it and retake it, alongside use button. */
 "CAMERA_RETAKE_BUTTON_LABEL" = "Retake";
 
@@ -18313,6 +18324,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Title for compose screen plus button context menu Photos action */
 "COMPOSE_VIEW_PLUS_BUTTON_CONTEXT_MENU_ACTION_PHOTOS" = "Photos";
+
+/* Accessibility label for undo button on the composer */
+"COMPOSE_VIEW_UNDO_ACCESSIBILITY_LABEL" = "Undo";
 
 /* Error presented to the user when post send fails. */
 "COMPOSITION_SEND_TWEET_ERROR_LABEL" = "Your post couldn’t be sent right now and has been saved as a draft. Please try sending it again later.";
@@ -18665,6 +18679,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Accessibility action label for moving an item up in a list of items */
 "MOVE_UP_ACCESSIBILITY_ACTION" = "Move up";
 
+/* Accessibility label for the shutter button in the camera, indicating it takes a photo. */
+"NEWSCAMERA_CAPTURE_BUTTON_ACCESSIBILITY_LABEL" = "Take photo";
+
 /* New label */
 "NEW_LABEL" = "New";
 
@@ -18898,12 +18915,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Title of banner shown when a user has not previously allowed push notifications. */
 "PUSH_NOTIFICATIONS_REENGAGEMENT_BANNER_TITLE_LABEL" = "Notifications Disabled";
-
-/* QR Code: Title of the tab that shows a QR Code to scan*/
-"QR_MY_CODE" = "My code";
-
-/* QR Code: Title of the tab that shows a QR Code scanner (a camera) */
-"QR_SCAN_CODE" = "Scan code";
 
 /* Title of a dialog which allows the user to request a refund of a failed Quick Promote campaign. */
 "QUICK_PROMOTE_REFUND_DIALOG_TITLE" = "The post couldn’t be boosted";
@@ -19552,6 +19563,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Accessibility label for identity verified icons. */
 "VERIFIED_ID_ACCESSIBILITY_LABEL" = "Identity verified";
 
+/* Accessibility Label for VIDEOEDITOR_DONE_BUTTON */
+"VIDEOEDITOR_DONE_BUTTON_ACCESSIBILITY_LABEL" = "Done";
+
 /* Video Editor - Tag / Allow downloads toggle */
 "VIDEO_EDITOR_TAG_ALLOW_DOWNLOADS" = "Allow downloads";
 
@@ -19747,6 +19761,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 // Section: Frameworks/ChatCore/Sources/ChatStrings/en.lproj/Localizable.strings
 
+/* Add member failed error */
+"CHAT_ADD_MEMBER_FAILED" = "Unable to add member. Please try again.";
+
+/* Audio call coming soon title */
+"CHAT_AUDIO_CALL_COMING_SOON" = "Audio Calling Coming Soon";
+
 /* Auto-download footer description */
 "CHAT_AUTO_DOWNLOAD_FOOTER" = "Automatically download media based on connection.";
 
@@ -19759,11 +19779,26 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Auto-download WiFi and cellular option */
 "CHAT_AUTO_DOWNLOAD_WIFI_CELLULAR" = "WiFi + Cellular";
 
+/* Back button label */
+"CHAT_BACK" = "Back";
+
+/* Block messages confirmation message */
+"CHAT_BLOCK_MSGS_CONFIRM" = "You will not receive messages from this person until you unblock them.";
+
+/* Call feature coming soon message */
+"CHAT_CALL_COMING_SOON_MESSAGE" = "We’re working hard to bring you audio and video calling. Stay tuned!";
+
 /* Cancel action title */
 "CHAT_CANCEL" = "Cancel";
 
 /* Cannot use feature alert title */
 "CHAT_CANNOT_USE_FEATURE" = "Cannot use this feature";
+
+/* Characters remaining count. %@: remaining count */
+"CHAT_CHARS_REMAINING" = "%@ characters remaining";
+
+/* Close button label */
+"CHAT_CLOSE" = "Close";
 
 /* Data saver banner shown when on a constrained network */
 "CHAT_DATA_SAVER_BANNER_MESSAGE" = "Data saver is on due to limited network connectivity.";
@@ -19771,14 +19806,56 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Data usage settings title */
 "CHAT_DATA_USAGE" = "Data Usage";
 
+/* Delete conversation confirmation message */
+"CHAT_DELETE_CONVO_CONFIRM" = "Are you sure you want to delete this conversation? This action cannot be undone.";
+
 /* Direct Messages title */
 "CHAT_DIRECT_MESSAGES" = "Direct Messages";
 
 /* Documents section title */
 "CHAT_DOCUMENTS" = "Documents";
 
+/* Edit group name footer description */
+"CHAT_EDIT_GROUP_NAME_FOOTER" = "Enter a name for this group that will be visible to all members.";
+
+/* Empty shared media message */
+"CHAT_EMPTY_SHARED_MEDIA_MESSAGE" = "Photos, videos, and GIFs shared in this conversation will appear here.";
+
+/* Empty shared media title */
+"CHAT_EMPTY_SHARED_MEDIA_TITLE" = "No Shared Media";
+
 /* Forwarded message label */
 "CHAT_FORWARDED_MESSAGE" = "Forwarded message";
+
+/* Grok settings footer description */
+"CHAT_GROK_SETTINGS_FOOTER" = "When enabled, you can send @grok messages to the conversation.";
+
+/* Grok settings non-admin permissions error */
+"CHAT_GROK_SETTINGS_PERMISSIONS_ERROR" = "Only admins can make changes to Grok settings";
+
+/* Grok settings title */
+"CHAT_GROK_SETTINGS_TITLE" = "Grok";
+
+/* Grok upsell tray dismiss button */
+"CHAT_GROK_UPSELL_DISMISS_ACTION" = "Not Now";
+
+/* Enable Grok upsell tray primary button */
+"CHAT_GROK_UPSELL_ENABLE_ACTION" = "Turn on";
+
+/* Enable Grok upsell tray message */
+"CHAT_GROK_UPSELL_ENABLE_MESSAGE" = "Turn on Grok to use @grok in chats and unlock other exclusive benefits.";
+
+/* Enable Grok upsell tray title */
+"CHAT_GROK_UPSELL_ENABLE_TITLE" = "Enable Grok";
+
+/* Grok Premium upsell tray primary button */
+"CHAT_GROK_UPSELL_PREMIUM_ACTION" = "Get Premium";
+
+/* Grok Premium upsell tray message */
+"CHAT_GROK_UPSELL_PREMIUM_MESSAGE" = "Subscribe to X Premium to be able to use @grok in chats and unlock other exclusive benefits.";
+
+/* Grok Premium upsell tray title */
+"CHAT_GROK_UPSELL_PREMIUM_TITLE" = "Get Premium to use Grok";
 
 /* Group invite request approve button title */
 "CHAT_GROUP_INVITE_APPROVE" = "Approve";
@@ -19792,8 +19869,14 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Group messages label */
 "CHAT_GROUP_MESSAGES" = "Group Messages";
 
+/* Leave conversation confirmation message */
+"CHAT_LEAVE_CONVO_CONFIRM" = "Are you sure you want to leave this group? You will need to be re-added to rejoin.";
+
 /* Legacy conversation message */
 "CHAT_LEGACY_CONVO_MESSAGE" = "This feature requires the conversation to be encrypted.";
+
+/* Members count header. %@: number of members */
+"CHAT_MEMBERS_COUNT" = "Members (%@)";
 
 /* Chat message send alert subtitle when sending message that is too long */
 "CHAT_MESSAGE_SEND_EXCEEDS_MAX_LENGTH_ALERT_SUBTITLE" = "This message is too long to send. Try shortening or splitting into multiple messages.";
@@ -19803,6 +19886,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* OK button label */
 "CHAT_OK" = "OK";
+
+/* On toggle label */
+"CHAT_ON" = "On";
 
 /* Chat permission allow button title */
 "CHAT_PERMISSION_ALLOW" = "Allow";
@@ -19836,6 +19922,30 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Photo library access denied alert title */
 "CHAT_PHOTO_ACCESS_DENIED_TITLE" = "Photo Library Access Required";
+
+/* Read-only conversation message */
+"CHAT_READ_ONLY_CONVO_MESSAGE" = "This conversation is read-only and cannot be modified.";
+
+/* Remove admin confirmation action */
+"CHAT_REMOVE_ADMIN_ACTION" = "Remove";
+
+/* Remove admin confirmation message */
+"CHAT_REMOVE_ADMIN_MESSAGE" = "They will no longer be an admin in this group.";
+
+/* Remove admin confirmation title */
+"CHAT_REMOVE_ADMIN_TITLE" = "Remove admin?";
+
+/* Remove group photo action */
+"CHAT_REMOVE_GROUP_PHOTO" = "Remove group photo";
+
+/* Remove member confirmation action */
+"CHAT_REMOVE_MEMBER_ACTION" = "Remove";
+
+/* Remove member confirmation message */
+"CHAT_REMOVE_MEMBER_MESSAGE" = "They will be removed from this group.";
+
+/* Remove member confirmation title */
+"CHAT_REMOVE_MEMBER_TITLE" = "Remove member?";
 
 /* Replying to yourself label */
 "CHAT_REPLYING_TO_YOURSELF" = "Replying to yourself";
@@ -19903,6 +20013,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Row title in DM Storage settings under "Storage by Type"; trailing value is the total bytes used by downloaded voice messages, e.g. "1.2 GB". */
 "CHAT_STORAGE_VOICE_MSGS" = "Voice Messages";
 
+/* Compose recipient field label */
+"CHAT_TO_LABEL" = "To:";
+
+/* Unblock messages confirmation message */
+"CHAT_UNBLOCK_MSGS_CONFIRM" = "You will receive messages from this person again.";
+
 /* Unread messages filter label */
 "CHAT_UNREAD_MESSAGES" = "Unread Messages";
 
@@ -19917,6 +20033,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Videos section title */
 "CHAT_VIDEOS" = "Videos";
+
+/* Video call coming soon title */
+"CHAT_VIDEO_CALL_COMING_SOON" = "Video Calling Coming Soon";
+
+/* View members label. %@: number of members */
+"CHAT_VIEW_MEMBERS_COUNT" = "View %@ members";
 
 /* DM Attachments Files screen title */
 "DM_ATTACHMENT_LIST_FILES_TITLE" = "Files";
@@ -22026,7 +22148,7 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 "DM_RATE_LIMIT_UPSELL_DISMISS_ACTION" = "Not Now";
 
 /* DM message-request rate limit upsell sheet message */
-"DM_RATE_LIMIT_UPSELL_MESSAGE" = "You have hit your daily message request limit. Get Premium to send this message.";
+"DM_RATE_LIMIT_UPSELL_MESSAGE" = "You’ve hit your daily message request limit. Get Premium to send this message.";
 
 /* DM message-request rate limit upsell sheet title */
 "DM_RATE_LIMIT_UPSELL_TITLE" = "Send more message requests with Premium";
@@ -23928,9 +24050,6 @@ eg. "- @jack" */
 /* Account settings title */
 "CHAT_ACCOUNT_SETTINGS" = "Account";
 
-/* Add member failed error */
-"CHAT_ADD_MEMBER_FAILED" = "Unable to add member. Please try again.";
-
 /* Appearance settings title */
 "CHAT_APPEARANCE" = "Appearance";
 
@@ -23957,18 +24076,6 @@ eg. "- @jack" */
 
 /* At-prefixed username. %@: username */
 "CHAT_AT_USERNAME" = "@%@";
-
-/* Audio call coming soon title */
-"CHAT_AUDIO_CALL_COMING_SOON" = "Audio Calling Coming Soon";
-
-/* Back button label */
-"CHAT_BACK" = "Back";
-
-/* Block messages confirmation message */
-"CHAT_BLOCK_MSGS_CONFIRM" = "You will not receive messages from this person until you unblock them.";
-
-/* Call feature coming soon message */
-"CHAT_CALL_COMING_SOON_MESSAGE" = "We’re working hard to bring you audio and video calling. Stay tuned!";
 
 /* Call error: sender is forbidden */
 "CHAT_CALL_ERROR_FORBIDDEN" = "You are not allowed to make calls.";
@@ -24003,12 +24110,6 @@ eg. "- @jack" */
 /* Cannot send files with media alert title */
 "CHAT_CANNOT_SEND_FILES_WITH_MEDIA" = "Cannot send files with media";
 
-/* Characters remaining count. %@: remaining count */
-"CHAT_CHARS_REMAINING" = "%@ characters remaining";
-
-/* Close button label */
-"CHAT_CLOSE" = "Close";
-
 /* Cookie use label */
 "CHAT_COOKIE_USE" = "Cookie Use";
 
@@ -24020,9 +24121,6 @@ eg. "- @jack" */
 
 /* Deactivate account button label */
 "CHAT_DEACTIVATE_ACCOUNT" = "Deactivate account";
-
-/* Delete conversation confirmation message */
-"CHAT_DELETE_CONVO_CONFIRM" = "Are you sure you want to delete this conversation? This action cannot be undone.";
 
 /* Dismiss button label */
 "CHAT_DISMISS" = "Dismiss";
@@ -24066,9 +24164,6 @@ eg. "- @jack" */
 /* Duration in seconds. %@: seconds */
 "CHAT_DURATION_SECONDS" = "%@s";
 
-/* Edit group name footer description */
-"CHAT_EDIT_GROUP_NAME_FOOTER" = "Enter a name for this group that will be visible to all members.";
-
 /* EECC (European Electronic Communications Code) notice label */
 "CHAT_EECC_NOTICE" = "EECC Notice";
 
@@ -24102,11 +24197,8 @@ eg. "- @jack" */
 /* Empty inbox title for unread filter */
 "CHAT_EMPTY_INBOX_UNREAD_TITLE" = "No Unread Messages";
 
-/* Empty shared media message */
-"CHAT_EMPTY_SHARED_MEDIA_MESSAGE" = "Photos, videos, and GIFs shared in this conversation will appear here.";
-
-/* Empty shared media title */
-"CHAT_EMPTY_SHARED_MEDIA_TITLE" = "No Shared Media";
+/* Expand button shown on truncated long messages to open the full-message viewer */
+"CHAT_EXPAND" = "Expand";
 
 /* Media failed to load error */
 "CHAT_FAILED_TO_LOAD" = "Failed to load";
@@ -24129,9 +24221,6 @@ eg. "- @jack" */
 /* Interactions settings title */
 "CHAT_INTERACTIONS" = "Interactions";
 
-/* Leave conversation confirmation message */
-"CHAT_LEAVE_CONVO_CONFIRM" = "Are you sure you want to leave this group? You will need to be re-added to rejoin.";
-
 /* Legal section title */
 "CHAT_LEGAL" = "Legal";
 
@@ -24146,9 +24235,6 @@ eg. "- @jack" */
 
 /* Max attachments reached message */
 "CHAT_MAX_ATTACHMENTS" = "You can only add up to 10 media attachments per message.";
-
-/* Members count header. %@: number of members */
-"CHAT_MEMBERS_COUNT" = "Members (%@)";
 
 /* Microphone permission denied alert message */
 "CHAT_MICROPHONE_PERMISSION_DENIED_MESSAGE" = "Microphone permissions are required in order to record and send voice notes.\n\nPlease open Settings to enable.";
@@ -24173,9 +24259,6 @@ eg. "- @jack" */
 
 /* Notifications permission denied alert title */
 "CHAT_NOTIFICATIONS_PERMISSION_DENIED_TITLE" = "Enable Notifications";
-
-/* On toggle label */
-"CHAT_ON" = "On";
 
 /* Passcode unknown error */
 "CHAT_PASSCODE_ERROR_UNKNOWN" = "Something went wrong. Please try again.";
@@ -24206,30 +24289,6 @@ eg. "- @jack" */
 
 /* Hint to remove a reaction */
 "CHAT_REACTION_TAP_TO_REMOVE" = "Tap to remove";
-
-/* Read-only conversation message */
-"CHAT_READ_ONLY_CONVO_MESSAGE" = "This conversation is read-only and cannot be modified.";
-
-/* Remove admin confirmation action */
-"CHAT_REMOVE_ADMIN_ACTION" = "Remove";
-
-/* Remove admin confirmation message */
-"CHAT_REMOVE_ADMIN_MESSAGE" = "They will no longer be an admin in this group.";
-
-/* Remove admin confirmation title */
-"CHAT_REMOVE_ADMIN_TITLE" = "Remove admin?";
-
-/* Remove group photo action */
-"CHAT_REMOVE_GROUP_PHOTO" = "Remove group photo";
-
-/* Remove member confirmation action */
-"CHAT_REMOVE_MEMBER_ACTION" = "Remove";
-
-/* Remove member confirmation message */
-"CHAT_REMOVE_MEMBER_MESSAGE" = "They will be removed from this group.";
-
-/* Remove member confirmation title */
-"CHAT_REMOVE_MEMBER_TITLE" = "Remove member?";
 
 /* Replied to label. %@: recipient name */
 "CHAT_REPLIED_TO" = "Replied to %@";
@@ -24342,9 +24401,6 @@ eg. "- @jack" */
 /* Text size section header */
 "CHAT_TEXT_SIZE" = "Text Size";
 
-/* Compose recipient field label */
-"CHAT_TO_LABEL" = "To:";
-
 /* Troubleshooting settings title */
 "CHAT_TROUBLESHOOTING" = "Troubleshooting";
 
@@ -24359,9 +24415,6 @@ eg. "- @jack" */
 
 /* Upload debug logs success message */
 "CHAT_TROUBLESHOOTING_UPLOAD_LOGS_SUCCESS_MESSAGE" = "Copy the link and share it with the team.";
-
-/* Unblock messages confirmation message */
-"CHAT_UNBLOCK_MSGS_CONFIRM" = "You will receive messages from this person again.";
 
 /* Unsupported attachment fallback text */
 "CHAT_UNSUPPORTED_ATTACHMENT" = "Unsupported attachment";
@@ -24383,12 +24436,6 @@ eg. "- @jack" */
 
 /* App version label */
 "CHAT_VERSION" = "Version";
-
-/* Video call coming soon title */
-"CHAT_VIDEO_CALL_COMING_SOON" = "Video Calling Coming Soon";
-
-/* View members label. %@: number of members */
-"CHAT_VIEW_MEMBERS_COUNT" = "View %@ members";
 
 /* Voice call label */
 "CHAT_VOICE_CALL" = "Voice Call";
@@ -24759,6 +24806,68 @@ eg. "- @jack" */
 /* Title of a toast which is show on an event of completion of a video download */
 "OFFLINE_TASK_COMPLETION_TOAST_TEXT" = "Video downloaded to your offline videos";
 
+// Section: Frameworks/XPalmLivenessStrings/Sources/XPalmLivenessStrings/en.lproj/Localizable.strings
+
+/* Cancel button on a palm-liveness alert. */
+"PALM_LIVENESS_ALERT_CANCEL_BUTTON" = "Cancel";
+
+/* OK button on a palm-liveness alert. */
+"PALM_LIVENESS_ALERT_OK_BUTTON" = "OK";
+
+/* Reassurance shown under the palm-verification call to action, telling the user their biometric data stays private. */
+"PALM_LIVENESS_BIOMETRIC_PRIVACY_DISCLAIMER" = "Biometric data is never shared with X.";
+
+/* Message of the alert shown when the camera permission has been denied and palm verification needs it. */
+"PALM_LIVENESS_CAMERA_ACCESS_ALERT_MESSAGE" = "Please enable camera access in Settings to verify with palm.";
+
+/* Title of the alert shown when the camera permission has been denied and palm verification needs it. */
+"PALM_LIVENESS_CAMERA_ACCESS_ALERT_TITLE" = "Camera Access Required";
+
+/* Subtitle on the first palm-liveness screen explaining why the user is being asked to verify. */
+"PALM_LIVENESS_CONFIRM_HUMAN_SUBTITLE" = "This step verifies you’re a human and ensures your account remains in good standing.";
+
+/* Title on the first palm-liveness screen asking the user to confirm they are a human. */
+"PALM_LIVENESS_CONFIRM_HUMAN_TITLE" = "Confirm you’re a human";
+
+/* Button that starts verifying the user with a face scan instead of a palm scan. */
+"PALM_LIVENESS_CONFIRM_WITH_FACE_BUTTON" = "Confirm with face";
+
+/* Primary button that starts verifying the user with a palm scan. */
+"PALM_LIVENESS_CONFIRM_WITH_PALM_BUTTON" = "Confirm with hand motion";
+
+/* Error message shown when palm verification cannot be started. */
+"PALM_LIVENESS_COULD_NOT_START_ERROR_MESSAGE" = "Palm verification could not be started.";
+
+/* Link to the Help Center article for appealing a suspended account, shown on the palm-verification failure screen. */
+"PALM_LIVENESS_FAILURE_HELP_CENTER_LINK" = "Help Center: Appeal a suspended account";
+
+/* Subtitle on the palm-verification failure screen. */
+"PALM_LIVENESS_FAILURE_SUBTITLE" = "We couldn’t verify your palm.";
+
+/* Title on the palm-verification failure screen. */
+"PALM_LIVENESS_FAILURE_TITLE" = "Verification failed";
+
+/* Button that restarts palm verification after a failure. */
+"PALM_LIVENESS_FAILURE_TRY_AGAIN_BUTTON" = "Try again";
+
+/* Title of the generic error alert shown when a palm-verification step fails. */
+"PALM_LIVENESS_GENERIC_ERROR_ALERT_TITLE" = "Error";
+
+/* On-screen instruction telling the user to pinch the on-screen dots together during the palm gesture. */
+"PALM_LIVENESS_INSTRUCTION_PINCH_DOTS" = "Pinch the dots together";
+
+/* On-screen instruction telling the user to show their palm to the camera. */
+"PALM_LIVENESS_INSTRUCTION_SHOW_PALM" = "Show your palm to the camera";
+
+/* Button that opens the system Settings app so the user can grant camera access. */
+"PALM_LIVENESS_OPEN_SETTINGS_BUTTON" = "Open Settings";
+
+/* Message of the alert shown when palm verification is not supported on the current device. */
+"PALM_LIVENESS_UNSUPPORTED_ALERT_MESSAGE" = "Palm verification is not supported on this device.";
+
+/* Title of the alert shown when palm verification is not supported on the current device. */
+"PALM_LIVENESS_UNSUPPORTED_ALERT_TITLE" = "Palm Verification Unavailable";
+
 // Section: Frameworks/TwitterUI/TwitterUI/Sources/TwitterUIStrings/en.lproj/Localizable.strings
 
 /* Accessibility label for button to block the user */
@@ -24918,11 +25027,26 @@ eg. "- @jack" */
 /* Label for chat box to enter the chat. */
 "PERISCOPE_LIVE_CHAT_LABEL" = "Live chat";
 
+/* System message shown in live chat when two or more viewers have joined the broadcast. %d is the number of viewers. */
+"PERISCOPE_LIVE_CHAT_PEOPLE_WATCHING_FORMAT" = "%d people started watching";
+
+/* System message shown in live chat when exactly one viewer has joined the broadcast. %d is always 1. */
+"PERISCOPE_LIVE_CHAT_PEOPLE_WATCHING_SINGULAR_FORMAT" = "%d person started watching";
+
 /* Placeholder Label in chat box when no messages are available. */
 "PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "Chat messages will appear here";
 
+/* System message shown in live chat when the broadcaster starts streaming. First placeholder is the broadcaster handle, second is the start time. */
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ started streaming · %2$@";
+
+/* Title shown at the top of the live chat sheet. */
+"PERISCOPE_LIVE_CHAT_TITLE" = "Live Chat";
+
 /* Label in chat box when user can chat. */
 "PERISCOPE_SAY_SOMETHING_LABEL" = "Say something";
+
+/* Placeholder in the chat composer prompting the user to send a message. */
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "Send a message";
 
 // Section: Frameworks/MediaAttachmentSettings/Sources/MediaAttachmentSettingsStrings/en.lproj/Localizable.strings
 
