@@ -15889,6 +15889,9 @@ eg. "Super Following Jack" */
 /* Payments: Action to request higher limits via a Support flow. */
 "PAYMENTS_REQUEST_HIGHER_LIMITS_ACTION" = "Request Higher Limits";
 
+/* Payments: Action to approve (aka Restore) an ACH merchant authorization */
+"PAYMENTS_RESTORE_ACH_MERCHANT_AUTH_ACTION" = "Approve";
+
 /* Payments: Message of the interstitial shown when a customer onboards successfully in a state where X doesn't have a money license yet. %@ gets replaced by a localized name of a US state (ex: California) */
 "PAYMENTS_RESTRICTED_US_STATE_MESSAGE_FORMAT" = "Your account is limited until X Money becomes available in %@.";
 
@@ -15904,6 +15907,9 @@ eg. "Super Following Jack" */
 /* Payments: Action to reveal personal information, after passing a pin/passkey challenge */
 "PAYMENTS_REVEAL_ACTION" = "Reveal";
 
+/* Payments: Action to open the details of an ACH merchant authorization to approve or decline it */
+"PAYMENTS_REVIEW_ACH_MERCHANT_AUTH_ACTION" = "Review";
+
 /* Payments: Title of a button that opens the limits applied to the user's account. */
 "PAYMENTS_REVIEW_LIMITS_ACTION" = "Review limits";
 
@@ -15912,6 +15918,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the button to revoke access of an external app to X Money. */
 "PAYMENTS_REVOKE_ACCESS_ACTION" = "Revoke access";
+
+/* Payments: Action to decline (aka Revoke) an ACH merchant authorization */
+"PAYMENTS_REVOKE_ACH_MERCHANT_AUTH_ACTION" = "Decline";
 
 /* Payments: Title for the current cashback balance available to redeem or spend */
 "PAYMENTS_REWARDS_CASHBACK_BALANCE" = "Pending";
@@ -19764,6 +19773,18 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Add member failed error */
 "CHAT_ADD_MEMBER_FAILED" = "Unable to add member. Please try again.";
 
+/* 16:9 aspect ratio label */
+"CHAT_ASPECT_RATIO_16_9" = "16:9";
+
+/* 4:3 aspect ratio label */
+"CHAT_ASPECT_RATIO_4_3" = "4:3";
+
+/* Free aspect ratio label */
+"CHAT_ASPECT_RATIO_FREE" = "Free";
+
+/* Square aspect ratio label */
+"CHAT_ASPECT_RATIO_SQUARE" = "Square";
+
 /* Audio call coming soon title */
 "CHAT_AUDIO_CALL_COMING_SOON" = "Audio Calling Coming Soon";
 
@@ -19787,6 +19808,30 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Call feature coming soon message */
 "CHAT_CALL_COMING_SOON_MESSAGE" = "We’re working hard to bring you audio and video calling. Stay tuned!";
+
+/* Call error: sender is forbidden */
+"CHAT_CALL_ERROR_FORBIDDEN" = "You are not allowed to make calls.";
+
+/* Call error: recipient doesn't follow sender */
+"CHAT_CALL_ERROR_NOT_FOLLOWED" = "Can’t call this account. They don’t follow you.";
+
+/* Call error: recipient not found */
+"CHAT_CALL_ERROR_NOT_FOUND" = "Can’t call this account. User not found.";
+
+/* Call error: sender not verified */
+"CHAT_CALL_ERROR_NOT_VERIFIED" = "You must get verified to make calls.";
+
+/* Call error: encrypted DMs not enabled */
+"CHAT_CALL_ERROR_NO_ENCRYPTED_DM" = "Can’t call this account. Encrypted DMs are not enabled.";
+
+/* Call error: sender has no verified phone */
+"CHAT_CALL_ERROR_NO_PHONE" = "You need a verified phone number to make calls.";
+
+/* Call error: region not available */
+"CHAT_CALL_ERROR_REGION" = "Calls are not available in this region.";
+
+/* Call error: verification required */
+"CHAT_CALL_ERROR_VERIFY_REQUIRED" = "Verification is required for secret DM calls.";
 
 /* Cancel action title */
 "CHAT_CANCEL" = "Cancel";
@@ -19823,6 +19868,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Empty shared media title */
 "CHAT_EMPTY_SHARED_MEDIA_TITLE" = "No Shared Media";
+
+/* Failed to load media label */
+"CHAT_FAILED_TO_LOAD" = "Failed to load";
 
 /* Forwarded message label */
 "CHAT_FORWARDED_MESSAGE" = "Forwarded message";
@@ -19892,6 +19940,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Chat permission allow button title */
 "CHAT_PERMISSION_ALLOW" = "Allow";
+
+/* Chat permission camera subtitle safety number undetermined */
+"CHAT_PERMISSION_CAMERA_SAFETY_NUMBER_SUBTITLE_UNDETERMINED" = "Allow camera access to scan safety number";
+
+/* Chat permission camera safety number title */
+"CHAT_PERMISSION_CAMERA_SAFETY_NUMBER_TITLE" = "Scan safety number";
 
 /* Chat permission camera subtitle denied */
 "CHAT_PERMISSION_CAMERA_SUBTITLE_DENIED" = "Open settings to enable camera";
@@ -24062,47 +24116,11 @@ eg. "- @jack" */
 /* App icon settings title */
 "CHAT_APP_ICON" = "App Icon";
 
-/* 16:9 aspect ratio label */
-"CHAT_ASPECT_RATIO_16_9" = "16:9";
-
-/* 4:3 aspect ratio label */
-"CHAT_ASPECT_RATIO_4_3" = "4:3";
-
-/* Free aspect ratio label */
-"CHAT_ASPECT_RATIO_FREE" = "Free";
-
-/* Square aspect ratio label */
-"CHAT_ASPECT_RATIO_SQUARE" = "Square";
-
 /* At-prefixed username. %@: username */
 "CHAT_AT_USERNAME" = "@%@";
 
-/* Call error: sender is forbidden */
-"CHAT_CALL_ERROR_FORBIDDEN" = "You are not allowed to make calls.";
-
-/* Call error: recipient doesn't follow sender */
-"CHAT_CALL_ERROR_NOT_FOLLOWED" = "Can’t call this account. They don’t follow you.";
-
-/* Call error: recipient not found */
-"CHAT_CALL_ERROR_NOT_FOUND" = "Can’t call this account. User not found.";
-
-/* Call error: sender not verified */
-"CHAT_CALL_ERROR_NOT_VERIFIED" = "You must get verified to make calls.";
-
-/* Call error: encrypted DMs not enabled */
-"CHAT_CALL_ERROR_NO_ENCRYPTED_DM" = "Can’t call this account. Encrypted DMs are not enabled.";
-
-/* Call error: sender has no verified phone */
-"CHAT_CALL_ERROR_NO_PHONE" = "You need a verified phone number to make calls.";
-
-/* Call error: region not available */
-"CHAT_CALL_ERROR_REGION" = "Calls are not available in this region.";
-
 /* Call error: unable to call */
 "CHAT_CALL_ERROR_UNABLE" = "Unable to call this user at this time.";
-
-/* Call error: verification required */
-"CHAT_CALL_ERROR_VERIFY_REQUIRED" = "Verification is required for secret DM calls.";
 
 /* Cannot mix media and files message */
 "CHAT_CANNOT_MIX_MEDIA_FILES" = "You cannot send files and media together. Please remove the existing attachments first.";
@@ -24199,9 +24217,6 @@ eg. "- @jack" */
 
 /* Expand button shown on truncated long messages to open the full-message viewer */
 "CHAT_EXPAND" = "Expand";
-
-/* Media failed to load error */
-"CHAT_FAILED_TO_LOAD" = "Failed to load";
 
 /* Filter by label */
 "CHAT_FILTER_BY" = "Filter by";
@@ -25120,6 +25135,12 @@ eg. "- @jack" */
 
 /* Title for the Edit with Grok button in the photo editor */
 "XPHOTOEDITOR_GROK_BUTTON_TITLE" = "Edit image";
+
+/* Accessibility label for the image overlay tool toolbar button */
+"XPHOTOEDITOR_IMAGE_OVERLAY_ACCESSIBILITY_LABEL" = "Add photo";
+
+/* Navigation title shown while the image overlay tool is active */
+"XPHOTOEDITOR_IMAGE_OVERLAY_TITLE" = "Add Photo";
 
 /* Label for the Open Settings action when photo access is denied */
 "XPHOTOEDITOR_OPEN_SETTINGS_ACTION_LABEL" = "Open Settings";
