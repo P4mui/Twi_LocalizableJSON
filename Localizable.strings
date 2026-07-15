@@ -919,6 +919,12 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title for Bookmark Folder name title text field */
 "BOOKMARK_FOLDERS_CREATE_NAME_TITLE" = "Name";
 
+/* Subtitle for the row that starts creating a new bookmark folder */
+"BOOKMARK_FOLDERS_CREATE_NEW_FOLDER_SUBTITLE" = "Organize your bookmarks";
+
+/* Title for the row that starts creating a new bookmark folder */
+"BOOKMARK_FOLDERS_CREATE_NEW_FOLDER_TITLE" = "Create new folder";
+
 /* Subtitle shown when deleting a Bookmark Folder */
 "BOOKMARK_FOLDERS_DELETE_FOLDER_CONFIRMATION_SUBTITLE" = "Your posts will still be saved in the “All Bookmarks” folder";
 
@@ -940,8 +946,20 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Message shown when an error occurred while updating a Folder */
 "BOOKMARK_FOLDERS_ERROR_SAVING_CHANGES_LABEL" = "Error saving changes";
 
+/* Placeholder for the bookmark folder name text field */
+"BOOKMARK_FOLDERS_FOLDER_NAME_PLACEHOLDER" = "Folder Name";
+
 /* Message shown when the Bookmark Folder name is too long */
 "BOOKMARK_FOLDERS_NAME_IS_TOO_LONG_ERROR_LABEL" = "Name is too long";
+
+/* Body text shown on the new bookmark folder screen */
+"BOOKMARK_FOLDERS_NEW_FOLDER_BODY" = "Create a new folder to organize your bookmarks, you can edit this later.";
+
+/* Title for the new bookmark folder screen */
+"BOOKMARK_FOLDERS_NEW_FOLDER_TITLE" = "New Folder";
+
+/* Label indicating a bookmark folder is private */
+"BOOKMARK_FOLDERS_PRIVATE_LABEL" = "Private";
 
 /* Label for the confirmation that a post was successfully removed from a Bookmark Folder,
 e.g. Removed from MyRecipes.
@@ -7159,9 +7177,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Title for Interests settings item */
 "SETTINGS_INTERESTS_TITLE" = "Interests";
 
-/* Title of in-app Settings button */
-"SETTINGS_LABEL" = "Settings and privacy";
-
 /* Descriptive text that describes the languages section on the Settings Page */
 "SETTINGS_LANGUAGES_ITEM_DETAIL" = "Manage which languages are used to personalize your X experience.";
 
@@ -7719,6 +7734,15 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Label which directs the customer to manage their subscription via twitter.com to make any changes */
 "SUBSCRIPTION_MANAGE_SUBSCRIPTION_VIA_STRIPE_DETAILS" = "Looks like you bought this subscription on the X website. You’ll need to manage or cancel your subscription on that platform.";
+
+/* Short status badge shown on the manage subscription screen for a complimentary Premium subscription granted through SuperGrok Heavy */
+"SUBSCRIPTION_MANAGE_SUPERGROK_HEAVY_BADGE" = "Complimentary";
+
+/* Description shown on the manage subscription screen for a Premium subscription granted for free through a SuperGrok Heavy subscription. Note to translators: do not translate "SuperGrok Heavy". */
+"SUBSCRIPTION_MANAGE_SUPERGROK_HEAVY_COMPLIMENTARY" = "Complimentary with SuperGrok Heavy.";
+
+/* Description shown on the manage subscription screen telling the user where to manage a Premium subscription granted through SuperGrok Heavy. Note to translators: do not translate "Grok", "the Grok App", or "Grok.com". */
+"SUBSCRIPTION_MANAGE_SUPERGROK_HEAVY_MANAGE" = "Manage on the Grok App or Grok.com";
 
 /* Title text for manage your gifted subscription tappable cell */
 "SUBSCRIPTION_MANAGE_YOUR_GIFTED_SUBSCRIPTION" = "Manage gifted subscription";
@@ -8726,6 +8750,9 @@ eg. "Super Following Jack" */
 /* Label for the Reposts tab when viewing profile */
 "USER_PROFILE_REPOSTS_TAB_LABEL" = "Reposts";
 
+/* Title of the Schedule tab on the user profile. */
+"USER_PROFILE_SCHEDULE_LABEL" = "Schedule";
+
 /* Cancel button label for Photo/Header upload failed alert */
 "USER_PROFILE_UPLOAD_FAILED_CANCEL_BUTTON_LABEL" = "Cancel";
 
@@ -8810,6 +8837,9 @@ eg. "Super Following Jack" */
 
 /* Title for the Thumbnail tab in the Video Editor toolbar. */
 "VIDEOEDITOR_TAB_THUMBNAIL_TITLE" = "Thumbnail";
+
+/* Title for the button in the Video Editor Thumbnail tab that selects a video frame as the thumbnail. */
+"VIDEOEDITOR_THUMBNAIL_SELECT_FRAME_BUTTON_TITLE" = "Select frame";
 
 /* Title for the button in the Video Editor Thumbnail tab that uploads a new thumbnail image. */
 "VIDEOEDITOR_THUMBNAIL_UPLOAD_BUTTON_TITLE" = "Upload new";
@@ -13612,9 +13642,6 @@ eg. "Super Following Jack" */
 /* Payments: Action to approve a transaction */
 "PAYMENTS_ACCEPT_APPROVE_TRANSACTION_ACTION" = "Approve Transaction";
 
-/* Payments: Title of the button that allows a user to accept a money transfer. %@ is replaced by a formatted amount (ex: $10). */
-"PAYMENTS_ACCEPT_TRANSFER_AMOUNT_ACTION" = "Accept %@";
-
 /* Payments: Section header listing users who have access to a shared or business account */
 "PAYMENTS_ACCOUNTS_AUTHORIZED_USERS_SECTION" = "Authorized Users";
 
@@ -13849,12 +13876,6 @@ eg. "Super Following Jack" */
 /* Payments: Option label for the sole proprietorship business entity type */
 "PAYMENTS_BUSINESS_ENTITY_TYPE_US_SOLE_PROP" = "Sole Proprietorship";
 
-/* Payments: Title of the button that allows a user to cancel a money transfer */
-"PAYMENTS_CANCEL_TRANSFER_ACTION" = "Cancel";
-
-/* Payments: Title of the button that allows a user to cancel a money transfer request */
-"PAYMENTS_CANCEL_TRANSFER_REQUEST_ACTION" = "Cancel request";
-
 /* Payments: Display name for American Express credit cards */
 "PAYMENTS_CARD_BRAND_AMEX" = "Amex";
 
@@ -13866,9 +13887,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Toast shown when the user updates their card PIN with success */
 "PAYMENTS_CARD_PIN_UPDATE_SUCCESS_TOAST" = "Card PIN has been successfully changed!";
-
-/* Payments: Disclaimer shown at the bottom of the card tab, to re-inforce the protections. */
-"PAYMENTS_CARD_PROTECTION_DISCLAIMER" = "Your purchases are protected by Visa’s Zero Liability Policy, ensuring you won’t be held responsible for unauthorized charges.";
 
 /* Payments: Attribute presenting the amount of the replacement fee for the customer's debit card. */
 "PAYMENTS_CARD_REPLACEMENT_FEE_ATTRIBUTE" = "Replacement Fee";
@@ -13953,9 +13971,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Error title shown when card issuance fails, but we'll retry later on behalf of the customer, and update them. */
 "PAYMENTS_CARD_SPEND_ISSUE_CARD_ERROR_PENDING_TITLE" = "Thank you for ordering your card";
-
-/* Payments: Status for a card that is locked (cannot use it for payments) */
-"PAYMENTS_CARD_SPEND_LOCKED_STATUS" = "Locked";
 
 /* Payments: Subtitle for the section about locking cards */
 "PAYMENTS_CARD_SPEND_LOCK_CARDS_SECTION_SUBTITLE" = "Recurring bills, such as monthly bills and subscriptions will continue to post to your account as usual.";
@@ -14176,9 +14191,6 @@ eg. "Super Following Jack" */
 /* Payments: Information shown on the check deposit flow amount screen */
 "PAYMENTS_CHECK_DEPOSIT_AMOUNT_DESCRIPTION" = "Enter the amount shown on your check";
 
-/* Payments: Section title for the check amount input on the check deposit screen */
-"PAYMENTS_CHECK_DEPOSIT_AMOUNT_TITLE" = "Check amount";
-
 /* Payments: Subtitle for the first step explaining that the system checks photo quality */
 "PAYMENTS_CHECK_DEPOSIT_FACTS_CONFIRM_AMOUNT_SUBTITLE" = "Make sure it corresponds to what’s on the check";
 
@@ -14199,12 +14211,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the check deposit instructions screen */
 "PAYMENTS_CHECK_DEPOSIT_FACTS_TITLE" = "How to deposit a check";
-
-/* Payments: Section title for the check images on the check deposit screen */
-"PAYMENTS_CHECK_DEPOSIT_IMAGES_TITLE" = "Check images";
-
-/* Payments: Action label shown on a failed check image, prompting the user to tap and retry the scan */
-"PAYMENTS_CHECK_DEPOSIT_RETRY_ACTION" = "Tap to retry";
 
 /* Payments: Button label to scan the back of the check */
 "PAYMENTS_CHECK_DEPOSIT_SCAN_BACK_ACTION" = "Scan Back of Check";
@@ -14295,9 +14301,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Format for the disclaimer shown on the screen where the customer accepts new terms, agreements, etc. %1$@ is replaced by action (ex: Accept), and %1$@ is replaced by the name of what they accept (ex: Terms of Service). */
 "PAYMENTS_CONSENT_DISCLAIMER_FORMAT" = "By clicking “%1$@”, you agree to the new %2$@.";
-
-/* Payments: Title of a button that allows a user to contact the support. */
-"PAYMENTS_CONTACT_SUPPORT_ACTION" = "Contact support";
 
 /* Payments: Title of a button that allows the user to continue a flow. Should be kept generic. */
 "PAYMENTS_CONTINUE_ACTION" = "Continue";
@@ -14563,6 +14566,9 @@ eg. "Super Following Jack" */
 /* Payments: Toast text shown when the user tries to do an unauthorized action */
 "PAYMENTS_ERROR_ACCESS_DENIED_MESSAGE" = "Action denied";
 
+/* Payments: Error shown if the customer tries to create more than the allowed number of extra accounts (secondary, shared, business, ...) */
+"PAYMENTS_ERROR_ACCOUNT_LIMIT_REACHED" = "You’ve reached the maximum number of accounts you can create.";
+
 /* Payments: Generic error message shown when additional identity verification is required to continue using X Payments. */
 "PAYMENTS_ERROR_ADDITIONAL_KYC_REQUIRED" = "Additional verification is required";
 
@@ -14821,17 +14827,11 @@ eg. "Super Following Jack" */
 /* Payments: Title of the error screen after failing to schedule a deposit. */
 "PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_ERROR_TITLE" = "Deposit failed";
 
-/* Payments: Defines the title for the initial payment method selection screen during a deposit transaction. */
-"PAYMENTS_EXTERNAL_TRANSACTION_DEPOSIT_INITIAL_PAYMENT_METHOD_TITLE" = "How would you like to deposit your funds?";
-
 /* Payments: Title shown next to the transaction fee amount on the deposit/withdraw flows. */
 "PAYMENTS_EXTERNAL_TRANSACTION_FEE_TITLE" = "Fee";
 
 /* Payments: Title shown next to the memo on wires and issued checks flows. Memo is a text inputted by the customer. */
 "PAYMENTS_EXTERNAL_TRANSACTION_MEMO" = "Memo";
-
-/* Payments: Value shown next to the "Fee" attribute on a transaction, when there is no fee. */
-"PAYMENTS_EXTERNAL_TRANSACTION_NO_FEE_VALUE" = "None";
 
 /* Payments: Title shown next to the transaction processing time (Ex: Instant, 3 business days, etc.). */
 "PAYMENTS_EXTERNAL_TRANSACTION_PROCESSING_TIME_TITLE" = "Transaction time";
@@ -14850,9 +14850,6 @@ eg. "Super Following Jack" */
 
 /* Payments: First line of a transfer confirmation summary, indicating the amount to transfer. %@ is a formatted amount (ex: $10). */
 "PAYMENTS_EXTERNAL_TRANSACTION_TRANSFER_CONFIRMATION_TRANSFER_FORMAT" = "Transfer %@";
-
-/* Payments: Defines the title for the initial payment method selection screen during a withdrawal transaction. */
-"PAYMENTS_EXTERNAL_TRANSACTION_WITHDRAWAL_INITIAL_PAYMENT_METHOD_TITLE" = "How would you like to withdraw your funds?";
 
 /* Payments: Title of the confirmation screen for withdrawing money from the user’s X Payments account. */
 "PAYMENTS_EXTERNAL_TRANSACTION_WITHDRAW_CONFIRMATION_TITLE" = "Confirm Withdrawal";
@@ -15187,20 +15184,8 @@ eg. "Super Following Jack" */
 /* Payments: Error shown on the shipping address screen, when the apartment or unit number is missing */
 "PAYMENTS_MAILING_ADDRESS_ERROR_MISSING_SUBPREMISE" = "Please provide an Apartment, Suite, etc.";
 
-/* Payments: Menu option allowing the user to initiate a dispute for a specific charge */
-"PAYMENTS_MORE_MENU_DISPUTE_CHARGE" = "Dispute charge";
-
-/* Payments: Option in the More menu to access customer support for X Payments. */
-"PAYMENTS_MORE_MENU_GET_SUPPORT" = "Get support";
-
-/* Payments: Menu option to view or reference the original purchase details of a transaction */
-"PAYMENTS_MORE_MENU_ORIGINAL_PURCHASE" = "Original purchase";
-
 /* Payments: Menu option to view the proof of payment of a transaction (typically a PDF document, for wire transfers) */
 "PAYMENTS_MORE_MENU_PROOF_OF_PAYMENT" = "Proof of payment";
-
-/* Payments: Option in the More menu to report a transaction. */
-"PAYMENTS_MORE_MENU_REPORT" = "Report transaction";
 
 /* Payments: Subtitle shown when bank account linking failed because the name was not a match */
 "PAYMENTS_NAME_MISMATCH_ERROR_ACCOUNT_LINKING_MESSAGE" = "Please try a different account.";
@@ -15577,9 +15562,6 @@ eg. "Super Following Jack" */
 /* Payments: Title of the button to send money */
 "PAYMENTS_PAY_ACTION" = "Pay";
 
-/* Payments: Title of the button to initiate a payment in X Payments. %@ is replaced by the formatted amount (ex: $10). */
-"PAYMENTS_PAY_AMOUNT_ACTION" = "Pay %@";
-
 /* Payments: Subtitle explaining that the user’s X Payments account is under review. */
 "PAYMENTS_PENDING_REVIEW_SUBTITLE" = "This can take up to 1 business day. Please check back later.";
 
@@ -15871,17 +15853,8 @@ eg. "Super Following Jack" */
 /* Payments: Text description for the transaction rail "Wire" */
 "PAYMENTS_RAIL_WIRE" = "Wire Transfer";
 
-/* Payments: Action to recognize a transaction as a legitimate one */
-"PAYMENTS_RECOGNIZE_TRANSACTION_ACTION" = "Yes, it was me";
-
-/* Payments: Action to open the Plaid flow that allows a customer to re-connect their bank account to X Money */
-"PAYMENTS_RECONNECT_ACCOUNT_ACTION" = "Reconnect your account";
-
 /* Payments: Action to reject an operation */
 "PAYMENTS_REJECT_ACTION" = "Reject";
-
-/* Payments: Action to reject a payment request */
-"PAYMENTS_REJECT_REQUEST_ACTION" = "Decline Request";
 
 /* Payments: Action to reject an unrecognized payment */
 "PAYMENTS_REJECT_UNRECOGNIZED_PAYMENT_ACTION" = "I did not make this purchase";
@@ -15901,17 +15874,11 @@ eg. "Super Following Jack" */
 /* Payments: Title of the screen to replace the customer's virtual card */
 "PAYMENTS_REPLACE_VIRTUAL_CARD_CONFIRM_TITLE" = "Replace your card";
 
-/* Payments: Action to reply to a P2P transfer on X Money, using X Chat */
-"PAYMENTS_REPLY_WITH_XCHAT_ACTION" = "Message";
-
 /* Payments: Title of the button to request money */
 "PAYMENTS_REQUEST_ACTION" = "Request";
 
 /* Payments: Action to request higher limits via a Support flow. */
 "PAYMENTS_REQUEST_HIGHER_LIMITS_ACTION" = "Request Higher Limits";
-
-/* Payments: Action to approve (aka Restore) an ACH merchant authorization */
-"PAYMENTS_RESTORE_ACH_MERCHANT_AUTH_ACTION" = "Approve";
 
 /* Payments: Message of the interstitial shown when a customer onboards successfully in a state where X doesn't have a money license yet. %@ gets replaced by a localized name of a US state (ex: California) */
 "PAYMENTS_RESTRICTED_US_STATE_MESSAGE_FORMAT" = "Your account is limited until X Money becomes available in %@.";
@@ -15928,20 +15895,14 @@ eg. "Super Following Jack" */
 /* Payments: Action to reveal personal information, after passing a pin/passkey challenge */
 "PAYMENTS_REVEAL_ACTION" = "Reveal";
 
-/* Payments: Action to open the details of an ACH merchant authorization to approve or decline it */
-"PAYMENTS_REVIEW_ACH_MERCHANT_AUTH_ACTION" = "Review";
+/* Payments: Action to review a transaction. Must be short. */
+"PAYMENTS_REVIEW_ACTION" = "Review";
 
 /* Payments: Title of a button that opens the limits applied to the user's account. */
 "PAYMENTS_REVIEW_LIMITS_ACTION" = "Review limits";
 
-/* Payments: Action to review an unrecognized payment */
-"PAYMENTS_REVIEW_UNRECOGNIZED_PAYMENT_ACTION" = "Review";
-
 /* Payments: Title of the button to revoke access of an external app to X Money. */
 "PAYMENTS_REVOKE_ACCESS_ACTION" = "Revoke access";
-
-/* Payments: Action to decline (aka Revoke) an ACH merchant authorization */
-"PAYMENTS_REVOKE_ACH_MERCHANT_AUTH_ACTION" = "Decline";
 
 /* Payments: Title for the current cashback balance available to redeem or spend */
 "PAYMENTS_REWARDS_CASHBACK_BALANCE" = "Pending";
@@ -15954,9 +15915,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Subtitle for the Cashback rewards section, showing the current cashback percentage */
 "PAYMENTS_REWARDS_CASHBACK_SECTION_SUBTITLE" = "Earn %@ on eligible card purchases*";
-
-/* Payments: Subtitle for the Cashback rewards section, showing the current cashback percentage */
-"PAYMENTS_REWARDS_CASHBACK_SECTION_SUBTITLE_WITHOUT_PERCENT" = "Earn lucrative cash back on eligible card purchases*";
 
 /* Payments: Section title for the Cashback rewards section in the Rewards tab */
 "PAYMENTS_REWARDS_CASHBACK_SECTION_TITLE" = "Cashback";
@@ -15981,9 +15939,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Subtitle for the Interest rewards section, showing the current APY */
 "PAYMENTS_REWARDS_INTEREST_SECTION_SUBTITLE" = "Your cash at work with our %@ APY";
-
-/* Payments: Section title for the Interest rewards section in the Rewards tab */
-"PAYMENTS_REWARDS_INTEREST_SECTION_TITLE" = "Interest";
 
 /* Payments: "Routing number" used for US bank accounts transfers */
 "PAYMENTS_ROUTING_NUMBER" = "Routing Number";
@@ -16053,9 +16008,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Disclaimer shown on the confirmation page to schedule a payment. %@ is replaced by the name of the button (ex: "Continue"). */
 "PAYMENTS_SCHEDULED_PAYMENT_DISCLAIMER_FORMAT" = "By pressing “%@“, you authorize us to schedule payments as specified above.";
-
-/* Payments: Subtitle shown on the screen where the user inputs the maximum occurrences for a scheduled payment */
-"PAYMENTS_SCHEDULED_PAYMENT_END_NUMBER_OF_PAYMENTS_SUBTITLE" = "How many payments would you like this to repeat for?";
 
 /* Payments: Annually frequency option for a recurring scheduled payment */
 "PAYMENTS_SCHEDULED_PAYMENT_FREQUENCY_ANNUALLY" = "Annually";
@@ -16246,9 +16198,6 @@ eg. "Super Following Jack" */
 /* Payments: Action to set up two-factor authentication */
 "PAYMENTS_SETUP_TWO_FACTOR_AUTH_ACTION" = "Set up";
 
-/* Payments: Action to share a transaction (ex: in a post, messages, etc.) */
-"PAYMENTS_SHARE_TRANSACTION_ACTION" = "Share";
-
 /* Payments: Action to share the payment link that was just created */
 "PAYMENTS_SHARE_TRANSFER_LINK_ACTION" = "Share link";
 
@@ -16300,9 +16249,6 @@ eg. "Super Following Jack" */
 /* Payments: Headline shown above the current balance of all the user’s accounts, on the Payments home. */
 "PAYMENTS_TOTAL_BALANCE_TITLE" = "Total Balance";
 
-/* Payments: Action to open an issued check shipping tracking page on X Money */
-"PAYMENTS_TRACK_SHIPPING_ACTION" = "Track shipping";
-
 /* Payments: Title when the transactions list is empty */
 "PAYMENTS_TRANSACTIONS_EMPTY_SUBTITLE" = "Once you have some activity, it will show up here.";
 
@@ -16323,9 +16269,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Label for the location (full address or city or country) of a transaction */
 "PAYMENTS_TRANSACTION_ATTRIBUTE_LOCATION" = "Location";
-
-/* Payments: Transaction attribute describing the authorization mode (contactless, online, chip, ...) or the rail (ACH, Wire Transfer, ...), depending on its type. */
-"PAYMENTS_TRANSACTION_ATTRIBUTE_MODE" = "Mode";
 
 /* Payments: Label for the status of a transaction */
 "PAYMENTS_TRANSACTION_ATTRIBUTE_STATUS" = "Status";
@@ -16362,9 +16305,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Prefix shown before the destination of a transfer */
 "PAYMENTS_TRANSFER_ATTRIBUTE_TO" = "To";
-
-/* Payments: Text containing the available balance on a transfer screen. %@ is replaced by a localized amount. */
-"PAYMENTS_TRANSFER_AVAILABLE_BALANCE_FORMAT" = "%@ available to transfer";
 
 /* Payments: Error message when a transfer fails. */
 "PAYMENTS_TRANSFER_ERROR_TITLE" = "Unable to send your payment";
@@ -16432,9 +16372,6 @@ eg. "Super Following Jack" */
 /* Payments: Title of the error shown when we identified an unexpected scenario in the app, and that a bug has been reported. */
 "PAYMENTS_UNEXPECTED_CASE_TITLE" = "An unexpected user state occured.";
 
-/* Payments: Button text to unlock interest (aka verify your identity) */
-"PAYMENTS_UNLOCK_INTEREST_ACTION" = "Unlock interest";
-
 /* Payments: Subtitle of the screen that shows if the current user device is not supported (OS version, Passkeys, ...). %@ is replaced by the version required (ex: 17.5). */
 "PAYMENTS_UNSUPPORTED_DEVICE_SUBTITLE" = "iOS %@ or newer is required.";
 
@@ -16443,9 +16380,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Action to change the user’s PIN */
 "PAYMENTS_UPDATE_PIN_ACTION" = "Change PIN";
-
-/* Payments: Button shown in the settings to update a value (ex: an amount). */
-"PAYMENTS_UPDATE_SETTING_ACTION" = "Update";
 
 /* Payments: Title shown when bank account linking is temporarily paused due to velocity checks */
 "PAYMENTS_VELOCITY_ERROR_ACCOUNT_LINKING_MESSAGE" = "Your ability to perform this action is temporarily paused. Please try again later. Note that your previous linked accounts are still available.";
@@ -16477,14 +16411,14 @@ eg. "Super Following Jack" */
 /* Payments: Action to view the user’s account */
 "PAYMENTS_VIEW_ACCOUNT_ACTION" = "View account";
 
+/* Payments: Title of the button that leads the customer to the activity screen (list of their transactions) */
+"PAYMENTS_VIEW_ALL_ACTIVITY_ACTION" = "View All Activity";
+
 /* Payments: Action to view the user’s balance */
 "PAYMENTS_VIEW_BALANCE_ACTION" = "Go to Money";
 
 /* Payments: Action to open the screen that shows all the check details */
 "PAYMENTS_VIEW_CHECK_METADATA_ACTION" = "Check information";
-
-/* Payments: Action to open the creator studio from a transaction */
-"PAYMENTS_VIEW_IN_CREATOR_STUDIO_ACTION" = "View in Creator Studio";
 
 /* Payments: Action to open the screen that shows all the wire details */
 "PAYMENTS_VIEW_WIRE_METADATA_ACTION" = "Wire information";
@@ -17322,6 +17256,9 @@ eg. "Super Following Jack" */
 
 /* Label shown to the booster when the boost campaign is under review */
 "BOOSTED_LABEL_UNDER_REVIEW" = "Boost starting";
+
+/* Social context row label (above the post, like the repost label) for a post boosted by a third party. %1$@ is the booster's @handle. */
+"BOOSTED_SOCIAL_CONTEXT_LABEL_FORMAT" = "%1$@ boosted";
 
 /* Text label/badge shown next to a user's name when they are an Admin of a Community. This text may appear in a tight area so using an abbreviation to make it shorter would be preferred. For example, we choose to use "Admin" instead of "Administrator" */
 "COMMUNITY_TWEET_ADMIN_BADGE_LABEL" = "Admin";
@@ -18679,9 +18616,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Label for action sheet button */
 "MAIL_TWEET_ACTION_LABEL" = "Mail post";
 
-/** Title of a page for Media tab */
-"MEDIA_PAGE_TITLE" = "Video";
-
 /* Accessibility label for the button that collapses a modal sheet from full screen back to its smaller floating size. */
 "MODAL_SHEET_COLLAPSE_BUTTON" = "Collapse";
 
@@ -19857,8 +19791,11 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Cannot use feature alert title */
 "CHAT_CANNOT_USE_FEATURE" = "Cannot use this feature";
 
-/* Characters remaining count. %@: remaining count */
+/* Characters remaining count, plural. %@: remaining count */
 "CHAT_CHARS_REMAINING" = "%@ characters remaining";
+
+/* Characters remaining count, singular */
+"CHAT_CHARS_REMAINING_SINGULAR" = "1 character remaining";
 
 /* Close button label */
 "CHAT_CLOSE" = "Close";
@@ -19897,7 +19834,7 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 "CHAT_FORWARDED_MESSAGE" = "Forwarded message";
 
 /* Grok settings footer description */
-"CHAT_GROK_SETTINGS_FOOTER" = "When enabled, you can send @grok messages to the conversation.\n\nGrok will read some of the recent messages. This helps Grok understand the discussion and reply more naturally and accurately. [Learn more](https://help.x.com/en/using-x/about-chat).";
+"CHAT_GROK_SETTINGS_FOOTER" = "When enabled, you can send @grok messages to the conversation.\n\nGrok will read some of the recent messages. This helps Grok understand the discussion and reply more naturally and accurately. [Learn more](https://help.x.com/using-x/about-chat).";
 
 /* Grok settings non-admin permissions error */
 "CHAT_GROK_SETTINGS_PERMISSIONS_ERROR" = "Only admins can make changes to Grok settings";
@@ -20823,6 +20760,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Conversation message composer attachment action convert to text (e.g. converting URL card or post to URL) */
 "DM_CONVERSATION_MESSAGE_COMPOSER_ATTACHMENT_ACTION_CONVERT_TO_TEXT" = "Convert to text";
 
+/* DM Conversation message composer attachment action to edit a photo attachment */
+"DM_CONVERSATION_MESSAGE_COMPOSER_ATTACHMENT_ACTION_EDIT_PHOTO" = "Edit photo";
+
 /* DM Conversation message composer attachment action to remove an attachment */
 "DM_CONVERSATION_MESSAGE_COMPOSER_ATTACHMENT_ACTION_REMOVE" = "Remove attachment";
 
@@ -21227,6 +21167,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Inbox pill to show unread messages */
 "DM_INBOX_PILL_UNREAD_TITLE" = "Unread";
+
+/* DM Inbox Pull Failure Title shown when inbox message pull fails for any reason */
+"DM_INBOX_PULL_FAILURE_TITLE" = "There was an issue loading all of your messages.";
 
 /* Message shown when searching chats yields no results.
    Shown in the DM Inbox search empty state. */
@@ -22254,12 +22197,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM PIN Reminder Title */
 "DM_PIN_REMINDER_TITLE" = "Passcode Verification";
-
-/* DM Pull Failure Title */
-"DM_PULL_FAILURE_TITLE" = "Your messages failed to load.";
-
-/* DM Pull Failure Title shown when the server reports the user has too many messages and the inbox preview pull was throttled. */
-"DM_PULL_FAILURE_TOO_MANY_MESSAGES_TITLE" = "Sorry! You have too many messages. Please wait a bit and try again.";
 
 /* DM message-request rate limit upsell sheet secondary (dismiss) action title */
 "DM_RATE_LIMIT_UPSELL_DISMISS_ACTION" = "Not Now";
@@ -25157,6 +25094,15 @@ eg. "- @jack" */
 /* Label for the cancel action in the discard changes alert */
 "XPHOTOEDITOR_CANCEL_ACTION_LABEL" = "Cancel";
 
+/* Description under the content flags section when editing a photo */
+"XPHOTOEDITOR_CONTENT_FLAGS_DESCRIPTION_PHOTO" = "Choose any categories to apply content warnings to your photo. This helps people avoid content they don’t want to see.";
+
+/* Description under the content flags section when editing a video */
+"XPHOTOEDITOR_CONTENT_FLAGS_DESCRIPTION_VIDEO" = "Choose any categories to apply content warnings to your video. This helps people avoid content they don’t want to see.";
+
+/* Title of the content flags section */
+"XPHOTOEDITOR_CONTENT_FLAGS_TITLE" = "Content Flags";
+
 /* Accessibility label for the content settings toolbar button */
 "XPHOTOEDITOR_CONTENT_SETTINGS_ACCESSIBILITY_LABEL" = "Content settings";
 
@@ -25193,6 +25139,18 @@ eg. "- @jack" */
 /* Navigation title shown while the filters tool is active */
 "XPHOTOEDITOR_FILTERS_TITLE" = "Add Filter";
 
+/* Toggle for marking media as AI generated */
+"XPHOTOEDITOR_FLAG_AI_GENERATED" = "AI generated";
+
+/* Toggle for the nudity content warning */
+"XPHOTOEDITOR_FLAG_NUDITY" = "Nudity";
+
+/* Toggle for the sensitive content warning */
+"XPHOTOEDITOR_FLAG_SENSITIVE" = "Sensitive";
+
+/* Toggle for the violence content warning */
+"XPHOTOEDITOR_FLAG_VIOLENCE" = "Violence";
+
 /* Accessibility label for the Edit with Grok button */
 "XPHOTOEDITOR_GROK_BUTTON_ACCESSIBILITY_LABEL" = "Edit with Grok";
 
@@ -25207,6 +25165,21 @@ eg. "- @jack" */
 
 /* Label for the Open Settings action when photo access is denied */
 "XPHOTOEDITOR_OPEN_SETTINGS_ACTION_LABEL" = "Open Settings";
+
+/* Description under the permissions section when editing a photo */
+"XPHOTOEDITOR_PERMISSIONS_DESCRIPTION_PHOTO" = "Select what actions people can take on your photo.";
+
+/* Description under the permissions section when editing a video */
+"XPHOTOEDITOR_PERMISSIONS_DESCRIPTION_VIDEO" = "Select what actions people can take on your video.";
+
+/* Title of the permissions section */
+"XPHOTOEDITOR_PERMISSIONS_TITLE" = "Permissions";
+
+/* Toggle allowing other users to download the media */
+"XPHOTOEDITOR_PERMISSION_ALLOW_DOWNLOADS" = "Allow downloads";
+
+/* Toggle allowing Grok to modify the media */
+"XPHOTOEDITOR_PERMISSION_ALLOW_GROK_MODIFICATIONS" = "Allow modifications by Grok";
 
 /* Message for the alert shown when photo library access has been denied */
 "XPHOTOEDITOR_PHOTO_ACCESS_DENIED_MESSAGE" = "Allow photo library access in Settings to save images to your gallery.";
