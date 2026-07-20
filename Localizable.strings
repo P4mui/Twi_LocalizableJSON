@@ -62,6 +62,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Accessibility label for an XDSButton whose content is a loading spinner. */
 "XDS_BUTTON_LOADING_ACCESSIBILITY_LABEL" = "Loading";
 
+/* Accessibility hint for an XDS List row with a tray-menu (vertical dots) accessory, spoken after the row title to indicate that tapping the row opens a sheet. */
+"XDS_LIST_TRAY_MENU_ACCESSIBILITY_HINT" = "Opens a sheet";
+
 /* Accessibility label for the XDS Tray header back button. */
 "XDS_TRAY_BACK_BUTTON_ACCESSIBILITY_LABEL" = "Back";
 
@@ -153,12 +156,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Header for explanation section of Deactivate Account page */
 "ACCOUNT_DEACTIVATE_EXPLANATION_HEADER" = "This will deactivate your account";
-
-/* Top paragraph of first page of account deactivation flow (for guest users) */
-"ACCOUNT_DEACTIVATE_GUEST_USER_EXPLANATION_BODY" = "By selecting this option, you’ll deactivate and exit your current X experience. You’re always welcome to return to X; you won’t be able to access the set of accounts that you currently follow, but you can refollow each account when you return.";
-
-/* Header for explanation section of Deactivate Account page (for guest users) */
-"ACCOUNT_DEACTIVATE_GUEST_USER_EXPLANATION_HEADER" = "This will deactivate your current X experience";
 
 /* "Deactivate account" option in Account Settings */
 "ACCOUNT_DEACTIVATE_LABEL" = "Deactivate your account";
@@ -1675,12 +1672,6 @@ e.g. Removed from MyRecipes.
 /* Accessibility label for add a post button when adding replies. */
 "COMPOSE_VIEW_ADD_REPLY_ACCESSIBILITY_LABEL" = "Add another reply";
 
-/* Accessibility hint for add a text mode canvas */
-"COMPOSE_VIEW_ADD_TEXT_MODE_CANVAS_ACCESSIBILITY_HINT" = "Opens editor to design posts";
-
-/* Accessibility label for add a text mode canvas */
-"COMPOSE_VIEW_ADD_TEXT_MODE_CANVAS_ACCESSIBILITY_LABEL" = "Post Canvas";
-
 /* Accessibility hint for add a post button. */
 "COMPOSE_VIEW_ADD_TWEET_ACCESSIBILITY_HINT" = "Adds another post to this thread";
 
@@ -2333,12 +2324,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Title of a subscription price in the Super Follows Benefits pricing selector screen. This is a formatted string that includes the price of one offering. For example, if the offering obtained from the service is $2.99, this string will be "$2.99 per month". */
 "CREATOR_SUPER_FOLLOWS_BENEFITS_BUILDER_PRICING_ITEM_TITLE_FORMAT" = "%@ per month";
-
-/* Hashtag for the Tips prompt system alert. Note to translators: This will be a hashtag, (#SendTips). This should be localized based on the user's locale. */
-"CREATOR_TIP_JAR_PROMPT_MESSAGE_HASHTAG" = "SendTips";
-
-/* Template for the message for the Tips post takeover prompt */
-"CREATOR_TIP_JAR_PROMPT_TWEET_TEMPLATE" = "I just turned on Tips for my profile. Appreciate you. #%@";
 
 /* Current label */
 "CURRENT_LABEL" = "Current";
@@ -3728,36 +3713,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Title of button allowing user to ignore an error. */
 "IGNORE_LOST_PASSWORD_ACTION_LABEL" = "Ignore";
-
-/* Tooltip in the image editing view to tap to add sticker" */
-"IMAGE_FILTER_ADD_STICKER_TOOLTIP" = "Tap to add stickers";
-
-/* Accessibility Label for All Filters Button */
-"IMAGE_FILTER_ALL_FILTERS_ACCESSIBILITY_LABEL" = "Show all filters";
-
-/* Accessibility Label for Alt Text Button */
-"IMAGE_FILTER_ALT_TEXT_ACCESSIBILITY_LABEL" = "Alt Text";
-
-/* Accessibility Label for Crop Button */
-"IMAGE_FILTER_CROP_ACCESSIBILITY_LABEL" = "Crop";
-
-/* Tooltip in the image editing view to edit the sticker once it is attached */
-"IMAGE_FILTER_EDIT_STICKER_TOOLTIP" = "Pinch to resize and rotate";
-
-/* Accessibility Label for Image Filter Enhance Button */
-"IMAGE_FILTER_ENHANCE_ACCESSIBILITY_LABEL" = "Enhance Image";
-
-/* Tooltip in the image editing view to suggest removing some stickers after maximum number of stickers is reached */
-"IMAGE_FILTER_MAX_STICKERS_TOOLTIP" = "Remove some stickers to add more";
-
-/* Accessibility hint for filter scroll view at bottom of screen*/
-"IMAGE_FILTER_SCROLL_BOTTOM_ACCESSIBILITY_HINT" = "Image filters. Scroll for more filters.";
-
-/* Tooltip showing the user where to tap to open filter intensity controls*/
-"IMAGE_FILTER_SELECTION_INTENSITY_TOOLTIP" = "Tap to change intensity";
-
-/* Accessibility label for stickers button */
-"IMAGE_FILTER_STICKERS_ACCESSIBILITY_LABEL" = "Stickers";
 
 /* Error message title for when no content is returned when trying to load Immersive Explore. */
 "IMMERSIVE_EXPLORE_ERROR_EMPTY_RESPONSE_HEADER" = "Something went wrong";
@@ -5489,21 +5444,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Sign in placeholder. */
 "PHONE_OR_EMAIL_OR_USERNAME_LABEL" = "Phone, email or username";
 
-/* Photo crop button label */
-"PHOTOS_CROP_APPLY_LABEL" = "Apply";
-
-/* Accessibility Label for Rotate Button */
-"PHOTOS_CROP_ROTATE_ACCESSIBILITY_LABEL" = "Rotate Counterclockwise";
-
-/* Button title for cropping a photo with the default aspect ratio */
-"PHOTOS_CROP_TOOL_BAR_BUTTON_ORIGINAL" = "Original";
-
-/* Button title for cropping a photo with a square aspect ratio (1 x 1) */
-"PHOTOS_CROP_TOOL_BAR_BUTTON_SQUARE" = "Square";
-
-/* Button title for cropping a photo with a wide aspect ratio (16 x 9) */
-"PHOTOS_CROP_TOOL_BAR_BUTTON_WIDE" = "Wide";
-
 /* Title Label for photos related alert message */
 "PHOTOS_TITLE_LABEL" = "Photo library";
 
@@ -6580,9 +6520,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* When game is in final state, we display the winning team in the following format ex "AUS won". */
 "SCORE_CARD_WON_FORMAT" = "%@ won";
 
-/* When game was yesterday . */
-"SCORE_CARD_YESTERDAY" = "Yesterday";
-
 /* Accessibility label for the scribe overlay view.  Part of dev tools. */
 "SCRIBE_DEBUG_OVERLAY_ACCESSIBILITY_LABEL" = "Scribe Overlay";
 
@@ -6739,9 +6676,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Message that the app was unable to save account changes */
 "SECURITY_SETTINGS_UNABLE_TO_SAVE_ACCOUNT_CHANGES_MESSAGE" = "Unable to save account changes.";
 
-/* Confirmation button for adding a photo to a post */
-"SELECT_ACTION_LABEL" = "Select";
-
 /* A title of a popup for a post selection from bookmarks */
 "SELECT_A_POST_FROM_BOOKMARKS_LABEL" = "Select a post from bookmarks";
 
@@ -6772,9 +6706,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Accessibility label for posts that hide their content and instead show a sensitive content message in timelines (e.g. the home or profiles timelines) */
 "SENSITIVE_CONTENT_TWEET_INTERSTITIAL_ACCESSIBILITY_LABEL" = "This post might include sensitive content";
 
-/* Sensitive media interstitial, text that points soft / guest users to create an account to view sensitive content */
-"SENSITIVE_MEDIA_INTERSTITIAL_CREATE_ACCOUNT_LABEL" = "create an account.";
-
 /* Sensitive media interstitial, description */
 "SENSITIVE_MEDIA_INTERSTITIAL_DESCRIPTION" = "To view it, you need to change your Privacy and safety settings.";
 
@@ -6798,9 +6729,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Sensitive media settings page title. */
 "SENSITIVE_MEDIA_SETTINGS_TITLE" = "Sensitive media";
-
-/* Sensitive post warning button accessibility label in media editor's tool bar */
-"SENSITIVE_MEDIA_WARNING_EDITOR_BUTTON_ACCESSIBILITY_LABEL" = "Mark your post as containing sensitive content.";
 
 /* Sensitive post warning tooltip in the post composer on media attachment */
 "SENSITIVE_MEDIA_WARNING_EDITOR_TOOLTIP" = "Mark your media as sensitive";
@@ -7008,18 +6936,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Title text that describes the data usage section on the Settings Page */
 "SETTINGS_DATA_USAGE_ITEM_TITLE" = "Data usage";
-
-/* Subtitle text shown in the confirmation alert after a guest user attempts to deactivate their account */
-"SETTINGS_DEACTIVATE_CONFIRMATION_ALERT_SUBTITLE" = "Are you sure you want to deactivate your account?";
-
-/* Title text shown in the confirmation alert after a guest user attempts to deactivate their account */
-"SETTINGS_DEACTIVATE_CONFIRMATION_ALERT_TITLE" = "Complete deactivation?";
-
-/* Descriptive text that describes the deactivate account option on the Settings Page (for guest users) */
-"SETTINGS_DEACTIVATE_GUEST_USER_ITEM_DETAIL" = "Find out how you can deactivate and exit your current X experience";
-
-/* Title text that describes the deactivate account option on the Settings Page */
-"SETTINGS_DEACTIVATE_GUEST_USER_ITEM_TITLE" = "Deactivate";
 
 /* Descriptive text that describes the deactivate account option on the Settings Page */
 "SETTINGS_DEACTIVATE_ITEM_DETAIL" = "Find out how you can deactivate your account";
@@ -7390,9 +7306,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Label for the share-profile button in the redesigned profile header action row. */
 "SHARE_PROFILE_BUTTON_LABEL" = "Share Profile";
 
-/* Footer text on the profile share card */
-"SHARE_PROFILE_CARD_FOOTER_LABEL" = "Join me on";
-
 /* Menu label to present more Profile sharing options eg. Share @jack via... */
 "SHARE_PROFILE_VIA_ACTION_FORMAT" = "Share %@ via…";
 
@@ -7419,9 +7332,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Message for alert confirming that the user wants to log out of the app when they have posts waiting to be sent. */
 "SIGN_OUT_CONFIRMATION_WITH_PENDING_TWEETS_ALERT_MESSAGE" = "Your post is still pending. If you leave now, it won’t be sent or saved.";
-
-/* No comment provided by engineer. */
-"SIGN_UP_ACTION_LABEL" = "Sign up";
 
 /* Text for toast message that informs the user that their account could not be disconnected from single sign on provider (%@).
  */
@@ -8559,6 +8469,15 @@ eg. "Super Following Jack" */
 /* No comment provided by engineer. */
 "USERNAME_LABEL" = "Username";
 
+/* Accessibility hint for seeing the list of affiliated accounts. */
+"USER_AFFILIATES_COUNT_ACCESSIBILITY_HINT" = "Displays affiliates list";
+
+/* Label for the number of affiliates of an account (i.e., "12 Affiliates"). */
+"USER_AFFILIATES_COUNT_LABEL" = "Affiliates";
+
+/* Singular label for the number of affiliates of an account (i.e., "1 Affiliate"). */
+"USER_AFFILIATE_COUNT_LABEL" = "Affiliate";
+
 /* Text displayed on a pop-up that opens when the user taps on an affiliate badge on someone else profile. This text explains that the corresponding user is affiliated to a specific business account, to help people understand the signification of this badge. %@ will be replaced by the name of the business account on X (ex: "Apple"). */
 "USER_BADGES_INFO_AFFILIATED_ACCOUNT_TEXT" = "This account is affiliated with %@";
 
@@ -8823,12 +8742,6 @@ eg. "Super Following Jack" */
 /* Title of the confirmation alert shown when the user tries to close the Video Editor while having unsaved changes. */
 "VIDEOEDITOR_DISCARD_CHANGES_ALERT_TITLE" = "Discard Changes";
 
-/* Button in the Video Editor toolbar to complete a trim, when the selected length is the whole length. */
-"VIDEOEDITOR_DONE_BUTTON" = "Done";
-
-/* In the video editor, tooltip template for showing the duration in seconds of the trim. The %@ will be replaced by a number such as "1.2" or "7". */
-"VIDEOEDITOR_DURATION_TOOLTIP" = "%@s selected";
-
 /* Title for the Preview tab in the Video Editor toolbar. */
 "VIDEOEDITOR_TAB_PREVIEW_TITLE" = "Preview";
 
@@ -8844,14 +8757,8 @@ eg. "Super Following Jack" */
 /* Title for the button in the Video Editor Thumbnail tab that uploads a new thumbnail image. */
 "VIDEOEDITOR_THUMBNAIL_UPLOAD_BUTTON_TITLE" = "Upload new";
 
-/* Title for Video Editor view shown in the toolbar */
-"VIDEOEDITOR_TITLE" = "Edit video";
-
 /* Button in the Video Editor toolbar to complete a trim, when the selected length is shorter than the whole length. */
 "VIDEOEDITOR_TRIM_BUTTON" = "Trim";
-
-/* Label for alert with OK button to close video the editor when we temporarily fail to load a video from iOS Photo Library. */
-"VIDEOEDITOR_VIDEO_NOT_LOADING" = "Error opening video.";
 
 /* Label for a view saying a video is from somebody. For example: "From NFL" */
 "VIDEO_ATTRIBUTION_LABEL_TITLE" = "From";
@@ -8942,12 +8849,6 @@ eg. "Super Following Jack" */
 
 /* Tells the user whether they're selecting beginning of the video range" */
 "VIDEO_TRIM_CONTROL_START_OF_SELECTION_ACCESSIBILITY_LABEL" = "Start of selection";
-
-/* Accessibility label for the play button used to pause media playback */
-"VIDEO_TRIM_VIEW_PAUSE_ACCESSIBILITY_LABEL" = "Pause";
-
-/* Accessibility label for the play button used to resume media playback */
-"VIDEO_TRIM_VIEW_PLAY_ACCESSIBILITY_LABEL" = "Play";
 
 /* An iOS notification button label that opens the X application to a screen that displays more details of the notification. For example, the "View" action of a Chat notification will open that message's conversation. */
 "VIEW_ACTION_LABEL" = "View";
@@ -10318,12 +10219,6 @@ eg. "Super Following Jack" */
 /* Text on app welcome screen given user option to log into an existing account. Use HTML link with '#' href around actionable text. */
 "WELCOME_SCREEN_LOG_IN_HTML" = "Have an account already? <a href=\"#\">Log in</a>";
 
-/* Message displayed to user on app welcome screen. */
-"WELCOME_SCREEN_MESSAGE" = "See what’s happening in the world right now.";
-
-/* Text of action button on the app welcome screen. */
-"WELCOME_SCREEN_SIGN_UP_ACTION_LABEL" = "Create account";
-
 /* A tooltip that appears when a user sees the device follow button on the "Who to follow" user interface. */
 "WHO_TO_FOLLOW_DEVICE_FOLLOW_TOOLTIP_LABEL" = "Get notified whenever this account posts";
 
@@ -10457,6 +10352,9 @@ eg. "Super Following Jack" */
 
 /* Text for the header of the Subscription upsell for longer posts feature name */
 "SUBSCRIPTION_UPSELL_LONG_FORM_FEATURE_NAME" = "longer posts";
+
+/* Feature name used in the long video upload Premium upsell sheet title/details. */
+"SUBSCRIPTION_UPSELL_LONG_VIDEO_UPLOAD_FEATURE_NAME" = "longer videos";
 
 /* Text for the header of the Subscription upsell for longer posts feature name */
 "SUBSCRIPTION_UPSELL_NO_ADS_FEATURE_NAME" = "ad-free timelines";
@@ -11027,70 +10925,6 @@ eg. "Super Following Jack" */
 /* Title of the fourth section of the Ticketed Spaces onboarding screen, allowing the user to continue to the application flow. */
 "CREATOR_TICKETS_ONBOARDING_TS_SECTION_4_TITLE" = "Ready to get started?";
 
-// MARK: - Tip Jar Onboarding
-/* Description of the first item, of the first section of the tips onboarding screen. Explains the steps to enable tips. Note to transaltors: The word `Tips` should be capitalized. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_1_ITEM_1_DESCRIPTION" = "Turning on Tips lets people know you’re ready to start receiving money.";
-
-/* Title of the first item, of the first section of the tips onboarding screen. Explains the steps to enable tips. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_1_ITEM_1_TITLE" = "Get paid for being you";
-
-/* Description of the second item, of the first section of the tips onboarding screen. Explains how your followers can help. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_1_ITEM_2_DESCRIPTION" = "You drive the conversation and we want to make it easier for people to support your work beyond Follows, reposts and Likes.";
-
-/* Title of the second item, of the first section of the tips onboarding screen. Explains how your followers can help. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_1_ITEM_2_TITLE" = "Let your fans show their support";
-
-/* Description of the second item, of the first section of the tips onboarding screen. Explains how tipping works. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_1_ITEM_3_DESCRIPTION" = "When supporters tip with Bitcoin, they can add a note and we make it easy for you to instantly reply to show your gratitude.";
-
-/* Title of the second item, of the first section of the tips onboarding screen. Explains how tipping works. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_1_ITEM_3_TITLE" = "Give thanks";
-
-/* Title of the first section of the tips onboarding screen.  */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_1_TITLE" = "Get cash instantly from your followers on X";
-
-/* Description of the first item, of the second section of the tips onboarding screen. Explains how to enable tips. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_2_ITEM_1_DESCRIPTION" = "Choose the third-party payment provider(s) you’d like to use.";
-
-/* Title of the first item, of the second section of the tips onboarding screen. Explains how to enable tips. Note to transaltors: The word `Tips` should be capitalized. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_2_ITEM_1_TITLE" = "Turn on Tips";
-
-/* Description of the second item, of the second section of the tips onboarding screen. Explains how money gets to your account. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_2_ITEM_2_DESCRIPTION" = "Add your username for payment services like Cash App, PayPal, and more.";
-
-/* Title of the second item, of the second section of the tips onboarding screen. Explains how money gets to your account. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_2_ITEM_2_TITLE" = "Add your accounts";
-
-/* Description of the third item, of the second section of the tips onboarding screen. Explains who gets the money. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_2_ITEM_3_DESCRIPTION" = "People will be able to send you cash from your profile. No money goes to X.";
-
-/* Title of the third item, of the second section of the tips onboarding screen. Explains who gets the money. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_2_ITEM_3_TITLE" = "Start receiving money";
-
-/* Subtitle of the second section of the tips onboarding screen. Explains the concept of tips. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_2_SUBTITLE" = "Tips are an easy way to support the incredible voices that make up the conversation on X. Here’s how it works.";
-
-/* Title of the second section of the tips onboarding screen.  */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_2_TITLE" = "Why add tips?";
-
-/* Subtitle of the third section of the tips onboarding screen. Explains the revenue share. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_3_SUBTITLE" = "As a creator, you will keep 100% of the tips you receive. No money goes to X.";
-
-/* Title of the third section of the tips onboarding screen. Explains the revenue share. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_3_TITLE" = "Creators keep 100%";
-
-/* Title of the apply button of the tips onboarding screen. Tapping on this button takes the user to the application flow. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_4_APPLY" = "Check eligibility";
-
-/* Subtitle of the fourth section of the tips onboarding screen. Tells the user to proceed to the eligibility screen. Note to transaltors: The word `Tips` should be capitalized. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_4_SUBTITLE" = "If you’re ready to jump in and start using Tips then read the Policy and agree to get started.";
-
-/* Title of the fourth section of the tips onboarding screen. Tells the user to proceed to the eligibility screen. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_SECTION_4_TITLE" = "Let’s go!";
-
-/* Title of the tips onboarding screen. */
-"CREATOR_TIP_JAR_ONBOARDING_TJ_TITLE" = "Tips";
-
 // Section: Frameworks/XAppLibraries/Stamps/Sources/StampsStrings/en.lproj/Localizable.strings
 
 /* Message when the system does not meet the minimum system version */
@@ -11184,18 +11018,6 @@ eg. "Super Following Jack" */
 
 /* Label for grok response messages */
 "GROK_ANSWER_LABEL" = "Answer";
-
-/* Label for x-axis on a chart for a Finance Card*/
-"GROK_CARD_FINANCE_CHART_LABEL_TIME" = "Time";
-
-/* Label for y-axis on a chart for a Finance Card*/
-"GROK_CARD_FINANCE_CHART_LABEL_VALUE" = "Value";
-
-/* Label for `After Hours` in entity header for a Finance Card*/
-"GROK_CARD_FINANCE_HEADER_AFTER_HOURS_LABEL" = "After Hours";
-
-/* Bottom of a sports card. Will contain a date and time. */
-"GROK_CARD_UPDATED_AT_LABEL" = "Updated at %@";
 
 /* Label for close */
 "GROK_CLOSE" = "Close";
@@ -11328,18 +11150,6 @@ eg. "Super Following Jack" */
 
 /* Couldn't fetch share link due to server error */
 "GROK_FETCH_SHARE_LINK_ERROR" = "Error fetching share link";
-
-/* Title for the comparison stock finance card*/
-"GROK_FINANCE_CARD_COMPARISON_STOCK_TITLE" = "Compare";
-
-/* Label for button to edit image */
-"GROK_FULLSCREEN_IMAGE_ACTION_EDIT" = "Edit";
-
-/* Label for button to post image */
-"GROK_FULLSCREEN_IMAGE_ACTION_POST" = "Post";
-
-/* Label for button to save image */
-"GROK_FULLSCREEN_IMAGE_ACTION_SAVE" = "Save";
 
 /* Call to action GET button */
 "GROK_HOME_DOWNLOAD_BANNER_ACTION" = "GET";
@@ -11509,9 +11319,6 @@ eg. "Super Following Jack" */
 /* Button to like the chat response */
 "GROK_LIKE" = "Like";
 
-/* Indicates Live results  (ie. real time results) . For sports games, stock prices, etc. */
-"GROK_LIVE" = "Live";
-
 /*
  Title for the models submenu in the Grok model selection menu, like:
  - grok4
@@ -11573,10 +11380,10 @@ eg. "Super Following Jack" */
 /* Grok new user experience popup - AI Training and Personalization title */
 "GROK_NUX_TRAINING_TITLE" = "AI Training and Personalization";
 
-/* Label for the button at the bottom of the expanded Grok overview at the top of search results. Tapping it opens a Grok chat that asks Grok for more detailed information about the search query. */
-"GROK_OVERVIEW_ASK_MORE_DETAIL_BUTTON" = "Ask more detail";
+/* Label for the button at the bottom of the expanded Grok overview at the top of search results. Tapping it opens a Grok chat to learn more about the search query. */
+"GROK_OVERVIEW_ASK_MORE_DETAIL_BUTTON" = "Learn more";
 
-/* Prompt sent to Grok when the user taps the "Ask more detail" button at the bottom of the expanded Grok overview at the top of search results. %@ is the search query wrapped in quotes, e.g. Detail about “Space DataCenter” */
+/* Prompt sent to Grok when the user taps the "Learn more" button at the bottom of the expanded Grok overview at the top of search results. %@ is the search query wrapped in quotes, e.g. Detail about “Space DataCenter” */
 "GROK_OVERVIEW_ASK_MORE_DETAIL_PROMPT_FORMAT" = "Detail about “%@”";
 
 /* Placeholder text for the text field where the user writes feedback about the Grok overview shown at the top of search results. */
@@ -11766,9 +11573,6 @@ eg. "Super Following Jack" */
 /* Label for button to expand the user message */
 "GROK_SHOW_MORE" = "Show more";
 
-/* Bottom of a soccer sports card. */
-"GROK_SOCCER_CARD_DISCLAIMER" = "Grok currently supports La Liga and English Premier League data.";
-
 /* A prompt for the Grok input field */
 "GROK_SOMETHING" = "Ask anything";
 
@@ -11813,30 +11617,6 @@ eg. "Super Following Jack" */
 
 /* Subheader for speech recognition permission */
 "GROK_SPEECH_PERMISSION_SUB_HEADLINE" = "Chat with Grok using your voice";
-
-/* Title for the sports "Career" section in a Grok response. */
-"GROK_SPORTS_CARD_CAREER" = "Career";
-
-/* Title for the sports "Games" tab in a Grok response. */
-"GROK_SPORTS_CARD_GAMES" = "Games";
-
-/* Title for the sports "Matches" tab in a Grok response. */
-"GROK_SPORTS_CARD_MATCHES" = "Matches";
-
-/* Title for the sports "Overview" tab in a Grok response. */
-"GROK_SPORTS_CARD_OVERVIEW" = "Overview";
-
-/* Title for the sports "Splits" tab in a Grok response. Splits refers to sports stats broken down by some filter (For example, Day game vs Nighttime game)  */
-"GROK_SPORTS_CARD_SPLITS" = "Splits";
-
-/* Title for the sports "Standings" section in a Grok response. */
-"GROK_SPORTS_CARD_STANDINGS" = "Standings";
-
-/* Title for the sports "Stats" tab in a Grok response.Short for Statistics. */
-"GROK_SPORTS_CARD_STATS" = "Stats";
-
-/* Title for the sports "Upcoming" games section in a Grok response. */
-"GROK_SPORTS_CARD_UPCOMING" = "Upcoming";
 
 /* Title for button to get a quick answer from Grok. It is paired with "Think harder" */
 "GROK_STEERING_QUICK_ANSWER_TITLE" = "Quick answer";
@@ -15010,9 +14790,6 @@ eg. "Super Following Jack" */
 /* Payments: Shows the APY (annual percentage yield) of the account, on the interest screen. %@ is replaced by a formatted APY (ex: 10%) */
 "PAYMENTS_INTEREST_APY" = "%@ APY";
 
-/* Payments: Shows the APY (annual percentage yield) of the account, on the interest screen. %1$@ is replaced by a formatted amount (ex: $10) and %2$@ is replaced by a formatted APY (ex: 10%) */
-"PAYMENTS_INTEREST_APY_WITH_LIFETIME_EARNED" = "Earned %1$@ · %2$@ APY";
-
 /* Payments: Text shown if the customer trie to create a non-individual client to send an international wire. */
 "PAYMENTS_INTERNATIONAL_WIRE_DISCLAIMER_ONLY_INDIVIDUALS" = "International wires are currently only available for individuals.";
 
@@ -15923,7 +15700,10 @@ eg. "Super Following Jack" */
 "PAYMENTS_REWARDS_DISCLAIMER" = "*Terms and limitations apply. Learn more";
 
 /* Payments: Disclaimer for the Rewards screen, showing the APY effective date. %@ is replaced by a formatted date (ex: March 26, 2025). */
-"PAYMENTS_REWARDS_DISCLAIMER_APY_EFFECTIVE_DATE_FORMAT" = "APY effective %@.";
+"PAYMENTS_REWARDS_DISCLAIMER_APY_EFFECTIVE_DATE_FORMAT" = "*Annual Percentage Yield (“APY”) is accurate as of %@ and subject to change. See here for current rates.";
+
+/* Payments: Part of 'PAYMENTS_REWARDS_DISCLAIMER_APY_EFFECTIVE_DATE_FORMAT' that is clickable and sends the customer to the interest FAQ page */
+"PAYMENTS_REWARDS_DISCLAIMER_APY_EFFECTIVE_DATE_FORMAT_LINK" = "here";
 
 /* Payments: Should be present in 'PAYMENTS_REWARDS_DISCLAIMER' */
 "PAYMENTS_REWARDS_DISCLAIMER_LINK" = "Learn more";
@@ -15938,7 +15718,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_REWARDS_INTEREST_PENDING_SUBTITLE_FORMAT" = "Will be paid on %@";
 
 /* Payments: Subtitle for the Interest rewards section, showing the current APY */
-"PAYMENTS_REWARDS_INTEREST_SECTION_SUBTITLE" = "Your cash at work with our %@ APY";
+"PAYMENTS_REWARDS_INTEREST_SECTION_SUBTITLE" = "Your cash at work with our %@ APY*";
 
 /* Payments: "Routing number" used for US bank accounts transfers */
 "PAYMENTS_ROUTING_NUMBER" = "Routing Number";
@@ -16219,9 +15999,6 @@ eg. "Super Following Jack" */
 /* Payments: Title of the 'Activity' tab, which contains transactions & actions */
 "PAYMENTS_TAB_ACTIVITY" = "Activity";
 
-/* Payments: Title of the 'Home' tab, which shows the user's different accounts */
-"PAYMENTS_TAB_HOME" = "Home";
-
 /* Payments: Type of account (individual) on the customer's cash account tile */
 "PAYMENTS_TILE_CASH_ACCOUNT_TYPE_INDIVIDUAL" = "My account";
 
@@ -16407,9 +16184,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Action to verify the user’s identity. Should be kept short or abbreviated. */
 "PAYMENTS_VERIFY_IDENTITY_ACTION_SHORT" = "Verify";
-
-/* Payments: Action to view the user’s account */
-"PAYMENTS_VIEW_ACCOUNT_ACTION" = "View account";
 
 /* Payments: Title of the button that leads the customer to the activity screen (list of their transactions) */
 "PAYMENTS_VIEW_ALL_ACTIVITY_ACTION" = "View All Activity";
@@ -16642,14 +16416,6 @@ eg. "Super Following Jack" */
 
 /* Title for default speech recognition description */
 "AUTHORIZATION_TITLE_SPEECH_RECOGNITION" = "Speech Recognition";
-
-// Section: Frameworks/SampleFeature/SampleFeature/Sources/SampleFeatureStrings/en.lproj/Localizable.strings
-
-/* Title of action button in sample view */
-"SAMPLE_ACTION_BUTTON_TITLE" = "Action";
-
-/* Sample view label displaying the action count */
-"SAMPLE_ACTION_COUNT_LABEL" = "Action count: %d";
 
 // Section: Frameworks/TwitterProfileModules/Sources/TwitterProfileModulesStrings/en.lproj/Localizable.strings
 
@@ -17257,8 +17023,8 @@ eg. "Super Following Jack" */
 /* Label shown to the booster when the boost campaign is under review */
 "BOOSTED_LABEL_UNDER_REVIEW" = "Boost starting";
 
-/* Social context row label (above the post, like the repost label) for a post boosted by a third party. %1$@ is the booster's @handle. */
-"BOOSTED_SOCIAL_CONTEXT_LABEL_FORMAT" = "%1$@ boosted";
+/* Social context row label (above the post, like the repost label) for a post boosted by a third party. %1$@ is the booster's display name, e.g. "Boosted by Elon Musk". */
+"BOOSTED_SOCIAL_CONTEXT_LABEL_FORMAT" = "Boosted by %1$@";
 
 /* Text label/badge shown next to a user's name when they are an Admin of a Community. This text may appear in a tight area so using an abbreviation to make it shorter would be preferred. For example, we choose to use "Admin" instead of "Administrator" */
 "COMMUNITY_TWEET_ADMIN_BADGE_LABEL" = "Admin";
@@ -17271,6 +17037,9 @@ eg. "Super Following Jack" */
 
 /* Descriptive text to indicate that a user in the list is blocked */
 "CONVERSATIONS_USER_LIST_USER_BLOCKED_LABEL" = "You’ve blocked %@.";
+
+/* Social context row label (above the post) attributing it to a custom timeline topic. %1$@ is the topic's short tab label, e.g. "Tech". */
+"FROM_TAG_TOPIC_SOCIAL_CONTEXT_LABEL_FORMAT" = "From %1$@";
 
 /* Accessibility hint for likes count plural case */
 "LIKES_COUNT_ACCESSIBILITY_HINT" = "Views Likes count";
@@ -18303,9 +18072,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Message displayed to user when the server returns an error. */
 "CONNECTION_ERROR_GENERAL_MESSAGE" = "Oops, something went wrong. Please try again later.";
-
-/* Message displayed to user when the server cannot be reached. */
-"CONNECTION_ERROR_OFFLINE" = "Oops, your device appears to be offline. Please check your Internet connection and try again later.";
 
 /* Label for conversation card Action buttons, a button that let users post with given "%@" string, such as a hashtag - example "Post #BurritosForLife" */
 "CONVERSATION_CARD_CALL_TO_ACTION_LABEL_FORMAT" = "Post %@";
@@ -19722,6 +19488,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 // Section: Frameworks/ChatCore/Sources/ChatStrings/en.lproj/Localizable.strings
 
+/* Body shown when the signed-in viewer is permanently suspended from XChat. %1$@: Terms of Service URL. */
+"CHAT_ACCOUNT_SUSPENDED_MESSAGE" = "You cannot use XChat due to violations of our [Terms & Conditions](%1$@)";
+
+/* Title shown when the signed-in viewer is permanently suspended from XChat. */
+"CHAT_ACCOUNT_SUSPENDED_TITLE" = "Account suspended";
+
 /* Add member failed error */
 "CHAT_ADD_MEMBER_FAILED" = "Unable to add member. Please try again.";
 
@@ -19736,9 +19508,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Square aspect ratio label */
 "CHAT_ASPECT_RATIO_SQUARE" = "Square";
-
-/* Audio call coming soon title */
-"CHAT_AUDIO_CALL_COMING_SOON" = "Audio Calling Coming Soon";
 
 /* Auto-download footer description */
 "CHAT_AUTO_DOWNLOAD_FOOTER" = "Automatically download media based on connection.";
@@ -19757,9 +19526,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Block messages confirmation message */
 "CHAT_BLOCK_MSGS_CONFIRM" = "You will not receive messages from this person until you unblock them.";
-
-/* Call feature coming soon message */
-"CHAT_CALL_COMING_SOON_MESSAGE" = "We’re working hard to bring you audio and video calling. Stay tuned!";
 
 /* Call error: sender is forbidden */
 "CHAT_CALL_ERROR_FORBIDDEN" = "You are not allowed to make calls.";
@@ -19821,17 +19587,47 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Edit group name footer description */
 "CHAT_EDIT_GROUP_NAME_FOOTER" = "Enter a name for this group that will be visible to all members.";
 
+/* Empty inbox message for all messages */
+"CHAT_EMPTY_INBOX_ALL_MESSAGE" = "Start a new conversation to begin messaging.";
+
+/* Empty inbox title for all messages */
+"CHAT_EMPTY_INBOX_ALL_TITLE" = "No Messages";
+
+/* Empty inbox message for one-on-one filter */
+"CHAT_EMPTY_INBOX_DIRECT_MESSAGE" = "Direct conversations will appear here.";
+
+/* Empty inbox title for one-on-one filter */
+"CHAT_EMPTY_INBOX_DIRECT_TITLE" = "No Direct Messages";
+
+/* Empty inbox message for groups filter */
+"CHAT_EMPTY_INBOX_GROUPS_MESSAGE" = "Group conversations will appear here.";
+
+/* Empty inbox title for groups filter */
+"CHAT_EMPTY_INBOX_GROUPS_TITLE" = "No Group Messages";
+
+/* Empty inbox message for unread filter */
+"CHAT_EMPTY_INBOX_UNREAD_MESSAGE" = "You’re all caught up! All messages have been read.";
+
+/* Empty inbox title for unread filter */
+"CHAT_EMPTY_INBOX_UNREAD_TITLE" = "No Unread Messages";
+
 /* Empty shared media message */
 "CHAT_EMPTY_SHARED_MEDIA_MESSAGE" = "Photos, videos, and GIFs shared in this conversation will appear here.";
 
 /* Empty shared media title */
 "CHAT_EMPTY_SHARED_MEDIA_TITLE" = "No Shared Media";
 
+/* Expand button shown on truncated long messages to open the full-message viewer */
+"CHAT_EXPAND" = "Expand";
+
 /* Failed to load media label */
 "CHAT_FAILED_TO_LOAD" = "Failed to load";
 
 /* Forwarded message label */
 "CHAT_FORWARDED_MESSAGE" = "Forwarded message";
+
+/* Forwarded message with sender label. %@: sender name */
+"CHAT_FORWARDED_MESSAGE_WITH_SENDER" = "%@ forwarded a message";
 
 /* Grok settings footer description */
 "CHAT_GROK_SETTINGS_FOOTER" = "When enabled, you can send @grok messages to the conversation.\n\nGrok will read some of the recent messages. This helps Grok understand the discussion and reply more naturally and accurately. [Learn more](https://help.x.com/using-x/about-chat).";
@@ -19883,6 +19679,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Group messages label */
 "CHAT_GROUP_MESSAGES" = "Group Messages";
+
+/* Info item sheet title for added members */
+"CHAT_INFO_ITEM_ADDED_MEMBERS" = "Added Members";
+
+/* Info item sheet title for removed members */
+"CHAT_INFO_ITEM_REMOVED_MEMBERS" = "Removed Members";
 
 /* Leave conversation confirmation message */
 "CHAT_LEAVE_CONVO_CONFIRM" = "Are you sure you want to leave this group? You will need to be re-added to rejoin.";
@@ -19944,6 +19746,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Photo library access denied alert title */
 "CHAT_PHOTO_ACCESS_DENIED_TITLE" = "Photo Library Access Required";
 
+/* Translation attribution label. %@: source language name (e.g. "Japanese") */
+"CHAT_POST_TRANSLATED_FROM" = "Translated from %@";
+
+/* Quote recipient you label */
+"CHAT_QUOTE_RECIPIENT_YOU" = "you";
+
 /* Read-only conversation message */
 "CHAT_READ_ONLY_CONVO_MESSAGE" = "This conversation is read-only and cannot be modified.";
 
@@ -19968,14 +19776,32 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Remove member confirmation title */
 "CHAT_REMOVE_MEMBER_TITLE" = "Remove member?";
 
+/* Replied to label. %@: recipient name */
+"CHAT_REPLIED_TO" = "Replied to %@";
+
+/* Replied to with sender label. %1$@: sender, %2$@: recipient */
+"CHAT_REPLIED_TO_WITH_SENDER" = "%1$@ replied to %2$@";
+
 /* Replying to yourself label */
 "CHAT_REPLYING_TO_YOURSELF" = "Replying to yourself";
+
+/* Reply preview file attachment label */
+"CHAT_REPLY_ATTACHMENT_FILE" = "File";
 
 /* Toast confirmation shown after the user sends a reply from the full-screen media viewer. */
 "CHAT_REPLY_SENT_TOAST" = "Reply sent";
 
+/* Unknown user fallback name */
+"CHAT_REPLY_UNKNOWN_USER" = "Someone";
+
 /* Alert message shown when the user taps the Save action on a media attachment in a chat message but photo library access was previously denied. Instructs the user to allow access in iOS Settings. */
 "CHAT_SAVE_MEDIA_PHOTO_ACCESS_DENIED_MESSAGE" = "Allow photo library access in Settings to save photos and videos from messages to your library.";
+
+/* Message seen status */
+"CHAT_SEEN" = "Seen";
+
+/* Message sending status */
+"CHAT_SENDING" = "Sending";
 
 /* Settings title */
 "CHAT_SETTINGS" = "Settings";
@@ -20034,14 +19860,14 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Row title in DM Storage settings under "Storage by Type"; trailing value is the total bytes used by downloaded voice messages, e.g. "1.2 GB". */
 "CHAT_STORAGE_VOICE_MSGS" = "Voice Messages";
 
-/* Compose recipient field label */
-"CHAT_TO_LABEL" = "To:";
-
 /* Unblock messages confirmation message */
 "CHAT_UNBLOCK_MSGS_CONFIRM" = "You will receive messages from this person again.";
 
 /* Unread messages filter label */
 "CHAT_UNREAD_MESSAGES" = "Unread Messages";
+
+/* Unsupported attachment fallback text */
+"CHAT_UNSUPPORTED_ATTACHMENT" = "Unsupported attachment";
 
 /* Unsupported file alert message */
 "CHAT_UNSUPPORTED_FILE_MESSAGE" = "The selected file type is not supported. Please select a regular file.";
@@ -20054,9 +19880,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Videos section title */
 "CHAT_VIDEOS" = "Videos";
-
-/* Video call coming soon title */
-"CHAT_VIDEO_CALL_COMING_SOON" = "Video Calling Coming Soon";
 
 /* View members label. %@: number of members */
 "CHAT_VIEW_MEMBERS_COUNT" = "View %@ members";
@@ -21039,35 +20862,8 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Group invite view group action button title */
 "DM_GROUP_INVITE_VIEW_GROUP_ACTION_TITLE" = "View Group";
 
-/* DM Inbox conversation muted accessibility label */
-"DM_INBOX_CONVERSATION_MUTED_ACCESSIBILITY_LABEL" = "Muted";
-
-/* DM Inbox conversation pinned accessibility label */
-"DM_INBOX_CONVERSATION_PINNED_ACCESSIBILITY_LABEL" = "Pinned";
-
-/* DM Inbox conversation unread accessibility label */
-"DM_INBOX_CONVERSATION_UNREAD_ACCESSIBILITY_LABEL" = "Unread";
-
-/* DM Inbox Groups Empty message */
-"DM_INBOX_DIRECT_EMPTY_MESSAGE" = "Message someone and start chatting with end-to-end encryption";
-
-/* DM Inbox Direct Empty title */
-"DM_INBOX_DIRECT_EMPTY_TITLE" = "No direct chats yet";
-
 /* DM Inbox Empty start a conversation action */
 "DM_INBOX_EMPTY_ACTION_START_A_CONVERSATION" = "Write a message";
-
-/* DM Inbox Empty message */
-"DM_INBOX_EMPTY_MESSAGE" = "Start chatting with end-to-end encryption";
-
-/* DM Inbox Empty title */
-"DM_INBOX_EMPTY_TITLE" = "No chats yet";
-
-/* DM Inbox Groups Empty message */
-"DM_INBOX_GROUPS_EMPTY_MESSAGE" = "Create a group and start chatting with end-to-end encryption";
-
-/* DM Inbox Groups Empty title */
-"DM_INBOX_GROUPS_EMPTY_TITLE" = "No group chats yet";
 
 /* DM Inbox item draft preview when the draft has multiple attachments of mixed or other types. %@: count */
 "DM_INBOX_ITEM_DRAFT_ATTACHMENTS" = "%@ attachments";
@@ -21125,12 +20921,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Inbox message requests priority tab title */
 "DM_INBOX_MESSAGE_REQUESTS_PRIORITY_TITLE" = "Priority";
-
-/* DM Inbox message requests row preview, exactly one additional sender beyond the two named */
-"DM_INBOX_MESSAGE_REQUESTS_ROW_PREVIEW_AND_OTHER" = "%@ and 1 other";
-
-/* DM Inbox message requests row preview, multiple additional senders beyond the two named */
-"DM_INBOX_MESSAGE_REQUESTS_ROW_PREVIEW_AND_OTHERS" = "%1$@ and %2$@ others";
 
 /* DM Inbox message requests row preview fallback */
 "DM_INBOX_MESSAGE_REQUESTS_ROW_PREVIEW_FALLBACK" = "Nothing to see here, yet";
@@ -21231,12 +21021,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Inbox Timestamp Weeks. Placeholder will be replaced with # weeks ago. Ex: 5w */
 "DM_INBOX_TIMESTAMP_WEEKS" = "%@w";
-
-/* DM Inbox Unread Empty message */
-"DM_INBOX_UNREAD_EMPTY_MESSAGE" = "Unread conversations will show up here";
-
-/* DM Inbox Unread Empty title */
-"DM_INBOX_UNREAD_EMPTY_TITLE" = "You’re all caught up!";
 
 /* DM Manage Conversation Add as admin action error title */
 "DM_MANAGE_CONVERSATION_ACTION_ADD_AS_ADMIN_ERROR_TITLE" = "Unable to add as admin";
@@ -21930,6 +21714,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM New Conversation create group action */
 "DM_NEW_CONVERSATION_ACTION_CREATE_GROUP" = "Create group";
+
+/* DM New Conversation create group action short */
+"DM_NEW_CONVERSATION_ACTION_CREATE_GROUP_SHORT" = "Create";
 
 /* DM New Conversation select user action age restricted error title */
 "DM_NEW_CONVERSATION_ACTION_SELECT_USER_ERROR_AGE_RESTRICTED_TITLE" = "You cannot message this user due to age restrictions.";
@@ -22941,24 +22728,6 @@ eg. "- @jack" */
 /* Name of the Conversation control setting when the Admin autorizes only a selected list of users to join as Speaker in the Audio Space. Displayed in the creation screen and the settings screen. */
 "VOICE_ROOM_CONVERSATION_CONTROL_MENTIONED" = "Only people you invite to speak";
 
-/* Describes the action of adding a Topic. The word ‘Topic’ should be capitalized. */
-"VOICE_ROOM_CREATION_TOPIC_BROWSER_ADD" = "Add Topics";
-
-/* The text shown about the topic browser screen footer button indicating how many topics have been selected and the topic maximum. The current selected topic number is substituted into the first string (%u), the maximum topic number is substituted into the second string. */
-"VOICE_ROOM_CREATION_TOPIC_BROWSER_FOOTER_LABEL" = "%1$lu selected (max %2$lu)";
-
-/* Describes the action of opening the Topic browser. The word ‘Topic’ should be capitalized. */
-"VOICE_ROOM_CREATION_TOPIC_BROWSER_OPEN_ACCESSIBILITY_LABEL" = "Browse more Topics";
-
-/* Explains the purpose of adding topics and the topic tag maximum number, which is 3. */
-"VOICE_ROOM_CREATION_TOPIC_BROWSER_SUBHEADER" = "Help people who follow Topics discover your Space. Select up to 3.";
-
-/* Describes the action of tagging a Topic with a particular name. The %@ parameter will be replaced by the topic name. */
-"VOICE_ROOM_CREATION_TOPIC_BROWSER_TAG_ACCESSIBILITY_LABEL" = "Tag Topic %@";
-
-/* Describes the action of tapping the caret on the topic section header, used to either open or close a topic category. The %@ parameter will be replaced by the category name. */
-"VOICE_ROOM_CREATION_TOPIC_TAGGING_TOGGLE_CATEGORY_ACCESSIBILITY_LABEL" = "Expand Topic category %@";
-
 /* Label on the button for the toast when a Host chooses to save a recording of their Space. */
 "VOICE_ROOM_DESTROY_SPACE_RECORDING_SAVED_TOAST_BUTTON" = "Go to notifications";
 
@@ -23303,9 +23072,6 @@ eg. "- @jack" */
 
 /* Accessibility hint of the actionable label to add a new name to an Audio Space. */
 "VOICE_ROOM_TITLE_EDIT_LABEL_ACCESSIBILITY_HINT" = "Edits Space name";
-
-/* Title for the popular topics section of topic tagging browser used to tag an Audio Space */
-"VOICE_ROOM_TOPICS_POPULAR_TITLE" = "Most Popular";
 
 /* Label of the button to accept an invitation from an Admin to become a Speaker in an Audio Space. */
 "VOICE_ROOM_USER_ACTION_ACCEPT_INVITATION_TO_SPEAK" = "Accept";
@@ -24119,15 +23885,6 @@ eg. "- @jack" */
 /* At-prefixed username. %@: username */
 "CHAT_AT_USERNAME" = "@%@";
 
-/* Call error: unable to call */
-"CHAT_CALL_ERROR_UNABLE" = "Unable to call this user at this time.";
-
-/* Cannot mix media and files message */
-"CHAT_CANNOT_MIX_MEDIA_FILES" = "You cannot send files and media together. Please remove the existing attachments first.";
-
-/* Cannot send files with media alert title */
-"CHAT_CANNOT_SEND_FILES_WITH_MEDIA" = "Cannot send files with media";
-
 /* Cookie use label */
 "CHAT_COOKIE_USE" = "Cookie Use";
 
@@ -24191,47 +23948,11 @@ eg. "- @jack" */
 /* Empty detail title when no conversation is selected */
 "CHAT_EMPTY_DETAIL_TITLE" = "No Conversation Selected";
 
-/* Empty inbox message for all messages */
-"CHAT_EMPTY_INBOX_ALL_MESSAGE" = "Start a new conversation to begin messaging.";
-
-/* Empty inbox title for all messages */
-"CHAT_EMPTY_INBOX_ALL_TITLE" = "No Messages";
-
-/* Empty inbox message for one-on-one filter */
-"CHAT_EMPTY_INBOX_DIRECT_MESSAGE" = "Direct conversations will appear here.";
-
-/* Empty inbox title for one-on-one filter */
-"CHAT_EMPTY_INBOX_DIRECT_TITLE" = "No Direct Messages";
-
-/* Empty inbox message for groups filter */
-"CHAT_EMPTY_INBOX_GROUPS_MESSAGE" = "Group conversations will appear here.";
-
-/* Empty inbox title for groups filter */
-"CHAT_EMPTY_INBOX_GROUPS_TITLE" = "No Group Messages";
-
-/* Empty inbox message for unread filter */
-"CHAT_EMPTY_INBOX_UNREAD_MESSAGE" = "You’re all caught up! All messages have been read.";
-
-/* Empty inbox title for unread filter */
-"CHAT_EMPTY_INBOX_UNREAD_TITLE" = "No Unread Messages";
-
-/* Expand button shown on truncated long messages to open the full-message viewer */
-"CHAT_EXPAND" = "Expand";
-
 /* Filter by label */
 "CHAT_FILTER_BY" = "Filter by";
 
-/* Forwarded message with sender label. %@: sender name */
-"CHAT_FORWARDED_MESSAGE_WITH_SENDER" = "%@ forwarded a message";
-
 /* Help settings label */
 "CHAT_HELP" = "Help";
-
-/* Info item sheet title for added members */
-"CHAT_INFO_ITEM_ADDED_MEMBERS" = "Added Members";
-
-/* Info item sheet title for removed members */
-"CHAT_INFO_ITEM_REMOVED_MEMBERS" = "Removed Members";
 
 /* Interactions settings title */
 "CHAT_INTERACTIONS" = "Interactions";
@@ -24247,15 +23968,6 @@ eg. "- @jack" */
 
 /* Manage account button label */
 "CHAT_MANAGE_ACCOUNT" = "Manage account";
-
-/* Max attachments reached message */
-"CHAT_MAX_ATTACHMENTS" = "You can only add up to 10 media attachments per message.";
-
-/* Microphone permission denied alert message */
-"CHAT_MICROPHONE_PERMISSION_DENIED_MESSAGE" = "Microphone permissions are required in order to record and send voice notes.\n\nPlease open Settings to enable.";
-
-/* Microphone permission denied alert title */
-"CHAT_MICROPHONE_PERMISSION_DENIED_TITLE" = "No permission";
 
 /* Accessibility label for more reactions button */
 "CHAT_MORE_REACTIONS_ACCESSIBILITY_LABEL" = "More reactions";
@@ -24284,9 +23996,6 @@ eg. "- @jack" */
 /* Photo library access denied alert message */
 "CHAT_PHOTO_ACCESS_DENIED_MESSAGE" = "Allow photo library access in Settings to save photos and videos from the camera.";
 
-/* Translation attribution label. %@: source language name (e.g. "Japanese") */
-"CHAT_POST_TRANSLATED_FROM" = "Translated from %@";
-
 /* Preview button label */
 "CHAT_PREVIEW" = "Preview";
 
@@ -24296,29 +24005,14 @@ eg. "- @jack" */
 /* Push notifications toggle label */
 "CHAT_PUSH_NOTIFICATIONS" = "Push Notifications";
 
-/* Quote recipient you label */
-"CHAT_QUOTE_RECIPIENT_YOU" = "you";
-
 /* Reactions count header. %@: number of reactions */
 "CHAT_REACTIONS_COUNT" = "Reactions (%@)";
 
 /* Hint to remove a reaction */
 "CHAT_REACTION_TAP_TO_REMOVE" = "Tap to remove";
 
-/* Replied to label. %@: recipient name */
-"CHAT_REPLIED_TO" = "Replied to %@";
-
-/* Replied to with sender label. %1$@: sender, %2$@: recipient */
-"CHAT_REPLIED_TO_WITH_SENDER" = "%1$@ replied to %2$@";
-
-/* Reply preview file attachment label */
-"CHAT_REPLY_ATTACHMENT_FILE" = "File";
-
 /* Reply preview post attachment label */
 "CHAT_REPLY_ATTACHMENT_POST" = "Post";
-
-/* Unknown user fallback name */
-"CHAT_REPLY_UNKNOWN_USER" = "Someone";
 
 /* Reset button label */
 "CHAT_RESET" = "Reset";
@@ -24329,17 +24023,11 @@ eg. "- @jack" */
 /* Save to photos footer description */
 "CHAT_SAVE_TO_PHOTOS_FOOTER" = "Automatically save captured photos to your camera roll.";
 
-/* Message seen status */
-"CHAT_SEEN" = "Seen";
-
 /* Seen by count header. %@: number of viewers */
 "CHAT_SEEN_BY_COUNT" = "Seen By (%@)";
 
 /* Sender label in message info */
 "CHAT_SENDER" = "Sender";
-
-/* Message sending status */
-"CHAT_SENDING" = "Sending";
 
 /* Settings section header grouping app-level preferences */
 "CHAT_SETTINGS_SECTION_APP" = "App";
@@ -24431,9 +24119,6 @@ eg. "- @jack" */
 /* Upload debug logs success message */
 "CHAT_TROUBLESHOOTING_UPLOAD_LOGS_SUCCESS_MESSAGE" = "Copy the link and share it with the team.";
 
-/* Unsupported attachment fallback text */
-"CHAT_UNSUPPORTED_ATTACHMENT" = "Unsupported attachment";
-
 /* Upload quality section title */
 "CHAT_UPLOAD_QUALITY" = "Upload Quality";
 
@@ -24451,9 +24136,6 @@ eg. "- @jack" */
 
 /* App version label */
 "CHAT_VERSION" = "Version";
-
-/* Voice call label */
-"CHAT_VOICE_CALL" = "Voice Call";
 
 /* Yes label */
 "CHAT_YES" = "Yes";
@@ -24763,6 +24445,65 @@ eg. "- @jack" */
 /* Button text that shows post content when tapped */
 "SAFETY_CENTER_TWEET_DISCLOSURE_SHOW_BUTTON_TITLE" = "Show";
 
+// Section: Frameworks/XSports/Sources/XSports/en.lproj/Localizable.strings
+
+/* Detail-row label for the broadcast networks carrying a game. */
+"NFL_SCHEDULE_BROADCAST_LABEL" = "Broadcast";
+
+/* Label for a bye-week row in a team's season schedule. */
+"NFL_SCHEDULE_BYE_WEEK_LABEL" = "Bye Week";
+
+/* Detail-row label for the date of a game. */
+"NFL_SCHEDULE_DATE_LABEL" = "Date";
+
+/* Title of the game-details tray. */
+"NFL_SCHEDULE_GAME_DETAILS_TITLE" = "Game Details";
+
+/* Detail-row label for the venue/location of a game. */
+"NFL_SCHEDULE_LOCATION_LABEL" = "Location";
+
+/* Prefix before the opponent name for an away game (e.g. "at Lions"). */
+"NFL_SCHEDULE_MATCHUP_AWAY_PREFIX" = "at";
+
+/* Prefix before the opponent name for a home game (e.g. "vs Lions"). */
+"NFL_SCHEDULE_MATCHUP_HOME_PREFIX" = "vs";
+
+/* Section header for postseason games in a team's schedule. */
+"NFL_SCHEDULE_POSTSEASON_SECTION_TITLE" = "Postseason";
+
+/* Button that starts composing a post about a game. */
+"NFL_SCHEDULE_POST_BUTTON" = "Post";
+
+/* Section header for preseason games in a team's schedule. */
+"NFL_SCHEDULE_PRESEASON_SECTION_TITLE" = "Preseason";
+
+/* Section header for regular-season games in a team's schedule. */
+"NFL_SCHEDULE_REGULAR_SEASON_SECTION_TITLE" = "Regular Season";
+
+/* Button that sets a reminder for a game. */
+"NFL_SCHEDULE_SET_REMINDER_BUTTON" = "Set Reminder";
+
+/* Placeholder value shown for game details that are not yet available. */
+"NFL_SCHEDULE_TBD_VALUE" = "TBD";
+
+/* Detail-row label for the start time of a game. */
+"NFL_SCHEDULE_TIME_LABEL" = "Time";
+
+/* Trailing action label on a schedule row that opens the game's details. */
+"NFL_SCHEDULE_VIEW_DETAILS_LABEL" = "View Details";
+
+/* Abbreviation for "Week", shown on a bye-week badge (e.g. "WK 17"). */
+"NFL_SCHEDULE_WEEK_ABBREVIATION_LABEL" = "WK";
+
+/* Week label shown in the game-details tray, where %@ is the week number (e.g. "Week 1"). */
+"NFL_SCHEDULE_WEEK_LABEL_FORMAT" = "Week %@";
+
+/* Subtitle of the NFL Top 100 screen, where %@ is the season year (e.g. "Players of 2026"). */
+"NFL_TOP_100_SUBTITLE_FORMAT" = "Players of %@";
+
+/* Title of the NFL Top 100 players screen. */
+"NFL_TOP_100_TITLE" = "NFL Top 100";
+
 // Section: Frameworks/XGif/Sources/XGifPickerStrings/en.lproj/Localizable.strings
 
 /* Gif Picker error action retry title */
@@ -25033,9 +24774,6 @@ eg. "- @jack" */
 /* Title shown at the top of the live chat sheet. */
 "PERISCOPE_LIVE_CHAT_TITLE" = "Live Chat";
 
-/* Label in chat box when user can chat. */
-"PERISCOPE_SAY_SOMETHING_LABEL" = "Say something";
-
 /* Placeholder in the chat composer prompting the user to send a message. */
 "PERISCOPE_SEND_A_MESSAGE_LABEL" = "Send a message";
 
@@ -25093,6 +24831,27 @@ eg. "- @jack" */
 
 /* Label for the cancel action in the discard changes alert */
 "XPHOTOEDITOR_CANCEL_ACTION_LABEL" = "Cancel";
+
+/* Accessibility label for an empty collage slot that opens the photo picker */
+"XPHOTOEDITOR_COLLAGE_ADD_PHOTO_ACCESSIBILITY_LABEL" = "Add photo";
+
+/* Accessibility label for the four photo grid collage layout */
+"XPHOTOEDITOR_COLLAGE_LAYOUT_GRID_ACCESSIBILITY_LABEL" = "Grid of four photos";
+
+/* Accessibility label for the two stacked photos collage layout */
+"XPHOTOEDITOR_COLLAGE_LAYOUT_HORIZONTAL_HALVES_ACCESSIBILITY_LABEL" = "Two photos stacked";
+
+/* Accessibility label for the tall photo beside two stacked photos collage layout */
+"XPHOTOEDITOR_COLLAGE_LAYOUT_TALL_LEFT_STACKED_RIGHT_ACCESSIBILITY_LABEL" = "One tall photo beside two stacked photos";
+
+/* Accessibility label for the two photos side by side collage layout */
+"XPHOTOEDITOR_COLLAGE_LAYOUT_VERTICAL_HALVES_ACCESSIBILITY_LABEL" = "Two photos side by side";
+
+/* Accessibility label for the three photos side by side collage layout */
+"XPHOTOEDITOR_COLLAGE_LAYOUT_VERTICAL_THIRDS_ACCESSIBILITY_LABEL" = "Three photos side by side";
+
+/* Title for the collage tool and its screen */
+"XPHOTOEDITOR_COLLAGE_TITLE" = "Collage";
 
 /* Description under the content flags section when editing a photo */
 "XPHOTOEDITOR_CONTENT_FLAGS_DESCRIPTION_PHOTO" = "Choose any categories to apply content warnings to your photo. This helps people avoid content they don’t want to see.";
@@ -25385,6 +25144,9 @@ eg. "- @jack" */
 
 /* Badge label shown in the navigation bar of the preview timeline modal */
 "PREVIEW_TIMELINE_BADGE" = "Preview";
+
+/* Accessibility label for the pin button in the custom timeline tray header. Pins the timeline to home tabs. */
+"PREVIEW_TIMELINE_PIN_CTA" = "Pin timeline";
 
 /* Text shown when a search in the browse list yields no results */
 "TAB_MANAGEMENT_BROWSE_NO_RESULTS" = "No results found";
