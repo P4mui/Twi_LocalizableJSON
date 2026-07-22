@@ -3188,8 +3188,23 @@ This text is the accessibility hint for the button that lets the user change the
 /* Section header for the Explore personalized trends setting. This is the title for a group of settings relating to how the Trends displayed in the Explore tab are customized for the user. */
 "EXPLORE_SETTINGS_USE_PERSONALIZED_TRENDS_SECTION_HEADER" = "Personalization";
 
+/* Button on the face liveness explainer screen that proceeds to capture when camera permission is already granted. */
+"FACE_LIVENESS_CONTINUE_BUTTON" = "Continue";
+
+/* Button on the face liveness camera pre-permission screen that triggers the OS camera permission prompt. */
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Enable Camera";
+
 /* Toast shown when the face liveness check fails. */
 "FACE_LIVENESS_ERROR_TOAST" = "Verification failed. Please try again.";
+
+/* Link at the end of the face liveness privacy disclaimer that opens the help center article. */
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Learn more";
+
+/* Second paragraph of the face liveness privacy disclaimer, explaining how the captured photo is handled. */
+"FACE_LIVENESS_PRIVACY_FOOTER_PRIVACY" = "It is never sent to X and it is deleted immediately after verification by AWS. It is not used for any purpose other than anti-bot measures. It will not be sold, leased or traded.";
+
+/* First paragraph of the face liveness privacy disclaimer, explaining why a photo is captured. */
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "The app will briefly capture and send a photo to AWS, solely to confirm you are a real person and not a bot.";
 
 /* Toast shown after the user successfully completes the face liveness check. */
 "FACE_LIVENESS_SUCCESS_TOAST" = "Success! You’ve proven you’re human";
@@ -5453,9 +5468,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Accessibility label for the button for Go Live */
 "PHOTO_LIBRARY_GO_LIVE_CAMERA_BUTTON_ACCESSIBILITY_LABEL" = "Go live";
 
-/* Accessibility hint for slideshow photo on iPhone */
-"PHOTO_SLIDESHOW_PHOTO_IPHONE_ACCESSIBILITY_HINT" = "Displays more actions.";
-
 /* Accessibility label for an audio media asset. */
 "PHOTO_TYPE_AUDIO_ACCESSIBILITY_LABEL" = "Audio";
 
@@ -7391,9 +7403,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Skip video ad button */
 "SKIP_VIDEO_AD_BUTTON" = "Skip";
-
-/* Tooltip title for slideshow indicating that the user can view more content without closing the slideshow */
-"SLIDESHOW_YOU_CAN_VIEW_MORE_WITHOUT_CLOSE_SLIDESHOW_TOOLTIP_TITLE" = "You can view more without dismissing";
 
 /* Social context for a user that follows, e.g "John Doe follows" */
 "SOCIAL_CONTEXT_USER_FOLLOWS" = "%@ follows";
@@ -10361,12 +10370,6 @@ eg. "Super Following Jack" */
 
 /* Text for the header of the Subscription upsell for Offline videos feature name */
 "SUBSCRIPTION_UPSELL_OFFLINE_VIDEOS_FEATURE_NAME" = "Offline videos";
-
-/* Text for the body of the Subscription upsell for Offline videos when download is not available */
-"SUBSCRIPTION_UPSELL_OFFLINE_VIDEOS_TO_DOWNLOAD_UPSELL_SUBTITLE" = "This video can’t be download to your device, but you can save it for offline viewing.";
-
-/* Text for the header of the Subscription upsell for Offline videos when download is not available */
-"SUBSCRIPTION_UPSELL_OFFLINE_VIDEOS_TO_DOWNLOAD_UPSELL_TITLE" = "Add to Offline videos?";
 
 /* Title of the basic premium tier subscription for upsell*/
 "SUBSCRIPTION_UPSELL_PREMIUM_BASIC_TIER_NAME" = "Premium Basic";
@@ -13596,6 +13599,15 @@ eg. "Super Following Jack" */
 /* Payments: Label for the Shared account type in account creation and selectors */
 "PAYMENTS_ACCOUNT_TYPE_SHARED" = "Shared account";
 
+/* Payments: Toast shown when the user approves an ACH merchant authorization */
+"PAYMENTS_ACH_APPROVED_TOAST" = "Approved Payment";
+
+/* Payments: Toast shown when the user approves an ACH merchant authorization, enriched with amount and merchant information. %1$@ is replaced by a formatted amount (ex: $1,000), and %2$@ by the merchant name */
+"PAYMENTS_ACH_APPROVED_WITH_MERCHANT_AND_AMOUNT_TOAST" = "Paid %1$@ to %2$@";
+
+/* Payments: Toast shown when the user declines an ACH merchant authorization */
+"PAYMENTS_ACH_DECLINED_TOAST" = "Declined Payment";
+
 /* Payments: Title of the section that contains actions the user can do (ex: Verify identity, Pay, ...). */
 "PAYMENTS_ACTION_NEEDED_TITLE" = "Action required";
 
@@ -13703,12 +13715,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the setting that allows a customer to chose to print or engrave their username on the card. */
 "PAYMENTS_CARD_SPEND_CONFIGURE_ENGRAVE_OR_PRINT_USERNAME_OPTION" = "Print my username";
-
-/* Payments: Disclaimer shown on the screen that allows the customer to order their X Card. %@ is replaced by the title of the button that trigger the ordering flow (ex: Continue). */
-"PAYMENTS_CARD_SPEND_DISCLAIMER" = "By clicking “%@”, you agree to the terms of the Cardholder Agreement. X Money Card is issued by Cross River Bank, Member FDIC, pursuant to a license from Visa USA Inc.";
-
-/* Payments: Text for the link to 'X Money Cardholder Agreement' in the card spend disclaimer. Needs to be present in 'PAYMENTS_CARD_SPEND_DISCLAIMER'. */
-"PAYMENTS_CARD_SPEND_DISCLAIMER_CARDHOLDER_AGREEMENT_LINK" = "Cardholder Agreement";
 
 /* Payments: Disclaimer shown on the screen that allows the customer to order their X Card. %1$@ is replaced by the title of the button that trigger the ordering flow (ex: Continue). %2$@ is replaced by one or multiple document names already localized (ex 1: X Cardholder Agreement, ex 2: X Cardholder Agreement and Privacy Policy) */
 "PAYMENTS_CARD_SPEND_DISCLAIMER_FORMAT" = "By clicking “%1$@”, you agree to the %2$@. X Money Card is issued by Cross River Bank, Member FDIC, pursuant to a license from Visa USA Inc.";
@@ -13863,11 +13869,11 @@ eg. "Super Following Jack" */
 /* Payments: Short subtitle that presents all the cashback that the customer has accrued but not received yet. %@ is replaced by a formatted amount (ex: $500) */
 "PAYMENTS_CASHBACK_TILE_PENDING_AMOUNT" = "%@ pending";
 
-/* Payments: Disclaimer shown when no specific action button is present (generic barcode usage) */
-"PAYMENTS_CASH_DEPOSIT_DISCLAIMER_WITHOUT_ACTION" = "By using this barcode, you agree to the Terms and Conditions.";
+/* Payments: Disclaimer shown when no specific action button is present (generic barcode usage). %1$@ is replaced by a URL. */
+"PAYMENTS_CASH_DEPOSIT_DISCLAIMER_WITHOUT_ACTION_MARKDOWN_FORMAT" = "By using this barcode, you agree to the [Terms and Conditions](%1$@).";
 
-/* Payments: Disclaimer shown when a specific action button (e.g., “Generate barcode”) is present; includes the button title as %1$@ */
-"PAYMENTS_CASH_DEPOSIT_DISCLAIMER_WITH_ACTION" = "By clicking “%1$@”, you agree to the Terms and Conditions.";
+/* Payments: Disclaimer shown when a specific action button (e.g., “Generate barcode”) is present; includes the button title as %1$@. %2$@ is replaced by a URL. */
+"PAYMENTS_CASH_DEPOSIT_DISCLAIMER_WITH_ACTION_MARKDOWN_FORMAT" = "By clicking “%1$@”, you agree to the [Terms and Conditions](%2$@).";
 
 /* Payments: Subtitle explaining that the barcode is created directly in the app */
 "PAYMENTS_CASH_DEPOSIT_FACTS_BARCODE_SUBTITLE" = "Right here in the app.";
@@ -13898,9 +13904,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Informational text about cash deposit fees, limits, and barcode expiration. %1$@ is replaced by the minimum amount to deposit, %2$@ the maximum, and %3$@ by the expiration time (in minutes) for a barcode */
 "PAYMENTS_CASH_DEPOSIT_INFORMATION_LABEL" = "Deposits are free. Limits apply (%1$@ min. %2$@ max. per day). Barcodes expire after %3$@ minutes, funds are available within minutes.";
-
-/* Payments: Link text for the Terms and Conditions related to cash deposits. Needs to be present in PAYMENTS_CASH_DEPOSIT_DISCLAIMER_WITH_ACTION and PAYMENTS_CASH_DEPOSIT_DISCLAIMER_WITHOUT_ACTION. */
-"PAYMENTS_CASH_DEPOSIT_TERMS_AND_CONDITIONS_LINK" = "Terms and Conditions";
 
 /* Payments: Screen title for the cash deposit barcode view */
 "PAYMENTS_CASH_DEPOSIT_TITLE" = "Present this barcode to deposit cash on X Money";
@@ -14265,11 +14268,8 @@ eg. "Super Following Jack" */
 /* Payments: Title shown when a direct deposit setup fails due to session timeout (usually because the payroll login page was left open too long) */
 "PAYMENTS_DIRECT_DEPOSIT_ERROR_TIMEOUT_TITLE" = "Your session timed out";
 
-/* Payments: Sentence that explains how to retry the automatic linking of the direct deposit. Should contain PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_ACTION_LINK. */
-"PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_ACTION" = "Want to retry the connection? Try again";
-
-/* Payments: Title of the link to retry the automatic linking of the direct deposit. Should be in PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_ACTION. */
-"PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_ACTION_LINK" = "Try again";
+/* Payments: Sentence that explains how to retry the automatic linking of the direct deposit. %1$@ is replaced by a URL. */
+"PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_ACTION_MARKDOWN_FORMAT" = "Want to retry the connection? [Try again](%1$@)";
 
 /* Payments: Sentence that explains that the user can use manual procedures to setup their direct deposit. */
 "PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_DESCRIPTION" = "You can set up direct deposit manually using your account details, or generate a pre-filled PDF you can email directly to your HR team.";
@@ -14295,14 +14295,8 @@ eg. "Super Following Jack" */
 /* Payments: Title for the first benefit row in the automated direct deposit flow, highlighting automation */
 "PAYMENTS_DIRECT_DEPOSIT_SWITCH_AUTOMATED_TITLE" = "Quick Setup";
 
-/* Payments: Disclaimer text shown in the automated direct deposit flow, linking to Pinwheel’s Terms of Service and Privacy Policy. %@ is replaced by an action name already localized (ex: Continue). */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER_FORMAT" = "By selecting “%@” you acknowledge you have reviewed and agree to Pinwheel’s Terms of Service & Privacy Policy.";
-
-/* Payments: Text for the link to Pinwheel’s Privacy Policy in the automated direct deposit disclaimer. Must be included in 'PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER'. */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER_PRIVACY_POLICY_LINK" = "Privacy Policy";
-
-/* Payments: Text for the link to Pinwheel’s Terms of Service in the automated direct deposit disclaimer. Must be included in 'PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER'. */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER_TERMS_OF_SERVICE_LINK" = "Terms of Service";
+/* Payments: Disclaimer text shown in the automated direct deposit flow, linking to Pinwheel’s Terms of Service and Privacy Policy. %1$@ is replaced by an action name already localized (ex: Continue), %2$@ and %3$@ are replaced by URLs. */
+"PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER_MARKDOWN_FORMAT" = "By selecting “%1$@” you acknowledge you have reviewed and agree to Pinwheel’s [Terms of Service](%2$@) & [Privacy Policy](%3$@).";
 
 /* Payments: Subtitle for the second benefit row in the automated direct deposit flow, explaining immediate interest earnings */
 "PAYMENTS_DIRECT_DEPOSIT_SWITCH_EARN_APY_SUBTITLE" = "Start earning industry leading interest the moment your paycheck hits X";
@@ -14321,6 +14315,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of a button that allows the user to dismiss the current screen */
 "PAYMENTS_DONE_ACTION" = "Done";
+
+/* Payments: Action to dismiss a screen without doing anything (yet) */
+"PAYMENTS_DO_IT_LATER_ACTION" = "I’ll do it later";
 
 /* Payments: Title of the screen to customize the nickname of a bank account */
 "PAYMENTS_EDIT_NICKNAME_ACCOUNT_TITLE" = "What would you like to name this account?";
@@ -14436,8 +14433,11 @@ eg. "Super Following Jack" */
 /* Payments: Error title shown when someone tries to onboard with a VPN or Proxy on. */
 "PAYMENTS_ERROR_ONBOARDING_WITH_VPN_TITLE" = "It appears you are using a VPN";
 
+/* Payments: Error shown when the customer tries to share a transaction and the other party (for a P2P payment) has disabled sharing, %@ is replaced by their username (ex: @rob). */
+"PAYMENTS_ERROR_OTHER_PARTY_DISABLED_SHARING_RELATED_TO_USER_FORMAT" = "This transaction can’t be shared because %@ has not turned on transaction sharing.";
+
 /* Payments: Error shown when the customer tries to share a transaction and the other party (for a P2P payment) has disabled sharing. */
-"PAYMENTS_ERROR_OTHER_PARTY_DISABLED_SHARING_TITLE" = "The other user has disabled transaction sharing";
+"PAYMENTS_ERROR_OTHER_PARTY_DISABLED_SHARING_TITLE" = "This transaction can’t be shared because the other user has not turned on transaction sharing.";
 
 /* Payments: Additional message shown when a transfer using a payment method is not possible because it has expired */
 "PAYMENTS_ERROR_PAYMENT_METHOD_EXPIRED_MESSAGE" = "Your payment method has expired. Please update it or add a new bank account/card and try again.";
@@ -14652,17 +14652,11 @@ eg. "Super Following Jack" */
 /* Payments: Title of the action that allows a user to reset their PIN if they forgot it. */
 "PAYMENTS_FORGOT_PIN_TITLE" = "Forgot PIN";
 
-/* Payments: Label of the link in PAYMENTS_FUNDS_INSURANCE_FOOTER_BANK_TEXT */
-"PAYMENTS_FUNDS_INSURANCE_FOOTER_BANK_LINK" = "here";
+/* Payments: Secondary footer text shown on the home screen, to explain that funds deposited are insured by FDIC insurance. %1$@ is replaced by a URL. */
+"PAYMENTS_FUNDS_INSURANCE_FOOTER_BANK_MARKDOWN_FORMAT" = "See more information on FDIC insurance and account ownership categories [here](%1$@).";
 
-/* Payments: Secondary footer text shown on the home screen, to explain that funds deposited are insured by FDIC insurance. This one is about specific */
-"PAYMENTS_FUNDS_INSURANCE_FOOTER_BANK_TEXT" = "See more information on FDIC insurance and account ownership categories here.";
-
-/* Payments: Label of the link in PAYMENTS_FUNDS_INSURANCE_FOOTER_CONDITIONS_TEXT */
-"PAYMENTS_FUNDS_INSURANCE_FOOTER_CONDITIONS_LINK" = "Certain conditions";
-
-/* Payments: Secondary footer text shown on the home screen, to explain that funds deposited are insured by FDIC insurance */
-"PAYMENTS_FUNDS_INSURANCE_FOOTER_CONDITIONS_TEXT" = "X Payments LLC is not an FDIC-insured bank. Deposit insurance only covers the failure of an FDIC-insured bank. Certain conditions must be satisfied for pass-through deposit insurance coverage to apply.";
+/* Payments: Secondary footer text shown on the home screen, to explain that funds deposited are insured by FDIC insurance. %1$@ is replaced by a URL. */
+"PAYMENTS_FUNDS_INSURANCE_FOOTER_CONDITIONS_MARKDOWN_FORMAT" = "X Payments LLC is not an FDIC-insured bank. Deposit insurance only covers the failure of an FDIC-insured bank. [Certain conditions](%1$@) must be satisfied for pass-through deposit insurance coverage to apply.";
 
 /* Payments: Footer text shown on the home screen, to explain that funds deposited are insured by FDIC insurance. This one is about specifying the limit. %@ is replaced by an amount in USD, already formatted (ex: $250,000). */
 "PAYMENTS_FUNDS_INSURANCE_FOOTER_TEXT_FORMAT" = "Your deposits are held by Cross River Bank (“the Bank”), Member FDIC and are insured by the FDIC up to %@ per individual and per legal entity for all accounts in each account ownership category held at the Bank (combined), including accounts held in a representative capacity.";
@@ -14679,20 +14673,11 @@ eg. "Super Following Jack" */
 /* Payments: Title of the section explaining why X Money is secured thanks to passkeys */
 "PAYMENTS_FUNDS_INSURANCE_PASSKEY_TITLE" = "Authentication & Passkeys";
 
-/* Payments: Detailed disclaimer text shown in the X Cash Sweep Program details view. Explains the partner banks involved (Cross River Bank and other FDIC-insured institutions), that X Payments LLC is not an FDIC-insured bank, and that certain conditions must be met for pass-through coverage. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_DISCLAIMER" = "Deposits are held at Cross River Bank, Member FDIC, and at other FDIC-insured institutions. Certain conditions must be satisfied for pass-through deposit insurance coverage to apply. X Payments LLC is not an FDIC-insured bank. Deposit insurance only covers the failure of an insured bank.";
+/* Payments: Detailed disclaimer text shown in the X Cash Sweep Program details view. Explains the partner banks involved (Cross River Bank and other FDIC-insured institutions), that X Payments LLC is not an FDIC-insured bank, and that certain conditions must be met for pass-through coverage. %1$@ and %2$@ are replaced by URLs. */
+"PAYMENTS_FUNDS_INSURANCE_SWEEP_DISCLAIMER_MARKDOWN_FORMAT" = "Deposits are held at Cross River Bank, Member FDIC, and at other [FDIC-insured institutions](%1$@). [Certain conditions](%2$@) must be satisfied for pass-through deposit insurance coverage to apply. X Payments LLC is not an FDIC-insured bank. Deposit insurance only covers the failure of an insured bank.";
 
-/* Payments: Label of the link within PAYMENTS_FUNDS_INSURANCE_SWEEP_DISCLAIMER that refers to the conditions required for pass-through deposit insurance coverage to apply. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_DISCLAIMER_CONDITIONS_LINK" = "Certain conditions";
-
-/* Payments: Label of the link within PAYMENTS_FUNDS_INSURANCE_SWEEP_DISCLAIMER that refers to the partner FDIC-insured institutions where deposits may be swept. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_DISCLAIMER_INSTITUTIONS_LINK" = "FDIC-insured institutions";
-
-/* Payments: Main presentation text shown on the home screen for the X Cash Sweep Program. Informs users that deposits are automatically enrolled for up to $10M in FDIC insurance. The trailing “Learn more” portion is a tappable link. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION" = "Your deposits are automatically enrolled in the X Cash Sweep Program, which provides access up to $10M of aggregate FDIC insurance coverage, subject to certain limitations. Learn more.";
-
-/* Payments: Label for the “Learn more” link that appears at the end of PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION_LEARN_MORE_LINK" = "Learn more";
+/* Payments: Main presentation text shown on the home screen for the X Cash Sweep Program. Informs users that deposits are automatically enrolled for up to $10M in FDIC insurance. %1$@ is replaced by a URL. */
+"PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION_MARKDOWN_FORMAT" = "Your deposits are automatically enrolled in the X Cash Sweep Program, which provides access up to $10M of aggregate FDIC insurance coverage, subject to certain limitations. [Learn more](%1$@).";
 
 /* Payments: Title for the X Cash Sweep Program section, shown on the X Money home screen and on the details sheet. Highlights the extended FDIC insurance coverage of up to $10M. */
 "PAYMENTS_FUNDS_INSURANCE_SWEEP_TITLE" = "Access up to $10M of FDIC Insurance";
@@ -15105,32 +15090,11 @@ eg. "Super Following Jack" */
 /* Payments: Title of the screen where sole prop users enter their business name during X Payments onboarding. */
 "PAYMENTS_ONBOARDING_DBA_TITLE" = "What is the name of your business?";
 
-/* Payments: Disclaimer text shown during X Payments onboarding. %@ is replaced by the action text (e.g., "Continue"). */
-"PAYMENTS_ONBOARDING_DISCLAIMER" = "By clicking “%@”, you agree to the Terms of Service, Privacy Policy, Ecomm Consent Agreement, USA Patriot Act Notice and Cross River Bank Stored Value Account Agreement.";
-
-/* Payments: Disclaimer explaining that the SSN data will be shared with Social Security (via the eCBSV system) for identity verification purposes. */
-"PAYMENTS_ONBOARDING_DISCLAIMER_ECBSV" = "By pressing %@, you are signing the eCBSV Agreement to disclose your SSN Verification to X Payments, LLC and Socure Inc. You agree that your e-signature has the same legal validity as a handwritten signature.";
-
-/* Payments: Text for the link to X Payments 'eCBSV Agreement' in the SSN/eCBSV disclaimer. Needs to be present in 'PAYMENTS_ONBOARDING_ECBSV_DISCLAIMER'. */
-"PAYMENTS_ONBOARDING_DISCLAIMER_ECBSV_LINK" = "eCBSV Agreement";
-
-/* Payments: Text for the link to X Payments 'E-Comm Consent' in the onboarding disclaimer. Needs to be present in 'PAYMENTS_ONBOARDING_DISCLAIMER'. */
-"PAYMENTS_ONBOARDING_DISCLAIMER_ECOMM_CONSENT_LINK" = "Ecomm Consent Agreement";
+/* Payments: Disclaimer explaining that the SSN data will be shared with Social Security (via the eCBSV system) for identity verification purposes. %2$@ is replaced by a localized action name (ex: "Continue"), %2$@ is replaced by a URL. */
+"PAYMENTS_ONBOARDING_DISCLAIMER_ECBSV_MARKDOWN_FORMAT" = "By pressing “%1$@”, you are signing the [eCBSV Agreement](%2$@) to disclose your SSN Verification to X Payments, LLC and Socure Inc. You agree that your e-signature has the same legal validity as a handwritten signature.";
 
 /* Payments: Disclaimer text shown during X Payments onboarding. %1$@ is replaced by the action text (e.g., "Continue"), and %2$@ is replaced by a localized list of items (ex: Terms of Service, Privacy Policy and USA Patriot Act Notice). */
 "PAYMENTS_ONBOARDING_DISCLAIMER_FORMAT" = "By clicking “%1$@”, you agree to the %2$@.";
-
-/* Payments: Text for the link to X Payments 'Terms of Service' in the onboarding disclaimer. Needs to be present in 'PAYMENTS_ONBOARDING_DISCLAIMER'. */
-"PAYMENTS_ONBOARDING_DISCLAIMER_LINK" = "Terms of Service";
-
-/* Payments: Text for the link to X Payments 'Privacy Policy' in the onboarding disclaimer. Needs to be present in 'PAYMENTS_ONBOARDING_DISCLAIMER'. */
-"PAYMENTS_ONBOARDING_DISCLAIMER_PRIVACY_POLICY_LINK" = "Privacy Policy";
-
-/* Payments: Text for the link to X Payments 'Cross River Bank Stored Value Account Agreement' in the onboarding disclaimer. Needs to be present in 'PAYMENTS_ONBOARDING_DISCLAIMER'. */
-"PAYMENTS_ONBOARDING_DISCLAIMER_STORED_VALUE_ACCOUNT_AGREEMENT_LINK" = "Cross River Bank Stored Value Account Agreement";
-
-/* Payments: Text for the link to X Payments 'USA Patriot Act Notice' in the onboarding disclaimer. Needs to be present in 'PAYMENTS_ONBOARDING_DISCLAIMER'. */
-"PAYMENTS_ONBOARDING_DISCLAIMER_USA_PATRIOT_ACT_NOTICE_LINK" = "USA Patriot Act Notice";
 
 /* Payments: Label for the email field in the X Payments onboarding process. */
 "PAYMENTS_ONBOARDING_EMAIL_FIELD_NAME" = "Email";
@@ -15198,11 +15162,8 @@ eg. "Super Following Jack" */
 /* Payments: Label for the phone number field in the X Payments onboarding process. */
 "PAYMENTS_ONBOARDING_PHONE_NUMBER_FIELD_NAME" = "Phone number";
 
-/* Payments: Text asking if the user has a new phone number during X Payments onboarding, with a link to update it. */
-"PAYMENTS_ONBOARDING_PHONE_NUMBER_FIELD_UPDATE_TEXT" = "Have a new phone number? Update here";
-
-/* Payments: Text for the link to update the phone number during X Payments onboarding. */
-"PAYMENTS_ONBOARDING_PHONE_NUMBER_FIELD_UPDATE_TEXT_LINK" = "Update here";
+/* Payments: Text asking if the user has a new phone number during X Payments onboarding, with a link to update it. %1$@ is replaced by a URL. */
+"PAYMENTS_ONBOARDING_PHONE_NUMBER_FIELD_UPDATE_TEXT_MARKDOWN_FORMAT" = "Have a new phone number? [Update here](%1$@)";
 
 /* Payments: Error message shown when the entered PIN and its confirmation do not match during X Payments onboarding. */
 "PAYMENTS_ONBOARDING_PIN_CONFIRMATION_ERROR" = "The PIN and confirmation are not equal";
@@ -15345,11 +15306,8 @@ eg. "Super Following Jack" */
 /* Payments: Title of the screen indicating that the user’s Payments account is under review */
 "PAYMENTS_PENDING_REVIEW_TITLE" = "We’re reviewing your information";
 
-/* Payments: Subtitle for verification code input screen. %@ is replaced by a formatted phone number. */
-"PAYMENTS_PHONE_CODE_VERIFICATION_SUBTITLE" = "We sent it to %@ to verify. Don’t see it? Send again.";
-
-/* Payments: Link text to resend verification code. Needs to be included in PAYMENTS_PHONE_CODE_VERIFICATION_SUBTITLE. */
-"PAYMENTS_PHONE_CODE_VERIFICATION_SUBTITLE_RESEND_LINK" = "Send again";
+/* Payments: Subtitle for verification code input screen. %1$@ is replaced by a formatted phone number. %2$@ is replaced by a URL */
+"PAYMENTS_PHONE_CODE_VERIFICATION_SUBTITLE_MARKDOWN_FORMAT" = "We sent it to %1$@ to verify. Don’t see it? [Send again](%2$@).";
 
 /* Payments: Title for verification code input screen */
 "PAYMENTS_PHONE_CODE_VERIFICATION_TITLE" = "Enter the code we sent you";
@@ -15696,17 +15654,11 @@ eg. "Super Following Jack" */
 /* Payments: Section title for the Cashback rewards section in the Rewards tab */
 "PAYMENTS_REWARDS_CASHBACK_SECTION_TITLE" = "Cashback";
 
-/* Payments: Disclaimer for the Rewards screen, showing that not all purchases are eligible */
-"PAYMENTS_REWARDS_DISCLAIMER" = "*Terms and limitations apply. Learn more";
+/* Payments: Disclaimer for the Rewards screen, showing the APY effective date. %1$@ is replaced by a formatted date (ex: March 26, 2025), and %2$@ is replaced by a URL. */
+"PAYMENTS_REWARDS_DISCLAIMER_APY_EFFECTIVE_DATE_MARKDOWN_FORMAT" = "*Annual Percentage Yield (“APY”) is accurate as of %1$@ and subject to change. See [here](%2$@) for current rates.";
 
-/* Payments: Disclaimer for the Rewards screen, showing the APY effective date. %@ is replaced by a formatted date (ex: March 26, 2025). */
-"PAYMENTS_REWARDS_DISCLAIMER_APY_EFFECTIVE_DATE_FORMAT" = "*Annual Percentage Yield (“APY”) is accurate as of %@ and subject to change. See here for current rates.";
-
-/* Payments: Part of 'PAYMENTS_REWARDS_DISCLAIMER_APY_EFFECTIVE_DATE_FORMAT' that is clickable and sends the customer to the interest FAQ page */
-"PAYMENTS_REWARDS_DISCLAIMER_APY_EFFECTIVE_DATE_FORMAT_LINK" = "here";
-
-/* Payments: Should be present in 'PAYMENTS_REWARDS_DISCLAIMER' */
-"PAYMENTS_REWARDS_DISCLAIMER_LINK" = "Learn more";
+/* Payments: Disclaimer for the Rewards screen, showing that not all purchases are eligible. %1$@ is replaced by a URL */
+"PAYMENTS_REWARDS_DISCLAIMER_MARKDOWN_FORMAT" = "*Terms and limitations apply. [Learn more](%1$@)";
 
 /* Payments: Label for total interest earned over the lifetime of the account */
 "PAYMENTS_REWARDS_INTEREST_EARNED" = "Lifetime paid";
@@ -15845,9 +15797,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the error shown when the service is unavailable. */
 "PAYMENTS_SERVICE_UNAVAILABLE_TITLE" = "Money is unavailable right now";
-
-/* Payments: Option in the Settings to open the Acceptable Use Policy. */
-"PAYMENTS_SETTINGS_ACCEPTABLE_USE_POLICY_LINK" = "Acceptable Use Policy";
 
 /* Payments: Title for the Email Notifications section in settings */
 "PAYMENTS_SETTINGS_EMAIL_NOTIFICATIONS_TITLE" = "Email Notifications";
@@ -16196,6 +16145,12 @@ eg. "Super Following Jack" */
 
 /* Payments: Action to open the screen that shows all the wire details */
 "PAYMENTS_VIEW_WIRE_METADATA_ACTION" = "Wire information";
+
+/* Payments: Title of the tray presenting the virtual card */
+"PAYMENTS_VIRTUAL_CARD_READY_TITLE" = "Your virtual card is ready";
+
+/* Payments: Subtitle of the tray presenting the virtual card */
+"PAYMENTS_VIRTUAL_CARD_READY_VISA_DEBIT_SUBTITLE" = "We’ve created a virtual Visa Debit card for you. You can use it anywhere Visa is accepted.";
 
 /* Payments: Title for the screen where the user selects a beneficiary for a wire. */
 "PAYMENTS_WIRE_BENEFICIARY_TITLE" = "Choose a beneficiary";
@@ -17127,6 +17082,9 @@ eg. "Super Following Jack" */
 
 /* Accesibility hint for repost count */
 "RETWEET_COUNT_ACCESSIBILITY_HINT" = "Views repost";
+
+/* Tappable action shown after the "From <topic>" social context label above a post, letting the user ask to see less content from that topic. Keep it short. */
+"SEE_LESS_TAG_TOPIC_SOCIAL_CONTEXT_ACTION_LABEL" = "See less";
 
 /* Button label to present more sharing options */
 "SHARE_VIA_ACTION" = "Share via…";
@@ -19584,6 +19542,24 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Documents section title */
 "CHAT_DOCUMENTS" = "Documents";
 
+/* Duration in days. %@: days */
+"CHAT_DURATION_DAYS" = "%@d";
+
+/* Duration in days and hours. %1$@: days, %2$@: hours */
+"CHAT_DURATION_DAYS_HOURS" = "%1$@d %2$@h";
+
+/* Duration in hours. %@: hours */
+"CHAT_DURATION_HOURS" = "%@h";
+
+/* Duration in hours and minutes. %1$@: hours, %2$@: minutes */
+"CHAT_DURATION_HOURS_MINS" = "%1$@h %2$@m";
+
+/* Duration in minutes. %@: minutes */
+"CHAT_DURATION_MINUTES" = "%@m";
+
+/* Duration in seconds. %@: seconds */
+"CHAT_DURATION_SECONDS" = "%@s";
+
 /* Edit group name footer description */
 "CHAT_EDIT_GROUP_NAME_FOOTER" = "Enter a name for this group that will be visible to all members.";
 
@@ -19701,6 +19677,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Chat message send alert title when sending message that is too long */
 "CHAT_MESSAGE_SEND_EXCEEDS_MAX_LENGTH_ALERT_TITLE" = "Too long!";
 
+/* Accessibility label for more reactions button */
+"CHAT_MORE_REACTIONS_ACCESSIBILITY_LABEL" = "More reactions";
+
+/* No label */
+"CHAT_NO" = "No";
+
 /* OK button label */
 "CHAT_OK" = "OK";
 
@@ -19752,6 +19734,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Quote recipient you label */
 "CHAT_QUOTE_RECIPIENT_YOU" = "you";
 
+/* Reactions count header. %@: number of reactions */
+"CHAT_REACTIONS_COUNT" = "Reactions (%@)";
+
+/* Hint to remove a reaction */
+"CHAT_REACTION_TAP_TO_REMOVE" = "Tap to remove";
+
 /* Read-only conversation message */
 "CHAT_READ_ONLY_CONVO_MESSAGE" = "This conversation is read-only and cannot be modified.";
 
@@ -19799,6 +19787,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Message seen status */
 "CHAT_SEEN" = "Seen";
+
+/* Seen by count header. %@: number of viewers */
+"CHAT_SEEN_BY_COUNT" = "Seen By (%@)";
+
+/* Sender label in message info */
+"CHAT_SENDER" = "Sender";
 
 /* Message sending status */
 "CHAT_SENDING" = "Sending";
@@ -19883,6 +19877,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* View members label. %@: number of members */
 "CHAT_VIEW_MEMBERS_COUNT" = "View %@ members";
+
+/* Yes label */
+"CHAT_YES" = "Yes";
 
 /* DM Attachments Files screen title */
 "DM_ATTACHMENT_LIST_FILES_TITLE" = "Files";
@@ -20159,6 +20156,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Conversation footer read only needs verified title */
 "DM_CONVERSATION_FOOTER_READ_ONLY_REASON_NEEDS_VERIFIED_TITLE" = "You cannot message this user because you are not verified.";
+
+/* DM Conversation footer read only account fallback when display name is unavailable */
+"DM_CONVERSATION_FOOTER_READ_ONLY_REASON_READ_ONLY_ACCOUNT_FALLBACK_TITLE" = "This is a read-only conversation.";
+
+/* DM Conversation footer read only account title. %@: account display name (e.g. Community Notes) */
+"DM_CONVERSATION_FOOTER_READ_ONLY_REASON_READ_ONLY_ACCOUNT_TITLE" = "Only %@ can send messages.";
 
 /* DM Conversation footer read only reason removed from group title */
 "DM_CONVERSATION_FOOTER_READ_ONLY_REASON_REMOVED_FROM_GROUP_TITLE" = "You must be re-added to this group in order to send messages.";
@@ -21744,6 +21747,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM New Conversation select user action permissions error title */
 "DM_NEW_CONVERSATION_ACTION_SELECT_USER_ERROR_PERMISSIONS_TITLE" = "You don’t have permissions required to message this user.";
+
+/* DM New Conversation select user action read-only account cannot add to group error title */
+"DM_NEW_CONVERSATION_ACTION_SELECT_USER_ERROR_READ_ONLY_ACCOUNT_CANNOT_ADD_TO_GROUP_TITLE" = "This account cannot be added to groups";
+
+/* DM New Conversation select user action read-only account cannot message error title */
+"DM_NEW_CONVERSATION_ACTION_SELECT_USER_ERROR_READ_ONLY_ACCOUNT_TITLE" = "You cannot send messages to this account";
 
 /* DM New Conversation alert invite to register message */
 "DM_NEW_CONVERSATION_ALERT_INVITE_TO_REGISTER_MESSAGE" = "This user needs to upgrade to the new X Chat to join.";
@@ -23513,7 +23522,7 @@ eg. "- @jack" */
 /* Label shown on the boosted badge in the boost education animation. */
 "QUICK_PROMOTE_EDUCATION_BOOSTED" = "Boosted";
 
-/* Label shown on the boosted badge in the boost education animation, naming the user who boosted the post. %1$@ is the booster's @handle. */
+/* Label shown on the boosted badge in the boost education animation, naming the user who boosted the post. %1$@ is the booster's display name (or @handle when the social-context label placement is disabled), e.g. "Boosted by Elon Musk". */
 "QUICK_PROMOTE_EDUCATION_BOOSTED_BY_FORMAT" = "Boosted by %1$@";
 
 /* Title of the attribution section in the boost education animation. */
@@ -23921,24 +23930,6 @@ eg. "- @jack" */
 /* Double tap sent message action: Edit */
 "CHAT_DOUBLE_TAP_SENT_MESSAGE_EDIT_MESSAGE" = "Edit";
 
-/* Duration in days. %@: days */
-"CHAT_DURATION_DAYS" = "%@d";
-
-/* Duration in days and hours. %1$@: days, %2$@: hours */
-"CHAT_DURATION_DAYS_HOURS" = "%1$@d %2$@h";
-
-/* Duration in hours. %@: hours */
-"CHAT_DURATION_HOURS" = "%@h";
-
-/* Duration in hours and minutes. %1$@: hours, %2$@: minutes */
-"CHAT_DURATION_HOURS_MINS" = "%1$@h %2$@m";
-
-/* Duration in minutes. %@: minutes */
-"CHAT_DURATION_MINUTES" = "%@m";
-
-/* Duration in seconds. %@: seconds */
-"CHAT_DURATION_SECONDS" = "%@s";
-
 /* EECC (European Electronic Communications Code) notice label */
 "CHAT_EECC_NOTICE" = "EECC Notice";
 
@@ -23969,14 +23960,8 @@ eg. "- @jack" */
 /* Manage account button label */
 "CHAT_MANAGE_ACCOUNT" = "Manage account";
 
-/* Accessibility label for more reactions button */
-"CHAT_MORE_REACTIONS_ACCESSIBILITY_LABEL" = "More reactions";
-
 /* Dark/night theme option */
 "CHAT_NIGHT" = "Night";
-
-/* No label */
-"CHAT_NO" = "No";
 
 /* Notifications settings title */
 "CHAT_NOTIFICATIONS" = "Notifications";
@@ -24005,12 +23990,6 @@ eg. "- @jack" */
 /* Push notifications toggle label */
 "CHAT_PUSH_NOTIFICATIONS" = "Push Notifications";
 
-/* Reactions count header. %@: number of reactions */
-"CHAT_REACTIONS_COUNT" = "Reactions (%@)";
-
-/* Hint to remove a reaction */
-"CHAT_REACTION_TAP_TO_REMOVE" = "Tap to remove";
-
 /* Reply preview post attachment label */
 "CHAT_REPLY_ATTACHMENT_POST" = "Post";
 
@@ -24022,12 +24001,6 @@ eg. "- @jack" */
 
 /* Save to photos footer description */
 "CHAT_SAVE_TO_PHOTOS_FOOTER" = "Automatically save captured photos to your camera roll.";
-
-/* Seen by count header. %@: number of viewers */
-"CHAT_SEEN_BY_COUNT" = "Seen By (%@)";
-
-/* Sender label in message info */
-"CHAT_SENDER" = "Sender";
 
 /* Settings section header grouping app-level preferences */
 "CHAT_SETTINGS_SECTION_APP" = "App";
@@ -24136,9 +24109,6 @@ eg. "- @jack" */
 
 /* App version label */
 "CHAT_VERSION" = "Version";
-
-/* Yes label */
-"CHAT_YES" = "Yes";
 
 // Section: Frameworks/TwitterComposer/Sources/TwitterComposerStrings/en.lproj/Localizable.strings
 
@@ -24546,14 +24516,26 @@ eg. "- @jack" */
 /* OK button on a palm-liveness alert. */
 "PALM_LIVENESS_ALERT_OK_BUTTON" = "OK";
 
-/* Reassurance shown under the palm-verification call to action, telling the user their biometric data stays private. */
-"PALM_LIVENESS_BIOMETRIC_PRIVACY_DISCLAIMER" = "Biometric data is never shared with X.";
+/* Reassurance shown under the palm-verification call to action, explaining that hand-motion data never leaves the device and is never stored or used to identify the user. */
+"PALM_LIVENESS_BIOMETRIC_PRIVACY_DISCLAIMER" = "Hand motion data will never leave your device. No information will be stored or used to identify you.";
 
 /* Message of the alert shown when the camera permission has been denied and palm verification needs it. */
 "PALM_LIVENESS_CAMERA_ACCESS_ALERT_MESSAGE" = "Please enable camera access in Settings to verify with palm.";
 
 /* Title of the alert shown when the camera permission has been denied and palm verification needs it. */
 "PALM_LIVENESS_CAMERA_ACCESS_ALERT_TITLE" = "Camera Access Required";
+
+/* Primary button on the camera explainer screen that triggers the OS camera-access prompt. */
+"PALM_LIVENESS_CAMERA_EXPLAINER_ENABLE_CAMERA_BUTTON" = "Enable Camera";
+
+/* Inline link at the end of the camera explainer privacy paragraph, opening a Help Center article about anti-bot verification. */
+"PALM_LIVENESS_CAMERA_EXPLAINER_LEARN_MORE" = "Learn more";
+
+/* Privacy paragraph on the camera explainer screen explaining how hand-motion data is handled. */
+"PALM_LIVENESS_CAMERA_EXPLAINER_PRIVACY" = "Your hand motion is never recorded as a video and it never leaves your device. It is not used for any other purpose other than anti-bot verification, and will not be sold, leased, or traded.";
+
+/* First paragraph on the camera explainer screen explaining why camera access is needed. */
+"PALM_LIVENESS_CAMERA_EXPLAINER_PURPOSE" = "The app will briefly capture your hand motion solely to confirm you are a real person and not a bot.";
 
 /* Subtitle on the first palm-liveness screen explaining why the user is being asked to verify. */
 "PALM_LIVENESS_CONFIRM_HUMAN_SUBTITLE" = "This step verifies you’re a human and ensures your account remains in good standing.";
