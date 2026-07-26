@@ -4,6 +4,35 @@ This file is auto-generated using Localization/scripts/concatenate_localizable_s
 This file is sorted by modules instead of alphabetically to help reduce merge conflicts.
 */
 
+// Section: Frameworks/XSettings/Sources/XSettingsStrings/en.lproj/Localizable.strings
+
+/* Title of the settings root row that opens Chat settings */
+"SETTINGS_ROOT_CHAT_ROW_TITLE" = "Chat";
+
+/* Title of the settings root row that opens Explore settings */
+"SETTINGS_ROOT_EXPLORE_ROW_TITLE" = "Explore";
+
+/* Title of the settings root row that opens Money settings */
+"SETTINGS_ROOT_MONEY_ROW_TITLE" = "Money";
+
+/* Title of the settings root row that opens Spaces settings */
+"SETTINGS_ROOT_SPACES_ROW_TITLE" = "Spaces";
+
+/* Description under the toggle that shows engagement counters on timeline posts */
+"SETTINGS_TIMELINE_DISPLAY_ENGAGEMENT_DESCRIPTION" = "Display engagement counters on posts";
+
+/* Title of the row on the Timeline settings screen that opens the post interaction settings */
+"SETTINGS_TIMELINE_POST_INTERACTIONS_ROW_TITLE" = "Post interactions";
+
+/* Title of the row on the Timeline settings screen that opens the post swipe gesture settings */
+"SETTINGS_TIMELINE_POST_SWIPE_GESTURES_ROW_TITLE" = "Post swipe gestures";
+
+/* Title of the row showing which action a left swipe on a post performs; also titles the tray that picks it */
+"SETTINGS_TIMELINE_SWIPE_LEFT_GESTURE_ROW_TITLE" = "Swipe left gesture";
+
+/* Title of the row showing which action a right swipe on a post performs; also titles the tray that picks it */
+"SETTINGS_TIMELINE_SWIPE_RIGHT_GESTURE_ROW_TITLE" = "Swipe right gesture";
+
 // Section: Frameworks/TwitterComposition/TwitterComposition/Sources/TwitterCompositionStrings/en.lproj/Localizable.strings
 
 /* Message to let the user know that the post can only contain attachments of one media type at the time, media types being GIF, Image, Video, etc */
@@ -1543,6 +1572,15 @@ e.g. Removed from MyRecipes.
 
 /* Tooltip text to add another post */
 "COMPOSE_ADD_ANOTHER_TWEET_TOOLTIP_TEXT" = "Add another post";
+
+/* Body of the sheet shown when the user closes the post composer with unsaved content, explaining they can save the post as a draft instead of losing it */
+"COMPOSE_CANCEL_POST_TRAY_MESSAGE" = "You are about to abandon your post, if you would like to save it for later, save it as a draft";
+
+/* Button label on the sheet shown when the user closes the post composer with unsaved content; saves the post as a draft */
+"COMPOSE_CANCEL_POST_TRAY_SAVE_DRAFT_ACTION_LABEL" = "Save Draft";
+
+/* Title of the sheet shown when the user closes the post composer with unsaved content, asking whether to save the post as a draft or delete it */
+"COMPOSE_CANCEL_POST_TRAY_TITLE" = "Cancel Post?";
 
 /* Accessibility action name to remove the card in the post composer (example: while in a Spaces room, tapping Share via post creates a Spaces card with this action) */
 "COMPOSE_CARD_REMOVE_CARD_ACCESSIBILITY_ACTION" = "Remove the card from your post.";
@@ -3205,6 +3243,9 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* First paragraph of the face liveness privacy disclaimer, explaining why a photo is captured. */
 "FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "The app will briefly capture and send a photo to AWS, solely to confirm you are a real person and not a bot.";
+
+/* Instruction pill above the oval camera view telling the user to position their face inside it during the face liveness check. */
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Put your face in the circle";
 
 /* Toast shown after the user successfully completes the face liveness check. */
 "FACE_LIVENESS_SUCCESS_TOAST" = "Success! You’ve proven you’re human";
@@ -11175,6 +11216,9 @@ eg. "Super Following Jack" */
 /* Create Videos preset in Grok Home */
 "GROK_HOME_PRESET_CREATE_VIDEOS" = "Create Videos";
 
+/* Label for the preset button in Grok Home that opens the Premium+ subscription paywall. Shown to users who are not subscribed to Premium+. Note to translators: do not translate "SuperGrok". */
+"GROK_HOME_PRESET_GET_SUPERGROK" = "Get SuperGrok";
+
 /* Try Voice Mode preset in Grok Home */
 "GROK_HOME_PRESET_TRY_VOICE_MODE" = "Try Voice Mode";
 
@@ -13569,6 +13613,15 @@ eg. "Super Following Jack" */
 /* Payments: Toast title shown after successfully cancelling a pending invitation */
 "PAYMENTS_ACCOUNTS_SUCCESS_TOAST_INVITATION_CANCELLED_TITLE" = "The invitation was cancelled";
 
+/* Payments: Attribute that presents the account number (very short, can be abbreviated like "Acct.") */
+"PAYMENTS_ACCOUNT_ATTRIBUTE_SHORT_ACCOUNT_NUMBER" = "Account";
+
+/* Payments: Attribute that presents the number of cards connected to the account */
+"PAYMENTS_ACCOUNT_ATTRIBUTE_SHORT_CONNECTED_CARDS" = "Cards";
+
+/* Payments: Attribute value that presents the number of cards connected to the account. %@ is replaced by a number (ex: 2)*/
+"PAYMENTS_ACCOUNT_ATTRIBUTE_SHORT_CONNECTED_CARDS_VALUE_FORMAT" = "%@ Connected";
+
 /* Payments: Title the of 'Account' details screen */
 "PAYMENTS_ACCOUNT_DETAILS_TITLE" = "Account Details";
 
@@ -13863,11 +13916,17 @@ eg. "Super Following Jack" */
 /* Payments: Display name for a prepaid card */
 "PAYMENTS_CARD_TYPE_PREPAID" = "Prepaid";
 
+/* Payments: Attribute that presents the total earned cashback by the customer on all their cards (very short) */
+"PAYMENTS_CASHBACK_LIFETIME_SHORT" = "Lifetime";
+
 /* Payments: Short subtitle that presents all the cashback that the customer has earned over time. %@ is replaced by a formatted amount (ex: $1,000) */
 "PAYMENTS_CASHBACK_TILE_LIFETIME_AMOUNT" = "%@ lifetime";
 
 /* Payments: Short subtitle that presents all the cashback that the customer has accrued but not received yet. %@ is replaced by a formatted amount (ex: $500) */
 "PAYMENTS_CASHBACK_TILE_PENDING_AMOUNT" = "%@ pending";
+
+/* Payments: Attribute that presents the accrued cashback during the current week by the customer on this account (very short) */
+"PAYMENTS_CASHBACK_WEEKLY_PENDING" = "This week";
 
 /* Payments: Disclaimer shown when no specific action button is present (generic barcode usage). %1$@ is replaced by a URL. */
 "PAYMENTS_CASH_DEPOSIT_DISCLAIMER_WITHOUT_ACTION_MARKDOWN_FORMAT" = "By using this barcode, you agree to the [Terms and Conditions](%1$@).";
@@ -13991,6 +14050,12 @@ eg. "Super Following Jack" */
 
 /* Payments: Title for the first step in the check deposit instructions */
 "PAYMENTS_CHECK_DEPOSIT_FACTS_SCAN_FRONT_TITLE" = "Scan the front of the check";
+
+/* Payments: Subtitle of the check deposit instructions screen. %@ is replaced by the formatted deposit limit and %2$@ by the number of business days (2+) */
+"PAYMENTS_CHECK_DEPOSIT_FACTS_SUBTITLE_LIMITS_FORMAT" = "You can deposit up to %1$@.";
+
+/* Payments: Subtitle of the check deposit instructions screen. %@ is replaced by the number of business days (2+) */
+"PAYMENTS_CHECK_DEPOSIT_FACTS_SUBTITLE_PROCESSING_TIME_FORMAT" = "Deposits can take up to %@ business days.";
 
 /* Payments: Title of the check deposit instructions screen */
 "PAYMENTS_CHECK_DEPOSIT_FACTS_TITLE" = "How to deposit a check";
@@ -14774,6 +14839,18 @@ eg. "Super Following Jack" */
 
 /* Payments: Shows the APY (annual percentage yield) of the account, on the interest screen. %@ is replaced by a formatted APY (ex: 10%) */
 "PAYMENTS_INTEREST_APY" = "%@ APY";
+
+/* Payments: Attribute that presents the accrued interest during the current month by the customer on this account (very short) */
+"PAYMENTS_INTEREST_EARNINGS_ACCRUED_SHORT" = "This month";
+
+/* Payments: Attribute that presents the total earned interest by the customer on this account (very short) */
+"PAYMENTS_INTEREST_EARNINGS_LIFETIME_SHORT" = "Lifetime";
+
+/* Payments: Title of the section that presents interest earnings on an account */
+"PAYMENTS_INTEREST_EARNINGS_TITLE" = "Earnings";
+
+/* Payments: Attribute that presents the next payout date for interest */
+"PAYMENTS_INTEREST_NEXT_PAYOUT" = "Next payout";
 
 /* Payments: Text shown if the customer trie to create a non-individual client to send an international wire. */
 "PAYMENTS_INTERNATIONAL_WIRE_DISCLAIMER_ONLY_INDIVIDUALS" = "International wires are currently only available for individuals.";
@@ -15669,8 +15746,8 @@ eg. "Super Following Jack" */
 /* Payments: Subtitle for interest that has accrued in the current month but not yet paid out. %@ is replaced by a formatted date that corresponds to the last day of the month (ex: March 31) */
 "PAYMENTS_REWARDS_INTEREST_PENDING_SUBTITLE_FORMAT" = "Will be paid on %@";
 
-/* Payments: Subtitle for the Interest rewards section, showing the current APY */
-"PAYMENTS_REWARDS_INTEREST_SECTION_SUBTITLE" = "Your cash at work with our %@ APY*";
+/* Payments: Subtitle for the Interest rewards section, showing the current APY. Keep the \U00A0 characters to group the 'with our % APY' equivalent in each language. */
+"PAYMENTS_REWARDS_INTEREST_SECTION_SUBTITLE" = "Your cash at work with\U00A0our\U00A0%@\U00A0APY*";
 
 /* Payments: "Routing number" used for US bank accounts transfers */
 "PAYMENTS_ROUTING_NUMBER" = "Routing Number";
@@ -16830,6 +16907,9 @@ eg. "Super Following Jack" */
 /* Section header text displayed above settings items for a module/profile spotlight. Items below this header are where users enter information or pick options for the spotlight. */
 "PROFESSIONAL_PROFILE_MODULE_SETTINGS_SECTION_HEADER_TEXT" = "Settings";
 
+/* Row label for the business account type in the switch-account-type picker. */
+"PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_BUSINESS_LABEL" = "Business Account";
+
 /* Text that shows the message for why you would switch from a creator account to a business account. */
 "PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_BUSINESS_MESSAGE" = "This is best for brands, retail shops, services providers, and organizations.";
 
@@ -16841,6 +16921,9 @@ eg. "Super Following Jack" */
 
 /* Text that shows the confirmation for switching an account type. */
 "PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_CONFIRM_TEXT" = "Yes, switch";
+
+/* Row label for the creator account type in the switch-account-type picker. */
+"PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_CREATOR_LABEL" = "Creator Account";
 
 /* Text that shows the message for why someone would switch from a business account type to a creator. */
 "PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_CREATOR_MESSAGE" = "This is best for public figures, artists, and influencers.";
@@ -16863,11 +16946,20 @@ eg. "Super Following Jack" */
 /* Text that shows the legacy message for what will happen when you switch from a professional account to a personal one. */
 "PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_LEGACY_PERSONAL_MESSAGE" = "When you switch to a personal account, any professional information you added will be deleted. This can’t be undone.";
 
+/* Short confirmation footnote (max two lines) shown above the Cancel/Confirm buttons when switching from a professional account to a personal one. */
+"PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_LEGACY_PERSONAL_SHORT_MESSAGE" = "Your professional information will be permanently deleted. This can’t be undone.";
+
 /* Text that shows the legacy title for switching from a professional account to a personal account. */
 "PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_LEGACY_PERSONAL_TITLE" = "Switch to a personal account?";
 
+/* Row label for the personal (non-professional) account type in the switch-account-type picker. */
+"PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_PERSONAL_LABEL" = "Personal Account";
+
 /* Text that shows message for what will happen when you switch from a professional account to a personal one. */
 "PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_PERSONAL_MESSAGE" = "Personal accounts don’t have tools like Profile Spotlight and Shopping Manager. You’ll have to set up a new professional account if you want to switch back.";
+
+/* Short confirmation footnote (max two lines) shown above the Cancel/Confirm buttons when switching from a professional account to a personal one; variant that emphasizes losing professional tools. */
+"PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_PERSONAL_SHORT_MESSAGE" = "You’ll lose professional tools and need a new professional account to switch back.";
 
 /* Text that shows the title for switching from a professional account to a personal account. */
 "PROFESSIONAL_PROFILE_SWITCH_ACCOUNT_TYPE_PERSONAL_TITLE" = "Don’t need professional tools?";
@@ -18625,6 +18717,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Title shown at the top of the feedback sheet */
 "RELEVANCE_PROMPT_FEEDBACK_TITLE_LABEL" = "Feedback";
 
+/* Confirmation shown after a person answers the inline post survey with an option that has no more specific confirmation, e.g. a neutral answer. */
+"RELEVANCE_PROMPT_INLINE_GENERIC_CONFIRMATION" = "Thanks for your feedback.";
+
 /* Confirmation shown after a person taps No on the inline relevance prompt */
 "RELEVANCE_PROMPT_INLINE_NEGATIVE_CONFIRMATION" = "Thanks for your help. You’ll see fewer posts like this.";
 
@@ -18783,6 +18878,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Subtitle of the share sheet empty state row for messaging yourself */
 "SHARE_SHEET_EMPTY_MESSAGE_YOURSELF_SUBTITLE" = "Message yourself";
+
+/* Accessibility (VoiceOver) label for the share sheet composer facepile, announcing how many chats a post is being sent to. %@: number of chats */
+"SHARE_SHEET_RECIPIENT_COUNT_PLURAL_TITLE" = "%@ chats";
+
+/* Accessibility (VoiceOver) label for the share sheet composer facepile when a post is being sent to a single chat */
+"SHARE_SHEET_RECIPIENT_COUNT_SINGULAR_TITLE" = "1 chat";
 
 /* Title of the share sheet send separately button */
 "SHARE_SHEET_SEND_BUTTON_SEPARATELY_TITLE" = "Send separately";
@@ -20178,8 +20279,32 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Group call bar button item title when call is ongoing */
 "DM_CONVERSATION_GROUP_CALL_JOIN_TITLE" = "Join";
 
+/* Conversation header group action — edit image short title */
+"DM_CONVERSATION_HEADER_ACTION_IMAGE_TITLE" = "Image";
+
+/* Conversation header group action — edit name short title */
+"DM_CONVERSATION_HEADER_ACTION_NAME_TITLE" = "Name";
+
+/* DM Conversation Header follower count fallback shown when there is no social proof. Example: "1.2K Followers" */
+"DM_CONVERSATION_HEADER_FOLLOWERS_COUNT_FORMAT" = "%@ Followers";
+
+/* DM Conversation Header follower count fallback, singular. Example: "1 Follower" */
+"DM_CONVERSATION_HEADER_FOLLOWERS_COUNT_ONE_FORMAT" = "%@ Follower";
+
 /* DM conversation header joined date title. %@: date joined */
 "DM_CONVERSATION_HEADER_JOINED_DATE_TITLE" = "Joined %@";
+
+/* Social proof: followed by one mutual. Example: "Followed by Alice" */
+"DM_CONVERSATION_HEADER_SOCIAL_PROOF_ONE_FORMAT" = "Followed by %1$@";
+
+/* Social proof: followed by three mutuals plus others. Example: "Followed by Alice, Bob, Carol, and 5 others" */
+"DM_CONVERSATION_HEADER_SOCIAL_PROOF_THREE_AND_OTHERS_FORMAT" = "Followed by %1$@, %2$@, %3$@, and %4$d others";
+
+/* Social proof: followed by three mutuals. Example: "Followed by Alice, Bob and Carol" */
+"DM_CONVERSATION_HEADER_SOCIAL_PROOF_THREE_FORMAT" = "Followed by %1$@, %2$@ and %3$@";
+
+/* Social proof: followed by two mutuals. Example: "Followed by Alice and Bob" */
+"DM_CONVERSATION_HEADER_SOCIAL_PROOF_TWO_FORMAT" = "Followed by %1$@ and %2$@";
 
 /* Button title for calling back for missed AV call information items */
 "DM_CONVERSATION_INFORMATIONAL_AV_CALL_BUTTON_CALL_BACK_TITLE" = "Call back";
@@ -20675,6 +20800,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Conversation safety number education group title */
 "DM_CONVERSATION_SAFETY_NUMBER_EDUCATION_GROUP_TITLE" = "Your safety number changes when a member of the group registers a new encryption key, which can happen as a result of switching devices or reinstalling X.";
+
+/* DM Conversation safety number education header title */
+"DM_CONVERSATION_SAFETY_NUMBER_EDUCATION_HEADER_TITLE" = "Safety number changed";
 
 /* DM Conversation safety number education one one one title */
 "DM_CONVERSATION_SAFETY_NUMBER_EDUCATION_ONE_ON_ONE_TITLE" = "Your safety number changes when someone registers a new encryption key, which can happen as a result of switching devices or reinstalling X.\n\nTap below to verify the new safety number.";
@@ -21424,6 +21552,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Message Attachment Preview when unnamed user sent a payment */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_PAYMENT" = "Sent a payment";
 
+/* DM Message Attachment Preview when unnamed user sent a payment with a known amount. %@: payment amount */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_PAYMENT_AMOUNT" = "Sent %@";
+
 /* DM Message Attachment Preview when unnamed user sent a photo */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_PHOTO" = "Sent a photo";
 
@@ -21463,6 +21594,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Message Attachment Preview when user sent a payment. %@: user display name */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_PAYMENT" = "•|•%@•|•: Sent a payment";
 
+/* DM Message Attachment Preview when user sent a payment with a known amount. %1$@: user display name, %2$@: payment amount */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_PAYMENT_AMOUNT" = "•|•%1$@•|•: Sent %2$@";
+
 /* DM Message Attachment Preview when user sent a photo. %@: user display name */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_USER_SENT_PHOTO" = "•|•%@•|•: Sent a photo";
 
@@ -21501,6 +21635,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Message Attachment Preview when you send a payment */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_PAYMENT" = "You sent a payment";
+
+/* DM Message Attachment Preview when you send a payment with a known amount. %@: payment amount */
+"DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_PAYMENT_AMOUNT" = "You sent %@";
 
 /* DM Message Attachment Preview when you send a photo */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_YOU_SENT_PHOTO" = "You sent a photo";
@@ -23411,6 +23548,33 @@ eg. "- @jack" */
 
 // Section: Frameworks/TwitterSelfServeAds/Sources/TwitterSelfServeAdsStrings/en.lproj/Localizable.strings
 
+/* Attribution line in the boosted-label tray for a post boosted by a third party. %1$@ is the @handle of the account that boosted the post. */
+"BOOST_LABEL_INFO_ATTRIBUTION_FORMAT" = "This organic post was boosted by %1$@.";
+
+/* Primary button in the boosted-label tray taking the viewer to the Boost tab, where they can boost posts. */
+"BOOST_LABEL_INFO_BOOST_YOUR_POSTS_BUTTON" = "Boost your Posts";
+
+/* Education line in the boosted-label tray explaining what boosting does. */
+"BOOST_LABEL_INFO_EDUCATION" = "Boosting helps a post reach more people beyond its usual audience.";
+
+/* Confirmation button in the boosted-label tray that dismisses it. */
+"BOOST_LABEL_INFO_GOT_IT_BUTTON" = "Got it";
+
+/* Attribution line in the boosted-label tray when the viewer is the one who boosted the post. */
+"BOOST_LABEL_INFO_OWN_BOOST_ATTRIBUTION" = "You boosted this post.";
+
+/* Third sentence in the boosted-label tray body for users without a Premium subscription, shown above the Upgrade to Premium button. */
+"BOOST_LABEL_INFO_PREMIUM_UPSELL" = "Upgrade to Premium to boost your posts.";
+
+/* Attribution line in the boosted-label tray when the post's author boosted their own post. */
+"BOOST_LABEL_INFO_SELF_ATTRIBUTION" = "The author boosted this post.";
+
+/* Title of the tray shown when tapping the "Boosted" label on a post. */
+"BOOST_LABEL_INFO_TITLE" = "Boosted Post";
+
+/* Primary button in the boosted-label tray taking a non-Premium user to the Premium purchase page. */
+"BOOST_LABEL_INFO_UPGRADE_BUTTON" = "Upgrade to Premium";
+
 /* Secondary action button shown alongside Confirm in the X Money payment confirmation step on the Boost sheet. Tapping it returns to the Boost Post button. */
 "BOOST_SHEET_CANCEL_PAYMENT_BUTTON" = "Cancel";
 
@@ -24166,35 +24330,6 @@ eg. "- @jack" */
 /* Tag location label */
 "TAG_LOCATION_LABEL" = "Tag location";
 
-// Section: Frameworks/TwitterGraphicsFiltersInstance/Sources/TwitterGraphicsFiltersInstanceStrings/en.lproj/Localizable.strings
-
-/* Photo filter name: Steel - black and white filter toned silvery. */
-"FILTERS_NAME_FILTER_BW04" = "Steel";
-
-/* Photo filter name: Vail - blue cool filter. */
-"FILTERS_NAME_FILTER_C00" = "Vail";
-
-/* Photo filter name: Lapis - bright cool filter. */
-"FILTERS_NAME_FILTER_C03" = "Lapis";
-
-/* Photo filter name: Sitges - make colors artificially jump out and skew vividly. */
-"FILTERS_NAME_FILTER_M01" = "Sitges";
-
-/* Photo filter name: Pop - make colors artificially "pop" vividly. */
-"FILTERS_NAME_FILTER_M03" = "Halki";
-
-/* Photo filter name: Loreto - brightens colors while preserving skin tones. */
-"FILTERS_NAME_FILTER_VIBRANCE" = "Loreto";
-
-/* Photo filter name: Gazette - Orangy warm filter. */
-"FILTERS_NAME_FILTER_W00" = "Gazette";
-
-/* Photo filter name: Kilda - bright warm filter. */
-"FILTERS_NAME_FILTER_W01" = "Kilda";
-
-/* Original photo filter name: The original photo (no filter applied) */
-"FILTERS_NAME_ORIGINAL" = "No filter";
-
 // Section: Frameworks/Jobs/Sources/JobsStrings/en.lproj/Localizable.strings
 
 "JOBS_KEYWORD_FIELD_PLACEHOLDER" = "Job title";
@@ -24416,6 +24551,69 @@ eg. "- @jack" */
 "SAFETY_CENTER_TWEET_DISCLOSURE_SHOW_BUTTON_TITLE" = "Show";
 
 // Section: Frameworks/XSports/Sources/XSports/en.lproj/Localizable.strings
+
+/* Clock text shown when a game has ended. */
+"NFL_GAME_CLOCK_FINAL" = "Final";
+
+/* Accessibility label for the poll health indicator when updates are flowing. */
+"NFL_GAME_HEALTH_CONNECTED_LABEL" = "Live updates connected";
+
+/* Accessibility label for the poll health indicator when updates are failing. */
+"NFL_GAME_HEALTH_INTERRUPTED_LABEL" = "Live updates interrupted";
+
+/* Label preceding the most recent play summary under the field. */
+"NFL_GAME_LAST_PLAY_LABEL" = "LAST PLAY";
+
+/* Prefix label before the sportsbook provider name on the odds card. */
+"NFL_GAME_ODDS_BY_LABEL" = "Odds by";
+
+/* Column header for the point spread market on the odds card. */
+"NFL_GAME_ODDS_SPREAD_HEADER" = "Spread";
+
+/* Column header for the total points market on the odds card. */
+"NFL_GAME_ODDS_TOTAL_HEADER" = "Total";
+
+/* Column header for the moneyline market on the odds card. */
+"NFL_GAME_ODDS_TO_WIN_HEADER" = "To win";
+
+/* Tag on the most recent play card in the play-by-play feed. */
+"NFL_GAME_PLAY_LATEST_TAG" = "LATEST";
+
+/* Gameview segment tab showing the fan chat. */
+"NFL_GAME_SEGMENT_CHAT" = "Chat";
+
+/* Gameview segment tab showing the post feed. */
+"NFL_GAME_SEGMENT_FEED" = "Feed";
+
+/* Gameview segment tab showing the play-by-play feed. */
+"NFL_GAME_SEGMENT_PLAYS" = "Plays";
+
+/* Gameview segment tab showing team statistics. */
+"NFL_GAME_SEGMENT_STATS" = "Stats";
+
+/* Centered title of the head-to-head team stats card on the game screen. */
+"NFL_GAME_STATS_CARD_TITLE" = "Team stats";
+
+/* Team stats row: first downs gained. */
+"NFL_GAME_STATS_FIRST_DOWNS" = "First downs";
+
+/* Team stats row: net passing yardage. */
+"NFL_GAME_STATS_PASSING_YARDS" = "Passing yards";
+
+/* Team stats row: penalties, shown as count–yards (e.g. 5–45). */
+"NFL_GAME_STATS_PENALTIES" = "Penalties";
+
+/* Team stats row: rushing yardage. */
+"NFL_GAME_STATS_RUSHING_YARDS" = "Rushing yards";
+
+/* Team stats row: third-down conversions, shown as made/attempted (e.g. 6/13). */
+"NFL_GAME_STATS_THIRD_DOWN" = "3rd down";
+
+/* Team stats row: combined passing and rushing yardage. */
+"NFL_GAME_STATS_TOTAL_YARDS" = "Total yards";
+
+/* Team stats row: turnovers committed (interceptions plus lost fumbles). */
+"NFL_GAME_STATS_TURNOVERS" = "Turnovers";
 
 /* Detail-row label for the broadcast networks carrying a game. */
 "NFL_SCHEDULE_BROADCAST_LABEL" = "Broadcast";
@@ -24782,6 +24980,35 @@ eg. "- @jack" */
 /* Settings menu title where you allow people to download your video */
 "VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Allow video to be downloaded";
 
+// Section: Frameworks/XPhotoEditor/XPhotoEditor/Sources/TwitterGraphicsFiltersInstanceStrings/en.lproj/Localizable.strings
+
+/* Photo filter name: Steel - black and white filter toned silvery. */
+"FILTERS_NAME_FILTER_BW04" = "Steel";
+
+/* Photo filter name: Vail - blue cool filter. */
+"FILTERS_NAME_FILTER_C00" = "Vail";
+
+/* Photo filter name: Lapis - bright cool filter. */
+"FILTERS_NAME_FILTER_C03" = "Lapis";
+
+/* Photo filter name: Sitges - make colors artificially jump out and skew vividly. */
+"FILTERS_NAME_FILTER_M01" = "Sitges";
+
+/* Photo filter name: Pop - make colors artificially "pop" vividly. */
+"FILTERS_NAME_FILTER_M03" = "Halki";
+
+/* Photo filter name: Loreto - brightens colors while preserving skin tones. */
+"FILTERS_NAME_FILTER_VIBRANCE" = "Loreto";
+
+/* Photo filter name: Gazette - Orangy warm filter. */
+"FILTERS_NAME_FILTER_W00" = "Gazette";
+
+/* Photo filter name: Kilda - bright warm filter. */
+"FILTERS_NAME_FILTER_W01" = "Kilda";
+
+/* Original photo filter name: The original photo (no filter applied) */
+"FILTERS_NAME_ORIGINAL" = "No filter";
+
 // Section: Frameworks/XPhotoEditor/XPhotoEditor/Sources/XPhotoEditor/en.lproj/Localizable.strings
 
 /* Label for the link that educates users about accessible image descriptions */
@@ -24831,6 +25058,9 @@ eg. "- @jack" */
 
 /* Accessibility label for the three photos side by side collage layout */
 "XPHOTOEDITOR_COLLAGE_LAYOUT_VERTICAL_THIRDS_ACCESSIBILITY_LABEL" = "Three photos side by side";
+
+/* Accessibility label for the button that removes a photo from a collage slot */
+"XPHOTOEDITOR_COLLAGE_REMOVE_PHOTO_ACCESSIBILITY_LABEL" = "Remove photo";
 
 /* Title for the collage tool and its screen */
 "XPHOTOEDITOR_COLLAGE_TITLE" = "Collage";
@@ -25174,6 +25404,15 @@ eg. "- @jack" */
 
 /* CTA button label on the Topics upsell screen */
 "TOPICS_UPSELL_CTA_BUTTON" = "Add Timelines";
+
+/* Subtitle on the education modal for custom timelines */
+"TOPICS_UPSELL_EDUCATION_SUBTITLE" = "Curate your timeline the way you want";
+
+/* Title on the education modal for custom timelines */
+"TOPICS_UPSELL_EDUCATION_TITLE" = "Custom Timelines";
+
+/* Button label for the education explainer on the Topics upsell */
+"TOPICS_UPSELL_HOW_IT_WORKS" = "How it works";
 
 /* Subtitle shown on the Topics upsell screen */
 "TOPICS_UPSELL_SUBTITLE" = "See topics that interest you";
