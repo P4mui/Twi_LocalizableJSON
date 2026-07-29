@@ -867,6 +867,15 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Tooltip informing user how to add a post to Bookmarks */
 "BOOKMARKS_ADD_TO_BOOKMARKS_TOOLTIP" = "Save a post to read later by saving it to your Bookmarks";
 
+/* Destructive confirmation button on the clear-all-bookmarks tray */
+"BOOKMARKS_CLEAR_ALL_TRAY_CLEAR_ACTION_LABEL" = "Clear";
+
+/* Body of the clear-all-bookmarks confirmation tray */
+"BOOKMARKS_CLEAR_ALL_TRAY_MESSAGE" = "This will clear all of your bookmarks and all of your folders. This cannot be undone.";
+
+/* Title of the clear-all-bookmarks confirmation tray */
+"BOOKMARKS_CLEAR_ALL_TRAY_TITLE" = "Clear all bookmarks?";
+
 /* Message shown for Bookmark Folder's empty state subtitle */
 "BOOKMARKS_FOLDER_EMPTY_SUBTITLE" = "When you Bookmark a post, you can add it to this folder.";
 
@@ -6063,6 +6072,12 @@ This text is the accessibility hint for the button that lets the user change the
 /* Text shown in the private likes callout on the user's own profile likes timeline. */
 "PRIVATE_LIKES_CALLOUT" = "Your likes are private. Only you can see them.";
 
+/* Title of the private likes info tray on the History screen's Likes tab; the PRIVATE_LIKES_TRAY_TITLE_EMPHASIS portion is highlighted */
+"PRIVATE_LIKES_TRAY_TITLE" = "Your likes are private, only you can see them";
+
+/* Emphasized (highlighted) leading portion of PRIVATE_LIKES_TRAY_TITLE; must match its beginning exactly */
+"PRIVATE_LIKES_TRAY_TITLE_EMPHASIS" = "Your likes are private,";
+
 /* Title text for the Professional Home dashboard button on the side menu of the home timeline and Professional Home webview. This text only occurs once the user has converted to a professional */
 "PROFESSIONAL_HOME_TITLE" = "Professional Home";
 
@@ -7547,6 +7562,9 @@ This text is the accessibility hint for the button that lets the user change the
 /* Title for the menu sheet that pops up when a user taps on a billing issue notification */
 "SUBSCRIPTION_BILLING_ISSUE_NOTIFICATION_SHEET_TITLE" = "Update your payment method";
 
+/* Button title on the billing issue tray that opens the Apple payment settings page */
+"SUBSCRIPTION_BILLING_ISSUE_NOTIFICATION_SHEET_UPDATE_NOW_BUTTON_TITLE" = "Update Now";
+
 /* Subtitle for a product item in in subscription cancellation flow, e.g. $11 per year */
 "SUBSCRIPTION_CANCEL_FLOW_DOWNGRADE_ANNUAL_PRICE_SUBTITLE" = "%@ per year";
 
@@ -8590,6 +8608,9 @@ eg. "Super Following Jack" */
 /* Tooltip introducing the About tab on the profile */
 "USER_PROFILE_ABOUT_TOOLTIP" = "Introducing the About tab, a new place to describe yourself.";
 
+/* Label for the All tab (all posts timeline) when viewing profile */
+"USER_PROFILE_ALL_TAB_LABEL" = "All";
+
 /* Empty state title of the Articles tab on the user profile for users that are not verified. */
 "USER_PROFILE_ARTICLES_EMPTY_STATE_BUTTON_NONVERIFIED" = "Subscribe to Premium";
 
@@ -9525,6 +9546,12 @@ eg. "Super Following Jack" */
 /* Tutorial text at the top of a space tutorial when a user has never created a Space before */
 "VOICE_ROOM_NUX_HOST_TITLE" = "Welcome to Spaces";
 
+/* Title of the Spaces welcome tray shown when a user has never created a Space before; the VOICE_ROOM_NUX_HOST_TRAY_TITLE_EMPHASIS portion is highlighted */
+"VOICE_ROOM_NUX_HOST_TRAY_TITLE" = "Welcome to Spaces, where live audio conversations happen";
+
+/* Emphasized (highlighted) leading portion of VOICE_ROOM_NUX_HOST_TRAY_TITLE; must match its beginning exactly */
+"VOICE_ROOM_NUX_HOST_TRAY_TITLE_EMPHASIS" = "Welcome to Spaces,";
+
 /* Subtitle of the tutorial displayed when the user (Spaces listener) wants to learn more about Incognito/anonymous listening. */
 "VOICE_ROOM_NUX_INCOGNITO_GUEST_SUBTITLE" = "You are currently listening anonymously and are invisible to the host and other participants.\n\nTo participate, you must leave and rejoin as a visible listener.";
 
@@ -10430,6 +10457,9 @@ eg. "Super Following Jack" */
 /* Text for the header of the Subscription upsell for Richtext feature name */
 "SUBSCRIPTION_UPSELL_RICHTEXT_FEATURE_NAME" = "Rich Text";
 
+/* Button title on the feature upsell tray that starts the Premium upgrade flow */
+"SUBSCRIPTION_UPSELL_UPGRADE_NOW_ACTION_LABEL" = "Upgrade now";
+
 // Section: Frameworks/TwitterLists/Sources/TwitterListsStrings/en.lproj/Localizable.strings
 
 /* Title of button to add user to Lists */
@@ -11129,6 +11159,18 @@ eg. "Super Following Jack" */
 /* Button to edit the text */
 "GROK_EDIT_TEXT" = "Edit prompt";
 
+/* Title variant for the edit-image button shown under a Grok-generated reply image, highlighting the free offer. */
+"GROK_EDIT_WITH_GROK_UNDER_POST_EDIT_IMAGE_FOR_FREE" = "Edit image for free";
+
+/* Title for the edit-image button shown under a Grok-generated reply image when the Grok app is not installed. */
+"GROK_EDIT_WITH_GROK_UNDER_POST_EDIT_IMAGE_WITH_GROK" = "Edit image with Grok";
+
+/* Title for the button shown next to the Made with AI label under a Grok-generated reply image, inviting the user to create their own image with Grok. */
+"GROK_EDIT_WITH_GROK_UNDER_POST_MAKE_YOUR_OWN_WITH_GROK" = "Make your own with Grok";
+
+/* Default text for the badge overlaid on the media of the Grok new-feature announcement half-sheet, shown when the remote config does not provide a custom badge label. */
+"GROK_FEATURE_SHEET_BADGE_NEW" = "NEW";
+
 /* Prompt that is automatically sent to Grok when the user enters textual feedback about the last response. %@ is replaced with the feedback the user entered. */
 "GROK_FEEDBACK_AUTO_RESPONSE_PROMPT" = "Please revise your response to incorporate my feedback: %@";
 
@@ -11219,6 +11261,15 @@ eg. "Super Following Jack" */
 /* Label for the preset button in Grok Home that opens the Premium+ subscription paywall. Shown to users who are not subscribed to Premium+. Note to translators: do not translate "SuperGrok". */
 "GROK_HOME_PRESET_GET_SUPERGROK" = "Get SuperGrok";
 
+/* Label for the preset button in Grok Home that sends a request for current news to Grok. */
+"GROK_HOME_PRESET_LATEST_NEWS" = "Latest News";
+
+/* Prompt sent to Grok when the user taps the Latest News preset button in Grok Home. */
+"GROK_HOME_PRESET_LATEST_NEWS_PROMPT" = "Give me the latest news";
+
+/* Label for the preset button in Grok Home that opens the Grok Imagine experience. */
+"GROK_HOME_PRESET_TRY_IMAGINE" = "Try Imagine";
+
 /* Try Voice Mode preset in Grok Home */
 "GROK_HOME_PRESET_TRY_VOICE_MODE" = "Try Voice Mode";
 
@@ -11266,6 +11317,18 @@ eg. "Super Following Jack" */
 
 /* Label for button to save the Grok edit result back to the photo editor */
 "GROK_IMAGINE_ACTION_SAVE_TO_EDITOR" = "Save";
+
+/* Title label in the header of the Imagine render card that wraps images generated by Grok in the chat. "Imagine" is the product name of Grok's media generation feature and should not be translated. */
+"GROK_IMAGINE_CARD_TITLE" = "Imagine";
+
+/* Title of the button shown below a completed image generation in Grok chat that opens Grok Imagine. */
+"GROK_IMAGINE_CHAT_CONTINUE_IN_GROK_IMAGINE" = "Continue in Grok Imagine";
+
+/* Subtitle of the upsell row shown below a completed image generation in Grok chat for free users, explaining that the free plan only includes a limited number of generations per day. */
+"GROK_IMAGINE_CHAT_UNLOCK_MORE_GENERATIONS_SUBTITLE" = "The free plan includes a limited number of daily generations";
+
+/* Title of the upsell row shown below a completed image generation in Grok chat prompting free users to upgrade for more image generations. */
+"GROK_IMAGINE_CHAT_UNLOCK_MORE_GENERATIONS_TITLE" = "Unlock more generations";
 
 /* Title for the button to create a video using Grok Imagine */
 "GROK_IMAGINE_COMPOSER_BUTTON_TITLE" = "Create Video";
@@ -13481,11 +13544,11 @@ eg. "Super Following Jack" */
 /* Payments: Generic success subtitle shown after any account type is created */
 "PAYMENTS_ACCOUNTS_CREATION_GENERIC_SUCCESS_TOAST_SUBTITLE" = "Your account is now active and ready to use.";
 
-/* Payments: Success subtitle shown after creating a shared account. %@ is replaced by the invited username (e.g. “@username received an invitation…”) */
-"PAYMENTS_ACCOUNTS_CREATION_SHARED_SUCCESS_TOAST_SUBTITLE_FORMAT" = "@%@ received an invitation to join you.";
+/* Payments: Success subtitle shown after creating a joint account. %@ is replaced by the invited username (e.g. “@username received an invitation…”) */
+"PAYMENTS_ACCOUNTS_CREATION_JOINT_SUCCESS_TOAST_SUBTITLE_FORMAT" = "@%@ received an invitation to join you.";
 
-/* Payments: Success toast title shown after a Shared account is successfully created */
-"PAYMENTS_ACCOUNTS_CREATION_SHARED_SUCCESS_TOAST_TITLE" = "Your shared account is ready!";
+/* Payments: Success toast title shown after a joint account is successfully created */
+"PAYMENTS_ACCOUNTS_CREATION_JOINT_SUCCESS_TOAST_TITLE" = "Your joint account is ready!";
 
 /* Payments: Success toast title shown after a Sole Proprietorship account is successfully created */
 "PAYMENTS_ACCOUNTS_CREATION_SOLE_PROP_SUCCESS_TOAST_TITLE" = "Your Sole proprietorship account is ready!";
@@ -13517,34 +13580,64 @@ eg. "Super Following Jack" */
 /* Payments: Benefit/fact title highlighting the ability to separate funds when promoting Extra accounts */
 "PAYMENTS_ACCOUNTS_EXTRA_FACT_SEPARATE_FUNDS_TITLE" = "Separate Your Money";
 
-/* Payments: Success title shown after the user accepts a shared account invitation */
+/* Payments: Success title shown after the user accepts a joint account invitation */
 "PAYMENTS_ACCOUNTS_INVITATION_ACCEPTED_TITLE" = "You now have access to this account!";
 
-/* Payments: Title or banner shown after the user declines a shared account invitation */
+/* Payments: Title or banner shown after the user declines a joint account invitation */
 "PAYMENTS_ACCOUNTS_INVITATION_DECLINED_TITLE" = "You declined this invitation";
 
 /* Payments: Subtitle shown for an expired invitation instructing the user to contact the sender */
 "PAYMENTS_ACCOUNTS_INVITATION_EXPIRED_SUBTITLE" = "Get in touch with the sender to receive a new one.";
 
-/* Payments: Title shown when the user opens an expired shared account invitation */
+/* Payments: Title shown when the user opens an expired joint account invitation */
 "PAYMENTS_ACCOUNTS_INVITATION_EXPIRED_TITLE" = "This invitation expired";
 
 /* Payments: Subtitle shown for a revoked invitation instructing the user to contact the sender */
 "PAYMENTS_ACCOUNTS_INVITATION_REVOKED_SUBTITLE" = "Get in touch with the sender to receive a new one.";
 
-/* Payments: Title shown when the user opens a revoked/cancelled shared account invitation */
+/* Payments: Title shown when the user opens a revoked/cancelled joint account invitation */
 "PAYMENTS_ACCOUNTS_INVITATION_REVOKED_TITLE" = "This invitation has been revoked";
 
 /* Payments: Status label shown for users who have been invited but have not yet accepted */
 "PAYMENTS_ACCOUNTS_INVITATION_STATUS_INVITED" = "Invited";
 
+/* Payments: Subtitle in the share confirmation explaining that the recipient will receive an invitation and the account remains usable immediately */
+"PAYMENTS_ACCOUNTS_JOINT_CONFIRMATION_SUBTITLE" = "They’ll get a notification to accept. Until then, the account is yours to use right away.";
+
+/* Payments: Title of the confirmation dialog when sharing an account. %@ is replaced with the recipient’s @username or name */
+"PAYMENTS_ACCOUNTS_JOINT_CONFIRMATION_TITLE_FORMAT" = "Are you sure you’d like to share this account with %@?";
+
+/* Payments: Benefit/fact subtitle explaining that anyone on X can be invited to a joint account instantly */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_EASY_ACCESS_SUBTITLE" = "Invite anyone on X to share the account and balance instantly.";
+
+/* Payments: Benefit/fact title highlighting easy access when promoting joint accounts */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_EASY_ACCESS_TITLE" = "Easy Access";
+
+/* Payments: Benefit/fact subtitle explaining instant switching between main and joint accounts with the X Card */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_SWITCH_SPEND_SUBTITLE" = "Toggle between your main and extra accounts instantly with your X Card.";
+
+/* Payments: Benefit/fact title highlighting the ability to switch and spend freely from a joint account */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_SWITCH_SPEND_TITLE" = "Switch & Spend Freely";
+
+/* Payments: Benefit/fact subtitle explaining that all members see the same real-time balance and transactions */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_TRANSPARENCY_SUBTITLE" = "Everyone sees the same real-time balance and transactions—no surprises.";
+
+/* Payments: Benefit/fact title highlighting transparency for all members of a joint account */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_TRANSPARENCY_TITLE" = "Total Transparency";
+
+/* Payments: Title of the screen where the user selects which X user to share an account with */
+"PAYMENTS_ACCOUNTS_JOINT_USER_SELECTION_TITLE" = "Select who you want to share this account with.";
+
+/* Payments: Section header showing accounts that have been shared with the current user */
+"PAYMENTS_ACCOUNTS_JOINT_WITH_YOU_SECTION_TITLE" = "Shared with you";
+
 /* Payments: Subtitle in the leave account confirmation warning the user they will lose access to the funds */
 "PAYMENTS_ACCOUNTS_LEAVE_CONFIRMATION_SUBTITLE" = "You will lose access to the funds in this account.";
 
-/* Payments: Title of the confirmation dialog when a member attempts to leave a shared account */
+/* Payments: Title of the confirmation dialog when a member attempts to leave a joint account */
 "PAYMENTS_ACCOUNTS_LEAVE_CONFIRMATION_TITLE" = "Do you want to leave this account?";
 
-/* Payments: Success toast title shown after a member is removed from a shared account */
+/* Payments: Success toast title shown after a member is removed from a joint account */
 "PAYMENTS_ACCOUNTS_MEMBER_REMOVED_SUCCESS_TOAST_TITLE" = "The member was removed";
 
 /* Payments: Section header for miscellaneous or additional account options */
@@ -13565,46 +13658,16 @@ eg. "Super Following Jack" */
 /* Payments: Subtitle in the remove member confirmation warning that the member will lose access to the funds */
 "PAYMENTS_ACCOUNTS_REMOVE_MEMBER_CONFIRMATION_SUBTITLE" = "They will lose access to the funds in this account.";
 
-/* Payments: Title of the confirmation dialog when an owner attempts to remove a member from a shared account */
+/* Payments: Title of the confirmation dialog when an owner attempts to remove a member from a joint account */
 "PAYMENTS_ACCOUNTS_REMOVE_MEMBER_CONFIRMATION_TITLE" = "Do you want to remove this member?";
 
-/* Payments: Role label for users who have been granted access to a shared account */
+/* Payments: Role label for users who have been granted access to a joint account */
 "PAYMENTS_ACCOUNTS_ROLE_MEMBER" = "Member";
 
 /* Payments: Role label indicating the user who owns/created the account */
 "PAYMENTS_ACCOUNTS_ROLE_OWNER" = "Owner";
 
-/* Payments: Benefit/fact subtitle explaining that anyone on X can be invited to a shared account instantly */
-"PAYMENTS_ACCOUNTS_SHARED_FACT_EASY_ACCESS_SUBTITLE" = "Invite anyone on X to share the account and balance instantly.";
-
-/* Payments: Benefit/fact title highlighting easy access when promoting Shared accounts */
-"PAYMENTS_ACCOUNTS_SHARED_FACT_EASY_ACCESS_TITLE" = "Easy Access";
-
-/* Payments: Benefit/fact subtitle explaining instant switching between main and shared accounts with the X Card */
-"PAYMENTS_ACCOUNTS_SHARED_FACT_SWITCH_SPEND_SUBTITLE" = "Toggle between your main and extra accounts instantly with your X Card.";
-
-/* Payments: Benefit/fact title highlighting the ability to switch and spend freely from a shared account */
-"PAYMENTS_ACCOUNTS_SHARED_FACT_SWITCH_SPEND_TITLE" = "Switch & Spend Freely";
-
-/* Payments: Benefit/fact subtitle explaining that all members see the same real-time balance and transactions */
-"PAYMENTS_ACCOUNTS_SHARED_FACT_TRANSPARENCY_SUBTITLE" = "Everyone sees the same real-time balance and transactions—no surprises.";
-
-/* Payments: Benefit/fact title highlighting transparency for all members of a shared account */
-"PAYMENTS_ACCOUNTS_SHARED_FACT_TRANSPARENCY_TITLE" = "Total Transparency";
-
-/* Payments: Section header showing accounts that have been shared with the current user */
-"PAYMENTS_ACCOUNTS_SHARED_WITH_YOU_SECTION_TITLE" = "Shared with you";
-
-/* Payments: Subtitle in the share confirmation explaining that the recipient will receive an invitation and the account remains usable immediately */
-"PAYMENTS_ACCOUNTS_SHARE_CONFIRMATION_SUBTITLE" = "They’ll get a notification to accept. Until then, the account is yours to use right away.";
-
-/* Payments: Title of the confirmation dialog when sharing an account. %@ is replaced with the recipient’s @username or name */
-"PAYMENTS_ACCOUNTS_SHARE_CONFIRMATION_TITLE_FORMAT" = "Are you sure you’d like to share this account with %@?";
-
-/* Payments: Title of the screen where the user selects which X user to share an account with */
-"PAYMENTS_ACCOUNTS_SHARE_USER_SELECTION_TITLE" = "Select who you want to share this account with.";
-
-/* Payments: Toast title shown after the current user successfully leaves a shared account */
+/* Payments: Toast title shown after the current user successfully leaves a joint account */
 "PAYMENTS_ACCOUNTS_SUCCESS_TOAST_ACCOUNT_LEFT_TITLE" = "You left the account";
 
 /* Payments: Success title or message shown after an account has been closed */
@@ -13649,8 +13712,8 @@ eg. "Super Following Jack" */
 /* Payments: Label for the Extra account type in account creation and selectors */
 "PAYMENTS_ACCOUNT_TYPE_EXTRA" = "Extra account";
 
-/* Payments: Label for the Shared account type in account creation and selectors */
-"PAYMENTS_ACCOUNT_TYPE_SHARED" = "Shared account";
+/* Payments: Label for the joint account type in account creation and selectors */
+"PAYMENTS_ACCOUNT_TYPE_JOINT" = "Joint account";
 
 /* Payments: Toast shown when the user approves an ACH merchant authorization */
 "PAYMENTS_ACH_APPROVED_TOAST" = "Approved Payment";
@@ -13660,6 +13723,48 @@ eg. "Super Following Jack" */
 
 /* Payments: Toast shown when the user declines an ACH merchant authorization */
 "PAYMENTS_ACH_DECLINED_TOAST" = "Declined Payment";
+
+/* Payments: Toast shown when authorized ACH merchants fail to load */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATIONS_LOAD_ERROR_TOAST" = "Unable to load authorized merchants";
+
+/* Payments: Toast shown when restoring a blocked ACH merchant authorization fails */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_RESTORE_ERROR_TOAST" = "Unable to restore merchant authorization";
+
+/* Payments: Button title to revoke an ACH merchant authorization */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_REVOKE_ACTION" = "Revoke";
+
+/* Payments: Confirmation body explaining what happens when the user revokes an ACH merchant authorization */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_REVOKE_CONFIRMATION_BODY" = "This merchant will no longer be able to pull money using your account information";
+
+/* Payments: Confirmation title asking the user to revoke an ACH merchant. %@ is replaced by the merchant name. */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_REVOKE_CONFIRMATION_TITLE_FORMAT" = "Revoke %@?";
+
+/* Payments: Toast shown when revoking an ACH merchant authorization fails */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_REVOKE_ERROR_TOAST" = "Unable to revoke merchant authorization";
+
+/* Payments: Section header listing authorized ACH merchants in Bill Pay settings */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_SECTION_AUTHORIZED" = "Authorized Merchants";
+
+/* Payments: Section header listing blocked ACH merchants in Bill Pay settings */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_SECTION_BLOCKED" = "Blocked Merchants";
+
+/* Payments: Status pill text for a trusted/authorized ACH merchant authorization */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_STATUS_AUTHORIZED" = "Authorized";
+
+/* Payments: Status pill text for a blocked/revoked ACH merchant authorization */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_STATUS_BLOCKED" = "Blocked";
+
+/* Payments: Label showing how many transactions an ACH merchant has. %@ is replaced by a locale-formatted number (e.g. “12”). */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_TRANSACTIONS_COUNT_FORMAT" = "%@ Transactions";
+
+/* Payments: Label shown when an ACH merchant has no associated transactions */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_TRANSACTIONS_EMPTY" = "No Transactions";
+
+/* Payments: Label shown when an ACH merchant has exactly one transaction */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_TRANSACTIONS_ONE" = "1 Transaction";
+
+/* Payments: Button title to unblock a previously revoked ACH merchant authorization */
+"PAYMENTS_ACH_MERCHANT_AUTHORIZATION_UNBLOCK_ACTION" = "Unblock";
 
 /* Payments: Title of the section that contains actions the user can do (ex: Verify identity, Pay, ...). */
 "PAYMENTS_ACTION_NEEDED_TITLE" = "Action required";
@@ -13888,6 +13993,87 @@ eg. "Super Following Jack" */
 
 /* Payments: Disclaimer shown below the the button to activate the physical card, to ensure that the user has received the card before they try to activate it */
 "PAYMENTS_CARD_SPEND_SHIPPING_ACTIVATE_NOW_DISCLAIMER" = "Verify receipt of the card prior to activation";
+
+/* Payments: Body of the tray shown when the user says they already received their physical card, explaining tracking may lag and the card can be activated */
+"PAYMENTS_CARD_SPEND_SHIPPING_ALREADY_DELIVERED_BODY" = "Our tracking may be a bit behind but if you received your card it is ready to activate and use";
+
+/* Payments: Title of the sheet asking if the user’s physical card was already delivered */
+"PAYMENTS_CARD_SPEND_SHIPPING_ALREADY_DELIVERED_TITLE" = "Did your card already get delivered?";
+
+/* Payments: Display name for the DHL shipping carrier */
+"PAYMENTS_CARD_SPEND_SHIPPING_CARRIER_DHL" = "DHL";
+
+/* Payments: Display name for the FedEx shipping carrier */
+"PAYMENTS_CARD_SPEND_SHIPPING_CARRIER_FEDEX" = "FedEx";
+
+/* Payments: Display name for the Royal Mail shipping carrier */
+"PAYMENTS_CARD_SPEND_SHIPPING_CARRIER_ROYAL_MAIL" = "Royal Mail";
+
+/* Payments: Fallback display name when the shipping carrier is unknown */
+"PAYMENTS_CARD_SPEND_SHIPPING_CARRIER_UNKNOWN" = "Unknown Carrier";
+
+/* Payments: Display name for the USPS shipping carrier */
+"PAYMENTS_CARD_SPEND_SHIPPING_CARRIER_USPS" = "USPS";
+
+/* Payments: Button title for users who have already received their physical card */
+"PAYMENTS_CARD_SPEND_SHIPPING_RECEIVED_CARD_ACTION" = "I Received My Card";
+
+/* Payments: Button title to reorder a physical card after shipping was canceled, failed, or returned */
+"PAYMENTS_CARD_SPEND_SHIPPING_REORDER_ACTION" = "Reorder";
+
+/* Payments: Timeline step title when the physical card has been activated */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_ACTIVATED_TITLE" = "Activated";
+
+/* Payments: Timeline subtitle when the card is expected to arrive today */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_ARRIVING_TODAY_SUBTITLE" = "Your card should be delivered soon";
+
+/* Payments: Timeline step title when the card is expected to arrive today */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_ARRIVING_TODAY_TITLE" = "Arriving Today";
+
+/* Payments: Timeline step title when the physical card has been delivered */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_DELIVERED_TITLE" = "Delivered";
+
+/* Payments: Timeline subtitle prompting the user to tap if they didn’t receive their delivered card. %@ is replaced by a URL. */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_DIDNT_RECEIVE_SUBTITLE_MARKDOWN_FORMAT" = "Didn’t receive your card? [Tap here](%@)";
+
+/* Payments: Timeline subtitle with estimated delivery date. %@ is replaced by the ETA date (e.g. “July 23”). */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_ESTIMATED_DELIVERY_FORMAT" = "Estimated delivery %@";
+
+/* Payments: Timeline step / tag title when physical card shipping has failed */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_FAILED_TITLE" = "Failed";
+
+/* Payments: Timeline step title when the physical card has been ordered */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_ORDERED_TITLE" = "Ordered";
+
+/* Payments: Timeline step subtitle while the physical card is being created */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_PREPARING_SUBTITLE" = "Creating your personalized card";
+
+/* Payments: Timeline step title while the physical card is being prepared */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_PREPARING_TITLE" = "Preparing Card";
+
+/* Payments: Timeline step / tag title when the physical card was returned to sender */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_RETURNED_TITLE" = "Returned";
+
+/* Payments: Timeline step title when the physical card has shipped */
+"PAYMENTS_CARD_SPEND_SHIPPING_TIMELINE_SHIPPED_TITLE" = "Shipped";
+
+/* Payments: Label above the shipping address on the card shipping timeline */
+"PAYMENTS_CARD_SPEND_SHIPPING_TO_LABEL" = "Shipping to";
+
+/* Payments: Label for the tracking information section on the card shipping timeline */
+"PAYMENTS_CARD_SPEND_SHIPPING_TRACKING_LABEL" = "Tracking";
+
+/* Payments: Name of the tracking number used in the “copied to clipboard” toast */
+"PAYMENTS_CARD_SPEND_SHIPPING_TRACKING_NUMBER_NAME" = "Tracking Number";
+
+/* Payments: Placeholder subtitle explaining tracking will appear after the card ships */
+"PAYMENTS_CARD_SPEND_SHIPPING_TRACKING_UNAVAILABLE_SUBTITLE" = "Available once it ships";
+
+/* Payments: Placeholder title shown when tracking information is not yet available */
+"PAYMENTS_CARD_SPEND_SHIPPING_TRACKING_UNAVAILABLE_TITLE" = "No tracking yet";
+
+/* Payments: Subtitle showing which carrier is used for tracking. %@ is replaced by the carrier name (e.g. “FedEx”). */
+"PAYMENTS_CARD_SPEND_SHIPPING_TRACKING_WITH_CARRIER_FORMAT" = "Tracking with %@";
 
 /* Payments: Title of the button to track the physical card shipping status */
 "PAYMENTS_CARD_SPEND_SHIPPING_TRACK_ACTION" = "Track my card";
@@ -14408,7 +14594,7 @@ eg. "Super Following Jack" */
 /* Payments: Toast text shown when the user tries to do an unauthorized action */
 "PAYMENTS_ERROR_ACCESS_DENIED_MESSAGE" = "Action denied";
 
-/* Payments: Error shown if the customer tries to create more than the allowed number of extra accounts (secondary, shared, business, ...) */
+/* Payments: Error shown if the customer tries to create more than the allowed number of extra accounts (secondary, joint, business, ...) */
 "PAYMENTS_ERROR_ACCOUNT_LIMIT_REACHED" = "You’ve reached the maximum number of accounts you can create.";
 
 /* Payments: Generic error message shown when additional identity verification is required to continue using X Payments. */
@@ -14915,7 +15101,7 @@ eg. "Super Following Jack" */
 /* Payments: Text for a button or link that provides more information about a feature or process in X Payments. */
 "PAYMENTS_LEARN_MORE_ACTION" = "Learn more";
 
-/* Payments: Action/button for a member to remove themselves from a shared account */
+/* Payments: Action/button for a member to remove themselves from a joint account */
 "PAYMENTS_LEAVE_ACCOUNT_ACTION" = "Leave Account";
 
 /* Payments: Format string for displaying daily limits in X Payments. %1$@ is replaced by the limit amount. */
@@ -15419,6 +15605,12 @@ eg. "Super Following Jack" */
 /* Payments: Title for phone verification input screen */
 "PAYMENTS_PHONE_VERIFICATION_TITLE" = "Enter your US phone number";
 
+/* Payments: Title shown when a physical card is ready to use after activation */
+"PAYMENTS_PHYSICAL_CARD_READY_TITLE" = "Your card is ready to use";
+
+/* Payments: Subtitle shown when a physical Visa Debit card is ready to use after activation */
+"PAYMENTS_PHYSICAL_CARD_READY_VISA_DEBIT_SUBTITLE" = "Your card is activated, you can use it anywhere Visa is accepted.";
+
 /* Payments: Title for entering the current PIN, where %@ is replaced by the number of digits */
 "PAYMENTS_PIN_UPDATE_CURRENT_PIN_TITLE" = "Enter your current %@-digit PIN";
 
@@ -15719,14 +15911,20 @@ eg. "Super Following Jack" */
 /* Payments: Title for the current cashback balance available to redeem or spend */
 "PAYMENTS_REWARDS_CASHBACK_BALANCE" = "Pending";
 
-/* Payments: Subtitle for the current cashback balance available to redeem or spend */
-"PAYMENTS_REWARDS_CASHBACK_BALANCE_SUBTITLE" = "Automatically redeemed weekly";
+/* Payments: Label for cashback-eligible card spend during the current calendar month */
+"PAYMENTS_REWARDS_CASHBACK_ELIGIBLE_SPEND" = "Eligible spend this month";
 
 /* Payments: Label for total cashback earned over the lifetime of the account */
 "PAYMENTS_REWARDS_CASHBACK_LIFETIME_EARNED" = "Lifetime paid";
 
+/* Payments: Disclaimer that cashback is earned only up to a monthly eligible spend cap. %@ is a formatted amount (e.g. $20,000). */
+"PAYMENTS_REWARDS_CASHBACK_MONTHLY_CAP_DISCLAIMER_FORMAT" = "Earning Cashback on up to %@ of eligible purchases.";
+
+/* Payments: Disclaimer that pending cashback is automatically redeemed every week */
+"PAYMENTS_REWARDS_CASHBACK_REDEMPTION_DISCLAIMER" = "Cashback is automatically redeemed every week.";
+
 /* Payments: Subtitle for the Cashback rewards section, showing the current cashback percentage */
-"PAYMENTS_REWARDS_CASHBACK_SECTION_SUBTITLE" = "Earn %@ on eligible card purchases*";
+"PAYMENTS_REWARDS_CASHBACK_SECTION_SUBTITLE" = "Earning %@ cashback on eligible card purchases*";
 
 /* Payments: Section title for the Cashback rewards section in the Rewards tab */
 "PAYMENTS_REWARDS_CASHBACK_SECTION_TITLE" = "Cashback";
@@ -19583,6 +19781,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Back button label */
 "CHAT_BACK" = "Back";
 
+/* Community Notes quoted pivot link to expand note body */
+"CHAT_BIRDWATCH_SHOW_NOTE_LINK" = "Show this note";
+
 /* Block messages confirmation message */
 "CHAT_BLOCK_MSGS_CONFIRM" = "You will not receive messages from this person until you unblock them.";
 
@@ -19705,6 +19906,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Forwarded message with sender label. %@: sender name */
 "CHAT_FORWARDED_MESSAGE_WITH_SENDER" = "%@ forwarded a message";
+
+/* Acknowledgement button label on informational trays */
+"CHAT_GOT_IT_LABEL" = "Got it";
 
 /* Grok settings footer description */
 "CHAT_GROK_SETTINGS_FOOTER" = "When enabled, you can send @grok messages to the conversation.\n\nGrok will read some of the recent messages. This helps Grok understand the discussion and reply more naturally and accurately. [Learn more](https://help.x.com/using-x/about-chat).";
@@ -20191,9 +20395,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Conversation Encryption Upsell sheet title when prompting upon tapping a feature that requires the group conversation to be encrypted */
 "DM_CONVERSATION_ENCRYPTION_UPSELL_LOCKED_FEATURE_GROUP_MESSAGE" = "This feature is only available for encrypted conversations.";
-
-/* DM Conversation Encryption Upsell sheet title when prompting upon tapping a feature that requires the group conversation to be encrypted */
-"DM_CONVERSATION_ENCRYPTION_UPSELL_LOCKED_FEATURE_GROUP_TITLE" = "Feature Unavailable";
 
 /* DM Conversation Encryption Upsell sheet title when prompting upon tapping a feature that requires the conversation to be encrypted */
 "DM_CONVERSATION_ENCRYPTION_UPSELL_LOCKED_FEATURE_MESSAGE" = "This feature is only available for encrypted conversations.";
@@ -21011,6 +21212,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Inbox item draft preview when the draft has multiple videos. %@: count */
 "DM_INBOX_ITEM_DRAFT_VIDEOS" = "%@ videos";
 
+/* DM Inbox message requests closed-inbox disclaimer CTA label */
+"DM_INBOX_MESSAGE_REQUESTS_CLOSED_INBOX_CTA" = "Change Settings.";
+
+/* DM Inbox message requests closed-inbox disclaimer body */
+"DM_INBOX_MESSAGE_REQUESTS_CLOSED_INBOX_DISCLAIMER" = "You can’t receive new message requests.";
+
 /* DM Inbox message requests delete all confirmation dialog message */
 "DM_INBOX_MESSAGE_REQUESTS_DELETE_ALL_CONFIRM_MESSAGE" = "This action cannot be undone.";
 
@@ -21107,6 +21314,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Title shown when searching messages yields no results.
    Shown in the DM Inbox search empty state. */
 "DM_INBOX_SEARCH_EMPTY_MESSAGES_TITLE" = "No message results";
+
+/* DM Inbox search load all messages button */
+"DM_INBOX_SEARCH_LOAD_ALL_MESSAGES" = "Load all messages";
 
 /* DM Inbox search Conversations section title */
 "DM_INBOX_SEARCH_SECTION_CONVERSATIONS_TITLE" = "Conversations";
@@ -22181,6 +22391,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Description of setting for receiving Direct Messages. %@ is a URL for the Learn more link. */
 "DM_SETTINGS_RECEIVE_FROM_DESCRIPTION" = "People you follow will always be able to message you. [Learn more](%@)";
+
+/* Short description of setting for receiving Direct Messages without learn-more link */
+"DM_SETTINGS_RECEIVE_FROM_DESCRIPTION_SHORT" = "People you follow will always be able to message you.";
 
 /* Title of setting for receiving Direct Messages from following users only */
 "DM_SETTINGS_RECEIVE_FROM_FOLLOWING_TITLE" = "No one";
@@ -24563,6 +24776,9 @@ eg. "- @jack" */
 
 /* Label preceding the most recent play summary under the field. */
 "NFL_GAME_LAST_PLAY_LABEL" = "LAST PLAY";
+
+/* Column header for the total-points column on the scoring-by-quarter line score card. */
+"NFL_GAME_LINE_SCORE_TOTAL_HEADER" = "T";
 
 /* Prefix label before the sportsbook provider name on the odds card. */
 "NFL_GAME_ODDS_BY_LABEL" = "Odds by";
