@@ -6,6 +6,18 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 // Section: Frameworks/XSettings/Sources/XSettingsStrings/en.lproj/Localizable.strings
 
+/* Photo tagging choice allowing anyone to tag the user; shown as a tray option and as the row's current value */
+"SETTINGS_PHOTO_TAGGING_ANYONE" = "Anyone";
+
+/* Explains the photo tagging setting; shown under the settings row and at the top of the tray that picks who can tag */
+"SETTINGS_PHOTO_TAGGING_DESCRIPTION" = "Choose how people will be able to tag you in photos, and you’ll be notified when they do.";
+
+/* Photo tagging choice that turns photo tagging off; shown as a tray option and as the row's current value */
+"SETTINGS_PHOTO_TAGGING_NO_ONE" = "No one";
+
+/* Photo tagging choice allowing only followed accounts to tag the user; shown as a tray option and as the row's current value */
+"SETTINGS_PHOTO_TAGGING_PEOPLE_YOU_FOLLOW" = "People you follow";
+
 /* Title of the settings root row that opens Chat settings */
 "SETTINGS_ROOT_CHAT_ROW_TITLE" = "Chat";
 
@@ -32,6 +44,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Title of the row showing which action a right swipe on a post performs; also titles the tray that picks it */
 "SETTINGS_TIMELINE_SWIPE_RIGHT_GESTURE_ROW_TITLE" = "Swipe right gesture";
+
+/* Title of the toggle on the Your posts settings screen that marks the user's media as potentially sensitive */
+"SETTINGS_YOUR_POSTS_SENSITIVE_CONTENT_ROW_TITLE" = "Sensitive content";
 
 // Section: Frameworks/TwitterComposition/TwitterComposition/Sources/TwitterCompositionStrings/en.lproj/Localizable.strings
 
@@ -1108,8 +1123,26 @@ e.g. Removed from MyRecipes.
 /* Hint used for the label of the broadcast card. */
 "BROADCAST_CARD_ACCESSIBILITY_HINT" = "Opens the broadcast";
 
+/* Error message shown above the live broadcast chat composer when the typed message exceeds the maximum length. %@ is the maximum character count. e.g. Maximum 200 characters allowed */
+"BROADCAST_CHAT_COMPOSER_MAX_CHARACTERS_ALLOWED_FORMAT" = "Maximum %@ characters allowed";
+
 /* Text above live chat message for reply, %1$@ - username, %2$@ - message text*/
 "BROADCAST_CHAT_REPLYING_TO_FORMAT" = "Replying to %1$@: %2$@";
+
+/* Title of the banner shown above the live chat input while composing a reply to another chat message. %@ is the display name of the author being replied to, e.g. Replying to Sarah */
+"BROADCAST_CHAT_REPLY_BANNER_TITLE_FORMAT" = "Replying to %@";
+
+/* Placeholder shown in the live broadcast chat text input while the user is composing a reply to another chat message. */
+"BROADCAST_CHAT_REPLY_INPUT_PLACEHOLDER" = "Reply";
+
+/* Accessibility label for the button that sends the typed message in the live broadcast chat composer. */
+"BROADCAST_CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Send";
+
+/* Error shown when sending a message in a live broadcast chat fails because the broadcaster has restricted the viewer from chatting in this broadcast, for example by muting them. */
+"BROADCAST_CHAT_SEND_NOT_PERMITTED_ERROR" = "You can’t send messages in this broadcast";
+
+/* Message shown in place of the live broadcast chat history when the broadcaster has turned chat off. */
+"BROADCAST_CHAT_TURNED_OFF_MESSAGE" = "Chat has been turned off.";
 
 /* Generic copyright violation notice presented instead of a broadcast that included a copyrighted work. */
 "BROADCAST_COPYRIGHT_VIOLATION_NOTICE" = "Broadcast not available due to a copyright claim.";
@@ -1129,11 +1162,17 @@ e.g. Removed from MyRecipes.
 /* Message template for a repost chat message e.g. Nate reposted this stream! */
 "BROADCAST_DID_REPOST_MESSAGE" = "%1$@ reposted this stream!";
 
+/* Badge showing that a broadcast is currently live */
+"BROADCAST_LIVE_BADGE_LABEL" = "Live";
+
 /* Message placeholder which is shown instead of an original message if it is muted by a moderator */
 "BROADCAST_MUTED_MESSAGE_PLACEHOLDER" = "Message was deleted by a moderator.";
 
 /* Error message for broadcast video player when there is a network connection error. */
 "BROADCAST_NETWORK_CONNECTION_ERROR" = "Check your connection to resume the broadcast";
+
+/* Badge showing that a broadcast has ended and is available as a replay */
+"BROADCAST_REPLAY_BADGE_LABEL" = "Replay";
 
 /* Text for scheduled broadcast alert, %1$@ is date when the broadcast is planned */
 "BROADCAST_SCHEDULED_BROADCAST_ALERT_MESSAGE" = "This broadcast is scheduled for %1$@, tune back in then.";
@@ -2691,9 +2730,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Further explanation of device follow option */
 "DEVICE_FOLLOW_ON_DESCRIPTION" = "Get post notifications from people you follow by choosing “Turn on notifications” from their profile. This includes any SMS post notifications you already receive.";
-
-/* Tooltip to teach a user about the device follow button, formerly the string DEVICE_FOLLOW_PROFILE_TOOLTIP_OPTION_2 */
-"DEVICE_FOLLOW_PROFILE_TOOLTIP" = "Never miss a post with notifications";
 
 /* Device follow i.e. account notifications setting all option title */
 "DEVICE_FOLLOW_SETTING_OPTION_TITLE_ALL" = "All";
@@ -5091,12 +5127,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Shown when there are no photos for the logged in user. */
 "NO_PHOTOS_SUBTITLE_OWN_PROFILE" = "Your photos will show up here.";
 
-/* Message shown for promoted posts timeline when there are no promoted posts for the logged in user */
-"NO_PROMOTED_TWEETS_LABEL_OWN_PROFILE" = "No boosted posts yet.";
-
-/* Message shown for promoted posts timeline when there are no promoted posts for the logged in user */
-"NO_PROMOTED_TWEETS_SUBTITLE_OWN_PROFILE" = "Your active and previous boosted posts will show up here.";
-
 /* Message shown for super follow posts timeline when there are no super follow posts */
 "NO_SUPER_FOLLOW_TWEETS_LABEL_FORMAT" = "%@ hasn’t posted any Subscription content yet";
 
@@ -5367,12 +5397,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Label indicating a Periscope broadcast could not be found, due to it being deleted or expiring */
 "PERISCOPE_CARD_BROADCAST_NOT_FOUND_LABEL" = "This broadcast is not available.";
-
-/* Badge showing that a broadcast has ended */
-"PERISCOPE_CARD_ENDED_LABEL" = "REPLAY";
-
-/* Badge showing that a broadcast is currently live */
-"PERISCOPE_CARD_LIVE_LABEL" = "LIVE";
 
 /* Title of a prompt to get a notification whenever somebody posts a live video on X */
 "PERISCOPE_FOLLOW_PROMPT_FORMAT" = "Get notified when %@ goes live";
@@ -6298,6 +6322,9 @@ This text is the accessibility hint for the button that lets the user change the
 /* Label for profile tab in extended layout (X for Mac and iPad) */
 "PROFILE_TAB_ACCESSIBILITY_LABEL" = "Profile";
 
+/* Title for the profile timelines sort submenu */
+"PROFILE_TIMELINE_SORT_BY" = "Sort by";
+
 /* CTA button label for profile upgrade upsell card - finish verification variant */
 "PROFILE_UPGRADE_UPSELL_CARD_CTA_FINISH_VERIFICATION" = "Finish Verification";
 
@@ -6408,12 +6435,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Label when a quote is a poll */
 "QUOTE_TWEET_POLL_VIEW_MORE_LABEL" = "Show this poll";
-
-/* Label format for singular reaction count */
-"REACTION_COUNT_SINGULAR_TITLE_FORMAT" = "%@ Reaction";
-
-/* Label format for multiple reaction count */
-"REACTION_COUNT_TITLE_FORMAT" = "%@ Reactions";
 
 /* Title for menu action to post video reaction */
 "REACT_WITH_VIDEO" = "React with Video";
@@ -7157,9 +7178,6 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Title text that describes the inferred identity section on the Settings Page */
 "SETTINGS_INFERRED_IDENTITY_ITEM_TITLE" = "Inferred identity";
-
-/* Title for Interests settings item */
-"SETTINGS_INTERESTS_TITLE" = "Interests";
 
 /* Descriptive text that describes the languages section on the Settings Page */
 "SETTINGS_LANGUAGES_ITEM_DETAIL" = "Manage which languages are used to personalize your X experience.";
@@ -8602,12 +8620,6 @@ eg. "Super Following Jack" */
 /* No comment provided by engineer. */
 "USER_NAME_INSTRUCTION_LABEL" = "Your username must be 15 characters or less and contain only letters, numbers, and underscores and no spaces.";
 
-/* Label for About tab when viewing profile */
-"USER_PROFILE_ABOUT_LABEL" = "About";
-
-/* Tooltip introducing the About tab on the profile */
-"USER_PROFILE_ABOUT_TOOLTIP" = "Introducing the About tab, a new place to describe yourself.";
-
 /* Label for the All tab (all posts timeline) when viewing profile */
 "USER_PROFILE_ALL_TAB_LABEL" = "All";
 
@@ -8731,9 +8743,6 @@ eg. "Super Following Jack" */
 /* Toast title to confirm that a post has been pinned and highlighted on user profile */
 "USER_PROFILE_PINNED_AND_HIGHLIGHTED_TOAST_TITLE" = "Post has been pinned and added to highlights";
 
-/* Title of the Boosts tab on the user profile. */
-"USER_PROFILE_PROMOTED_LABEL" = "Boosts";
-
 /* Label for the Replies tab when viewing profile */
 "USER_PROFILE_REPLIES_TAB_LABEL" = "Replies";
 
@@ -8769,9 +8778,6 @@ eg. "Super Following Jack" */
 
 /* No comment provided by engineer. */
 "USER_PROFILE_WEBSITE_EDITING_LABEL" = "Website";
-
-/* Label for the timeline of posts with reaction given by a user (used for the label on the profile tab). */
-"USER_REACTION_TWEETS_COUNT_LABEL" = "Reactions";
 
 /* Label format for the number of creator subscriptions of an account (i.e., "40 Subscriptions") */
 /* Accessibility hint for seeing list of creator subscriptions. */
@@ -11093,6 +11099,9 @@ eg. "Super Following Jack" */
 /* Label for grok response messages */
 "GROK_ANSWER_LABEL" = "Answer";
 
+/* Prompt for the Grok input field disclosing that Grok is an AI agent, shown where regulations require the disclosure. "Grok" is a product name and should not be translated. */
+"GROK_ASK_GROK_AI_AGENT" = "Ask Grok (AI agent)";
+
 /* Label for close */
 "GROK_CLOSE" = "Close";
 
@@ -11318,17 +11327,35 @@ eg. "Super Following Jack" */
 /* Label for button to save the Grok edit result back to the photo editor */
 "GROK_IMAGINE_ACTION_SAVE_TO_EDITOR" = "Save";
 
+/* Button title of the Grok Imagine promo banner in Grok home. Opens Grok Imagine, Grok's media generation product ("Imagine" should not be translated). */
+"GROK_IMAGINE_BANNER_BUTTON_TITLE" = "Try Grok Imagine";
+
+/* Description of the Grok Imagine promo banner in Grok home advertising image generation. */
+"GROK_IMAGINE_BANNER_IMAGE_DESCRIPTION" = "Build products with image and video capabilities using the Imagine API";
+
+/* Title of the Grok Imagine promo banner in Grok home advertising image generation with quality mode. */
+"GROK_IMAGINE_BANNER_IMAGE_TITLE" = "Sharper images with quality mode";
+
+/* Description of the Grok Imagine promo banner in Grok home advertising video generation with sound. */
+"GROK_IMAGINE_BANNER_VIDEO_DESCRIPTION" = "Your generated videos now come with sound. Switch to video mode and hear it for yourself.";
+
+/* Title of the Grok Imagine promo banner in Grok home advertising video generation with sound. "Native Audio" is a feature name. */
+"GROK_IMAGINE_BANNER_VIDEO_TITLE" = "Create video with Native Audio";
+
 /* Title label in the header of the Imagine render card that wraps images generated by Grok in the chat. "Imagine" is the product name of Grok's media generation feature and should not be translated. */
 "GROK_IMAGINE_CARD_TITLE" = "Imagine";
 
-/* Title of the button shown below a completed image generation in Grok chat that opens Grok Imagine. */
-"GROK_IMAGINE_CHAT_CONTINUE_IN_GROK_IMAGINE" = "Continue in Grok Imagine";
+/* Title of the button shown below a completed image generation in Grok chat that opens Grok Imagine. "Imagine" is the product name of Grok's media generation feature and should not be translated. */
+"GROK_IMAGINE_CHAT_CONTINUE_WITH_IMAGINE" = "Continue with Imagine";
 
-/* Subtitle of the upsell row shown below a completed image generation in Grok chat for free users, explaining that the free plan only includes a limited number of generations per day. */
-"GROK_IMAGINE_CHAT_UNLOCK_MORE_GENERATIONS_SUBTITLE" = "The free plan includes a limited number of daily generations";
+/* Label of the button on the upsell banner shown in Grok chat when an image generation failed because the user hit their image generation limit. Opens the Premium subscription paywall. */
+"GROK_IMAGINE_CHAT_RATE_LIMIT_UPSELL_BUTTON" = "Upgrade now";
 
-/* Title of the upsell row shown below a completed image generation in Grok chat prompting free users to upgrade for more image generations. */
-"GROK_IMAGINE_CHAT_UNLOCK_MORE_GENERATIONS_TITLE" = "Unlock more generations";
+/* Description of the upsell banner shown in Grok chat when an image generation failed because the user hit their image generation limit, explaining that the limit resets later or they can upgrade to Premium now. */
+"GROK_IMAGINE_CHAT_RATE_LIMIT_UPSELL_DESCRIPTION" = "You’ve reached your limit. Resets later or upgrade now.";
+
+/* Title of the upsell banner shown in Grok chat when an image generation failed because the user hit their image generation limit, prompting an upgrade to Premium for more image generations. */
+"GROK_IMAGINE_CHAT_RATE_LIMIT_UPSELL_TITLE" = "Upgrade to generate more images";
 
 /* Title for the button to create a video using Grok Imagine */
 "GROK_IMAGINE_COMPOSER_BUTTON_TITLE" = "Create Video";
@@ -11428,6 +11455,15 @@ eg. "Super Following Jack" */
 
 /* Button to like the chat response */
 "GROK_LIKE" = "Like";
+
+/* Badge shown next to the Build option in the Grok model selection menu, indicating the feature is in beta. */
+"GROK_MODEL_MENU_BUILD_BETA_BADGE" = "Beta";
+
+/* Subtitle for the Build option in the Grok model selection menu. Selecting the option opens Build mode in the standalone Grok app. %@ is the name of the model powering Build, e.g. "Grok 4.5". */
+"GROK_MODEL_MENU_BUILD_SUBTITLE" = "Build apps and sites · %@";
+
+/* Title for the Build option in the Grok model selection menu. Selecting the option opens Build mode in the standalone Grok app. */
+"GROK_MODEL_MENU_BUILD_TITLE" = "Build";
 
 /*
  Title for the models submenu in the Grok model selection menu, like:
@@ -13532,11 +13568,11 @@ eg. "Super Following Jack" */
 /* Payments: Action to approve a transaction */
 "PAYMENTS_ACCEPT_APPROVE_TRANSACTION_ACTION" = "Approve Transaction";
 
-/* Payments: Section header listing users who have access to a shared or business account */
-"PAYMENTS_ACCOUNTS_AUTHORIZED_USERS_SECTION" = "Authorized Users";
-
 /* Payments: Title shown on the invitation claim screen. %@ is replaced with the inviter’s @username or name */
 "PAYMENTS_ACCOUNTS_CLAIM_INVITATION_TITLE_FORMAT" = "%@ invited you to share an account";
+
+/* Payments: Error report title when closing a secondary account fails */
+"PAYMENTS_ACCOUNTS_CLOSE_ERROR_TITLE" = "Unable to close the account";
 
 /* Payments: Success toast title shown after an Extra account is successfully created */
 "PAYMENTS_ACCOUNTS_CREATION_EXTRA_SUCCESS_TOAST_TITLE" = "Your extra account is ready!";
@@ -13553,32 +13589,29 @@ eg. "Super Following Jack" */
 /* Payments: Success toast title shown after a Sole Proprietorship account is successfully created */
 "PAYMENTS_ACCOUNTS_CREATION_SOLE_PROP_SUCCESS_TOAST_TITLE" = "Your Sole proprietorship account is ready!";
 
-/* Payments: Title of the screen where the user chooses the type of account to create (Extra, Shared, Business, etc.) */
-"PAYMENTS_ACCOUNTS_CREATION_TYPE_PICKER_TITLE" = "Select account type";
+/* Payments: Subtitle under Extra account in the account type picker */
+"PAYMENTS_ACCOUNTS_CREATION_TYPE_EXTRA_SUBTITLE" = "Organize your finances.";
 
-/* Payments: Subtitle in the close account confirmation explaining that remaining funds will move to the user’s main account */
-"PAYMENTS_ACCOUNTS_DELETE_CONFIRMATION_SUBTITLE" = "All the remaining funds will be transferred to your main account.";
+/* Payments: Subtitle under Joint account in the account type picker */
+"PAYMENTS_ACCOUNTS_CREATION_TYPE_JOINT_SUBTITLE" = "With anyone on X, instantly.";
+
+/* Payments: Subtitle of the screen where the user chooses the type of account to create (Extra, Joint, Business, etc.) */
+"PAYMENTS_ACCOUNTS_CREATION_TYPE_PICKER_SUBTITLE" = "What type of account do you want to add?";
+
+/* Payments: Title of the screen where the user chooses the type of account to create (Extra, Joint, Business, etc.) */
+"PAYMENTS_ACCOUNTS_CREATION_TYPE_PICKER_TITLE" = "Add Account";
+
+/* Payments: Subtitle under Sole proprietorship in the account type picker */
+"PAYMENTS_ACCOUNTS_CREATION_TYPE_SOLE_PROP_SUBTITLE" = "For your business activities.";
 
 /* Payments: Title of the confirmation dialog when the user attempts to close/delete an account */
 "PAYMENTS_ACCOUNTS_DELETE_CONFIRMATION_TITLE" = "Do you want to close this account?";
 
-/* Payments: Benefit/fact subtitle explaining instant switching between main and extra accounts with the X Card */
-"PAYMENTS_ACCOUNTS_EXTRA_FACT_EASY_SWITCHING_SUBTITLE" = "Toggle between your main and extra accounts instantly with your X Card.";
+/* Payments: Body of the close-account tray when the account still has a non-zero balance */
+"PAYMENTS_ACCOUNTS_DELETE_HAS_BALANCE_SUBTITLE" = "You must zero it out before you can close this account.";
 
-/* Payments: Benefit/fact title highlighting instant switching between accounts using the X Card */
-"PAYMENTS_ACCOUNTS_EXTRA_FACT_EASY_SWITCHING_TITLE" = "Easy Switching";
-
-/* Payments: Benefit/fact subtitle explaining that only the owner can see and manage an Extra account */
-"PAYMENTS_ACCOUNTS_EXTRA_FACT_PRIVATE_SUBTITLE" = "Only you can see and manage the balance and spending—no one else has access.";
-
-/* Payments: Benefit/fact title emphasizing privacy and control of Extra accounts */
-"PAYMENTS_ACCOUNTS_EXTRA_FACT_PRIVATE_TITLE" = "Fully Private & Controlled";
-
-/* Payments: Benefit/fact subtitle explaining that Extra accounts help keep goals or expenses organized */
-"PAYMENTS_ACCOUNTS_EXTRA_FACT_SEPARATE_FUNDS_SUBTITLE" = "Keep different goals or expenses organized in their own dedicated account.";
-
-/* Payments: Benefit/fact title highlighting the ability to separate funds when promoting Extra accounts */
-"PAYMENTS_ACCOUNTS_EXTRA_FACT_SEPARATE_FUNDS_TITLE" = "Separate Your Money";
+/* Payments: Title of the close-account tray when the account still has a non-zero balance */
+"PAYMENTS_ACCOUNTS_DELETE_HAS_BALANCE_TITLE" = "This account still has a balance";
 
 /* Payments: Success title shown after the user accepts a joint account invitation */
 "PAYMENTS_ACCOUNTS_INVITATION_ACCEPTED_TITLE" = "You now have access to this account!";
@@ -13599,49 +13632,46 @@ eg. "Super Following Jack" */
 "PAYMENTS_ACCOUNTS_INVITATION_REVOKED_TITLE" = "This invitation has been revoked";
 
 /* Payments: Status label shown for users who have been invited but have not yet accepted */
-"PAYMENTS_ACCOUNTS_INVITATION_STATUS_INVITED" = "Invited";
+"PAYMENTS_ACCOUNTS_INVITATION_STATUS_INVITED" = "Invite pending";
 
-/* Payments: Subtitle in the share confirmation explaining that the recipient will receive an invitation and the account remains usable immediately */
-"PAYMENTS_ACCOUNTS_JOINT_CONFIRMATION_SUBTITLE" = "They’ll get a notification to accept. Until then, the account is yours to use right away.";
+/* Payments: Title shown while waiting for an invitee to accept a joint account invitation. %@ is replaced by the invitee’s display name. */
+"PAYMENTS_ACCOUNTS_INVITATION_WAITING_TITLE_FORMAT" = "Waiting for %@ to accept invitation";
 
-/* Payments: Title of the confirmation dialog when sharing an account. %@ is replaced with the recipient’s @username or name */
-"PAYMENTS_ACCOUNTS_JOINT_CONFIRMATION_TITLE_FORMAT" = "Are you sure you’d like to share this account with %@?";
+/* Payments: Subtitle on the joint account invite confirmation tray asking the user to verify the selected person */
+"PAYMENTS_ACCOUNTS_JOINT_CONFIRMATION_SUBTITLE" = "Confirm this is the person you want to open an account with.";
 
-/* Payments: Benefit/fact subtitle explaining that anyone on X can be invited to a joint account instantly */
-"PAYMENTS_ACCOUNTS_JOINT_FACT_EASY_ACCESS_SUBTITLE" = "Invite anyone on X to share the account and balance instantly.";
+/* Payments: Title on the joint account invite confirmation tray. %@ is replaced with the recipient’s @username or name. Uses non-breaking spaces so “Open account” and “with @X...” stays grouped when possible. */
+"PAYMENTS_ACCOUNTS_JOINT_CONFIRMATION_TITLE_FORMAT" = "Open\U00A0account with\U00A0%@?";
 
-/* Payments: Benefit/fact title highlighting easy access when promoting joint accounts */
-"PAYMENTS_ACCOUNTS_JOINT_FACT_EASY_ACCESS_TITLE" = "Easy Access";
+/* Payments: Header title of the tray confirming the person invited to a joint account */
+"PAYMENTS_ACCOUNTS_JOINT_CONFIRM_INVITE_TITLE" = "Confirm Invite";
 
-/* Payments: Benefit/fact subtitle explaining instant switching between main and joint accounts with the X Card */
-"PAYMENTS_ACCOUNTS_JOINT_FACT_SWITCH_SPEND_SUBTITLE" = "Toggle between your main and extra accounts instantly with your X Card.";
+/* Payments: Intro text on the joint account facts tray explaining who can be invited */
+"PAYMENTS_ACCOUNTS_JOINT_FACTS_SUBTITLE" = "Invite someone to create a joint account, you can only invite people who follow you.";
 
-/* Payments: Benefit/fact title highlighting the ability to switch and spend freely from a joint account */
-"PAYMENTS_ACCOUNTS_JOINT_FACT_SWITCH_SPEND_TITLE" = "Switch & Spend Freely";
+/* Payments: Benefit/fact subtitle explaining joint accounts can be created instantly */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_EASY_ACCESS_SUBTITLE" = "Create an account instantly.";
 
-/* Payments: Benefit/fact subtitle explaining that all members see the same real-time balance and transactions */
-"PAYMENTS_ACCOUNTS_JOINT_FACT_TRANSPARENCY_SUBTITLE" = "Everyone sees the same real-time balance and transactions—no surprises.";
+/* Payments: Benefit/fact title highlighting instant joint account setup */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_EASY_ACCESS_TITLE" = "Instant setup";
 
-/* Payments: Benefit/fact title highlighting transparency for all members of a joint account */
-"PAYMENTS_ACCOUNTS_JOINT_FACT_TRANSPARENCY_TITLE" = "Total Transparency";
+/* Payments: Benefit/fact subtitle explaining joint accounts can connect to the X Card for spending */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_SWITCH_SPEND_SUBTITLE" = "Connect to your X Card and spend anywhere.";
+
+/* Payments: Benefit/fact title highlighting seamless spending from a joint account */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_SWITCH_SPEND_TITLE" = "Spend seamlessly";
+
+/* Payments: Benefit/fact subtitle explaining shared access to balance and transactions */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_TRANSPARENCY_SUBTITLE" = "Shared access to balance and transactions.";
+
+/* Payments: Benefit/fact title highlighting equal ownership of a joint account balance */
+"PAYMENTS_ACCOUNTS_JOINT_FACT_TRANSPARENCY_TITLE" = "One balance, equal ownership";
 
 /* Payments: Title of the screen where the user selects which X user to share an account with */
-"PAYMENTS_ACCOUNTS_JOINT_USER_SELECTION_TITLE" = "Select who you want to share this account with.";
+"PAYMENTS_ACCOUNTS_JOINT_USER_SELECTION_TITLE" = "Invite someone";
 
 /* Payments: Section header showing accounts that have been shared with the current user */
 "PAYMENTS_ACCOUNTS_JOINT_WITH_YOU_SECTION_TITLE" = "Shared with you";
-
-/* Payments: Subtitle in the leave account confirmation warning the user they will lose access to the funds */
-"PAYMENTS_ACCOUNTS_LEAVE_CONFIRMATION_SUBTITLE" = "You will lose access to the funds in this account.";
-
-/* Payments: Title of the confirmation dialog when a member attempts to leave a joint account */
-"PAYMENTS_ACCOUNTS_LEAVE_CONFIRMATION_TITLE" = "Do you want to leave this account?";
-
-/* Payments: Success toast title shown after a member is removed from a joint account */
-"PAYMENTS_ACCOUNTS_MEMBER_REMOVED_SUCCESS_TOAST_TITLE" = "The member was removed";
-
-/* Payments: Section header for miscellaneous or additional account options */
-"PAYMENTS_ACCOUNTS_OTHER_SECTION" = "Other";
 
 /* Payments: Title for the account picker shown during direct deposit / payroll setup */
 "PAYMENTS_ACCOUNTS_PICKER_DIRECT_DEPOSIT_SUBTITLE" = "What account do you want to use for your direct deposit?";
@@ -13655,26 +13685,17 @@ eg. "Super Following Jack" */
 /* Payments: Title for the account picker when selecting which account to pay/send money from */
 "PAYMENTS_ACCOUNTS_PICKER_TRANSFER_SUBTITLE" = "What would you like to pay with?";
 
-/* Payments: Subtitle in the remove member confirmation warning that the member will lose access to the funds */
-"PAYMENTS_ACCOUNTS_REMOVE_MEMBER_CONFIRMATION_SUBTITLE" = "They will lose access to the funds in this account.";
+/* Payments: Label preceding the other member’s name on joint account routing details */
+"PAYMENTS_ACCOUNTS_SHARED_WITH_LABEL" = "Shared with";
 
-/* Payments: Title of the confirmation dialog when an owner attempts to remove a member from a joint account */
-"PAYMENTS_ACCOUNTS_REMOVE_MEMBER_CONFIRMATION_TITLE" = "Do you want to remove this member?";
-
-/* Payments: Role label for users who have been granted access to a joint account */
-"PAYMENTS_ACCOUNTS_ROLE_MEMBER" = "Member";
-
-/* Payments: Role label indicating the user who owns/created the account */
-"PAYMENTS_ACCOUNTS_ROLE_OWNER" = "Owner";
-
-/* Payments: Toast title shown after the current user successfully leaves a joint account */
-"PAYMENTS_ACCOUNTS_SUCCESS_TOAST_ACCOUNT_LEFT_TITLE" = "You left the account";
+/* Payments: Button title to share a pending joint account invitation */
+"PAYMENTS_ACCOUNTS_SHARE_INVITE_ACTION" = "Share Invite";
 
 /* Payments: Success title or message shown after an account has been closed */
 "PAYMENTS_ACCOUNTS_SUCCESS_TOAST_CLOSED_TITLE" = "The account was closed";
 
-/* Payments: Toast title shown after successfully cancelling a pending invitation */
-"PAYMENTS_ACCOUNTS_SUCCESS_TOAST_INVITATION_CANCELLED_TITLE" = "The invitation was cancelled";
+/* Payments: Error report title when updating a secondary account nickname fails */
+"PAYMENTS_ACCOUNTS_UPDATE_NICKNAME_ERROR_TITLE" = "Unable to update the account nickname";
 
 /* Payments: Attribute that presents the account number (very short, can be abbreviated like "Acct.") */
 "PAYMENTS_ACCOUNT_ATTRIBUTE_SHORT_ACCOUNT_NUMBER" = "Account";
@@ -13694,14 +13715,8 @@ eg. "Super Following Jack" */
 /* Payments: Subtitle shown when linking a physical or virtual card to a Payments account */
 "PAYMENTS_ACCOUNT_PICKER_CARD_SUBTITLE" = "Select the account to which you would like to link this card. You can change this at any time.";
 
-/* Payments: Title of the section that deals with account customization (ex: nickname) */
-"PAYMENTS_ACCOUNT_SETTINGS_CUSTOMIZATION_SECTION_TITLE" = "Customization";
-
-/* Payments: Label of the attribute to customize how we render the name of an account. The technical term is nickname but we expose it as 'name'. */
-"PAYMENTS_ACCOUNT_SETTINGS_NICKNAME_ATTRIBUTE" = "Name";
-
 /* Payments: Title of the screen to configure an X Money bank account */
-"PAYMENTS_ACCOUNT_SETTINGS_TITLE" = "Account Settings";
+"PAYMENTS_ACCOUNT_SETTINGS_TITLE" = "Manage Account";
 
 /* Payments: Account type attribute (Checking, Savings, ...) */
 "PAYMENTS_ACCOUNT_TYPE" = "Account Type";
@@ -13714,6 +13729,9 @@ eg. "Super Following Jack" */
 
 /* Payments: Label for the joint account type in account creation and selectors */
 "PAYMENTS_ACCOUNT_TYPE_JOINT" = "Joint account";
+
+/* Payments: Label for the Sole proprietorship account type in account creation and selectors */
+"PAYMENTS_ACCOUNT_TYPE_SOLE_PROP" = "Sole proprietorship";
 
 /* Payments: Toast shown when the user approves an ACH merchant authorization */
 "PAYMENTS_ACH_APPROVED_TOAST" = "Approved Payment";
@@ -13864,9 +13882,6 @@ eg. "Super Following Jack" */
 
 /* Payments Screen: Highlights card's physical material and design */
 "PAYMENTS_CARD_SPEND_BENEFIT_MATERIAL" = "Metal card personalized with your X handle";
-
-/* Payments: Title indicating card is locked */
-"PAYMENTS_CARD_SPEND_BOTH_CARDS_LOCKED_TITLE" = "Your cards are locked";
 
 /* Payments: Button text to change the pin of the card */
 "PAYMENTS_CARD_SPEND_CHANGE_PIN" = "Change PIN";
@@ -14105,12 +14120,6 @@ eg. "Super Following Jack" */
 /* Payments: Attribute that presents the total earned cashback by the customer on all their cards (very short) */
 "PAYMENTS_CASHBACK_LIFETIME_SHORT" = "Lifetime";
 
-/* Payments: Short subtitle that presents all the cashback that the customer has earned over time. %@ is replaced by a formatted amount (ex: $1,000) */
-"PAYMENTS_CASHBACK_TILE_LIFETIME_AMOUNT" = "%@ lifetime";
-
-/* Payments: Short subtitle that presents all the cashback that the customer has accrued but not received yet. %@ is replaced by a formatted amount (ex: $500) */
-"PAYMENTS_CASHBACK_TILE_PENDING_AMOUNT" = "%@ pending";
-
 /* Payments: Attribute that presents the accrued cashback during the current week by the customer on this account (very short) */
 "PAYMENTS_CASHBACK_WEEKLY_PENDING" = "This week";
 
@@ -14348,6 +14357,18 @@ eg. "Super Following Jack" */
 /* Payments: Action to copy the debit card number in the clipboard */
 "PAYMENTS_COPY_CARD_NUMBER_ACTION" = "Copy number";
 
+/* Payments: Button title to create a secondary account after nickname entry */
+"PAYMENTS_CREATE_ACCOUNT_ACTION" = "Create Account";
+
+/* Payments: Button label allowing the user to skip the DBA step and use their legal name as business name. */
+"PAYMENTS_CREATE_ACCOUNT_DBA_SKIP_ACTION" = "Skip";
+
+/* Payments: Subtitle explaining that the business name should match the registered DBA. */
+"PAYMENTS_CREATE_ACCOUNT_DBA_SUBTITLE" = "Make sure this matches what you registered as a DBA (Doing Business As).";
+
+/* Payments: Title of the screen where sole prop users enter their business name during X Payments account creation flow. */
+"PAYMENTS_CREATE_ACCOUNT_DBA_TITLE" = "Business name";
+
 /* Payments: Subtitle explaining that money will be returned if checks expire */
 "PAYMENTS_CREATE_ISSUED_CHECK_FACT_EXPIRE_SUBTITLE" = "Money will be returned to you if they expire.";
 
@@ -14462,8 +14483,14 @@ eg. "Super Following Jack" */
 /* Payments: Title the button that opens direct deposit options */
 "PAYMENTS_DIRECT_DEPOSIT_ACTION" = "Direct Deposit";
 
+/* Payments: Button for users who already configured direct deposit and want to dismiss the setup prompt */
+"PAYMENTS_DIRECT_DEPOSIT_ALREADY_SET_UP_ACTION" = "I already set it up";
+
 /* Payments: Button to setup direct deposit automatically (ex: going through a flow with Pinwheel) */
 "PAYMENTS_DIRECT_DEPOSIT_AUTOMATED_FLOW_ACTION" = "Connect Automatically";
+
+/* Payments: Title for direct deposit screen when the customer is boosted. %@ is replaced by their APY already formatted (ex: 6%) */
+"PAYMENTS_DIRECT_DEPOSIT_BOOSTED_TITLE" = "Set up direct deposit and keep earning %@ APY";
 
 /* Payments: Button to generate a PDF form to give to HR to setup the direct deposit on the user's X Money account */
 "PAYMENTS_DIRECT_DEPOSIT_CREATE_FORM_ACTION" = "Create Direct Deposit Form";
@@ -14519,6 +14546,9 @@ eg. "Super Following Jack" */
 /* Payments: Title shown when a direct deposit setup fails due to session timeout (usually because the payroll login page was left open too long) */
 "PAYMENTS_DIRECT_DEPOSIT_ERROR_TIMEOUT_TITLE" = "Your session timed out";
 
+/* Payments: Link/button label to open direct deposit management from the interest rewards view */
+"PAYMENTS_DIRECT_DEPOSIT_MANAGE_ACTION" = "Manage direct deposit";
+
 /* Payments: Sentence that explains how to retry the automatic linking of the direct deposit. %1$@ is replaced by a URL. */
 "PAYMENTS_DIRECT_DEPOSIT_MANUAL_FALLBACK_ACTION_MARKDOWN_FORMAT" = "Want to retry the connection? [Try again](%1$@)";
 
@@ -14533,6 +14563,12 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the flow to setup direct deposit manually (ex: get account/routing number to give them to HR) */
 "PAYMENTS_DIRECT_DEPOSIT_MANUAL_FLOW_TITLE" = "Connect manually";
+
+/* Payments: Title for direct deposit screen when the customer is not boosted yet. %@ is replaced by their target APY already formatted (ex: 6%) */
+"PAYMENTS_DIRECT_DEPOSIT_NOT_BOOSTED_TITLE" = "Set up direct deposit and start earning %@ APY";
+
+/* Payments: Title of the tray asking the user to choose automatic or manual direct deposit setup */
+"PAYMENTS_DIRECT_DEPOSIT_SETUP_METHOD_TITLE" = "How would you like to set up direct deposit?";
 
 /* Payments: Subtitle for the third benefit row in the automated direct deposit flow, explaining early monthly paycheck receipt */
 "PAYMENTS_DIRECT_DEPOSIT_SWITCH_ADVANCED_PAYCHECK_SUBTITLE" = "Receive your paycheck up to two days earlier than most banks";
@@ -15100,9 +15136,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Text for a button or link that provides more information about a feature or process in X Payments. */
 "PAYMENTS_LEARN_MORE_ACTION" = "Learn more";
-
-/* Payments: Action/button for a member to remove themselves from a joint account */
-"PAYMENTS_LEAVE_ACCOUNT_ACTION" = "Leave Account";
 
 /* Payments: Format string for displaying daily limits in X Payments. %1$@ is replaced by the limit amount. */
 "PAYMENTS_LIMITS_DAILY_FORMAT" = "%1$@ per day";
@@ -15930,7 +15963,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_REWARDS_CASHBACK_SECTION_TITLE" = "Cashback";
 
 /* Payments: Disclaimer for the Rewards screen, showing the APY effective date. %1$@ is replaced by a formatted date (ex: March 26, 2025), and %2$@ is replaced by a URL. */
-"PAYMENTS_REWARDS_DISCLAIMER_APY_EFFECTIVE_DATE_MARKDOWN_FORMAT" = "*Annual Percentage Yield (“APY”) is accurate as of %1$@ and subject to change. See [here](%2$@) for current rates.";
+"PAYMENTS_REWARDS_DISCLAIMER_APY_EFFECTIVE_DATE_MARKDOWN_FORMAT" = "Annual Percentage Yield (“APY”) is accurate as of %1$@ and subject to change. See [here](%2$@) for current rates.";
 
 /* Payments: Disclaimer for the Rewards screen, showing that not all purchases are eligible. %1$@ is replaced by a URL */
 "PAYMENTS_REWARDS_DISCLAIMER_MARKDOWN_FORMAT" = "*Terms and limitations apply. [Learn more](%1$@)";
@@ -15941,11 +15974,8 @@ eg. "Super Following Jack" */
 /* Payments: Title for interest that has accrued in the current month but not yet paid out */
 "PAYMENTS_REWARDS_INTEREST_PENDING" = "Accrued this month";
 
-/* Payments: Subtitle for interest that has accrued in the current month but not yet paid out. %@ is replaced by a formatted date that corresponds to the last day of the month (ex: March 31) */
-"PAYMENTS_REWARDS_INTEREST_PENDING_SUBTITLE_FORMAT" = "Will be paid on %@";
-
 /* Payments: Subtitle for the Interest rewards section, showing the current APY. Keep the \U00A0 characters to group the 'with our % APY' equivalent in each language. */
-"PAYMENTS_REWARDS_INTEREST_SECTION_SUBTITLE" = "Your cash at work with\U00A0our\U00A0%@\U00A0APY*";
+"PAYMENTS_REWARDS_INTEREST_SECTION_SUBTITLE" = "Your cash at work with\U00A0our\U00A0%@\U00A0APY";
 
 /* Payments: "Routing number" used for US bank accounts transfers */
 "PAYMENTS_ROUTING_NUMBER" = "Routing Number";
@@ -16409,9 +16439,6 @@ eg. "Super Following Jack" */
 /* Payments: Action to verify the user’s identity. Should be kept short or abbreviated. */
 "PAYMENTS_VERIFY_IDENTITY_ACTION_SHORT" = "Verify";
 
-/* Payments: Title of the button that leads the customer to the activity screen (list of their transactions) */
-"PAYMENTS_VIEW_ALL_ACTIVITY_ACTION" = "View All Activity";
-
 /* Payments: Action to view the user’s balance */
 "PAYMENTS_VIEW_BALANCE_ACTION" = "Go to Money";
 
@@ -16446,7 +16473,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_WIRE_COUNTRY_TITLE" = "Send a wire to";
 
 /* Payments: Disclaimer shown on the page where the user gets the info to receive a wire transfer. Informs about supported banks. */
-"PAYMENTS_WIRE_DISCLAIMER_US_BANKS_ONLY" = "Use these details for deposits and wire transfers from US banks.\n\nX Payments LLC is a financial technology company, and not a bank. Funds are held at Cross River Bank.";
+"PAYMENTS_WIRE_DISCLAIMER_US_BANKS_ONLY" = "Use these details for deposits and wire transfers from US banks. X Payments LLC is a financial technology company, and not a bank. Funds are held at Cross River Bank.";
 
 /* Payments: Title of the error screen after failing to schedule a wire. */
 "PAYMENTS_WIRE_ERROR_TITLE" = "Wire failed";
@@ -18664,6 +18691,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
    Notifications settings button title */
 "NOTIFICATIONS_LABEL" = "Notifications";
 
+/* Title of the toggle row that enables all push notifications on the notifications pre-permission prompt. */
+"NOTIFICATIONS_PERMISSION_REQUEST_ALL_NOTIFICATIONS_TOGGLE" = "All notifications";
+
 /* Accessibility hint for the back button */
 "NOTIFICATIONS_PERMISSION_REQUEST_BACK_BUTTON_ACCESSIBILITY_HINT" = "Returns to previous screen";
 
@@ -18682,11 +18712,17 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Accessibility hint for the only important notifications button */
 "NOTIFICATIONS_PERMISSION_REQUEST_ONLY_IMPORTANT_BUTTON_ACCESSIBILITY_HINT" = "Enable only important notifications";
 
+/* Title of the toggle row that enables only important push notifications on the notifications pre-permission prompt. */
+"NOTIFICATIONS_PERMISSION_REQUEST_ONLY_IMPORTANT_TOGGLE" = "Only important";
+
 /* Accessibility label for the notification preview image */
 "NOTIFICATIONS_PERMISSION_REQUEST_PREVIEW_ACCESSIBILITY_LABEL" = "Preview of notifications on your phone";
 
 /* Subtitle text explaining what notifications the user will receive */
 "NOTIFICATIONS_PERMISSION_REQUEST_SUBTITLE_V2" = "Get notified when your posts go viral, people follow you or send you messages.";
+
+/* Label shown under a notification option on the notifications pre-permission prompt after the user denied the system permission. Tapping it opens the iOS notification settings for the app. */
+"NOTIFICATIONS_PERMISSION_REQUEST_TAP_TO_FIX" = "Tap to fix";
 
 /* MARK: - Notifications Permission Request */
 /* Title text for the notification permission request screen */
@@ -19357,6 +19393,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Label for Timeline Settings post swipe right display */
 "TIMELINE_SETTINGS_POST_SWIPE_GESTURE_RIGHT_DISPLAY_LABEL" = "Right swipe";
+
+/* Title for the profile timelines sort submenu option to sort by most liked */
+"TIMELINE_SORT_BY_MOST_LIKED" = "Most liked";
 
 /* Title for timelines sort menu sheet option to sort by most recent, with new label */
 "TIMELINE_SORT_BY_NEW" = "New";
@@ -20465,8 +20504,14 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Conversation footer read only account title. %@: account display name (e.g. Community Notes) */
 "DM_CONVERSATION_FOOTER_READ_ONLY_REASON_READ_ONLY_ACCOUNT_TITLE" = "Only %@ can send messages.";
 
+/* Title for recipient requires encryption read-only reason */
+"DM_CONVERSATION_FOOTER_READ_ONLY_REASON_RECIPIENT_REQUIRES_ENCRYPTION_TITLE" = "You can only message this user with encrypted chat";
+
 /* DM Conversation footer read only reason removed from group title */
 "DM_CONVERSATION_FOOTER_READ_ONLY_REASON_REMOVED_FROM_GROUP_TITLE" = "You must be re-added to this group in order to send messages.";
+
+/* DM Conversation footer read only reason suspended from X Chat title */
+"DM_CONVERSATION_FOOTER_READ_ONLY_REASON_SUSPENDED_FROM_XCHAT_TITLE" = "This account is suspended from using X Chat";
 
 /* DM Conversation footer read only reason unknown title */
 "DM_CONVERSATION_FOOTER_READ_ONLY_REASON_UNKNOWN_TITLE" = "You are unable to send messages in this conversation.";
@@ -20491,6 +20536,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Conversation Header follower count fallback, singular. Example: "1 Follower" */
 "DM_CONVERSATION_HEADER_FOLLOWERS_COUNT_ONE_FORMAT" = "%@ Follower";
+
+/* DM conversation header group creator line. %@: @username of the user who created the group */
+"DM_CONVERSATION_HEADER_GROUP_CREATED_BY_FORMAT" = "%@ created this group";
 
 /* DM conversation header joined date title. %@: date joined */
 "DM_CONVERSATION_HEADER_JOINED_DATE_TITLE" = "Joined %@";
@@ -22100,6 +22148,18 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM New Conversation select user action read-only account cannot message error title */
 "DM_NEW_CONVERSATION_ACTION_SELECT_USER_ERROR_READ_ONLY_ACCOUNT_TITLE" = "You cannot send messages to this account";
+
+/* Title for recipient requires encryption (cannot add to group) */
+"DM_NEW_CONVERSATION_ACTION_SELECT_USER_ERROR_RECIPIENT_REQUIRES_ENCRYPTION_CANNOT_ADD_TO_GROUP_TITLE" = "This user needs encrypted chat to join";
+
+/* Title for recipient requires encryption (cannot message) */
+"DM_NEW_CONVERSATION_ACTION_SELECT_USER_ERROR_RECIPIENT_REQUIRES_ENCRYPTION_TITLE" = "You can only message this user with encrypted chat";
+
+/* Title for suspended from X Chat (cannot add to group) */
+"DM_NEW_CONVERSATION_ACTION_SELECT_USER_ERROR_SUSPENDED_FROM_XCHAT_CANNOT_ADD_TO_GROUP_TITLE" = "This account is suspended from using X Chat";
+
+/* Title for suspended from X Chat (cannot message) */
+"DM_NEW_CONVERSATION_ACTION_SELECT_USER_ERROR_SUSPENDED_FROM_XCHAT_TITLE" = "This account is suspended from using X Chat";
 
 /* DM New Conversation alert invite to register message */
 "DM_NEW_CONVERSATION_ALERT_INVITE_TO_REGISTER_MESSAGE" = "This user needs to upgrade to the new X Chat to join.";
