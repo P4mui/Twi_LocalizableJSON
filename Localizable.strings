@@ -6424,6 +6424,15 @@ This text is the accessibility hint for the button that lets the user change the
 /* Simplified "Quote" action label from Repost menu */
 "QUOTE_TWEET_ACTION_SIMPLE_LABEL" = "Quote";
 
+/* Accessibility value describing how many additional media items (photos or videos) a compact quote post thumbnail hides beyond the one shown. The parameter is the number of additional items, e.g. "3 more media items" */
+"QUOTE_TWEET_COMPACT_MEDIA_MORE_MEDIA_ACCESSIBILITY_VALUE_PLURAL_FORMAT" = "%1$@ more media items";
+
+/* Accessibility value describing that a compact quote post thumbnail hides one additional media item (photo or video) beyond the one shown */
+"QUOTE_TWEET_COMPACT_MEDIA_MORE_MEDIA_ACCESSIBILITY_VALUE_SINGULAR" = "1 more media item";
+
+/* Overflow count badge shown over a compact quote post media thumbnail when the post has more media items than the single one displayed. The parameter is the number of additional items, e.g. "+3" */
+"QUOTE_TWEET_COMPACT_MEDIA_OVERFLOW_COUNT_FORMAT" = "+%1$@";
+
 /* Accessibility Label for a quote in the details view. For example, "Jane Doe @janedoe quoted Johnny @johnny in reply to @alice: I love dancing!" */
 "QUOTE_TWEET_DETAILS_ACCESSIBILITY_LABEL" = "%1$@ quoted %2$@";
 
@@ -7388,6 +7397,18 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Accessibility hint for share inline action button */
 "SHARE_BUTTON_ACCESSIBILITY_HINT" = "Double-tap to share";
+
+/* Message of an alert shown when media shared from the share extension could not be loaded into the composer. */
+"SHARE_EXTENSION_MEDIA_LOAD_FAILED_ALERT_MESSAGE" = "The shared media couldn’t be added to your post.";
+
+/* Title of an alert shown when media shared from the share extension could not be loaded into the composer. */
+"SHARE_EXTENSION_MEDIA_LOAD_FAILED_ALERT_TITLE" = "Couldn’t attach media";
+
+/* Message of an alert shown when content shared from the share extension includes files that cannot be attached to a post. */
+"SHARE_EXTENSION_UNSUPPORTED_FILE_ALERT_MESSAGE" = "Shared files of this type can’t be attached to a post.";
+
+/* Title of an alert shown when content shared from the share extension includes files that cannot be attached to a post. */
+"SHARE_EXTENSION_UNSUPPORTED_FILE_ALERT_TITLE" = "File type not supported";
 
 /* Label for the share-profile button in the redesigned profile header action row. */
 "SHARE_PROFILE_BUTTON_LABEL" = "Share Profile";
@@ -8827,6 +8848,12 @@ eg. "Super Following Jack" */
 
 /* Title for the Thumbnail tab in the Video Editor toolbar. */
 "VIDEOEDITOR_TAB_THUMBNAIL_TITLE" = "Thumbnail";
+
+/* Navigation title for the Text Overlay tab in the Video Editor. */
+"VIDEOEDITOR_TEXT_OVERLAY_TITLE" = "Text Overlay";
+
+/* Button in the Video Editor Text Overlay tab to remove the text overlay from the video. */
+"VIDEOEDITOR_TEXT_REMOVE_BUTTON_TITLE" = "Remove text";
 
 /* Title for the button in the Video Editor Thumbnail tab that selects a video frame as the thumbnail. */
 "VIDEOEDITOR_THUMBNAIL_SELECT_FRAME_BUTTON_TITLE" = "Select frame";
@@ -19871,6 +19898,18 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Data usage settings title */
 "CHAT_DATA_USAGE" = "Data Usage";
 
+/* Section header for default block screenshots on Privacy settings */
+"CHAT_DEFAULT_BLOCK_SCREENSHOTS" = "Default block screenshots";
+
+/* Footer for default block screenshots; ends with new-conversations-only note */
+"CHAT_DEFAULT_BLOCK_SCREENSHOTS_FOOTER" = "When enabled, screenshots will be blocked when you start a new conversation.";
+
+/* Section header for default disappearing messages on Privacy settings */
+"CHAT_DEFAULT_DISAPPEARING_MESSAGES" = "Default disappearing messages";
+
+/* Footer for default disappearing messages; ends with new-conversations-only note */
+"CHAT_DEFAULT_DISAPPEARING_MESSAGES_FOOTER" = "When enabled, messages will disappear after the selected duration once seen when you start a new conversation.";
+
 /* Delete conversation confirmation message */
 "CHAT_DELETE_CONVO_CONFIRM" = "Are you sure you want to delete this conversation? This action cannot be undone.";
 
@@ -20075,6 +20114,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Translation attribution label. %@: source language name (e.g. "Japanese") */
 "CHAT_POST_TRANSLATED_FROM" = "Translated from %@";
 
+/* Settings row and screen title for privacy defaults applied to new conversations */
+"CHAT_PRIVACY" = "Privacy";
+
 /* Quote recipient you label */
 "CHAT_QUOTE_RECIPIENT_YOU" = "you";
 
@@ -20214,7 +20256,7 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 "CHAT_UNSUPPORTED_FILE_TITLE" = "Unsupported File";
 
 /* Vanishing mode footer description */
-"CHAT_VANISHING_MODE_FOOTER" = "When enabled, messages will disappear once members have seen them and closed the chat after a duration specified above.";
+"CHAT_VANISHING_MODE_FOOTER" = "When enabled, messages will disappear after the selected duration once seen.";
 
 /* Videos section title */
 "CHAT_VIDEOS" = "Videos";
@@ -20342,8 +20384,14 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Conversation Delete/Leave conversation action alert message */
 "DM_CONVERSATION_ACTION_DELETE_LEAVE_CONVERSATION_ALERT_MESSAGE" = "Are you sure you want to delete this conversation? This action cannot be undone.";
 
+/* DM Conversation Block messages confirmation title */
+"DM_CONVERSATION_ACTION_DM_BLOCK_CONVERSATION_ALERT_TITLE" = "Block messages?";
+
 /* DM Conversation Block messages conversation action title */
 "DM_CONVERSATION_ACTION_DM_BLOCK_CONVERSATION_TITLE" = "Block messages";
+
+/* DM Conversation Unblock messages confirmation title */
+"DM_CONVERSATION_ACTION_DM_UNBLOCK_CONVERSATION_ALERT_TITLE" = "Unblock messages?";
 
 /* DM Conversation Unblock messages conversation action title */
 "DM_CONVERSATION_ACTION_DM_UNBLOCK_CONVERSATION_TITLE" = "Unblock messages";
@@ -20447,17 +20495,8 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Conversation footer message requests action block title */
 "DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_BLOCK_TITLE" = "Block";
 
-/* DM Conversation footer message requests action decline title */
-"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_DECLINE_TITLE" = "Decline";
-
 /* DM Conversation footer message requests action delete title */
 "DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_DELETE_TITLE" = "Delete";
-
-/* DM Conversation footer message requests action report title */
-"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_ACTION_REPORT_TITLE" = "Report";
-
-/* DM Conversation footer message requests declined title. */
-"DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_DECLINED_TITLE" = "Message request declined. •|•Undo•|•";
 
 /* DM Conversation footer message requests title */
 "DM_CONVERSATION_FOOTER_MESSAGE_REQUESTS_UNNAMED_TITLE" = "Accept message request from user?";
@@ -21293,9 +21332,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* DM Inbox message requests hidden empty title */
 "DM_INBOX_MESSAGE_REQUESTS_HIDDEN_EMPTY_TITLE" = "No hidden requests";
 
-/* DM Inbox message requests hidden tab title */
-"DM_INBOX_MESSAGE_REQUESTS_HIDDEN_TITLE" = "Hidden";
-
 /* DM Inbox message requests other tab title */
 "DM_INBOX_MESSAGE_REQUESTS_OTHER_TITLE" = "Other";
 
@@ -21304,9 +21340,6 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM Inbox message requests priority empty title */
 "DM_INBOX_MESSAGE_REQUESTS_PRIORITY_EMPTY_TITLE" = "No priority requests";
-
-/* DM Inbox message requests priority tab title */
-"DM_INBOX_MESSAGE_REQUESTS_PRIORITY_TITLE" = "Priority";
 
 /* DM Inbox message requests row preview fallback */
 "DM_INBOX_MESSAGE_REQUESTS_ROW_PREVIEW_FALLBACK" = "Nothing to see here, yet";
@@ -21593,6 +21626,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM message action Delete error title */
 "DM_MESSAGE_ACTION_DELETE_ERROR_TITLE" = "Unable to delete message";
+
+/* DM message action Delete for me only confirmation body */
+"DM_MESSAGE_ACTION_DELETE_FOR_ME_CONFIRM_MESSAGE" = "This message will be deleted on all your devices.";
+
+/* DM message action Delete for me only confirmation title */
+"DM_MESSAGE_ACTION_DELETE_FOR_ME_CONFIRM_TITLE" = "Delete message?";
 
 /* DM message action Delete title */
 "DM_MESSAGE_ACTION_DELETE_TITLE" = "Delete";
@@ -22549,7 +22588,7 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 "DM_VANISHING_MODE_CLEAR_CHAT_SHEET_MESSAGE" = "Would you like to clear all messages in this conversation? They will be permanently removed from your devices only.";
 
 /* DM Vanishing Mode clear chat sheet title */
-"DM_VANISHING_MODE_CLEAR_CHAT_SHEET_TITLE" = "Clear Chat";
+"DM_VANISHING_MODE_CLEAR_CHAT_SHEET_TITLE" = "Clear chat?";
 
 // Section: Frameworks/HealthFoundation/Sources/HealthFoundationStrings/en.lproj/Localizable.strings
 
