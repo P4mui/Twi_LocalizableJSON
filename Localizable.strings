@@ -30,6 +30,21 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title of the settings root row that opens Spaces settings */
 "SETTINGS_ROOT_SPACES_ROW_TITLE" = "Spaces";
 
+/* Title of the row on the Spaces settings screen that opens the user's past Spaces recordings */
+"SETTINGS_SPACES_RECORDINGS_ROW_TITLE" = "Manage Spaces recordings";
+
+/* Subtitle under the Manage scheduled Spaces row on the Spaces settings screen */
+"SETTINGS_SPACES_SCHEDULED_ROW_SUBTITLE" = "Share, edit, or cancel your scheduled Spaces";
+
+/* Title of the row on the Spaces settings screen that opens the user's scheduled Spaces */
+"SETTINGS_SPACES_SCHEDULED_ROW_TITLE" = "Manage scheduled Spaces";
+
+/* Description under the Show Spaces to followers toggle; %@ is the tappable Learn more link */
+"SETTINGS_SPACES_SHOW_SPACES_DESCRIPTION" = "Even with this setting turned off you will be visible to everyone when you’re in a Space. Your followers can always see what Spaces you’re hosting, co-hosting, or speaking in. %@";
+
+/* Title of the toggle on the Spaces settings screen that lets followers see which Spaces the user is listening in */
+"SETTINGS_SPACES_SHOW_SPACES_TOGGLE_TITLE" = "Show Spaces to followers";
+
 /* Description under the toggle that shows engagement counters on timeline posts */
 "SETTINGS_TIMELINE_DISPLAY_ENGAGEMENT_DESCRIPTION" = "Display engagement counters on posts";
 
@@ -1928,12 +1943,6 @@ e.g. Removed from MyRecipes.
 
 /* Content of Toast notification that confirms a post was successfully sent and is able to be edited for the next minute */
 "COMPOSITION_COMPLETE_SENDING_TWEET_SINGLE_MINUTE_EDITABLE_TOAST_NOTIFICATION_MESSAGE" = "Your post was sent. You can edit it for the next minute.";
-
-/* A toast notification message displayed when successfully completed sending a post thread. */
-"COMPOSITION_COMPLETE_SENDING_TWEET_THREAD_TOAST_NOTIFICATION_MESSAGE" = "Your posts were sent";
-
-/* A toast notification message displayed when successfully completed sending a single post. */
-"COMPOSITION_COMPLETE_SENDING_TWEET_TOAST_NOTIFICATION_MESSAGE" = "Your post was sent";
 
 /* Error presented to the user when sending a post from the Share Extension failed */
 "COMPOSITION_EXTENSION_SEND_TWEET_ERROR_LABEL" = "Your post couldn’t be sent and has been saved as a draft.";
@@ -5398,9 +5407,6 @@ This text is the accessibility hint for the button that lets the user change the
 /* Label indicating a Periscope broadcast could not be found, due to it being deleted or expiring */
 "PERISCOPE_CARD_BROADCAST_NOT_FOUND_LABEL" = "This broadcast is not available.";
 
-/* Title of a prompt to get a notification whenever somebody posts a live video on X */
-"PERISCOPE_FOLLOW_PROMPT_FORMAT" = "Get notified when %@ goes live";
-
 /* Title of broadcast details screen with multiple views. */
 "PERISCOPE_TOTAL_VIEWS_STRING" = "TOTAL VIEWS";
 
@@ -6488,6 +6494,9 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* "Post your reply" placeholder text for composer when creating a reply */
 "REPLY_WRITE_PLACEHOLDER" = "Post your reply";
+
+/* Menu item label for reporting the user whose profile card is shown. */
+"REPORT_ACTION_LABEL" = "Report";
 
 /* Label for button to report an ad. */
 "REPORT_AD_ACTION_LABEL" = "Report ad";
@@ -11085,6 +11094,20 @@ eg. "Super Following Jack" */
 /* The toast notification label when unmuting a user */
 "UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ has been unmuted";
 
+// Section: Frameworks/XAppLibraries/PostAbout/Sources/PostAboutStrings/en.lproj/Localizable.strings
+
+/* Label of the pill button in the "About this post" tray that opens Grok to ask a question about the post. */
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "Ask Grok";
+
+/* Label of the row in the "About this post" tray that opens a sub-screen listing additional actions for the post. */
+"POST_ABOUT_MORE_DETAILS_ROW_LABEL" = "More details";
+
+/* Title of the sub-screen listing additional actions for a post, reached from the "About this post" tray. */
+"POST_ABOUT_MORE_DETAILS_TITLE" = "More Details";
+
+/* Title of the "About this post" tray, opened from a post's overflow button. */
+"POST_ABOUT_TRAY_TITLE" = "About this post";
+
 // Section: Frameworks/XAppLibraries/Grok/Sources/GrokStrings/en.lproj/Localizable.strings
 
 /* Subtitle label for the Grok 4.20 Beta toggle in the model selector menu. Indicates that the Grok 4.20 Beta model is in early access. */
@@ -12040,116 +12063,6 @@ eg. "Super Following Jack" */
 /* Grok web results title */
 "GROK_WEB_RESULTS_TITLE" = "Relevant Web Pages";
 
-// Section: Frameworks/XAppLibraries/Profile/Sources/ProfileStrings/en.lproj/Localizable.strings
-
-/* Action text telling the user to check out the help center to learn more about impersonation policy (includes link) */
-"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_LEARN_MORE_TEXT" = "<p><a id=\"LEARN_MORE\">Learn more</a></p>";
-
-/* Description text for Parody Commentary and Fan Account Label landing page section for What's a PCF account?. */
-"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_ABOUT_PCF_DESCRIPTION" = "A PCF account depicts another person, group, or organization in their profile to discuss, satirize, or share information about that entity.";
-
-/* Title text for Parody Commentary and Fan Account Label landing page section for What's a PCF account?. */
-"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_ABOUT_PCF_TITLE" = "What’s a PCF account?";
-
-/* Formatted description text for Parody Commentary and Fan Account Label landing page section for Do I need to label my PCF account?. */
-"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_PCF_BENEFITS_DESCRIPTION_FORMAT" = "Yes. The PCF label ensures people on X are not confused by your account, informing them that your account is not affiliated with the subject of the profile. If not labeled, your account may violate the %@.";
-
-/* Text of the linkable text for formatted within the Parody Commentary and Fan Account Label landing page section for Do I need to label my PCF account?.  */
-"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_PCF_BENEFITS_LINK_TEXT" = "Authenticity policy";
-
-/* Title text for Parody Commentary and Fan Account Label landing page section for Do I need to label my PCF account?. */
-"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_PCF_BENEFITS_TITLE" = "Do I need to label my PCF account?";
-
-/* Description text for Parody Commentary and Fan Account Label landing page section for Do I need to label my PCF account?. */
-"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_PCF_HOW_TO_DESCRIPTION" = "Just click ‘Got it’, and we’ll take you to your profile settings to set an account label!";
-
-/* Title text for Parody Commentary and Fan Account Label landing page section for Do I need to label my PCF account?. */
-"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_PCF_HOW_TO_TITLE" = "How do I label my PCF account?";
-
-/* Title text for Parody Commentary and Fan Account Label under account settings. */
-"PARODY_COMMENTARY_FAN_ACCOUNT_TITLE_LABEL" = "Parody, commentary and fan account";
-
-/* Title text for the 'About this account' page that displays which country the user's account is based in */
-"PROFILE_ABOUT_THIS_ACCOUNT_ACCOUNT_BASED_TITLE_LABEL" = "Account based in";
-
-/* Title text for the 'About this account' page that displays the organization the user is affiliated with. Example: An affiliate of @X */
-"PROFILE_ABOUT_THIS_ACCOUNT_AFFILIATE_TITLE_STRING" = "An affiliate of •|•%@•|•";
-
-/* Title text for the 'About this account' page that displays where the user is currently connected from. Examples: United States App Store, Web etc. */
-"PROFILE_ABOUT_THIS_ACCOUNT_CONNECTED_VIA_TITLE_LABEL" = "Connected via";
-
-/* Label for the country filtered timeline entrypoint row on the 'About this account' page */
-"PROFILE_ABOUT_THIS_ACCOUNT_COUNTRY_FILTERED_TIMELINE_ENTRYPOINT_LABEL" = "Filter your timeline by region";
-
-/* Button label prompting the user to get Premium+ to unlock country filtered timeline on the 'About this account' page */
-"PROFILE_ABOUT_THIS_ACCOUNT_COUNTRY_FILTERED_TIMELINE_UPGRADE_BUTTON_LABEL" = "Get Premium+";
-
-/* Label for the country filtered timeline upgrade row on the 'About this account' page */
-"PROFILE_ABOUT_THIS_ACCOUNT_COUNTRY_FILTERED_TIMELINE_UPGRADE_LABEL" = "Unlock region filters";
-
-/* Text for the 'About this account' page that displays the date & country this account was created. Example: "September 2022 in United States". For languages where this is difficult to translate (e.g. Romance languages), please translate as "{date}, {country}" instead, e.g. "September 2022, France" */
-"PROFILE_ABOUT_THIS_ACCOUNT_DATE_AND_COUNTRY_CREATED_LABEL" = "%1$@ in %2$@";
-
-/* Title text for the 'About this account' page that displays the account registration date of the user */
-"PROFILE_ABOUT_THIS_ACCOUNT_DATE_JOINED_TITLE_LABEL" = "Date joined";
-
-/* Title and button CTA for modal sheet that links to upgrade for Premium (shown when verified-to-premium relabeling is enabled, e.g. in EU) */
-"PROFILE_ABOUT_THIS_ACCOUNT_GET_PREMIUM_UPGRADE_BUTTON_LABEL" = "Upgrade to get premium";
-
-/* Title and button CTA for modal sheet that links to upgrade to for Premium verified */
-"PROFILE_ABOUT_THIS_ACCOUNT_GET_VERIFIED_UPGRADE_BUTTON_LABEL" = "Upgrade to get verified";
-
-/* Title text for the 'About this account' page that displays when the account's identity has been verified using a government issued ID */
-"PROFILE_ABOUT_THIS_ACCOUNT_ID_VERIFIED_TITLE_LABEL" = "ID verified";
-
-/* Detail text for the 'About this account' page that displays when the user's location may not be accurate (due to VPN usage) */
-"PROFILE_ABOUT_THIS_ACCOUNT_INACCURATE_CREATED_LOCATION_DESCRIPTION_LABEL" = "One of our partners has indicated that this account may be connecting via a proxy—such as a VPN—when they signed up. This will change the country or region that is displayed.";
-
-/* Detail text for the 'About this account' page that displays when the user's location may not be accurate (due to VPN usage) */
-"PROFILE_ABOUT_THIS_ACCOUNT_INACCURATE_LOCATION_DESCRIPTION_LABEL_1" = "One of our partners has indicated that this account may be connecting via a proxy—such as a VPN, which may change the country or region that is displayed on their profile.";
-
-/* Continuation of the detail text for the 'About this account' page that displays when the user's location may not be accurate (due to VPN usage) */
-"PROFILE_ABOUT_THIS_ACCOUNT_INACCURATE_LOCATION_DESCRIPTION_LABEL_2" = "This data may not be accurate. Some internet providers may use proxies automatically without action by the user.";
-
-/* Title text for the 'About this account' page that displays when the user's location may not be accurate (due to VPN usage) */
-"PROFILE_ABOUT_THIS_ACCOUNT_INACCURATE_LOCATION_TITLE_LABEL" = "Country or region may not be accurate";
-
-/* Label for the action button on the 'About this account' info trays. Confirms the user read the information and dismisses the tray. */
-"PROFILE_ABOUT_THIS_ACCOUNT_INFO_SHEET_CONFIRM_BUTTON_LABEL" = "Got it";
-
-/* Text for the 'About this account' page that displays the last date when the user changed their username. Example: Last on September 2022 */
-"PROFILE_ABOUT_THIS_ACCOUNT_LAST_USERNAME_CHANGE_LABEL" = "Last on %@";
-
-/* Detail text for the 'About this account' page that explains the nature of the user's account location */
-"PROFILE_ABOUT_THIS_ACCOUNT_LOCATION_DESCRIPTION_LABEL_1" = "The country or region of an account is determined by recent IP addresses of a user. It can be impacted by recent travel or temporary relocation. This data may not be accurate and can change periodically.";
-
-/* Detail text for the 'About this account' page that tells the user to report a problem from the Settings page if information is inaccurate */
-"PROFILE_ABOUT_THIS_ACCOUNT_LOCATION_DESCRIPTION_LABEL_2" = "Go to Settings to report a problem";
-
-/* Title text for the 'About this account' page that explains the nature of the user's account location */
-"PROFILE_ABOUT_THIS_ACCOUNT_LOCATION_DESCRIPTION_TITLE_LABEL" = "How it works";
-
-/* Page title for the 'About this account' page that displays more information about a given user */
-"PROFILE_ABOUT_THIS_ACCOUNT_NAVIGATION_ITEM_TITLE_LABEL" = "About this account";
-
-/* Title text for the 'About this account' page row that displays when the account is a Premium member (shown for blue-checkmark and affiliate users when the verified-to-premium relabeling feature is on; gold and gray verified accounts continue to show "Verified") */
-"PROFILE_ABOUT_THIS_ACCOUNT_PREMIUM_MEMBER_TITLE_LABEL" = "Premium member";
-
-/* Title text for the 'About this account' page that displays the number of times the user changed their account username (plural) */
-"PROFILE_ABOUT_THIS_ACCOUNT_USERNAME_CHANGES_PLURAL_TITLE_LABEL" = "%@ username changes";
-
-/* Title text for the 'About this account' page that displays the number of times the user changed their account username (singular) */
-"PROFILE_ABOUT_THIS_ACCOUNT_USERNAME_CHANGES_SINGULAR_TITLE_LABEL" = "1 username change";
-
-/* Text for the 'About this account' page that displays the month & year since when the account was verified. Example: Since September 2022 */
-"PROFILE_ABOUT_THIS_ACCOUNT_VERIFIED_SINCE_LABEL" = "Since %@";
-
-/* Title text for the 'About this account' page that displays when the account has been verified */
-"PROFILE_ABOUT_THIS_ACCOUNT_VERIFIED_TITLE_LABEL" = "Verified";
-
-/* Page title for the 'About this account' page that displays more information about the current logged-in user */
-"PROFILE_ABOUT_YOUR_ACCOUNT_NAVIGATION_ITEM_TITLE_LABEL" = "About your account";
-
 // Section: Frameworks/XAppLibraries/TweetDetails/Sources/TweetDetailsStrings/en.lproj/Localizable.strings
 
 /* Message used to toggle auto-translation. e.g. "Automatically translate Japanese -- [on|off]" */
@@ -12268,29 +12181,6 @@ eg. "Super Following Jack" */
 
 /* Text at the page footer linking to more information about Verification */
 "VERIFICATION_LANDING_SECTION_5_SUBTEXT" = "If you’re not quite ready to take the leap you can get more information at our <a id=\"#\">Help Center</a>.";
-
-// Section: Frameworks/XAppLibraries/PollCard/Sources/PollCardStrings/en.lproj/Localizable.strings
-
-/* Label for votes count in polls (plural). e.g. 5 votes */
-"POLL_CARD_DISPLAY_COUNT_VOTES_FORMAT" = "%@ votes";
-
-/* Label for votes count in polls (singular). e.g. 1 vote */
-"POLL_CARD_DISPLAY_COUNT_VOTE_FORMAT" = "%@ vote";
-
-/* Label for final poll results */
-"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Final results";
-
-/* Label indicating poll is about to end */
-"POLL_CARD_DISPLAY_POLL_ENDING" = "Poll ending…";
-
-/* Label for time remaining in poll. %@ is replaced by the time description (e.g. "2 hours") */
-"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@ left";
-
-/* Label for vote count and time left on polling card. %1$@ is replaced by POLL_CARD_COUNT_VOTE_FORMAT/POLL_CARD_COUNT_VOTES_FORMAT and %2$@ is replaced by a text description of the remaining time available for voting. */
-"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
-
-/* Generic error message for vote submission failures */
-"POLL_CARD_VOTE_SUBMISSION_FAILED" = "Vote submission failed. Please try again.";
 
 // Section: Frameworks/InAppPurchases/Sources/InAppPurchasesStrings/en.lproj/Localizable.strings
 
@@ -13901,23 +13791,11 @@ eg. "Super Following Jack" */
 /* Payments: Button text to add card to Apple Wallet */
 "PAYMENTS_CARD_SPEND_ADD_TO_WALLET_ACTION" = "Add to Apple Wallet";
 
-/* Payments Screen: Highlights cashback benefit for card usage. */
-"PAYMENTS_CARD_SPEND_BENEFIT_CASHBACK" = "Earn lucrative cash back everywhere and pay no foreign transaction fees*";
-
-/* Payments Screen: Highlights card protection for in-person and online transactions */
-"PAYMENTS_CARD_SPEND_BENEFIT_EVERYWHERE" = "Protected by Visa’s Zero Liability Policy";
-
-/* Payments Screen: Highlights card's physical material and design */
-"PAYMENTS_CARD_SPEND_BENEFIT_MATERIAL" = "Metal card personalized with your X handle";
-
 /* Payments: Button text to change the pin of the card */
 "PAYMENTS_CARD_SPEND_CHANGE_PIN" = "Change PIN";
 
 /* Payments: Title of the setting that allows a customer to chose to print or engrave their username on the card. */
 "PAYMENTS_CARD_SPEND_CONFIGURE_ENGRAVE_OR_PRINT_USERNAME_OPTION" = "Print my username";
-
-/* Payments: Disclaimer shown on the screen that allows the customer to order their X Card. %1$@ is replaced by the title of the button that trigger the ordering flow (ex: Continue). %2$@ is replaced by one or multiple document names already localized (ex 1: X Cardholder Agreement, ex 2: X Cardholder Agreement and Privacy Policy) */
-"PAYMENTS_CARD_SPEND_DISCLAIMER_FORMAT" = "By clicking “%1$@”, you agree to the %2$@. X Money Card is issued by Cross River Bank, Member FDIC, pursuant to a license from Visa USA Inc.";
 
 /* Payments: Label for cardholder name field */
 "PAYMENTS_CARD_SPEND_FIELD_CARDHOLDER_NAME" = "Cardholder Name";
@@ -13946,12 +13824,6 @@ eg. "Super Following Jack" */
 /* Payments: Generic error title shown when card issuance fails */
 "PAYMENTS_CARD_SPEND_ISSUE_CARD_ERROR_GENERIC_TITLE" = "Unable to issue your card";
 
-/* Payments: Error subtitle shown when card is pending some input from the customer. */
-"PAYMENTS_CARD_SPEND_ISSUE_CARD_ERROR_PENDING_KYC_OR_ADDRESS_SUBTITLE" = "We need more information before we can issue and ship it to you.";
-
-/* Payments: Error title shown when card is pending some input from the customer. */
-"PAYMENTS_CARD_SPEND_ISSUE_CARD_ERROR_PENDING_KYC_OR_ADDRESS_TITLE" = "Thank you for ordering your card";
-
 /* Payments: Error message shown when card issuance fails, but we'll retry later on behalf of the customer, and update them. */
 "PAYMENTS_CARD_SPEND_ISSUE_CARD_ERROR_PENDING_SUBTITLE" = "We’re currently reviewing your information.";
 
@@ -13967,53 +13839,14 @@ eg. "Super Following Jack" */
 /* Payments: Title of manage card features (lock/unlock, replace) */
 "PAYMENTS_CARD_SPEND_MANAGE_TITLE" = "Manage Card";
 
-/* Payments: Button text to continue card issuance */
-"PAYMENTS_CARD_SPEND_ORDER_CARD_ACTION" = "Get my debit card";
-
-/* Payments: Button text to order a new card to replace the existing one */
-"PAYMENTS_CARD_SPEND_ORDER_CARD_REPLACEMENT_ACTION" = "Order a card replacement";
-
-/* Payments: Disclaimer show next to the button to order a new card to replace the existing one */
-"PAYMENTS_CARD_SPEND_ORDER_CARD_REPLACEMENT_DISCLAIMER" = "If you think your card got lost in the mail";
-
 /* Payments: Toast message shown when card is activated */
 "PAYMENTS_CARD_SPEND_PHYSICAL_CARD_ACTIVATED_TOAST" = "Your card is ready to use";
-
-/* Payments: Subtitle indicating card needs activation after being delivered */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_DELIVERED_SUBTITLE" = "Tap here to activate";
-
-/* Payments: Title indicating card needs activation after being delivered */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_DELIVERED_TITLE" = "Your card should have been delivered";
-
-/* Payments: Subtitle indicating physical card delivery has failed, and that they can tap on the button to re-order a new one. */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_DELIVERY_FAILED_SUBTITLE" = "Re-order a new one today.";
-
-/* Payments: Title indicating physical card delivery has failed */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_DELIVERY_FAILED_TITLE" = "We were unable to deliver your card";
 
 /* Payments: Title indicating card is locked by the support */
 "PAYMENTS_CARD_SPEND_PHYSICAL_CARD_LOCKED_BY_SUPPORT_TITLE" = "Card disabled: contact support";
 
 /* Payments: Subtitle indicating card is locked. */
 "PAYMENTS_CARD_SPEND_PHYSICAL_CARD_LOCKED_SUBTITLE" = "Future transactions will be declined";
-
-/* Payments: Title indicating card is locked */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_LOCKED_TITLE" = "Your physical card is locked";
-
-/* Payments: Subtitle indicating physical card is being processed, and that the virtual one can be used in the meantime. */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_PROCESSING_SUBTITLE" = "Your virtual card is ready to use";
-
-/* Payments: Title indicating physical card is being processed */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_PROCESSING_TITLE" = "Your physical card has been ordered";
-
-/* Payments: Subtitle indicating physical card has shipped */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_SHIPPED_SUBTITLE" = "Tap here to activate when it arrives";
-
-/* Payments: Title indicating physical card has shipped */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_SHIPPED_TITLE" = "Your card has shipped";
-
-/* Payments: Title indicating physical card has shipped with available tracking information. %@ is replaced by the ETA date. */
-"PAYMENTS_CARD_SPEND_PHYSICAL_CARD_SHIPPED_WITH_TRACKING_TITLE" = "Your card should arrive by %@";
 
 /* Payments: Subtitle of the screen where the user confirms the PIN of their physical card */
 "PAYMENTS_CARD_SPEND_PIN_CONFIRMATION_SUBTITLE" = "You will use this at ATMs and certain card transactions. You can reset it at anytime.";
@@ -14029,12 +13862,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Button text to replace a card */
 "PAYMENTS_CARD_SPEND_REPLACE_ACTION" = "Replace Card";
-
-/* Payments: Title of the button to activate the physical card */
-"PAYMENTS_CARD_SPEND_SHIPPING_ACTIVATE_NOW_ACTION" = "Activate my card now";
-
-/* Payments: Disclaimer shown below the the button to activate the physical card, to ensure that the user has received the card before they try to activate it */
-"PAYMENTS_CARD_SPEND_SHIPPING_ACTIVATE_NOW_DISCLAIMER" = "Verify receipt of the card prior to activation";
 
 /* Payments: Body of the tray shown when the user says they already received their physical card, explaining tracking may lag and the card can be activated */
 "PAYMENTS_CARD_SPEND_SHIPPING_ALREADY_DELIVERED_BODY" = "Our tracking may be a bit behind but if you received your card it is ready to activate and use";
@@ -14117,14 +13944,8 @@ eg. "Super Following Jack" */
 /* Payments: Subtitle showing which carrier is used for tracking. %@ is replaced by the carrier name (e.g. “FedEx”). */
 "PAYMENTS_CARD_SPEND_SHIPPING_TRACKING_WITH_CARRIER_FORMAT" = "Tracking with %@";
 
-/* Payments: Title of the button to track the physical card shipping status */
-"PAYMENTS_CARD_SPEND_SHIPPING_TRACK_ACTION" = "Track my card";
-
 /* Payments: Title of the action to show card details (number, CVC, ...) */
 "PAYMENTS_CARD_SPEND_SHOW_DETAILS_ACTION" = "View details";
-
-/* Payments: Title indicating card is locked */
-"PAYMENTS_CARD_SPEND_VIRTUAL_CARD_LOCKED_TITLE" = "Your virtual card is locked";
 
 /* Payments: Display name for a charge card */
 "PAYMENTS_CARD_TYPE_CHARGE" = "Charge";
@@ -14365,6 +14186,12 @@ eg. "Super Following Jack" */
 
 /* Payments: Action button to confirm an operation */
 "PAYMENTS_CONFIRM_ACTION" = "Confirm";
+
+/* Payments: Subtitle of the error shown when the customer's connection has an issue. */
+"PAYMENTS_CONNECTION_ISSUE_MESSAGE" = "Please try again later.";
+
+/* Payments: Title of the error shown when the customer's connection has an issue. */
+"PAYMENTS_CONNECTION_ISSUE_TITLE" = "Your device could not connect to Money";
 
 /* Payments: Title of a button that allows the user to consent to something (ex: verifying their ID). Should be kept generic. */
 "PAYMENTS_CONSENT_ACTION" = "Consent";
@@ -14611,12 +14438,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Disclaimer text shown in the automated direct deposit flow, linking to Pinwheel’s Terms of Service and Privacy Policy. %1$@ is replaced by an action name already localized (ex: Continue), %2$@ and %3$@ are replaced by URLs. */
 "PAYMENTS_DIRECT_DEPOSIT_SWITCH_DISCLAIMER_MARKDOWN_FORMAT" = "By selecting “%1$@” you acknowledge you have reviewed and agree to Pinwheel’s [Terms of Service](%2$@) & [Privacy Policy](%3$@).";
-
-/* Payments: Subtitle for the second benefit row in the automated direct deposit flow, explaining immediate interest earnings */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_EARN_APY_SUBTITLE" = "Start earning industry leading interest the moment your paycheck hits X";
-
-/* Payments: Title for the second benefit row in the automated direct deposit flow, highlighting interest earnings */
-"PAYMENTS_DIRECT_DEPOSIT_SWITCH_EARN_APY_TITLE" = "Earn High Interest";
 
 /* Payments: Toast message shown when the automated direct deposit setup is completed successfully */
 "PAYMENTS_DIRECT_DEPOSIT_SWITCH_SUCCESS_TOAST" = "You’ve setup your Direct Deposit successfully.";
@@ -15239,12 +15060,6 @@ eg. "Super Following Jack" */
 /* Payments: Title for the ID verification task, prompting the user to ID verify to get a bank account */
 "PAYMENTS_LOCAL_TASK_ID_VERIFICATION_TITLE" = "Verify your identity";
 
-/* Payments: Subtitle for the X Card task, prompting the user to order their physical X Card */
-"PAYMENTS_LOCAL_TASK_X_CARD_SUBTITLE" = "Start Spending";
-
-/* Payments: Title for the X Card task, prompting the user to order their physical X Card */
-"PAYMENTS_LOCAL_TASK_X_CARD_TITLE" = "X Card";
-
 /* Payments: Subtitle of the screen shown when X Money is unavailable because iOS Lockdown mode is enabled, instructing the user how to resolve it. */
 "PAYMENTS_LOCKDOWN_MODE_ENABLED_SUBTITLE" = "Please turn it off or add an exception for the X app in your Settings.";
 
@@ -15268,9 +15083,6 @@ eg. "Super Following Jack" */
 
 /* Payments: Error shown on the shipping address screen, when the apartment or unit number is missing */
 "PAYMENTS_MAILING_ADDRESS_ERROR_MISSING_SUBPREMISE" = "Please provide an Apartment, Suite, etc.";
-
-/* Payments: Menu option to view the proof of payment of a transaction (typically a PDF document, for wire transfers) */
-"PAYMENTS_MORE_MENU_PROOF_OF_PAYMENT" = "Proof of payment";
 
 /* Payments: Subtitle shown when bank account linking failed because the name was not a match */
 "PAYMENTS_NAME_MISMATCH_ERROR_ACCOUNT_LINKING_MESSAGE" = "Please try a different account.";
@@ -16283,17 +16095,8 @@ eg. "Super Following Jack" */
 /* Payments: Type of account (individual) on the customer's cash account tile */
 "PAYMENTS_TILE_CASH_ACCOUNT_TYPE_INDIVIDUAL" = "My account";
 
-/* Payments: Status on the card tile when it has been delivered (most likely). */
-"PAYMENTS_TILE_XCARD_STATUS_INACTIVE" = "Activate card";
-
 /* Payments: Status on the card tile when it is locked (no payments can be made) */
 "PAYMENTS_TILE_XCARD_STATUS_LOCKED" = "Locked";
-
-/* Payments: Status on the card tile when it is shipping and we don't have an ETA. */
-"PAYMENTS_TILE_XCARD_STATUS_SHIPPING_WITHOUT_ETA" = "Shipping";
-
-/* Payments: Status on the card tile when it is shipping and we have an ETA. %@ is replaced by a localized date. */
-"PAYMENTS_TILE_XCARD_STATUS_SHIPPING_WITH_ETA_FORMAT" = "Arriving %@";
 
 /* Payments: Title of the card containing information about the customer's debit card */
 "PAYMENTS_TILE_XCARD_TITLE" = "X Card";
@@ -17482,6 +17285,26 @@ eg. "Super Following Jack" */
 /* Title for the section that allows the user to open preview the Branded Likes animation. */
 "BRANDED_OVERLAY_PREVIEW_TITLE" = "Branded Overlay preview";
 
+// Section: Frameworks/XPermissions/Sources/XPermissionsStrings/en.lproj/Localizable.strings
+
+/* Permissions: Title of the mock "Allow" button in the illustrated preview of the system permission alert */
+"CHAT_PERMISSION_ALLOW" = "Allow";
+
+/* Permissions: Subtitle shown when camera access was previously denied and must be re-enabled in Settings */
+"CHAT_PERMISSION_CAMERA_SUBTITLE_DENIED" = "Open settings to enable camera";
+
+/* Permissions: Title of the button that triggers the system permission alert */
+"CHAT_PERMISSION_CONTINUE" = "Continue";
+
+/* Permissions: Title of the mock "Deny" button in the illustrated preview of the system permission alert */
+"CHAT_PERMISSION_DENY" = "Deny";
+
+/* Permissions: Subtitle shown when microphone access was previously denied and must be re-enabled in Settings */
+"CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_SUBTITLE_DENIED" = "Open settings to enable microphone";
+
+/* Permissions: Title of the button that opens the app's page in the Settings app */
+"CHAT_PERMISSION_OPEN_SETTINGS" = "Open Settings";
+
 // Section: Frameworks/LiveActivities/Sources/LiveActivityStrings/en.lproj/Localizable.strings
 
 /* Title of a toast shown once download failed*/
@@ -17630,6 +17453,99 @@ eg. "Super Following Jack" */
 
 /* People search filter option which only shows results from people you follow */
 "SEARCH_FILTER_PEOPLE_FOLLOWING_LABEL" = "People you follow";
+
+/* Search filter pill label for the card_domain: operator (card attached from a domain) */
+"SEARCH_PILL_CARD_DOMAIN_LABEL" = "Card domain";
+
+/* Search filter pill label for the card_name: operator (posts with an attached card) */
+"SEARCH_PILL_CARD_LABEL" = "Card";
+
+/* Search filter pill label for the from: operator (posts authored by a user), shown before the username */
+"SEARCH_PILL_FROM_LABEL" = "From";
+
+/* Search filter pill label for the has: operator (posts containing something, e.g. "Has Media"), shown before the content type */
+"SEARCH_PILL_HAS_LABEL" = "Has";
+
+/* Search filter pill text for the conversation_id: operator (posts in a specific conversation); the ID itself is hidden */
+"SEARCH_PILL_IN_CONVERSATION_LABEL" = "In conversation";
+
+/* Search filter pill label for the lang: operator, shown before the language name (e.g. "Language French") */
+"SEARCH_PILL_LANGUAGE_LABEL" = "Language";
+
+/* Search filter pill label for a relative time window (e.g. "Last 7d" = posts from the last 7 days); "Last" as in recency, not final */
+"SEARCH_PILL_LAST_LABEL" = "Last";
+
+/* Search filter pill label for the url: operator (posts linking to a site), shown before the domain */
+"SEARCH_PILL_LINK_LABEL" = "Link";
+
+/* Search filter pill text for the list: operator (posts from members of a list); the list ID is hidden */
+"SEARCH_PILL_LIST_LABEL" = "List";
+
+/* Search filter pill label for the min_faves: operator, shown before the number (e.g. "Min. likes 100") */
+"SEARCH_PILL_MIN_LIKES_LABEL" = "Min. likes";
+
+/* Search filter pill label for the min_replies: operator, shown before the number (e.g. "Min. replies 10") */
+"SEARCH_PILL_MIN_REPLIES_LABEL" = "Min. replies";
+
+/* Search filter pill label for the min_retweets: operator, shown before the number (e.g. "Min. reposts 5") */
+"SEARCH_PILL_MIN_REPOSTS_LABEL" = "Min. reposts";
+
+/* Search filter pill label for the near: operator, shown before the place name (e.g. "Near Paris") */
+"SEARCH_PILL_NEAR_LABEL" = "Near";
+
+/* Search filter pill text for the geocode: operator (posts near coordinates); the raw coordinates are hidden */
+"SEARCH_PILL_NEAR_LOCATION_LABEL" = "Near location";
+
+/* Search filter pill negation prefix; %1$@ is the filter label or value being negated (e.g. "Not From", "Not Media") */
+"SEARCH_PILL_NOT_FORMAT" = "Not %1$@";
+
+/* Search filter pill negation prefix shown alone before a negated filter value (e.g. "Not" + "Media") */
+"SEARCH_PILL_NOT_LABEL" = "Not";
+
+/* Search filter pill text for the place: operator (posts from a place); the place ID is hidden */
+"SEARCH_PILL_PLACE_LABEL" = "Place";
+
+/* Search filter pill text for the quoted_tweet_id: operator (posts quoting a specific post); the ID is hidden */
+"SEARCH_PILL_QUOTING_POST_LABEL" = "Quoting post";
+
+/* Search filter pill text for the quoted_user_id: operator (posts quoting a specific user); the ID is hidden */
+"SEARCH_PILL_QUOTING_USER_LABEL" = "Quoting user";
+
+/* Search filter pill label for the since: operator, shown before a date (e.g. "Since Jul 1, 2026") */
+"SEARCH_PILL_SINCE_LABEL" = "Since";
+
+/* Search filter pill label for the source: operator (posts sent from a client app), shown before the client name */
+"SEARCH_PILL_SOURCE_LABEL" = "Source";
+
+/* Search filter pill label for the to: operator (posts replying to a user), shown before the username */
+"SEARCH_PILL_TO_LABEL" = "To";
+
+/* Search filter pill label for the until: operator, shown before a date (e.g. "Until Aug 1, 2026") */
+"SEARCH_PILL_UNTIL_LABEL" = "Until";
+
+/* Search filter pill value for filter:images (posts containing images) */
+"SEARCH_PILL_VALUE_IMAGES" = "Images";
+
+/* Search filter pill value for filter:links (posts containing links) */
+"SEARCH_PILL_VALUE_LINKS" = "Links";
+
+/* Search filter pill value for filter:media (posts containing media) */
+"SEARCH_PILL_VALUE_MEDIA" = "Media";
+
+/* Search filter pill value for filter:replies (posts that are replies) */
+"SEARCH_PILL_VALUE_REPLIES" = "Replies";
+
+/* Search filter pill value for filter:retweets / include:nativeretweets (posts that are reposts) */
+"SEARCH_PILL_VALUE_REPOSTS" = "Reposts";
+
+/* Search filter pill value for is:verified / filter:blue_verified (posts from verified accounts) */
+"SEARCH_PILL_VALUE_VERIFIED" = "Verified";
+
+/* Search filter pill value for filter:videos (posts containing videos) */
+"SEARCH_PILL_VALUE_VIDEOS" = "Videos";
+
+/* Search filter pill label for the within: operator (radius around a place), shown before the distance (e.g. "Within 15mi") */
+"SEARCH_PILL_WITHIN_LABEL" = "Within";
 
 /* Search bar label text that is always visible when tagging a user in post media, this text always precedes the selected/tagged users in the search bar." */
 "TAGGING_TWEET_ADDRESSING_BAR_PREFIX_TEXT" = "Tag:";
@@ -18356,6 +18272,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Accessibility label for undo button on the composer */
 "COMPOSE_VIEW_UNDO_ACCESSIBILITY_LABEL" = "Undo";
+
+/* A toast notification message displayed when successfully completed sending a post thread. */
+"COMPOSITION_COMPLETE_SENDING_TWEET_THREAD_TOAST_NOTIFICATION_MESSAGE" = "Your posts were sent";
+
+/* A toast notification message displayed when successfully completed sending a single post. */
+"COMPOSITION_COMPLETE_SENDING_TWEET_TOAST_NOTIFICATION_MESSAGE" = "Your post was sent";
 
 /* Error presented to the user when post send fails. */
 "COMPOSITION_SEND_TWEET_ERROR_LABEL" = "Your post couldn’t be sent right now and has been saved as a draft. Please try sending it again later.";
@@ -20030,6 +19952,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Group invite request approve button title */
 "CHAT_GROUP_INVITE_APPROVE" = "Approve";
 
+/* Group invite request deny button title */
+"CHAT_GROUP_INVITE_DENY" = "Deny";
+
 /* Group invite link footer description */
 "CHAT_GROUP_INVITE_FOOTER" = "When enabled, anyone with the link can request to join this group conversation and see the group name, group photo and member count.";
 
@@ -20072,17 +19997,11 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* On toggle label */
 "CHAT_ON" = "On";
 
-/* Chat permission allow button title */
-"CHAT_PERMISSION_ALLOW" = "Allow";
-
 /* Chat permission camera subtitle safety number undetermined */
 "CHAT_PERMISSION_CAMERA_SAFETY_NUMBER_SUBTITLE_UNDETERMINED" = "Allow camera access to scan safety number";
 
 /* Chat permission camera safety number title */
 "CHAT_PERMISSION_CAMERA_SAFETY_NUMBER_TITLE" = "Scan safety number";
-
-/* Chat permission camera subtitle denied */
-"CHAT_PERMISSION_CAMERA_SUBTITLE_DENIED" = "Open settings to enable camera";
 
 /* Chat permission camera subtitle undetermined */
 "CHAT_PERMISSION_CAMERA_SUBTITLE_UNDETERMINED" = "Allow camera access to send photos and videos";
@@ -20090,23 +20009,11 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Chat permission camera title */
 "CHAT_PERMISSION_CAMERA_TITLE" = "Send photos and videos";
 
-/* Chat permission continue button title */
-"CHAT_PERMISSION_CONTINUE" = "Continue";
-
-/* Chat permission deny button title */
-"CHAT_PERMISSION_DENY" = "Deny";
-
-/* Chat permission microphone voice messages subtitle denied */
-"CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_SUBTITLE_DENIED" = "Open settings to enable microphone";
-
 /* Chat permission microphone voice messages subtitle undetermined */
 "CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_SUBTITLE_UNDETERMINED" = "Allow microphone access to send voice messages";
 
 /* Chat permission microphone voice messages title */
 "CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_TITLE" = "Send voice messages";
-
-/* Chat permission open settings button title */
-"CHAT_PERMISSION_OPEN_SETTINGS" = "Open Settings";
 
 /* Photo library access denied alert title */
 "CHAT_PHOTO_ACCESS_DENIED_TITLE" = "Photo Library Access Required";
@@ -21229,6 +21136,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* DM group invite request to join error already requested toast title */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_ERROR_ALREADY_REQUESTED_TITLE" = "You’ve already requested to join this group";
+
+/* DM group invite request to join error toast title shown when the group has reached its maximum number of members */
+"DM_GROUP_INVITE_REQUEST_TO_JOIN_ERROR_GROUP_FULL_TITLE" = "Groupchat is full. You’ll be able to join when space becomes available.";
 
 /* DM group invite request to join error missing public key action set passcode */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_ERROR_MISSING_PUBLIC_KEY_ACTION_SET_PASSCODE" = "Set passcode";
@@ -23860,6 +23770,12 @@ eg. "- @jack" */
 
 // Section: Frameworks/TwitterSelfServeAds/Sources/TwitterSelfServeAdsStrings/en.lproj/Localizable.strings
 
+/* Primary action button on the ads-screening tray shown when a post was soft-blocked from boosting. Tapping it continues into the Boost flow despite the warning. */
+"BOOST_ADS_SCREENING_BOOST_ANYWAY_BUTTON" = "Boost anyway";
+
+/* Title of the tray explaining why ads screening blocked a post from being boosted. */
+"BOOST_ADS_SCREENING_TITLE" = "Before you boost";
+
 /* Attribution line in the boosted-label tray for a post boosted by a third party. %1$@ is the @handle of the account that boosted the post. */
 "BOOST_LABEL_INFO_ATTRIBUTION_FORMAT" = "This organic post was boosted by %1$@.";
 
@@ -24891,8 +24807,50 @@ eg. "- @jack" */
 /* Column header for the moneyline market on the odds card. */
 "NFL_GAME_ODDS_TO_WIN_HEADER" = "To win";
 
+/* Title of the passing player-stats card on the game screen. */
+"NFL_GAME_PASSING_CARD_TITLE" = "Passing";
+
+/* Passing card column header: completions over attempts (e.g. 18/24). */
+"NFL_GAME_PASSING_COLUMN_COMP_ATT" = "C/ATT";
+
+/* Passing card column header: interceptions thrown. */
+"NFL_GAME_PASSING_COLUMN_INTERCEPTIONS" = "INT";
+
+/* Passing card column header: touchdown passes. */
+"NFL_GAME_PASSING_COLUMN_TOUCHDOWNS" = "TD";
+
+/* Passing card column header: passing yards. */
+"NFL_GAME_PASSING_COLUMN_YARDS" = "YDS";
+
 /* Tag on the most recent play card in the play-by-play feed. */
 "NFL_GAME_PLAY_LATEST_TAG" = "LATEST";
+
+/* Headline for a timeout entry in the play-by-play feed. */
+"NFL_GAME_PLAY_TIMEOUT_HEADLINE" = "Timeout";
+
+/* Title of the receiving player-stats card on the game screen. */
+"NFL_GAME_RECEIVING_CARD_TITLE" = "Receiving";
+
+/* Receiving card column header: receptions. */
+"NFL_GAME_RECEIVING_COLUMN_RECEPTIONS" = "REC";
+
+/* Receiving card column header: receiving touchdowns. */
+"NFL_GAME_RECEIVING_COLUMN_TOUCHDOWNS" = "TD";
+
+/* Receiving card column header: receiving yards. */
+"NFL_GAME_RECEIVING_COLUMN_YARDS" = "YDS";
+
+/* Title of the rushing player-stats card on the game screen. */
+"NFL_GAME_RUSHING_CARD_TITLE" = "Rushing";
+
+/* Rushing card column header: rushing attempts / carries. */
+"NFL_GAME_RUSHING_COLUMN_CARRIES" = "CAR";
+
+/* Rushing card column header: rushing touchdowns. */
+"NFL_GAME_RUSHING_COLUMN_TOUCHDOWNS" = "TD";
+
+/* Rushing card column header: rushing yards. */
+"NFL_GAME_RUSHING_COLUMN_YARDS" = "YDS";
 
 /* Gameview segment tab showing the fan chat. */
 "NFL_GAME_SEGMENT_CHAT" = "Chat";
@@ -24929,6 +24887,30 @@ eg. "- @jack" */
 
 /* Team stats row: turnovers committed (interceptions plus lost fumbles). */
 "NFL_GAME_STATS_TURNOVERS" = "Turnovers";
+
+/* Shown on the situation line under the game clock while a timeout is active. */
+"NFL_GAME_TIMEOUT_LABEL" = "TIMEOUT";
+
+/* Games tab section header for a week's slate, with the week number and date (e.g. "Week 2 · Sep 17"). */
+"NFL_HUB_GAMES_WEEK_FORMAT" = "Week %1$d · %2$@";
+
+/* Section header on the hub Home tab above the list of in-progress games. */
+"NFL_HUB_HOME_LIVE_TITLE" = "Live";
+
+/* Hub segment tab showing the games schedule and scores. */
+"NFL_HUB_SEGMENT_GAMES" = "Games";
+
+/* Hub segment tab showing the league home overview. */
+"NFL_HUB_SEGMENT_HOME" = "Home";
+
+/* Hub segment tab showing the league standings. */
+"NFL_HUB_SEGMENT_STANDINGS" = "Standings";
+
+/* Navigation bar title for the NFL game-day hub. */
+"NFL_HUB_TITLE" = "NFL";
+
+/* Kickoff time on an upcoming game scorecard, where %@ is the time (e.g. "at 1:00 PM"). */
+"NFL_HUB_UPCOMING_TIME_FORMAT" = "at %@";
 
 /* Detail-row label for the broadcast networks carrying a game. */
 "NFL_SCHEDULE_BROADCAST_LABEL" = "Broadcast";
@@ -24980,6 +24962,48 @@ eg. "- @jack" */
 
 /* Week label shown in the game-details tray, where %@ is the week number (e.g. "Week 1"). */
 "NFL_SCHEDULE_WEEK_LABEL_FORMAT" = "Week %@";
+
+/* Standings table column header for a team's losses. */
+"NFL_STANDINGS_COLUMN_LOSSES" = "L";
+
+/* Standings table column header for a team's point differential (points for minus points against). */
+"NFL_STANDINGS_COLUMN_NET_POINTS" = "Net Pts";
+
+/* Standings table column header for the points scored against a team. */
+"NFL_STANDINGS_COLUMN_POINTS_AGAINST" = "PA";
+
+/* Standings table column header for the points scored by a team. */
+"NFL_STANDINGS_COLUMN_POINTS_FOR" = "PF";
+
+/* Standings table column header for the team name column. */
+"NFL_STANDINGS_COLUMN_TEAM" = "Team";
+
+/* Standings table column header for a team's ties. */
+"NFL_STANDINGS_COLUMN_TIES" = "T";
+
+/* Standings table column header for a team's wins. */
+"NFL_STANDINGS_COLUMN_WINS" = "W";
+
+/* Standings table column header for a team's winning percentage. */
+"NFL_STANDINGS_COLUMN_WIN_PCT" = "Pct";
+
+/* Standings segmented-control option for the American Football Conference. */
+"NFL_STANDINGS_CONFERENCE_AFC" = "AFC";
+
+/* Standings segmented-control option for the National Football Conference. */
+"NFL_STANDINGS_CONFERENCE_NFC" = "NFC";
+
+/* Standings card title for the East division of a conference. */
+"NFL_STANDINGS_DIVISION_EAST" = "East";
+
+/* Standings card title for the North division of a conference. */
+"NFL_STANDINGS_DIVISION_NORTH" = "North";
+
+/* Standings card title for the South division of a conference. */
+"NFL_STANDINGS_DIVISION_SOUTH" = "South";
+
+/* Standings card title for the West division of a conference. */
+"NFL_STANDINGS_DIVISION_WEST" = "West";
 
 /* Subtitle of the NFL Top 100 screen, where %@ is the season year (e.g. "Players of 2026"). */
 "NFL_TOP_100_SUBTITLE_FORMAT" = "Players of %@";
@@ -25238,6 +25262,10 @@ eg. "- @jack" */
 /* Label for chat box when user isn't allowed to chat because only users the broadcaster
  follows can chat. */
 "PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "Accounts broadcaster follows";
+
+/* Label for chat box when user isn't allowed to chat because chat is limited to accounts
+ the broadcaster follows and the accounts those follows follow (2nd degree). */
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "Only some accounts can chat";
 
 /* Label in chat box when user is banned and cant chat. */
 "PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "No privileges to chat";
@@ -25737,4 +25765,142 @@ eg. "- @jack" */
 
 /* Title shown on the Topics upsell screen */
 "TOPICS_UPSELL_TITLE" = "Explore your interests";
+
+// Section: Frameworks/XAppLibraries/Profile/Sources/ProfileStrings/ttc/Localizable.strings
+
+/*
+@generated
+Generated from Frameworks/XAppLibraries/Profile/Sources/ProfileStrings/Localizable.xcstrings for Translation Center exchange. Do not edit.
+*/
+/* Button label on the mini profile tray that navigates to the user's full profile page */
+"MINI_PROFILE_GO_TO_PROFILE_BUTTON_LABEL" = "Go to Profile";
+
+/* Action text telling the user to check out the help center to learn more about impersonation policy (includes link) */
+"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_LEARN_MORE_TEXT" = "<p><a id=\"LEARN_MORE\">Learn more</a></p>";
+
+/* Description text for Parody Commentary and Fan Account Label landing page section for What's a PCF account?. */
+"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_ABOUT_PCF_DESCRIPTION" = "A PCF account depicts another person, group, or organization in their profile to discuss, satirize, or share information about that entity.";
+
+/* Title text for Parody Commentary and Fan Account Label landing page section for What's a PCF account?. */
+"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_ABOUT_PCF_TITLE" = "What’s a PCF account?";
+
+/* Formatted description text for Parody Commentary and Fan Account Label landing page section for Do I need to label my PCF account?. */
+"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_PCF_BENEFITS_DESCRIPTION_FORMAT" = "Yes. The PCF label ensures people on X are not confused by your account, informing them that your account is not affiliated with the subject of the profile. If not labeled, your account may violate the %@.";
+
+/* Text of the linkable text for formatted within the Parody Commentary and Fan Account Label landing page section for Do I need to label my PCF account?. */
+"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_PCF_BENEFITS_LINK_TEXT" = "Authenticity policy";
+
+/* Title text for Parody Commentary and Fan Account Label landing page section for Do I need to label my PCF account?. */
+"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_PCF_BENEFITS_TITLE" = "Do I need to label my PCF account?";
+
+/* Description text for Parody Commentary and Fan Account Label landing page section for Do I need to label my PCF account?. */
+"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_PCF_HOW_TO_DESCRIPTION" = "Just click ‘Got it’, and we’ll take you to your profile settings to set an account label!";
+
+/* Title text for Parody Commentary and Fan Account Label landing page section for Do I need to label my PCF account?. */
+"PARODY_COMMENTARY_FAN_ACCOUNT_LANDING_PAGE_SECTION_PCF_HOW_TO_TITLE" = "How do I label my PCF account?";
+
+/* Title text for Parody Commentary and Fan Account Label under account settings. */
+"PARODY_COMMENTARY_FAN_ACCOUNT_TITLE_LABEL" = "Parody, commentary and fan account";
+
+/* Title text for the 'About this account' page that displays which country the user's account is based in */
+"PROFILE_ABOUT_THIS_ACCOUNT_ACCOUNT_BASED_TITLE_LABEL" = "Account based in";
+
+/* Title text for the 'About this account' page that displays the organization the user is affiliated with. Example: An affiliate of @X */
+"PROFILE_ABOUT_THIS_ACCOUNT_AFFILIATE_TITLE_STRING" = "An affiliate of •|•%@•|•";
+
+/* Title text for the 'About this account' page that displays where the user is currently connected from. Examples: United States App Store, Web etc. */
+"PROFILE_ABOUT_THIS_ACCOUNT_CONNECTED_VIA_TITLE_LABEL" = "Connected via";
+
+/* Label for the country filtered timeline entrypoint row on the 'About this account' page */
+"PROFILE_ABOUT_THIS_ACCOUNT_COUNTRY_FILTERED_TIMELINE_ENTRYPOINT_LABEL" = "Filter your timeline by region";
+
+/* Button label prompting the user to get Premium+ to unlock country filtered timeline on the 'About this account' page */
+"PROFILE_ABOUT_THIS_ACCOUNT_COUNTRY_FILTERED_TIMELINE_UPGRADE_BUTTON_LABEL" = "Get Premium+";
+
+/* Label for the country filtered timeline upgrade row on the 'About this account' page */
+"PROFILE_ABOUT_THIS_ACCOUNT_COUNTRY_FILTERED_TIMELINE_UPGRADE_LABEL" = "Unlock region filters";
+
+/* Text for the 'About this account' page that displays the date & country this account was created. Example: "September 2022 in United States". For languages where this is difficult to translate (e.g. Romance languages), please translate as "{date}, {country}" instead, e.g. "September 2022, France" */
+"PROFILE_ABOUT_THIS_ACCOUNT_DATE_AND_COUNTRY_CREATED_LABEL" = "%1$@ in %2$@";
+
+/* Title text for the 'About this account' page that displays the account registration date of the user */
+"PROFILE_ABOUT_THIS_ACCOUNT_DATE_JOINED_TITLE_LABEL" = "Date joined";
+
+/* Title and button CTA for modal sheet that links to upgrade for Premium (shown when verified-to-premium relabeling is enabled, e.g. in EU) */
+"PROFILE_ABOUT_THIS_ACCOUNT_GET_PREMIUM_UPGRADE_BUTTON_LABEL" = "Upgrade to get premium";
+
+/* Title and button CTA for modal sheet that links to upgrade to for Premium verified */
+"PROFILE_ABOUT_THIS_ACCOUNT_GET_VERIFIED_UPGRADE_BUTTON_LABEL" = "Upgrade to get verified";
+
+/* Title text for the 'About this account' page that displays when the account's identity has been verified using a government issued ID */
+"PROFILE_ABOUT_THIS_ACCOUNT_ID_VERIFIED_TITLE_LABEL" = "ID verified";
+
+/* Detail text for the 'About this account' page that displays when the user's location may not be accurate (due to VPN usage) */
+"PROFILE_ABOUT_THIS_ACCOUNT_INACCURATE_CREATED_LOCATION_DESCRIPTION_LABEL" = "One of our partners has indicated that this account may be connecting via a proxy—such as a VPN—when they signed up. This will change the country or region that is displayed.";
+
+/* Detail text for the 'About this account' page that displays when the user's location may not be accurate (due to VPN usage) */
+"PROFILE_ABOUT_THIS_ACCOUNT_INACCURATE_LOCATION_DESCRIPTION_LABEL_1" = "One of our partners has indicated that this account may be connecting via a proxy—such as a VPN, which may change the country or region that is displayed on their profile.";
+
+/* Continuation of the detail text for the 'About this account' page that displays when the user's location may not be accurate (due to VPN usage) */
+"PROFILE_ABOUT_THIS_ACCOUNT_INACCURATE_LOCATION_DESCRIPTION_LABEL_2" = "This data may not be accurate. Some internet providers may use proxies automatically without action by the user.";
+
+/* Title text for the 'About this account' page that displays when the user's location may not be accurate (due to VPN usage) */
+"PROFILE_ABOUT_THIS_ACCOUNT_INACCURATE_LOCATION_TITLE_LABEL" = "Country or region may not be accurate";
+
+/* Label for the action button on the 'About this account' info trays. Confirms the user read the information and dismisses the tray. */
+"PROFILE_ABOUT_THIS_ACCOUNT_INFO_SHEET_CONFIRM_BUTTON_LABEL" = "Got it";
+
+/* Text for the 'About this account' page that displays the last date when the user changed their username. Example: Last on September 2022 */
+"PROFILE_ABOUT_THIS_ACCOUNT_LAST_USERNAME_CHANGE_LABEL" = "Last on %@";
+
+/* Detail text for the 'About this account' page that explains the nature of the user's account location */
+"PROFILE_ABOUT_THIS_ACCOUNT_LOCATION_DESCRIPTION_LABEL_1" = "The country or region of an account is determined by recent IP addresses of a user. It can be impacted by recent travel or temporary relocation. This data may not be accurate and can change periodically.";
+
+/* Detail text for the 'About this account' page that tells the user to report a problem from the Settings page if information is inaccurate */
+"PROFILE_ABOUT_THIS_ACCOUNT_LOCATION_DESCRIPTION_LABEL_2" = "Go to Settings to report a problem";
+
+/* Title text for the 'About this account' page that explains the nature of the user's account location */
+"PROFILE_ABOUT_THIS_ACCOUNT_LOCATION_DESCRIPTION_TITLE_LABEL" = "How it works";
+
+/* Page title for the 'About this account' page that displays more information about a given user */
+"PROFILE_ABOUT_THIS_ACCOUNT_NAVIGATION_ITEM_TITLE_LABEL" = "About this account";
+
+/* Title text for the 'About this account' page row that displays when the account is a Premium member (shown for blue-checkmark and affiliate users when the verified-to-premium relabeling feature is on; gold and gray verified accounts continue to show "Verified") */
+"PROFILE_ABOUT_THIS_ACCOUNT_PREMIUM_MEMBER_TITLE_LABEL" = "Premium member";
+
+/* Title for the number of times the user changed their username. %lld is the count. English one is n=1 only (1 username change); other must include %lld (%lld username changes). If your language's one category includes 21/31/etc., include %lld in one as well. */
+"PROFILE_ABOUT_THIS_ACCOUNT_USERNAME_CHANGES_TITLE_LABEL" = "{count, plural, one {1 username change} other {%lld username changes}}";
+
+/* Text for the 'About this account' page that displays the month & year since when the account was verified. Example: Since September 2022 */
+"PROFILE_ABOUT_THIS_ACCOUNT_VERIFIED_SINCE_LABEL" = "Since %@";
+
+/* Title text for the 'About this account' page that displays when the account has been verified */
+"PROFILE_ABOUT_THIS_ACCOUNT_VERIFIED_TITLE_LABEL" = "Verified";
+
+/* Page title for the 'About this account' page that displays more information about the current logged-in user */
+"PROFILE_ABOUT_YOUR_ACCOUNT_NAVIGATION_ITEM_TITLE_LABEL" = "About your account";
+
+// Section: Frameworks/XAppLibraries/PollCard/Sources/PollCardStrings/ttc/Localizable.strings
+
+/*
+@generated
+Generated from Frameworks/XAppLibraries/PollCard/Sources/PollCardStrings/Localizable.xcstrings for Translation Center exchange. Do not edit.
+*/
+/* Label for votes count in polls. e.g. 1 vote / 5 votes */
+"POLL_CARD_DISPLAY_COUNT_VOTE_FORMAT" = "{count, plural, one {%lld vote} other {%lld votes}}";
+
+/* Label for final poll results */
+"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Final results";
+
+/* Label indicating poll is about to end */
+"POLL_CARD_DISPLAY_POLL_ENDING" = "Poll ending…";
+
+/* Label for time remaining in poll. %@ is replaced by the time description (e.g. "2 hours") */
+"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@ left";
+
+/* Label for vote count and time left on polling card. %1$@ is replaced by the localized vote count and %2$@ is replaced by a text description of the remaining time available for voting. */
+"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
+
+/* Generic error message for vote submission failures */
+"POLL_CARD_VOTE_SUBMISSION_FAILED" = "Vote submission failed. Please try again.";
 
