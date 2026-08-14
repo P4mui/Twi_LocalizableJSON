@@ -1,6 +1,6 @@
 /*
 @generated
-This file is auto-generated using Localization/scripts/concatenate_localizable_strings.rb
+This file is auto-generated using tools/xloc
 This file is sorted by modules instead of alphabetically to help reduce merge conflicts.
 */
 
@@ -120,6 +120,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Accessibility label for an XDSButton whose content is a loading spinner. */
 "XDS_BUTTON_LOADING_ACCESSIBILITY_LABEL" = "Loading";
+
+/* Accessibility label for the button that erases the text typed into an XDS Input field. */
+"XDS_INPUT_CLEAR_BUTTON_ACCESSIBILITY_LABEL" = "Clear text";
 
 /* Accessibility hint for an XDS List row with a tray-menu (vertical dots) accessory, spoken after the row title to indicate that tapping the row opens a sheet. */
 "XDS_LIST_TRAY_MENU_ACCESSIBILITY_HINT" = "Opens a sheet";
@@ -819,6 +822,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Button title to raise hand in a group call */
 "AV_CHAT_RAISE_HAND" = "Raise Hand";
 
+/* Top bar title shown while a participant is screen sharing. '%@' is replaced by the presenter's display name */
+"AV_CHAT_SCREEN_SHARE_PRESENTING_STATUS" = "%@ is presenting";
+
 /* Message show when many users joined a group call. '%@' will be replaced by a number users joined. */
 "AV_CHAT_USER_COUNT_JOINED" = "%@ users joined";
 
@@ -1150,11 +1156,17 @@ e.g. Removed from MyRecipes.
 /* Placeholder shown in the live broadcast chat text input while the user is composing a reply to another chat message. */
 "BROADCAST_CHAT_REPLY_INPUT_PLACEHOLDER" = "Reply";
 
+/* Accessibility label for the icon-only button that scrolls the live broadcast chat back to the most recent messages. Shown when the user has scrolled up in the chat history. */
+"BROADCAST_CHAT_SCROLL_TO_BOTTOM_ACCESSIBILITY_LABEL" = "Scroll to bottom";
+
 /* Accessibility label for the button that sends the typed message in the live broadcast chat composer. */
 "BROADCAST_CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Send";
 
 /* Error shown when sending a message in a live broadcast chat fails because the broadcaster has restricted the viewer from chatting in this broadcast, for example by muting them. */
 "BROADCAST_CHAT_SEND_NOT_PERMITTED_ERROR" = "You can’t send messages in this broadcast";
+
+/* Label shown in the live broadcast chat composer when only the host's subscribers can chat. Displayed next to a Subscribe button that opens the host's subscription paywall. */
+"BROADCAST_CHAT_SUBSCRIBERS_ONLY_MODE_LABEL" = "Subscribers-only mode";
 
 /* Message shown in place of the live broadcast chat history when the broadcaster has turned chat off. */
 "BROADCAST_CHAT_TURNED_OFF_MESSAGE" = "Chat has been turned off.";
@@ -1636,14 +1648,14 @@ e.g. Removed from MyRecipes.
 /* Tooltip text to add another post */
 "COMPOSE_ADD_ANOTHER_TWEET_TOOLTIP_TEXT" = "Add another post";
 
-/* Body of the sheet shown when the user closes the post composer with unsaved content, explaining they can save the post as a draft instead of losing it */
-"COMPOSE_CANCEL_POST_TRAY_MESSAGE" = "You are about to abandon your post, if you would like to save it for later, save it as a draft";
+/* Body of the sheet shown when the user closes the post composer with unsaved content, explaining they can save the post as a draft or discard it */
+"COMPOSE_CANCEL_POST_TRAY_MESSAGE" = "You haven’t posted yet. Save it as a draft to finish later, or discard it.";
 
 /* Button label on the sheet shown when the user closes the post composer with unsaved content; saves the post as a draft */
-"COMPOSE_CANCEL_POST_TRAY_SAVE_DRAFT_ACTION_LABEL" = "Save Draft";
+"COMPOSE_CANCEL_POST_TRAY_SAVE_DRAFT_ACTION_LABEL" = "Save";
 
-/* Title of the sheet shown when the user closes the post composer with unsaved content, asking whether to save the post as a draft or delete it */
-"COMPOSE_CANCEL_POST_TRAY_TITLE" = "Cancel Post?";
+/* Title of the sheet shown when the user closes the post composer with unsaved content, asking whether to save the post as a draft or discard it */
+"COMPOSE_CANCEL_POST_TRAY_TITLE" = "Save Draft?";
 
 /* Accessibility action name to remove the card in the post composer (example: while in a Spaces room, tapping Share via post creates a Spaces card with this action) */
 "COMPOSE_CARD_REMOVE_CARD_ACCESSIBILITY_ACTION" = "Remove the card from your post.";
@@ -3289,14 +3301,14 @@ This text is the accessibility hint for the button that lets the user change the
 /* Toast shown when the face liveness check fails. */
 "FACE_LIVENESS_ERROR_TOAST" = "Verification failed. Please try again.";
 
+/* Second paragraph of the face liveness privacy disclaimer, noting consent to biometric data processing. */
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "By continuing, you consent to biometric data processing.";
+
 /* Link at the end of the face liveness privacy disclaimer that opens the help center article. */
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Learn more";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Learn More";
 
-/* Second paragraph of the face liveness privacy disclaimer, explaining how the captured photo is handled. */
-"FACE_LIVENESS_PRIVACY_FOOTER_PRIVACY" = "It is never sent to X and it is deleted immediately after verification by AWS. It is not used for any purpose other than anti-bot measures. It will not be sold, leased or traded.";
-
-/* First paragraph of the face liveness privacy disclaimer, explaining why a photo is captured. */
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "The app will briefly capture and send a photo to AWS, solely to confirm you are a real person and not a bot.";
+/* First paragraph of the face liveness privacy disclaimer, explaining why a photo is captured and how it is handled. */
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "We’ll briefly send your photo to AWS only to verify you’re not a bot. Your photo is never sent to X, deleted within 3 minutes, and not sold or used for any other purpose.";
 
 /* Instruction pill above the oval camera view telling the user to position their face inside it during the face liveness check. */
 "FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Put your face in the circle";
@@ -5263,6 +5275,114 @@ This text is the accessibility hint for the button that lets the user change the
 /* Button shown within an app notification that communicates that the post they just sent is being uploaded. If you tap this button, sending the post will be canceled.*/
 "NUDGES_UNDO_TWEET_SENT_UNDO" = "Undo";
 
+/* Headline of the native OAuth consent sheet shown when a third-party web app requests access to the user's X account via Login with X. %1$@ is the third-party app's name. */
+"OAUTH_CONSENT_APP_WANTS_ACCESS_TITLE_FORMAT" = "%1$@ wants to access permissions on your account";
+
+/* Primary action button on the native OAuth consent sheet. Tapping it approves the third-party app's access request. */
+"OAUTH_CONSENT_AUTHORIZE_APP_ACTION_LABEL" = "Authorize App";
+
+/* Title of the permissions overflow screen pushed within the native OAuth consent tray, listing every permission the third-party app will and won't get. */
+"OAUTH_CONSENT_PERMISSIONS_SCREEN_TITLE" = "Review App Permissions";
+
+/* Description on the native OAuth consent sheet for the block.read OAuth scope. */
+"OAUTH_CONSENT_SCOPE_BLOCK_READ" = "View accounts you’ve blocked.";
+
+/* Description on the native OAuth consent sheet for the block.write OAuth scope. */
+"OAUTH_CONSENT_SCOPE_BLOCK_WRITE" = "Block and unblock accounts for you.";
+
+/* Description on the native OAuth consent sheet for the bookmark.read OAuth scope. */
+"OAUTH_CONSENT_SCOPE_BOOKMARK_READ" = "View your bookmarks.";
+
+/* Description on the native OAuth consent sheet for the bookmark.write OAuth scope. */
+"OAUTH_CONSENT_SCOPE_BOOKMARK_WRITE" = "Add and remove bookmarks for you.";
+
+/* Description on the native OAuth consent sheet for the dm.read OAuth scope. */
+"OAUTH_CONSENT_SCOPE_DM_READ" = "View your messages.";
+
+/* Description on the native OAuth consent sheet for the dm.write OAuth scope. */
+"OAUTH_CONSENT_SCOPE_DM_WRITE" = "Send and manage your messages.";
+
+/* Description on the native OAuth consent sheet for the email and users.email OAuth scopes. */
+"OAUTH_CONSENT_SCOPE_EMAIL" = "View your email address.";
+
+/* Description on the native OAuth consent sheet for the follows.read OAuth scope. */
+"OAUTH_CONSENT_SCOPE_FOLLOWS_READ" = "View who follows you and who you follow.";
+
+/* Description on the native OAuth consent sheet for the follows.write OAuth scope. */
+"OAUTH_CONSENT_SCOPE_FOLLOWS_WRITE" = "Follow and unfollow accounts for you.";
+
+/* Description on the native OAuth consent sheet for the like.read OAuth scope. */
+"OAUTH_CONSENT_SCOPE_LIKE_READ" = "View posts you’ve liked.";
+
+/* Description on the native OAuth consent sheet for the like.write OAuth scope. */
+"OAUTH_CONSENT_SCOPE_LIKE_WRITE" = "Like and un-like posts for you.";
+
+/* Description on the native OAuth consent sheet for the list.read OAuth scope. */
+"OAUTH_CONSENT_SCOPE_LIST_READ" = "View your Lists, including private ones.";
+
+/* Description on the native OAuth consent sheet for the list.write OAuth scope. */
+"OAUTH_CONSENT_SCOPE_LIST_WRITE" = "Create and manage Lists for you.";
+
+/* Description on the native OAuth consent sheet for the media.write OAuth scope. */
+"OAUTH_CONSENT_SCOPE_MEDIA_WRITE" = "Upload photos and videos for you.";
+
+/* Description on the native OAuth consent sheet for the mute.read OAuth scope. */
+"OAUTH_CONSENT_SCOPE_MUTE_READ" = "View accounts you’ve muted.";
+
+/* Description on the native OAuth consent sheet for the mute.write OAuth scope. */
+"OAUTH_CONSENT_SCOPE_MUTE_WRITE" = "Mute and unmute accounts for you.";
+
+/* Description on the native OAuth consent sheet for the offline.access OAuth scope. */
+"OAUTH_CONSENT_SCOPE_OFFLINE_ACCESS" = "Stay connected to your account until you revoke access.";
+
+/* Description on the native OAuth consent sheet for the space.read OAuth scope. */
+"OAUTH_CONSENT_SCOPE_SPACE_READ" = "View Spaces you can see.";
+
+/* Description on the native OAuth consent sheet for the tweet.moderate.write OAuth scope. */
+"OAUTH_CONSENT_SCOPE_TWEET_MODERATE_WRITE" = "Hide and unhide replies to your posts.";
+
+/* Description on the native OAuth consent sheet for the tweet.read OAuth scope. */
+"OAUTH_CONSENT_SCOPE_TWEET_READ" = "View all the posts you can view, including posts from protected accounts.";
+
+/* Description on the native OAuth consent sheet for the tweet.write OAuth scope. */
+"OAUTH_CONSENT_SCOPE_TWEET_WRITE" = "Post and repost for you.";
+
+/* Description on the native OAuth consent sheet for the users.read OAuth scope. */
+"OAUTH_CONSENT_SCOPE_USERS_READ" = "View any account you can view, including protected accounts.";
+
+/* Row on the native OAuth consent sheet that opens the full list of requested permissions, shown when the inline list is truncated. */
+"OAUTH_CONSENT_SEE_ALL_PERMISSIONS" = "See All Permissions";
+
+/* Legal footer on the native OAuth consent sheet, reminding the user that authorizing the app is governed by X's Terms of Service and Privacy Policy. Always shown. */
+"OAUTH_CONSENT_TOS_FOOTER" = "By authorizing this app you agree to X’s Terms of Service and Privacy Policy.";
+
+/* Body of the warning callout on the native OAuth consent sheet when the requesting third-party developer is not verified. */
+"OAUTH_CONSENT_UNTRUSTED_DEVELOPER_DETAIL" = "This developer is not verified. Use caution when authenticating to this app.";
+
+/* Title of the warning callout on the native OAuth consent sheet when the requesting third-party developer is not verified. */
+"OAUTH_CONSENT_UNTRUSTED_DEVELOPER_TITLE" = "Untrusted Developer";
+
+/* Section title on the native OAuth consent sheet above the list of permissions the third-party app will get if authorized. */
+"OAUTH_CONSENT_WILL_SECTION_TITLE" = "This app will be able to:";
+
+/* Row in the "won't be able to" section of the native OAuth consent sheet, shown when the app requested no follow-related write scope. */
+"OAUTH_CONSENT_WONT_FOLLOW_OR_UNFOLLOW" = "Follow or unfollow accounts for you.";
+
+/* Row in the "won't be able to" section of the native OAuth consent sheet, shown when the app requested no like-related write scope. */
+"OAUTH_CONSENT_WONT_LIKE_POSTS" = "Like posts for you.";
+
+/* Row in the "won't be able to" section of the native OAuth consent sheet, shown when the app requested no posting scope. */
+"OAUTH_CONSENT_WONT_POST_OR_REPOST" = "Post or repost for you.";
+
+/* Section title on the native OAuth consent sheet above the list of notable things the third-party app will NOT be able to do because it did not request them. */
+"OAUTH_CONSENT_WONT_SECTION_TITLE" = "This app won’t be able to:";
+
+/* Row in the "won't be able to" section of the native OAuth consent sheet, shown when the app requested no email scope. */
+"OAUTH_CONSENT_WONT_VIEW_EMAIL" = "View your email address.";
+
+/* Row in the "won't be able to" section of the native OAuth consent sheet, shown when the app requested no direct-message scope. */
+"OAUTH_CONSENT_WONT_VIEW_OR_SEND_MESSAGES" = "View or send your messages.";
+
 /* Push notification body text- sent after tapping to restart, for the app language change to take affect */
 "ONBOARDING_APP_LANGUAGE_CHANGED_NOTIFICATION_BODY" = "We’ve changed your App Language, tap to open";
 
@@ -5298,6 +5418,9 @@ This text is the accessibility hint for the button that lets the user change the
 
 /* Open grok button */
 "OPEN_GROK_LABEL" = "Open Grok";
+
+/* Pill label shown next to the Open Grok / Download Grok row in the sidebar, promoting newly launched Grok features. */
+"OPEN_GROK_NEW_UPDATES_PILL_LABEL" = "New updates";
 
 /* Text on a button to open a url in the default system browser */
 "OPEN_IN_BROWSER_ACTION_LABEL" = "Open in browser";
@@ -8779,9 +8902,6 @@ eg. "Super Following Jack" */
 /* Label for the Reposts tab when viewing profile */
 "USER_PROFILE_REPOSTS_TAB_LABEL" = "Reposts";
 
-/* Title of the Schedule tab on the user profile. */
-"USER_PROFILE_SCHEDULE_LABEL" = "Schedule";
-
 /* Cancel button label for Photo/Header upload failed alert */
 "USER_PROFILE_UPLOAD_FAILED_CANCEL_BUTTON_LABEL" = "Cancel";
 
@@ -9939,6 +10059,9 @@ eg. "Super Following Jack" */
 /* Text information about a Space displayed on the Audio Space Spacebar. 'Someone you know is listening' */
 "VOICE_ROOM_SPACEBAR_ISLISTENING_NO_USER_MESSAGE" = "Someone you know is listening";
 
+/* Text information about a live video broadcast displayed on the Spacebar. '{{USERNAME}} is live' */
+"VOICE_ROOM_SPACEBAR_ISLIVE_MESSAGE" = "{{USERNAME}} is live";
+
 /* Text information about a Space displayed on the Audio Space Spacebar. '{{USERNAME}} is speaking' */
 "VOICE_ROOM_SPACEBAR_ISSPEAKING_MESSAGE" = "{{USERNAME}} is speaking";
 
@@ -10365,7 +10488,7 @@ eg. "Super Following Jack" */
 /* Label for list of suggested users you might also want to follow, e.g "Suggested". */
 "YOU_MIGHT_ALSO_WANT_TO_FOLLOW_LABEL" = "Suggested";
 
-// Section: Frameworks/TwitterSubscriptions/Sources/TwitterSubscriptionsStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterSubscriptions/Sources/TwitterSubscriptionsStrings/Localizable.xcstrings
 
 /* Error message shown when we user tries to buy a subscription but we detected that the user already has a subscription in Apple store, it may be pending cancellation */
 "SUBSCRIPTION_ALREADY_SUBSCRIBED_ERROR_MESSAGE" = "You have already subscribed, either here or on another account. Please check back later.";
@@ -10481,7 +10604,7 @@ eg. "Super Following Jack" */
 /* Text for the header of the Subscription upsell for Offline videos feature name */
 "SUBSCRIPTION_UPSELL_OFFLINE_VIDEOS_FEATURE_NAME" = "Offline videos";
 
-/* Title of the basic premium tier subscription for upsell*/
+/* Title of the basic premium tier subscription for upsell */
 "SUBSCRIPTION_UPSELL_PREMIUM_BASIC_TIER_NAME" = "Premium Basic";
 
 /* Text for the header of the Subscription upsell for Boosted posts feature name */
@@ -10843,18 +10966,12 @@ eg. "Super Following Jack" */
 /* Action title to unmute a List from having posts presented in your Home timeline, presented in List Detail page */
 "UNMUTE_LIST_TITLE" = "Show these posts in Home";
 
-// Section: Frameworks/TwitterLongform/Sources/TwitterLongformStrings/en.lproj/Localizable.strings
-
-/* Text format describing the time window for when news articles appeared. All news articles appeared within the last N hours. */
-"TOP_ARTICLES_TIMELINE_TIME_WINDOW_PLURAL_FORMAT" = "Last %@ hours";
-
-/* Text describing the time window for when news articles appeared. All news articles appeared within the last 1 hour. */
-"TOP_ARTICLES_TIMELINE_TIME_WINDOW_SINGULAR_FORMAT" = "Last hour";
+// Section: Frameworks/TwitterLongform/Sources/TwitterLongformStrings/Localizable.xcstrings
 
 /* Title text for a screen where the user can select different time windows from which to display news articles. */
 "TOP_ARTICLES_TIMELINE_TIME_WINDOW_TITLE_LABEL" = "Time frame";
 
-/* Accessibility action text for opening the list of posts associated with a given news Article. This string is read aloud by VoiceOver.*/
+/* Accessibility action text for opening the list of posts associated with a given news Article. This string is read aloud by VoiceOver. */
 "TOP_ARTICLES_VIEW_TWEETS_ACCESSIBILITY_LABEL" = "View conversation";
 
 // Section: Frameworks/XAppLibraries/Creator/Sources/CreatorStrings/en.lproj/Localizable.strings
@@ -11066,7 +11183,7 @@ eg. "Super Following Jack" */
 /* Sticker category title for recently used stickers */
 "STICKER_CATEGORY_RECENT_TITLE" = "Recent";
 
-// Section: Frameworks/XAppLibraries/Toasts/Sources/ToastsStrings/en.lproj/Localizable.strings
+// Section: Frameworks/XAppLibraries/Toasts/Sources/ToastsStrings/Localizable.xcstrings
 
 /* The toast notification label when blocking messaging from a user */
 "BLOCK_MESSAGE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ has been blocked from messaging you";
@@ -11145,6 +11262,12 @@ eg. "Super Following Jack" */
 
 /* Label for grok analysis response message */
 "GROK_ANALYZE_LABEL" = "Analysis";
+
+/* Grok analyze follow-up prompt chip shown above the input bar after an analysis. Tapping it sends a prompt asking Grok to explain the analysis in simple terms. */
+"GROK_ANALYZE_PROMPT_CHIP_EXPLAIN_IT_SIMPLY" = "Explain it simply";
+
+/* Grok analyze follow-up prompt chip shown above the input bar after an analysis. Tapping it sends a prompt asking Grok for more details about the analysis. */
+"GROK_ANALYZE_PROMPT_CHIP_MORE_DETAILS" = "More details";
 
 /* Label for grok response messages */
 "GROK_ANSWER_LABEL" = "Answer";
@@ -13441,7 +13564,7 @@ eg. "Super Following Jack" */
 /* Title of the "Welcome to Communities" prompt shown above COMMUNITY_WELCOME_PROMPT_MESSAGE. */
 "COMMUNITY_WELCOME_PROMPT_TITLE" = "Welcome to Communities";
 
-// Section: Frameworks/XCoreLibraries/Payments/Sources/PaymentsStrings/en.lproj/Localizable.strings
+// Section: Frameworks/XCoreLibraries/Payments/Sources/PaymentsStrings/Localizable.xcstrings
 
 /* Payments: Label for the backup code input field */
 "PAYMENTS_2FA_BACKUP_CODE_FIELD_NAME" = "Code";
@@ -13558,7 +13681,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_ACCOUNTS_JOINT_CONFIRMATION_SUBTITLE" = "Confirm this is the person you want to open an account with.";
 
 /* Payments: Title on the joint account invite confirmation tray. %@ is replaced with the recipient’s @username or name. Uses non-breaking spaces so “Open account” and “with @X...” stays grouped when possible. */
-"PAYMENTS_ACCOUNTS_JOINT_CONFIRMATION_TITLE_FORMAT" = "Open\U00A0account with\U00A0%@?";
+"PAYMENTS_ACCOUNTS_JOINT_CONFIRMATION_TITLE_FORMAT" = "Open account with %@?";
 
 /* Payments: Header title of the tray confirming the person invited to a joint account */
 "PAYMENTS_ACCOUNTS_JOINT_CONFIRM_INVITE_TITLE" = "Confirm Invite";
@@ -13620,7 +13743,7 @@ eg. "Super Following Jack" */
 /* Payments: Attribute that presents the number of cards connected to the account */
 "PAYMENTS_ACCOUNT_ATTRIBUTE_SHORT_CONNECTED_CARDS" = "Cards";
 
-/* Payments: Attribute value that presents the number of cards connected to the account. %@ is replaced by a number (ex: 2)*/
+/* Payments: Attribute value that presents the number of cards connected to the account. %@ is replaced by a number (ex: 2) */
 "PAYMENTS_ACCOUNT_ATTRIBUTE_SHORT_CONNECTED_CARDS_VALUE_FORMAT" = "%@ Connected";
 
 /* Payments: Title the of 'Account' details screen */
@@ -13796,6 +13919,21 @@ eg. "Super Following Jack" */
 
 /* Payments: Title of the setting that allows a customer to chose to print or engrave their username on the card. */
 "PAYMENTS_CARD_SPEND_CONFIGURE_ENGRAVE_OR_PRINT_USERNAME_OPTION" = "Print my username";
+
+/* Payments: Banner title on a deactivated card in the cards carousel */
+"PAYMENTS_CARD_SPEND_DEACTIVATED_BANNER_TITLE" = "Card deactivated";
+
+/* Payments: Title of the action to contact support about a deactivated card */
+"PAYMENTS_CARD_SPEND_DEACTIVATED_CONTACT_SUPPORT_ACTION" = "Contact Support";
+
+/* Payments: Subtitle of the action to contact support to reactivate a deactivated card */
+"PAYMENTS_CARD_SPEND_DEACTIVATED_CONTACT_SUPPORT_SUBTITLE" = "To reactivate this current card";
+
+/* Payments: Subtitle of the action to replace a deactivated card by ordering a new one */
+"PAYMENTS_CARD_SPEND_DEACTIVATED_REPLACE_SUBTITLE" = "Order a new card";
+
+/* Payments: Large header title of the tray shown when a deactivated card is tapped */
+"PAYMENTS_CARD_SPEND_DEACTIVATED_TRAY_TITLE" = "Your card is deactivated, all future transactions will be declined";
 
 /* Payments: Label for cardholder name field */
 "PAYMENTS_CARD_SPEND_FIELD_CARDHOLDER_NAME" = "Cardholder Name";
@@ -15708,13 +15846,13 @@ eg. "Super Following Jack" */
 /* Payments: Subtitle for the cash deposit transfer method, prompting the user to find a physical location to deposit cash. */
 "PAYMENTS_RAIL_CASH_SUBTITLE" = "Find a location to deposit cash";
 
-/* Payments: Text description for the transaction rail "Check". This is a Check as the paper method of payment, not a Check as a "verification".  */
+/* Payments: Text description for the transaction rail "Check". This is a Check as the paper method of payment, not a Check as a "verification". */
 "PAYMENTS_RAIL_CHECK" = "Check";
 
 /* Payments: Subtitle for the check deposit transfer method, prompting the user to scan their paper check. */
 "PAYMENTS_RAIL_CHECK_SUBTITLE" = "Scan your check";
 
-/* Payments: Text description for the transaction rail "Internal Transfer". This is a transfer between X Money accounts (main <-> secondary for example)  */
+/* Payments: Text description for the transaction rail "Internal Transfer". This is a transfer between X Money accounts (main <-> secondary for example) */
 "PAYMENTS_RAIL_INTERNAL_TRANSFER" = "Internal Transfer";
 
 /* Payments: Text description for the transaction rail "OCT" */
@@ -15814,7 +15952,7 @@ eg. "Super Following Jack" */
 "PAYMENTS_REWARDS_INTEREST_PENDING" = "Accrued this month";
 
 /* Payments: Subtitle for the Interest rewards section, showing the current APY. Keep the \U00A0 characters to group the 'with our % APY' equivalent in each language. */
-"PAYMENTS_REWARDS_INTEREST_SECTION_SUBTITLE" = "Your cash at work with\U00A0our\U00A0%@\U00A0APY";
+"PAYMENTS_REWARDS_INTEREST_SECTION_SUBTITLE" = "Your cash at work with our %@ APY";
 
 /* Payments: "Routing number" used for US bank accounts transfers */
 "PAYMENTS_ROUTING_NUMBER" = "Routing Number";
@@ -16370,7 +16508,7 @@ eg. "Super Following Jack" */
 /* Share Extension view - Post failed title */
 "SHARE_EXT_TWEET_FAILED_TITLE" = "Post failed to send";
 
-// Section: Frameworks/TSATwitterAppleSystemAuthorizationServiceManagerKit/Sources/TSATwitterAppleSystemAuthorizationServiceManagerKitStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TSATwitterAppleSystemAuthorizationServiceManagerKit/Sources/TSATwitterAppleSystemAuthorizationServiceManagerKitStrings/Localizable.xcstrings
 
 /* Message for default contacts pemission gate description */
 "AUTHORIZATION_CONTACTS_MESSAGE" = "Find and follow your friends to see what they’re sharing.";
@@ -17066,7 +17204,7 @@ eg. "Super Following Jack" */
 /* Error message displayed to user when the device is offline. */
 "CONNECTION_ERROR_NO_CONNECTION_MESSAGE" = "Something went wrong. Check your connection and try again.";
 
-// Section: Frameworks/TwitterTweetAnatomy/Sources/TwitterTweetAnatomyStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterTweetAnatomy/Sources/TwitterTweetAnatomyStrings/Localizable.xcstrings
 
 /* Action Button Count Format */
 "ACTIONS_COUNT_ACCESSIBILITY_VALUE_FORMAT" = "%u in total.";
@@ -17291,7 +17429,7 @@ eg. "Super Following Jack" */
 "CHAT_PERMISSION_ALLOW" = "Allow";
 
 /* Permissions: Subtitle shown when camera access was previously denied and must be re-enabled in Settings */
-"CHAT_PERMISSION_CAMERA_SUBTITLE_DENIED" = "Open settings to enable camera";
+"CHAT_PERMISSION_CAMERA_SUBTITLE_DENIED" = "Open Settings to enable camera";
 
 /* Permissions: Title of the button that triggers the system permission alert */
 "CHAT_PERMISSION_CONTINUE" = "Continue";
@@ -17300,14 +17438,17 @@ eg. "Super Following Jack" */
 "CHAT_PERMISSION_DENY" = "Deny";
 
 /* Permissions: Subtitle shown when microphone access was previously denied and must be re-enabled in Settings */
-"CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_SUBTITLE_DENIED" = "Open settings to enable microphone";
+"CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_SUBTITLE_DENIED" = "Open Settings to enable microphone";
 
 /* Permissions: Title of the button that opens the app's page in the Settings app */
 "CHAT_PERMISSION_OPEN_SETTINGS" = "Open Settings";
 
-// Section: Frameworks/LiveActivities/Sources/LiveActivityStrings/en.lproj/Localizable.strings
+/* Permissions: Subtitle shown when photo library access was previously denied and must be re-enabled in Settings */
+"CHAT_PERMISSION_PHOTOS_SUBTITLE_DENIED" = "Open Settings to enable photo library";
 
-/* Title of a toast shown once download failed*/
+// Section: Frameworks/LiveActivities/Sources/LiveActivityStrings/Localizable.xcstrings
+
+/* Title of a toast shown once download failed */
 "DOWNLOAD_ERROR_TOAST_MESSAGE" = "Could not download file";
 
 /* Title of a live activity widget showed download operation is failed */
@@ -17331,7 +17472,7 @@ eg. "Super Following Jack" */
 /* Title shown when download operation is suspended and we offer user to tap to resume */
 "DOWNLOAD_SUSPENDED_TAP_TO_RESUME" = "Download suspended, tap to resume";
 
-/* Title of a toast shown once download to photo library is finished*/
+/* Title of a toast shown once download to photo library is finished */
 "DOWNLOAD_TOAST_MESSAGE" = "Video downloaded to photo library";
 
 /* Title of a live activity widget showed loading operation is failed */
@@ -17355,7 +17496,16 @@ eg. "Super Following Jack" */
 /* Title shown when loading operation is suspended and we offer user to tap to resume */
 "LOADING_SUSPENDED_TAP_TO_RESUME" = "Loading suspended, tap to resume";
 
-/* Title of a toast shown once download succeeded but could not be export to photo library*/
+/* Label on a badge in the onboarding Live Activity telling the user that tapping the activity returns them to their unfinished signup or login */
+"ONBOARDING_LIVE_ACTIVITY_RESUME_ACTION" = "Resume";
+
+/* Second line of the onboarding Live Activity, telling the user that reopening the app resumes their unfinished signup or login */
+"ONBOARDING_LIVE_ACTIVITY_SUBTITLE" = "Pick up where you left off";
+
+/* First line of the onboarding Live Activity, shown while the user has an unfinished signup or login */
+"ONBOARDING_LIVE_ACTIVITY_TITLE" = "Finish setting up X";
+
+/* Title of a toast shown once download succeeded but could not be export to photo library */
 "PHOTO_LIBRARY_EXPORT_ERROR_TOAST_MESSAGE" = "Could not save file to photo library";
 
 /* Title of a live activity widget showed upload operation is failed */
@@ -17401,7 +17551,7 @@ eg. "Super Following Jack" */
 /* QR Code: Title of the tab that shows a QR Code scanner (a camera) */
 "QR_SCAN_CODE" = "Scan code";
 
-// Section: Frameworks/TwitterSearch/Sources/TwitterSearchStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterSearch/Sources/TwitterSearchStrings/Localizable.xcstrings
 
 /* Advanced search - search bar title for tweet author filter from */
 "ADVANCED_SEARCH_AUTHOR_FROM_SEARCH_TITLE" = "From:";
@@ -17570,7 +17720,7 @@ eg. "Super Following Jack" */
 // Title of Premium Hub
 "PREMIUM_HUB_TITLE" = "Premium";
 
-// Section: Frameworks/TFSLocalizedUtilities/Sources/TFSLocalizedUtilitiesStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TFSLocalizedUtilities/Sources/TFSLocalizedUtilitiesStrings/Localizable.xcstrings
 
 /* A template for specifying the separator between the next to last and the last names in a list of three or more names. (Lists of two names are commonly formatted specially and will be translated using FULL_NAME_LIST_OF_TWO_FORMAT rather than this string.) This string, when combined with FULL_NAME_LIST_START_FORMAT and FULL_NAME_LIST_MIDDLE_FORMAT, allows for more natural translation in the many languages that have special formatting for the first two or last two names in a list. For example, in the English list "Sara, John, LaToya, Julie, Kristen, Dwayne, and Lucy", the separator between Sara and John is controlled by FULL_NAME_LIST_START_FORMAT, the separator between Dwayne and Lucy is controlled by this string, and the separators between all other names are controlled by FULL_NAME_LIST_MIDDLE_FORMAT. If your language does not have special formatting for the first or last separators in a list feel free to make all three strings the same. Finally, If your language requires specific formatting for names when they are presented in a list, specify that via FULL_NAME_LIST_ITEM_FORMAT. Each name will be formatted according to FULL_NAME_LIST_ITEM_FORMAT before being injected into the list template. Note: this system for translating lists is modeled after the list translation guidelines for Unicode's Common Locale Data Repository. See http://cldr.unicode.org/translation/lists for more information. */
 "FULL_NAME_LIST_END_FORMAT" = "%1$@, and %2$@";
@@ -19162,6 +19312,9 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Activity label for share sheet to a third-party app, Tesla, in App Store. Please translate this as a localized name of the app, not the literal translation. If there's no localized version of the name, please leave it as English. */
 "SHARE_TO_OFF_PLATFORM_TESLA_ACTIVITY_CAROUSEL_LABEL" = "Tesla";
 
+/* Activity label for share sheet to a third-party app, Threads, in App Store. Please translate this as a localized name of the app, not the literal translation. If there's no localized version of the name, please leave it as English. */
+"SHARE_TO_OFF_PLATFORM_THREADS_ACTIVITY_CAROUSEL_LABEL" = "Threads";
+
 /* Activity label for share sheet to a third-party app, Viber, in App Store. Please translate this as a localized name of the app, not the literal translation. If there's no localized version of the name, please leave it as English. */
 "SHARE_TO_OFF_PLATFORM_VIBER_ACTIVITY_CAROUSEL_LABEL" = "Viber";
 
@@ -19862,6 +20015,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Duration in seconds. %@: seconds */
 "CHAT_DURATION_SECONDS" = "%@s";
 
+/* Edit group description footer description */
+"CHAT_EDIT_GROUP_DESCRIPTION_FOOTER" = "Enter a description for this group that will be visible to all members.";
+
+/* Edit menu action for the group description */
+"CHAT_EDIT_GROUP_DESCRIPTION_TITLE" = "Edit group description";
+
 /* Edit group name footer description */
 "CHAT_EDIT_GROUP_NAME_FOOTER" = "Enter a name for this group that will be visible to all members.";
 
@@ -19949,6 +20108,33 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Grok Premium upsell tray title */
 "CHAT_GROK_UPSELL_PREMIUM_TITLE" = "Get Premium to use Grok";
 
+/* Group description editor placeholder */
+"CHAT_GROUP_DESCRIPTION_PLACEHOLDER" = "Description";
+
+/* Informational item: the group description was removed by an unknown member */
+"CHAT_GROUP_DESCRIPTION_REMOVED" = "The group description was removed";
+
+/* Button shown when a group description is truncated */
+"CHAT_GROUP_DESCRIPTION_SHOW_MORE" = "Show more";
+
+/* Group description row and editor title */
+"CHAT_GROUP_DESCRIPTION_TITLE" = "Group description";
+
+/* Informational item: the group description was updated by an unknown member */
+"CHAT_GROUP_DESCRIPTION_UPDATED" = "The group description was updated";
+
+/* Informational item: named user removed the group description */
+"CHAT_GROUP_DESCRIPTION_USER_REMOVED" = "%@ removed the group description";
+
+/* Informational item: named user updated the group description */
+"CHAT_GROUP_DESCRIPTION_USER_UPDATED" = "%@ updated the group description";
+
+/* Informational item: current user removed the group description */
+"CHAT_GROUP_DESCRIPTION_YOU_REMOVED" = "You removed the group description";
+
+/* Informational item: current user updated the group description */
+"CHAT_GROUP_DESCRIPTION_YOU_UPDATED" = "You updated the group description";
+
 /* Group invite request approve button title */
 "CHAT_GROUP_INVITE_APPROVE" = "Approve";
 
@@ -19978,6 +20164,27 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Members count header. %@: number of members */
 "CHAT_MEMBERS_COUNT" = "Members (%@)";
+
+/* Members header shown while the member count is still unknown */
+"CHAT_MEMBERS_TITLE" = "Members";
+
+/* Informational item: a message was pinned, sender unknown */
+"CHAT_MESSAGE_PINNED" = "User pinned a message";
+
+/* Informational item: a message was pinned by a named user */
+"CHAT_MESSAGE_PINNED_BY_USER" = "%@ pinned a message";
+
+/* Informational item: a named user pinned a message, with preview */
+"CHAT_MESSAGE_PINNED_BY_USER_WITH_PREVIEW" = "%1$@ pinned “%2$@”";
+
+/* Informational item: current user pinned a message */
+"CHAT_MESSAGE_PINNED_BY_YOU" = "You pinned a message";
+
+/* Informational item: current user pinned a message, with preview */
+"CHAT_MESSAGE_PINNED_BY_YOU_WITH_PREVIEW" = "You pinned “%@”";
+
+/* Informational item: a message was pinned with preview, sender unknown */
+"CHAT_MESSAGE_PINNED_WITH_PREVIEW" = "User pinned a message: “%@”";
 
 /* Chat message send alert subtitle when sending message that is too long */
 "CHAT_MESSAGE_SEND_EXCEEDS_MAX_LENGTH_ALERT_SUBTITLE" = "This message is too long to send. Try shortening or splitting into multiple messages.";
@@ -20014,6 +20221,12 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 
 /* Chat permission microphone voice messages title */
 "CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_TITLE" = "Send voice messages";
+
+/* Chat permission photos save media subtitle undetermined */
+"CHAT_PERMISSION_PHOTOS_SAVE_MEDIA_SUBTITLE_UNDETERMINED" = "Allow photo library access to save photos and videos from messages";
+
+/* Chat permission photos save media title */
+"CHAT_PERMISSION_PHOTOS_SAVE_MEDIA_TITLE" = "Save photos and videos";
 
 /* Photo library access denied alert title */
 "CHAT_PHOTO_ACCESS_DENIED_TITLE" = "Photo Library Access Required";
@@ -22568,7 +22781,7 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Header for toxic reply filter settings */
 "TOXIC_REPLY_FILTER_SETTINGS_TITLE" = "Replies";
 
-// Section: Frameworks/TwitterRewards/Sources/TwitterRewardsStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterRewards/Sources/TwitterRewardsStrings/Localizable.xcstrings
 
 /* Text next to a checkmark for email sharing when subscribing to a creator */
 "CREATOR_SUBSCRIPTIONS_EMAIL_SHARING_CHECK_TEXT_LEARN_MORE" = "Share your email with %1$@. By accepting, you agree to let X share the email address with the creator for the purpose of off-platform communication and accept the %2$@. %3$@.";
@@ -22591,8 +22804,7 @@ Example of a valid translation: In German, using "Mio" (3 characters) would resu
 /* Label for Subscribers badge on Subscriber-only posts. */
 "SUBSCRIBERS_REVAMP_BADGE_TITLE" = "Subscribers";
 
-/* Label for creator's handle. %@ will be substituted with the creator's username
-eg. "- @jack" */
+/* Label for creator's handle. %@ will be substituted with the creator's username eg. "- @jack" */
 "SUPER_FOLLOW_CREATOR_HANDLE_LABEL" = "- @%@";
 
 /* Description label for Super Follow education (new re-designed and simplified version) */
@@ -22634,9 +22846,7 @@ eg. "- @jack" */
 /* Title for Super Follow Marketing page. */
 "SUPER_FOLLOW_HEADER_TITLE" = "Subscribe to";
 
-/* Title with creator's name for Super Follow Marketing. %@ will be substituted with creator's name.
- eg. "Super Follow Shea Serrano"
- It is ok to swap the order accordingly to accommodate different languages */
+/* Title with creator's name for Super Follow Marketing. %@ will be substituted with creator's name. eg. "Super Follow Shea Serrano" It is ok to swap the order accordingly to accommodate different languages */
 "SUPER_FOLLOW_HEADER_TITLE_WITH_CREATOR_NAME" = "Subscribe to %@";
 
 /* Join button text for Super Follow Marketing Page when purchase ability is disabled */
@@ -22648,12 +22858,10 @@ eg. "- @jack" */
 /* Join button accessibility label text for Super Follow Marketing Page (eg. "Subscribe for $4.99") */
 "SUPER_FOLLOW_JOIN_CTA_WITH_PRICE_ACCESSIBILITY_LABEL_FORMAT" = "Subscribe for %@";
 
-/* Join button text for Super Follow Marketing Page. %1$@ will be substituted with localized price and %2$@ will be substituted with billing period like year, mo (mo is for month)
- eg. "Subscribe · $4.99/mo" */
+/* Join button text for Super Follow Marketing Page. %1$@ will be substituted with localized price and %2$@ will be substituted with billing period like year, mo (mo is for month) eg. "Subscribe · $4.99/mo" */
 "SUPER_FOLLOW_JOIN_CTA_WITH_PRICE_AND_PERIOD" = "Subscribe · %1$@/%2$@";
 
-/* Join button accessibility label text for Super Follow Marketing Page. %1$@ will be substituted with localized price and %2$@ will be substituted with billing period like year, mo (mo is for month)
- eg. "Subscribe for $4.99 per month" */
+/* Join button accessibility label text for Super Follow Marketing Page. %1$@ will be substituted with localized price and %2$@ will be substituted with billing period like year, mo (mo is for month) eg. "Subscribe for $4.99 per month" */
 "SUPER_FOLLOW_JOIN_CTA_WITH_PRICE_AND_PERIOD_ACCESSIBILITY_LABEL_FORMAT" = "Subscribe for %1$@ per %2$@";
 
 /* Title of the large super follow button. Shown in Exclusive Space screen when opened by a non-super follower. Format: 'Super Follow <account>' */
@@ -22719,42 +22927,34 @@ eg. "- @jack" */
 /* Fallback perk title when the perk type is unknown */
 "SUPER_FOLLOW_NEW_PAYWALL_PERK_UNKNOWN" = "Perk";
 
-/* Social proof text with one name and no others.
- eg. "Jack also subscribes" */
+/* Social proof text with one name and no others. eg. "Jack also subscribes" */
 "SUPER_FOLLOW_NEW_PAYWALL_SOCIAL_PROOF_ONE" = "%@ also subscribes";
 
-/* Social proof text with one name and additional others. %1$@ is the subscriber name, %2$d is the remaining count.
- eg. "Jack and 5 others also subscribe" */
+/* Social proof text with one name and additional others. %1$@ is the subscriber name, %2$d is the remaining count. eg. "Jack and 5 others also subscribe" */
 "SUPER_FOLLOW_NEW_PAYWALL_SOCIAL_PROOF_ONE_AND_OTHERS" = "%1$@ and %2$d others also subscribe";
 
 /* Social proof text when no subscriber names are available */
 "SUPER_FOLLOW_NEW_PAYWALL_SOCIAL_PROOF_OTHERS" = "Others also subscribe";
 
-/* Social proof text with three names and no others. %1$@ is the first name, %2$@ is the second name, %3$@ is the third name.
- eg. "Jack, Jill and Bob also subscribe" */
+/* Social proof text with three names and no others. %1$@ is the first name, %2$@ is the second name, %3$@ is the third name. eg. "Jack, Jill and Bob also subscribe" */
 "SUPER_FOLLOW_NEW_PAYWALL_SOCIAL_PROOF_THREE" = "%1$@, %2$@ and %3$@ also subscribe";
 
-/* Social proof text with three names and additional others. %1$@ is the first name, %2$@ is the second name, %3$@ is the third name, %4$d is the remaining count.
- eg. "Jack, Jill, Bob and 5 others also subscribe" */
+/* Social proof text with three names and additional others. %1$@ is the first name, %2$@ is the second name, %3$@ is the third name, %4$d is the remaining count. eg. "Jack, Jill, Bob and 5 others also subscribe" */
 "SUPER_FOLLOW_NEW_PAYWALL_SOCIAL_PROOF_THREE_AND_OTHERS" = "%1$@, %2$@, %3$@ and %4$d others also subscribe";
 
-/* Social proof text with two names and no others. %1$@ is the first name, %2$@ is the second name.
- eg. "Jack and Jill also subscribe" */
+/* Social proof text with two names and no others. %1$@ is the first name, %2$@ is the second name. eg. "Jack and Jill also subscribe" */
 "SUPER_FOLLOW_NEW_PAYWALL_SOCIAL_PROOF_TWO" = "%1$@ and %2$@ also subscribe";
 
-/* Social proof text with two names and additional others. %1$@ is the first name, %2$@ is the second name, %3$d is the remaining count.
- eg. "Jack, Jill and 5 others also subscribe" */
+/* Social proof text with two names and additional others. %1$@ is the first name, %2$@ is the second name, %3$d is the remaining count. eg. "Jack, Jill and 5 others also subscribe" */
 "SUPER_FOLLOW_NEW_PAYWALL_SOCIAL_PROOF_TWO_AND_OTHERS" = "%1$@, %2$@ and %3$d others also subscribe";
 
-/* Description for the stand out section. %@ will be substituted with the creator's name.
- eg. "Your replies will show an exclusive subscriber badge, making it easy for Jack to recognize you:" */
+/* Description for the stand out section. %@ will be substituted with the creator's name. eg. "Your replies will show an exclusive subscriber badge, making it easy for Jack to recognize you:" */
 "SUPER_FOLLOW_NEW_PAYWALL_STAND_OUT_DESCRIPTION" = "Your replies will show an exclusive subscriber badge, making it easy for %@ to recognize you:";
 
 /* Header label for the stand out section in the new paywall */
 "SUPER_FOLLOW_NEW_PAYWALL_STAND_OUT_HEADER" = "Stand out!";
 
-/* Stats label showing subscriber and post counts. %1$@ is the subscriber count, %2$@ is the post count.
- eg. "1.2K subscribers · 45 posts" */
+/* Stats label showing subscriber and post counts. %1$@ is the subscriber count, %2$@ is the post count. eg. "1.2K subscribers · 45 posts" */
 "SUPER_FOLLOW_NEW_PAYWALL_STATS" = "%1$@ subscribers · %2$@ posts";
 
 /* Stats label showing only post count */
@@ -22766,8 +22966,7 @@ eg. "- @jack" */
 /* Subscribe button text without price for new subscription paywall */
 "SUPER_FOLLOW_NEW_PAYWALL_SUBSCRIBE" = "Subscribe";
 
-/* Subscribe button text with price for new subscription paywall. %@ will be substituted with the localized price.
- eg. "Subscribe · $4.99/month" */
+/* Subscribe button text with price for new subscription paywall. %@ will be substituted with the localized price. eg. "Subscribe · $4.99/month" */
 "SUPER_FOLLOW_NEW_PAYWALL_SUBSCRIBE_WITH_PRICE" = "Subscribe · %@/month";
 
 /* Terms and conditions text for the new subscription paywall footer */
@@ -22803,8 +23002,7 @@ eg. "- @jack" */
 /* Label for the subscribers-only badge shown on exclusive tweet previews */
 "SUPER_FOLLOW_SUBSCRIBERS_ONLY_BADGE" = "Subscribers only";
 
-/* Terms and conditions text for Super Follow Marketing page. %1$@ will be substituted by the action text SUPER_FOLLOW_TERMS_AND_CONDITIONS_LINK that links to the web page. %2$@ will be substituted by the subscription period. eg. "monthly, weekly"
- eg. By clicking below to make this purchase, you agree to be bound by the our Purchaser Terms. Cancel anytime. Auto-renews monthly. */
+/* Terms and conditions text for Super Follow Marketing page. %1$@ will be substituted by the action text SUPER_FOLLOW_TERMS_AND_CONDITIONS_LINK that links to the web page. %2$@ will be substituted by the subscription period. eg. "monthly, weekly" eg. By clicking below to make this purchase, you agree to be bound by the our Purchaser Terms. Cancel anytime. Auto-renews monthly. */
 "SUPER_FOLLOW_TERMS_AND_CONDITIONS" = "By clicking below to make this purchase, you agree to be bound by the %1$@. Cancel anytime. Auto-renews %2$@.";
 
 /* Link to tap to navigate to terms and conditions web page from Super Follow Marketing Page. This text will be used in SUPER_FOLLOW_TERMS_AND_CONDITIONS texts */
@@ -23510,7 +23708,7 @@ eg. "- @jack" */
 /* Label shown beneath a LIVE space describing how many people are currently listening. */
 "VOICE_STATIONS_SPOTLIGHT_N_LISTENING" = "%@ listening";
 
-// Section: Frameworks/TwitterAdvancedSearch/TwitterAdvancedSearch/Sources/TwitterAdvancedSearchStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterAdvancedSearch/TwitterAdvancedSearch/Sources/TwitterAdvancedSearchStrings/Localizable.xcstrings
 
 /* Search condition filter for Any */
 "TWITTERADVANCEDSEARCH_ANY" = "Any";
@@ -23605,7 +23803,7 @@ eg. "- @jack" */
 /* Reset button on filters modal */
 "TWITTERADVANCEDSEARCH_RESET" = "Reset";
 
-// Section: Frameworks/TFNUISPM/Sources/TFNUIStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TFNUISPM/Sources/TFNUIStrings/Localizable.xcstrings
 
 /* Accessibility label for generic navigation add action. */
 "ADD_ACTION_ACCESSIBILITY_LABEL" = "Add";
@@ -23715,10 +23913,10 @@ eg. "- @jack" */
 /* Describes keyboard shortcut to refresh the page you're on */
 "KEYBOARD_SHORTCUT_REFRESH" = "Refresh";
 
-/* Describes keyboard shortcut to scroll the page down*/
+/* Describes keyboard shortcut to scroll the page down */
 "KEYBOARD_SHORTCUT_SCROLL_DOWN" = "Scroll Down";
 
-/* Describes keyboard shortcut to scroll the page up*/
+/* Describes keyboard shortcut to scroll the page up */
 "KEYBOARD_SHORTCUT_SCROLL_UP" = "Scroll Up";
 
 /* Keyboard shortcut to navigate to the top of the content */
@@ -23727,8 +23925,7 @@ eg. "- @jack" */
 /* Accessibility hint to indicate that a unchecked checkmark is actionable. */
 "MULTISELECT_CHECKMARK_UNCHECKED_ACCESSIBILITY_HINT" = "Selects this option.";
 
-/* Format indicating form field is optional, appended to existing field hint text.
-   Example: Apt. 21B (optional). */
+/* Format indicating form field is optional, appended to existing field hint text. Example: Apt. 21B (optional). */
 "OPTIONAL_FORM_FIELD_APPENDED_FORMAT" = "%@ (optional)";
 
 /* Paste text field menu item */
@@ -23749,8 +23946,7 @@ eg. "- @jack" */
 /* The title for an in-app toast notification action where tapping the action takes the user to the implied destination of the notification. */
 "TOAST_NAVIGATION_ACTION_TITLE" = "View";
 
-/* This title is read out loud for VoiceOver users announcing an in-app notification before the localized notification message and detail text is read to them. This text will NOT show up visually. The message text will describe the notification, the detail text and action will provide more context.
-    For example when a user gets a Direct Message the following message will be spoken: "X Notification. @jack sent you a message. hey how are you? Send a Reply" */
+/* This title is read out loud for VoiceOver users announcing an in-app notification before the localized notification message and detail text is read to them. This text will NOT show up visually. The message text will describe the notification, the detail text and action will provide more context. For example when a user gets a Direct Message the following message will be spoken: "X Notification. @jack sent you a message. hey how are you? Send a Reply" */
 "TOAST_VOICEOVER_ANNOUNCEMENT_MESSAGE_DETAIL_FORMAT_WITH_ACTION" = "X Notification. %1$@. %2$@ %3$@";
 
 /* This title is read out loud for VoiceOver users announcing an in-app notification before the localizes notification message is read to them. This text will NOT show up visually. For example when a user gets a Direct Message the following message will be spoken: "X Notification. @jack sent you a message." */
@@ -23768,7 +23964,7 @@ eg. "- @jack" */
 /* Title for label indicating that the card is showing content that is new to the app */
 "UPSELL_CARD_NEW_LABEL" = "New";
 
-// Section: Frameworks/TwitterSelfServeAds/Sources/TwitterSelfServeAdsStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterSelfServeAds/Sources/TwitterSelfServeAdsStrings/Localizable.xcstrings
 
 /* Primary action button on the ads-screening tray shown when a post was soft-blocked from boosting. Tapping it continues into the Boost flow despite the warning. */
 "BOOST_ADS_SCREENING_BOOST_ANYWAY_BUTTON" = "Boost anyway";
@@ -23896,7 +24092,7 @@ eg. "- @jack" */
 /* Error message shown when the client encounters an payments error that it can't recover from */
 "PAYMENTS_ERROR_PAYMENTS_UNAVAILABLE" = "Purchases from this device have been disabled.";
 
-/* Text representing an age bucket, such as '13 to 25 years'. The variables %1$@ and %2$@ will be replaced by the lowest and highest age  */
+/* Text representing an age bucket, such as '13 to 25 years'. The variables %1$@ and %2$@ will be replaced by the lowest and highest age */
 "QUICK_PROMOTE_AGE_BUCKET_MIN_MAX" = "%1$@ to %2$@";
 
 /* Text representing an age bucket without an upper limit. The highest upper limit is 54. So if we have an age range without an upper limit, we'd say for example '13 and up". The variable %1$@ will be replaced by the age */
@@ -23959,10 +24155,10 @@ eg. "- @jack" */
 /* When starting post Boost, a customer requires a professional account, if they don't have one, or refuse to make one, we show this message. */
 "QUICK_PROMOTE_ERROR_HAS_TO_UPGRADE_TO_PROFESSIONAL" = "You need a professional account to use this feature";
 
-/* When starting post Boost, we check if a post is eligible for quick promote, and particularly if post is already boosted  */
+/* When starting post Boost, we check if a post is eligible for quick promote, and particularly if post is already boosted */
 "QUICK_PROMOTE_ERROR_INELIGIBLE_FOR_QUICK_PROMOTE_BOOST_CAMPAIGN_RUNNING" = "This post is already boosted";
 
-/* When starting post Boost, we check if a post is eligible for quick promote, and particularly if post is already boosted  */
+/* When starting post Boost, we check if a post is eligible for quick promote, and particularly if post is already boosted */
 "QUICK_PROMOTE_ERROR_INELIGIBLE_FOR_QUICK_PROMOTE_PROMOTE_CAMPAIGN_RUNNING" = "This post is already boosted";
 
 /* When starting post Boost, a customer requires an Ad account, if they don't have one, or refuse to make one, we show this message. */
@@ -23974,7 +24170,7 @@ eg. "- @jack" */
 /* When starting post Boost, we check if a budget was selected, if they don't have one, we show a dialog with this title. */
 "QUICK_PROMOTE_ERROR_SELECT_BUDGET_TITLE" = "Select a budget";
 
-/* When user cancels payment at the end of the Quick Promote flow  */
+/* When user cancels payment at the end of the Quick Promote flow */
 "QUICK_PROMOTE_ERROR_TRANSACTION_CANCELLED" = "We couldn’t complete your payment, please try again";
 
 /* Text displayed when a customer wants to launch a campaign, but the post review fails (can be many types of errrors), best suggestion is for a customer to stop and try a different post. */
@@ -24073,12 +24269,10 @@ eg. "- @jack" */
 /* Inside the targeting page, there is an option to pick men. */
 "QUICK_PROMOTE_TARGETING_GENDER_MALE" = "Male";
 
-/* Text used for the terms and conditions label on the review boost screen. %@ will be substituted by QUICK_PROMOTE_TERMS_AND_CONDITIONS_LINK_V3,
- e.g. "By clicking Boost post, you agree to our Terms and Conditions. If your post is an advertisement, you agree to identify it as such in compliance with applicable law.". */
+/* Text used for the terms and conditions label on the review boost screen. %@ will be substituted by QUICK_PROMOTE_TERMS_AND_CONDITIONS_LINK_V3, e.g. "By clicking Boost post, you agree to our Terms and Conditions. If your post is an advertisement, you agree to identify it as such in compliance with applicable law.". */
 "QUICK_PROMOTE_TERMS_AND_CONDITIONS_FORMAT_V3" = "By clicking Boost post, you agree to our %@. If your post is an advertisement, you agree to identify it as such in compliance with applicable law.";
 
-/* Link to tap to navigate to terms and conditions web page from the review boost screen. This text will be used by the QUICK_PROMOTE_TERMS_AND_CONDITIONS_FORMAT_V3,
- e.g. "By clicking Boost post, you agree to our Terms and Conditions. If your post is an advertisement, you agree to identify it as such in compliance with applicable law.". */
+/* Link to tap to navigate to terms and conditions web page from the review boost screen. This text will be used by the QUICK_PROMOTE_TERMS_AND_CONDITIONS_FORMAT_V3, e.g. "By clicking Boost post, you agree to our Terms and Conditions. If your post is an advertisement, you agree to identify it as such in compliance with applicable law.". */
 "QUICK_PROMOTE_TERMS_AND_CONDITIONS_LINK_V3" = "Terms and Conditions";
 
 /* Text displayed at the top of the post & Boost button. */
@@ -24086,7 +24280,7 @@ eg. "- @jack" */
 
 "QUICK_PROMOTE_VALIDATION_FAILED" = "Unfortunately the campaign can not be launched for this post.";
 
-// Section: Frameworks/TwitterUnifiedCards/Sources/TwitterUnifiedCardsStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterUnifiedCards/Sources/TwitterUnifiedCardsStrings/Localizable.xcstrings
 
 /* A label for an app to indicate it is free of charge to download. */
 "APP_BADGE_FREE_LABEL" = "Free";
@@ -24100,11 +24294,7 @@ eg. "- @jack" */
 /* Unified Card: Title on a button in a card that would allow more information to be displayed within a playable */
 "APP_LEARN_MORE_CALL_TO_ACTION" = "Learn More";
 
-/* The 2nd line of App Store metadata information of an app. A badge image associated to the first input may appear in front of the whole string.
- %1$@ = "Free" or "Editor’s Choice" (potentially other metadata info in the future)
- %2$@ = "App Store" or app category such as "News", "Sports", "Business", and "Game"
- Example 1: "Free · App Store"
- Example 1: "Editor’s Choice · News" */
+/* The 2nd line of App Store metadata information of an app. A badge image associated to the first input may appear in front of the whole string. %1$@ = "Free" or "Editor’s Choice" (potentially other metadata info in the future) %2$@ = "App Store" or app category such as "News", "Sports", "Business", and "Game" Example 1: "Free · App Store" Example 1: "Editor’s Choice · News" */
 "APP_METADATA_LINE_2_FORMAT" = "%1$@ · %2$@";
 
 /* Unified Card: Title on a button in a card that will allow a preview to be seen */
@@ -24119,7 +24309,7 @@ eg. "- @jack" */
 /* Accessibility label for a 3D model attached to post. */
 "ATTACHMENT_3D_MODEL_ACCESSIBILITY_LABEL" = "3D Model";
 
-/* Title on button for 1-click purchase*/
+/* Title on button for 1-click purchase */
 "BUY_NOW_BUTTON_TITLE" = "Buy now";
 
 /* A generic format string for connecting two strings. Examples: "5 slides - carousel", "Install app - link" */
@@ -24134,7 +24324,7 @@ eg. "- @jack" */
 /* Subtitle for Unified Card Collection layout type which contains 1 URL that is passed into the placeholder. */
 "UC_COLLECTION_FROM_SUBTITLE" = "From %@";
 
-/* Accessibility label for the Unified Card Collection layout type which contains 1 to many images that can be interacted with. We will announce how many images are in the collection.*/
+/* Accessibility label for the Unified Card Collection layout type which contains 1 to many images that can be interacted with. We will announce how many images are in the collection. */
 "UC_COLLECTION_IMAGE_ACCESSIBILITY_LABEL" = "Collection of %d images";
 
 /* Accessibility label for the Unified Card Swipeable component. Users can swipe horizontally to select an image or video slide. */
@@ -24149,31 +24339,31 @@ eg. "- @jack" */
 /* Accessibility label format for the Unified Card Swipeable component. This is for counting the number of slides in the carousel. */
 "UC_COMPONENT_CAROUSEL_SLIDE_COUNT_ACCESSIBILITY_LABEL_FORMAT" = "%@ slides";
 
-/* Accessibility format for the Unified Card Swipeable component. Example: "Slide 2 of 5"*/
+/* Accessibility format for the Unified Card Swipeable component. Example: "Slide 2 of 5" */
 "UC_COMPONENT_CAROUSEL_SLIDE_INDEX_ACCESSIBILITY_LABEL_FORMAT" = "Slide %1$@ of %2$@";
 
-/* Label for Unified Card Detail Component App Ratings With Review Count*/
+/* Label for Unified Card Detail Component App Ratings With Review Count */
 "UC_COMPONENT_DETAIL_APP_RATINGS_REVIEWS_LABEL" = "%@ reviews";
 
-/* Label for Unified Card Detail Component App Ratings With Star Count with one digit after the decimal place. Example: "4.5 stars"*/
+/* Label for Unified Card Detail Component App Ratings With Star Count with one digit after the decimal place. Example: "4.5 stars" */
 "UC_COMPONENT_DETAIL_APP_RATINGS_STARS_LABEL" = "%.1f stars";
 
-/* Label for Unified Card Facepile Component for the word Followed capitalised, used in context like e.g.: "Followed by ..."*/
+/* Label for Unified Card Facepile Component for the word Followed capitalised, used in context like e.g.: "Followed by ..." */
 "UC_COMPONENT_FACEPILE_CAPITALISED_FOLLOWED_LABEL" = "Followed";
 
-/* Label for Unified Card Facepile Component for the word Joined capitalised, used in context like e.g.: "Joined by ..."*/
+/* Label for Unified Card Facepile Component for the word Joined capitalised, used in context like e.g.: "Joined by ..." */
 "UC_COMPONENT_FACEPILE_CAPITALISED_JOINED_LABEL" = "Joined";
 
-/* Label for Unified Card Facepile Component for the word Liked capitalised, used in context like e.g.: "Liked by ..."*/
+/* Label for Unified Card Facepile Component for the word Liked capitalised, used in context like e.g.: "Liked by ..." */
 "UC_COMPONENT_FACEPILE_CAPITALISED_LIKED_LABEL" = "Liked";
 
-/* Label for Unified Card Facepile Component for the word Shared capitalised, used in context like e.g.: "Shared by ..."*/
+/* Label for Unified Card Facepile Component for the word Shared capitalised, used in context like e.g.: "Shared by ..." */
 "UC_COMPONENT_FACEPILE_CAPITALISED_SHARED_LABEL" = "Shared";
 
-/* Label for Unified Card Facepile Component when the user has four account they are following in common that e.g. follows post author, likes a post etc... the argument can be: liked, followed, shared or joined (e.g. Liked by John Smith, Jack, Sempronio and 5 others"*/
+/* Label for Unified Card Facepile Component when the user has four account they are following in common that e.g. follows post author, likes a post etc... the argument can be: liked, followed, shared or joined (e.g. Liked by John Smith, Jack, Sempronio and 5 others" */
 "UC_COMPONENT_FACEPILE_FOUR_USERS_IN_COMMON_LABEL" = "%1$@ by %2$@, %3$@, %4$@, and 1 other";
 
-/* Label for Unified Card Facepile Component when the user has more than four account they are following in common that e.g. follows post author, likes a post etc... the argument can be: liked, followed, shared or joined (e.g. Liked by John Smith, Jack, Sempronio and 5 others"*/
+/* Label for Unified Card Facepile Component when the user has more than four account they are following in common that e.g. follows post author, likes a post etc... the argument can be: liked, followed, shared or joined (e.g. Liked by John Smith, Jack, Sempronio and 5 others" */
 "UC_COMPONENT_FACEPILE_MORE_THAN_FOUR_USERS_IN_COMMON_LABEL" = "%1$@ by %2$@, %3$@, %4$@, and %5$d others";
 
 /* Label for Unified Card Facepile Component when the user has no one they are following in common that follows post author */
@@ -24188,13 +24378,13 @@ eg. "- @jack" */
 /* Label for Unified Card Facepile Component when the user has no one they are following in common that has shared a post etc... */
 "UC_COMPONENT_FACEPILE_NO_USERS_IN_COMMON_SHARES_LABEL" = "Not shared by anyone you’re following";
 
-/* Label for Unified Card Facepile Component when the user has only one account they are following in common that e.g. follows post author, likes a post etc... the argument can be: liked, followed, shared or joined (e.g. Liked by John Smith"*/
+/* Label for Unified Card Facepile Component when the user has only one account they are following in common that e.g. follows post author, likes a post etc... the argument can be: liked, followed, shared or joined (e.g. Liked by John Smith" */
 "UC_COMPONENT_FACEPILE_ONE_USERS_IN_COMMON_LABEL" = "%1$@ by %2$@";
 
-/* Label for Unified Card Facepile Component when the user has three account they are following in common that e.g. follows post author, likes a post etc... the argument can be: liked, followed, shared or joined (e.g. Liked by John Smith, Jack and Sempronio"*/
+/* Label for Unified Card Facepile Component when the user has three account they are following in common that e.g. follows post author, likes a post etc... the argument can be: liked, followed, shared or joined (e.g. Liked by John Smith, Jack and Sempronio" */
 "UC_COMPONENT_FACEPILE_THREE_USERS_IN_COMMON_LABEL" = "%1$@ by %2$@, %3$@, and %4$@";
 
-/* Label for Unified Card Facepile Component when the user has two account they are following in common that e.g. follows post author, likes a post etc... the argument can be: liked, followed, shared or joined (e.g. Liked by John Smith and Jack"*/
+/* Label for Unified Card Facepile Component when the user has two account they are following in common that e.g. follows post author, likes a post etc... the argument can be: liked, followed, shared or joined (e.g. Liked by John Smith and Jack" */
 "UC_COMPONENT_FACEPILE_TWO_USERS_IN_COMMON_LABEL" = "%1$@ by %2$@ and %3$@";
 
 /* Accessibility label for Unified Card Media Image component */
@@ -24254,10 +24444,7 @@ eg. "- @jack" */
 /* Accessibility action format "visit" for Unified Card Destination (ie. Visit https://www.x.com) */
 "UC_DESTINATION_VISIT_ACCESSIBILITY_ACTION_FORMAT" = "Visit %@";
 
-/*
- * Label for button to encourages customer to navigate to a website to shop.
- * Appears at the bottom of an advertisement on a buttom where clicking will lead to website for item advertised.
- */
+/* Label for button to encourages customer to navigate to a website to shop. Appears at the bottom of an advertisement on a buttom where clicking will lead to website for item advertised. */
 "UC_PRODUCT_EXPLORER_SHOP_NOW_BUTTON_TITLE" = "Shop now";
 
 /* Label for a tooltip which indicates a 3D model can be swiped left in right to see more. */
@@ -24266,7 +24453,7 @@ eg. "- @jack" */
 /* Label for button to visit a website (from a Website Ad Card) */
 "UC_WEBSITE_CARD_VISIT_BUTTON_TITLE" = "Visit";
 
-// Section: Frameworks/ChatApp/Sources/ChatAppStrings/en.lproj/Localizable.strings
+// Section: Frameworks/ChatApp/Sources/ChatAppStrings/Localizable.xcstrings
 
 /* Account settings title */
 "CHAT_ACCOUNT_SETTINGS" = "Account";
@@ -24600,7 +24787,7 @@ eg. "- @jack" */
 
 "JOB_VIEW_MORE_TEXT" = "View external job description";
 
-// Section: Frameworks/TwitterPlatform/Sources/TwitterPlatformStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterPlatform/Sources/TwitterPlatformStrings/Localizable.xcstrings
 
 /* Title of Account Analytics page. */
 "ACCOUNT_ANALYTICS_TITLE" = "Account Analytics";
@@ -24632,13 +24819,13 @@ eg. "- @jack" */
 /* Title of Article fullscreen page. */
 "ARTICLE_WEBVIEW_TITLE" = "Article";
 
-/** Title of a page for a feature called Birdwatch where users can add a "note" */
+/* * Title of a page for a feature called Birdwatch where users can add a "note" */
 "BIRDWATCH_PAGE_CONTRIBUTE_TITLE" = "Write a note";
 
-/** Title of a page for a feature called Birdwatch where users can see a history of their contributions, called "notes" */
+/* * Title of a page for a feature called Birdwatch where users can see a history of their contributions, called "notes" */
 "BIRDWATCH_PAGE_HISTORY_TITLE" = "Community Notes profile";
 
-/** Title of a page for a feature called Birdwatch where users can rate a note */
+/* * Title of a page for a feature called Birdwatch where users can rate a note */
 "BIRDWATCH_PAGE_NOTE_TITLE" = "Rate a note";
 
 /* Title of the Community Analytics Webview */
@@ -24780,6 +24967,48 @@ eg. "- @jack" */
 
 // Section: Frameworks/XSports/Sources/XSports/en.lproj/Localizable.strings
 
+/* Label on a collapsed drive that ended with a blocked field goal. */
+"NFL_DRIVE_OUTCOME_BLOCKED_FIELD_GOAL" = "Blocked field goal";
+
+/* Label on a collapsed drive that ended with a blocked punt. */
+"NFL_DRIVE_OUTCOME_BLOCKED_PUNT" = "Blocked punt";
+
+/* Label on a collapsed drive that ended on downs. */
+"NFL_DRIVE_OUTCOME_DOWNS" = "Turnover on downs";
+
+/* Label on a collapsed drive that ran out the game. */
+"NFL_DRIVE_OUTCOME_END_OF_GAME" = "End of game";
+
+/* Label on a collapsed drive that ran out the half. */
+"NFL_DRIVE_OUTCOME_END_OF_HALF" = "End of half";
+
+/* Label on a collapsed drive that ended with a made field goal. */
+"NFL_DRIVE_OUTCOME_FIELD_GOAL" = "Field goal";
+
+/* Label on a collapsed drive that ended with a lost fumble. */
+"NFL_DRIVE_OUTCOME_FUMBLE" = "Fumble";
+
+/* Label on a collapsed drive that ended with an interception. */
+"NFL_DRIVE_OUTCOME_INTERCEPTION" = "Interception";
+
+/* Label on the drive that is still being played. */
+"NFL_DRIVE_OUTCOME_IN_PROGRESS" = "In progress";
+
+/* Label on a collapsed section holding a kickoff. */
+"NFL_DRIVE_OUTCOME_KICKOFF" = "Kickoff";
+
+/* Label on a collapsed drive that ended with a missed field goal. */
+"NFL_DRIVE_OUTCOME_MISSED_FIELD_GOAL" = "Missed field goal";
+
+/* Label on a collapsed drive that ended with a punt. */
+"NFL_DRIVE_OUTCOME_PUNT" = "Punt";
+
+/* Label on a collapsed drive that ended with a safety. */
+"NFL_DRIVE_OUTCOME_SAFETY" = "Safety";
+
+/* Label on a collapsed drive that ended with a touchdown. */
+"NFL_DRIVE_OUTCOME_TOUCHDOWN" = "Touchdown";
+
 /* Clock text shown when a game has ended. */
 "NFL_GAME_CLOCK_FINAL" = "Final";
 
@@ -24790,7 +25019,7 @@ eg. "- @jack" */
 "NFL_GAME_HEALTH_INTERRUPTED_LABEL" = "Live updates interrupted";
 
 /* Label preceding the most recent play summary under the field. */
-"NFL_GAME_LAST_PLAY_LABEL" = "LAST PLAY";
+"NFL_GAME_LAST_PLAY_LABEL" = "Last play";
 
 /* Column header for the total-points column on the scoring-by-quarter line score card. */
 "NFL_GAME_LINE_SCORE_TOTAL_HEADER" = "T";
@@ -24852,6 +25081,9 @@ eg. "- @jack" */
 /* Rushing card column header: rushing yards. */
 "NFL_GAME_RUSHING_COLUMN_YARDS" = "YDS";
 
+/* Title of the scoring player-stats card on the game screen, listing players who have scored. */
+"NFL_GAME_SCORING_CARD_TITLE" = "Scoring";
+
 /* Gameview segment tab showing the fan chat. */
 "NFL_GAME_SEGMENT_CHAT" = "Chat";
 
@@ -24891,8 +25123,26 @@ eg. "- @jack" */
 /* Shown on the situation line under the game clock while a timeout is active. */
 "NFL_GAME_TIMEOUT_LABEL" = "TIMEOUT";
 
-/* Games tab section header for a week's slate, with the week number and date (e.g. "Week 2 · Sep 17"). */
-"NFL_HUB_GAMES_WEEK_FORMAT" = "Week %1$d · %2$@";
+/* Status shown on a scorecard for a game that finished in overtime. */
+"NFL_HUB_FINAL_OVERTIME_LABEL" = "Final/OT";
+
+/* Abbreviated "postseason" heading on a Games tab week carousel chip, shown above the week number. */
+"NFL_HUB_GAMES_WEEK_POSTSEASON_ABBREVIATION" = "POST";
+
+/* Accessibility label for a postseason week on the Games tab week carousel, where %ld is the week number. */
+"NFL_HUB_GAMES_WEEK_POSTSEASON_ACCESSIBILITY_LABEL" = "Postseason week %ld";
+
+/* Abbreviated "preseason" heading on a Games tab week carousel chip, shown above the week number. */
+"NFL_HUB_GAMES_WEEK_PRESEASON_ABBREVIATION" = "PRE";
+
+/* Accessibility label for a preseason week on the Games tab week carousel, where %ld is the week number. */
+"NFL_HUB_GAMES_WEEK_PRESEASON_ACCESSIBILITY_LABEL" = "Preseason week %ld";
+
+/* Abbreviated "week" heading on a Games tab week carousel chip, shown above the week number. */
+"NFL_HUB_GAMES_WEEK_REGULAR_ABBREVIATION" = "WK";
+
+/* Accessibility label for a regular season week on the Games tab week carousel, where %ld is the week number. */
+"NFL_HUB_GAMES_WEEK_REGULAR_ACCESSIBILITY_LABEL" = "Week %ld";
 
 /* Section header on the hub Home tab above the list of in-progress games. */
 "NFL_HUB_HOME_LIVE_TITLE" = "Live";
@@ -24903,6 +25153,9 @@ eg. "- @jack" */
 /* Hub segment tab showing the league home overview. */
 "NFL_HUB_SEGMENT_HOME" = "Home";
 
+/* NFL hub tab listing league statistical leaders by category. */
+"NFL_HUB_SEGMENT_PLAYERS" = "Players";
+
 /* Hub segment tab showing the league standings. */
 "NFL_HUB_SEGMENT_STANDINGS" = "Standings";
 
@@ -24912,17 +25165,101 @@ eg. "- @jack" */
 /* Kickoff time on an upcoming game scorecard, where %@ is the time (e.g. "at 1:00 PM"). */
 "NFL_HUB_UPCOMING_TIME_FORMAT" = "at %@";
 
+/* Section title: leaders in pass completion percentage. */
+"NFL_LEADERS_COMPLETION_PERCENTAGE" = "Completion percentage";
+
+/* Section title: leaders in field goals made. */
+"NFL_LEADERS_FIELD_GOALS_MADE" = "Field goals made";
+
+/* Section title: defenders who have intercepted the most passes. */
+"NFL_LEADERS_INTERCEPTIONS_MADE" = "Interceptions";
+
+/* Section title: quarterbacks who have thrown the most interceptions. */
+"NFL_LEADERS_INTERCEPTIONS_THROWN" = "Interceptions thrown";
+
+/* Section title: leaders in passer rating. */
+"NFL_LEADERS_PASSER_RATING" = "Passer rating";
+
+/* Section title: leaders in passing touchdowns. */
+"NFL_LEADERS_PASSING_TOUCHDOWNS" = "Passing touchdowns";
+
+/* Section title: leaders in passing yards. */
+"NFL_LEADERS_PASSING_YARDS" = "Passing yards";
+
+/* Section title: leaders in receiving touchdowns. */
+"NFL_LEADERS_RECEIVING_TOUCHDOWNS" = "Receiving touchdowns";
+
+/* Section title: leaders in receiving yards. */
+"NFL_LEADERS_RECEIVING_YARDS" = "Receiving yards";
+
+/* Section title: leaders in receptions caught. */
+"NFL_LEADERS_RECEPTIONS" = "Receptions";
+
+/* Section title: leaders in rushing touchdowns. */
+"NFL_LEADERS_RUSHING_TOUCHDOWNS" = "Rushing touchdowns";
+
+/* Section title: leaders in rushing yards. */
+"NFL_LEADERS_RUSHING_YARDS" = "Rushing yards";
+
+/* Section title: leaders in quarterback sacks recorded. */
+"NFL_LEADERS_SACKS" = "Sacks";
+
+/* Section title: leaders in tackles recorded. */
+"NFL_LEADERS_TACKLES" = "Tackles";
+
+/* Section title: leaders in total touchdowns scored. */
+"NFL_LEADERS_TOTAL_TOUCHDOWNS" = "Total touchdowns";
+
+/* Column label: the statistic is measured in field goals. */
+"NFL_LEADERS_UNIT_FIELD_GOALS" = "FG";
+
+/* Column label: the statistic is measured in interceptions. */
+"NFL_LEADERS_UNIT_INTERCEPTIONS" = "Int";
+
+/* Column label: the statistic is a percentage. */
+"NFL_LEADERS_UNIT_PERCENTAGE" = "Pct";
+
+/* Column label: the statistic is a passer rating. */
+"NFL_LEADERS_UNIT_RATING" = "Rating";
+
+/* Column label: the statistic is measured in receptions. */
+"NFL_LEADERS_UNIT_RECEPTIONS" = "Rec";
+
+/* Column label: the statistic is measured in sacks. */
+"NFL_LEADERS_UNIT_SACKS" = "Sacks";
+
+/* Column label: the statistic is measured in tackles. */
+"NFL_LEADERS_UNIT_TACKLES" = "Tackles";
+
+/* Column label: the statistic is measured in touchdowns. */
+"NFL_LEADERS_UNIT_TOUCHDOWNS" = "TD";
+
+/* Column label: the statistic is measured in yards. */
+"NFL_LEADERS_UNIT_YARDS" = "Yards";
+
+/* Button that expands a leaders section to show every ranked player. */
+"NFL_LEADERS_VIEW_ALL" = "View all";
+
+/* Button that collapses an expanded leaders section back to the top five. */
+"NFL_LEADERS_VIEW_LESS" = "View less";
+
+/* Section header above one quarter's drives in the play-by-play list. %@ is the quarter's number, such as 1st or 2nd. */
+"NFL_PLAYS_QUARTER_HEADER" = "%@ quarter";
+
+/* Section header above the overtime drives in the play-by-play list. */
+"NFL_PLAYS_QUARTER_OVERTIME" = "Overtime";
+
 /* Detail-row label for the broadcast networks carrying a game. */
 "NFL_SCHEDULE_BROADCAST_LABEL" = "Broadcast";
-
-/* Label for a bye-week row in a team's season schedule. */
-"NFL_SCHEDULE_BYE_WEEK_LABEL" = "Bye Week";
 
 /* Detail-row label for the date of a game. */
 "NFL_SCHEDULE_DATE_LABEL" = "Date";
 
 /* Title of the game-details tray. */
 "NFL_SCHEDULE_GAME_DETAILS_TITLE" = "Game Details";
+
+/* Badge on a profile schedule card for a game that is currently in progress. */
+"NFL_SCHEDULE_LIVE_BADGE" = "LIVE";
 
 /* Detail-row label for the venue/location of a game. */
 "NFL_SCHEDULE_LOCATION_LABEL" = "Location";
@@ -24933,17 +25270,8 @@ eg. "- @jack" */
 /* Prefix before the opponent name for a home game (e.g. "vs Lions"). */
 "NFL_SCHEDULE_MATCHUP_HOME_PREFIX" = "vs";
 
-/* Section header for postseason games in a team's schedule. */
-"NFL_SCHEDULE_POSTSEASON_SECTION_TITLE" = "Postseason";
-
 /* Button that starts composing a post about a game. */
 "NFL_SCHEDULE_POST_BUTTON" = "Post";
-
-/* Section header for preseason games in a team's schedule. */
-"NFL_SCHEDULE_PRESEASON_SECTION_TITLE" = "Preseason";
-
-/* Section header for regular-season games in a team's schedule. */
-"NFL_SCHEDULE_REGULAR_SEASON_SECTION_TITLE" = "Regular Season";
 
 /* Button that sets a reminder for a game. */
 "NFL_SCHEDULE_SET_REMINDER_BUTTON" = "Set Reminder";
@@ -24953,12 +25281,6 @@ eg. "- @jack" */
 
 /* Detail-row label for the start time of a game. */
 "NFL_SCHEDULE_TIME_LABEL" = "Time";
-
-/* Trailing action label on a schedule row that opens the game's details. */
-"NFL_SCHEDULE_VIEW_DETAILS_LABEL" = "View Details";
-
-/* Abbreviation for "Week", shown on a bye-week badge (e.g. "WK 17"). */
-"NFL_SCHEDULE_WEEK_ABBREVIATION_LABEL" = "WK";
 
 /* Week label shown in the game-details tray, where %@ is the week number (e.g. "Week 1"). */
 "NFL_SCHEDULE_WEEK_LABEL_FORMAT" = "Week %@";
@@ -25119,7 +25441,7 @@ eg. "- @jack" */
 /* Title of the alert shown when palm verification is not supported on the current device. */
 "PALM_LIVENESS_UNSUPPORTED_ALERT_TITLE" = "Palm Verification Unavailable";
 
-// Section: Frameworks/TwitterUI/TwitterUI/Sources/TwitterUIStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterUI/TwitterUI/Sources/TwitterUIStrings/Localizable.xcstrings
 
 /* Accessibility label for button to block the user */
 "BLOCK_ACTION_ACCESSIBILITY_LABEL" = "Block";
@@ -25142,7 +25464,7 @@ eg. "- @jack" */
 /* Accessibility label for button indicating you are currently following this user. Example: "Following Johnny Smith" */
 "FOLLOWING_ACTION_ACCESSIBILITY_LABEL_FORMAT" = "Following %@";
 
-/* Accessibility label for action to follow a user. Example: "Follow Johnny Smith"*/
+/* Accessibility label for action to follow a user. Example: "Follow Johnny Smith" */
 "FOLLOW_ACTION_ACCESSIBILITY_LABEL_FORMAT" = "Follow %@";
 
 /* Accessibility label for the follow action */
@@ -25163,7 +25485,7 @@ eg. "- @jack" */
 /* Accessibility label indicating your request to follow this user is pending. */
 "FOLLOW_REQUEST_PENDING_ACTION_ACCESSIBILITY_LABEL" = "Follow pending";
 
-/* Accessibility label on button indicating your request to follow this user is pending. Example: "Follow pending for Johnny Smith"*/
+/* Accessibility label on button indicating your request to follow this user is pending. Example: "Follow pending for Johnny Smith" */
 "FOLLOW_REQUEST_PENDING_ACTION_ACCESSIBILITY_LABEL_FORMAT" = "Follow pending for %@";
 
 /* Label on button indicating your request to follow this user is pending. */
@@ -25181,14 +25503,13 @@ eg. "- @jack" */
 /* Accessibility hint to cancel pending follow request. */
 "TAP_TO_CANCEL_FOLLOW_REQUEST_ACCESSIBILITY_HINT" = "Cancels a pending follow request";
 
-/* Accessibility hint for unfollowing a user
-   Accessibility hint indicating action to unfollow user */
+/* Accessibility hint for unfollowing a user Accessibility hint indicating action to unfollow user */
 "TAP_TO_UNFOLLOW_ACCESSIBILITY_HINT" = "Unfollows this user";
 
 /* Accessibility label for translator user icon */
 "TRANSLATOR_ACCESSIBILITY_LABEL" = "Translator";
 
-/* Accessibility hint shown on the button that opens the post Audience selector. It will be read after the current audience. E.g. "Everyone. Button. Change post audience."  */
+/* Accessibility hint shown on the button that opens the post Audience selector. It will be read after the current audience. E.g. "Everyone. Button. Change post audience." */
 "TWEET_AUDIENCE_SELECTOR_ACCESSIBILITY_HINT" = "Change post audience.";
 
 /* Empty state text shown in post Audience Selector when the user is not a member of any Communities. */
@@ -25198,7 +25519,7 @@ eg. "- @jack" */
 "TWEET_AUDIENCE_SELECTOR_COMMUNITIES_SECTION_TITLE" = "My Communities";
 
 /* Accessibility hint read for a Community within the post Audience Selector. */
-"TWEET_AUDIENCE_SELECTOR_COMMUNITY_ITEM_ACCESSIBILITY_HINT_FORMAT" = "Compose post to the \“%@\” Community.";
+"TWEET_AUDIENCE_SELECTOR_COMMUNITY_ITEM_ACCESSIBILITY_HINT_FORMAT" = "Compose post to the “%@” Community.";
 
 /* Empty state text shown in post Audience Selector when the user has not previously picked any location to broadcast content to */
 "TWEET_AUDIENCE_SELECTOR_LOCATION_SECTION_EMPTY_TEXT" = "No location selected";
@@ -25206,19 +25527,19 @@ eg. "- @jack" */
 /* Title of the header shown above a location the user can select to post to. */
 "TWEET_AUDIENCE_SELECTOR_LOCATION_SECTION_TITLE" = "Select location";
 
-/* Label of item in the post Audience Selector to select an All Followers post audience.  */
+/* Label of item in the post Audience Selector to select an All Followers post audience. */
 "TWEET_AUDIENCE_SELECTOR_PROTECTED_ACCOUNT_AUDIENCE_ACCESSIBILITY_HINT" = "Compose post to all your followers.";
 
-/* Label of item in the post Audience Selector to select All Followers post audience, default copy for private accounts.  */
+/* Label of item in the post Audience Selector to select All Followers post audience, default copy for private accounts. */
 "TWEET_AUDIENCE_SELECTOR_PROTECTED_ACCOUNT_DEFAULT_AUDIENCE_LABEL" = "All Followers";
 
-/* Label of item in the post Audience Selector to select Public post audience, default copy for public accounts.  */
+/* Label of item in the post Audience Selector to select Public post audience, default copy for public accounts. */
 "TWEET_AUDIENCE_SELECTOR_PUBLIC_ACCOUNT_DEFAULT_AUDIENCE_LABEL" = "Public";
 
-/* Label of item in the post Audience Selector to select a public post audience.  */
+/* Label of item in the post Audience Selector to select a public post audience. */
 "TWEET_AUDIENCE_SELECTOR_PUBLIC_AUDIENCE_ACCESSIBILITY_HINT" = "Compose public post.";
 
-/* Label of item in the post Audience Selector to select a public post audience.  */
+/* Label of item in the post Audience Selector to select a public post audience. */
 "TWEET_AUDIENCE_SELECTOR_PUBLIC_AUDIENCE_LABEL" = "Everyone";
 
 /* Accessibility hint for Audience selector item Super Followers in composer */
@@ -25227,7 +25548,7 @@ eg. "- @jack" */
 /* Label for Audience selector item Super Followers in composer */
 "TWEET_AUDIENCE_SELECTOR_SUPER_FOLLOWERS_AUDIENCE_LABEL" = "Subscribers";
 
-/* Title shown at the top of the post Audience selector, which allows the user to select an audience for their post (e.g. public, super followers, or a Community).  */
+/* Title shown at the top of the post Audience selector, which allows the user to select an audience for their post (e.g. public, super followers, or a Community). */
 "TWEET_AUDIENCE_SELECTOR_TITLE" = "Choose audience";
 
 /* Label showing state of user as being just unblocked */
@@ -25236,10 +25557,10 @@ eg. "- @jack" */
 /* Accessibility label for button to unblock the user */
 "UNBLOCK_ACTION_ACCESSIBILITY_LABEL" = "Unblock";
 
-/* Label for button to unblock the user. Example: "Unblock Johnny Smith"*/
+/* Label for button to unblock the user. Example: "Unblock Johnny Smith" */
 "UNBLOCK_ACTION_ACCESSIBILITY_LABEL_FORMAT" = "Unblock %@";
 
-/* Accessibility label for action to unfollow a user. Example: "Unfollow Johnny Smith"*/
+/* Accessibility label for action to unfollow a user. Example: "Unfollow Johnny Smith" */
 "UNFOLLOW_ACTION_ACCESSIBILITY_LABEL_FORMAT" = "Unfollow %@";
 
 /* Accessibility hint for verified user icon, which when tapped will provide details about what verified accounts mean. */
@@ -25352,7 +25673,7 @@ eg. "- @jack" */
 /* Original photo filter name: The original photo (no filter applied) */
 "FILTERS_NAME_ORIGINAL" = "No filter";
 
-// Section: Frameworks/XPhotoEditor/XPhotoEditor/Sources/XPhotoEditor/en.lproj/Localizable.strings
+// Section: Frameworks/XPhotoEditor/XPhotoEditor/Sources/XPhotoEditor/Localizable.xcstrings
 
 /* Label for the link that educates users about accessible image descriptions */
 "XPHOTOEDITOR_ALT_TEXT_EDUCATION_LINK_LABEL" = "What’s an image description?";
@@ -25361,7 +25682,7 @@ eg. "- @jack" */
 "XPHOTOEDITOR_ALT_TEXT_INPUT_PLACEHOLDER" = "Image description";
 
 /* Format for accessibility information given when alt text field input exceeds the max length. */
-"XPHOTOEDITOR_ALT_TEXT_MAX_LENGTH_ACCESSIBILITY_STRING" = "Photo description must be %tu characters or fewer.";
+"XPHOTOEDITOR_ALT_TEXT_MAX_LENGTH_ACCESSIBILITY_STRING" = "Photo description must be %lld characters or fewer.";
 
 /* Alt text title. This string should use Sentence case and not Title Case. */
 "XPHOTOEDITOR_ALT_TEXT_TITLE" = "Write alt text";
@@ -25569,6 +25890,12 @@ eg. "- @jack" */
 /* Title for the confirmation alert shown when the user taps retake to discard a photo they just captured in the video recorder. The alert presents Cancel and Discard buttons. */
 "NEWSCAMERA_RECORDER_DISCARD_PHOTO_ALERT_TITLE" = "Discard photo?";
 
+/* Error toast shown when the user tries to start recording video but the device does not have enough free storage. */
+"NEWSCAMERA_RECORDER_LOW_STORAGE_BLOCKED_TOAST" = "Not enough storage to record video. Free up space and try again.";
+
+/* Error toast shown when an in-progress video recording is stopped automatically because the device ran out of free storage. Whatever was recorded up to that point is kept. */
+"NEWSCAMERA_RECORDER_LOW_STORAGE_STOPPED_TOAST" = "Recording stopped because your device is low on storage.";
+
 /* Label in the video recorder's capture mode selector for switching to photo capture, shown to the right of the video option. Displayed in all caps to match the design. Keep it short. */
 "NEWSCAMERA_RECORDER_MODE_PHOTO" = "PHOTO";
 
@@ -25577,6 +25904,9 @@ eg. "- @jack" */
 
 /* Label shown at the bottom of the video recorder indicating that the captured media will be shared as a post. Displayed in all caps to match the design. Keep it short. */
 "NEWSCAMERA_RECORDER_POST_LABEL" = "POST";
+
+/* Error toast shown when an in-progress video recording is stopped automatically because writing the video failed. Whatever was recorded up to that point is kept when possible. */
+"NEWSCAMERA_RECORDER_RECORDING_FAILED_TOAST" = "Recording stopped because something went wrong.";
 
 /* Accessibility label for the button in the video recorder that opens the menu for choosing a video background. */
 "NEWSCAMERA_SET_VIDEO_BACKGROUND_ACTION_ACCESSIBILITY_LABEL" = "Set video background";
@@ -25599,7 +25929,7 @@ eg. "- @jack" */
 /* Title for the confirmation alert shown when the user taps undo to remove the last recorded clip in the video reaction camera. The alert presents Cancel and Discard buttons. */
 "TWEET_REACTION_DISCARD_LAST_CLIP_ALERT_TITLE" = "Discard the last clip?";
 
-// Section: Frameworks/TwitterHome/Sources/TwitterHomeStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterHome/Sources/TwitterHomeStrings/Localizable.xcstrings
 
 /* Option title for showing the unfiltered Home timeline in the filter sheet. */
 "HOME_TIMELINE_FILTER_ALL_POSTS_OPTION" = "All posts";
@@ -25766,12 +26096,25 @@ eg. "- @jack" */
 /* Title shown on the Topics upsell screen */
 "TOPICS_UPSELL_TITLE" = "Explore your interests";
 
-// Section: Frameworks/XAppLibraries/Profile/Sources/ProfileStrings/ttc/Localizable.strings
+// Section: Frameworks/XAppLibraries/PollCard/Sources/PollCardStrings/Localizable.xcstrings
 
-/*
-@generated
-Generated from Frameworks/XAppLibraries/Profile/Sources/ProfileStrings/Localizable.xcstrings for Translation Center exchange. Do not edit.
-*/
+/* Label for final poll results */
+"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Final results";
+
+/* Label indicating poll is about to end */
+"POLL_CARD_DISPLAY_POLL_ENDING" = "Poll ending…";
+
+/* Label for time remaining in poll. %@ is replaced by the time description (e.g. "2 hours") */
+"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@ left";
+
+/* Label for vote count and time left on polling card. %1$@ is replaced by the localized vote count and %2$@ is replaced by a text description of the remaining time available for voting. */
+"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
+
+/* Generic error message for vote submission failures */
+"POLL_CARD_VOTE_SUBMISSION_FAILED" = "Vote submission failed. Please try again.";
+
+// Section: Frameworks/XAppLibraries/Profile/Sources/ProfileStrings/Localizable.xcstrings
+
 /* Button label on the mini profile tray that navigates to the user's full profile page */
 "MINI_PROFILE_GO_TO_PROFILE_BUTTON_LABEL" = "Go to Profile";
 
@@ -25868,9 +26211,6 @@ Generated from Frameworks/XAppLibraries/Profile/Sources/ProfileStrings/Localizab
 /* Title text for the 'About this account' page row that displays when the account is a Premium member (shown for blue-checkmark and affiliate users when the verified-to-premium relabeling feature is on; gold and gray verified accounts continue to show "Verified") */
 "PROFILE_ABOUT_THIS_ACCOUNT_PREMIUM_MEMBER_TITLE_LABEL" = "Premium member";
 
-/* Title for the number of times the user changed their username. %lld is the count. English one is n=1 only (1 username change); other must include %lld (%lld username changes). If your language's one category includes 21/31/etc., include %lld in one as well. */
-"PROFILE_ABOUT_THIS_ACCOUNT_USERNAME_CHANGES_TITLE_LABEL" = "{count, plural, one {1 username change} other {%lld username changes}}";
-
 /* Text for the 'About this account' page that displays the month & year since when the account was verified. Example: Since September 2022 */
 "PROFILE_ABOUT_THIS_ACCOUNT_VERIFIED_SINCE_LABEL" = "Since %@";
 
@@ -25879,28 +26219,3 @@ Generated from Frameworks/XAppLibraries/Profile/Sources/ProfileStrings/Localizab
 
 /* Page title for the 'About this account' page that displays more information about the current logged-in user */
 "PROFILE_ABOUT_YOUR_ACCOUNT_NAVIGATION_ITEM_TITLE_LABEL" = "About your account";
-
-// Section: Frameworks/XAppLibraries/PollCard/Sources/PollCardStrings/ttc/Localizable.strings
-
-/*
-@generated
-Generated from Frameworks/XAppLibraries/PollCard/Sources/PollCardStrings/Localizable.xcstrings for Translation Center exchange. Do not edit.
-*/
-/* Label for votes count in polls. e.g. 1 vote / 5 votes */
-"POLL_CARD_DISPLAY_COUNT_VOTE_FORMAT" = "{count, plural, one {%lld vote} other {%lld votes}}";
-
-/* Label for final poll results */
-"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Final results";
-
-/* Label indicating poll is about to end */
-"POLL_CARD_DISPLAY_POLL_ENDING" = "Poll ending…";
-
-/* Label for time remaining in poll. %@ is replaced by the time description (e.g. "2 hours") */
-"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@ left";
-
-/* Label for vote count and time left on polling card. %1$@ is replaced by the localized vote count and %2$@ is replaced by a text description of the remaining time available for voting. */
-"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
-
-/* Generic error message for vote submission failures */
-"POLL_CARD_VOTE_SUBMISSION_FAILED" = "Vote submission failed. Please try again.";
-
