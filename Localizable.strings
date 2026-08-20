@@ -4,7 +4,7 @@ This file is auto-generated using tools/xloc
 This file is sorted by modules instead of alphabetically to help reduce merge conflicts.
 */
 
-// Section: Frameworks/XSettings/Sources/XSettingsStrings/en.lproj/Localizable.strings
+// Section: Frameworks/XSettings/Sources/XSettingsStrings/Localizable.xcstrings
 
 /* Title of the Account information row that manages the parody, commentary and fan account label; mirrors PARODY_COMMENTARY_FAN_ACCOUNT_TITLE_LABEL in ProfileStrings */
 "SETTINGS_ACCOUNT_INFO_PARODY_LABEL_ROW_TITLE" = "Parody, commentary and fan account";
@@ -108,7 +108,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title of the toggle on the Your posts settings screen that marks the user's media as potentially sensitive */
 "SETTINGS_YOUR_POSTS_SENSITIVE_CONTENT_ROW_TITLE" = "Sensitive content";
 
-// Section: Frameworks/TwitterComposition/TwitterComposition/Sources/TwitterCompositionStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterComposition/TwitterComposition/Sources/TwitterCompositionStrings/Localizable.xcstrings
 
 /* Message to let the user know that the post can only contain attachments of one media type at the time, media types being GIF, Image, Video, etc */
 "DRAG_DROP_INDICATION_VIEW_DIFFERENT_MEDIA_TYPES_MESSAGE" = "You can’t post more than one kind of media at a time.";
@@ -131,25 +131,22 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Message to let the user know where they can drop the video they're dragging over composer. */
 "DRAG_DROP_INDICATION_VIEW_DROP_VIDEO_MESSAGE" = "Drop in the video you want to post.";
 
-/* Message to let the user know that the post can only contain one GIF attachment.*/
+/* Message to let the user know that the post can only contain one GIF attachment. */
 "DRAG_DROP_INDICATION_VIEW_GIF_LIMIT_AMOUNT_MESSAGE" = "You can only post one GIF at a time.";
 
-/* Message to let the user know that the post can only contain four images attachments.*/
+/* Message to let the user know that the post can only contain four images attachments. */
 "DRAG_DROP_INDICATION_VIEW_PHOTOS_LIMIT_AMOUNT_MESSAGE" = "You can only post up to 4 photos at a time.";
 
-/* Message to let the user know that the post can only contain one video attachment.*/
+/* Message to let the user know that the post can only contain one video attachment. */
 "DRAG_DROP_INDICATION_VIEW_VIDEO_LIMIT_AMOUNT_MESSAGE" = "You can only post one video at a time.";
 
-/* Placeholder text to fill in the post composer when sharing this Live Event. Localizers, please keep the line break ("\n") after "hashtags".
- The format is: "*event title*" by *attribution username* *hashtag*\n *event URL*, e.g. NFL Thursday Night Football by @NFL #TNF https://x.com/i/event/123 */
+/* Placeholder text to fill in the post composer when sharing this Live Event. Localizers, please keep the line break ("\n") after "hashtags". The format is: "*event title*" by *attribution username* *hashtag*\n *event URL*, e.g. NFL Thursday Night Football by @NFL #TNF https://x.com/i/event/123 */
 "LIVE_EVENT_SHARE_PREPOPULATED_TWEET_FORMAT_WITH_ATTRIBUTION_USERNAME" = "“%1$@” by %2$@ %3$@\n%4$@";
 
-/* Placeholder text to fill in the post composer when sharing this Live Event.
- The format is: *hashtag* *event URL*, e.g. #TNF https://x.com/i/event/123 */
+/* Placeholder text to fill in the post composer when sharing this Live Event. The format is: *hashtag* *event URL*, e.g. #TNF https://x.com/i/event/123 */
 "LIVE_EVENT_SHARE_TWEET_FORMAT_NO_TITLE" = "%1$@ %2$@";
 
-/* Placeholder text to fill in the post composer when sharing this Live Event.
- The format is: "*event title*" *hashtag* *event URL*, e.g. NFL Thursday Night Football #TNF https://x.com/i/event/123 */
+/* Placeholder text to fill in the post composer when sharing this Live Event. The format is: "*event title*" *hashtag* *event URL*, e.g. NFL Thursday Night Football #TNF https://x.com/i/event/123 */
 "LIVE_EVENT_SHARE_TWEET_FORMAT_WITH_TITLE" = "“%1$@” %2$@\n%3$@";
 
 /* Status shown in the activity progress indicator while a post with media attachments is uploading. */
@@ -1176,8 +1173,11 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Error message shown above the live broadcast chat composer when the typed message exceeds the maximum length. %@ is the maximum character count. e.g. Maximum 200 characters allowed */
 "BROADCAST_CHAT_COMPOSER_MAX_CHARACTERS_ALLOWED_FORMAT" = "Maximum %@ characters allowed";
 
-/* Label shown in the live broadcast chat composer when the host limited chat to Premium (verified) accounts and the viewer isn't one. Displayed next to a Subscribe button that opens the X Premium signup page. */
-"BROADCAST_CHAT_PREMIUM_ONLY_MODE_LABEL" = "Premium-only mode";
+/* Label shown in the live broadcast chat composer when the host limited chat to accounts they follow and the viewer isn't one of those accounts. */
+"BROADCAST_CHAT_HOST_FOLLOWS_ONLY_LABEL" = "Only people the host follows can chat";
+
+/* Label shown in the live broadcast chat composer when the host limited chat to verified accounts and the viewer isn't one. Displayed next to an Upgrade button that opens the X Premium signup page. */
+"BROADCAST_CHAT_PREMIUM_ONLY_MODE_LABEL" = "Verified-only mode";
 
 /* Text above live chat message for reply, %1$@ - username, %2$@ - message text */
 "BROADCAST_CHAT_REPLYING_TO_FORMAT" = "Replying to %1$@: %2$@";
@@ -1196,6 +1196,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Error shown when sending a message in a live broadcast chat fails because the broadcaster has restricted the viewer from chatting in this broadcast, for example by muting them. */
 "BROADCAST_CHAT_SEND_NOT_PERMITTED_ERROR" = "You can’t send messages in this broadcast";
+
+/* Placeholder shown in the disabled live broadcast chat composer when the live stream has ended. Distinct from the Periscope “Broadcast ended” label, which is used in other surfaces. */
+"BROADCAST_CHAT_STREAM_ENDED_LABEL" = "Stream has ended";
 
 /* Label shown in the live broadcast chat composer when only the host's subscribers can chat. Displayed next to a Subscribe button that opens the host's subscription paywall. */
 "BROADCAST_CHAT_SUBSCRIBERS_ONLY_MODE_LABEL" = "Subscribers-only mode";
@@ -1796,6 +1799,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Composer toolbar menu item label for adding a quote to a post */
 "COMPOSE_TOOLBAR_QUOTE_LABEL" = "Quote";
 
+/* Composer toolbar menu item label for scheduling a post */
+"COMPOSE_TOOLBAR_SCHEDULE_LABEL" = "Schedule post";
+
 /* Tooltip text that suggests the user to post about the current search text */
 "COMPOSE_TOOLTIP_FOR_SEARCH_TEXT_FORMAT" = "Post about %@";
 
@@ -1904,6 +1910,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Accessibility hint for Grok button on the composer */
 "COMPOSE_VIEW_GROK_ACCESSIBILITY_HINT" = "Opens Grok compose helper";
 
+/* Accessibility label read by VoiceOver for the Grok button in the post composer toolbar. “Grok” is a product name and should not be translated. */
+"COMPOSE_VIEW_GROK_ACCESSIBILITY_LABEL" = "Grok";
+
 /* Accessibility hint for Live button on the composer */
 "COMPOSE_VIEW_LIVE_MENU_SHEET_ACCESSIBILITY_HINT" = "Opens options for live streaming";
 
@@ -1942,6 +1951,30 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Accessibility label for redo button on the composer */
 "COMPOSE_VIEW_REDO_ACCESSIBILITY_LABEL" = "Redo";
+
+/* Link on the scheduled post banner that reopens the schedule date picker */
+"COMPOSE_VIEW_SCHEDULED_BANNER_EDIT_ACTION" = "Edit";
+
+/* Shown above the composer and as the header of a scheduled post list row, indicating when the scheduled post will be sent; the placeholder is the formatted date and time */
+"COMPOSE_VIEW_SCHEDULED_BANNER_FORMAT" = "Will send on %@";
+
+/* Toast confirming the post was scheduled; placeholder is the formatted send date */
+"COMPOSE_VIEW_SCHEDULED_CONFIRMATION_FORMAT" = "Your post will be sent on %@";
+
+/* Toast shown when creating the scheduled post fails */
+"COMPOSE_VIEW_SCHEDULED_FAILED" = "Couldn’t schedule your post. Please try again.";
+
+/* Toast shown when the user tries to schedule a thread of multiple posts, which is not available to them */
+"COMPOSE_VIEW_SCHEDULED_THREADS_UNAVAILABLE_LABEL" = "Threads can’t be scheduled.";
+
+/* Accessibility hint for the schedule post toolbar button */
+"COMPOSE_VIEW_SCHEDULE_ACCESSIBILITY_HINT" = "Choose a date and time to send this post";
+
+/* Accessibility label for the schedule post toolbar button */
+"COMPOSE_VIEW_SCHEDULE_ACCESSIBILITY_LABEL" = "Schedule post";
+
+/* Send button title when the post is scheduled for a future date instead of sending immediately */
+"COMPOSE_VIEW_SCHEDULE_SEND_ACTION_LABEL" = "Schedule";
 
 /* Accessibility announcement in post composer describing the current audience selected. */
 "COMPOSE_VIEW_SELECTED_AUDIENCE_ACCESSIBILITY_ANNOUNCEMENT" = "%@ audience selected.";
@@ -2869,6 +2902,15 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Button label for viewing your own drafts */
 "DRAFTS_LABEL" = "Drafts";
+
+/* Message shown on the Scheduled tab of the drafts list when the user has no scheduled posts */
+"DRAFTS_LIST_SCHEDULED_EMPTY_LABEL" = "You don’t have any scheduled posts";
+
+/* Fallback error message on the Scheduled tab of the drafts list when loading or deleting a scheduled post fails */
+"DRAFTS_LIST_SCHEDULED_ERROR_LABEL" = "Something went wrong. Try again.";
+
+/* Title of the Scheduled tab on the drafts list screen, showing posts scheduled to be sent later */
+"DRAFTS_LIST_SCHEDULED_TAB_LABEL" = "Scheduled";
 
 /* Title label for draft post when there is no text but there is a Live Photo attachment */
 "DRAFTS_LIVE_PHOTO_DEFAULT_TITLE" = "Live Photo";
@@ -5035,6 +5077,15 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Acknowledgement button label for verification policy view. */
 "NEW_VERIFICATION_POLICY_GOT_IT_BUTTON_LABEL" = "Got it";
+
+/* Accessibility hint for the players count on a sports team profile. */
+"NFL_PLAYERS_COUNT_ACCESSIBILITY_HINT" = "Displays team roster";
+
+/* Label for the number of players on a sports team profile (i.e., "53 Players"). */
+"NFL_PLAYERS_COUNT_LABEL" = "Players";
+
+/* Singular label for the number of players on a sports team profile (i.e., "1 Player"). */
+"NFL_PLAYER_COUNT_LABEL" = "Player";
 
 /* The number of people you are device following */
 "NOTIFICATIONS_PEOPLE_COUNT_LABEL" = "%d people";
@@ -10383,6 +10434,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Undo repost of post withheld in current user's country */
 "WITHHELD_TWEET_UNDO_BUTTON_LABEL" = "Undo";
 
+/* Label for the menu action that reloads the current page in the X Link in-app browser. */
+"XLINK_RELOAD_ACTION_LABEL" = "Reload";
+
 /* Detailed description for Settings option to enable YouTube content to play natively within X - parameters are YouTube Terms of Service and YouTube Privacy Policy URLs */
 "YOUTUBE_INLINE_VIDEO_PLAYBACK_SETTINGS_DETAIL_FORMAT" = "When turned on, allows YouTube to play videos automatically in your timeline as well as collect data about your interaction with its videos subject to its <a href=\"%1$@\">Terms of Service</a> and <a href=\"%2$@\">Privacy Policy</a>. When turned off, you can only watch videos in the YouTube app or mobile website.";
 
@@ -11104,7 +11158,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* The toast notification label when unmuting a user */
 "UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ has been unmuted";
 
-// Section: Frameworks/XAppLibraries/PostAbout/Sources/PostAboutStrings/en.lproj/Localizable.strings
+// Section: Frameworks/XAppLibraries/PostAbout/Sources/PostAboutStrings/Localizable.xcstrings
 
 /* Label of the pill button in the "About this post" tray that opens Grok to ask a question about the post. */
 "POST_ABOUT_ASK_GROK_PILL_LABEL" = "Ask Grok";
@@ -11453,6 +11507,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title of the upsell banner shown in Grok chat when an image generation failed because the user hit their image generation limit, prompting an upgrade to Premium for more image generations. */
 "GROK_IMAGINE_CHAT_RATE_LIMIT_UPSELL_TITLE" = "Upgrade to generate more images";
 
+/* Accessibility label read by VoiceOver for the Grok Imagine button in the post composer toolbar. Opens Grok Imagine to generate images and videos. “Grok Imagine” is a product name and should not be translated. */
+"GROK_IMAGINE_COMPOSER_BUTTON_ACCESSIBILITY_LABEL" = "Grok Imagine";
+
 /* Title for the button to create a video using Grok Imagine */
 "GROK_IMAGINE_COMPOSER_BUTTON_TITLE" = "Create Video";
 
@@ -11540,6 +11597,30 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Grok immersive create own button title */
 "GROK_IMMERSIVE_CREATE_OWN_BUTTON_TITLE" = "Make your own";
 
+/* Accessibility label read by VoiceOver for the paperclip button in the Grok chat input bar. Opens a menu with options to attach a camera capture, photo, or file. */
+"GROK_INPUT_BAR_ATTACHMENT_ACCESSIBILITY_LABEL" = "Add attachment";
+
+/* Accessibility label read by VoiceOver for the X button in the Grok dictation input bar. Stops listening without confirming the dictated text. */
+"GROK_INPUT_BAR_DICTATION_CANCEL_ACCESSIBILITY_LABEL" = "Cancel dictation";
+
+/* Accessibility label read by VoiceOver for the checkmark button in the Grok dictation input bar. Inserts the dictated text into the message and stops listening. */
+"GROK_INPUT_BAR_DICTATION_CONFIRM_ACCESSIBILITY_LABEL" = "Confirm dictation";
+
+/* Accessibility label read by VoiceOver for the microphone button in the Grok chat input bar when dictation is inactive. Starts voice dictation. */
+"GROK_INPUT_BAR_DICTATION_START_ACCESSIBILITY_LABEL" = "Start dictation";
+
+/* Accessibility label read by VoiceOver for the microphone button in the Grok chat input bar while dictation is active. Stops voice dictation. */
+"GROK_INPUT_BAR_DICTATION_STOP_ACCESSIBILITY_LABEL" = "Stop dictation";
+
+/* Accessibility label read by VoiceOver for the X button on an attachment thumbnail in the Grok chat input bar. Removes the attachment from the message. */
+"GROK_INPUT_BAR_REMOVE_ATTACHMENT_ACCESSIBILITY_LABEL" = "Remove attachment";
+
+/* Accessibility label read by VoiceOver for the send button in the Grok chat input bar. Sends the typed message to Grok. */
+"GROK_INPUT_BAR_SEND_ACCESSIBILITY_LABEL" = "Send";
+
+/* Accessibility label read by VoiceOver for the stop button in the Grok chat input bar. Stops Grok while it is generating a response. */
+"GROK_INPUT_BAR_STOP_GENERATION_ACCESSIBILITY_LABEL" = "Stop generating";
+
 /* Input button that deactivates voice mode */
 "GROK_INPUT_BUTTON_VOICE_MODE_STOP_TITLE" = "Stop";
 
@@ -11563,6 +11644,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Title for the models submenu in the Grok model selection menu, like: - grok4 - grok5 - "Models" <- this - grok4.1 - grok4.2 (beta) */
 "GROK_MODEL_MENU_MODELS_TITLE" = "Models";
+
+/* Accessibility label read by VoiceOver for the AI model selector button in the Grok chat input bar. The currently selected model name (e.g. “Auto”) is read separately as the accessibility value. */
+"GROK_MODEL_SELECTOR_ACCESSIBILITY_LABEL" = "AI model";
 
 /* Navigation title for the Grok conversations list screen. Shown in the back button long-press menu. */
 "GROK_NAV_TITLE_CONVERSATIONS" = "Conversations";
@@ -12068,6 +12152,12 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Label for grok paywall sub header */
 "GROK_UPSELL_SUB_HEADLINE" = "Our newest AI assistant, powered by X";
 
+/* Accessibility label read by VoiceOver for the microphone button in Grok voice mode while the microphone is on. Mutes the microphone. */
+"GROK_VOICE_MODE_MUTE_MICROPHONE_ACCESSIBILITY_LABEL" = "Mute microphone";
+
+/* Accessibility label read by VoiceOver for the settings button in Grok voice mode. Opens the voice settings screen. */
+"GROK_VOICE_MODE_SETTINGS_ACCESSIBILITY_LABEL" = "Voice settings";
+
 /* Grok voice mode settings row title: Audio Device */
 "GROK_VOICE_MODE_SETTINGS_ROW_TITLE_AUDIO_DEVICE" = "Select Audio Device";
 
@@ -12092,6 +12182,15 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Grok voice mode status label start talking */
 "GROK_VOICE_MODE_STATUS_START_TALKING" = "Start talking";
 
+/* Accessibility label read by VoiceOver for the speaker button in Grok voice mode while sound is on. Turns off Grok voice audio. */
+"GROK_VOICE_MODE_TURN_OFF_SOUND_ACCESSIBILITY_LABEL" = "Turn off sound";
+
+/* Accessibility label read by VoiceOver for the speaker button in Grok voice mode while sound is off. Turns Grok voice audio back on. */
+"GROK_VOICE_MODE_TURN_ON_SOUND_ACCESSIBILITY_LABEL" = "Turn on sound";
+
+/* Accessibility label read by VoiceOver for the microphone button in Grok voice mode while the microphone is muted. Unmutes the microphone. */
+"GROK_VOICE_MODE_UNMUTE_MICROPHONE_ACCESSIBILITY_LABEL" = "Unmute microphone";
+
 /* Used when Grok is referencing a webpage that doesn't have a title available. */
 "GROK_WEBPAGE_NO_TITLE" = "No title";
 
@@ -12101,7 +12200,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Grok web results title */
 "GROK_WEB_RESULTS_TITLE" = "Relevant Web Pages";
 
-// Section: Frameworks/XAppLibraries/TweetDetails/Sources/TweetDetailsStrings/en.lproj/Localizable.strings
+// Section: Frameworks/XAppLibraries/TweetDetails/Sources/TweetDetailsStrings/Localizable.xcstrings
 
 /* Message used to toggle auto-translation. e.g. "Automatically translate Japanese -- [on|off]" */
 "TWEET_DETAILS_TRANSLATION_AUTO_TRANSLATION_TOGGLE_MESSAGE_FORMAT" = "Automatically translate %@";
@@ -12109,7 +12208,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Subtitle used to toggle auto-translation. */
 "TWEET_DETAILS_TRANSLATION_AUTO_TRANSLATION_TOGGLE_SUBTITLE" = "Changes will take effect for newly loaded content";
 
-// MARK: - Translation
 /* Error text message when fetching translation has failed */
 "TWEET_DETAILS_TRANSLATION_ERROR_FETCH_FAILED" = "Translation failed";
 
@@ -12152,7 +12250,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Text showing when translating a post */
 "TWEET_DETAILS_TRANSLATION_TRANSLATING_TITLE" = "Translating…";
 
-// Section: Frameworks/XAppLibraries/LandingPage/Sources/LandingPageStrings/en.lproj/Localizable.strings
+// Section: Frameworks/XAppLibraries/LandingPage/Sources/LandingPageStrings/Localizable.xcstrings
 
 /* Text that appears inside the button at the bottom of the landing page */
 "VERIFICATION_LANDING_CTA_TEXT" = "Apply now";
@@ -12220,7 +12318,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Text at the page footer linking to more information about Verification */
 "VERIFICATION_LANDING_SECTION_5_SUBTEXT" = "If you’re not quite ready to take the leap you can get more information at our <a id=\"#\">Help Center</a>.";
 
-// Section: Frameworks/InAppPurchases/Sources/InAppPurchasesStrings/en.lproj/Localizable.strings
+// Section: Frameworks/InAppPurchases/Sources/InAppPurchasesStrings/Localizable.xcstrings
 
 /* Text for subscription period "day". This will be used in SUBSCRIPTION_JOIN_NOW_CTA */
 "SUBSCRIPTION_PERIOD_DAY_TEXT" = "day";
@@ -14133,6 +14231,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Payments: Information shown on the check deposit flow amount screen */
 "PAYMENTS_CHECK_DEPOSIT_AMOUNT_DESCRIPTION" = "Enter the amount shown on your check";
+
+/* Payments: Error shown when the scanned check amount does not match the amount the user entered. %@ is the formatted amount the user entered, e.g. $100 */
+"PAYMENTS_CHECK_DEPOSIT_AMOUNT_MISMATCH_FORMAT" = "Make sure the amount is %@";
 
 /* Payments: Subtitle for the first step explaining that the system checks photo quality */
 "PAYMENTS_CHECK_DEPOSIT_FACTS_CONFIRM_AMOUNT_SUBTITLE" = "Make sure it corresponds to what’s on the check";
@@ -16318,6 +16419,12 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Payments: Title shown when bank account linking is temporarily paused due to velocity checks */
 "PAYMENTS_VELOCITY_ERROR_ACCOUNT_LINKING_TITLE" = "Too many account linking attempts";
 
+/* Payments: Title shown when card linking is temporarily paused due to velocity checks */
+"PAYMENTS_VELOCITY_ERROR_CARD_LINKING_MESSAGE" = "Your ability to perform this action is temporarily paused. Please try again later. Note that your previous linked cards are still available.";
+
+/* Payments: Title shown when card linking is temporarily paused due to velocity checks */
+"PAYMENTS_VELOCITY_ERROR_CARD_LINKING_TITLE" = "Too many card linking attempts";
+
 /* Payments: Subtitle shown when deposits are temporarily paused due to velocity checks */
 "PAYMENTS_VELOCITY_ERROR_DEPOSITS_MESSAGE" = "Your ability to perform this action is temporarily paused. Please try again later. Note that your previous deposits are processing as normal.";
 
@@ -16414,7 +16521,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Payments: Action to open the @XMoney's user profile */
 "PAYMENTS_XMONEY_PROFILE_ACTION" = "Follow @XMoney for updates";
 
-// Section: Frameworks/ShareExtensionStrings/Sources/ShareExtensionStrings/en.lproj/Localizable.strings
+// Section: Frameworks/ShareExtensionStrings/Sources/ShareExtensionStrings/Localizable.xcstrings
 
 /* Text for alert button to confirm cancelling the sending of a post */
 "COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Cancel post";
@@ -17353,7 +17460,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* The accessibility label for unread notifications for logged-in accounts. For example if the userName is "jack" and there are 10 unread items, this will read "Account menu, @jack, 10 new items." */
 "DASH_AVATAR_UNREAD_NOTIFICATIONS_ACCESSIBILITY_LABEL" = "Account menu, %1$@, %2$d new items";
 
-// Section: Frameworks/TwitterAdFormats/Sources/TwitterAdFormatsStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterAdFormats/Sources/TwitterAdFormatsStrings/Localizable.xcstrings
 
 /* Title for the button that allows the user to select the animation file. */
 "BRANDED_FEATURES_PREVIEW_BUTTON_TITLE" = "Select animation";
@@ -17503,170 +17610,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* QR Code: Title of the tab that shows a QR Code scanner (a camera) */
 "QR_SCAN_CODE" = "Scan code";
-
-// Section: Frameworks/TwitterSearch/Sources/TwitterSearchStrings/Localizable.xcstrings
-
-/* Advanced search - search bar title for tweet author filter from */
-"ADVANCED_SEARCH_AUTHOR_FROM_SEARCH_TITLE" = "From:";
-
-/* Advanced search - title for tweet author filter */
-"ADVANCED_SEARCH_AUTHOR_POST_AUTHOR" = "Post author";
-
-/* Advanced search - search account for tweet author filter */
-"ADVANCED_SEARCH_AUTHOR_SEARCH_ACCOUNTS" = "Search accounts";
-
-/* Used in composer typeahead to indicate that a user is already mentioned in a post */
-"COMPOSE_INCLUDED_IN_THIS_REPLY" = "In this conversation";
-
-/* Search bar label text that is always visible when composing a direct message, this text always precedes the selected users in the address bar." */
-"DIRECT_MESSAGE_SHARE_TWEET_ADDRESSING_BAR_PREFIX_TEXT" = "To:";
-
-/* Label in Typeahead. @username is substituted into string (%@) */
-"GO_TO_FORMAT" = "Go to %@";
-
-/* Format string for "Search for "xyz"" typeahead option */
-"PERFORM_SEARCH_FORMAT_STRING" = "Search for “%@”";
-
-/* Button label for viewing your own saved searches Title of Saved searches view */
-"SAVED_SEARCHES_LABEL" = "Saved searches";
-
-/* Text for the VoiceOver announcement that is being read out when the user taps on the search bar to inform them that search results will be available below */
-"SEARCH_ACCESSIBILITY_ANNOUNCEMENT_RESULTS_TITLE" = "Search matches are displayed below and updated as you type";
-
-/* Search empty string */
-"SEARCH_EMPTY_LABEL" = "Try searching for people, topics, or keywords";
-
-/* Button label to apply search filters */
-"SEARCH_FILTERS_APPLY_LABEL" = "Apply";
-
-/* Title of search filters page, which allows users to refine search results */
-"SEARCH_FILTERS_TITLE_LABEL" = "Search filters";
-
-/* Search filter option which does NOT filter results by location */
-"SEARCH_FILTER_LOCATION_ALL_LABEL" = "Anywhere";
-
-/* Search filter option group for location based filtering */
-"SEARCH_FILTER_LOCATION_LABEL" = "Location";
-
-/* Search filter option which shows results from nearby the user */
-"SEARCH_FILTER_LOCATION_NEAR_YOU_LABEL" = "Near you";
-
-/* People search filter option which does NOT filter results by author */
-"SEARCH_FILTER_PEOPLE_ALL_LABEL" = "From anyone";
-
-/* People search filter option which only shows results from people you follow */
-"SEARCH_FILTER_PEOPLE_FOLLOWING_LABEL" = "People you follow";
-
-/* Search filter pill label for the card_domain: operator (card attached from a domain) */
-"SEARCH_PILL_CARD_DOMAIN_LABEL" = "Card domain";
-
-/* Search filter pill label for the card_name: operator (posts with an attached card) */
-"SEARCH_PILL_CARD_LABEL" = "Card";
-
-/* Search filter pill label for the from: operator (posts authored by a user), shown before the username */
-"SEARCH_PILL_FROM_LABEL" = "From";
-
-/* Search filter pill label for the has: operator (posts containing something, e.g. "Has Media"), shown before the content type */
-"SEARCH_PILL_HAS_LABEL" = "Has";
-
-/* Search filter pill text for the conversation_id: operator (posts in a specific conversation); the ID itself is hidden */
-"SEARCH_PILL_IN_CONVERSATION_LABEL" = "In conversation";
-
-/* Search filter pill label for the lang: operator, shown before the language name (e.g. "Language French") */
-"SEARCH_PILL_LANGUAGE_LABEL" = "Language";
-
-/* Search filter pill label for a relative time window (e.g. "Last 7d" = posts from the last 7 days); "Last" as in recency, not final */
-"SEARCH_PILL_LAST_LABEL" = "Last";
-
-/* Search filter pill label for the url: operator (posts linking to a site), shown before the domain */
-"SEARCH_PILL_LINK_LABEL" = "Link";
-
-/* Search filter pill text for the list: operator (posts from members of a list); the list ID is hidden */
-"SEARCH_PILL_LIST_LABEL" = "List";
-
-/* Search filter pill label for the min_faves: operator, shown before the number (e.g. "Min. likes 100") */
-"SEARCH_PILL_MIN_LIKES_LABEL" = "Min. likes";
-
-/* Search filter pill label for the min_replies: operator, shown before the number (e.g. "Min. replies 10") */
-"SEARCH_PILL_MIN_REPLIES_LABEL" = "Min. replies";
-
-/* Search filter pill label for the min_retweets: operator, shown before the number (e.g. "Min. reposts 5") */
-"SEARCH_PILL_MIN_REPOSTS_LABEL" = "Min. reposts";
-
-/* Search filter pill label for the near: operator, shown before the place name (e.g. "Near Paris") */
-"SEARCH_PILL_NEAR_LABEL" = "Near";
-
-/* Search filter pill text for the geocode: operator (posts near coordinates); the raw coordinates are hidden */
-"SEARCH_PILL_NEAR_LOCATION_LABEL" = "Near location";
-
-/* Search filter pill negation prefix; %1$@ is the filter label or value being negated (e.g. "Not From", "Not Media") */
-"SEARCH_PILL_NOT_FORMAT" = "Not %1$@";
-
-/* Search filter pill negation prefix shown alone before a negated filter value (e.g. "Not" + "Media") */
-"SEARCH_PILL_NOT_LABEL" = "Not";
-
-/* Search filter pill text for the place: operator (posts from a place); the place ID is hidden */
-"SEARCH_PILL_PLACE_LABEL" = "Place";
-
-/* Search filter pill text for the quoted_tweet_id: operator (posts quoting a specific post); the ID is hidden */
-"SEARCH_PILL_QUOTING_POST_LABEL" = "Quoting post";
-
-/* Search filter pill text for the quoted_user_id: operator (posts quoting a specific user); the ID is hidden */
-"SEARCH_PILL_QUOTING_USER_LABEL" = "Quoting user";
-
-/* Search filter pill label for the since: operator, shown before a date (e.g. "Since Jul 1, 2026") */
-"SEARCH_PILL_SINCE_LABEL" = "Since";
-
-/* Search filter pill label for the source: operator (posts sent from a client app), shown before the client name */
-"SEARCH_PILL_SOURCE_LABEL" = "Source";
-
-/* Search filter pill label for the to: operator (posts replying to a user), shown before the username */
-"SEARCH_PILL_TO_LABEL" = "To";
-
-/* Search filter pill label for the until: operator, shown before a date (e.g. "Until Aug 1, 2026") */
-"SEARCH_PILL_UNTIL_LABEL" = "Until";
-
-/* Search filter pill value for filter:images (posts containing images) */
-"SEARCH_PILL_VALUE_IMAGES" = "Images";
-
-/* Search filter pill value for filter:links (posts containing links) */
-"SEARCH_PILL_VALUE_LINKS" = "Links";
-
-/* Search filter pill value for filter:media (posts containing media) */
-"SEARCH_PILL_VALUE_MEDIA" = "Media";
-
-/* Search filter pill value for filter:replies (posts that are replies) */
-"SEARCH_PILL_VALUE_REPLIES" = "Replies";
-
-/* Search filter pill value for filter:retweets / include:nativeretweets (posts that are reposts) */
-"SEARCH_PILL_VALUE_REPOSTS" = "Reposts";
-
-/* Search filter pill value for is:verified / filter:blue_verified (posts from verified accounts) */
-"SEARCH_PILL_VALUE_VERIFIED" = "Verified";
-
-/* Search filter pill value for filter:videos (posts containing videos) */
-"SEARCH_PILL_VALUE_VIDEOS" = "Videos";
-
-/* Search filter pill label for the within: operator (radius around a place), shown before the distance (e.g. "Within 15mi") */
-"SEARCH_PILL_WITHIN_LABEL" = "Within";
-
-/* Search bar label text that is always visible when tagging a user in post media, this text always precedes the selected/tagged users in the search bar." */
-"TAGGING_TWEET_ADDRESSING_BAR_PREFIX_TEXT" = "Tag:";
-
-/* Header label for trending searches section in search typeahead */
-"TRENDING_SEARCHES_LABEL" = "Trending searches";
-
-/* Accessibility hint for an item in the user selector explaining that the button will remove the user. */
-"USER_SELECTOR_SELECTED_USER_ACCESSIBILITY_HINT" = "Removes user from selection";
-
-/* Accessibility hint for an item in the user selector explaining that the button will add the user. */
-"USER_SELECTOR_UNSELECTED_USER_ACCESSIBILITY_HINT" = "Adds user to selection";
-
-/* User in user selector is not eligible to be selected.  The parameter is the user's display username */
-"USER_SELECTOR_USER_NOT_ELIGIBLE_FOR_INVITE" = "%@ cannot be invited";
-
-/* String that appears in VoiceOver when a user appears in recent searches and has a Space live currently. This appears after announcing the display name and the username of the user */
-"VOICE_ROOM_RECENT_SEARCHES_ACCESSIBILITY_HINT" = "%1$@ %2$@ is currently in an active Space. Click to join via their profile";
 
 // Section: Frameworks/PremiumHub/Sources/PremiumHubStrings/Localizable.xcstrings
 
@@ -20091,6 +20034,15 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Members header shown while the member count is still unknown */
 "CHAT_MEMBERS_TITLE" = "Members";
 
+/* Message long press menu action that pins the message for everyone in the conversation */
+"CHAT_MESSAGE_ACTION_PIN_TITLE" = "Pin";
+
+/* Message long press menu action that unpins a pinned message */
+"CHAT_MESSAGE_ACTION_UNPIN_TITLE" = "Unpin";
+
+/* Explanation shown in the delete confirmation when the message being deleted is pinned */
+"CHAT_MESSAGE_DELETE_PINNED_MESSAGE" = "This message is pinned. It will still appear in pinned messages for others.";
+
 /* Informational item: a message was pinned, sender unknown */
 "CHAT_MESSAGE_PINNED" = "User pinned a message";
 
@@ -20106,14 +20058,29 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Informational item: current user pinned a message, with preview */
 "CHAT_MESSAGE_PINNED_BY_YOU_WITH_PREVIEW" = "You pinned “%@”";
 
+/* Toast shown after a message is pinned */
+"CHAT_MESSAGE_PINNED_TOAST" = "Message pinned";
+
 /* Informational item: a message was pinned with preview, sender unknown */
 "CHAT_MESSAGE_PINNED_WITH_PREVIEW" = "User pinned a message: “%@”";
+
+/* Toast shown when pinning a message fails */
+"CHAT_MESSAGE_PIN_FAILED_TOAST" = "Couldn't pin that message";
+
+/* Toast shown when a message cannot be pinned because the conversation is at the pin limit */
+"CHAT_MESSAGE_PIN_LIMIT_TOAST" = "You can only pin %lld messages";
 
 /* Chat message send alert subtitle when sending message that is too long */
 "CHAT_MESSAGE_SEND_EXCEEDS_MAX_LENGTH_ALERT_SUBTITLE" = "This message is too long to send. Try shortening or splitting into multiple messages.";
 
 /* Chat message send alert title when sending message that is too long */
 "CHAT_MESSAGE_SEND_EXCEEDS_MAX_LENGTH_ALERT_TITLE" = "Too long!";
+
+/* Toast shown after a message is unpinned */
+"CHAT_MESSAGE_UNPINNED_TOAST" = "Message unpinned";
+
+/* Toast shown when unpinning a message fails */
+"CHAT_MESSAGE_UNPIN_FAILED_TOAST" = "Couldn't unpin that message";
 
 /* Accessibility label for more reactions button */
 "CHAT_MORE_REACTIONS_ACCESSIBILITY_LABEL" = "More reactions";
@@ -20153,6 +20120,39 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Photo library access denied alert title */
 "CHAT_PHOTO_ACCESS_DENIED_TITLE" = "Photo Library Access Required";
+
+/* Accessibility label for the button that opens the list of pinned messages */
+"CHAT_PINNED_BANNER_SEE_ALL" = "See all pinned messages";
+
+/* Title of the banner showing the conversation's pinned message */
+"CHAT_PINNED_BANNER_TITLE" = "Pinned Message";
+
+/* Title of the pinned message banner when the conversation has more than one pinned message */
+"CHAT_PINNED_BANNER_TITLE_WITH_INDEX" = "Pinned Message #%lld";
+
+/* VoiceOver action that moves the pinned message header to the next pin */
+"CHAT_PINNED_HEADER_NEXT_ACTION" = "Next pinned message";
+
+/* VoiceOver action that moves the pinned message header to the previous pin */
+"CHAT_PINNED_HEADER_PREVIOUS_ACTION" = "Previous pinned message";
+
+/* Accessibility label for the button that closes the list of pinned messages */
+"CHAT_PINNED_MESSAGES_CLOSE" = "Close pinned messages";
+
+/* Body of the empty state for the list of pinned messages */
+"CHAT_PINNED_MESSAGES_EMPTY_MESSAGE" = "Messages you pin in this conversation show up here.";
+
+/* Title of the empty state for the list of pinned messages */
+"CHAT_PINNED_MESSAGES_EMPTY_TITLE" = "No pinned messages";
+
+/* Error shown when the list of pinned messages cannot be loaded */
+"CHAT_PINNED_MESSAGES_LOAD_FAILED" = "Pinned messages failed to load";
+
+/* Button that unpins every pinned message in the conversation */
+"CHAT_PINNED_MESSAGES_UNPIN_ALL" = "Unpin all messages";
+
+/* Shown in place of a pinned message preview when its content cannot be displayed */
+"CHAT_PINNED_MESSAGE_UNAVAILABLE" = "Message unavailable";
 
 /* Translation attribution label. %@: source language name (e.g. "Japanese") */
 "CHAT_POST_TRANSLATED_FROM" = "Translated from %@";
@@ -21347,6 +21347,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Inbox item draft preview when the draft has multiple videos. %@: count */
 "DM_INBOX_ITEM_DRAFT_VIDEOS" = "%@ videos";
+
+/* Accessibility label read by VoiceOver for a conversation row in the DM inbox whose notifications are muted. Spoken after the conversation title, message preview, and timestamp, e.g. "Jane Doe, See you tomorrow!, 2 hours ago, Muted". */
+"DM_INBOX_ITEM_MUTED_ACCESSIBILITY_LABEL" = "Muted";
 
 /* DM Inbox message requests closed-inbox disclaimer CTA label */
 "DM_INBOX_MESSAGE_REQUESTS_CLOSED_INBOX_CTA" = "Change Settings.";
@@ -22894,7 +22897,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title of reminder toast after subscribing. */
 "UNIFIED_CARDS_REMINDER_TOAST_TITLE" = "Event reminder";
 
-// Section: Frameworks/ExpandedBio/Sources/ExpandedBioStrings/en.lproj/Localizable.strings
+// Section: Frameworks/ExpandedBio/Sources/ExpandedBioStrings/Localizable.xcstrings
 
 "EXPANDED_BIO_ABOUT_LABEL" = "About";
 
@@ -23567,101 +23570,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Label shown beneath a LIVE space describing how many people are currently listening. */
 "VOICE_STATIONS_SPOTLIGHT_N_LISTENING" = "%@ listening";
-
-// Section: Frameworks/TwitterAdvancedSearch/TwitterAdvancedSearch/Sources/TwitterAdvancedSearchStrings/Localizable.xcstrings
-
-/* Search condition filter for Any */
-"TWITTERADVANCEDSEARCH_ANY" = "Any";
-
-/* Search condition filter for Anyone */
-"TWITTERADVANCEDSEARCH_ANYONE" = "Anyone";
-
-/* Title of button to apply search filters */
-"TWITTERADVANCEDSEARCH_APPLY" = "Apply";
-
-/* Title of the screen for creating an advanced search */
-"TWITTERADVANCEDSEARCH_BUILDER_VIEW_CONTROLLER_TITLE" = "Filters";
-
-/* Search condition menu item for limiting search for all time */
-"TWITTERADVANCEDSEARCH_DATE_ALL_TIME_ITEM" = "All time";
-
-/* Search condition menu item for limiting search for past 24 hours */
-"TWITTERADVANCEDSEARCH_DATE_PAST_DAY_ITEM" = "Past 24 hours";
-
-/* Search condition menu item for limiting search for past hour */
-"TWITTERADVANCEDSEARCH_DATE_PAST_HOUR_ITEM" = "Past hour";
-
-/* Search condition menu item for limiting search for past month */
-"TWITTERADVANCEDSEARCH_DATE_PAST_MONTH_ITEM" = "Past month";
-
-/* Search condition menu item for limiting search for past week */
-"TWITTERADVANCEDSEARCH_DATE_PAST_WEEK_ITEM" = "Past week";
-
-/* Search condition menu item for limiting search for past year */
-"TWITTERADVANCEDSEARCH_DATE_PAST_YEAR_ITEM" = "Past year";
-
-/* Search condition menu item for limiting search for date posted */
-"TWITTERADVANCEDSEARCH_FILTERS_DATE_POSTED_FILTER_MENU_ITEM" = "Date posted";
-
-/* Search condition menu item for limiting search to exclude replies */
-"TWITTERADVANCEDSEARCH_FILTERS_EXCLUDE_REPLIES_FILTER_MENU_ITEM" = "Exclude replies";
-
-/* Search condition menu item for limiting search to from people you follow */
-"TWITTERADVANCEDSEARCH_FILTERS_FROM_PEOPLE_YOU_FOLLOW_FILTER_MENU_ITEM" = "From people you follow";
-
-/* Search condition menu item for limiting search to from verified users */
-"TWITTERADVANCEDSEARCH_FILTERS_FROM_VERIFIED_USERS_FILTER_MENU_ITEM" = "From verified users";
-
-/* Search condition menu item for limiting search to language */
-"TWITTERADVANCEDSEARCH_FILTERS_LANGUAGE_FILTER_MENU_ITEM" = "Language";
-
-/* Search condition menu item for limiting search to near you */
-"TWITTERADVANCEDSEARCH_FILTERS_NEAR_YOU_FILTER_MENU_ITEM" = "Near you";
-
-/* Search condition menu item for limiting search to post activity */
-"TWITTERADVANCEDSEARCH_FILTERS_POST_ACTIVITY_FILTER_MENU_ITEM" = "Post activity";
-
-/* Search condition menu item for limiting search to post activity minimum likes */
-"TWITTERADVANCEDSEARCH_FILTERS_POST_ACTIVITY_MINIMUM_LIKES_FILTER_MENU_ITEM" = "Minimum Likes";
-
-/* Search condition menu item for limiting search to post activity minimum replies */
-"TWITTERADVANCEDSEARCH_FILTERS_POST_ACTIVITY_MINIMUM_REPLIES_FILTER_MENU_ITEM" = "Minimum Replies";
-
-/* Search condition menu item for limiting search to post activity minimum retweets */
-"TWITTERADVANCEDSEARCH_FILTERS_POST_ACTIVITY_MINIMUM_REPOSTS_FILTER_MENU_ITEM" = "Minimum Reposts";
-
-/* Search condition menu item for limiting search for tweet author */
-"TWITTERADVANCEDSEARCH_FILTERS_POST_AUTHOR_FILTER_MENU_ITEM" = "From";
-
-/* Search condition menu item for limiting search to people you follow */
-"TWITTERADVANCEDSEARCH_FOLLOWING_FILTER_MENU_ITEM" = "People I follow";
-
-/* From filter Anyone option */
-"TWITTERADVANCEDSEARCH_FROM_FILTER_ANYONE" = "Anyone";
-
-/* From filter Custom option */
-"TWITTERADVANCEDSEARCH_FROM_FILTER_CUSTOM" = "Custom";
-
-/* From filter People you follow option */
-"TWITTERADVANCEDSEARCH_FROM_FILTER_PEOPLE_YOU_FOLLOW" = "People you follow";
-
-/* From filter Verified accounts option */
-"TWITTERADVANCEDSEARCH_FROM_FILTER_VERIFIED_ACCOUNTS" = "Verified accounts";
-
-/* Search condition menu item for searching languages */
-"TWITTERADVANCEDSEARCH_LANGUAGES_SEARCH_TITLE" = "Search languages";
-
-/* Search condition menu item for languages */
-"TWITTERADVANCEDSEARCH_LANGUAGES_TITLE" = "Languages";
-
-/* Search condition menu item for limiting search to posts near you */
-"TWITTERADVANCEDSEARCH_LOCATION_FILTER_MENU_ITEM" = "Near me";
-
-/* Search condition for post activity to Some */
-"TWITTERADVANCEDSEARCH_POST_ACTIVITY_SOME" = "Some";
-
-/* Reset button on filters modal */
-"TWITTERADVANCEDSEARCH_RESET" = "Reset";
 
 // Section: Frameworks/TFNUISPM/Sources/TFNUIStrings/Localizable.xcstrings
 
@@ -24345,9 +24253,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Deactivate account button label */
 "CHAT_DEACTIVATE_ACCOUNT" = "Deactivate account";
 
-/* Dismiss button label */
-"CHAT_DISMISS" = "Dismiss";
-
 /* Double tap interaction section header */
 "CHAT_DOUBLE_TAP" = "Double Tap";
 
@@ -24549,7 +24454,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* App version label */
 "CHAT_VERSION" = "Version";
 
-// Section: Frameworks/TwitterComposer/Sources/TwitterComposerStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterComposer/Sources/TwitterComposerStrings/Localizable.xcstrings
 
 /* Label for a button in the composer for adding a location to a post. */
 "COMPOSE_GEO_ADD_LOCATION_BUTTON_LABEL" = "Add location";
@@ -24578,10 +24483,28 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Tag location label */
 "COMPOSE_LOCATION_TITLE" = "Location";
 
-/* Detail given to prompt in the composer's user typeahead list that opens search  */
+/* Button that removes the pending schedule so the post sends immediately */
+"COMPOSE_SCHEDULE_PICKER_CLEAR_ACTION" = "Clear schedule";
+
+/* Confirm button that schedules the post for the chosen date and time */
+"COMPOSE_SCHEDULE_PICKER_CONFIRM_ACTION" = "Schedule";
+
+/* Title of the tray screen that picks the date a scheduled post will be sent on */
+"COMPOSE_SCHEDULE_PICKER_DATE_TITLE" = "Schedule post";
+
+/* Button advancing from the schedule date screen to the time screen */
+"COMPOSE_SCHEDULE_PICKER_NEXT_ACTION" = "Next";
+
+/* Body text on the schedule time screen; the placeholder is the chosen send date and time */
+"COMPOSE_SCHEDULE_PICKER_TIME_BODY_FORMAT" = "Your post will be sent on %@.";
+
+/* Title of the tray screen that picks the time a scheduled post will be sent at */
+"COMPOSE_SCHEDULE_PICKER_TIME_TITLE" = "Pick a time";
+
+/* Detail given to prompt in the composer's user typeahead list that opens search */
 "COMPOSE_TYPEAHEAD_SEARCH_PROMPT_DETAIL_LABEL" = "Search for the person you want to mention.";
 
-/* Title given to prompt in the composer's user typeahead list that opens search  */
+/* Title given to prompt in the composer's user typeahead list that opens search */
 "COMPOSE_TYPEAHEAD_SEARCH_PROMPT_TITLE_LABEL" = "Find who you’re looking for";
 
 /* No comment provided by engineer. */
@@ -24605,7 +24528,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Tag location label */
 "TAG_LOCATION_LABEL" = "Tag location";
 
-// Section: Frameworks/Jobs/Sources/JobsStrings/en.lproj/Localizable.strings
+// Section: Frameworks/Jobs/Sources/JobsStrings/Localizable.xcstrings
 
 "JOBS_KEYWORD_FIELD_PLACEHOLDER" = "Job title";
 
@@ -24784,7 +24707,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title of the Host Analytics view, displayed in the top navigation bar. */
 "VOICE_ROOM_ANALYTICS_VIEW_TITLE" = "Space analytics";
 
-// Section: Frameworks/TwitterSafetyCenter/TwitterSafetyCenter/Sources/TwitterSafetyCenterStrings/en.lproj/Localizable.strings
+// Section: Frameworks/TwitterSafetyCenter/TwitterSafetyCenter/Sources/TwitterSafetyCenterStrings/Localizable.xcstrings
 
 /* Title of the screen that displays details about a report in safety center */
 "SAFETY_CENTER_REPORT_DETAIL_TITLE" = "Details";
@@ -24872,20 +24795,35 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Accessibility label for the NFL hub toolbar button that shows the user's favorite teams. */
 "NFL_FAVORITE_TEAMS_ACCESSIBILITY_LABEL" = "Favorite teams";
 
+/* Title of the defense group inside the box score card on the game screen. */
+"NFL_GAME_BOX_SCORE_DEFENSE_TITLE" = "Defense";
+
+/* Title of the kicking group inside the box score card on the game screen, listing field goals and extra points. */
+"NFL_GAME_BOX_SCORE_KICKING_TITLE" = "Kicking";
+
+/* Title of the kick returning group inside the box score card on the game screen. */
+"NFL_GAME_BOX_SCORE_KICK_RETURNS_TITLE" = "Kick Returning";
+
+/* Title of the punting group inside the box score card on the game screen. */
+"NFL_GAME_BOX_SCORE_PUNTING_TITLE" = "Punting";
+
 /* Clock text shown when a game has ended. */
 "NFL_GAME_CLOCK_FINAL" = "Final";
+
+/* Game clock label shown while the game is at halftime. */
+"NFL_GAME_CLOCK_HALFTIME" = "Halftime";
+
+/* Replaces the game clock while a timeout is in effect. */
+"NFL_GAME_CLOCK_TIMEOUT" = "Timeout";
+
+/* Distance shown in a down-and-distance line when the line to gain is the goal line, as in "2nd & Goal". */
+"NFL_GAME_DOWN_DISTANCE_GOAL" = "Goal";
 
 /* Segment title for the latest posts in the NFL game feed. */
 "NFL_GAME_FEED_SEGMENT_LATEST" = "Latest";
 
 /* Segment title for the top posts in the NFL game feed. */
 "NFL_GAME_FEED_SEGMENT_TOP" = "Top";
-
-/* Banner label shown in the NFL game feed while play is paused for a team timeout. */
-"NFL_GAME_FEED_TIMEOUT_BANNER" = "Timeout";
-
-/* Banner label shown in the NFL game feed while play is paused for the two-minute warning. */
-"NFL_GAME_FEED_TWO_MINUTE_WARNING_BANNER" = "Two-Minute Warning";
 
 /* Accessibility label for the poll health indicator when updates are flowing. */
 "NFL_GAME_HEALTH_CONNECTED_LABEL" = "Live updates connected";
@@ -24911,8 +24849,26 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Column header for the moneyline market on the odds card. */
 "NFL_GAME_ODDS_TO_WIN_HEADER" = "To win";
 
+/* Accessibility label for a locked odds market button shown when the sportsbook has no line for that market. */
+"NFL_GAME_ODDS_UNAVAILABLE_ACCESSIBILITY_LABEL" = "Odds unavailable";
+
+/* Accessibility label for the overflow (more options) button in the NFL game-day view navigation bar. */
+"NFL_GAME_OVERFLOW_ACCESSIBILITY_LABEL" = "More";
+
+/* Overflow menu item on the NFL game-day view that opens the NFL hub. */
+"NFL_GAME_OVERFLOW_GO_TO_HUB" = "Go to Hub";
+
+/* Overflow menu item on the NFL game-day view that opens the composer to post about the game. */
+"NFL_GAME_OVERFLOW_POST" = "Post";
+
+/* Overflow menu item on the NFL game-day view that shares the game. */
+"NFL_GAME_OVERFLOW_SHARE" = "Share";
+
 /* Title of the passing player-stats card on the game screen. */
 "NFL_GAME_PASSING_CARD_TITLE" = "Passing";
+
+/* Column header for yards per pass attempt on the game passing stat card. Abbreviated to fit a narrow column. */
+"NFL_GAME_PASSING_COLUMN_AVERAGE" = "AVG";
 
 /* Passing card column header: completions over attempts (e.g. 18/24). */
 "NFL_GAME_PASSING_COLUMN_COMP_ATT" = "C/ATT";
@@ -24920,23 +24876,71 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Passing card column header: interceptions thrown. */
 "NFL_GAME_PASSING_COLUMN_INTERCEPTIONS" = "INT";
 
+/* Column header for passer rating on the game passing stat card. Abbreviated to fit a narrow column. */
+"NFL_GAME_PASSING_COLUMN_RATING" = "RTG";
+
+/* Column header for sacks taken and yards lost on the game passing stat card, shown as sacks-yards. Abbreviated to fit a narrow column. */
+"NFL_GAME_PASSING_COLUMN_SACKS" = "SACK";
+
 /* Passing card column header: touchdown passes. */
 "NFL_GAME_PASSING_COLUMN_TOUCHDOWNS" = "TD";
 
 /* Passing card column header: passing yards. */
 "NFL_GAME_PASSING_COLUMN_YARDS" = "YDS";
 
+/* Headline for a successful extra point kick in the play-by-play feed. */
+"NFL_GAME_PLAY_EXTRA_POINT_HEADLINE" = "Extra point";
+
+/* Headline for a failed two-point conversion in the play-by-play feed. */
+"NFL_GAME_PLAY_FAILED_TWO_POINT_HEADLINE" = "Failed two-point conversion";
+
 /* Tag on the most recent play card in the play-by-play feed. */
 "NFL_GAME_PLAY_LATEST_TAG" = "LATEST";
+
+/* Headline for a missed or blocked extra point kick in the play-by-play feed. */
+"NFL_GAME_PLAY_MISSED_EXTRA_POINT_HEADLINE" = "Missed extra point";
+
+/* Headline for a play in the play-by-play feed that was called back and does not count. */
+"NFL_GAME_PLAY_NO_PLAY_HEADLINE" = "No play";
+
+/* Tag on a play in the play-by-play feed that was called back and does not count. */
+"NFL_GAME_PLAY_NO_PLAY_TAG" = "NO PLAY";
+
+/* Shown on a penalty in the play-by-play feed when the other team declined it, so no yardage was assessed. */
+"NFL_GAME_PLAY_PENALTY_DECLINED" = "Declined";
+
+/* Tag on a play in the play-by-play feed where a penalty flag was thrown but the penalty details are not available yet. */
+"NFL_GAME_PLAY_PENALTY_FLAG_TAG" = "FLAG";
+
+/* Shown on a penalty in the play-by-play feed when penalties on both teams offset, so no yardage was assessed. */
+"NFL_GAME_PLAY_PENALTY_OFFSETTING" = "Offsetting";
+
+/* Penalty summary in the play-by-play feed. %1$@ is the infraction, for example Holding. %2$@ is the penalized team abbreviation, for example DAL. */
+"NFL_GAME_PLAY_PENALTY_ON_FORMAT" = "%1$@ on %2$@";
 
 /* Headline for a timeout entry in the play-by-play feed. */
 "NFL_GAME_PLAY_TIMEOUT_HEADLINE" = "Timeout";
 
+/* Headline for a successful two-point conversion in the play-by-play feed. */
+"NFL_GAME_PLAY_TWO_POINT_HEADLINE" = "Two-point conversion";
+
+/* Tag on a play in the play-by-play feed whose ruling is being reviewed by officials. */
+"NFL_GAME_PLAY_UNDER_REVIEW_TAG" = "UNDER REVIEW";
+
 /* Title of the receiving player-stats card on the game screen. */
 "NFL_GAME_RECEIVING_CARD_TITLE" = "Receiving";
 
+/* Column header for yards per reception on the game receiving stat card. Abbreviated to fit a narrow column. */
+"NFL_GAME_RECEIVING_COLUMN_AVERAGE" = "AVG";
+
+/* Column header for the longest reception on the game receiving stat card. Abbreviated to fit a narrow column. */
+"NFL_GAME_RECEIVING_COLUMN_LONGEST" = "LNG";
+
 /* Receiving card column header: receptions. */
 "NFL_GAME_RECEIVING_COLUMN_RECEPTIONS" = "REC";
+
+/* Column header for times a receiver was targeted on the game receiving stat card. Abbreviated to fit a narrow column. */
+"NFL_GAME_RECEIVING_COLUMN_TARGETS" = "TGT";
 
 /* Receiving card column header: receiving touchdowns. */
 "NFL_GAME_RECEIVING_COLUMN_TOUCHDOWNS" = "TD";
@@ -24947,8 +24951,14 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title of the rushing player-stats card on the game screen. */
 "NFL_GAME_RUSHING_CARD_TITLE" = "Rushing";
 
+/* Column header for yards per carry on the game rushing stat card. Abbreviated to fit a narrow column. */
+"NFL_GAME_RUSHING_COLUMN_AVERAGE" = "AVG";
+
 /* Rushing card column header: rushing attempts / carries. */
 "NFL_GAME_RUSHING_COLUMN_CARRIES" = "CAR";
+
+/* Column header for the longest run on the game rushing stat card. Abbreviated to fit a narrow column. */
+"NFL_GAME_RUSHING_COLUMN_LONGEST" = "LNG";
 
 /* Rushing card column header: rushing touchdowns. */
 "NFL_GAME_RUSHING_COLUMN_TOUCHDOWNS" = "TD";
@@ -24992,14 +25002,14 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Team stats row: third-down conversions, shown as made/attempted (e.g. 6/13). */
 "NFL_GAME_STATS_THIRD_DOWN" = "3rd down";
 
+/* Row label on the game team stats card for how long each team held the ball. Abbreviated to fit alongside the two values. */
+"NFL_GAME_STATS_TIME_OF_POSSESSION" = "Time of poss.";
+
 /* Team stats row: combined passing and rushing yardage. */
 "NFL_GAME_STATS_TOTAL_YARDS" = "Total yards";
 
 /* Team stats row: turnovers committed (interceptions plus lost fumbles). */
 "NFL_GAME_STATS_TURNOVERS" = "Turnovers";
-
-/* Shown on the situation line under the game clock while a timeout is active. */
-"NFL_GAME_TIMEOUT_LABEL" = "TIMEOUT";
 
 /* Accessibility label for the back button in the NFL game-day hub navigation bar. */
 "NFL_HUB_BACK_ACCESSIBILITY_LABEL" = "Back";
@@ -25007,11 +25017,23 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Status shown on a scorecard for a game that finished in overtime. */
 "NFL_HUB_FINAL_OVERTIME_LABEL" = "Final/OT";
 
+/* Section header on the Games tab grouping a week's finished games, shown below the day-by-day schedule. */
+"NFL_HUB_GAMES_COMPLETED_SECTION_LABEL" = "Completed";
+
 /* Shown on the NFL hub Games tab when the season schedule fails to load. */
 "NFL_HUB_GAMES_SCHEDULE_ERROR" = "Error loading schedule, please try again later";
 
+/* Replaces the calendar date on schedule cards and section headers when the game is today. */
+"NFL_HUB_GAMES_TODAY_LABEL" = "Today";
+
 /* Games tab section header for a week's slate, with the week number and date (e.g. "Week 2 · Sep 17"). */
 "NFL_HUB_GAMES_WEEK_FORMAT" = "Week %1$d · %2$@";
+
+/* Label on the Games tab week carousel chip for the Hall of Fame preseason game, shown in place of a week number. */
+"NFL_HUB_GAMES_WEEK_HOF_ABBREVIATION" = "HOF";
+
+/* Accessibility label for the Games tab week chip representing the Hall of Fame preseason game. */
+"NFL_HUB_GAMES_WEEK_HOF_ACCESSIBILITY_LABEL" = "Hall of Fame game";
 
 /* Abbreviated "postseason" heading on a Games tab week carousel chip, shown above the week number. */
 "NFL_HUB_GAMES_WEEK_POSTSEASON_ABBREVIATION" = "POST";
@@ -25033,6 +25055,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Section header on the hub Home tab above the list of in-progress games. */
 "NFL_HUB_HOME_LIVE_TITLE" = "Live";
+
+/* Abbreviated money line label on the hub scorecard odds strip. */
+"NFL_HUB_SCORECARD_ODDS_MONEYLINE_LABEL" = "ML";
 
 /* Hub segment tab showing the games schedule and scores. */
 "NFL_HUB_SEGMENT_GAMES" = "Games";
@@ -25150,6 +25175,36 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Section header above the overtime drives in the play-by-play list. */
 "NFL_PLAYS_QUARTER_OVERTIME" = "Overtime";
+
+/* Toast shown when a tapped roster player has no X account. */
+"NFL_ROSTER_NO_ACCOUNT_TOAST" = "No account";
+
+/* Position group header on the NFL team roster screen. */
+"NFL_ROSTER_SECTION_DEFENSIVE_LINE" = "Defensive Line";
+
+/* Position group header on the NFL team roster screen. */
+"NFL_ROSTER_SECTION_LINEBACKERS" = "Linebackers";
+
+/* Position group header on the NFL team roster screen. */
+"NFL_ROSTER_SECTION_OFFENSIVE_LINE" = "Offensive Line";
+
+/* Position group header on the NFL team roster screen. */
+"NFL_ROSTER_SECTION_QUARTERBACKS" = "Quarterbacks";
+
+/* Position group header on the NFL team roster screen. */
+"NFL_ROSTER_SECTION_RECEIVERS" = "Receivers";
+
+/* Position group header on the NFL team roster screen. */
+"NFL_ROSTER_SECTION_RUNNING_BACKS" = "Running Backs";
+
+/* Position group header on the NFL team roster screen. */
+"NFL_ROSTER_SECTION_SECONDARY" = "Secondary";
+
+/* Position group header on the NFL team roster screen. */
+"NFL_ROSTER_SECTION_SPECIAL_TEAMS" = "Special Teams";
+
+/* Navigation title of the NFL team roster screen. */
+"NFL_ROSTER_TITLE" = "Roster";
 
 /* Detail-row label for the broadcast networks carrying a game. */
 "NFL_SCHEDULE_BROADCAST_LABEL" = "Broadcast";
@@ -25296,6 +25351,86 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title of a toast which is show on an event of completion of a video download */
 "OFFLINE_TASK_COMPLETION_TOAST_TEXT" = "Video downloaded to your offline videos";
 
+// Section: Frameworks/XPalmLiveness/Sources/XPalmLivenessStrings/Localizable.xcstrings
+
+/* Cancel button on a palm-liveness alert. */
+"PALM_LIVENESS_ALERT_CANCEL_BUTTON" = "Cancel";
+
+/* OK button on a palm-liveness alert. */
+"PALM_LIVENESS_ALERT_OK_BUTTON" = "OK";
+
+/* Reassurance shown under the palm-verification call to action, explaining that hand-motion data never leaves the device and is never stored or used to identify the user. */
+"PALM_LIVENESS_BIOMETRIC_PRIVACY_DISCLAIMER" = "Hand motion data will never leave your device. No information will be stored or used to identify you.";
+
+/* Message of the alert shown when the camera permission has been denied and palm verification needs it. */
+"PALM_LIVENESS_CAMERA_ACCESS_ALERT_MESSAGE" = "Please enable camera access in Settings to verify with palm.";
+
+/* Title of the alert shown when the camera permission has been denied and palm verification needs it. */
+"PALM_LIVENESS_CAMERA_ACCESS_ALERT_TITLE" = "Camera Access Required";
+
+/* Primary button on the camera explainer screen that triggers the OS camera-access prompt. */
+"PALM_LIVENESS_CAMERA_EXPLAINER_ENABLE_CAMERA_BUTTON" = "Enable Camera";
+
+/* Inline link at the end of the camera explainer privacy paragraph, opening a Help Center article about anti-bot verification. */
+"PALM_LIVENESS_CAMERA_EXPLAINER_LEARN_MORE" = "Learn more";
+
+/* Privacy paragraph on the camera explainer screen explaining how hand-motion data is handled. */
+"PALM_LIVENESS_CAMERA_EXPLAINER_PRIVACY" = "Your hand motion is never recorded as a video and it never leaves your device. It is not used for any other purpose other than anti-bot verification, and will not be sold, leased, or traded.";
+
+/* First paragraph on the camera explainer screen explaining why camera access is needed. */
+"PALM_LIVENESS_CAMERA_EXPLAINER_PURPOSE" = "The app will briefly capture your hand motion solely to confirm you are a real person and not a bot.";
+
+/* Notice on the palm-liveness scan screen warning that the camera torch may briefly flash while the check runs. */
+"PALM_LIVENESS_CAMERA_FLASH_NOTICE" = "The camera light may flash briefly during the check.";
+
+/* Subtitle on the first palm-liveness screen explaining why the user is being asked to verify. */
+"PALM_LIVENESS_CONFIRM_HUMAN_SUBTITLE" = "This step verifies you’re a human and ensures your account remains in good standing.";
+
+/* Title on the first palm-liveness screen asking the user to confirm they are a human. */
+"PALM_LIVENESS_CONFIRM_HUMAN_TITLE" = "Confirm you’re a human";
+
+/* Button that starts verifying the user with a face scan instead of a palm scan. */
+"PALM_LIVENESS_CONFIRM_WITH_FACE_BUTTON" = "Confirm with face";
+
+/* Primary button that starts verifying the user with a palm scan. */
+"PALM_LIVENESS_CONFIRM_WITH_PALM_BUTTON" = "Confirm with hand motion";
+
+/* Error message shown when palm verification cannot be started. */
+"PALM_LIVENESS_COULD_NOT_START_ERROR_MESSAGE" = "Palm verification could not be started.";
+
+/* Link to the Help Center article for appealing a suspended account, shown on the palm-verification failure screen. */
+"PALM_LIVENESS_FAILURE_HELP_CENTER_LINK" = "Help Center: Appeal a suspended account";
+
+/* Subtitle on the palm-verification failure screen. */
+"PALM_LIVENESS_FAILURE_SUBTITLE" = "We couldn’t verify your palm.";
+
+/* Title on the palm-verification failure screen. */
+"PALM_LIVENESS_FAILURE_TITLE" = "Verification failed";
+
+/* Button that restarts palm verification after a failure. */
+"PALM_LIVENESS_FAILURE_TRY_AGAIN_BUTTON" = "Try again";
+
+/* Title of the generic error alert shown when a palm-verification step fails. */
+"PALM_LIVENESS_GENERIC_ERROR_ALERT_TITLE" = "Error";
+
+/* On-screen instruction telling the user to hold their open palm steady during the passive liveness check. */
+"PALM_LIVENESS_INSTRUCTION_HOLD_PALM" = "Hold your palm steady";
+
+/* On-screen instruction telling the user to pinch the on-screen dots together during the palm gesture. */
+"PALM_LIVENESS_INSTRUCTION_PINCH_DOTS" = "Pinch the dots together";
+
+/* On-screen instruction telling the user how many fingers to hold up during the liveness challenge. %lld is the number of fingers, e.g. "Hold up 3 fingers". */
+"PALM_LIVENESS_INSTRUCTION_SHOW_FINGERS_FORMAT" = "Hold up %lld fingers";
+
+/* Button that opens the system Settings app so the user can grant camera access. */
+"PALM_LIVENESS_OPEN_SETTINGS_BUTTON" = "Open Settings";
+
+/* Message of the alert shown when palm verification is not supported on the current device. */
+"PALM_LIVENESS_UNSUPPORTED_ALERT_MESSAGE" = "Palm verification is not supported on this device.";
+
+/* Title of the alert shown when palm verification is not supported on the current device. */
+"PALM_LIVENESS_UNSUPPORTED_ALERT_TITLE" = "Palm Verification Unavailable";
+
 // Section: Frameworks/TwitterUI/TwitterUI/Sources/TwitterUIStrings/Localizable.xcstrings
 
 /* Accessibility label for button to block the user */
@@ -25427,7 +25562,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Accessibility hint for verified government icon, which when tapped will provide details about what business verified accounts mean. */
 "VERIFIED_GOV_ACCESSIBILITY_HINT" = "Provides details about government verified accounts.";
 
-// Section: Frameworks/Periscope/Sources/PeriscopeStrings/en.lproj/Localizable.strings
+// Section: Frameworks/Periscope/Sources/PeriscopeStrings/Localizable.xcstrings
 
 /* indication of time elapsed, e.g. 5 minutes ago, 3 days ago, etc. */
 "PERISCOPE_AGO" = "%@ ago";
@@ -25435,13 +25570,10 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Label in chat box when the broadcast is eneded. */
 "PERISCOPE_BROADCAST_ENDED_LABEL" = "Broadcast ended";
 
-/* Label for chat box when user isn't allowed to chat because only users the broadcaster
- follows can chat. */
+/* Label for chat box when user isn't allowed to chat because only users the broadcaster follows can chat. */
 "PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "Accounts broadcaster follows";
 
-/* Label shown in the live broadcast chat composer when the viewer isn't allowed to chat because
- chat is limited to accounts the broadcaster follows, or to those accounts plus the accounts
- they follow (2nd degree). */
+/* Label for chat box when user isn't allowed to chat because chat is limited to accounts the broadcaster follows and the accounts those follows follow (2nd degree). */
 "PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "Only some accounts can chat";
 
 /* Label in chat box when user is banned and cant chat. */
@@ -25500,7 +25632,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Settings menu title where you allow people to download your video */
 "VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Allow video to be downloaded";
 
-// Section: Frameworks/XPhotoEditor/XPhotoEditor/Sources/TwitterGraphicsFiltersInstanceStrings/en.lproj/Localizable.strings
+// Section: Frameworks/XPhotoEditor/XPhotoEditor/Sources/TwitterGraphicsFiltersInstanceStrings/Localizable.xcstrings
 
 /* Photo filter name: Steel - black and white filter toned silvery. */
 "FILTERS_NAME_FILTER_BW04" = "Steel";
@@ -25705,7 +25837,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Navigation title shown while the text tool is active */
 "XPHOTOEDITOR_TEXT_TOOL_TITLE" = "Add Text";
 
-// Section: Frameworks/XVideoRecorder/Sources/XVideoRecorderStrings/en.lproj/Localizable.strings
+// Section: Frameworks/XVideoRecorder/Sources/XVideoRecorderStrings/Localizable.xcstrings
 
 /* Accessibility label for the render mode button in the video reaction camera that overlays the user's silhouette on top of the source post (a.k.a. "Green screen" mode). */
 "NEWSCAMERA_REACTION_ACCESSIBILITY_LABEL_GREEN_SCREEN" = "Person overlay";
@@ -26079,7 +26211,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Page title for the 'About this account' page that displays more information about the current logged-in user */
 "PROFILE_ABOUT_YOUR_ACCOUNT_NAVIGATION_ITEM_TITLE_LABEL" = "About your account";
 
-// Section: Frameworks/XHealth/Sources/HealthFoundationStrings/en.lproj/Localizable.strings
+// Section: Frameworks/XHealth/Sources/HealthFoundationStrings/Localizable.xcstrings
 
 /* Text for prompt shown to a graduated user with unrestricted features and level of visibility. */
 "GRADUATED_ACCESS_GRADUATED_USER_DESCRIPTION" = "You can join the conversation and connect with others more easily. Now you can do the following:";
@@ -26114,7 +26246,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title for Sensitive Post Tombstone button that shows underlying content */
 "SENSITIVE_TWEET_BLURRED_INTERSTITIAL_VIEW_SHOW_MEDIA_BUTTON_TITLE" = "Show";
 
-/* Title for Sensitive Post Tombstone label  */
+/* Title for Sensitive Post Tombstone label */
 "SENSITIVE_TWEET_BLURRED_INTERSTITIAL_VIEW_TITLE_LABEL" = "Content warning: %@";
 
 /* Inline callout text shown in post details when author views their own post and user has Reply Filter enabled. */
@@ -26147,82 +26279,261 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Header for toxic reply filter settings */
 "TOXIC_REPLY_FILTER_SETTINGS_TITLE" = "Replies";
 
-// Section: Frameworks/XPalmLiveness/Sources/XPalmLivenessStrings/en.lproj/Localizable.strings
+// Section: Frameworks/XSearchKit/Sources/TwitterAdvancedSearchStrings/Localizable.xcstrings
 
-/* Cancel button on a palm-liveness alert. */
-"PALM_LIVENESS_ALERT_CANCEL_BUTTON" = "Cancel";
+/* Search condition filter for Any */
+"TWITTERADVANCEDSEARCH_ANY" = "Any";
 
-/* OK button on a palm-liveness alert. */
-"PALM_LIVENESS_ALERT_OK_BUTTON" = "OK";
+/* Search condition filter for Anyone */
+"TWITTERADVANCEDSEARCH_ANYONE" = "Anyone";
 
-/* Reassurance shown under the palm-verification call to action, explaining that hand-motion data never leaves the device and is never stored or used to identify the user. */
-"PALM_LIVENESS_BIOMETRIC_PRIVACY_DISCLAIMER" = "Hand motion data will never leave your device. No information will be stored or used to identify you.";
+/* Title of button to apply search filters */
+"TWITTERADVANCEDSEARCH_APPLY" = "Apply";
 
-/* Message of the alert shown when the camera permission has been denied and palm verification needs it. */
-"PALM_LIVENESS_CAMERA_ACCESS_ALERT_MESSAGE" = "Please enable camera access in Settings to verify with palm.";
+/* Title of the screen for creating an advanced search */
+"TWITTERADVANCEDSEARCH_BUILDER_VIEW_CONTROLLER_TITLE" = "Filters";
 
-/* Title of the alert shown when the camera permission has been denied and palm verification needs it. */
-"PALM_LIVENESS_CAMERA_ACCESS_ALERT_TITLE" = "Camera Access Required";
+/* Search condition menu item for limiting search for all time */
+"TWITTERADVANCEDSEARCH_DATE_ALL_TIME_ITEM" = "All time";
 
-/* Primary button on the camera explainer screen that triggers the OS camera-access prompt. */
-"PALM_LIVENESS_CAMERA_EXPLAINER_ENABLE_CAMERA_BUTTON" = "Enable Camera";
+/* Search condition menu item for limiting search for past 24 hours */
+"TWITTERADVANCEDSEARCH_DATE_PAST_DAY_ITEM" = "Past 24 hours";
 
-/* Inline link at the end of the camera explainer privacy paragraph, opening a Help Center article about anti-bot verification. */
-"PALM_LIVENESS_CAMERA_EXPLAINER_LEARN_MORE" = "Learn more";
+/* Search condition menu item for limiting search for past hour */
+"TWITTERADVANCEDSEARCH_DATE_PAST_HOUR_ITEM" = "Past hour";
 
-/* Privacy paragraph on the camera explainer screen explaining how hand-motion data is handled. */
-"PALM_LIVENESS_CAMERA_EXPLAINER_PRIVACY" = "Your hand motion is never recorded as a video and it never leaves your device. It is not used for any other purpose other than anti-bot verification, and will not be sold, leased, or traded.";
+/* Search condition menu item for limiting search for past month */
+"TWITTERADVANCEDSEARCH_DATE_PAST_MONTH_ITEM" = "Past month";
 
-/* First paragraph on the camera explainer screen explaining why camera access is needed. */
-"PALM_LIVENESS_CAMERA_EXPLAINER_PURPOSE" = "The app will briefly capture your hand motion solely to confirm you are a real person and not a bot.";
+/* Search condition menu item for limiting search for past week */
+"TWITTERADVANCEDSEARCH_DATE_PAST_WEEK_ITEM" = "Past week";
 
-/* Subtitle on the first palm-liveness screen explaining why the user is being asked to verify. */
-"PALM_LIVENESS_CONFIRM_HUMAN_SUBTITLE" = "This step verifies you’re a human and ensures your account remains in good standing.";
+/* Search condition menu item for limiting search for past year */
+"TWITTERADVANCEDSEARCH_DATE_PAST_YEAR_ITEM" = "Past year";
 
-/* Title on the first palm-liveness screen asking the user to confirm they are a human. */
-"PALM_LIVENESS_CONFIRM_HUMAN_TITLE" = "Confirm you’re a human";
+/* Search condition menu item for limiting search for date posted */
+"TWITTERADVANCEDSEARCH_FILTERS_DATE_POSTED_FILTER_MENU_ITEM" = "Date posted";
 
-/* Button that starts verifying the user with a face scan instead of a palm scan. */
-"PALM_LIVENESS_CONFIRM_WITH_FACE_BUTTON" = "Confirm with face";
+/* Search condition menu item for limiting search to exclude replies */
+"TWITTERADVANCEDSEARCH_FILTERS_EXCLUDE_REPLIES_FILTER_MENU_ITEM" = "Exclude replies";
 
-/* Primary button that starts verifying the user with a palm scan. */
-"PALM_LIVENESS_CONFIRM_WITH_PALM_BUTTON" = "Confirm with hand motion";
+/* Search condition menu item for limiting search to from people you follow */
+"TWITTERADVANCEDSEARCH_FILTERS_FROM_PEOPLE_YOU_FOLLOW_FILTER_MENU_ITEM" = "From people you follow";
 
-/* Error message shown when palm verification cannot be started. */
-"PALM_LIVENESS_COULD_NOT_START_ERROR_MESSAGE" = "Palm verification could not be started.";
+/* Search condition menu item for limiting search to from verified users */
+"TWITTERADVANCEDSEARCH_FILTERS_FROM_VERIFIED_USERS_FILTER_MENU_ITEM" = "From verified users";
 
-/* Link to the Help Center article for appealing a suspended account, shown on the palm-verification failure screen. */
-"PALM_LIVENESS_FAILURE_HELP_CENTER_LINK" = "Help Center: Appeal a suspended account";
+/* Search condition menu item for limiting search to language */
+"TWITTERADVANCEDSEARCH_FILTERS_LANGUAGE_FILTER_MENU_ITEM" = "Language";
 
-/* Subtitle on the palm-verification failure screen. */
-"PALM_LIVENESS_FAILURE_SUBTITLE" = "We couldn’t verify your palm.";
+/* Search condition menu item for limiting search to near you */
+"TWITTERADVANCEDSEARCH_FILTERS_NEAR_YOU_FILTER_MENU_ITEM" = "Near you";
 
-/* Title on the palm-verification failure screen. */
-"PALM_LIVENESS_FAILURE_TITLE" = "Verification failed";
+/* Search condition menu item for limiting search to post activity */
+"TWITTERADVANCEDSEARCH_FILTERS_POST_ACTIVITY_FILTER_MENU_ITEM" = "Post activity";
 
-/* Button that restarts palm verification after a failure. */
-"PALM_LIVENESS_FAILURE_TRY_AGAIN_BUTTON" = "Try again";
+/* Search condition menu item for limiting search to post activity minimum likes */
+"TWITTERADVANCEDSEARCH_FILTERS_POST_ACTIVITY_MINIMUM_LIKES_FILTER_MENU_ITEM" = "Minimum Likes";
 
-/* Title of the generic error alert shown when a palm-verification step fails. */
-"PALM_LIVENESS_GENERIC_ERROR_ALERT_TITLE" = "Error";
+/* Search condition menu item for limiting search to post activity minimum replies */
+"TWITTERADVANCEDSEARCH_FILTERS_POST_ACTIVITY_MINIMUM_REPLIES_FILTER_MENU_ITEM" = "Minimum Replies";
 
-/* On-screen instruction telling the user to hold their open palm steady during the passive liveness check. */
-"PALM_LIVENESS_INSTRUCTION_HOLD_PALM" = "Hold your palm steady";
+/* Search condition menu item for limiting search to post activity minimum retweets */
+"TWITTERADVANCEDSEARCH_FILTERS_POST_ACTIVITY_MINIMUM_REPOSTS_FILTER_MENU_ITEM" = "Minimum Reposts";
 
-/* On-screen instruction telling the user to pinch the on-screen dots together during the palm gesture. */
-"PALM_LIVENESS_INSTRUCTION_PINCH_DOTS" = "Pinch the dots together";
+/* Search condition menu item for limiting search for tweet author */
+"TWITTERADVANCEDSEARCH_FILTERS_POST_AUTHOR_FILTER_MENU_ITEM" = "From";
 
-/* On-screen instruction telling the user how many fingers to hold up during the liveness challenge. %lld is the number of fingers, e.g. "Hold up 3 fingers". */
-"PALM_LIVENESS_INSTRUCTION_SHOW_FINGERS_FORMAT" = "Hold up %lld fingers";
+/* Search condition menu item for limiting search to people you follow */
+"TWITTERADVANCEDSEARCH_FOLLOWING_FILTER_MENU_ITEM" = "People I follow";
 
-/* On-screen instruction telling the user to show their palm to the camera. */
-"PALM_LIVENESS_INSTRUCTION_SHOW_PALM" = "Show your palm to the camera";
+/* From filter Anyone option */
+"TWITTERADVANCEDSEARCH_FROM_FILTER_ANYONE" = "Anyone";
 
-/* Button that opens the system Settings app so the user can grant camera access. */
-"PALM_LIVENESS_OPEN_SETTINGS_BUTTON" = "Open Settings";
+/* From filter Custom option */
+"TWITTERADVANCEDSEARCH_FROM_FILTER_CUSTOM" = "Custom";
 
-/* Message of the alert shown when palm verification is not supported on the current device. */
-"PALM_LIVENESS_UNSUPPORTED_ALERT_MESSAGE" = "Palm verification is not supported on this device.";
+/* From filter People you follow option */
+"TWITTERADVANCEDSEARCH_FROM_FILTER_PEOPLE_YOU_FOLLOW" = "People you follow";
 
-/* Title of the alert shown when palm verification is not supported on the current device. */
-"PALM_LIVENESS_UNSUPPORTED_ALERT_TITLE" = "Palm Verification Unavailable";
+/* From filter Verified accounts option */
+"TWITTERADVANCEDSEARCH_FROM_FILTER_VERIFIED_ACCOUNTS" = "Verified accounts";
+
+/* Search condition menu item for searching languages */
+"TWITTERADVANCEDSEARCH_LANGUAGES_SEARCH_TITLE" = "Search languages";
+
+/* Search condition menu item for languages */
+"TWITTERADVANCEDSEARCH_LANGUAGES_TITLE" = "Languages";
+
+/* Search condition menu item for limiting search to posts near you */
+"TWITTERADVANCEDSEARCH_LOCATION_FILTER_MENU_ITEM" = "Near me";
+
+/* Search condition for post activity to Some */
+"TWITTERADVANCEDSEARCH_POST_ACTIVITY_SOME" = "Some";
+
+/* Reset button on filters modal */
+"TWITTERADVANCEDSEARCH_RESET" = "Reset";
+
+// Section: Frameworks/XSearchKit/Sources/TwitterSearchStrings/Localizable.xcstrings
+
+/* Advanced search - search bar title for tweet author filter from */
+"ADVANCED_SEARCH_AUTHOR_FROM_SEARCH_TITLE" = "From:";
+
+/* Advanced search - title for tweet author filter */
+"ADVANCED_SEARCH_AUTHOR_POST_AUTHOR" = "Post author";
+
+/* Advanced search - search account for tweet author filter */
+"ADVANCED_SEARCH_AUTHOR_SEARCH_ACCOUNTS" = "Search accounts";
+
+/* Used in composer typeahead to indicate that a user is already mentioned in a post */
+"COMPOSE_INCLUDED_IN_THIS_REPLY" = "In this conversation";
+
+/* Search bar label text that is always visible when composing a direct message, this text always precedes the selected users in the address bar." */
+"DIRECT_MESSAGE_SHARE_TWEET_ADDRESSING_BAR_PREFIX_TEXT" = "To:";
+
+/* Label in Typeahead. @username is substituted into string (%@) */
+"GO_TO_FORMAT" = "Go to %@";
+
+/* Format string for "Search for "xyz"" typeahead option */
+"PERFORM_SEARCH_FORMAT_STRING" = "Search for “%@”";
+
+/* Button label for viewing your own saved searches Title of Saved searches view */
+"SAVED_SEARCHES_LABEL" = "Saved searches";
+
+/* Text for the VoiceOver announcement that is being read out when the user taps on the search bar to inform them that search results will be available below */
+"SEARCH_ACCESSIBILITY_ANNOUNCEMENT_RESULTS_TITLE" = "Search matches are displayed below and updated as you type";
+
+/* Search empty string */
+"SEARCH_EMPTY_LABEL" = "Try searching for people, topics, or keywords";
+
+/* Button label to apply search filters */
+"SEARCH_FILTERS_APPLY_LABEL" = "Apply";
+
+/* Title of search filters page, which allows users to refine search results */
+"SEARCH_FILTERS_TITLE_LABEL" = "Search filters";
+
+/* Search filter option which does NOT filter results by location */
+"SEARCH_FILTER_LOCATION_ALL_LABEL" = "Anywhere";
+
+/* Search filter option group for location based filtering */
+"SEARCH_FILTER_LOCATION_LABEL" = "Location";
+
+/* Search filter option which shows results from nearby the user */
+"SEARCH_FILTER_LOCATION_NEAR_YOU_LABEL" = "Near you";
+
+/* People search filter option which does NOT filter results by author */
+"SEARCH_FILTER_PEOPLE_ALL_LABEL" = "From anyone";
+
+/* People search filter option which only shows results from people you follow */
+"SEARCH_FILTER_PEOPLE_FOLLOWING_LABEL" = "People you follow";
+
+/* Search filter pill label for the card_domain: operator (card attached from a domain) */
+"SEARCH_PILL_CARD_DOMAIN_LABEL" = "Card domain";
+
+/* Search filter pill label for the card_name: operator (posts with an attached card) */
+"SEARCH_PILL_CARD_LABEL" = "Card";
+
+/* Search filter pill label for the from: operator (posts authored by a user), shown before the username */
+"SEARCH_PILL_FROM_LABEL" = "From";
+
+/* Search filter pill label for the has: operator (posts containing something, e.g. "Has Media"), shown before the content type */
+"SEARCH_PILL_HAS_LABEL" = "Has";
+
+/* Search filter pill text for the conversation_id: operator (posts in a specific conversation); the ID itself is hidden */
+"SEARCH_PILL_IN_CONVERSATION_LABEL" = "In conversation";
+
+/* Search filter pill label for the lang: operator, shown before the language name (e.g. "Language French") */
+"SEARCH_PILL_LANGUAGE_LABEL" = "Language";
+
+/* Search filter pill label for a relative time window (e.g. "Last 7d" = posts from the last 7 days); "Last" as in recency, not final */
+"SEARCH_PILL_LAST_LABEL" = "Last";
+
+/* Search filter pill label for the url: operator (posts linking to a site), shown before the domain */
+"SEARCH_PILL_LINK_LABEL" = "Link";
+
+/* Search filter pill text for the list: operator (posts from members of a list); the list ID is hidden */
+"SEARCH_PILL_LIST_LABEL" = "List";
+
+/* Search filter pill label for the min_faves: operator, shown before the number (e.g. "Min. likes 100") */
+"SEARCH_PILL_MIN_LIKES_LABEL" = "Min. likes";
+
+/* Search filter pill label for the min_replies: operator, shown before the number (e.g. "Min. replies 10") */
+"SEARCH_PILL_MIN_REPLIES_LABEL" = "Min. replies";
+
+/* Search filter pill label for the min_retweets: operator, shown before the number (e.g. "Min. reposts 5") */
+"SEARCH_PILL_MIN_REPOSTS_LABEL" = "Min. reposts";
+
+/* Search filter pill label for the near: operator, shown before the place name (e.g. "Near Paris") */
+"SEARCH_PILL_NEAR_LABEL" = "Near";
+
+/* Search filter pill text for the geocode: operator (posts near coordinates); the raw coordinates are hidden */
+"SEARCH_PILL_NEAR_LOCATION_LABEL" = "Near location";
+
+/* Search filter pill negation prefix; %1$@ is the filter label or value being negated (e.g. "Not From", "Not Media") */
+"SEARCH_PILL_NOT_FORMAT" = "Not %1$@";
+
+/* Search filter pill negation prefix shown alone before a negated filter value (e.g. "Not" + "Media") */
+"SEARCH_PILL_NOT_LABEL" = "Not";
+
+/* Search filter pill text for the place: operator (posts from a place); the place ID is hidden */
+"SEARCH_PILL_PLACE_LABEL" = "Place";
+
+/* Search filter pill text for the quoted_tweet_id: operator (posts quoting a specific post); the ID is hidden */
+"SEARCH_PILL_QUOTING_POST_LABEL" = "Quoting post";
+
+/* Search filter pill text for the quoted_user_id: operator (posts quoting a specific user); the ID is hidden */
+"SEARCH_PILL_QUOTING_USER_LABEL" = "Quoting user";
+
+/* Search filter pill label for the since: operator, shown before a date (e.g. "Since Jul 1, 2026") */
+"SEARCH_PILL_SINCE_LABEL" = "Since";
+
+/* Search filter pill label for the source: operator (posts sent from a client app), shown before the client name */
+"SEARCH_PILL_SOURCE_LABEL" = "Source";
+
+/* Search filter pill label for the to: operator (posts replying to a user), shown before the username */
+"SEARCH_PILL_TO_LABEL" = "To";
+
+/* Search filter pill label for the until: operator, shown before a date (e.g. "Until Aug 1, 2026") */
+"SEARCH_PILL_UNTIL_LABEL" = "Until";
+
+/* Search filter pill value for filter:images (posts containing images) */
+"SEARCH_PILL_VALUE_IMAGES" = "Images";
+
+/* Search filter pill value for filter:links (posts containing links) */
+"SEARCH_PILL_VALUE_LINKS" = "Links";
+
+/* Search filter pill value for filter:media (posts containing media) */
+"SEARCH_PILL_VALUE_MEDIA" = "Media";
+
+/* Search filter pill value for filter:replies (posts that are replies) */
+"SEARCH_PILL_VALUE_REPLIES" = "Replies";
+
+/* Search filter pill value for filter:retweets / include:nativeretweets (posts that are reposts) */
+"SEARCH_PILL_VALUE_REPOSTS" = "Reposts";
+
+/* Search filter pill value for is:verified / filter:blue_verified (posts from verified accounts) */
+"SEARCH_PILL_VALUE_VERIFIED" = "Verified";
+
+/* Search filter pill value for filter:videos (posts containing videos) */
+"SEARCH_PILL_VALUE_VIDEOS" = "Videos";
+
+/* Search filter pill label for the within: operator (radius around a place), shown before the distance (e.g. "Within 15mi") */
+"SEARCH_PILL_WITHIN_LABEL" = "Within";
+
+/* Search bar label text that is always visible when tagging a user in post media, this text always precedes the selected/tagged users in the search bar." */
+"TAGGING_TWEET_ADDRESSING_BAR_PREFIX_TEXT" = "Tag:";
+
+/* Header label for trending searches section in search typeahead */
+"TRENDING_SEARCHES_LABEL" = "Trending searches";
+
+/* Accessibility hint for an item in the user selector explaining that the button will remove the user. */
+"USER_SELECTOR_SELECTED_USER_ACCESSIBILITY_HINT" = "Removes user from selection";
+
+/* Accessibility hint for an item in the user selector explaining that the button will add the user. */
+"USER_SELECTOR_UNSELECTED_USER_ACCESSIBILITY_HINT" = "Adds user to selection";
+
+/* User in user selector is not eligible to be selected.  The parameter is the user's display username */
+"USER_SELECTOR_USER_NOT_ELIGIBLE_FOR_INVITE" = "%@ cannot be invited";
+
+/* String that appears in VoiceOver when a user appears in recent searches and has a Space live currently. This appears after announcing the display name and the username of the user */
+"VOICE_ROOM_RECENT_SEARCHES_ACCESSIBILITY_HINT" = "%1$@ %2$@ is currently in an active Space. Click to join via their profile";
