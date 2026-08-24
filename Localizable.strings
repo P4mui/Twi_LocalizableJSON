@@ -152,6 +152,12 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Status shown in the activity progress indicator while a post with media attachments is uploading. */
 "POST_UPLOADING_PROGRESS_TITLE" = "Your post is uploading…";
 
+/* Title of the activity progress toast card shown when the user cancels sending a post */
+"POST_UPLOAD_CANCELED_PROGRESS_TITLE" = "Your post was canceled";
+
+/* Title of the activity progress toast card shown when sending a post fails */
+"POST_UPLOAD_FAILED_PROGRESS_TITLE" = "Upload has failed";
+
 /* Message for a local push notification that asks the user to re-open the TWitter app to try to re-send a post that failed to send. */
 "SUBSCRIPTION_UNDO_SEND_TWEET_FAILED_NOTIFICATION_MESSAGE" = "Your post didn’t send";
 
@@ -704,6 +710,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Accessibility label to describe the photo attachment. %1$@ = Attachment's accessibility text %2$@ = Photo attachment's alt text, localized date time, or nothing if first two options aren't available %3$@ = Position of attachment (1, 2, 3, 4) %4$@ = Total number of attachments (1, 2, 3, 4) EX1: Image, altText, 1 of 4 EX2: Image, dateTime, 2 of 3 */
 "ATTACHMENT_PHOTO_REORDERING_PHOTO_ACCESSIBILITY_LABEL" = "%1$@, %2$@, %3$@ of %4$@";
+
+/* Title of the button shown on an attached video in the post composer that opens the video editor. */
+"ATTACHMENT_VIDEO_EDIT_BUTTON_TITLE" = "Edit";
 
 /* Accessibility hint for attached video media. Describes the remove video action */
 "ATTACHMENT_VIDEO_REMOVE_ACTION_ACCESSIBILITY_HINT" = "Removes the video from your post";
@@ -4359,7 +4368,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 "LOCATION_ENABLED_ERROR_ALERT_TITLE" = "Failed to enable location";
 
 /* Title of Location Settings screen */
-"LOCATION_SETTINGS_TITLE" = "Precise location";
+"LOCATION_SETTINGS_TITLE" = "Approximate location";
 
 /* The generic error message shown to the user during login process (e.g. HTTP 500 error) */
 "LOGIN_GENERIC_ERROR_MESSAGE" = "An error occurred. Please try again later.";
@@ -7330,13 +7339,13 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 "SETTINGS_LOCATION_INFO_ITEM_TITLE" = "Location information";
 
 /* Description of location setting for changing location permissions */
-"SETTINGS_LOCATION_PRECISE_LOCATION_DESCRIPTION" = "If enabled, X will collect, store, and use your device’s precise location, such as GPS information. This lets X improve your experience — for example, showing you more local content, ads, and recommendations.";
+"SETTINGS_LOCATION_PRECISE_LOCATION_DESCRIPTION" = "If enabled, X will collect, store, and use your device’s approximate location. This lets X improve your experience — for example, showing you more local content, ads, and recommendations.";
 
 /* Description of location setting for changing location permissions with link to regrant system permissions */
-"SETTINGS_LOCATION_PRECISE_LOCATION_DESCRIPTION_WITH_SETTINGS_HTML_TEMPLATE" = "If enabled, X will collect, store, and use your device’s precise location, such as GPS information. This lets X improve your experience — for example, showing you more local content, ads, and recommendations.\n\nYour location services are not currently enabled on this device. You can turn them on in your <a href=\"%1$@\">device settings</a>.";
+"SETTINGS_LOCATION_PRECISE_LOCATION_DESCRIPTION_WITH_SETTINGS_HTML_TEMPLATE" = "If enabled, X will collect, store, and use your device’s approximate location. This lets X improve your experience — for example, showing you more local content, ads, and recommendations.\n\nYour location services are not currently enabled on this device. You can turn them on in your <a href=\"%1$@\">device settings</a>.";
 
 /* Title of location setting for changing location permissions */
-"SETTINGS_LOCATION_PRECISE_LOCATION_LABEL" = "Precise location";
+"SETTINGS_LOCATION_PRECISE_LOCATION_LABEL" = "Approximate location";
 
 /* Title of Settings location section */
 "SETTINGS_LOCATION_SECTION_TITLE" = "Location";
@@ -10449,143 +10458,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Label for list of suggested users you might also want to follow, e.g "Suggested". */
 "YOU_MIGHT_ALSO_WANT_TO_FOLLOW_LABEL" = "Suggested";
 
-// Section: Frameworks/TwitterSubscriptions/Sources/TwitterSubscriptionsStrings/Localizable.xcstrings
-
-/* Error message shown when we user tries to buy a subscription but we detected that the user already has a subscription in Apple store, it may be pending cancellation */
-"SUBSCRIPTION_ALREADY_SUBSCRIBED_ERROR_MESSAGE" = "You have already subscribed, either here or on another account. Please check back later.";
-
-/* Error message shown to the user when user buy expired subscriptions from an account which is different from original account */
-"SUBSCRIPTION_ERROR_DIFFERENT_USER_MESSAGE" = "Try logging in to your other X account to access this subscription";
-
-/* Error title shown to the user when user buy expired subscriptions from an account which is different from original account */
-"SUBSCRIPTION_ERROR_DIFFERENT_USER_MESSAGE_TITLE" = "You are already subscribed";
-
-/* Error message shown to the user when there are no products available to buy for the user's app store country */
-"SUBSCRIPTION_ERROR_PRODUCTS_UNAVAILBLE" = "Premium is not available right now.";
-
-/* Error title shown to the user when there are no products available to buy for the user's app store country */
-"SUBSCRIPTION_ERROR_PRODUCTS_UNAVAILBLE_TITLE" = "Sorry";
-
-/* Error message shown to the user when the client can't fetch product information from the various backends */
-"SUBSCRIPTION_ERROR_PRODUCT_INFORMATION_UNAVAILBLE" = "We’re having trouble connecting with the App Store. Please try again later.";
-
-/* Error message shown when the client encounters an payments error that it can recover from */
-"SUBSCRIPTION_ERROR_RECOVERABLE_PAYMENTS_ERROR" = "Your new features will be available shortly";
-
-/* Title for the error message shown when the client encounters an payments error that it can recover from */
-"SUBSCRIPTION_ERROR_RECOVERABLE_PAYMENTS_ERROR_TITLE" = "Thanks for your purchase!";
-
-/* Error message shown when the client encounters an payments error that it can't recover from */
-"SUBSCRIPTION_ERROR_UNRECOVERABLE_PAYMENTS_ERROR" = "Your purchase couldn’t be completed. Please try again later.";
-
-/* Label for the active badge on the subscription membership page */
-"SUBSCRIPTION_HEADER_ACTIVE_LABEL" = "Active";
-
-/* Label for the expiring badge on the subscription membership page */
-"SUBSCRIPTION_HEADER_EXPIRING_LABEL" = "Expiring soon";
-
-/* Label for the inactive badge on the subscription membership page */
-"SUBSCRIPTION_HEADER_INACTIVE_LABEL" = "Inactive";
-
-/* Annual plan text explaining total price per year and billing periods. */
-"SUBSCRIPTION_MARKETING_PLAN_ANNUAL_AMOUNT_PER_YER" = "%@ per year billed annually";
-
-/* Annual plan title text on premium marketing page bottom sheet. */
-"SUBSCRIPTION_MARKETING_PLAN_ANNUAL_TITLE" = "Annual plan";
-
-/* Monthly plan text explaining total price per year and billing periods. */
-"SUBSCRIPTION_MARKETING_PLAN_MONTHLY_AMOUNT_PER_YER" = "%@ per year billed monthly";
-
-/* Monthly plan title text on premium marketing page bottom sheet. */
-"SUBSCRIPTION_MARKETING_PLAN_MONTHLY_TITLE" = "Monthly plan";
-
-/* Button text in a half sheet Premium Marketing page. This button lets the user dismiss the sheet so they can look at it later */
-"SUBSCRIPTION_MARKETING_UPSELL_SHEET_DISMISS_BUTTON_TITLE" = "Maybe later";
-
-/* Title of a half sheet Premium Marketing page that encourages users to get a Premium subscription so they can vote in Premium-only polls. */
-"SUBSCRIPTION_MARKETING_VERIFIED_POLLS_UPSELL_SHEET_TITLE" = "Verified polls";
-
-/* Title for feature upsell, %1$@  will be replaced to a feature name, %2$@ will be replace to a tier name. ex "Unlock Highlights with Premium" */
-"SUBSCRIPTION_UNLOCK_FEATURE" = "Unlock %1$@ with %2$@";
-
-/* Detail text for feature upsell, %1$@ will be replace to a tier name, %2$@  will be replaced to a feature name. ex "Only Premium subscribers have access to Highlights. Upgrade to continue." */
-"SUBSCRIPTION_UNLOCK_FEATURE_DETAILS" = "Only %1$@ subscribers have access to %2$@. Upgrade to continue.";
-
-/* Feature upsell button title */
-"SUBSCRIPTION_UPGRADE_TO_TIER" = "Upgrade";
-
-/* Text for the header of the Subscription upsell for SMS two-factor authentication feature name */
-"SUBSCRIPTION_UPSELL_2FA_FEATURE_NAME" = "SMS two-factor authentication";
-
-/* Text for subscription upsell text for long video hd uploads */
-"SUBSCRIPTION_UPSELL_ACTION_LONG_VIDEO_UPLOAD" = "Subscribe to Premium Basic to post longer videos.";
-
-/* Text for subscription upsell text for full hd uploads */
-"SUBSCRIPTION_UPSELL_ACTION_TEXT_FULL_HD_UPLOAD" = "Upload with Premium Basic";
-
-/* Text for the header of the Subscription upsell for Advanced search feature name */
-"SUBSCRIPTION_UPSELL_ADVANCED_SEARCH_FEATURE_EXTRA_INFO" = "(iOS Only)";
-
-/* Text for the header of the Subscription upsell for Advanced search feature name */
-"SUBSCRIPTION_UPSELL_ADVANCED_SEARCH_FEATURE_NAME" = "Advanced search";
-
-/* Text for the header of the Subscription upsell for bookmark folders feature name */
-"SUBSCRIPTION_UPSELL_BOOKMARK_FOLDERS_FEATURE_NAME" = "bookmark folders";
-
-/* Text for the header of the Subscription upsell for communities creation feature name */
-"SUBSCRIPTION_UPSELL_COMMUNITIES_CREATION_DETAILS_FEATURE_NAME" = "create a Community";
-
-/* Text for the header of the Subscription upsell for communities creation feature name */
-"SUBSCRIPTION_UPSELL_COMMUNITIES_CREATION_FEATURE_NAME" = "creating a Community";
-
-/* Text for the header of the Subscription upsell for downloadable videos feature name */
-"SUBSCRIPTION_UPSELL_DOWNLOADABLE_VIDEOS_FEATURE_NAME" = "downloadable videos";
-
-/* Text for the header of the Subscription upsell for edit posts feature name */
-"SUBSCRIPTION_UPSELL_EDIT_POSTS_FEATURE_NAME" = "edit posts";
-
-/* Text for the header of the Subscription upsell for encrypted Direct Messages feature name */
-"SUBSCRIPTION_UPSELL_ENCRYPTED_DIRECT_MESSAGES_FEATURE_NAME" = "encrypted Direct Messages";
-
-/* Text for the header of the Subscription upsell for Highlights feature name */
-"SUBSCRIPTION_UPSELL_HIGHLIGHTS_FEATURE_NAME" = "Highlights";
-
-/* Text for the action to present the Subscription upsell for Highlights feature name */
-"SUBSCRIPTION_UPSELL_HIGHLIGHTS_UPSELL_ACTION_TEXT" = "Add to Highlights";
-
-/* Text for the header of the Subscription upsell for longer posts feature name */
-"SUBSCRIPTION_UPSELL_LONG_FORM_FEATURE_NAME" = "longer posts";
-
-/* Feature name used in the long video upload Premium upsell sheet title/details. */
-"SUBSCRIPTION_UPSELL_LONG_VIDEO_UPLOAD_FEATURE_NAME" = "longer videos";
-
-/* Text for the header of the Subscription upsell for longer posts feature name */
-"SUBSCRIPTION_UPSELL_NO_ADS_FEATURE_NAME" = "ad-free timelines";
-
-/* Text for the header of the Subscription upsell for Offline videos feature name */
-"SUBSCRIPTION_UPSELL_OFFLINE_VIDEOS_FEATURE_NAME" = "Offline videos";
-
-/* Title of the basic premium tier subscription for upsell */
-"SUBSCRIPTION_UPSELL_PREMIUM_BASIC_TIER_NAME" = "Premium Basic";
-
-/* Text for the header of the Subscription upsell for Boosted posts feature name */
-"SUBSCRIPTION_UPSELL_QUICK_PROMOTE_FEATURE_NAME" = "Boosted posts";
-
-/* Body message of the Reply Boost upsell */
-"SUBSCRIPTION_UPSELL_REPLY_BOOST_MESSAGE" = "Subscribe to Premium to have your Replies boosted";
-
-/* Purchase button label for the Reply Boost upsell */
-"SUBSCRIPTION_UPSELL_REPLY_BOOST_PURCHASE_LABEL" = "Boost My Reply Reach";
-
-/* Title of the Reply Boost upsell */
-"SUBSCRIPTION_UPSELL_REPLY_BOOST_TITLE" = "Want more people to see your reply?";
-
-/* Text for the header of the Subscription upsell for Richtext feature name */
-"SUBSCRIPTION_UPSELL_RICHTEXT_FEATURE_NAME" = "Rich Text";
-
-/* Button title on the feature upsell tray that starts the Premium upgrade flow */
-"SUBSCRIPTION_UPSELL_UPGRADE_NOW_ACTION_LABEL" = "Upgrade now";
-
 // Section: Frameworks/TwitterLists/Sources/TwitterListsStrings/Localizable.xcstrings
 
 /* Title of button to add user to Lists */
@@ -11163,11 +11035,26 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Label of the pill button in the "About this post" tray that opens Grok to ask a question about the post. */
 "POST_ABOUT_ASK_GROK_PILL_LABEL" = "Ask Grok";
 
+/* Row in the "About this post" tray's author section that blocks the post's author. */
+"POST_ABOUT_BLOCK_ACCOUNT_ROW_LABEL" = "Block this account";
+
 /* Label of the row in the "About this post" tray that opens a sub-screen listing additional actions for the post. */
-"POST_ABOUT_MORE_DETAILS_ROW_LABEL" = "More details";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "More actions";
 
 /* Title of the sub-screen listing additional actions for a post, reached from the "About this post" tray. */
-"POST_ABOUT_MORE_DETAILS_TITLE" = "More Details";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "More actions";
+
+/* Row in the "About this post" tray's author section that mutes the post's author. */
+"POST_ABOUT_MUTE_ACCOUNT_ROW_LABEL" = "Mute this account";
+
+/* Link at the end of the truncated Grok summary in the "About this post" tray; tapping it expands the full summary. Matches the "Show more" link on truncated posts. */
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "Show more";
+
+/* Row in the "About this post" tray's author section that unblocks the post's author. */
+"POST_ABOUT_UNBLOCK_ACCOUNT_ROW_LABEL" = "Unblock this account";
+
+/* Row in the "About this post" tray's author section that unmutes the post's author. */
+"POST_ABOUT_UNMUTE_ACCOUNT_ROW_LABEL" = "Unmute this account";
 
 /* Title of the "About this post" tray, opened from a post's overflow button. */
 "POST_ABOUT_TRAY_TITLE" = "About this post";
@@ -11246,8 +11133,14 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Label for images in history view */
 "GROK_CONVO_HISTORY_IMAGES_LABEL" = "Images";
 
+/* Message shown in the Grok conversation history screen when fetching the list of conversations from the server failed. Displayed above a retry button. */
+"GROK_CONVO_HISTORY_LOAD_ERROR_MESSAGE" = "An error occurred.";
+
 /* Rename conversation button for conversations in history view */
 "GROK_CONVO_HISTORY_RENAME_CONVERSATION" = "Rename conversation";
+
+/* Message shown in place of a Grok conversation transcript when loading the conversation history from the server failed. Displayed above a retry button. */
+"GROK_CONVO_LOAD_FAILED_MESSAGE" = "Failed to load conversation";
 
 /* Label for button to start a new conversation */
 "GROK_CONVO_NEW_CONVO_BUTTON" = "New conversation";
@@ -11798,6 +11691,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Copy for Grok rate limit banner */
 "GROK_RATE_LIMIT_QUESTION_COPY_HOUR" = "Your account can send up to %1$@ messages every hour. Upgrade now to send more.";
 
+/* Body copy for the Grok rate limit card shown when the user has hit their message limit and the server did not provide quota numbers. Shown with an Upgrade button for users who can upgrade their subscription. */
+"GROK_RATE_LIMIT_QUESTION_NO_QUOTA_COPY" = "You’ve reached your message limit. Upgrade now to send more.";
+
 /* Copy for Grok rate limit banner for Premium+ users */
 "GROK_RATE_LIMIT_QUESTION_PREMIUM_PLUS_COPY" = "Your account can send up to %1$@ messages every %2$@. Please try again later or switch to a different Grok model.";
 
@@ -11806,6 +11702,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Copy for Grok rate limit banner for Premium+ users */
 "GROK_RATE_LIMIT_QUESTION_PREMIUM_PLUS_COPY_HOUR" = "Your account can send up to %1$@ messages every hour. Please try again later or switch to a different Grok model.";
+
+/* Body copy for the Grok rate limit card shown when a Premium+ user has hit their message limit and the server did not provide quota numbers. Premium+ is the highest tier, so no upgrade is offered. */
+"GROK_RATE_LIMIT_QUESTION_PREMIUM_PLUS_NO_QUOTA_COPY" = "Please try again later or switch to a different Grok model.";
 
 /* A title for Grok rate limit banner for Premium+ users */
 "GROK_RATE_LIMIT_QUESTION_PREMIUM_PLUS_TITLE" = "You’ve reached your current message cap for %1$@";
@@ -14949,39 +14848,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Payments: Title of the action that allows a user to reset their PIN if they forgot it. */
 "PAYMENTS_FORGOT_PIN_TITLE" = "Forgot PIN";
 
-/* Payments: Secondary footer text shown on the home screen, to explain that funds deposited are insured by FDIC insurance. %1$@ is replaced by a URL. */
-"PAYMENTS_FUNDS_INSURANCE_FOOTER_BANK_MARKDOWN_FORMAT" = "See more information on FDIC insurance and account ownership categories [here](%1$@).";
-
-/* Payments: Secondary footer text shown on the home screen, to explain that funds deposited are insured by FDIC insurance. %1$@ is replaced by a URL. */
-"PAYMENTS_FUNDS_INSURANCE_FOOTER_CONDITIONS_MARKDOWN_FORMAT" = "X Payments LLC is not an FDIC-insured bank. Deposit insurance only covers the failure of an FDIC-insured bank. [Certain conditions](%1$@) must be satisfied for pass-through deposit insurance coverage to apply.";
-
-/* Payments: Footer text shown on the home screen, to explain that funds deposited are insured by FDIC insurance. This one is about specifying the limit. %@ is replaced by an amount in USD, already formatted (ex: $250,000). */
-"PAYMENTS_FUNDS_INSURANCE_FOOTER_TEXT_FORMAT" = "Your deposits are held by Cross River Bank (“the Bank”), Member FDIC and are insured by the FDIC up to %@ per individual and per legal entity for all accounts in each account ownership category held at the Bank (combined), including accounts held in a representative capacity.";
-
-/* Payments: Subtitle of the section explaining why X Money is secured thanks to customizable limits */
-"PAYMENTS_FUNDS_INSURANCE_LIMITS_SUBTITLE" = "Your purchases are protected by Visa’s Zero Liability Policy. Set custom purchase limits on your debit card for extra peace of mind.";
-
-/* Payments: Title of the section explaining why X Money is secured thanks to customizable limits */
-"PAYMENTS_FUNDS_INSURANCE_LIMITS_TITLE" = "Visa Zero Liability Policy & Custom Limits";
-
-/* Payments: Subtitle of the section explaining why X Money is secured thanks to passkeys */
-"PAYMENTS_FUNDS_INSURANCE_PASSKEY_SUBTITLE" = "Authenticate fund movements and new device logins with a secure Passkey and your biometrics.";
-
-/* Payments: Title of the section explaining why X Money is secured thanks to passkeys */
-"PAYMENTS_FUNDS_INSURANCE_PASSKEY_TITLE" = "Authentication & Passkeys";
-
-/* Payments: Detailed disclaimer text shown in the X Cash Sweep Program details view. Explains the partner banks involved (Cross River Bank and other FDIC-insured institutions), that X Payments LLC is not an FDIC-insured bank, and that certain conditions must be met for pass-through coverage. %1$@ and %2$@ are replaced by URLs. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_DISCLAIMER_MARKDOWN_FORMAT" = "Deposits are held at Cross River Bank, Member FDIC, and at other [FDIC-insured institutions](%1$@). [Certain conditions](%2$@) must be satisfied for pass-through deposit insurance coverage to apply. X Payments LLC is not an FDIC-insured bank. Deposit insurance only covers the failure of an insured bank.";
-
-/* Payments: Main presentation text shown on the home screen for the X Cash Sweep Program. Informs users that deposits are automatically enrolled for up to $10M in FDIC insurance. %1$@ is replaced by a URL. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_PRESENTATION_MARKDOWN_FORMAT" = "Your deposits are automatically enrolled in the X Cash Sweep Program, which provides access up to $10M of aggregate FDIC insurance coverage, subject to certain limitations. [Learn more](%1$@).";
-
-/* Payments: Title for the X Cash Sweep Program section, shown on the X Money home screen and on the details sheet. Highlights the extended FDIC insurance coverage of up to $10M. */
-"PAYMENTS_FUNDS_INSURANCE_SWEEP_TITLE" = "Access up to $10M of FDIC Insurance";
-
-/* Payments: Title shown on the X Money home screen and on the sheet that presents details about the FDIC Insurance and other insurance/security mechanisms (Visa Zero Liability, Passkeys, etc.) */
-"PAYMENTS_FUNDS_INSURANCE_TITLE" = "Your assets are safe";
-
 /* Payments: Toast shown when the user tries to use the geolocation feature but they denied the permission. */
 "PAYMENTS_GEOLOCATION_UNAVAILABLE_TOAST" = "Your location services are not currently enabled on this device. You can turn them on in your device settings.";
 
@@ -15882,6 +15748,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Payments: Subtitle for the check deposit transfer method, prompting the user to scan their paper check. */
 "PAYMENTS_RAIL_CHECK_SUBTITLE" = "Scan your check";
 
+/* Payments: Text description for the transaction rail "FPS" (Faster Payments Service in the UK) */
+"PAYMENTS_RAIL_FPS" = "Faster Payments";
+
 /* Payments: Text description for the transaction rail "Internal Transfer". This is a transfer between X Money accounts (main <-> secondary for example) */
 "PAYMENTS_RAIL_INTERNAL_TRANSFER" = "Internal Transfer";
 
@@ -16518,6 +16387,15 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Payments: Secondary text under a business name on the X Money API account connection screen, followed by the selected account name */
 "PAYMENTS_XMONEY_API_ACCOUNT_EXCHANGE_WANTS_TO_CONNECT_LABEL" = "wants to connect to";
 
+/* Payments: Primary action to confirm payment on the X Money API checkout screen */
+"PAYMENTS_XMONEY_API_CHECKOUT_PAY_NOW_ACTION" = "Pay now";
+
+/* Payments: Navigation title for the X Money API checkout screen opened via /checkout */
+"PAYMENTS_XMONEY_API_CHECKOUT_TITLE" = "Checkout";
+
+/* Payments: Label for the total amount row on the X Money API checkout summary */
+"PAYMENTS_XMONEY_API_CHECKOUT_TOTAL_TITLE" = "Total";
+
 /* Payments: Action to open the @XMoney's user profile */
 "PAYMENTS_XMONEY_PROFILE_ACTION" = "Follow @XMoney for updates";
 
@@ -16589,7 +16467,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 "AUTHORIZATION_INSTRUCTION_GEO_MESSAGE" = "Your location services are not currently enabled on this device. You can turn them on in your device settings.";
 
 /* Privacy settings instructions title for location. */
-"AUTHORIZATION_INSTRUCTION_GEO_TITLE" = "Precise location";
+"AUTHORIZATION_INSTRUCTION_GEO_TITLE" = "Approximate location";
 
 /* Privacy settings instructions title for microphone. */
 "AUTHORIZATION_INSTRUCTION_MIC_TITLE" = "Allow X access to your microphone";
@@ -16658,7 +16536,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 "AUTHORIZATION_MESSAGE_CAMERA" = "X would like access to your camera.";
 
 /* Message for default geo description */
-"AUTHORIZATION_MESSAGE_GEO" = "This lets X collect, store, and use your device’s precise location, such as GPS information, in order to improve your experience — for example, showing you more local content, ads, and recommendations.";
+"AUTHORIZATION_MESSAGE_GEO" = "This lets X collect, store, and use your device’s approximate location in order to improve your experience — for example, showing you more local content, ads, and recommendations.";
 
 /* Message for default microphone description */
 "AUTHORIZATION_MESSAGE_MIC" = "X would like access to your microphone.";
@@ -16688,7 +16566,7 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 "AUTHORIZATION_TITLE_CONTACTS" = "Contacts";
 
 /* Title for default geo description */
-"AUTHORIZATION_TITLE_GEO" = "Precise location";
+"AUTHORIZATION_TITLE_GEO" = "Approximate location";
 
 /* Title for default microphone description */
 "AUTHORIZATION_TITLE_MIC" = "Microphone";
@@ -17508,6 +17386,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 // Section: Frameworks/LiveActivities/Sources/LiveActivityStrings/Localizable.xcstrings
 
+/* Title of the activity progress toast card shown when the user cancels a video download */
+"DOWNLOAD_CANCELED_TOAST_MESSAGE" = "Download canceled";
+
 /* Title of a toast shown once download failed */
 "DOWNLOAD_ERROR_TOAST_MESSAGE" = "Could not download file";
 
@@ -17610,11 +17491,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* QR Code: Title of the tab that shows a QR Code scanner (a camera) */
 "QR_SCAN_CODE" = "Scan code";
-
-// Section: Frameworks/PremiumHub/Sources/PremiumHubStrings/Localizable.xcstrings
-
-/* Title of Premium Hub */
-"PREMIUM_HUB_TITLE" = "Premium";
 
 // Section: Frameworks/TFSLocalizedUtilities/Sources/TFSLocalizedUtilitiesStrings/Localizable.xcstrings
 
@@ -18685,6 +18561,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Accessibility label for the notification preview image */
 "NOTIFICATIONS_PERMISSION_REQUEST_PREVIEW_ACCESSIBILITY_LABEL" = "Preview of notifications on your phone";
 
+/* Label for the button that skips the notifications permission prompt without enabling notifications. */
+"NOTIFICATIONS_PERMISSION_REQUEST_SKIP_ACTION_LABEL" = "Skip";
+
 /* Subtitle text explaining what notifications the user will receive */
 "NOTIFICATIONS_PERMISSION_REQUEST_SUBTITLE_V2" = "Get notified when your posts go viral, people follow you or send you messages.";
 
@@ -19357,13 +19236,10 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Label for Timeline Settings post swipe right display */
 "TIMELINE_SETTINGS_POST_SWIPE_GESTURE_RIGHT_DISPLAY_LABEL" = "Right swipe";
 
-/* Title for the profile timelines sort submenu option to sort by most liked */
-"TIMELINE_SORT_BY_MOST_LIKED" = "Most liked";
-
 /* Title for timelines sort menu sheet option to sort by most recent, with new label */
 "TIMELINE_SORT_BY_NEW" = "New";
 
-/* Title for timelines sort menu sheet option to sort by most liked, with new label */
+/* Title for the sort menu option that orders a timeline by popularity */
 "TIMELINE_SORT_BY_POPULAR" = "Popular";
 
 /* Title for timelines sort menu sheet option to sort by most liked, with new label with no time filter */
@@ -19881,9 +19757,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Edit group description footer description */
 "CHAT_EDIT_GROUP_DESCRIPTION_FOOTER" = "Enter a description for this group that will be visible to all members.";
 
-/* Edit menu action for the group description */
-"CHAT_EDIT_GROUP_DESCRIPTION_TITLE" = "Edit group description";
-
 /* Edit group name footer description */
 "CHAT_EDIT_GROUP_NAME_FOOTER" = "Enter a name for this group that will be visible to all members.";
 
@@ -19971,14 +19844,17 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Grok Premium upsell tray title */
 "CHAT_GROK_UPSELL_PREMIUM_TITLE" = "Get Premium to use Grok";
 
+/* Informational item: the group description was changed by an unknown member. %@: new group description */
+"CHAT_GROUP_DESCRIPTION_CHANGED_TO" = "The group description has been changed to %@";
+
 /* Group description editor placeholder */
 "CHAT_GROUP_DESCRIPTION_PLACEHOLDER" = "Description";
 
 /* Informational item: the group description was removed by an unknown member */
 "CHAT_GROUP_DESCRIPTION_REMOVED" = "The group description was removed";
 
-/* Button shown when a group description is truncated */
-"CHAT_GROUP_DESCRIPTION_SHOW_MORE" = "Show more";
+/* Inline link shown when a group description is truncated on conversation info */
+"CHAT_GROUP_DESCRIPTION_SHOW_MORE" = "See more";
 
 /* Group description row and editor title */
 "CHAT_GROUP_DESCRIPTION_TITLE" = "Group description";
@@ -19986,11 +19862,17 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Informational item: the group description was updated by an unknown member */
 "CHAT_GROUP_DESCRIPTION_UPDATED" = "The group description was updated";
 
+/* Informational item: named user changed the group description. %1$@: display name, %2$@: new group description */
+"CHAT_GROUP_DESCRIPTION_USER_CHANGED_TO" = "%1$@ changed the group description to %2$@";
+
 /* Informational item: named user removed the group description */
 "CHAT_GROUP_DESCRIPTION_USER_REMOVED" = "%@ removed the group description";
 
 /* Informational item: named user updated the group description */
 "CHAT_GROUP_DESCRIPTION_USER_UPDATED" = "%@ updated the group description";
+
+/* Informational item: current user changed the group description. %@: new group description */
+"CHAT_GROUP_DESCRIPTION_YOU_CHANGED_TO" = "You changed the group description to %@";
 
 /* Informational item: current user removed the group description */
 "CHAT_GROUP_DESCRIPTION_YOU_REMOVED" = "You removed the group description";
@@ -20130,12 +20012,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title of the pinned message banner when the conversation has more than one pinned message */
 "CHAT_PINNED_BANNER_TITLE_WITH_INDEX" = "Pinned Message #%lld";
 
-/* VoiceOver action that moves the pinned message header to the next pin */
-"CHAT_PINNED_HEADER_NEXT_ACTION" = "Next pinned message";
-
-/* VoiceOver action that moves the pinned message header to the previous pin */
-"CHAT_PINNED_HEADER_PREVIOUS_ACTION" = "Previous pinned message";
-
 /* Accessibility label for the button that closes the list of pinned messages */
 "CHAT_PINNED_MESSAGES_CLOSE" = "Close pinned messages";
 
@@ -20210,9 +20086,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Unknown user fallback name */
 "CHAT_REPLY_UNKNOWN_USER" = "Someone";
-
-/* Alert message shown when the user taps the Save action on a media attachment in a chat message but photo library access was previously denied. Instructs the user to allow access in iOS Settings. */
-"CHAT_SAVE_MEDIA_PHOTO_ACCESS_DENIED_MESSAGE" = "Allow photo library access in Settings to save photos and videos from messages to your library.";
 
 /* Message seen status */
 "CHAT_SEEN" = "Seen";
@@ -20310,20 +20183,11 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Yes label */
 "CHAT_YES" = "Yes";
 
-/* DM Attachments Files screen title */
-"DM_ATTACHMENT_LIST_FILES_TITLE" = "Files";
-
-/* DM Attachments Links screen title */
-"DM_ATTACHMENT_LIST_LINKS_TITLE" = "Links";
-
 /* DM Attachments Media screen title */
 "DM_ATTACHMENT_LIST_MEDIA_TITLE" = "Shared media";
 
 /* DM Attachments Done button title */
 "DM_ATTACHMENT_LIST_NAVIGATION_BAR_DONE_BUTTON_TITLE" = "Done";
-
-/* DM Attachments Select button title */
-"DM_ATTACHMENT_LIST_NAVIGATION_BAR_SELECT_BUTTON_TITLE" = "Select";
 
 /* DM connecting connection status connecting title */
 "DM_CONNECTION_STATUS_CONNECTING_TITLE" = "Connecting";
@@ -20336,9 +20200,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Conversation Add members action error admin only title */
 "DM_CONVERSATION_ACTION_ADD_MEMBERS_ERROR_ADMIN_ONLY_TITLE" = "You must be an admin of this group in order to add members.";
-
-/* DM Conversation Add members action error removed from group title */
-"DM_CONVERSATION_ACTION_ADD_MEMBERS_ERROR_REMOVED_FROM_GROUP_TITLE" = "You must be a member of this group in order to add members.";
 
 /* DM Conversation Add members action error too many members title */
 "DM_CONVERSATION_ACTION_ADD_MEMBERS_ERROR_TOO_MANY_MEMBERS_TITLE" = "This group has reached the maximum supported number of members.";
@@ -20406,9 +20267,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM Conversation Clear conversation action title */
 "DM_CONVERSATION_ACTION_CLEAR_CONVERSATION_TITLE" = "Clear conversation";
 
-/* DM Conversation Clear conversation action title short */
-"DM_CONVERSATION_ACTION_CLEAR_CONVERSATION_TITLE_SHORT" = "Clear";
-
 /* DM Conversation Delete conversation action alert action */
 "DM_CONVERSATION_ACTION_DELETE_CONVERSATION_ALERT_ACTION" = "Delete";
 
@@ -20420,9 +20278,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Conversation Delete conversation action title */
 "DM_CONVERSATION_ACTION_DELETE_CONVERSATION_TITLE" = "Delete conversation";
-
-/* DM Conversation Delete conversation action short title */
-"DM_CONVERSATION_ACTION_DELETE_CONVERSATION_TITLE_SHORT" = "Delete";
 
 /* DM Conversation Delete/Leave conversation action alert message */
 "DM_CONVERSATION_ACTION_DELETE_LEAVE_CONVERSATION_ALERT_MESSAGE" = "Are you sure you want to delete this conversation? This action cannot be undone.";
@@ -20445,9 +20300,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Message shown in an alert when a non-admin taps the disabled edit button in a group conversation where only admins are allowed to edit the group info (name and photo). */
 "DM_CONVERSATION_ACTION_EDIT_GROUP_INFO_ERROR_ADMIN_ONLY_TITLE" = "You must be an admin of this group in order to edit group details.";
 
-/* DM Conversation Edit group name action error admin only title */
-"DM_CONVERSATION_ACTION_EDIT_GROUP_NAME_ERROR_ADMIN_ONLY_TITLE" = "You must be an admin of this group in order to edit group name.";
-
 /* DM Conversation Edit group photo action error admin only title */
 "DM_CONVERSATION_ACTION_EDIT_GROUP_PHOTO_ERROR_ADMIN_ONLY_TITLE" = "You must be an admin of this group in order to edit group photo.";
 
@@ -20456,9 +20308,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Conversation Leave conversation action error title */
 "DM_CONVERSATION_ACTION_LEAVE_CONVERSATION_ERROR_TITLE" = "Unable to leave conversation";
-
-/* DM Conversation Leave conversation action title */
-"DM_CONVERSATION_ACTION_LEAVE_CONVERSATION_TITLE" = "Leave conversation";
 
 /* DM Conversation Leave conversation action short title */
 "DM_CONVERSATION_ACTION_LEAVE_CONVERSATION_TITLE_SHORT" = "Leave";
@@ -20474,9 +20323,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Conversation More action title */
 "DM_CONVERSATION_ACTION_MORE_TITLE" = "More";
-
-/* DM Conversation Mute action title */
-"DM_CONVERSATION_ACTION_MUTE_TITLE" = "Mute conversation";
 
 /* DM Conversation Mute action short title */
 "DM_CONVERSATION_ACTION_MUTE_TITLE_SHORT" = "Mute";
@@ -20498,9 +20344,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Conversation Unblock user action title */
 "DM_CONVERSATION_ACTION_UNBLOCK_USER_TITLE" = "Unblock user";
-
-/* DM Conversation Unmute action title */
-"DM_CONVERSATION_ACTION_UNMUTE_TITLE" = "Unmute conversation";
 
 /* DM Conversation Unmute action short title */
 "DM_CONVERSATION_ACTION_UNMUTE_TITLE_SHORT" = "Unmute";
@@ -20636,9 +20479,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Social proof: followed by two mutuals. Example: "Followed by Alice and Bob" */
 "DM_CONVERSATION_HEADER_SOCIAL_PROOF_TWO_FORMAT" = "Followed by %1$@ and %2$@";
-
-/* Button title for calling back for missed AV call information items */
-"DM_CONVERSATION_INFORMATIONAL_AV_CALL_BUTTON_CALL_BACK_TITLE" = "Call back";
 
 /* Button title for calling back for missed AV call information items */
 "DM_CONVERSATION_INFORMATIONAL_CKEY_CHANGED_ACTION_LEARN_MORE_TITLE" = "Learn more";
@@ -21015,15 +20855,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM Conversation message composer add Camera attachment action title */
 "DM_CONVERSATION_MESSAGE_COMPOSER_ADD_ATTACHMENT_ACTION_CAMERA_TITLE" = "Camera";
 
-/* DM Conversation message composer add Create video attachment action title */
-"DM_CONVERSATION_MESSAGE_COMPOSER_ADD_ATTACHMENT_ACTION_CREATE_VIDEO_TITLE" = "Create video";
-
-/* DM Conversation message composer add Files attachment action error message */
-"DM_CONVERSATION_MESSAGE_COMPOSER_ADD_ATTACHMENT_ACTION_FILES_ERROR_MESSAGE" = "Please convert to a .zip or .pdf or choose another file.";
-
-/* DM Conversation message composer add Files attachment action error title */
-"DM_CONVERSATION_MESSAGE_COMPOSER_ADD_ATTACHMENT_ACTION_FILES_ERROR_TITLE" = "File not supported";
-
 /* DM Conversation message composer add Files attachment action title */
 "DM_CONVERSATION_MESSAGE_COMPOSER_ADD_ATTACHMENT_ACTION_FILES_TITLE" = "Files";
 
@@ -21060,12 +20891,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM Conversation message composer cancel forward action title */
 "DM_CONVERSATION_MESSAGE_COMPOSER_FORWARD_ACTION_CANCEL" = "Cancel forward";
 
-/* DM Conversation message composer quick reply button accessibility hint */
-"DM_CONVERSATION_MESSAGE_COMPOSER_QUICK_REPLY_BUTTON_ACCESSIBILITY_HINT" = "Toggles between quick reply and keyboard";
-
-/* DM Conversation message composer quick reply button accessibility label */
-"DM_CONVERSATION_MESSAGE_COMPOSER_QUICK_REPLY_BUTTON_ACCESSIBILITY_LABEL" = "Show quick reply input";
-
 /* DM Conversation message composer cancel reply action title */
 "DM_CONVERSATION_MESSAGE_COMPOSER_REPLY_ACTION_CANCEL" = "Cancel reply";
 
@@ -21077,9 +20902,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Conversation message composer text edit placeholder */
 "DM_CONVERSATION_MESSAGE_COMPOSER_TEXT_EDIT_PLACEHOLDER" = "Edit";
-
-/* DM Conversation message composer text legacy placeholder */
-"DM_CONVERSATION_MESSAGE_COMPOSER_TEXT_LEGACY_PLACEHOLDER" = "Unencrypted message";
 
 /* DM Conversation message composer text legacy placeholder */
 "DM_CONVERSATION_MESSAGE_COMPOSER_TEXT_LEGACY_PLACEHOLDER_SHORT" = "Unencrypted";
@@ -21114,15 +20936,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM Conversation participant Admin label */
 "DM_CONVERSATION_PARTICIPANT_ADMIN_LABEL" = "Admin";
 
-/* DM Conversation participant list search placeholder text */
-"DM_CONVERSATION_PARTICIPANT_LIST_SEARCH_PLACEHOLDER_TEXT" = "Search members";
-
-/* DM Conversation requester not admin error subtitle */
-"DM_CONVERSATION_REQUESTER_NOT_ADMIN_ERROR_SUBTITLE" = "You must be an admin to add members to this group.";
-
-/* DM Conversation requester not admin error title */
-"DM_CONVERSATION_REQUESTER_NOT_ADMIN_ERROR_TITLE" = "Permission denied";
-
 /* DM Conversation safety number education Later action title */
 "DM_CONVERSATION_SAFETY_NUMBER_EDUCATION_ACTION_LATER_TITLE" = "Maybe later";
 
@@ -21144,26 +20957,8 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title for a creator subscribers-only group conversation. %1$@: creator display name */
 "DM_CONVERSATION_TITLE_SUBSCRIBER_CHAT" = "%1$@ Subs-only Chat";
 
-/* DM Conversation too many participants error subtitle */
-"DM_CONVERSATION_TOO_MANY_PARTICIPANTS_ERROR_SUBTITLE" = "You cannot add more people to this conversation. Try starting a new one.";
-
-/* DM Conversation too many participants error title */
-"DM_CONVERSATION_TOO_MANY_PARTICIPANTS_ERROR_TITLE" = "Too many members";
-
-/* DM Conversation Typing Indicator Four or more People Label. %1$@: first user display name, %2$@: second user display name, %3$@: number of other users */
-"DM_CONVERSATION_TYPING_INDICATOR_FOUR_OR_MORE_PEOPLE" = "%1$@, %2$@ and %3$@ others are typing…";
-
 /* DM Conversation Typing Indicator Single Person Label. Placeholder replaced with user's display name. */
 "DM_CONVERSATION_TYPING_INDICATOR_SINGLE_PERSON" = "%@ is typing…";
-
-/* DM Conversation Typing Indicator Single Person Label. */
-"DM_CONVERSATION_TYPING_INDICATOR_SINGLE_PERSON_GENERIC" = "Typing…";
-
-/* DM Conversation Typing Indicator Three People Label. %1$@: first user display name, %2$@: second user display name */
-"DM_CONVERSATION_TYPING_INDICATOR_THREE_PEOPLE" = "%1$@, %2$@ and 1 other are typing…";
-
-/* DM Conversation Typing Indicator Two People Label. %1$@: first user display name, %2$@: second user display name */
-"DM_CONVERSATION_TYPING_INDICATOR_TWO_PEOPLE" = "%1$@ and %2$@ are typing…";
 
 /* DM Conversation Media undecryptable metadata Subtitle */
 "DM_CONVERSATION_UNDECRYPTABLE_METADATA_INFO_NOTICE" = "Your group title is end-to-end encrypted. After a passcode reset, it is unavailable until another member comes online.";
@@ -21212,18 +21007,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Edit Conversation Name change name title */
 "DM_EDIT_CONVERSATION_NAME_CHANGE_NAME_TITLE" = "Change name";
-
-/* DM Edit Conversation Name edit name title */
-"DM_EDIT_CONVERSATION_NAME_EDIT_NAME_TITLE" = "Edit name";
-
-/* DM Edit Conversation Name error title when entered title exceeds max length */
-"DM_EDIT_CONVERSATION_NAME_EXCEEDS_MAX_LENGTH_ERROR_TITLE" = "Too long!";
-
-/* DM Edit Nickname add nickname title */
-"DM_EDIT_NICKNAME_NAME_ADD_NAME_TITLE" = "Add nickname";
-
-/* DM Edit Nickname edit nickname title */
-"DM_EDIT_NICKNAME_NAME_EDIT_NAME_TITLE" = "Edit nickname";
 
 /* DM try again error message */
 "DM_ERROR_MESSAGE_TRY_AGAIN" = "Please try again later";
@@ -21288,14 +21071,8 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM group invite request to join error missing public key title */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_ERROR_MISSING_PUBLIC_KEY_TITLE" = "Registration required";
 
-/* DM Group invite request to join error title */
-"DM_GROUP_INVITE_REQUEST_TO_JOIN_ERROR_TITLE" = "Failed to Request Joining";
-
 /* DM group invite expired action title */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_INVITE_EXPIRED_ACTION_TITLE" = "Invite Expired";
-
-/* DM group invite expired message */
-"DM_GROUP_INVITE_REQUEST_TO_JOIN_INVITE_EXPIRED_MESSAGE" = "This group invite has expired.";
 
 /* DM group invite join chat action title */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_JOIN_CHAT_ACTION_TITLE" = "Join Chat";
@@ -21303,17 +21080,11 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM group invite request sent action title */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_REQUEST_SENT_ACTION_TITLE" = "Request Sent";
 
-/* DM group invite request to join subtitle */
-"DM_GROUP_INVITE_REQUEST_TO_JOIN_SUBTITLE" = "You have been invited to join a group. Tap the button below to request to join.";
-
 /* DM group invite request to join success toast subtitle */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_SUCCESS_TOAST_SUBTITLE" = "You will be added to the group once your request is approved";
 
 /* DM group invite request to join success toast title */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_SUCCESS_TOAST_TITLE" = "Request Sent";
-
-/* DM group invite request to join title */
-"DM_GROUP_INVITE_REQUEST_TO_JOIN_TITLE" = "Accept Group Invitation";
 
 /* DM Group invite request to join welcome message unnamed invites group title */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_WELCOME_MESSAGE_UNNAMED_INVITES_GROUP_TITLE" = "User has invited you to join %@";
@@ -21326,9 +21097,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Group invite request to join welcome message user invites unnamed group title */
 "DM_GROUP_INVITE_REQUEST_TO_JOIN_WELCOME_MESSAGE_USER_INVITES_UNNAMED_GROUP_TITLE" = "%@ has invited you to join a group";
-
-/* DM Group invite view group action button title */
-"DM_GROUP_INVITE_VIEW_GROUP_ACTION_TITLE" = "View Group";
 
 /* DM Inbox Empty start a conversation action */
 "DM_INBOX_EMPTY_ACTION_START_A_CONVERSATION" = "Write a message";
@@ -21534,9 +21302,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM Manage Conversation View all action title */
 "DM_MANAGE_CONVERSATION_ACTION_SEE_ALL_TITLE" = "View all";
 
-/* DM Manage Conversation View less action title */
-"DM_MANAGE_CONVERSATION_ACTION_SEE_LESS_TITLE" = "View less";
-
 /* DM Manage Conversation Set nickname action title */
 "DM_MANAGE_CONVERSATION_ACTION_SET_NICKNAME_TITLE" = "Set nickname";
 
@@ -21606,71 +21371,20 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM message action Add reaction error title */
 "DM_MESSAGE_ACTION_ADD_REACTION_ERROR_TITLE" = "Unable to add reaction";
 
-/* DM message action Add reaction title */
-"DM_MESSAGE_ACTION_ADD_REACTION_TITLE" = "Add Reaction";
-
-/* DM message action Cancel title */
-"DM_MESSAGE_ACTION_CANCEL_TITLE" = "Cancel Message";
-
 /* DM message action Copy title */
 "DM_MESSAGE_ACTION_COPY_ACCESSIBILITY_ANNOUNCEMENT" = "Copied";
-
-/* DM message action Copy address title */
-"DM_MESSAGE_ACTION_COPY_ADDRESS_TITLE" = "Copy Address";
-
-/* DM message action Copy audio title */
-"DM_MESSAGE_ACTION_COPY_AUDIO_TITLE" = "Copy Audio";
-
-/* DM message action Copy email title */
-"DM_MESSAGE_ACTION_COPY_EMAIL_TITLE" = "Copy Email";
-
-/* DM message action Copy file title */
-"DM_MESSAGE_ACTION_COPY_FILE_TITLE" = "Copy File";
-
-/* DM message action Copy GIF title */
-"DM_MESSAGE_ACTION_COPY_GIF_TITLE" = "Copy GIF";
-
-/* DM message action Copy hashtag title */
-"DM_MESSAGE_ACTION_COPY_HASHTAG_TITLE" = "Copy Hashtag";
-
-/* DM message action Copy link title */
-"DM_MESSAGE_ACTION_COPY_LINK_TITLE" = "Copy Link";
-
-/* DM message action Copy phone number title */
-"DM_MESSAGE_ACTION_COPY_PHONE_TITLE" = "Copy Phone Number";
-
-/* DM message action Copy photo title */
-"DM_MESSAGE_ACTION_COPY_PHOTO_TITLE" = "Copy Photo";
-
-/* DM message action COPY result error title */
-"DM_MESSAGE_ACTION_COPY_RESULT_ERROR_TITLE" = "Failed to copy";
-
-/* DM message action Copy result loading title */
-"DM_MESSAGE_ACTION_COPY_RESULT_LOADING_TITLE" = "Copying…";
 
 /* DM message action Copy result success title */
 "DM_MESSAGE_ACTION_COPY_RESULT_SUCCESS_TITLE" = "Copied";
 
-/* DM message action Copy stock title */
-"DM_MESSAGE_ACTION_COPY_STOCK_TITLE" = "Copy Stock";
-
 /* DM message action Copy title */
 "DM_MESSAGE_ACTION_COPY_TITLE" = "Copy";
-
-/* DM message action Copy username title */
-"DM_MESSAGE_ACTION_COPY_USERNAME_TITLE" = "Copy Username";
-
-/* DM message action Copy video title */
-"DM_MESSAGE_ACTION_COPY_VIDEO_TITLE" = "Copy Video";
 
 /* DM message action Delete alert delete for everyone action */
 "DM_MESSAGE_ACTION_DELETE_ALERT_DELETE_FOR_EVERYONE_ACTION" = "Delete for everyone";
 
 /* DM message action Delete alert delete for me action */
 "DM_MESSAGE_ACTION_DELETE_ALERT_DELETE_FOR_ME_ACTION" = "Delete for me";
-
-/* DM message action Delete alert message for received messages */
-"DM_MESSAGE_ACTION_DELETE_ALERT_MESSAGE" = "Are you sure you want to delete this message?";
 
 /* DM message action Delete alert title */
 "DM_MESSAGE_ACTION_DELETE_ALERT_TITLE" = "Who would you like to delete this message for?";
@@ -21693,41 +21407,17 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM message action Edit error title */
 "DM_MESSAGE_ACTION_EDIT_ERROR_TITLE" = "Unable to edit message";
 
-/* DM message action Edit title */
-"DM_MESSAGE_ACTION_EDIT_TITLE" = "Edit Message";
-
 /* DM message action Forward title */
 "DM_MESSAGE_ACTION_FORWARD_TITLE" = "Forward";
-
-/* Continue button for the Ask Grok confirmation sheet. */
-"DM_MESSAGE_ACTION_GROK_ANALYZE_SHEET_CONTINUE_BUTTON" = "Continue";
 
 /* Message for the Ask Grok confirmation sheet explaining that an unencrypted copy will be sent. */
 "DM_MESSAGE_ACTION_GROK_ANALYZE_SHEET_MESSAGE" = "An unencrypted copy of the message will be sent to Grok for analysis.";
 
-/* Title for the Ask Grok confirmation sheet shown before sending an encrypted message to Grok for analysis. */
-"DM_MESSAGE_ACTION_GROK_ANALYZE_SHEET_TITLE" = "Ask Grok";
-
 /* DM message action Ask Grok title */
 "DM_MESSAGE_ACTION_GROK_ANALYZE_TITLE" = "Ask Grok";
 
-/* DM message action Edit Photo with Grok title */
-"DM_MESSAGE_ACTION_GROK_EDIT_PHOTO_TITLE" = "Edit Photo with Grok";
-
 /* DM message action Info title */
 "DM_MESSAGE_ACTION_INFO_TITLE" = "Info";
-
-/* DM message action Open address in Apple Maps title */
-"DM_MESSAGE_ACTION_OPEN_ADDRESS_APPLE_MAPS_TITLE" = "Open in Maps";
-
-/* DM message action Open Email title */
-"DM_MESSAGE_ACTION_OPEN_EMAIL_TITLE" = "Email";
-
-/* DM message action Open generic title */
-"DM_MESSAGE_ACTION_OPEN_GENERIC_TITLE" = "Open";
-
-/* DM message action Open phone number title */
-"DM_MESSAGE_ACTION_OPEN_PHONE_NUMBER_TITLE" = "Call";
 
 /* DM message action Remove reaction error title */
 "DM_MESSAGE_ACTION_REMOVE_REACTION_ERROR_TITLE" = "Unable to remove reaction";
@@ -21744,26 +21434,8 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM message action Retry title */
 "DM_MESSAGE_ACTION_RETRY_TITLE" = "Retry";
 
-/* Label for the action that exports a file attachment to the Files app from the DM message action menu. */
-"DM_MESSAGE_ACTION_SAVE_FILE_TITLE" = "Save File";
-
-/* DM message action Save GIF title */
-"DM_MESSAGE_ACTION_SAVE_GIF_TITLE" = "Save GIF";
-
-/* DM message action Save photo title */
-"DM_MESSAGE_ACTION_SAVE_PHOTO_TITLE" = "Save Photo";
-
-/* DM message action Save result error title */
-"DM_MESSAGE_ACTION_SAVE_RESULT_ERROR_TITLE" = "Failed to save";
-
-/* DM message action Save result success title */
-"DM_MESSAGE_ACTION_SAVE_RESULT_SUCCESS_TITLE" = "Saved";
-
 /* DM message action Save title */
 "DM_MESSAGE_ACTION_SAVE_TITLE" = "Save";
-
-/* DM message action Save video title */
-"DM_MESSAGE_ACTION_SAVE_VIDEO_TITLE" = "Save Video";
 
 /* DM message attachment action tap to download title */
 "DM_MESSAGE_ATTACHMENT_ACTION_TAP_TO_DOWNLOAD_TITLE" = "Tap to download";
@@ -21777,29 +21449,17 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM message attachment blocked until accepted title */
 "DM_MESSAGE_ATTACHMENT_BLOCKED_UNTIL_ACCEPTED_TITLE" = "Attachment hidden";
 
-/* DM message attachment downloading title */
-"DM_MESSAGE_ATTACHMENT_DOWNLOADING_TITLE" = "Downloading…";
-
-/* DM message attachment filename fallback */
-"DM_MESSAGE_ATTACHMENT_FILENAME_FALLBACK" = "Attachment";
-
 /* DM message attachment gif accessibility label */
 "DM_MESSAGE_ATTACHMENT_GIF_ACCESSIBILITY_LABEL" = "Gif";
 
 /* DM message attachment tap to view accessibility label */
 "DM_MESSAGE_ATTACHMENT_TAP_TO_OPEN_ACCESSIBILITY_HINT" = "Tap to open";
 
-/* DM message attachment tap to view accessibility hint */
-"DM_MESSAGE_ATTACHMENT_TAP_TO_VIEW_ACCESSIBILITY_HINT" = "Tap to view";
-
 /* DM message attachment tray permissions button title */
 "DM_MESSAGE_ATTACHMENT_TRAY_NEEDS_PERMISSIONS_BUTTON_TITLE" = "Open settings";
 
 /* DM message attachment unknown subtitle */
 "DM_MESSAGE_ATTACHMENT_UNKNOWN_SUBTITLE" = "Update your app to view";
-
-/* DM message attachment unknown title */
-"DM_MESSAGE_ATTACHMENT_UNKNOWN_TITLE" = "Unknown attachment";
 
 /* DM message attachment video accessibility label */
 "DM_MESSAGE_ATTACHMENT_VIDEO_ACCESSIBILITY_LABEL" = "Video";
@@ -21855,9 +21515,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM Message Details title when message no longer available */
 "DM_MESSAGE_DETAILS_ERROR_NO_LONGER_AVAILABLE_TITLE" = "This message is no longer available";
 
-/* DM Message Details expiry time expired */
-"DM_MESSAGE_DETAILS_EXPIRY_TIME_EXPIRED" = "Expired";
-
 /* DM Message Details expiry time title */
 "DM_MESSAGE_DETAILS_EXPIRY_TIME_TITLE" = "Disappears in";
 
@@ -21872,9 +21529,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Message Details Title */
 "DM_MESSAGE_DETAILS_TITLE" = "Message information";
-
-/* DM Message header title for forwarded message */
-"DM_MESSAGE_FORWARDED_HEADER_TITLE" = "Forwarded";
 
 /* DM Message Attachment Preview when unnamed user sent a file */
 "DM_MESSAGE_PREVIEW_ATTACHMENT_UNNAMED_SENT_FILE" = "Sent a file";
@@ -22110,9 +21764,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM Message Text Preview when user sent a text message. %1$@: user display name, %2$@: message text */
 "DM_MESSAGE_PREVIEW_TEXT_USER_SENT_TEXT" = "•|•%1$@•|•: %2$@";
 
-/* DM Message reply header fallback title */
-"DM_MESSAGE_REPLY_HEADER_FALLBACK_TITLE" = "Reply";
-
 /* DM Message reply subtitle when replying to an audio message with no text */
 "DM_MESSAGE_REPLY_SUBTITLE_AUDIO" = "Voice message";
 
@@ -22140,9 +21791,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM Message reply subtitle when replying to a video message with no text */
 "DM_MESSAGE_REPLY_SUBTITLE_VIDEO" = "Video";
 
-/* DM Message reply unavailable title */
-"DM_MESSAGE_REPLY_UNAVAILABLE_TITLE" = "Message unavailable";
-
 /* DM Message requests education message */
 "DM_MESSAGE_REQUESTS_EDUCATION_MESSAGE" = "Message requests from accounts you don’t follow live here. To reply to their messages, you need to accept the request.";
 
@@ -22160,30 +21808,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Status appearing underneath message when sent */
 "DM_MESSAGE_STATUS_SENT" = "Sent";
-
-/* DM Message status timestamp: minutes. Placeholder will be replaced with # minutes. Ex: 5m */
-"DM_MESSAGE_STATUS_TIMESTAMP_MINUTES" = "%@m";
-
-/* DM Message status timestamp: Now */
-"DM_MESSAGE_STATUS_TIMESTAMP_NOW" = "Now";
-
-/* Message text received reply accessibility label including sender. %1$@: display name of sender, %2$@: display name of reply sender */
-"DM_MESSAGE_TEXT_RECEIVED_REPLY_WITH_SENDER_ACCESSIBILITY_LABEL" = "%1$@ replying to %2$@";
-
-/* Message text received reply accessibility label including sender and text. %1$@: display name of sender, %2$@: display name of reply sender, %3$@: message text */
-"DM_MESSAGE_TEXT_RECEIVED_REPLY_WITH_SENDER_AND_TEXT_ACCESSIBILITY_LABEL" = "%1$@ replying to %2$@: %3$@";
-
-/* Message text received accessibility label including sender. %1$@: display name of sender, %2$@: message text */
-"DM_MESSAGE_TEXT_RECEIVED_WITH_SENDER_ACCESSIBILITY_LABEL" = "%1$@: %2$@";
-
-/* Message text sent reply accessibility label including sender. %@: display name of reply sender */
-"DM_MESSAGE_TEXT_SENT_REPLY_WITH_SENDER_ACCESSIBILITY_LABEL" = "You replying to %@";
-
-/* Message text sent reply accessibility label including sender and text. %1$@: display name of reply sender, %2$@: message text */
-"DM_MESSAGE_TEXT_SENT_REPLY_WITH_SENDER_AND_TEXT_ACCESSIBILITY_LABEL" = "You replying to %1$@: %2$@";
-
-/* Message text sent accessibility label including sender. %@: message text */
-"DM_MESSAGE_TEXT_SENT_WITH_SENDER_ACCESSIBILITY_LABEL" = "You: %@";
 
 /* Status shown on a money card when the payment has completed */
 "DM_MONEY_CARD_STATUS_COMPLETED" = "Completed";
@@ -22509,12 +22133,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* DM Emoji picker Add reaction accessibility hint */
 "DM_REACTIONS_ADD_REACTION_ACCESSIBILITY_HINT" = "Adds reaction";
 
-/* DM Reactions Sheet All Reactions Tab Label */
-"DM_REACTIONS_ALL" = "All";
-
-/* DM Reactions Sheet Empty State Message */
-"DM_REACTIONS_EMPTY" = "No one has reacted to this message.";
-
 /* DM Emoji picker Recently used section */
 "DM_REACTIONS_RECENTLY_USED_SECTION" = "Recently used";
 
@@ -22538,6 +22156,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Settings notification section title */
 "DM_SETTINGS_NOTIFICATION_SECTION_TITLE" = "Notifications";
+
+/* Toast shown in Chat settings after the Chat passcode has been changed successfully */
+"DM_SETTINGS_PASSCODE_CHANGED_SUCCESS_TOAST" = "Passcode was changed successfully.";
 
 /* Title of setting for receiving Direct Messages from anyone */
 "DM_SETTINGS_RECEIVE_FROM_ANYONE_TITLE" = "Everyone";
@@ -22634,9 +22255,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* DM Vanishing Mode clear chat sheet destructive action title */
 "DM_VANISHING_MODE_CLEAR_CHAT_SHEET_ACTION" = "Clear messages";
-
-/* DM Vanishing Mode clear chat sheet dismiss action title */
-"DM_VANISHING_MODE_CLEAR_CHAT_SHEET_DISMISS" = "Keep messages";
 
 /* DM Vanishing Mode clear chat sheet message */
 "DM_VANISHING_MODE_CLEAR_CHAT_SHEET_MESSAGE" = "Would you like to clear all messages in this conversation? They will be permanently removed from your devices only.";
@@ -24522,8 +24140,8 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Geotagging truncated coordinate label format */
 "PLACE_PICKER_PRECISE_LOCATION_COORDINATE_TRUNCATED_FORMAT" = "(%1$@…, %2$@…)";
 
-/* Geotagging switch to include precise location with post */
-"PLACE_PICKER_PRECISE_LOCATION_LABEL" = "Share precise location";
+/* Geotagging switch to include approximate location with post */
+"PLACE_PICKER_PRECISE_LOCATION_LABEL" = "Share approximate location";
 
 /* Tag location label */
 "TAG_LOCATION_LABEL" = "Tag location";
@@ -24750,6 +24368,15 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 // Section: Frameworks/XSports/Sources/XSports/Localizable.xcstrings
 
+/* Age line in the athlete mini profile tray; the placeholder is the athlete's age in years. */
+"NFL_ATHLETE_AGE_FORMAT" = "%lld yrs";
+
+/* Title of the follow button in the athlete mini profile tray. */
+"NFL_ATHLETE_FOLLOW" = "Follow";
+
+/* Title of the button in the athlete mini profile tray that opens the athlete's full X profile. */
+"NFL_ATHLETE_VIEW_PROFILE" = "View profile";
+
 /* Label on a collapsed drive that ended with a blocked field goal. */
 "NFL_DRIVE_OUTCOME_BLOCKED_FIELD_GOAL" = "Blocked field goal";
 
@@ -24807,6 +24434,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Title of the punting group inside the box score card on the game screen. */
 "NFL_GAME_BOX_SCORE_PUNTING_TITLE" = "Punting";
 
+/* Placeholder in the message input field of the NFL game chat tab, prompting the user to discuss the game. */
+"NFL_GAME_CHAT_INPUT_PLACEHOLDER" = "Talk about the game";
+
 /* Clock text shown when a game has ended. */
 "NFL_GAME_CLOCK_FINAL" = "Final";
 
@@ -24819,6 +24449,9 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Distance shown in a down-and-distance line when the line to gain is the goal line, as in "2nd & Goal". */
 "NFL_GAME_DOWN_DISTANCE_GOAL" = "Goal";
 
+/* Joins a drive outcome label (1st placeholder, e.g. Touchdown) with the scoring player's name (2nd placeholder) on a drive header row. */
+"NFL_GAME_DRIVE_OUTCOME_SCORER_FORMAT" = "%1$@ · %2$@";
+
 /* Segment title for the latest posts in the NFL game feed. */
 "NFL_GAME_FEED_SEGMENT_LATEST" = "Latest";
 
@@ -24830,6 +24463,42 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Accessibility label for the poll health indicator when updates are failing. */
 "NFL_GAME_HEALTH_INTERRUPTED_LABEL" = "Live updates interrupted";
+
+/* Column header for the player name column of the pre-game injury report. */
+"NFL_GAME_INJURY_NAME_HEADER" = "NAME";
+
+/* Shown in the pre-game injury report when the selected team has no injured players. */
+"NFL_GAME_INJURY_NONE_REPORTED" = "No injuries reported";
+
+/* Injury status meaning the player is unlikely to play. */
+"NFL_GAME_INJURY_STATUS_DOUBTFUL" = "Doubtful";
+
+/* Single-letter form of the Doubtful injury status, shown before the injury on one line. */
+"NFL_GAME_INJURY_STATUS_DOUBTFUL_SHORT" = "D";
+
+/* Column header for the availability status column of the pre-game injury report. */
+"NFL_GAME_INJURY_STATUS_HEADER" = "STATUS";
+
+/* Injury status meaning the player will not play. */
+"NFL_GAME_INJURY_STATUS_OUT" = "Out";
+
+/* Single-letter form of the Out injury status, shown before the injury on one line. */
+"NFL_GAME_INJURY_STATUS_OUT_SHORT" = "O";
+
+/* Injury status meaning the player may or may not play. */
+"NFL_GAME_INJURY_STATUS_QUESTIONABLE" = "Questionable";
+
+/* Single-letter form of the Questionable injury status, shown before the injury on one line. */
+"NFL_GAME_INJURY_STATUS_QUESTIONABLE_SHORT" = "Q";
+
+/* Injury status shown when the team has not designated the player's availability. */
+"NFL_GAME_INJURY_STATUS_UNKNOWN" = "Unknown";
+
+/* Single-letter form of an undesignated injury status, shown before the injury on one line. */
+"NFL_GAME_INJURY_STATUS_UNKNOWN_SHORT" = "U";
+
+/* Shown in place of an injury description when the team did not disclose the injury. */
+"NFL_GAME_INJURY_UNDISCLOSED" = "Undisclosed";
 
 /* Label preceding the most recent play summary under the field. */
 "NFL_GAME_LAST_PLAY_LABEL" = "LAST PLAY";
@@ -24888,20 +24557,23 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Passing card column header: passing yards. */
 "NFL_GAME_PASSING_COLUMN_YARDS" = "YDS";
 
-/* Headline for a successful extra point kick in the play-by-play feed. */
-"NFL_GAME_PLAY_EXTRA_POINT_HEADLINE" = "Extra point";
+/* Body of the tray shown when tapping a game stats row for a player without an X account. The X wordmark logo is appended after this text at render time. */
+"NFL_GAME_PLAYER_NOT_ON_X_BODY" = "You can't view this player's profile until they join";
 
-/* Headline for a failed two-point conversion in the play-by-play feed. */
-"NFL_GAME_PLAY_FAILED_TWO_POINT_HEADLINE" = "Failed two-point conversion";
+/* Headline for a made extra-point kick after a touchdown in the play-by-play feed. */
+"NFL_GAME_PLAY_EXTRA_POINT_HEADLINE" = "1-pt Conversion";
+
+/* Headline for a failed two-point conversion attempt in the play-by-play feed. */
+"NFL_GAME_PLAY_FAILED_TWO_POINT_HEADLINE" = "Failed 2-pt Conversion";
 
 /* Tag on the most recent play card in the play-by-play feed. */
 "NFL_GAME_PLAY_LATEST_TAG" = "LATEST";
 
-/* Headline for a missed or blocked extra point kick in the play-by-play feed. */
-"NFL_GAME_PLAY_MISSED_EXTRA_POINT_HEADLINE" = "Missed extra point";
+/* Headline for a missed extra-point kick after a touchdown in the play-by-play feed. */
+"NFL_GAME_PLAY_MISSED_EXTRA_POINT_HEADLINE" = "Missed 1-pt Conversion";
 
-/* Headline for a play in the play-by-play feed that was called back and does not count. */
-"NFL_GAME_PLAY_NO_PLAY_HEADLINE" = "No play";
+/* Headline for a play in the play-by-play feed that was called back by a penalty and does not count. */
+"NFL_GAME_PLAY_NO_PLAY_HEADLINE" = "Flag on the play";
 
 /* Tag on a play in the play-by-play feed that was called back and does not count. */
 "NFL_GAME_PLAY_NO_PLAY_TAG" = "NO PLAY";
@@ -24918,11 +24590,17 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Penalty summary in the play-by-play feed. %1$@ is the infraction, for example Holding. %2$@ is the penalized team abbreviation, for example DAL. */
 "NFL_GAME_PLAY_PENALTY_ON_FORMAT" = "%1$@ on %2$@";
 
+/* Accessibility action name on a play row that replays the play on the field. */
+"NFL_GAME_PLAY_REPLAY_ACTION" = "Replay play";
+
 /* Headline for a timeout entry in the play-by-play feed. */
 "NFL_GAME_PLAY_TIMEOUT_HEADLINE" = "Timeout";
 
-/* Headline for a successful two-point conversion in the play-by-play feed. */
-"NFL_GAME_PLAY_TWO_POINT_HEADLINE" = "Two-point conversion";
+/* Tag on a play in the play-by-play feed when a team timeout was attached to the play. */
+"NFL_GAME_PLAY_TIMEOUT_TAG" = "TIMEOUT";
+
+/* Headline for a successful two-point conversion attempt in the play-by-play feed. */
+"NFL_GAME_PLAY_TWO_POINT_HEADLINE" = "2-pt Conversion";
 
 /* Tag on a play in the play-by-play feed whose ruling is being reviewed by officials. */
 "NFL_GAME_PLAY_UNDER_REVIEW_TAG" = "UNDER REVIEW";
@@ -24939,6 +24617,15 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Receiving card column header: receptions. */
 "NFL_GAME_RECEIVING_COLUMN_RECEPTIONS" = "REC";
 
+/* Receiving card column header: carries for a receiver who also rushed the ball. Abbreviated to fit a narrow column. */
+"NFL_GAME_RECEIVING_COLUMN_RUSHING_ATTEMPTS" = "CAR";
+
+/* Receiving card column header: rushing touchdowns for a receiver who also carried the ball. Abbreviated to fit a narrow column. */
+"NFL_GAME_RECEIVING_COLUMN_RUSHING_TOUCHDOWNS" = "RUSH TD";
+
+/* Receiving card column header: rushing yards for a receiver who also carried the ball. Abbreviated to fit a narrow column. */
+"NFL_GAME_RECEIVING_COLUMN_RUSHING_YARDS" = "RUSH YDS";
+
 /* Column header for times a receiver was targeted on the game receiving stat card. Abbreviated to fit a narrow column. */
 "NFL_GAME_RECEIVING_COLUMN_TARGETS" = "TGT";
 
@@ -24947,6 +24634,24 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Receiving card column header: receiving yards. */
 "NFL_GAME_RECEIVING_COLUMN_YARDS" = "YDS";
+
+/* Column header for the date column of the last five games card. */
+"NFL_GAME_RECENT_GAMES_DATE_HEADER" = "DATE";
+
+/* Single letter marking a loss in the last five games card. */
+"NFL_GAME_RECENT_GAMES_LOSS" = "L";
+
+/* Column header for the opponent column of the last five games card. */
+"NFL_GAME_RECENT_GAMES_OPPONENT_HEADER" = "OPP";
+
+/* Column header for the result column of the last five games card. */
+"NFL_GAME_RECENT_GAMES_RESULT_HEADER" = "RESULT";
+
+/* Single letter marking a tie in the last five games card. */
+"NFL_GAME_RECENT_GAMES_TIE" = "T";
+
+/* Single letter marking a win in the last five games card. */
+"NFL_GAME_RECENT_GAMES_WIN" = "W";
 
 /* Title of the rushing player-stats card on the game screen. */
 "NFL_GAME_RUSHING_CARD_TITLE" = "Rushing";
@@ -24959,6 +24664,12 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Column header for the longest run on the game rushing stat card. Abbreviated to fit a narrow column. */
 "NFL_GAME_RUSHING_COLUMN_LONGEST" = "LNG";
+
+/* Rushing card column header: receiving touchdowns for a back who also caught passes. Abbreviated to fit a narrow column. */
+"NFL_GAME_RUSHING_COLUMN_RECEIVING_TOUCHDOWNS" = "REC TD";
+
+/* Rushing card column header: receiving yards for a back who also caught passes. Abbreviated to fit a narrow column. */
+"NFL_GAME_RUSHING_COLUMN_RECEIVING_YARDS" = "REC YDS";
 
 /* Rushing card column header: rushing touchdowns. */
 "NFL_GAME_RUSHING_COLUMN_TOUCHDOWNS" = "TD";
@@ -25176,9 +24887,6 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 /* Section header above the overtime drives in the play-by-play list. */
 "NFL_PLAYS_QUARTER_OVERTIME" = "Overtime";
 
-/* Toast shown when a tapped roster player has no X account. */
-"NFL_ROSTER_NO_ACCOUNT_TOAST" = "No account";
-
 /* Position group header on the NFL team roster screen. */
 "NFL_ROSTER_SECTION_DEFENSIVE_LINE" = "Defensive Line";
 
@@ -25310,6 +25018,36 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* Standings card title for the West division of a conference. */
 "NFL_STANDINGS_DIVISION_WEST" = "West";
+
+/* Column caption over the per-team game notification checkboxes in the notification settings tray. */
+"NFL_TEAM_NOTIFICATIONS_COLUMN_GAMES" = "Games";
+
+/* Column caption over the per-team news notification checkboxes in the notification settings tray. */
+"NFL_TEAM_NOTIFICATIONS_COLUMN_NEWS" = "News";
+
+/* Body of the one-time prompt asking the user to turn on notifications for their favorite teams. */
+"NFL_TEAM_NOTIFICATIONS_PROMPT_BODY" = "You'll get notified about games and news for the teams you follow. You can manage which notifications you get anytime.";
+
+/* Confirm button on the team notifications prompt. */
+"NFL_TEAM_NOTIFICATIONS_PROMPT_CONFIRM" = "Manage notifications";
+
+/* Decline button on the team notifications prompt. */
+"NFL_TEAM_NOTIFICATIONS_PROMPT_DECLINE" = "Done";
+
+/* Title of the one-time prompt asking the user to turn on notifications for their favorite teams. */
+"NFL_TEAM_NOTIFICATIONS_PROMPT_TITLE" = "Team notifications are on";
+
+/* Section header for per-team game notification toggles. */
+"NFL_TEAM_NOTIFICATIONS_SECTION_GAMES" = "Game notifications";
+
+/* Section header for per-team news notification toggles. */
+"NFL_TEAM_NOTIFICATIONS_SECTION_NEWS" = "News notifications";
+
+/* Accessibility label for the gear button that opens team notification settings. */
+"NFL_TEAM_NOTIFICATIONS_SETTINGS_ACCESSIBILITY_LABEL" = "Notification settings";
+
+/* Title of the tray screen where the user manages team notification settings. */
+"NFL_TEAM_NOTIFICATIONS_TITLE" = "Notification settings";
 
 /* Subtitle of the NFL Top 100 screen, where %@ is the season year (e.g. "Players of 2026"). */
 "NFL_TOP_100_SUBTITLE_FORMAT" = "Players of %@";
@@ -26537,3 +26275,145 @@ This file is sorted by modules instead of alphabetically to help reduce merge co
 
 /* String that appears in VoiceOver when a user appears in recent searches and has a Space live currently. This appears after announcing the display name and the username of the user */
 "VOICE_ROOM_RECENT_SEARCHES_ACCESSIBILITY_HINT" = "%1$@ %2$@ is currently in an active Space. Click to join via their profile";
+
+// Section: Frameworks/XAppSubscriptions/Sources/PremiumHubStrings/Localizable.xcstrings
+
+/* Title of Premium Hub */
+"PREMIUM_HUB_TITLE" = "Premium";
+
+// Section: Frameworks/XAppSubscriptions/Sources/TwitterSubscriptionsStrings/Localizable.xcstrings
+
+/* Error message shown when we user tries to buy a subscription but we detected that the user already has a subscription in Apple store, it may be pending cancellation */
+"SUBSCRIPTION_ALREADY_SUBSCRIBED_ERROR_MESSAGE" = "You have already subscribed, either here or on another account. Please check back later.";
+
+/* Error message shown to the user when user buy expired subscriptions from an account which is different from original account */
+"SUBSCRIPTION_ERROR_DIFFERENT_USER_MESSAGE" = "Try logging in to your other X account to access this subscription";
+
+/* Error title shown to the user when user buy expired subscriptions from an account which is different from original account */
+"SUBSCRIPTION_ERROR_DIFFERENT_USER_MESSAGE_TITLE" = "You are already subscribed";
+
+/* Error message shown to the user when there are no products available to buy for the user's app store country */
+"SUBSCRIPTION_ERROR_PRODUCTS_UNAVAILBLE" = "Premium is not available right now.";
+
+/* Error title shown to the user when there are no products available to buy for the user's app store country */
+"SUBSCRIPTION_ERROR_PRODUCTS_UNAVAILBLE_TITLE" = "Sorry";
+
+/* Error message shown to the user when the client can't fetch product information from the various backends */
+"SUBSCRIPTION_ERROR_PRODUCT_INFORMATION_UNAVAILBLE" = "We’re having trouble connecting with the App Store. Please try again later.";
+
+/* Error message shown when the client encounters an payments error that it can recover from */
+"SUBSCRIPTION_ERROR_RECOVERABLE_PAYMENTS_ERROR" = "Your new features will be available shortly";
+
+/* Title for the error message shown when the client encounters an payments error that it can recover from */
+"SUBSCRIPTION_ERROR_RECOVERABLE_PAYMENTS_ERROR_TITLE" = "Thanks for your purchase!";
+
+/* Error message shown when the client encounters an payments error that it can't recover from */
+"SUBSCRIPTION_ERROR_UNRECOVERABLE_PAYMENTS_ERROR" = "Your purchase couldn’t be completed. Please try again later.";
+
+/* Label for the active badge on the subscription membership page */
+"SUBSCRIPTION_HEADER_ACTIVE_LABEL" = "Active";
+
+/* Label for the expiring badge on the subscription membership page */
+"SUBSCRIPTION_HEADER_EXPIRING_LABEL" = "Expiring soon";
+
+/* Label for the inactive badge on the subscription membership page */
+"SUBSCRIPTION_HEADER_INACTIVE_LABEL" = "Inactive";
+
+/* Annual plan text explaining total price per year and billing periods. */
+"SUBSCRIPTION_MARKETING_PLAN_ANNUAL_AMOUNT_PER_YER" = "%@ per year billed annually";
+
+/* Annual plan title text on premium marketing page bottom sheet. */
+"SUBSCRIPTION_MARKETING_PLAN_ANNUAL_TITLE" = "Annual plan";
+
+/* Monthly plan text explaining total price per year and billing periods. */
+"SUBSCRIPTION_MARKETING_PLAN_MONTHLY_AMOUNT_PER_YER" = "%@ per year billed monthly";
+
+/* Monthly plan title text on premium marketing page bottom sheet. */
+"SUBSCRIPTION_MARKETING_PLAN_MONTHLY_TITLE" = "Monthly plan";
+
+/* Button text in a half sheet Premium Marketing page. This button lets the user dismiss the sheet so they can look at it later */
+"SUBSCRIPTION_MARKETING_UPSELL_SHEET_DISMISS_BUTTON_TITLE" = "Maybe later";
+
+/* Title of a half sheet Premium Marketing page that encourages users to get a Premium subscription so they can vote in Premium-only polls. */
+"SUBSCRIPTION_MARKETING_VERIFIED_POLLS_UPSELL_SHEET_TITLE" = "Verified polls";
+
+/* Title for feature upsell, %1$@  will be replaced to a feature name, %2$@ will be replace to a tier name. ex "Unlock Highlights with Premium" */
+"SUBSCRIPTION_UNLOCK_FEATURE" = "Unlock %1$@ with %2$@";
+
+/* Detail text for feature upsell, %1$@ will be replace to a tier name, %2$@  will be replaced to a feature name. ex "Only Premium subscribers have access to Highlights. Upgrade to continue." */
+"SUBSCRIPTION_UNLOCK_FEATURE_DETAILS" = "Only %1$@ subscribers have access to %2$@. Upgrade to continue.";
+
+/* Feature upsell button title */
+"SUBSCRIPTION_UPGRADE_TO_TIER" = "Upgrade";
+
+/* Text for the header of the Subscription upsell for SMS two-factor authentication feature name */
+"SUBSCRIPTION_UPSELL_2FA_FEATURE_NAME" = "SMS two-factor authentication";
+
+/* Text for subscription upsell text for long video hd uploads */
+"SUBSCRIPTION_UPSELL_ACTION_LONG_VIDEO_UPLOAD" = "Subscribe to Premium Basic to post longer videos.";
+
+/* Text for subscription upsell text for full hd uploads */
+"SUBSCRIPTION_UPSELL_ACTION_TEXT_FULL_HD_UPLOAD" = "Upload with Premium Basic";
+
+/* Text for the header of the Subscription upsell for Advanced search feature name */
+"SUBSCRIPTION_UPSELL_ADVANCED_SEARCH_FEATURE_EXTRA_INFO" = "(iOS Only)";
+
+/* Text for the header of the Subscription upsell for Advanced search feature name */
+"SUBSCRIPTION_UPSELL_ADVANCED_SEARCH_FEATURE_NAME" = "Advanced search";
+
+/* Text for the header of the Subscription upsell for bookmark folders feature name */
+"SUBSCRIPTION_UPSELL_BOOKMARK_FOLDERS_FEATURE_NAME" = "bookmark folders";
+
+/* Text for the header of the Subscription upsell for communities creation feature name */
+"SUBSCRIPTION_UPSELL_COMMUNITIES_CREATION_DETAILS_FEATURE_NAME" = "create a Community";
+
+/* Text for the header of the Subscription upsell for communities creation feature name */
+"SUBSCRIPTION_UPSELL_COMMUNITIES_CREATION_FEATURE_NAME" = "creating a Community";
+
+/* Text for the header of the Subscription upsell for downloadable videos feature name */
+"SUBSCRIPTION_UPSELL_DOWNLOADABLE_VIDEOS_FEATURE_NAME" = "downloadable videos";
+
+/* Text for the header of the Subscription upsell for edit posts feature name */
+"SUBSCRIPTION_UPSELL_EDIT_POSTS_FEATURE_NAME" = "edit posts";
+
+/* Text for the header of the Subscription upsell for encrypted Direct Messages feature name */
+"SUBSCRIPTION_UPSELL_ENCRYPTED_DIRECT_MESSAGES_FEATURE_NAME" = "encrypted Direct Messages";
+
+/* Text for the header of the Subscription upsell for Highlights feature name */
+"SUBSCRIPTION_UPSELL_HIGHLIGHTS_FEATURE_NAME" = "Highlights";
+
+/* Text for the action to present the Subscription upsell for Highlights feature name */
+"SUBSCRIPTION_UPSELL_HIGHLIGHTS_UPSELL_ACTION_TEXT" = "Add to Highlights";
+
+/* Text for the header of the Subscription upsell for longer posts feature name */
+"SUBSCRIPTION_UPSELL_LONG_FORM_FEATURE_NAME" = "longer posts";
+
+/* Feature name used in the long video upload Premium upsell sheet title/details. */
+"SUBSCRIPTION_UPSELL_LONG_VIDEO_UPLOAD_FEATURE_NAME" = "longer videos";
+
+/* Text for the header of the Subscription upsell for longer posts feature name */
+"SUBSCRIPTION_UPSELL_NO_ADS_FEATURE_NAME" = "ad-free timelines";
+
+/* Text for the header of the Subscription upsell for Offline videos feature name */
+"SUBSCRIPTION_UPSELL_OFFLINE_VIDEOS_FEATURE_NAME" = "Offline videos";
+
+/* Title of the basic premium tier subscription for upsell */
+"SUBSCRIPTION_UPSELL_PREMIUM_BASIC_TIER_NAME" = "Premium Basic";
+
+/* Text for the header of the Subscription upsell for Boosted posts feature name */
+"SUBSCRIPTION_UPSELL_QUICK_PROMOTE_FEATURE_NAME" = "Boosted posts";
+
+/* Body message of the Reply Boost upsell */
+"SUBSCRIPTION_UPSELL_REPLY_BOOST_MESSAGE" = "Subscribe to Premium to have your Replies boosted";
+
+/* Purchase button label for the Reply Boost upsell */
+"SUBSCRIPTION_UPSELL_REPLY_BOOST_PURCHASE_LABEL" = "Boost My Reply Reach";
+
+/* Title of the Reply Boost upsell */
+"SUBSCRIPTION_UPSELL_REPLY_BOOST_TITLE" = "Want more people to see your reply?";
+
+/* Text for the header of the Subscription upsell for Richtext feature name */
+"SUBSCRIPTION_UPSELL_RICHTEXT_FEATURE_NAME" = "Rich Text";
+
+/* Button title on the feature upsell tray that starts the Premium upgrade flow */
+"SUBSCRIPTION_UPSELL_UPGRADE_NOW_ACTION_LABEL" = "Upgrade now";
