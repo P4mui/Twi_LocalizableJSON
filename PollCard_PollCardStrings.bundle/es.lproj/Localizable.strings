@@ -1,5 +1,0 @@
-"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Resultados finales";
-"POLL_CARD_DISPLAY_POLL_ENDING" = "Finalizando encuesta…";
-"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@ salió";
-"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
-"POLL_CARD_VOTE_SUBMISSION_FAILED" = "Error al enviar el voto. Inténtalo de nuevo.";

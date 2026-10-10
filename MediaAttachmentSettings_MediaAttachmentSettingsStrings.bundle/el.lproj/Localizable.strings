@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "Αποτρέψτε τον @Grok να τροποποιήσει αυτό το περιεχόμενο";
-"BLOCK_GROK_TITLE" = "Αποκλεισμός τροποποιήσεων από τον Grok";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Επιλέξτε μια κατηγορία και θα προσθέσουμε μια προειδοποίηση περιεχομένου σε αυτήν την ανάρτηση. Αυτό βοηθά τους χρήστες να αποφεύγουν περιεχόμενο που δεν θέλουν να δουν.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Προσθέστε μια προειδοποίηση περιεχομένου σε αυτήν την ανάρτηση";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Ρυθμίσεις περιεχομένου";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Όταν ενεργοποιηθεί, το βίντεό σας θα είναι διαθέσιμο για λήψη.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Να επιτρέπεται η λήψη βίντεο";

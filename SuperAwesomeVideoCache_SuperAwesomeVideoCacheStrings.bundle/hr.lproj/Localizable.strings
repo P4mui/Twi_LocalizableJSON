@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Preuzimanje otkazano";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Preuzimanje za rad izvan mreže nije uspjelo";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Još ništa nije preuzeto";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Nemate nijedan izvanmrežni videozapis";
-"OFFLINE_REMOVE_ALL" = "Ukloni sve";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Prikaži gumb za preuzimanje na vremenskim crtama";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Videozapis je preuzet za rad izvan mreže";

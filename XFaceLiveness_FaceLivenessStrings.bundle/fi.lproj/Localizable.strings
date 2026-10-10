@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Jatka";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Salli kamera";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Jatkamalla annat suostumuksesi biometristen tietojen käsittelyyn.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Lue lisää";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Lähetämme kuvasi hetkellisesti AWS:lle. Tarkoitus on ainoastaan varmistaa, ettet ole botti. Kuvaasi ei koskaan lähetetä X:lle. Se poistetaan 3 minuutin sisällä, eikä sitä myydä eikä käytetä mihinkään muuhun tarkoitukseen.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Siirrä kasvosi ympyrään";

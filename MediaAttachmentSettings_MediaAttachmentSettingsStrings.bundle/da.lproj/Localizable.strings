@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "Forhindr @Grok i at ændre dette indhold";
-"BLOCK_GROK_TITLE" = "Bloker ændringer fra Grok";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Vælg en kategori, så markerer vi denne post med en indholdsadvarsel. Dette hjælper folk med at undgå indhold, de ikke ønsker at se.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Markér denne post med en indholdsadvarsel";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Indholdsindstillinger";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Når denne funktion er slået til, kan din video downloades.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Tillad download af video";

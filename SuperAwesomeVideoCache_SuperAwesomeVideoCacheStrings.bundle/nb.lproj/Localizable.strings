@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Nedlastingen ble avbrutt";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Nedlasting til frakoblet modus mislyktes";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Ingenting er lastet ned ennå";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Du har ingen frakoblede videoer";
-"OFFLINE_REMOVE_ALL" = "Fjern alle";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Vis nedlastingsknapp på tidslinjer";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Videoen er lastet ned for frakoblet bruk";

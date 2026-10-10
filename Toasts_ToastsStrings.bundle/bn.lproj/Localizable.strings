@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@-কে ব্লক করা হয়েছে";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "এই কথা-বার্তার জন্য বিজ্ঞপ্তিগুলিকে মিউট করা হয়েছে";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "এই কথা-বার্তার জন্য বিজ্ঞপ্তিগুলিকে আনমিউট করা হয়েছে";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@-কে মিউট করা হয়েছে";
-"TOASTS_GENERAL_UNDO_LABEL" = "আন-ডু করুন";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@-কে অবরোধমুক্ত করা হয়েছে";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@-কে আনমিউট করা হয়েছে";

@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "@Grok-কে এই কন্টেন্ট পরিবর্তন করা থেকে বিরত রাখুন";
-"BLOCK_GROK_TITLE" = "Grok কর্তৃক ব্লক পরিবর্তন";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "একটি বিভাগ নির্বাচন করুন এবং আমরা এই পোস্টে একটি কন্টেন্ট সংক্রান্ত সতর্কতা রাখবো। লোকেরা যে কন্টেন্ট দেখতে চান না এটি তাদেরকে তা এড়িয়ে যেতে সাহায্য করবে।";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "এই পোস্টে একটি কন্টেন্ট সংক্রান্ত সতর্কতা রাখুন";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "কন্টেন্ট সেটিংস ";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "সক্রিয় করা হলে, আপনার ভিডিও ডাউনলোড করার জন্য উপলব্ধ হবে।";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "ভিডিও ডাউনলোড যোগ্য করার অনুমতি দিন";

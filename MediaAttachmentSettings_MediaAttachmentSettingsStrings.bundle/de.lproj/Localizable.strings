@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "Verhindern, dass @Grok diesen Inhalt ändert";
-"BLOCK_GROK_TITLE" = "Änderungen durch Grok blockieren";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Wähle eine Kategorie aus, dann versehen wir diesen Post mit einer Warnung. Das hilft Nutzer, Inhalte zu meiden, die sie nicht sehen möchten.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Post mit Inhaltswarnung versehen";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Inhaltseinstellungen";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Wenn diese Option aktiviert ist, steht dein Video zum Download zur Verfügung.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Download des Videos erlauben";

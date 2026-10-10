@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Download abgebrochen";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Offline-Download fehlgeschlagen";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Noch nichts heruntergeladen";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Du hast keine Offline-Videos";
-"OFFLINE_REMOVE_ALL" = "Alle entfernen";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Download-Button in Timelines anzeigen";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Video offline heruntergeladen";

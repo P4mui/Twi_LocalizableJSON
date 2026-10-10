@@ -1,5 +1,0 @@
-"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Lopputulokset";
-"POLL_CARD_DISPLAY_POLL_ENDING" = "Äänestys päättymässä...";
-"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@ poistui";
-"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
-"POLL_CARD_VOTE_SUBMISSION_FAILED" = "Äänestäminen epäonnistui. Yritä uudelleen.";

@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ અવરોધિત કરવામાં આવેલ છે";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "આ વાર્તાલાપ માટે જોડાણ અટકાવેલ સૂચનાઓ";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "આ વાર્તાલાપ માટે નિષેધ દૂર કરેલ સૂચનાઓ";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@નું જોડાણ અટકાવી દેવામાં આવ્યું છે";
-"TOASTS_GENERAL_UNDO_LABEL" = "પૂર્વવત્ કરો";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ને અનાવરોધિત કરવામાં આવ્યા છે";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@નું નિષેધ દૂર કરવામાં આવ્યું છે";

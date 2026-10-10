@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Tiếp tục";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Bật camera";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Bằng việc tiếp tục, bạn đồng ý cho chúng tôi xử lý dữ liệu sinh trắc học.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Tìm hiểu thêm";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Chúng tôi sẽ tạm thời gửi ảnh của bạn đến AWS chỉ để xác minh bạn không phải là bot. Ảnh của bạn không bao giờ được gửi đến X, sẽ được xóa trong vòng 3 phút và không được bán hoặc sử dụng cho bất kỳ mục đích nào khác.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Đặt khuôn mặt của bạn vào trong vòng tròn";

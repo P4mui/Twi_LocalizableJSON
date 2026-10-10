@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Continuă";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Activează camera";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Continuând, îți dai consimțământul pentru prelucrarea datelor biometrice.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Află mai multe";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Vom trimite fotografia ta către AWS doar pentru o scurtă perioadă, cu scopul de a verifica dacă nu ești robot. Fotografia ta nu va fi trimisă niciodată către X, va fi ștearsă în 3 minute și nu va fi vândută sau utilizată în niciun alt scop.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Pune-ți fața în cerc";

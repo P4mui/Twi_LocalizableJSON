@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Continua";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Activa la càmera";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "En continuar, dones el teu consentiment per al processament de les dades biomètriques.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Més informació";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Enviarem breument la teva foto a AWS només per verificar que no siguis un bot. La teva foto no s'envia mai a X, s'elimina en 3 minuts i no es ven ni s'utilitza per a cap altre propòsit.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Posa la teva cara al cercle";

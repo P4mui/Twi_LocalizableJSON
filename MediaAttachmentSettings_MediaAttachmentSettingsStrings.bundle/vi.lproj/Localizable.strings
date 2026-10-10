@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "Ngăn @Grok chỉnh sửa nội dung này";
-"BLOCK_GROK_TITLE" = "Chặn các chỉnh sửa của Grok";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Hãy chọn một danh mục và chúng tôi sẽ đặt cảnh báo nội dung đối với bài đăng này. Điều này giúp mọi người tránh những nội dung mà họ không muốn xem.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Đặt cảnh báo nội dung đối với bài đăng này";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Cài đặt nội dung";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Khi bạn bật tùy chọn này, người khác có thể tải xuống video của bạn.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Cho phép tải xuống video";

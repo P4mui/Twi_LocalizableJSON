@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Настави";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Омогући камеру";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Ако наставиш, пристајеш на обраду биометријских података.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Сазнај више";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Накратко ћемо послати твоју фотографију само на AWS како бисмо потврдили да ниси бот. Твоја фотографија се никада не шаље на платформу X, брише се у року од 3 минута и не продаје се нити користи у било коју другу сврху.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Постави лице у круг";

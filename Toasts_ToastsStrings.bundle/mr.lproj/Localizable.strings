@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ यांना अवरोधित केले आहे";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "या चर्चेसाठी सूचनापत्रे म्यूट केली";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "या चर्चेसाठी सूचनापत्रांचे म्यूट बंद केले";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ यांना म्यूट केले आहे";
-"TOASTS_GENERAL_UNDO_LABEL" = "पूर्ववत करा";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ यांना अनब्लॉक केले आहे";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ अनम्यूट केले आहे";

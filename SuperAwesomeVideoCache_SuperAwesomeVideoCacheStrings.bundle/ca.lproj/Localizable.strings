@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Baixada cancel·lada";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "No s'ha pogut baixar sense connexió";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Encara no s'ha baixat res";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "No tens cap vídeo sense connexió";
-"OFFLINE_REMOVE_ALL" = "Elimina-ho tot";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Mostra el botó de baixada a les cronologies";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "El vídeo s'ha baixat sense connexió";

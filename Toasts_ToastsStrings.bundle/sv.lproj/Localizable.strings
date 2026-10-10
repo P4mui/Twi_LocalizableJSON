@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ har blockerats";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Notiser ignoreras för detta samtal";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Notiser ignoreras inte längre för detta samtal";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ har ignorerats";
-"TOASTS_GENERAL_UNDO_LABEL" = "Ångra";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ har avblockerats";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ är inte längre ignorerad";

@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Fortsett";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Aktiver kameraet";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Ved å fortsette samtykker du til behandling av biometriske data.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Les mer";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Vi sender bildet til AWS kun for å verifisere at du ikke er en robot. Bildet sendes aldri til X, slettes innen tre minutter og selges ikke eller brukes til andre formål.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Plasser ansiktet ditt i sirkelen";

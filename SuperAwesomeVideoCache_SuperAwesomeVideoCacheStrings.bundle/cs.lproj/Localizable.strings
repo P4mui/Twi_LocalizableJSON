@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Stahování zrušeno";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Stažení do offline režimu se nezdařilo";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Zatím nebylo nic staženo";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Nemáte žádná offline videa";
-"OFFLINE_REMOVE_ALL" = "Odstranit vše";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Zobrazte si na časových osách tlačítko stahování";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Video staženo do režimu offline";

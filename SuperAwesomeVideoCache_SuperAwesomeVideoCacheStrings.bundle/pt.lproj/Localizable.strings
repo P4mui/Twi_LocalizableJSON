@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Download cancelado";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Falha ao baixar em modo offline";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Nenhum download foi feito ainda";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Você não tem vídeos offline";
-"OFFLINE_REMOVE_ALL" = "Remover tudo";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Exibir botão de download nas timelines";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Vídeo baixado em modo offline";

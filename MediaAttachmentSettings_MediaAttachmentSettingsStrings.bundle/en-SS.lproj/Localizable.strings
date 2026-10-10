@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "[[305272]] Prevent @Grok from modifying this content";
-"BLOCK_GROK_TITLE" = "[[305274]] Block modifications by Grok";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "[[278555]] Select a category, and we’ll put a content warning on this post. This helps people avoid content they don’t want to see.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "[[278588]] Put a content warning on this post";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "[[276496]] Content settings";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "[[276920]] When enabled, your video will be available to be downloaded.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "[[276922]] Allow video to be downloaded";

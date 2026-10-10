@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ заблоковано";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Сповіщення для цієї розмови ігноруються";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Сповіщення для цієї розмови більше не ігноруються";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ тепер ігнорується";
-"TOASTS_GENERAL_UNDO_LABEL" = "Скасувати";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ розблоковано";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ більше не ігнорується";

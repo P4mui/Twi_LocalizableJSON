@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "Предотврати промяната на това съдържание от @Grok";
-"BLOCK_GROK_TITLE" = "Модификации на блокове от Grok";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Избери категория и ще добавим към тази публикация предупреждение за съдържанието. Така хората могат да избягват съдържание, което не искат да виждат.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Добавяне към тази публикация на предупреждение за съдържанието";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Настройки на съдържанието";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Когато е включена, твоето видео ще бъде налично за изтегляне.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Разрешаване на изтегляне на видео";

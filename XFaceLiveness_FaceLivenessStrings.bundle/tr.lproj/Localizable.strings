@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Devam et";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Kamerayı Etkinleştir";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Devam ederek biyometrik verilerinin işlenmesine onay vermiş oluyorsun.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Daha fazla bilgi al";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Fotoğrafın kısa süreliğine yalnızca robot olmadığını onaylamak için AWS'ye üzerinden gönderilecektir. Fotoğrafın asla X'e gönderilmez, 3 dakika içinde silinir, satılmaz veya başka bir amaçla kullanılmaz.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Yüzünü daire içerisine yerleştir";

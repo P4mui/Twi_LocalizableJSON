@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Преузимање је отказано";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Преузимање на картицу Ван мреже није успело";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Још увек ништа није преузето";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Немаш ниједан видео ван мреже";
-"OFFLINE_REMOVE_ALL" = "Уклони све";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Приказ дугмета за преузимање на временским тракама";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Видео је преузет на картицу Ван мреже";

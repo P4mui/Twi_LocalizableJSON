@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "பதிவிறக்கம் ரத்து செய்யப்பட்டது";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "ஆஃப்லைனுக்குப் பதிவிறக்குதல் தோல்வியடைந்தது";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "இன்னும் எதுவும் பதிவிறக்கப்படவில்லை";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "உங்களிடம் ஆஃப்லைன் வீடியோக்கள் எதுவும் இல்லை";
-"OFFLINE_REMOVE_ALL" = "எல்லாம் அகற்று";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "காலவரிசைகளில் பதிவிறக்கு பொத்தானைக் காட்டவும்";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "காணொளி ஆஃப்லைனுக்கு பதிவிறக்கப்பட்டது";

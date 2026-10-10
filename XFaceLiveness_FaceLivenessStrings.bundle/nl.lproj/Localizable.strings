@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Ga verder";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Schakel camera in";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Door verder te gaan, ga je akkoord met de verwerking van biometrische gegevens.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Meer informatie";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "We sturen je foto even naar AWS, alleen om te controleren of je geen bot bent. Je foto wordt nooit naar X gestuurd, wordt binnen 3 minuten verwijderd en wordt niet verkocht of voor andere doeleinden gebruikt.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Steek je gezicht in de Circle";

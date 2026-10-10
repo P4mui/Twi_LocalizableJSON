@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "Nu permite ca @Grok să modifice acest conținut";
-"BLOCK_GROK_TITLE" = "Blochează modificările de către Grok";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Selectează o categorie și vom pune un avertisment de conținut pe acest X. Astfel, ajuți utilizatorii să evite conținutul pe care nu doresc să-l vadă.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Pune un avertisment de conținut pe această postare";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Setări pentru conținut";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Atunci când această opțiune este activată, videoclipul tău va fi disponibil pentru descărcare.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Permite descărcarea videoclipului";

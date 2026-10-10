@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "ચાલુ રાખો";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "કૅમેરાને સક્ષમ કરો";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "ચાલુ રાખીને, તમે બાયોમેટ્રિક ડેટા પ્રોસેસિંગ માટે સંમતિ આપો છો.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "વધુ જાણો";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "અમે તમારો ફોટો ટૂંકમાં AWS ને મોકલીશું જેથી ખાતરી કરી શકાય કે તમે બોટ નથી. તમારો ફોટો ક્યારેય X પર મોકલવામાં આવશે નહીં, 3 મિનિટની અંદર કાઢી નાખવામાં આવશે નહીં, અને વેચવામાં આવશે નહીં કે અન્ય કોઈ હેતુ માટે ઉપયોગમાં લેવામાં આવશે નહીં.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "તમારા ચહેરાને સર્કલમાં મૂકો";

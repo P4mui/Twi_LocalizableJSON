@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "متابعة";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "تمكين الكاميرا";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "بمتابعتك، فإنك توافق على معالجة البيانات البيومترية.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "معرفة المزيد";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "سنُرسِل صورتك سريعًا إلى AWS للتحقق من أنك لست روبوتًا فقط. لن تُرسَل صورتك أبدًا إلى X، وسيتم حذفها في غضون 3 دقائق، ولن تُباع أو تُستخدم لأي غرض آخر.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "ضع وجهك داخل الدائرة";

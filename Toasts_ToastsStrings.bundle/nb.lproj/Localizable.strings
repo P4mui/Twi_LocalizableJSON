@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ er blokkert";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Varsler er nå skjult for denne samtalen";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Varsler vises nå for denne samtalen";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ er nå skjult";
-"TOASTS_GENERAL_UNDO_LABEL" = "Angre";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Blokkeringen av %@ er opphevet";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ er ikke skjult lenger";

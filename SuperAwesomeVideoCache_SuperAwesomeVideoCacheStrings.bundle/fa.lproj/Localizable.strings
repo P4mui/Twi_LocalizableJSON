@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "بارگیری لغو شد";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "بارگیری در «آفلاین» انجام نشد";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "هنوز چیزی بارگیری نشده است";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "هیچ ویدیو آفلاینی ندارید";
-"OFFLINE_REMOVE_ALL" = "حذف همه";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "نمایش دکمه بارگیری در خط زمان‌ها";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "ویدئو در «آفلاین» بارگیری شد";

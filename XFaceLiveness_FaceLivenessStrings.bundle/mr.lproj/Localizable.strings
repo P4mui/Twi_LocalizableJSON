@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "पुढे चालू ठेवा";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "कॅमेरा सक्षम करा";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "पुढे सुरू ठेवल्यास, तुम्ही बायोमेट्रिक डेटा प्रक्रियेस संमती देत ​​आहात.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "अधिक जाणून घ्या";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "तुम्ही बॉट नाही आहात हे सत्यापित करण्यासाठी आम्ही तुमचा फोटो थोड्या वेळासाठी AWS वर पाठवू. तुमचा फोटो कधीही X वर पाठवला जात नाही, ३ मिनिटांच्या आत हटवला जातो आणि विकला जात नाही किंवा इतर कोणत्याही कारणासाठी वापरला जात नाही.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "तुमचा चेहरा सर्कलत ठेवा";

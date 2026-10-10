@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Teruskan";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Dayakan Kamera";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Dengan meneruskan, anda bersetuju dengan pemprosesan data biometrik.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Ketahui lebih lanjut";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Kami akan menghantar foto anda secara ringkas kepada AWS hanya untuk mengesahkan anda bukan bot. Foto anda tidak akan dihantar ke X, dipadamkan dalam masa 3 minit dan tidak dijual atau digunakan untuk sebarang tujuan lain.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Letakkan wajah anda di dalam bulatan";

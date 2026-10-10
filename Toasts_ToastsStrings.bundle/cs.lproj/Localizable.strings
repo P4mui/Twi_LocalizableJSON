@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Uživatel %@ byl zablokován.";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Oznámení o této konverzaci byla skryta";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Oznámení o této konverzaci se budou znovu zobrazovat";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Uživatel %@ byl skryt.";
-"TOASTS_GENERAL_UNDO_LABEL" = "Vrátit";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Uživatel %@ byl odblokován.";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Uživatel %@ se bude znovu zobrazovat.";

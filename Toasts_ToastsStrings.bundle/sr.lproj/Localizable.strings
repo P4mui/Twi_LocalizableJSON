@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Корисник %@ је блокиран";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Обавештења се игноришу за овај разговор";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Обавештења се не игноришу за овај разговор";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Игноришеш корисника %@";
-"TOASTS_GENERAL_UNDO_LABEL" = "Опозови";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Корисник %@ је одблокиран";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Не игноришеш корисника %@";

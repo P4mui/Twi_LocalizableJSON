@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Continuar";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Ativar câmera";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Ao continuar, você consente o processamento de dados biométricos.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Saiba mais";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Vamos enviar sua foto rapidamente para a AWS só para verificar se você não é um robô. Sua foto jamais é enviada para o X, sendo apagada em até 3 minutos, e não é vendida nem usada com qualquer outra finalidade.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Colocar o rosto no círculo";

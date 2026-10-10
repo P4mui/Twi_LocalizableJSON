@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "Cegah @Grok mengubah konten ini";
-"BLOCK_GROK_TITLE" = "Blokir modifikasi oleh Grok";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Pilih sebuah kategori, dan kami akan menempatkan peringatan konten pada postingan ini. Ini membantu orang-orang menghindari konten yang tidak ingin mereka lihat.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Berikan peringatan konten pada postingan ini";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Pengaturan konten";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Jika diaktifkan, video Anda akan dapat diunduh.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Mengizinkan pengunduhan video";

@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Скачивание отменено";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Скачать для просмотра офлайн";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Пока ничего не скачано";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "У вас нет офлайн-видео";
-"OFFLINE_REMOVE_ALL" = "Удалить все";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Показывать кнопку скачивания в лентах";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Видео для просмотра офлайн скачано";

@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "계속";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "카메라 켜기";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "계속하면 생체 인식 데이터 처리에 동의하는 것으로 간주됩니다.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "자세히 알아보기";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "봇이 아님을 확인하기 위해 사진을 잠시 AWS로 전송합니다. 사진은 X로 전송되지 않으며 3분 이내에 삭제되고, 판매되거나 다른 목적으로 사용되지 않습니다.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "얼굴을 원 안에 맞춰 넣으세요";

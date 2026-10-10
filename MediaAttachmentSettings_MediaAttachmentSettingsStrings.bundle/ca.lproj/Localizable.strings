@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "Impedeix que @Grok modifiqui aquest contingut";
-"BLOCK_GROK_TITLE" = "Bloca les modificacions per part de Grok";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Selecciona una categoria per afegir un advertiment de contingut a la publicació. D'aquesta manera, altres usuaris podran evitar el contingut que no volen veure.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Inclou un advertiment de contingut a la publicació";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Configuració del contingut";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Si s'activa, el vídeo estarà disponible per baixar-lo.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Permet baixar el vídeo";

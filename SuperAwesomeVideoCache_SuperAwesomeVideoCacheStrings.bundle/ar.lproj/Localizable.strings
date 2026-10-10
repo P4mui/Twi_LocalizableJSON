@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "تم إلغاء التنزيل";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "تعذّر التنزيل للاستخدام بلا اتصال";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "لم يتم تنزيل أي شيء حتى الآن";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "ليس لديك أي مقاطع فيديو غير متّصلة";
-"OFFLINE_REMOVE_ALL" = "إزالة الجميع";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "عرض زر التنزيل على اليوميات";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "تم تنزيل الفيديو للاستخدام بلا اتصال";

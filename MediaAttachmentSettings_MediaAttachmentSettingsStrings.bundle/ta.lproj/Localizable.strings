@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "இந்த உள்ளடக்கத்தை @Grok மாற்றுவதைத் தடுக்கவும்";
-"BLOCK_GROK_TITLE" = "Grok மூலமான மாற்றங்களைத் தடு";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "ஒரு வகையைத் தேர்ந்தெடுக்கவும், இந்த இடுகையில் உள்ளடக்க எச்சரிக்கையை வைப்போம். இது பயனர்கள் பார்க்க விரும்பாத உள்ளடக்கத்தைத் தவிர்க்க உதவுகிறது.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "இந்த இடுகையில் உள்ளடக்க எச்சரிக்கையை வைக்கவும்";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "உள்ளடக்க அமைப்புகள்";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "இயக்கப்பட்டுள்ளபோது, உங்கள் வீடியோ பதிவிறக்கப்படக் கிடைக்கும்.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "வீடியோவைப் பதிவிறக்க அனுமதிக்கவும்";

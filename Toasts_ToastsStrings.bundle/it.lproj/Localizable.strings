@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Hai bloccato %@";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Le notifiche sono silenziate per questa conversazione";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Le notifiche sono state riattivate per questa conversazione";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "L'account %@ è stato silenziato";
-"TOASTS_GENERAL_UNDO_LABEL" = "Indietro";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "L'account %@ è stato sbloccato";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "L'account %@ è stato riattivato";

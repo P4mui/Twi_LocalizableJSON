@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Nedladdningen avbröts";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Nedladdning till offlineläge misslyckades";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Inget har hämtats än";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Du har inga offlinevideor";
-"OFFLINE_REMOVE_ALL" = "Ta bort allt";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Visa en hämtningsknapp på tidslinjer";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Videon har laddats ned till fliken Offline";

@@ -1,6 +1,0 @@
-"FACE_LIVENESS_CONTINUE_BUTTON" = "Magpatuloy";
-"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "I-enable ang Camera";
-"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Kapag nagpatuloy ka, pumapayag ka sa pagpoproseso ng biometric data.";
-"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Matuto pa";
-"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Ipapadala namin sandali ang iyong larawan sa AWS para lang ma-verify na hindi ka bot. Ang iyong larawan ay hinding-hindi ipapadala sa X, ide-delete sa loob ng 3 minuto, at hindi ibebenta o gagamitin para sa anupamang layunin.";
-"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Ilagay ang mukha mo sa bilog";

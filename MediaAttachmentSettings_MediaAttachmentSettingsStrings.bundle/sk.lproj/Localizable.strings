@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "Zabrániť tomu, aby @Grok upravil tento obsah";
-"BLOCK_GROK_TITLE" = "Zablokovať úpravy od Groka";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Vyberte kategóriu a my na tento príspevok umiestnime upozornenie na obsah. Ľudia sa tak budú môcť ľahšie vyhnúť obsahu, ktorý nechcú vidieť.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Umiestnite na tento príspevok upozornenie na obsah";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Nastavenia obsahu";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Pokiaľ možnosť povolíte, vaše video bude možné stiahnuť.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Umožniť stiahnutie videa";

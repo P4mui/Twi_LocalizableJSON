@@ -1,5 +1,0 @@
-"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Végeredmények";
-"POLL_CARD_DISPLAY_POLL_ENDING" = "A felmérés a végéhez közeledik...";
-"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@ kilépett";
-"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
-"POLL_CARD_VOTE_SUBMISSION_FAILED" = "A szavazás elküldése sikertelen. Próbálkozz újra!";

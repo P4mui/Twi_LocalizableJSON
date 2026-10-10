@@ -1,7 +1,0 @@
-"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Pobieranie zostało anulowane";
-"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Pobieranie w trybie offline nie udało się";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Nic jeszcze nie pobrano";
-"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Nie masz żadnych filmów offline";
-"OFFLINE_REMOVE_ALL" = "Usuń wszystkie";
-"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Wyświetl przycisk Pobierz na osiach czasu";
-"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Film został pobrany w trybie offline";

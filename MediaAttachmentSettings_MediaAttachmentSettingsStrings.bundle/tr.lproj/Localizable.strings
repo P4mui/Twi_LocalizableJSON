@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "@Grok'un bu içeriği değiştirmesini engelle";
-"BLOCK_GROK_TITLE" = "Grok tarafından yapılan değişiklikleri engelle";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Kategori seçersen bu gönderiye içerik uyarısı ekleyebiliriz. Bu sayede kullanıcılar, görmek istemedikleri içeriklerden kaçınabilir.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Bu gönderiye içerik uyarısı ekle";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "İçerik ayarları";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Etkinleştirildiğinde videon indirilebilir.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Videonun indirilmesine izin ver";

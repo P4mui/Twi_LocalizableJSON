@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "Akadályozd meg, hogy a @Grok módosítsa ezt a tartalmat!";
-"BLOCK_GROK_TITLE" = "A Grok által végzett módosítások blokkolása";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Válaszd ki a kategóriát, és mi tartalmi figyelmeztetést rakunk a bejegyzés mellé. Ez segít elkerülni a tartalmat azoknak, akik nem szeretnék azt látni.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Helyezz el tartalmi figyelmeztetést ennél a bejegyzésnél!";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Tartalmi beállítások";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Ha engedélyezve van, a videód letölthető lesz.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Videó letöltésének engedélyezése";

@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ on estetty";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Tämän keskustelun ilmoitukset on hiljennetty";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Tämän keskustelun ilmoitusten hiljennys on poistettu";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ on hiljennetty";
-"TOASTS_GENERAL_UNDO_LABEL" = "Kumoa";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Käyttäjän %@ esto on poistettu";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Käyttäjän %@ hiljennys on poistettu";

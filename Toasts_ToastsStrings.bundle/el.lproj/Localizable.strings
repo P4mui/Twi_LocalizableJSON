@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Ο χρήστης %@ αποκλείστηκε";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Έγινε σίγαση ειδοποιήσεων για αυτήν τη συζήτηση";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Έγινε άρση σίγασης ειδοποιήσεων για αυτήν τη συζήτηση";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Ο χρήστης %@ τέθηκε σε σίγαση";
-"TOASTS_GENERAL_UNDO_LABEL" = "Αναίρεση";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Έγινε άρση αποκλεισμού του χρήστη %@";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Έγινε άρση σίγασης του χρήστη %@";

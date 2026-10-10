@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ добавлен(а) в черный список";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Переписка игнорируется. Уведомления выключены.";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Переписка больше не игнорируется. Уведомления включены.";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Вы начали игнорировать %@";
-"TOASTS_GENERAL_UNDO_LABEL" = "Отмена";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ удален(а) из черного списка";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Вы перестали игнорировать %@";

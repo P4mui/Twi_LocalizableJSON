@@ -1,7 +1,0 @@
-"BLOCK_GROK_DESCRIPTION" = "מנע מ-Grok לשנות את התוכן";
-"BLOCK_GROK_TITLE" = "שינויי חסימות על-ידי Grok";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "בחר קטגוריה ואנחנו נוסיף אזהרת תוכן לפוסט זה. כך אנשים יוכלו להימנע מתוכן שהם לא מעוניינים לראות.";
-"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "הוסף אזהרת תוכן לפוסט זה";
-"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "הגדרות תוכן";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "כשהאפשרות הזו מופעלת, הסרטון יהיה זמין להורדה.";
-"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "אפשר הורדה של סרטון";
