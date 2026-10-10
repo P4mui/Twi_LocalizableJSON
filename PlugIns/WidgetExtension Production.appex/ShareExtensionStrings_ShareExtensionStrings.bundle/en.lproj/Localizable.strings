@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Cancel post";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Keep sending";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Please go to iOS Settings > Privacy > Location Services to allow X to access your location.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Allow X to access your location";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Please update your version of X to use this feature. Open the X app to learn more";
+"SHARE_EXT_NONE_VALUE" = "None";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "There are no X accounts configured. You can create or log in to an account in the X app.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "No X Account";
+"SHARE_EXT_REMOVE" = "Remove";
+"SHARE_EXT_STATUS_FINALIZING" = "Finalizing…";
+"SHARE_EXT_STATUS_PREPARING" = "Preparing…";
+"SHARE_EXT_STATUS_SENDING" = "Sending…";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Switch accounts";
+"SHARE_EXT_TAG_LOCATION" = "Tag location";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Post failed to send";

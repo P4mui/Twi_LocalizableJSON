@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "%@ முன்பு";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "அலைபரப்பு நிறுத்தப்பட்டது";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "கணக்குகள் வலைபரப்பி பின்தொடர்வுகள்";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "சில கணக்குகள் மட்டுமே பதிலளிக்க முடியும்.";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "அரட்டையடிக்க, சலுகைகள் இருக்காது";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "வலைபரப்பியால் வரம்பிடப்பட்டது";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "வலைபரப்பியின் சப்ஸ்கிரைப்பர்கள்";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "அரட்டைக்காக %@ -க்குச் சப்ஸ்கிரைப் செய்யவும்";
+"PERISCOPE_LIVE_CHAT_LABEL" = "நேரலை அரட்டை";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "அரட்டைச் செய்திகள் இங்கே தோன்றும்";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ ஸ்ட்ரீமிங் தொடங்கியது · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "நேரலை அரட்டை";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "செய்தி அனுப்பு";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "மொத்தப் பார்வைகள்";
+"PERISCOPE_TOTAL_VIEW_STRING" = "மொத்தப் பார்வை";

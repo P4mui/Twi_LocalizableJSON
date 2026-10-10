@@ -1,0 +1,6 @@
+"FACE_LIVENESS_CONTINUE_BUTTON" = "続ける";
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "カメラを有効にする";
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "続行することにより、あなたは生体認証データの処理に同意したものとみなされます。";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "詳細はこちら";
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "あなたがボットではないことを認証する目的のみで、あなたの写真をAWSに一時的に送信します。この写真はXには一切送信されず、3分以内に削除され、販売されたり他の目的で使用されたりすることはありません。";
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "顔を円の中に入れてください";

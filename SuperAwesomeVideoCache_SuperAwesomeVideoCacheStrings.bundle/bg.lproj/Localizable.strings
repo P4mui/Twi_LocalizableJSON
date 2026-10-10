@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Изтеглянето е отменено";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Изтеглянето в раздела „Офлайн“ не бе успешно";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Още нищо не е изтеглено";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Нямаш офлайн видеоклипове";
+"OFFLINE_REMOVE_ALL" = "Премахване на всички";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Показване на бутона за изтегляне в хрониките";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Видеоклипът е изтеглен в раздела „Офлайн“";

@@ -1,0 +1,7 @@
+"CHAT_PERMISSION_CAMERA_SUBTITLE_DENIED" = "Abre la configuración para activar la cámara";
+"CHAT_PERMISSION_CONTINUE" = "Continuar";
+"CHAT_PERMISSION_DENY" = "Rechazar";
+"CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_SUBTITLE_DENIED" = "Abre la configuración para activar el micrófono";
+"CHAT_PERMISSION_NOTIFICATIONS_SUBTITLE_DENIED" = "Abre Configuración para activar las notificaciones";
+"CHAT_PERMISSION_OPEN_SETTINGS" = "Abrir configuración";
+"CHAT_PERMISSION_PHOTOS_SUBTITLE_DENIED" = "Abre la configuración para activar la biblioteca de fotos";

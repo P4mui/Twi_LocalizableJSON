@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Peru julkaisu";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Jatka lähettämistä";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Käy kohdassa iOS:n Asetukset > Tietosuoja > Sijaintipalvelut salliaksesi sijaintisi käyttö X:lle.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Salli X:n käyttää sijaintiasi";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Päivitä X-sovellus uudempaan versioon, jotta saat ominaisuuden käyttöön. Avaa X-sovellus ja lue lisää";
+"SHARE_EXT_NONE_VALUE" = "Ei mitään";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Yhtään X-tiliä ei ole määritetty. Voit luoda tilin tai kirjautua tilille X-sovelluksessa.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Ei X-tiliä";
+"SHARE_EXT_REMOVE" = "Poista";
+"SHARE_EXT_STATUS_FINALIZING" = "Viimeistellään...";
+"SHARE_EXT_STATUS_PREPARING" = "Valmistellaan…";
+"SHARE_EXT_STATUS_SENDING" = "Lähetetään…";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Vaihda tiliä";
+"SHARE_EXT_TAG_LOCATION" = "Merkitse sijainti";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Julkaisun lähetys epäonnistui";

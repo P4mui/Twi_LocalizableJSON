@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "คัดลอกลิงก์";
+"CALL_ACTION_FLIP_CAMERA" = "กลับด้านกล้อง";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "ยกเลิก";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "สิ้นสุดและเริ่มต้น";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "วางสายปัจจุบันเพื่อรับสายนี้ใช่ไหม";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "คุณอยู่ในสายแล้ว";
+"CALL_ENDED_TITLE" = "สิ้นสุดการโทร";
+"CALL_ERROR_UNAVAILABLE" = "ไม่สามารถโทรได้ โปรดลองอีกครั้ง";
+"CALL_LINK_TITLE" = "โทร";
+"CALL_PARTICIPANT_GUEST_LABEL" = "ผู้เยี่ยมชม";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (คุณ)";
+"CALL_REACTION_SELF_LABEL" = "คุณ";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ กำลังนำเสนอ";
+"CALL_STATE_CONNECTING" = "กำลังเชื่อมต่อ...";
+"CALL_STATE_RECONNECTING" = "กำลังเชื่อมต่ออีกครั้ง...";

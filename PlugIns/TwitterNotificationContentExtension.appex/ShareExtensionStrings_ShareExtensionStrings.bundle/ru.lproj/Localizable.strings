@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Отменить пост";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Продолжить отправку";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Включите геолокацию на вкладке «Приватность» в настройках iOS, чтобы позволить X определять ваше местоположение.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Разрешите X определять ваше местоположение";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Чтобы использовать эту функцию, обновите X. Подробные сведения см. в приложении X.";
+"SHARE_EXT_NONE_VALUE" = "Нет";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Настроенных учетных записей X нет. Вы можете создать учетную запись или выполнить вход в приложении X.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Учетных записей X нет";
+"SHARE_EXT_REMOVE" = "Удалить";
+"SHARE_EXT_STATUS_FINALIZING" = "Завершение...";
+"SHARE_EXT_STATUS_PREPARING" = "Подготовка...";
+"SHARE_EXT_STATUS_SENDING" = "Отправка...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Сменить учетную запись";
+"SHARE_EXT_TAG_LOCATION" = "Отметить местоположение";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Не удалось отправить пост";

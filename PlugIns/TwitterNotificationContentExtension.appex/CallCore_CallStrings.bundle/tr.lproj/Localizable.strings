@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "Bağlantıyı Kopyala";
+"CALL_ACTION_FLIP_CAMERA" = "Kamerayı Çevir";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "İptal";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "Bitiş ve başlangıç";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "Mevcut görüşmeyi sonlandırıp bu görüşmeyi başlatmak ister misiniz?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "Zaten bir görüşmedesin";
+"CALL_ENDED_TITLE" = "Çağrı sona erdi";
+"CALL_ERROR_UNAVAILABLE" = "Çağrı yapılamıyor. Lütfen tekrar dene.";
+"CALL_LINK_TITLE" = "Arama";
+"CALL_PARTICIPANT_GUEST_LABEL" = "Misafir";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (Sen)";
+"CALL_REACTION_SELF_LABEL" = "Sen";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ sunuyor";
+"CALL_STATE_CONNECTING" = "Bağlanıyor...";
+"CALL_STATE_RECONNECTING" = "Yeniden bağlantı kuruluyor…";

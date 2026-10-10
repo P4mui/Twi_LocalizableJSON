@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "%@ ಹಿಂದೆ";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "ಪ್ರಸಾರ ಮುಗಿದಿದೆ";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "ಖಾತೆಗಳ ಬ್ರಾಡ್‌ಕಾಸ್ಟ್ ಮಾಡುವವರು ಹಿಂಬಾಲಿಸುತ್ತಾರೆ";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "ಕೆಲವು ಖಾತೆಗಳು ಮಾತ್ರ ಪ್ರತಿಕ್ರಿಯಿಸಬಹುದು";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "ಚಾಟ್ ಮಾಡಲು ಯಾವುದೇ ಸವಲತ್ತುಗಳಿಲ್ಲ";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "ಬ್ರಾಡ್‌ಕಾಸ್ಟ್ ಮಾಡುವವರಿಂದ ಸೀಮಿತವಾಗಿದೆ";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "ಬ್ರಾಡ್‌ಕಾಸ್ಟ್ ಮಾಡುವವರ ಸಬ್‌ಸ್ಕ್ರೈಬರ್‌ಗಳು";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "ಚಾಟ್ ಮಾಡಲು %@ ಗೆ ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ";
+"PERISCOPE_LIVE_CHAT_LABEL" = "ಲೈವ್ ಚಾಟ್";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "ಚಾಟ್ ಸಂದೇಶಗಳು ಇಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ ಸ್ಟ್ರೀಮಿಂಗ್ ಪ್ರಾರಂಭಿಸಲಾಗಿದೆ · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "ಲೈವ್ ಚಾಟ್";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "ಸಂದೇಶ ಕಳುಹಿಸಿ";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "ಒಟ್ಟು ವೀಕ್ಷಣೆಗಳು";
+"PERISCOPE_TOTAL_VIEW_STRING" = "ಒಟ್ಟು ವೀಕ್ಷಣೆ";

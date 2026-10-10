@@ -1,0 +1,6 @@
+"FACE_LIVENESS_CONTINUE_BUTTON" = "Folytatás";
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Kamera engedélyezése";
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "A folytatással hozzájárulsz biometrikus adataid feldolgozásához.";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Tudj meg többet!";
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "A fényképedet rövid időre elküldjük az AWS-nek kizárólag annak ellenőrzésére, hogy nem vagy robot. A fényképedet soha nem küldjük el az X-nek, 3 percen belül töröljük, és nem értékesítjük, illetve más célra sem használjuk.";
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Helyezd az arcod a körbe!";

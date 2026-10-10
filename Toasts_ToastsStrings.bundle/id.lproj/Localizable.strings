@@ -1,0 +1,7 @@
+"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ telah diblokir";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Notifikasi dibisukan untuk percakapan ini";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Notifikasi dibunyikan untuk percakapan ini";
+"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ telah dibisukan";
+"TOASTS_GENERAL_UNDO_LABEL" = "Batalkan";
+"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ tidak lagi diblokir";
+"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ telah dibunyikan";

@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "@Grok이 이 콘텐츠를 수정하지 못하도록 하기";
+"BLOCK_GROK_TITLE" = "Grok의 수정 차단";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "카테고리를 선택하면 X에서 이 게시물에 콘텐츠 경고를 표시합니다. 그러면 이러한 콘텐츠를 보고 싶지 않은 사용자가 이를 피할 수 있습니다.";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "이 게시물에 콘텐츠 경고 표시하기";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "콘텐츠 설정";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "사용 설정하면 사용자들이 내 동영상을 다운로드할 수 있습니다.";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "동영상 다운로드 허용";

@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "Kopiuj link";
+"CALL_ACTION_FLIP_CAMERA" = "Obróć kamerę";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "Anuluj";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "Zakończ i rozpocznij";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "Zakończyć bieżące połączenie, aby rozpocząć to połączenie?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "Bierzesz już udział w połączeniu";
+"CALL_ENDED_TITLE" = "Połączenie zostało zakończone";
+"CALL_ERROR_UNAVAILABLE" = "Połączenie jest niedostępne. Spróbuj ponownie.";
+"CALL_LINK_TITLE" = "Zadzwoń";
+"CALL_PARTICIPANT_GUEST_LABEL" = "Gość";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (Ty)";
+"CALL_REACTION_SELF_LABEL" = "Ty";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ przedstawia";
+"CALL_STATE_CONNECTING" = "Trwa łączenie…";
+"CALL_STATE_RECONNECTING" = "Trwa ponowne nawiązywanie połączenia...";

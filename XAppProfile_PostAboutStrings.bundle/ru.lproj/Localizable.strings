@@ -1,0 +1,11 @@
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "Спросите Grok";
+"POST_ABOUT_AUTHOR_BASED_IN_LABEL" = "Из %1$@";
+"POST_ABOUT_AUTHOR_BASED_IN_WITH_PLATFORM_LABEL" = "Находится в %1$@ · %2$@";
+"POST_ABOUT_BLOCK_AUTHOR" = "Внести %1$@ в черный список";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "Больше";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "Другие действия";
+"POST_ABOUT_MUTE_AUTHOR" = "Игнорировать %1$@";
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "Показать больше";
+"POST_ABOUT_TRAY_TITLE" = "Об этом посте";
+"POST_ABOUT_UNBLOCK_AUTHOR" = "Убрать %1$@ из черного списка";
+"POST_ABOUT_UNMUTE_AUTHOR" = "Не игнорировать %1$@";

@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "ダウンロードがキャンセルされました";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "[オフライン] にダウンロードできません";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "ダウンロードはまだありません";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "オフライン動画はありません";
+"OFFLINE_REMOVE_ALL" = "すべて削除";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "タイムラインにダウンロードボタンを表示する";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "[オフライン] タブに動画をダウンロードしました";

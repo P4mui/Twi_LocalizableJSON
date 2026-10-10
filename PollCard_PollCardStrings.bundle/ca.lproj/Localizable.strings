@@ -1,0 +1,5 @@
+"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Resultats finals";
+"POLL_CARD_DISPLAY_POLL_ENDING" = "L'enquesta està finalitzant...";
+"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@ ha marxat";
+"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
+"POLL_CARD_VOTE_SUBMISSION_FAILED" = "No s'ha pogut enviar el vot. Torna-ho a intentar.";

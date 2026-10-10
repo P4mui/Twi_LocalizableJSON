@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Anulează postarea";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Trimite totuși";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Accesează Configurări iOS > Intimitate > Servicii de localizare pentru a permite ca X să îți acceseze locația.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Permite ca X să îți acceseze locația";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Actualizează-ți versiunea de X ca să folosești această funcție. Deschide aplicația X pentru a afla mai multe";
+"SHARE_EXT_NONE_VALUE" = "Niciunul";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Nu există conturi X configurate. Poți crea un cont nou sau te poți conecta la unul în aplicația X.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Niciun cont X";
+"SHARE_EXT_REMOVE" = "Elimină";
+"SHARE_EXT_STATUS_FINALIZING" = "Se finalizează...";
+"SHARE_EXT_STATUS_PREPARING" = "Se pregătește...";
+"SHARE_EXT_STATUS_SENDING" = "Se trimite...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Comută între conturi";
+"SHARE_EXT_TAG_LOCATION" = "Etichetează locația";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Postarea nu s-a trimis";

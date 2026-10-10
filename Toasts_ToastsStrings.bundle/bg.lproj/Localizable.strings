@@ -1,0 +1,7 @@
+"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Потребителят %@ е блокиран";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Известията за този разговор са заглушени";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Заглушаването на известията за този разговор е спряно";
+"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Потребителят %@ е заглушен";
+"TOASTS_GENERAL_UNDO_LABEL" = "Отмяна на";
+"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Потребителят %@ е разблокиран";
+"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Заглушаването на потребителя %@ е спряно";

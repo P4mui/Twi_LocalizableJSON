@@ -1,0 +1,5 @@
+"POLL_CARD_DISPLAY_FINAL_RESULTS" = "ಅಂತಿಮ ಫಲಿತಾಂಶಗಳು";
+"POLL_CARD_DISPLAY_POLL_ENDING" = "ಮತಗಣನೆ ಮುಕ್ತಾಯಗೊಳ್ಳುತ್ತದೆ…";
+"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@ ತೊರೆದಿದ್ದಾರೆ";
+"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
+"POLL_CARD_VOTE_SUBMISSION_FAILED" = "ಮತ ಸಲ್ಲಿಕೆ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.";

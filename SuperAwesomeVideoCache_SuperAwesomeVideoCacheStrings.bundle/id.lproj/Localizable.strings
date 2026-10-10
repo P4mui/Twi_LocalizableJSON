@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Unduhan dibatalkan";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Pengunduhan ke Offline gagal";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Belum ada yang diunduh";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Anda tidak memiliki video offline";
+"OFFLINE_REMOVE_ALL" = "Hapus semua";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Tampilkan tombol unduh pada timeline";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Video diunduh ke Offline";

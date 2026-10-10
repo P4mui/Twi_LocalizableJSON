@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "पोस्ट रद्द करें";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "भेजना जारी रखें";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "कृपया अपने स्थान तक X को पहुंचने की अनुमति देने के लिए iOS सेटिंग्स > गोपनीयता > स्थान सेवाएं पर जाएं.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "X को आपके स्थान का उपयोग करने की अनुमति दें";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "कृपया इस फ़ीचर का उपयोग करने के लिए X के अपने संस्करण को अपडेट करें. अधिक जानने के लिए X ऐप खोलें";
+"SHARE_EXT_NONE_VALUE" = "कोई नहीं";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "कोई भी X खाता कॉन्फ़िगर नहीं किया गया है. आप X ऐप में कोई खाता बना सकते हैं या उसमें लॉगिन कर सकते हैं.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "कोई X खाता मौजूद नहीं है";
+"SHARE_EXT_REMOVE" = "हटाएँ";
+"SHARE_EXT_STATUS_FINALIZING" = "अंतिम रूप दिया जा रहा है...";
+"SHARE_EXT_STATUS_PREPARING" = "तैयार किया जा रहा है...";
+"SHARE_EXT_STATUS_SENDING" = "भेजा जा रहा है...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "खाते बदलें";
+"SHARE_EXT_TAG_LOCATION" = "स्थान टैग करें";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "पोस्ट भेजा नहीं जा सका";

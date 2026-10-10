@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "%@ geleden";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "Uitzending beëindigd";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "Accounts die uitzender volgt";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "Alleen bepaalde accounts kunnen chatten";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "Geen privileges om te chatten";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "Beperkt door uitzender";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "Abonnees van uitzender";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "Abonneer je op %@ om te chatten";
+"PERISCOPE_LIVE_CHAT_LABEL" = "Live-chat";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "Chatberichten verschijnen hier";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ Is begonnen met streamen · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "Live chat";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "Stuur een bericht";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "TOTALE AANTAL WEERGAVEN";
+"PERISCOPE_TOTAL_VIEW_STRING" = "TOTALE AANTAL WEERGAVEN";

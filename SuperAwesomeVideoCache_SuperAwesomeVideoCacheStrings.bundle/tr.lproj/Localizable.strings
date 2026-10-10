@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "İndirme iptal edildi";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Çevrimdışı sekmesine indirilemedi";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Henüz hiçbir şey indirilmedi";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Hiç çevrimdışı videon yok";
+"OFFLINE_REMOVE_ALL" = "Tümünü Kaldır";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Zaman akışlarında bir indirme butonu göster";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Video, Çevrim Dışı sekmesine indirildi";

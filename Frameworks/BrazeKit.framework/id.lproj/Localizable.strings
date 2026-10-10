@@ -1,0 +1,10 @@
+"braze.push.action.accept" = "Setuju";
+"braze.push.action.cancel" = "Membatal";
+"braze.push.action.confirm" = "Memastikan";
+"braze.push.action.decline" = "Tidak setuju";
+"braze.push.action.gotoapp" = "Buka Aplikasi";
+"braze.push.action.more" = "Lebih";
+"braze.push.action.next" = "Berikutnya";
+"braze.push.action.no" = "Tidak";
+"braze.push.action.yes" = "Ya";
+"braze.webview.no-connection" = "Tidak bisa melakukan koneksi jaringan. Coba lagi nanti.";

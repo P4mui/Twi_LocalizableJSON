@@ -1,0 +1,7 @@
+"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "S'ha blocat %@";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "S'han silenciat les notificacions de la conversa";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "S'han deixat de silenciar les notificacions de la conversa";
+"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "S'ha silenciat %@";
+"TOASTS_GENERAL_UNDO_LABEL" = "Desfés";
+"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "S'ha desblocat %@";
+"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "S'ha deixat de silenciar %@";

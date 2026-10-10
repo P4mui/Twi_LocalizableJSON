@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Batalkan postingan";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Tetap mengirim";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Kunjungi Pengaturan iOS > Privasi > Layanan Lokasi untuk mengizinkan X mengakses lokasi Anda.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Izinkan X untuk mengakses lokasi Anda";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Harap perbarui versi X untuk menggunakan fitur ini. Buka aplikasi X untuk mempelajari lebih lanjut";
+"SHARE_EXT_NONE_VALUE" = "Tidak ada";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Tidak ada akun X yang dikonfigurasi. Anda dapat membuat atau masuk ke akun di aplikasi X.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Tidak Ada Akun X";
+"SHARE_EXT_REMOVE" = "Hapus";
+"SHARE_EXT_STATUS_FINALIZING" = "Menyelesaikan…";
+"SHARE_EXT_STATUS_PREPARING" = "Menyiapkan…";
+"SHARE_EXT_STATUS_SENDING" = "Mengirim...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Pindah akun";
+"SHARE_EXT_TAG_LOCATION" = "Tandai lokasi";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Postingan gagal terkirim";

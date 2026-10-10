@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "@Grokによるこのコンテンツの変更を防ぐ";
+"BLOCK_GROK_TITLE" = "Grokによる修正をブロックする";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "カテゴリーを選択してください。このポストに内容の警告が設定されます。これにより、ユーザーが見たくない内容を避けられるようになります。";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "このポストに内容の警告を設定する";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "コンテンツの設定";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "有効にすると、動画がダウンロード可能になります。";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "動画のダウンロードを許可する";

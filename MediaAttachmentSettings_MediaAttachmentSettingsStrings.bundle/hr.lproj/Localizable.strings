@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "Spriječite da @Grok mijenja ovaj sadržaj";
+"BLOCK_GROK_TITLE" = "Blokirajte izmjene značajke Grok";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Odaberite kategoriju i na tu ćemo objavu postaviti upozorenje o sadržaju. Na taj je način korisnici koji ga ne žele vidjeti mogu izbjeći.";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Postavite upozorenje o sadržaju na tu objavu";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Postavke sadržaja";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Kada se omogući, videozapis će biti dostupan za preuzimanje.";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Dopusti preuzimanje videozapisa";

@@ -1,0 +1,5 @@
+"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Hasil akhir";
+"POLL_CARD_DISPLAY_POLL_ENDING" = "Jajak pendapat berakhir…";
+"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "Tersisa %@";
+"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
+"POLL_CARD_VOTE_SUBMISSION_FAILED" = "Pengiriman voting gagal. Silakan coba lagi.";

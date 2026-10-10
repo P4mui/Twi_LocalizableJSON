@@ -1,0 +1,11 @@
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "לשאול את Grok";
+"POST_ABOUT_AUTHOR_BASED_IN_LABEL" = "מיקום: %1$@";
+"POST_ABOUT_AUTHOR_BASED_IN_WITH_PLATFORM_LABEL" = "נמצא ב-%1$@ · %2$@";
+"POST_ABOUT_BLOCK_AUTHOR" = "חסום את %1$@";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "עוד";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "פעולות נוספות";
+"POST_ABOUT_MUTE_AUTHOR" = "השתק את %1$@";
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "הצגת עוד";
+"POST_ABOUT_TRAY_TITLE" = "אודות הפוסט";
+"POST_ABOUT_UNBLOCK_AUTHOR" = "שחרר את %1$@";
+"POST_ABOUT_UNMUTE_AUTHOR" = "בטל את ההשתקה של %1$@";

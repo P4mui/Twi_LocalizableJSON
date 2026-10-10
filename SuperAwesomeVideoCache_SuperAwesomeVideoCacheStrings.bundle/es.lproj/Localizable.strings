@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Descarga cancelada";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "No se ha podido descargar para usar sin conexión";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Aún no se ha descargado nada";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "No tienes videos sin conexión";
+"OFFLINE_REMOVE_ALL" = "Eliminar todo";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Mostrar el botón de descarga en las cronologías";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Video descargado para usar sin conexión";

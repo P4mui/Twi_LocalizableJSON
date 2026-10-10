@@ -1,0 +1,11 @@
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "از Grok بپرسید";
+"POST_ABOUT_AUTHOR_BASED_IN_LABEL" = "مستقر در %1$@";
+"POST_ABOUT_AUTHOR_BASED_IN_WITH_PLATFORM_LABEL" = "در %1$@ مستقر است. %2$@";
+"POST_ABOUT_BLOCK_AUTHOR" = "مسدودسازی %1$@";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "موارد بیشتر";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "اقدامات بیشتر";
+"POST_ABOUT_MUTE_AUTHOR" = "خموش‌سازی %1$@";
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "نشان دادن موارد بیشتر";
+"POST_ABOUT_TRAY_TITLE" = "درباره این پست";
+"POST_ABOUT_UNBLOCK_AUTHOR" = "عدم انسداد %1$@";
+"POST_ABOUT_UNMUTE_AUTHOR" = "گویاسازی %1$@";

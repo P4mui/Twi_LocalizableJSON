@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "Salin Pautan";
+"CALL_ACTION_FLIP_CAMERA" = "Balikkan Kamera";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "Batal";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "Tamat &amp; mula";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "Tamatkan panggilan semasa untuk memulakan panggilan ini?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "Anda sudah pun dalam panggilan";
+"CALL_ENDED_TITLE" = "Panggilan tamat";
+"CALL_ERROR_UNAVAILABLE" = "Panggilan tidak tersedia. Sila cuba lagi.";
+"CALL_LINK_TITLE" = "Panggilan";
+"CALL_PARTICIPANT_GUEST_LABEL" = "Tetamu";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (Anda)";
+"CALL_REACTION_SELF_LABEL" = "Anda";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ sedang membentangkan";
+"CALL_STATE_CONNECTING" = "Menyambungkan…";
+"CALL_STATE_RECONNECTING" = "Menyambung semula…";

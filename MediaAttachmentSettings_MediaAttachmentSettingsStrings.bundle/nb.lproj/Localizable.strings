@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "Hindre @Grok i å endre dette innholdet";
+"BLOCK_GROK_TITLE" = "Blokkmodifikasjoner av Grok";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Velg en kategori, så setter vi en innholdsadvarsel på dette innlegget. Dette hjelper andre å unngå innhold de ikke ønsker å se.";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Sett en innholdsadvarsel på dette innlegget";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Innholdsinnstillinger";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Når dette aktiveres, kan videoen din lastes ned.";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Tillat at videoen lastes ned";

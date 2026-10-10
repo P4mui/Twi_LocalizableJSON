@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Đã hủy tải xuống";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Tải xuống ngoại tuyến thất bại";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Chưa tải xuống video nào";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Bạn chưa có video ngoại tuyến nào";
+"OFFLINE_REMOVE_ALL" = "Xóa tất cả";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Hiển thị nút tải xuống trên các dòng thời gian";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Đã tải video để xem ngoại tuyến";

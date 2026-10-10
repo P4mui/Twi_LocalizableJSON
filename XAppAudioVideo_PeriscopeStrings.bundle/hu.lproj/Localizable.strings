@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "Ennyivel ezelőtt: %@";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "A közvetítés befejeződött";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "A közvetítő fiókjának követői";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "Csak bizonyos fiókok cseveghetnek";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "Nincs csevegési jogosultságod";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "Közvetítő által korlátozva";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "A közvetítő előfizetői";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "A csevegéshez fizess elő a %@ra!";
+"PERISCOPE_LIVE_CHAT_LABEL" = "Élő csevegés";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "Itt jelennek meg a csevegőüzenetek";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ streamelni kezdett · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "Élő csevegés";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "Üzenet küldése";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "ÖSSZES MEGTEKINTÉS";
+"PERISCOPE_TOTAL_VIEW_STRING" = "ÖSSZES MEGTEKINTÉS";

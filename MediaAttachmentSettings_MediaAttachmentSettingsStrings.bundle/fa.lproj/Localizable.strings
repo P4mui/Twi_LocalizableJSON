@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "جلوگیری از تغییر این محتوا توسط ‎@Grok";
+"BLOCK_GROK_TITLE" = "مسدودسازی تغییرات توسط Grok";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "دسته‌ای را انتخاب کنید، و ما روی این پست هشدار محتوا می‌گذاریم. این کار به افراد کمک می‌کند از محتوایی که نمی‌خواهند ببینند پرهیز کنند.";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "گذاشتن هشدار محتوا روی این پست";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "تنظیمات محتوا";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "اگر فعال شود، ویدئوی شما برای بارگیری دردسترس خواهد بود.";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "اجازه برای بارگیری ویدئو";

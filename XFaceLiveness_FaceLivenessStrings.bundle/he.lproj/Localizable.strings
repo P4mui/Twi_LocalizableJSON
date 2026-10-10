@@ -1,0 +1,6 @@
+"FACE_LIVENESS_CONTINUE_BUTTON" = "המשך";
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "הפעל מצלמה";
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "המשך השימוש מהווה את הסכמתך לעיבוד נתונים ביומטריים.";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "מידע נוסף";
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "אנחנו נשלח את התמונה לפרק זמן קצר אל AWS בלבד כדי לאמת את כך שאינך תוכנית Bot. התמונה לעולם לא תישלח אל X, תימחק תוך 3 דקות, לא תימכר ולא לא ייעשה בה כל שימוש אחר.";
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "שם את הפנים בתוך העיגול";

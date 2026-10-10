@@ -1,0 +1,11 @@
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "Kérdezz a Groktól";
+"POST_ABOUT_AUTHOR_BASED_IN_LABEL" = "Lakhely: %1$@";
+"POST_ABOUT_AUTHOR_BASED_IN_WITH_PLATFORM_LABEL" = "Lakhely: %1$@ · %2$@";
+"POST_ABOUT_BLOCK_AUTHOR" = "%1$@ letiltása";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "Továbbiak";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "További műveletek";
+"POST_ABOUT_MUTE_AUTHOR" = "%1$@ elnémítása";
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "Több mutatása";
+"POST_ABOUT_TRAY_TITLE" = "A bejegyzésről";
+"POST_ABOUT_UNBLOCK_AUTHOR" = "%1$@ letiltásának feloldása";
+"POST_ABOUT_UNMUTE_AUTHOR" = "%1$@ némításának feloldása";

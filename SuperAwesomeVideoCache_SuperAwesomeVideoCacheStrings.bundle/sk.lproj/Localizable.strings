@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Sťahovanie bolo zrušené";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Nestiahlo sa na kartu Offline";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Zatiaľ ste si nič nestiahli";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Nemáte žiadne offline videá";
+"OFFLINE_REMOVE_ALL" = "Odstrániť všetko";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Zobrazovať tlačidlo stiahnutia na časových osiach";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Video stiahnuté na kartu Offline";

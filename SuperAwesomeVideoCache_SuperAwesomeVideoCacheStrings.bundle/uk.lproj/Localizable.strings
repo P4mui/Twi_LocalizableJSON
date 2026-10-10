@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Завантаження скасовано";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Не вдалося завантажити офлайн";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Поки нічого не завантажено";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "У вас немає офлайн-відео";
+"OFFLINE_REMOVE_ALL" = "Видалити всі";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Показувати кнопку завантаження у стрічках";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Відео завантажено на вкладку «Офлайн»";

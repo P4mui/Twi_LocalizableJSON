@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Zrušiť príspevok";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Ponechať odosielanie";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "V systéme iOS prejdite na položky Nastavenia > Súkromie > Lokalizačné služby a umožnite apke X prístup k informáciám o vašej polohe.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Povoľte apke X prístup k vašej polohe";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Ak chcete používať túto funkciu, aktualizujte si verziu X. Otvorte apku X a zistite viac.";
+"SHARE_EXT_NONE_VALUE" = "Žiadne";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Nie sú nakonfigurované žiadne účty X. Účet môžete vytvoriť alebo sa doň prihlásiť v apke X.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Nemáte účet v apke X";
+"SHARE_EXT_REMOVE" = "Odstrániť";
+"SHARE_EXT_STATUS_FINALIZING" = "Dokončuje sa...";
+"SHARE_EXT_STATUS_PREPARING" = "Pripravuje sa...";
+"SHARE_EXT_STATUS_SENDING" = "Odosiela sa…";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Prepnúť účty";
+"SHARE_EXT_TAG_LOCATION" = "Označiť polohu";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Príspevok sa nepodarilo odoslať";

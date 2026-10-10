@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Descărcarea a fost anulată";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Descărcarea în videoclipurile offline a eșuat";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Nu ai descărcat nimic deocamdată";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Nu ai videoclipuri offline";
+"OFFLINE_REMOVE_ALL" = "Elimină tot";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Afișarea unui buton pentru descărcare în cronologii";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Videoclipul s-a descărcat în Offline";

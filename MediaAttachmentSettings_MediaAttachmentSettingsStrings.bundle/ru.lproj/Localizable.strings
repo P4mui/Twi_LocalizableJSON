@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "Запретить @Grok изменять этот контент";
+"BLOCK_GROK_TITLE" = "Блокировать изменения со стороны Grok";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Выберите категорию, и мы добавим к вашему посту предупреждение. Это дает пользователям возможность избегать контента, который они не хотят видеть.";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Добавьте к этому посту предупреждение";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Настройки контента";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Если включить этот параметр, ваше видео можно будет скачивать.";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Разрешить скачивать видео";

@@ -1,0 +1,6 @@
+"FACE_LIVENESS_CONTINUE_BUTTON" = "Pokračovat";
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Zapnout fotoaparát";
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Pokračováním souhlasíte se zpracováním biometrických údajů.";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Další informace";
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Vaši fotografii krátkodobě odešleme do služby AWS pouze za účelem ověření, že nejste robot. Vaše fotografie nebude nikdy odeslána na platformu X, bude smazána do 3 minut a nebude prodána ani použita k žádnému jinému účelu.";
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Umístěte obličej do kruhu";

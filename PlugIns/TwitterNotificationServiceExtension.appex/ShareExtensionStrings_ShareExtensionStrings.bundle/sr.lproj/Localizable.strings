@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Откажи објаву";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Настави слање";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Иди у мени Подешавања за iOS > Приватност > Услуге локације и омогући апликацији X да приступа твојој локацији.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Дозволи апликацији X да приступа твојој локацији";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Ажурирај своју верзију апликације X ако желиш да користиш ову функцију. Отвори апликацију X и сазнај више";
+"SHARE_EXT_NONE_VALUE" = "Ниједан";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Ниједан X налог није конфигурисан. Можеш да направиш налог у апликацији X или да се пријавиш на постојећи.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Нема X налога";
+"SHARE_EXT_REMOVE" = "Уклони";
+"SHARE_EXT_STATUS_FINALIZING" = "Довршавање…";
+"SHARE_EXT_STATUS_PREPARING" = "Припремање…";
+"SHARE_EXT_STATUS_SENDING" = "Слање...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Замени налоге";
+"SHARE_EXT_TAG_LOCATION" = "Означи локацију";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Слање објаве није успело";

@@ -1,0 +1,11 @@
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "Chiedi a Grok";
+"POST_ABOUT_AUTHOR_BASED_IN_LABEL" = "Presso %1$@";
+"POST_ABOUT_AUTHOR_BASED_IN_WITH_PLATFORM_LABEL" = "Posizione: %1$@ · %2$@";
+"POST_ABOUT_BLOCK_AUTHOR" = "Blocca %1$@";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "Altro";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "Altre azioni";
+"POST_ABOUT_MUTE_AUTHOR" = "Silenzia %1$@";
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "Mostra altro";
+"POST_ABOUT_TRAY_TITLE" = "Informazioni sul post";
+"POST_ABOUT_UNBLOCK_AUTHOR" = "Sblocca %1$@";
+"POST_ABOUT_UNMUTE_AUTHOR" = "Riattiva %1$@";

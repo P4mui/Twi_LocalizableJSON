@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "For %@ siden";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "Sendingen er ferdig";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "Kontoer som kringkasteren følger";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "Kun noen kontoer kan nettprate";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "Ikke tillatelse til å nettprate";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "Begrenset av kringkasteren";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "Kringkasterens abonnenter";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "Abonner på %@ for å nettprate";
+"PERISCOPE_LIVE_CHAT_LABEL" = "Nettprat i sanntid";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "Nettpratmeldinger vises her";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ startet strømming · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "Direktenettprat";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "Send en melding";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "VISNINGER TOTALT";
+"PERISCOPE_TOTAL_VIEW_STRING" = "VISNING TOTALT";

@@ -1,0 +1,11 @@
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "Питај Grok";
+"POST_ABOUT_AUTHOR_BASED_IN_LABEL" = "Са седиштем у %1$@";
+"POST_ABOUT_AUTHOR_BASED_IN_WITH_PLATFORM_LABEL" = "Локација: %1$@ · %2$@";
+"POST_ABOUT_BLOCK_AUTHOR" = "Блокирај корисника %1$@";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "Више";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "Више радњи";
+"POST_ABOUT_MUTE_AUTHOR" = "Игнориши корисника %1$@";
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "Прикажи још";
+"POST_ABOUT_TRAY_TITLE" = "Основни подаци о овој објави";
+"POST_ABOUT_UNBLOCK_AUTHOR" = "Одблокирај корисника %1$@";
+"POST_ABOUT_UNMUTE_AUTHOR" = "Не игнориши корисника %1$@";

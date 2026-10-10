@@ -1,0 +1,7 @@
+"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ தடைசெய்யப்பட்டுள்ளார்";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "இந்த உரையாடலுக்கு அறிவிப்புகள் செயல்மறைக்கப்பட்டன";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "இந்த உரையாடலுக்கு அறிவிப்புகள் செயல்மறைவு நீக்கப்பட்டன";
+"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ செயல்மறைக்கப்பட்டுள்ளார்";
+"TOASTS_GENERAL_UNDO_LABEL" = "செயல்தவிர்";
+"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ தடைநீக்கப்பட்டுள்ளார்";
+"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ செயல்மறைவு நீக்கப்பட்டுள்ளார்";

@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "@Grok को इस सामग्री को संशोधित करने से रोकें";
+"BLOCK_GROK_TITLE" = "Grok द्वारा संशोधन किए जाने को ब्लॉक करें";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "एक श्रेणी चुनें, और हम इस पोस्ट में एक सामग्री संबंधी चेतावनी देंगे. इससे लोगों को ऐसी सामग्री देखने से बचने में मदद मिलती है जिसे वे नहीं देखना चाहते हैं.";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "इस पोस्ट में एक सामग्री चेतावनी दें";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "सामग्री सेटिंग्स";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "सक्षम होने पर, आपका वीडियो डाउनलोड करने के लिए उपलब्ध होगा.";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "वीडियो डाउनलोड करने की अनुमति दें";

@@ -1,0 +1,6 @@
+"FACE_LIVENESS_CONTINUE_BUTTON" = "繼續";
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "啟用相機";
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "如果繼續操作，即表示你同意我們處理你的生物辨識資料。";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "深入了解";
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "我們會快速將你的相片發送至 AWS，且僅用於驗證你不是機器人。你的相片絕不會發送至 X，並於 3 分鐘內刪除，且不會出售或用於任何其他用途。";
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "把你的臉放進圓圈";

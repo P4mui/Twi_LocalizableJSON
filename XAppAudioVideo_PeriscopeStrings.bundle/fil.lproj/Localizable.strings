@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "%@ ang nakalipas";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "Natapos na ang broadcast";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "Mga account na fina-follow ng broadcaster";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "Iilang account lang ang puwedeng mag-chat";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "Walang privilege na makapag-chat";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "Nililimitahan ng Broadcaster";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "Mga subscriber ng broadcaster";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "Mag-subscribe sa %@ para makapag-chat";
+"PERISCOPE_LIVE_CHAT_LABEL" = "Live chat";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "Makikita rito ang mga chat message";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "Nagsimula nang mag-stream si %1$@ · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "Live Chat";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "Magpadala ng message";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "KABUUANG MGA VIEW";
+"PERISCOPE_TOTAL_VIEW_STRING" = "KABUUANG VIEW";

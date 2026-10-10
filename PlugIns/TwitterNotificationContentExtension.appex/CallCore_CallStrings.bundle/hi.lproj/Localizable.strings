@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "लिंक कॉपी करें";
+"CALL_ACTION_FLIP_CAMERA" = "कैमरा फ्लिप करें";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "रद्द करें";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "समाप्त करें और शुरू करें";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "इसे शुरू करने के लिए मौजूदा कॉल को समाप्त करें?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "आप पहले से ही कॉल में हैं";
+"CALL_ENDED_TITLE" = "कॉल समाप्त";
+"CALL_ERROR_UNAVAILABLE" = "कॉल उपलब्ध नहीं है। कृपया फिर से कोशिश करें।";
+"CALL_LINK_TITLE" = "कॉल";
+"CALL_PARTICIPANT_GUEST_LABEL" = "गेस्ट";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (आप)";
+"CALL_REACTION_SELF_LABEL" = "आप";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ पेश कर रहा है";
+"CALL_STATE_CONNECTING" = "कनेक्ट किया जा रहा है…";
+"CALL_STATE_RECONNECTING" = "फिर से कनेक्ट हो रहा है";

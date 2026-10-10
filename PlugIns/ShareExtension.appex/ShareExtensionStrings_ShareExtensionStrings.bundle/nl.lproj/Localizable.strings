@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Annuleer post";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Verstuur toch";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Ga naar iOS-instellingen > Privacy > Locatieservices om X toe te staan je locatie te gebruiken.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Geef X toegang tot je locatie";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Werk je versie van X bij om deze functie te gebruiken. Open de X-app voor meer informatie";
+"SHARE_EXT_NONE_VALUE" = "Geen";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Er zijn geen X-accounts geconfigureerd. Je kan een account aanmaken of inloggen bij een account in de X app.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Geen X-account";
+"SHARE_EXT_REMOVE" = "Verwijder";
+"SHARE_EXT_STATUS_FINALIZING" = "Voltooien ...";
+"SHARE_EXT_STATUS_PREPARING" = "Voorbereiden ...";
+"SHARE_EXT_STATUS_SENDING" = "Versturen ...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Wissel accounts";
+"SHARE_EXT_TAG_LOCATION" = "Tag locatie";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Versturen van post mislukt";

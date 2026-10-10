@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Annulla post";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Continua a inviare";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Per permettere a X di accedere alla tua posizione, vai su Impostazioni > Privacy > Localizzazione.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Consenti a X di accedere alla tua posizione";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Per utilizzare questa funzione devi aggiornare la versione di X. Per saperne di più, apri l'app X.";
+"SHARE_EXT_NONE_VALUE" = "Niente";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Nessun account configurato. Usa l'app X per accedere a un account o crearne uno.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Nessun account X";
+"SHARE_EXT_REMOVE" = "Rimuovi";
+"SHARE_EXT_STATUS_FINALIZING" = "Finalizzazione in corso...";
+"SHARE_EXT_STATUS_PREPARING" = "Preparazione in corso...";
+"SHARE_EXT_STATUS_SENDING" = "Invio in corso...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Cambia account";
+"SHARE_EXT_TAG_LOCATION" = "Tagga posizione";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Errore durante l'invio del post";

@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Lataus peruutettu";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Offline-tilaan lataus epäonnistui";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Mitään ei vielä ole ladattu";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Sinulla ei ole offline-videoita";
+"OFFLINE_REMOVE_ALL" = "Poista kaikki";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Näytä lataa-painike aikajanoilla.";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Video ladattu offline-tilaan";

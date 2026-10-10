@@ -1,0 +1,6 @@
+"FACE_LIVENESS_CONTINUE_BUTTON" = "চালিয়ে যান";
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "ক্যামেরা সক্ষম করুন";
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "চালিয়ে যাওয়ার মাধ্যমে, আপনি বায়োমেট্রিক ডেটা প্রক্রিয়াকরণে সম্মতি দিচ্ছেন।";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "আরও জানুন";
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "আপনি কোনো বট নন, তাই আমরা আপনার ছবিটি শুধুমাত্র যাচাই করুন-এর জন্য অল্প সময়ের জন্য AWS-এ পাঠাব। আপনার ছবিটি কখনোই X-এ পাঠানো হয় না, ৩ মিনিটের মধ্যে মুছে ফেলা হয় এবং এটি বিক্রি বা অন্য কোনো উদ্দেশ্যে ব্যবহার করা হয় না।";
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "সার্কেল-এ আপনার মুখ দেখান";

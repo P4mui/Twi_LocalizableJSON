@@ -1,0 +1,11 @@
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "Hỏi Grok";
+"POST_ABOUT_AUTHOR_BASED_IN_LABEL" = "Đến từ %1$@";
+"POST_ABOUT_AUTHOR_BASED_IN_WITH_PLATFORM_LABEL" = "Có trụ sở tại %1$@ · %2$@";
+"POST_ABOUT_BLOCK_AUTHOR" = "Chặn %1$@";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "Thêm";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "Thao tác khác";
+"POST_ABOUT_MUTE_AUTHOR" = "Tắt tiếng %1$@";
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "Hiển thị thêm";
+"POST_ABOUT_TRAY_TITLE" = "Giới thiệu về bài đăng này";
+"POST_ABOUT_UNBLOCK_AUTHOR" = "Bỏ chặn %1$@";
+"POST_ABOUT_UNMUTE_AUTHOR" = "Bật tiếng %1$@";

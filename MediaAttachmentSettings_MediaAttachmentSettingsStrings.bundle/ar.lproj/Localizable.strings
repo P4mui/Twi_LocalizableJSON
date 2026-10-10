@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "منع @Grok من تعديل هذا المحتوى";
+"BLOCK_GROK_TITLE" = "حظر التعديلات بواسطة Grok";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "حدد فئةً، وسنضع تحذيرًا بشأن المحتوى على هذا المنشور. يساعد هذا الأمر الأشخاص في تجنب المحتوى الذي لا يريدون رؤيته.";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "وضع تحذير بشأن المحتوى على هذا المنشور";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "إعدادات المحتوى";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "عند تمكينه، سيكون الفيديو الخاص بك متاحًا للتنزيل.";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "السماح بتنزيل الفيديو";

@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Download cancelled";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Download to Offline failed";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Nothing downloaded yet";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "You don’t have any offline videos";
+"OFFLINE_REMOVE_ALL" = "Remove All";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Display download button on timelines";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Video downloaded to Offline";

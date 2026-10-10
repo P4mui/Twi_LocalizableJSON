@@ -1,0 +1,6 @@
+"FACE_LIVENESS_CONTINUE_BUTTON" = "Continuar";
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Activar cámara";
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Si sigues adelante, das tu consentimiento para el tratamiento de los datos biométricos.";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Obtener más información";
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Enviaremos brevemente tu foto a AWS para verificar que no eres un bot. Tu foto nunca se envía a X, se borra en menos de 3 minutos y no se vende ni se usa para ningún otro fin.";
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Pon tu cara en el círculo";

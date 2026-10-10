@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Η λήψη ακυρώθηκε";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Η λήψη εκτός σύνδεσης απέτυχε";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Τίποτα δεν έχει ληφθεί ακόμα";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Δεν έχετε βίντεο εκτός σύνδεσης";
+"OFFLINE_REMOVE_ALL" = "Αφαίρεση όλων";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Εμφάνιση κουμπιού λήψης στα χρονολόγια";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Λήψη βίντεο στην καρτέλα εκτός σύνδεσης";

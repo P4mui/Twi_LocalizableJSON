@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "منذ %@";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "انتهى البث";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "الحسابات التي يتابعها المذيع";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "يمكن لبعض الحسابات فقط الدردشة";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "لا توجد امتيازات للدردشة";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "محدود من قِبل المذيع";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "المشتركون لدى المذيع";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "الاشتراك في %@ للدردشة";
+"PERISCOPE_LIVE_CHAT_LABEL" = "الدردشة المباشرة";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "ستظهر رسائل الدردشة هنا";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "بدأ %1$@ البث المباشر · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "الدردشة المباشرة";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "إرسال رسالة";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "إجمالي المشاهدات";
+"PERISCOPE_TOTAL_VIEW_STRING" = "إجمالي المشاهدات";

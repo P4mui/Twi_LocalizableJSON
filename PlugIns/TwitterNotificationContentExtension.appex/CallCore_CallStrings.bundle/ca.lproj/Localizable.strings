@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "Copia l'enllaç";
+"CALL_ACTION_FLIP_CAMERA" = "Inverteix la càmera";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "Cancel·la";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "Final i inici";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "Vols finalitzar la trucada actual per iniciar aquesta?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "Ja estàs en una trucada";
+"CALL_ENDED_TITLE" = "Trucada finalitzada";
+"CALL_ERROR_UNAVAILABLE" = "La trucada no està disponible. Torna-ho a provar.";
+"CALL_LINK_TITLE" = "Trucada";
+"CALL_PARTICIPANT_GUEST_LABEL" = "Convidat";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (tu)";
+"CALL_REACTION_SELF_LABEL" = "Tu";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ està presentant";
+"CALL_STATE_CONNECTING" = "S'està connectant…";
+"CALL_STATE_RECONNECTING" = "S'està tornant a connectar…";

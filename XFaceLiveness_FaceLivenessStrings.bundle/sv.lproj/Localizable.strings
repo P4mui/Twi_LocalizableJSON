@@ -1,0 +1,6 @@
+"FACE_LIVENESS_CONTINUE_BUTTON" = "Fortsätt";
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Aktivera kameran";
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Genom att gå vidare samtycker du till behandling av biometriska uppgifter.";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Läs mer";
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Vi skickar kort ditt foto till AWS endast till att verifiera att du är inte en bot. Ditt foto skickas aldrig till X, raderas inom tre minuter och säljs eller används inte för något annat ändamål.";
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Placera ansiktet i cirkeln";

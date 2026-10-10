@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Kanseller innlegg";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Fortsett å sende";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Gå til iOS-innstillinger > Personvern > Posisjonstjenester for å gi X tilgang til posisjonen din.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Gi X tilgang til posisjonen din";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Oppdater X-versjonen for å bruke denne funksjonen. Åpne X-appen for å lese mer.";
+"SHARE_EXT_NONE_VALUE" = "Ingen";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Ingen X-kontoer er konfigurert. Du kan opprette eller logge deg inn på en konto i X-appen.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Ingen X-konto";
+"SHARE_EXT_REMOVE" = "Fjern";
+"SHARE_EXT_STATUS_FINALIZING" = "Fullfører …";
+"SHARE_EXT_STATUS_PREPARING" = "Forbereder …";
+"SHARE_EXT_STATUS_SENDING" = "Sender …";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Bytt konto";
+"SHARE_EXT_TAG_LOCATION" = "Tagg posisjon";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Innlegget kunne ikke sendes";

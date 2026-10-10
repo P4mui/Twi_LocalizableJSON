@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "Zapobiegaj modyfikowaniu tych treści przez @Groka";
+"BLOCK_GROK_TITLE" = "Zablokuj możliwość wprowadzania modyfikacji przez Groka";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Wybierz kategorię, a my dodamy do tego wpisu ostrzeżenie dotyczące treści. Pomaga to innym użytkownikom unikać treści, jakich nie chcą oglądać.";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Dodaj do tego wpisu ostrzeżenie dotyczące treści";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Ustawienia treści";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Po włączeniu tego ustawienia Twój film będzie dostępny do pobrania.";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Zezwalaj na pobieranie filmu";

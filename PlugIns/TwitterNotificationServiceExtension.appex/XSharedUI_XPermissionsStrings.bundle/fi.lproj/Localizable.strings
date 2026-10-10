@@ -1,0 +1,7 @@
+"CHAT_PERMISSION_CAMERA_SUBTITLE_DENIED" = "Ota kamera käyttöön asetuksista";
+"CHAT_PERMISSION_CONTINUE" = "Jatka";
+"CHAT_PERMISSION_DENY" = "Kiellä";
+"CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_SUBTITLE_DENIED" = "Ota mikrofoni käyttöön asetuksista";
+"CHAT_PERMISSION_NOTIFICATIONS_SUBTITLE_DENIED" = "Avaa asetukset ja ota ilmoitukset käyttöön";
+"CHAT_PERMISSION_OPEN_SETTINGS" = "Avaa asetukset";
+"CHAT_PERMISSION_PHOTOS_SUBTITLE_DENIED" = "Ota valokuvakirjasto käyttöön avaamalla asetukset";

@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Annuler le post";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Poursuivre l'envoi";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Allez dans Réglages > Confidentialité > Services de localisation pour autoriser X à déterminer votre localisation.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Autoriser X à accéder à votre localisation";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Veuillez mettre votre version de X à jour pour utiliser cette fonctionnalité. Ouvrez l'application X pour en savoir plus.";
+"SHARE_EXT_NONE_VALUE" = "Aucun";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Aucun compte X n'est configuré. Vous pouvez créer un compte ou vous connecter à un compte dans l'application X.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Pas de compte X";
+"SHARE_EXT_REMOVE" = "Supprimer";
+"SHARE_EXT_STATUS_FINALIZING" = "Finalisation…";
+"SHARE_EXT_STATUS_PREPARING" = "Préparation en cours…";
+"SHARE_EXT_STATUS_SENDING" = "Envoi en cours...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Changer de compte";
+"SHARE_EXT_TAG_LOCATION" = "Identifier un lieu";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Échec de l'envoi du post";

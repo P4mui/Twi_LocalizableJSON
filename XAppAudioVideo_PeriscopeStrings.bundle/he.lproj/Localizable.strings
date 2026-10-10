@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "לפני %@";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "השידור הסתיים";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "חשבונות שאחריהם המשדר עוקב";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "רק חלק מהחשבונות יכולים להשתתף בצ'אט";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "אין הרשאות צ'אט";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "הוגבל על ידי המשדר";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "מנויים של המשדר";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "הרשמה למינוי %@ כדי לשוחח בצ'אט";
+"PERISCOPE_LIVE_CHAT_LABEL" = "צ'אט בשידור חי";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "מסרים בצ'אט יוצגו כאן";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ החל סטרימינג · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "צ'אט בשידור חי";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "שלח מסר";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "סה\"כ צפיות";
+"PERISCOPE_TOTAL_VIEW_STRING" = "סה\"כ צפיות";

@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "%@ sedan";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "Sändningen avslutades";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "Konton sändaren följer";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "Bara vissa konton kan chatta";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "Inga privilegier att chatta";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "Begränsat av sändaren";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "Sändarens prenumeranter";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "Prenumerera på %@ om du vill chatta";
+"PERISCOPE_LIVE_CHAT_LABEL" = "Livechatt";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "Chattmeddelanden visas här";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ började streama · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "Livechatt";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "Skicka ett meddelande";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "TOTALA VISNINGAR";
+"PERISCOPE_TOTAL_VIEW_STRING" = "TOTAL VISNING";

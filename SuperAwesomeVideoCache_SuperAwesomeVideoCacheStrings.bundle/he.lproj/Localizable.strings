@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "ההורדה בוטלה";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "ההורדה למצב לא מקוון נכשלה";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "עדיין לא בוצעה אף הורדה";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "אין לך סרטונים שאינם ברשת";
+"OFFLINE_REMOVE_ALL" = "הסרת הכל";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "הצגת לחצן ההורדה בצירי הזמן";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "התבצעה הורדה של סרטון אל הכרטיסייה 'לא ברשת'";

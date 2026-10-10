@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "ยกเลิกการโพสต์";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "ส่งต่อไป";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "โปรดไปที่การตั้งค่า iOS > ความเป็นส่วนตัว > บริการหาตำแหน่ง เพื่ออนุญาตให้ \"X\" เข้าถึงตำแหน่งของคุณ";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "อนุญาตให้ X เข้าถึงตําแหน่งของคุณ";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "โปรดอัพเดตเวอร์ชัน X ของคุณเพื่อใช้คุณสมบัตินี้ เปิดแอพ X เพื่อเรียนรู้เพิ่มเติม";
+"SHARE_EXT_NONE_VALUE" = "ไม่มี";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "ไม่มีบัญชี X ที่กําหนดค่าไว้ คุณสามารถสร้างหรือเข้าสู่ระบบบัญชีในแอพ X ได้";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "ไม่มีบัญชี X";
+"SHARE_EXT_REMOVE" = "ลบออก";
+"SHARE_EXT_STATUS_FINALIZING" = "กำลังทำให้เสร็จสมบูรณ์…";
+"SHARE_EXT_STATUS_PREPARING" = "กำลังเตรียม…";
+"SHARE_EXT_STATUS_SENDING" = "กำลังส่ง…";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "สลับบัญชีผู้ใช้";
+"SHARE_EXT_TAG_LOCATION" = "แท็กตําแหน่ง";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "ไม่สามารถส่งโพสต์ได้";

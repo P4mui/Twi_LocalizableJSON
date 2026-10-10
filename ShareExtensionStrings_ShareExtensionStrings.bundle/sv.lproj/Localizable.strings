@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Lägg inte upp inlägget";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Fortsätt skicka";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Gå till Inställningar i iOS > Integritetsskydd > Platstjänster för att tillåta X att använda din position.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Tillåt X att få tillgång till din plats";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Uppdatera din version av X om du vill använda denna funktion. Öppna X-appen om du vill veta mer";
+"SHARE_EXT_NONE_VALUE" = "Inga";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Det finns inga konfigurerade X-konton. Du kan skapa eller logga in till ett konto i X-appen.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Inget X-konto";
+"SHARE_EXT_REMOVE" = "Ta bort";
+"SHARE_EXT_STATUS_FINALIZING" = "Slutför …";
+"SHARE_EXT_STATUS_PREPARING" = "Förbereder …";
+"SHARE_EXT_STATUS_SENDING" = "Skickar …";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Växla konto";
+"SHARE_EXT_TAG_LOCATION" = "Tagga plats";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Inlägget gick inte att skicka";

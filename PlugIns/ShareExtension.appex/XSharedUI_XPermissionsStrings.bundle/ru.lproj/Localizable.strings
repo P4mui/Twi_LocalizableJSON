@@ -1,0 +1,7 @@
+"CHAT_PERMISSION_CAMERA_SUBTITLE_DENIED" = "Открыть настройки, чтобы включить камеру";
+"CHAT_PERMISSION_CONTINUE" = "Продолжить";
+"CHAT_PERMISSION_DENY" = "Отклонить";
+"CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_SUBTITLE_DENIED" = "Открыть настройки, чтобы включить микрофон";
+"CHAT_PERMISSION_NOTIFICATIONS_SUBTITLE_DENIED" = "Откройте «Настройки», чтобы включить уведомления";
+"CHAT_PERMISSION_OPEN_SETTINGS" = "Открыть настройки";
+"CHAT_PERMISSION_PHOTOS_SUBTITLE_DENIED" = "Открыть настройки, чтобы включить фотогалерею";

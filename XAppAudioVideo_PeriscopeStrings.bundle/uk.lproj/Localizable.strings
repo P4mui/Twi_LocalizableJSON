@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "%@ тому";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "Трансляцію завершено";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "Користувачі, яких читає ведучий трансляції";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "Відповідати можуть лише певні профілі";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "Немає доступу до чату";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "Обмежено ведучим трансляції";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "Передплатники ведучого трансляції";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "Щоб спілкуватися в чаті, передплатіть %@";
+"PERISCOPE_LIVE_CHAT_LABEL" = "Чат у прямому ефірі";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "Тут з’являтимуться повідомлення чата";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ розпочав(-ла) трансляцію · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "Чат у прямому ефірі";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "Надішліть повідомлення";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "УСЬОГО ПЕРЕГЛЯДІВ";
+"PERISCOPE_TOTAL_VIEW_STRING" = "ПЕРЕГЛЯД";

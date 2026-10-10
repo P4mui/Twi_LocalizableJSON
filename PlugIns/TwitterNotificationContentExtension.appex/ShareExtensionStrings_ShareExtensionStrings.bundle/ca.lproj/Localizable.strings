@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Cancel·la la publicació";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Segueix amb l'enviament";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Ves a la configuració de l'iOS > Privacitat > Serveis de localització, per permetre que X accedeixi a la teva ubicació.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Permet que X accedeixi a la teva ubicació";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Actualitza la versió de X per poder utilitzar la característica. Obre l'aplicació de X per obtenir-ne més informació.";
+"SHARE_EXT_NONE_VALUE" = "Cap";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "No hi ha cap compte de X configurat. Pots crear un compte nou o iniciar sessió en un compte existent amb l'aplicació de X.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "No hi ha cap compte de X";
+"SHARE_EXT_REMOVE" = "Elimina";
+"SHARE_EXT_STATUS_FINALIZING" = "S'està finalitzant...";
+"SHARE_EXT_STATUS_PREPARING" = "S'està preparant...";
+"SHARE_EXT_STATUS_SENDING" = "S'està enviant…";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Canvia de compte";
+"SHARE_EXT_TAG_LOCATION" = "Etiqueta una ubicació";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "No s'ha pogut enviar la publicació";

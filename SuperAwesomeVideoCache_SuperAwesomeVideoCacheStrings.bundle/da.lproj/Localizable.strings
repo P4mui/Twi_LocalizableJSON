@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Download annulleret";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Download til Offline mislykkedes";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Intet downloadet endnu";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Du har ingen offline-videoer";
+"OFFLINE_REMOVE_ALL" = "Fjern alle";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Vis download-knap på tidslinjer";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Video downloadet til Offline";

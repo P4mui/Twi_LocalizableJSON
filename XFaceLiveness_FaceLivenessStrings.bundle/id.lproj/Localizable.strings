@@ -1,0 +1,6 @@
+"FACE_LIVENESS_CONTINUE_BUTTON" = "Lanjutkan";
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "Aktifkan Kamera";
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "Dengan melanjutkan, Anda menyetujui pemrosesan data biometrik.";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "Pelajari lebih lanjut";
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "Kami hanya akan mengirimkan foto Anda sesaat ke AWS untuk memverifikasi bahwa Anda bukan bot. Foto Anda tidak pernah dikirim ke X, akan dihapus dalam waktu 3 menit, dan tidak akan dijual atau digunakan untuk tujuan lain apa pun.";
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "Letakkan wajah Anda di lingkaran";

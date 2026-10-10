@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "%@ पूर्वी";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "प्रक्षेपण समाप्त";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "खाती प्रसारक फॉलो करतात";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "फक्त काही खातीच चॅट करू शकतात";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "चॅट करण्यासाठी विशेषाधिकार नाहीत";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "प्रसारक द्वारे मर्यादित";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "प्रसारकांचे सदस्य";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "चॅट करण्यासाठी %@ ची सदस्यता घ्या";
+"PERISCOPE_LIVE_CHAT_LABEL" = "लाइव्ह चॅट";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "चॅट संदेश येथे दिसतील";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ स्ट्रीमिंग सुरू केले · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "लाइव्ह चॅट";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "संदेश पाठवा";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "एकूण व्ह्यूज";
+"PERISCOPE_TOTAL_VIEW_STRING" = "एकूण व्ह्यू";

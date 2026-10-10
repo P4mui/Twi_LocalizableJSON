@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "Vor %@";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "Live-Video beendet";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "Accounts, denen Sender folgt";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "Nur einige Accounts können chatten";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "Keine Berechtigungen zum Chatten";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "Durch den Sender begrenzt";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "Abonnenten des Senders";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "Abonniere %@, wenn du chatten möchtest";
+"PERISCOPE_LIVE_CHAT_LABEL" = "Live-Chat";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "Chat-Nachrichten erscheinen hier";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ hat das Streaming gestartet · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "Live-Chat";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "Nachricht senden";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "ANSICHTEN INSGESAMT";
+"PERISCOPE_TOTAL_VIEW_STRING" = "ANSICHTEN INSGESAMT";

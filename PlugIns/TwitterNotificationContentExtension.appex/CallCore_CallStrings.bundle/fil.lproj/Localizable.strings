@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "Kopyahin ang Link";
+"CALL_ACTION_FLIP_CAMERA" = "I-flip ang Camera";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "Kanselahin";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "Tapusin at simulan";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "Tapusin ang kasalukuyang tawag para simulan ito?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "Nasa tawag ka na";
+"CALL_ENDED_TITLE" = "Tapos na ang tawag";
+"CALL_ERROR_UNAVAILABLE" = "Hindi available ang tawag. Pakisubukan ulit.";
+"CALL_LINK_TITLE" = "Tawagan";
+"CALL_PARTICIPANT_GUEST_LABEL" = "Bisita";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (Ikaw)";
+"CALL_REACTION_SELF_LABEL" = "Ikaw";
+"CALL_SCREEN_SHARE_PRESENTING" = "Nagpe-present ang/si %1$@";
+"CALL_STATE_CONNECTING" = "Kumokonekta…";
+"CALL_STATE_RECONNECTING" = "Kumokonekta ulit…";

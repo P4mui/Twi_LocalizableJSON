@@ -1,0 +1,5 @@
+"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Rezultate finale";
+"POLL_CARD_DISPLAY_POLL_ENDING" = "Sondajul se încheie...";
+"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@ a plecat";
+"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
+"POLL_CARD_VOTE_SUBMISSION_FAILED" = "Trimiterea votului a eșuat. Încearcă din nou.";

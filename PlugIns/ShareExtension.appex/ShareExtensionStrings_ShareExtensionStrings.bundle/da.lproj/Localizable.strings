@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Annuller post";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Send fortsat";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Gå til Indstillinger i iOS > Anonymitet > Lokalitetstjenester for at give X tilladelse til at tilgå din lokalitet.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Giv X adgang til din lokalitet";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Opdater din version af X for at bruge denne funktion. Åbn X-appen for at få mere at vide";
+"SHARE_EXT_NONE_VALUE" = "Ingen";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Der er ikke konfigureret nogen X-konti. Du kan oprette eller logge ind på en konto i X-appen.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Ingen X-konto";
+"SHARE_EXT_REMOVE" = "Fjern";
+"SHARE_EXT_STATUS_FINALIZING" = "Fuldfører ...";
+"SHARE_EXT_STATUS_PREPARING" = "Forbereder ...";
+"SHARE_EXT_STATUS_SENDING" = "Sender ...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Skift konto";
+"SHARE_EXT_TAG_LOCATION" = "Føj tag til lokalitet";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Post kunne ikke sendes";

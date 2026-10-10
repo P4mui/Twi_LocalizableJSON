@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "ביטול הפוסט";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "המשך לשלוח";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "עבור אל הגדרות iOS > 'פרטיות' > 'שירותי מיקום' כדי לאפשר ל-X לגשת למיקום שלך.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "הרשה ל-X לגשת למיקום שלך";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "כדי להשתמש בתכונה יש לעדכן את הגרסה של X. פתח את יישום X לקבלת מידע נוסף.";
+"SHARE_EXT_NONE_VALUE" = "ללא";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "אין חשבונות X מוגדרים. תוכל ליצור חשבון חדש או להיכנס לחשבון קיים ביישום X.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "אין חשבון ב-X";
+"SHARE_EXT_REMOVE" = "הסר";
+"SHARE_EXT_STATUS_FINALIZING" = "מסיים...";
+"SHARE_EXT_STATUS_PREPARING" = "מכין...";
+"SHARE_EXT_STATUS_SENDING" = "שולח...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "החלפת חשבונות";
+"SHARE_EXT_TAG_LOCATION" = "תייג מיקום";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "שליחת הפוסט נכשלה";

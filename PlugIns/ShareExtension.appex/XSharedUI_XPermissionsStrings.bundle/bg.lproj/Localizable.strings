@@ -1,0 +1,7 @@
+"CHAT_PERMISSION_CAMERA_SUBTITLE_DENIED" = "Отвори „Настройки“, за да активираш камерата";
+"CHAT_PERMISSION_CONTINUE" = "Напред";
+"CHAT_PERMISSION_DENY" = "Отхвърляне";
+"CHAT_PERMISSION_MICROPHONE_VOICE_MESSAGES_SUBTITLE_DENIED" = "Отвори „Настройки“, за да активираш микрофона";
+"CHAT_PERMISSION_NOTIFICATIONS_SUBTITLE_DENIED" = "Отвори „Настройки“, за да разрешиш известията";
+"CHAT_PERMISSION_OPEN_SETTINGS" = "Отваряне на настройките";
+"CHAT_PERMISSION_PHOTOS_SUBTITLE_DENIED" = "Отвори „Настройки“, за да разрешиш достъпа до библиотеката със снимки";

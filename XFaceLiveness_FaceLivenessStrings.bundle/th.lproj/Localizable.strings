@@ -1,0 +1,6 @@
+"FACE_LIVENESS_CONTINUE_BUTTON" = "ดําเนินการต่อ";
+"FACE_LIVENESS_ENABLE_CAMERA_BUTTON" = "เปิดกล้อง";
+"FACE_LIVENESS_PRIVACY_FOOTER_CONSENT" = "เมื่อดำเนินการต่อ ถือว่าคุณยินยอมให้มีการประมวลผลข้อมูลไบโอเมตริก";
+"FACE_LIVENESS_PRIVACY_FOOTER_LEARN_MORE" = "เรียนรู้เพิ่มเติม";
+"FACE_LIVENESS_PRIVACY_FOOTER_PURPOSE" = "เราจะส่งรูปภาพของคุณไปยัง AWS เป็นการชั่วคราวเพื่อยืนยันว่าคุณไม่ใช่บอทเท่านั้น จะไม่มีการส่งรูปภาพของคุณไปยัง X รูปภาพของคุณจะถูกลบภายใน 3 นาที และจะไม่มีการขายหรือนำไปใช้เพื่อวัตถุประสงค์อื่นใด";
+"FACE_LIVENESS_PUT_FACE_IN_CIRCLE_INSTRUCTION" = "วางใบหน้าของคุณให้อยู่ในวงกลม";

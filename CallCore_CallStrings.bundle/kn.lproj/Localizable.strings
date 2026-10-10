@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "ಲಿಂಕ್ ನಕಲಿಸಿ";
+"CALL_ACTION_FLIP_CAMERA" = "ಕ್ಯಾಮೆರಾವನ್ನು ಫ್ಲಿಪ್ ಮಾಡಿ";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "ರದ್ದುಗೊಳಿಸಿ";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "ಅಂತ್ಯ &amp; ಆರಂಭ";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "ಇದನ್ನು ಪ್ರಾರಂಭಿಸಲು ಪ್ರಸ್ತುತ ಕರೆಯನ್ನು ಕೊನೆಗೊಳಿಸಬೇಕೆ?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "ನೀವು ಈಗಾಗಲೇ ಕರೆಯಲ್ಲಿದ್ದೀರಿ.";
+"CALL_ENDED_TITLE" = "ಕರೆ ಕೊನೆಗೊಂಡಿದೆ";
+"CALL_ERROR_UNAVAILABLE" = "ಕರೆ ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.";
+"CALL_LINK_TITLE" = "ಕರೆ";
+"CALL_PARTICIPANT_GUEST_LABEL" = "ಅತಿಥಿ";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (ನೀವು)";
+"CALL_REACTION_SELF_LABEL" = "ನೀವು";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ ಪ್ರಸ್ತುತಪಡಿಸುತ್ತಿದ್ದಾರೆ";
+"CALL_STATE_CONNECTING" = "ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ…";
+"CALL_STATE_RECONNECTING" = "ಮರುಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ…";

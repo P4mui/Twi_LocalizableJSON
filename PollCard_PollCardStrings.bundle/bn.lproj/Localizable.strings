@@ -1,0 +1,5 @@
+"POLL_CARD_DISPLAY_FINAL_RESULTS" = "চূড়ান্ত ফলাফল";
+"POLL_CARD_DISPLAY_POLL_ENDING" = "পোল শেষ হচ্ছে…";
+"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "%@টি বাকি আছে";
+"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
+"POLL_CARD_VOTE_SUBMISSION_FAILED" = "ভোট জমা দেওয়া যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন।";

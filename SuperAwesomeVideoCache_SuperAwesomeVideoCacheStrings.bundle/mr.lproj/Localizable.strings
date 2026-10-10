@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "डाउनलोड रद्द केले";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "ऑफलाइन डाउनलोड अयशस्वी झाले";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "अजून काहीच डाउनलोड झाले नाही";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "आपल्याकडे कोणतेही ऑफलाइन व्हिडिओज नाहीत";
+"OFFLINE_REMOVE_ALL" = "सर्व काढून टाका";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "टाइमलाइन्सवर डाउनलोड बटण प्रदर्शित करा";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "ऑफलाइन व्हिडिओ डाउनलोड केला";

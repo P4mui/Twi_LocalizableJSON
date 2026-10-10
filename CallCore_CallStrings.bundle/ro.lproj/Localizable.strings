@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "Copiază linkul";
+"CALL_ACTION_FLIP_CAMERA" = "Răsucește camera";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "Anulează";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "Încheiere și începere";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "Închei apelul curent pentru a-l începe pe acesta?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "Ești deja într-un apel";
+"CALL_ENDED_TITLE" = "Apel terminat";
+"CALL_ERROR_UNAVAILABLE" = "Apelul nu este disponibil. Încearcă din nou.";
+"CALL_LINK_TITLE" = "Apelează";
+"CALL_PARTICIPANT_GUEST_LABEL" = "Invitat";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (tu)";
+"CALL_REACTION_SELF_LABEL" = "Tu";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ prezintă";
+"CALL_STATE_CONNECTING" = "Se conectează...";
+"CALL_STATE_RECONNECTING" = "Se reconectează…";

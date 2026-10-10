@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Ακύρωση ανάρτησης";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Συνέχιση αποστολής";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Μεταβείτε στις Ρυθμίσεις iOS > Απόρρητο > Υπηρεσίες τοποθεσίας για να επιτρέψετε στο Χ να έχει πρόσβαση στην τοποθεσία σας.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Επιτρέψτε στο Χ να αποκτήσει πρόσβαση στην τοποθεσία σας";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Ενημερώστε την έκδοση X που διαθέτετε για να χρησιμοποιήσετε αυτήν τη λειτουργία. Ανοίξτε την εφαρμογή X για να μάθετε περισσότερα";
+"SHARE_EXT_NONE_VALUE" = "Κανένα";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Δεν έχουν ρυθμιστεί λογαριασμοί X. Μπορείτε να δημιουργήσετε ή να συνδεθείτε σε έναν λογαριασμό στην εφαρμογή X.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Δεν υπάρχει λογαριασμός Χ";
+"SHARE_EXT_REMOVE" = "Κατάργηση";
+"SHARE_EXT_STATUS_FINALIZING" = "Ολοκλήρωση…";
+"SHARE_EXT_STATUS_PREPARING" = "Προετοιμασία…";
+"SHARE_EXT_STATUS_SENDING" = "Αποστολή…";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Αλλαγή λογαριασμού";
+"SHARE_EXT_TAG_LOCATION" = "Προσθήκη ετικέτας τοποθεσίας";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Η ανάρτηση απέτυχε να σταλεί";

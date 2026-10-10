@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "Kopiera länken";
+"CALL_ACTION_FLIP_CAMERA" = "Vänd kameran";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "Avbryt";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "Avsluta och starta";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "Vill du avsluta det aktuella samtalet och starta det här?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "Du samtalar redan";
+"CALL_ENDED_TITLE" = "Samtalet avslutades";
+"CALL_ERROR_UNAVAILABLE" = "Samtalet är inte tillgängligt. Försök igen.";
+"CALL_LINK_TITLE" = "Ring";
+"CALL_PARTICIPANT_GUEST_LABEL" = "Gäst";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (Du)";
+"CALL_REACTION_SELF_LABEL" = "Du";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ presenterar";
+"CALL_STATE_CONNECTING" = "Ansluter …";
+"CALL_STATE_RECONNECTING" = "Återansluter …";

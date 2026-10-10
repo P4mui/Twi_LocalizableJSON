@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Downloaden geannuleerd";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Het downloaden voor offline gebruik is mislukt";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Nog niets gedownload";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Je hebt geen offline video's";
+"OFFLINE_REMOVE_ALL" = "Verwijder alles";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Downloadknop in tijdlijnen weergeven";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Video gedownload naar Offline";

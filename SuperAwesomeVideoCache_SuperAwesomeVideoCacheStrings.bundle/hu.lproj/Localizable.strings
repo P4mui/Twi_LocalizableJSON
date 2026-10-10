@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "A letöltés megszakítva";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Offline letöltés sikertelen";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Még semmi sincs letöltve";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Nincsenek offline videóid";
+"OFFLINE_REMOVE_ALL" = "Összes eltávolítása";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Letöltésre szolgáló gomb megjelenítése az idővonalakon";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Videó letöltve offline megtekintésre";

@@ -1,0 +1,15 @@
+"PERISCOPE_AGO" = "%@ sitten";
+"PERISCOPE_BROADCAST_ENDED_LABEL" = "Lähetys päättyi";
+"PERISCOPE_CHAT_BOX_LABEL_FOLLOWERS_ONLY" = "Lähettäjän seuraamat tilit";
+"PERISCOPE_CHAT_BOX_LABEL_HOST_FOLLOWED_2ND_DEGREE" = "Vain osa tileistä voi chatata.";
+"PERISCOPE_CHAT_BOX_LABEL_NO_PRIVILEGES" = "Ei chat-oikeuksia";
+"PERISCOPE_CHAT_BOX_LABEL_OFF" = "Lähettäjän rajoittama";
+"PERISCOPE_CHAT_BOX_LABEL_SUBSCRIBERS_ONLY" = "Lähettäjän tilaajat";
+"PERISCOPE_CHAT_BOX_LABEL_VERIFIED_ONLY" = "Tilaa %@ saadaksesi chatin käyttöösi";
+"PERISCOPE_LIVE_CHAT_LABEL" = "Live-keskustelu";
+"PERISCOPE_LIVE_CHAT_PLACEHOLDER" = "Chat-viestit tulevat tänne";
+"PERISCOPE_LIVE_CHAT_STARTED_STREAMING_FORMAT" = "%1$@ aloitti striimaamisen · %2$@";
+"PERISCOPE_LIVE_CHAT_TITLE" = "Live-keskustelu";
+"PERISCOPE_SEND_A_MESSAGE_LABEL" = "Lähetä viesti";
+"PERISCOPE_TOTAL_VIEWS_STRING" = "KATSELUT YHTEENSÄ";
+"PERISCOPE_TOTAL_VIEW_STRING" = "KOKO KATSELU";

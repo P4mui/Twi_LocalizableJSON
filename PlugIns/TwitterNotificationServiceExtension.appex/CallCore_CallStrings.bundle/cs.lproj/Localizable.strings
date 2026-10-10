@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "Kopírovat odkaz";
+"CALL_ACTION_FLIP_CAMERA" = "Přepnout fotoaparát";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "Zrušit";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "Ukončit a zahájit";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "Chcete ukončit aktuální hovor a zahájit tento?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "Už máte probíhající hovor.";
+"CALL_ENDED_TITLE" = "Hovor ukončen";
+"CALL_ERROR_UNAVAILABLE" = "Hovor není k dispozici. Zkuste to znovu.";
+"CALL_LINK_TITLE" = "Hovor";
+"CALL_PARTICIPANT_GUEST_LABEL" = "Host";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (vy)";
+"CALL_REACTION_SELF_LABEL" = "Vy";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ prezentuje";
+"CALL_STATE_CONNECTING" = "Připojování…";
+"CALL_STATE_RECONNECTING" = "Opětovné připojování…";

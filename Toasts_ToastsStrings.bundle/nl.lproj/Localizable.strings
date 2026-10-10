@@ -1,0 +1,7 @@
+"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ is geblokkeerd";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Meldingen worden genegeerd voor dit gesprek";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Meldingen worden niet meer genegeerd voor dit gesprek";
+"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ wordt genegeerd";
+"TOASTS_GENERAL_UNDO_LABEL" = "Maak ongedaan";
+"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ is gedeblokkeerd";
+"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ wordt niet meer genegeerd";

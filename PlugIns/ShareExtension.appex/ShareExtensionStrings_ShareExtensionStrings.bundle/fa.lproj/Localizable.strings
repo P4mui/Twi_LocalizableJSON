@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "لغو پست";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "ادامه فرستادن";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "لطفاً به تنظیمات iOS > حریم خصوصی > خدمات مکان بروید و به X اجازه دهید به مکان شما دسترسی داشته باشد.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "به X اجازه دهید به مکان شما دسترسی داشته باشد";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "لطفاً نسخه X خودتان را برای استفاده از این ویژگی به‌روز کنید. برای کسب اطلاعات بیشتر، برنامه X را باز کنید";
+"SHARE_EXT_NONE_VALUE" = "هیچ‌کدام";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "حساب کاربری X پیکربندی‌شده‌ای وجود ندارد. در برنامه X می‌توانید حساب کاربری ایجاد کنید یا وارد آن شوید.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "حساب X وجود ندارد";
+"SHARE_EXT_REMOVE" = "حذف";
+"SHARE_EXT_STATUS_FINALIZING" = "درحال نهایی‌شدن…";
+"SHARE_EXT_STATUS_PREPARING" = "درحال آماده‌سازی…";
+"SHARE_EXT_STATUS_SENDING" = "درحال ارسال…";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "تعویض حساب کاربری";
+"SHARE_EXT_TAG_LOCATION" = "برچسب زدن مکان";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "پست فرستاده نشد";

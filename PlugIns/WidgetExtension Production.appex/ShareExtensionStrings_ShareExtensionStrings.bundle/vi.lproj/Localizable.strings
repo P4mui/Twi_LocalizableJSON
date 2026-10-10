@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Hủy bài đăng";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Tiếp tục gửi";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Vui lòng vào Cài đặt iOS > Riêng tư > Dịch vụ Định vị để cho phép X truy cập vào vị trí của bạn.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Cho phép X truy cập vị trí của bạn";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Vui lòng cập nhật phiên bản X để sử dụng tính năng này. Mở ứng dụng X để tìm hiểu thêm";
+"SHARE_EXT_NONE_VALUE" = "Không có";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Không có tài khoản X nào được cấu hình. Bạn có thể tạo hoặc đăng nhập vào một tài khoản trong ứng dụng X.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Không có tài khoản X";
+"SHARE_EXT_REMOVE" = "Xóa";
+"SHARE_EXT_STATUS_FINALIZING" = "Đang hoàn thiện...";
+"SHARE_EXT_STATUS_PREPARING" = "Đang chuẩn bị...";
+"SHARE_EXT_STATUS_SENDING" = "Đang gửi...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Chuyển tài khoản";
+"SHARE_EXT_TAG_LOCATION" = "Đánh dấu vị trí";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Không gửi được bài đăng";

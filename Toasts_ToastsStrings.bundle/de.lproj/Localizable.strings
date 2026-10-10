@@ -1,0 +1,7 @@
+"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ wurde blockiert";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Mitteilungen für diese Konversation stummgeschaltet";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Stummschaltung von Mitteilungen für diese Konversation aufgehoben";
+"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ wurde stummgeschaltet";
+"TOASTS_GENERAL_UNDO_LABEL" = "Rückgängig machen";
+"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ wurde entblockt";
+"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Stummschaltung von %@ wurde aufgehoben";

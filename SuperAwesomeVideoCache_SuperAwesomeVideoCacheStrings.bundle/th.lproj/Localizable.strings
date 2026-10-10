@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "การดาวน์โหลดถูกยกเลิก";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "การดาวน์โหลดเพื่อใช้งานแบบออฟไลน์ล้มเหลว";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "ยังไม่มีอะไรดาวน์โหลดเลย";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "คุณไม่มีวิดีโอแบบออฟไลน์";
+"OFFLINE_REMOVE_ALL" = "ลบทั้งหมด";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "แสดงปุ่มดาวน์โหลดบนลำดับเหตุการณ์";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "ดาวน์โหลดวิดีโอเพื่อใช้งานแบบออฟไลน์แล้ว";

@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Bejegyzés elvetése";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Küldés";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Kérjük, menj tovább az iOS-beállítások > Adatvédelem > Helymeghatározás menübe, hogy engedélyezd az X számára a tartózkodási helyedhez való hozzáférést.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "A tartózkodási helyedhez való hozzáférés engedélyezése az X számára";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "A funkció használatához frissítsd az X-et. További információért nyisd meg az X alkalmazást.";
+"SHARE_EXT_NONE_VALUE" = "Nincs";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Nincs X-fiók konfigurálva. Az X alkalmazásban létrehozhatsz egyet vagy bejelentkezhetsz egy fiókba.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Nincs X-fiók";
+"SHARE_EXT_REMOVE" = "Eltávolítás";
+"SHARE_EXT_STATUS_FINALIZING" = "Befejezés…";
+"SHARE_EXT_STATUS_PREPARING" = "Előkészítés…";
+"SHARE_EXT_STATUS_SENDING" = "Küldés folyamatban…";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Felhasználóváltás";
+"SHARE_EXT_TAG_LOCATION" = "Hely megjelölése";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Nem sikerült elküldeni a bejegyzést";

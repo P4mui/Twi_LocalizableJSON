@@ -1,0 +1,11 @@
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "ถาม Grok";
+"POST_ABOUT_AUTHOR_BASED_IN_LABEL" = "ตั้งอยู่ใน %1$@";
+"POST_ABOUT_AUTHOR_BASED_IN_WITH_PLATFORM_LABEL" = "อยู่ใน %1$@ · %2$@";
+"POST_ABOUT_BLOCK_AUTHOR" = "บล็อค %1$@";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "เพิ่มเติม";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "การดำเนินการอื่นๆ";
+"POST_ABOUT_MUTE_AUTHOR" = "ซ่อน %1$@";
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "แสดงเพิ่มเติม";
+"POST_ABOUT_TRAY_TITLE" = "เกี่ยวกับโพสต์นี้";
+"POST_ABOUT_UNBLOCK_AUTHOR" = "ยกเลิกการบล็อค %1$@";
+"POST_ABOUT_UNMUTE_AUTHOR" = "เลิกซ่อน %1$@";

@@ -1,0 +1,7 @@
+"OFFLINE_DOWNLOAD_CANCELED_TOAST_TEXT" = "Téléchargement annulé";
+"OFFLINE_DOWNLOAD_FAILED_TOAST_TEXT" = "Échec du téléchargement pour une utilisation hors ligne";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER" = "Aucun téléchargement pour le moment";
+"OFFLINE_EMPTY_LIST_PLACEHOLDER_DETAILS" = "Vous n'avez aucune vidéo hors ligne.";
+"OFFLINE_REMOVE_ALL" = "Supprimer tout";
+"OFFLINE_SETTINGS_SHOW_DOWNLOAD_BUTTON_INLINE" = "Afficher un bouton Télécharger dans les fils";
+"OFFLINE_VIDEO_DOWNLOADED_TOAST_TEXT" = "Vidéo téléchargée dans Hors ligne";

@@ -1,0 +1,11 @@
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "Fråga Grok";
+"POST_ABOUT_AUTHOR_BASED_IN_LABEL" = "Baserad i %1$@";
+"POST_ABOUT_AUTHOR_BASED_IN_WITH_PLATFORM_LABEL" = "Baserad i %1$@ · %2$@";
+"POST_ABOUT_BLOCK_AUTHOR" = "Blockera %1$@";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "Mer";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "Fler åtgärder";
+"POST_ABOUT_MUTE_AUTHOR" = "Ignorera %1$@";
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "Visa mer";
+"POST_ABOUT_TRAY_TITLE" = "Om detta inlägg";
+"POST_ABOUT_UNBLOCK_AUTHOR" = "Avblockera %1$@";
+"POST_ABOUT_UNMUTE_AUTHOR" = "Sluta ignorera %1$@";

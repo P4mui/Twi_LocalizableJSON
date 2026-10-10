@@ -1,0 +1,15 @@
+"COMPOSE_TWEET_CANCEL_ACTION_LABEL" = "Post abbrechen";
+"COMPOSE_TWEET_CONTINUE_SENDING_ACTION_LABEL" = "Weiter senden";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_MESSAGE" = "Bitte gehe zu „iOS Einstellungen > Datenschutz > Standortdienste“ und erlaube X den Zugriff auf deinen Standort.";
+"LOCATION_SERVICES_ACCESS_DENIED_ALERT_TITLE" = "Erlaube X den Zugriff auf deinen Standort";
+"SHARE_EXT_APP_SHUTDOWN_PROMPT_MESSAGE" = "Aktualisiere bitte deine Version von X, wenn du diese Funktion nutzen möchtest. Mehr erfährst du, indem du die X App öffnest.";
+"SHARE_EXT_NONE_VALUE" = "Keine";
+"SHARE_EXT_NO_ACCOUNTS_SIGN_IN_MESSAGE" = "Es sind keine X Accounts konfiguriert. In der X App kannst du einen Account erstellen oder dich anmelden.";
+"SHARE_EXT_NO_ACCOUNTS_TITLE" = "Kein X Account";
+"SHARE_EXT_REMOVE" = "Entfernen";
+"SHARE_EXT_STATUS_FINALIZING" = "Wird abgeschlossen...";
+"SHARE_EXT_STATUS_PREPARING" = "Wird vorbereitet...";
+"SHARE_EXT_STATUS_SENDING" = "Wird gesendet...";
+"SHARE_EXT_SWITCH_ACCOUNTS" = "Accounts wechseln";
+"SHARE_EXT_TAG_LOCATION" = "Standort markieren";
+"SHARE_EXT_TWEET_FAILED_TITLE" = "Post konnte nicht gesendet werden";

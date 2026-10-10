@@ -1,0 +1,7 @@
+"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ adlı kullanıcı engellendi";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Bu sohbet için bildirimler sessize alındı";
+"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Bu sohbet için bildirimlerin sesi açıldı";
+"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ sessize alındı";
+"TOASTS_GENERAL_UNDO_LABEL" = "Geri al";
+"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ adlı kullanıcının engeli kaldırıldı";
+"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ adlı kullanıcının sesi açıldı";

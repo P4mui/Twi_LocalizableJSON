@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "Sao chép liên kết";
+"CALL_ACTION_FLIP_CAMERA" = "Lật camera";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "Hủy";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "Kết thúc &amp; bắt đầu";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "Kết thúc cuộc gọi hiện tại để bắt đầu cuộc gọi này?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "Bạn đang trong một cuộc gọi";
+"CALL_ENDED_TITLE" = "Cuộc gọi đã kết thúc";
+"CALL_ERROR_UNAVAILABLE" = "Không thể thực hiện cuộc gọi. Vui lòng thử lại.";
+"CALL_LINK_TITLE" = "Cuộc gọi";
+"CALL_PARTICIPANT_GUEST_LABEL" = "Khách";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (Bạn)";
+"CALL_REACTION_SELF_LABEL" = "Bạn";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ đang trình bày";
+"CALL_STATE_CONNECTING" = "Đang kết nối…";
+"CALL_STATE_RECONNECTING" = "Đang kết nối lại…";

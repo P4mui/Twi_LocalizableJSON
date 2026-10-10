@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "Förhindra att @Grok ändrar detta innehåll";
+"BLOCK_GROK_TITLE" = "Blockera ändringar av Grok";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Välj en kategori så fäster vi en innehållsvarning på detta inlägg. Detta hjälper andra att undvika innehåll som de vill slippa se.";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Fäst en innehållsvarning på detta inlägg";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Inställningar för innehåll";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "När detta är aktiverat går din video att ladda ned.";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Tillåt videon att hämtas";

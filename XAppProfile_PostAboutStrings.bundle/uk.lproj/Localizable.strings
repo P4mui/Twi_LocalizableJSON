@@ -1,0 +1,11 @@
+"POST_ABOUT_ASK_GROK_PILL_LABEL" = "Запитати Grok";
+"POST_ABOUT_AUTHOR_BASED_IN_LABEL" = "Базується в %1$@";
+"POST_ABOUT_AUTHOR_BASED_IN_WITH_PLATFORM_LABEL" = "Базується в %1$@ · %2$@";
+"POST_ABOUT_BLOCK_AUTHOR" = "Заблокувати %1$@";
+"POST_ABOUT_MORE_ACTIONS_ROW_LABEL" = "Ще";
+"POST_ABOUT_MORE_ACTIONS_TITLE" = "Інші дії";
+"POST_ABOUT_MUTE_AUTHOR" = "Ігнорувати %1$@";
+"POST_ABOUT_SUMMARY_SHOW_MORE" = "Показати більше";
+"POST_ABOUT_TRAY_TITLE" = "Про цей пост";
+"POST_ABOUT_UNBLOCK_AUTHOR" = "Розблокувати %1$@";
+"POST_ABOUT_UNMUTE_AUTHOR" = "Не ігнорувати %1$@";

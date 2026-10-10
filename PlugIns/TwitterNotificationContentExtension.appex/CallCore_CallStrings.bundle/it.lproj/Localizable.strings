@@ -1,0 +1,15 @@
+"CALL_ACTION_COPY_LINK" = "Copia link";
+"CALL_ACTION_FLIP_CAMERA" = "Cambia fotocamera";
+"CALL_ACTIVE_CALL_PROMPT_CANCEL" = "Annulla";
+"CALL_ACTIVE_CALL_PROMPT_END_AND_START" = "Termina e avvia";
+"CALL_ACTIVE_CALL_PROMPT_MESSAGE" = "Vuoi terminare la chiamata in corso per avviare questa?";
+"CALL_ACTIVE_CALL_PROMPT_TITLE" = "Sei già in chiamata";
+"CALL_ENDED_TITLE" = "Chiamata terminata";
+"CALL_ERROR_UNAVAILABLE" = "Chiamata non disponibile. Riprova più tardi.";
+"CALL_LINK_TITLE" = "Chiamata";
+"CALL_PARTICIPANT_GUEST_LABEL" = "Ospite";
+"CALL_PARTICIPANT_SELF_LABEL" = "%1$@ (tu)";
+"CALL_REACTION_SELF_LABEL" = "Tu";
+"CALL_SCREEN_SHARE_PRESENTING" = "%1$@ sta presentando";
+"CALL_STATE_CONNECTING" = "Connessione in corso...";
+"CALL_STATE_RECONNECTING" = "Riconnessione in corso...";

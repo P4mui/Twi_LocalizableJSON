@@ -1,0 +1,7 @@
+"BLOCK_GROK_DESCRIPTION" = "Valitse, ettei @Grok saa muokata tätä sisältöä";
+"BLOCK_GROK_TITLE" = "Estä Grokia tekemästä muutoksia";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_DETAIL" = "Valitse luokka, niin me lisäämme tähän julkaisuun sisältövaroituksen. Se auttaa ihmisiä välttämään sisältöä, jota he eivät halua nähdä.";
+"SENSITIVE_MEDIA_WARNING_EDITOR_EDUCATION_TITLE" = "Lisää tähän julkaisuun sisältövaroitus";
+"SENSITIVE_MEDIA_WARNING_EDITOR_TITLE" = "Sisältöasetukset";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_DESCRIPTION" = "Kun tämä asetus on käytössä, videosi voidaan ladata.";
+"VIDEO_SETTINGS_DOWNLOAD_ALLOW_TITLE" = "Salli videon lataaminen";
