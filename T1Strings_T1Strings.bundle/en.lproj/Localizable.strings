@@ -307,9 +307,14 @@
 "BOOST_BOOSTED_EMPTY_SUBTITLE" = "Boost some posts to see them here";
 "BOOST_BOOSTED_EMPTY_TITLE" = "No boosted posts";
 "BOOST_BOOSTED_TAB_TITLE" = "Boosted";
+"BOOST_CTA_ACTION_TEXT_BOOK_TODAY" = "Book today";
+"BOOST_CTA_ACTION_TEXT_BUY_TICKETS" = "Buy tickets";
 "BOOST_CTA_ACTION_TEXT_DOWNLOAD" = "Download";
+"BOOST_CTA_ACTION_TEXT_GET_TICKETS" = "Get tickets";
 "BOOST_CTA_ACTION_TEXT_LEARN_MORE" = "Learn more";
+"BOOST_CTA_ACTION_TEXT_ORDER_NOW" = "Order now";
 "BOOST_CTA_ACTION_TEXT_SHOP_NOW" = "Shop now";
+"BOOST_CTA_ACTION_TEXT_TRY_NOW" = "Try now";
 "BOOST_CTA_ACTION_TEXT_VISIT_NOW" = "Visit now";
 "BOOST_FILTER_EMPTY_SUBTITLE" = "Posts you can boost will show here";
 "BOOST_FILTER_EMPTY_TITLE" = "No boostable posts";
@@ -442,6 +447,7 @@
 "CHANGE_PASSWORD_SETTINGS_LABEL" = "Password";
 "CHANGE_PASSWORD_TITLE_LABEL" = "Update password";
 "CLIPPED_FROM_ATTRIBUTION_LABEL_TITLE" = "Clip from";
+"CLIP_LABEL" = "Clip";
 "CLIP_VIDEO_ACTION_LABEL" = "Clip video";
 "CLOCK_SKEW_ERROR_MESSAGE" = "Please go to the Settings app and update the Date & Time setting. This can be found under General.";
 "CLOCK_SKEW_ERROR_TITLE" = "Your device’s time is set incorrectly.";
@@ -495,9 +501,6 @@
 "COMPOSE_ADD_ANOTHER_TWEET_TOOLTIP_TEXT" = "Add another post";
 "COMPOSE_CANCEL_POST_ALERT_KEEP_EDITING_ACTION_LABEL" = "Keep editing";
 "COMPOSE_CANCEL_POST_ALERT_SAVE_TO_DRAFTS_ACTION_LABEL" = "Save to drafts";
-"COMPOSE_CANCEL_POST_TRAY_MESSAGE" = "You haven’t posted yet. Save it as a draft to finish later, or discard it.";
-"COMPOSE_CANCEL_POST_TRAY_SAVE_DRAFT_ACTION_LABEL" = "Save";
-"COMPOSE_CANCEL_POST_TRAY_TITLE" = "Save Draft?";
 "COMPOSE_CARD_REMOVE_CARD_ACCESSIBILITY_ACTION" = "Remove the card from your post.";
 "COMPOSE_CONVERSATION_CONTROL_TOOLTIP_TEXT" = "Choose who can reply to your post.";
 "COMPOSE_CONVERSATION_CONTROL_TOOLTIP_TEXT_V2" = "We’ll remember your choice on this device.";
@@ -572,6 +575,7 @@
 "COMPOSE_VIEW_LIVE_MENU_SHEET_START_A_VIDEO_BROADCAST" = "Start a live stream";
 "COMPOSE_VIEW_OPEN_HASHTAG_PICKER_ACCESSIBILITY_HINT" = "Choose a hashtag from a list";
 "COMPOSE_VIEW_OPEN_HASHTAG_PICKER_ACCESSIBILITY_LABEL" = "Hashtag picker";
+"COMPOSE_VIEW_PROMOTE_BUTTON_LABEL" = "Promote";
 "COMPOSE_VIEW_PROMPT_ACCESSIBILITY_HINT" = "Tags people in this photo";
 "COMPOSE_VIEW_PROMPT_ACCESSIBILITY_HINT_MEDIA" = "Tags people in this post";
 "COMPOSE_VIEW_PROMPT_TAP_TO_START_TAGGING" = "Who’s in this photo?";
@@ -600,6 +604,7 @@
 "COMPOSE_VIEW_UPLOAD_VIDEO_ACCESSIBILITY_LABEL" = "Upload video";
 "COMPOSE_VIEW_UPLOAD_VIDEO_AUTO_REDUCED_QUALITY_TOOLTIP" = "Upload video quality is auto-reduced.";
 "COMPOSE_VIEW_UPLOAD_VIDEO_LOW_RESOLUTION_QUALITY_TOOLTIP" = "Heads up: this looks low-res. Uploading in 720p or higher could make it stand out more.";
+"COMPOSE_VIEW_VIDEO_TOO_SHORT_TOAST" = "This video is too short to post";
 "COMPOSITION_COMPLETE_EDITING_TWEET_PLURAL_MINUTES_EDITABLE_TOAST_NOTIFICATION_MESSAGE" = "Your post has been edited.";
 "COMPOSITION_COMPLETE_SENDING_TWEET_PLURAL_MINUTES_EDITABLE_TOAST_NOTIFICATION_MESSAGE_FORMAT" = "Your post was sent. You have %@ minutes to make any edits.";
 "COMPOSITION_COMPLETE_SENDING_TWEET_SINGLE_MINUTE_EDITABLE_TOAST_NOTIFICATION_MESSAGE" = "Your post was sent. You can edit it for the next minute.";
@@ -634,6 +639,8 @@
 "CONVERSATIONS_OTHER_PEOPLE_IN_CONVERSATION_TOGGLE_TITLE" = "Others in this conversation";
 "CONVERSATIONS_PEOPLE_IN_CONVERSATION_EDIT_TITLE" = "Replying to";
 "CONVERSATIONS_PEOPLE_IN_CONVERSATION_READ_ONLY_TITLE" = "People in this conversation";
+"CONVERSATION_CONTINUATION_FOR_YOU_HEADER_SUBTITLE" = "More posts from across X";
+"CONVERSATION_CONTINUATION_FOR_YOU_HEADER_TITLE" = "For you";
 "CONVERSATION_CONTROL_BUTTON_ALL_TITLE" = "Everyone can reply";
 "CONVERSATION_CONTROL_BUTTON_BY_INVITATION_TITLE" = "Only accounts you mention can reply";
 "CONVERSATION_CONTROL_BUTTON_CHECKMARK_TITLE" = "Only checkmark accounts can reply";
@@ -1078,6 +1085,9 @@
 "FLEETS_FLEETLINE_UPDATED_ACCESSIBILITY_LABEL" = "Space bar updated";
 "FLEETS_PROFILE_MENU_VIEW_PROFILE_PHOTO" = "View profile photo";
 "FLEETS_PROFILE_OPENING_OPTIONS_ACCESSIBILITY_ANNOUNCEMENT_LABEL" = "Opening Options";
+"FOCAL_AVATAR_LIVE_GAME_RING_ACCESSIBILITY_HINT" = "Opens the game";
+"FOCAL_AVATAR_LIVE_RING_ACCESSIBILITY_HINT" = "Opens the live video";
+"FOCAL_AVATAR_SPACES_RING_ACCESSIBILITY_HINT" = "Opens the Space";
 "FOCUSED_TIMELINE_ACTIONS_COMPLETION_TOAST_DETAIL_LABEL" = "The more you like, the better your timeline will be – keep liking the stuff you’re into.";
 "FOCUSED_TIMELINE_ACTIONS_COMPLETION_TOAST_MESSAGE_LABEL" = "Nice work! Your timeline’s getting better.";
 "FOCUSED_TIMELINE_ACTIONS_LIKES_TOAST_DETAIL_LABEL" = "The more posts you like, the better your timeline will be.";
@@ -1649,6 +1659,10 @@
 "NO_LIKES_LABEL_OWN_PROFILE" = "Like some posts";
 "NO_LIKES_SUBTITLE" = "When they do, those posts will show up here.";
 "NO_LIKES_SUBTITLE_OWN_PROFILE" = "Tap the heart on any post to show it some love. When you do, it’ll show up here.";
+"NO_LIVE_LABEL" = "%@ hasn’t gone live";
+"NO_LIVE_LABEL_OWN_PROFILE" = "You haven’t gone live yet";
+"NO_LIVE_SUBTITLE" = "When they do, their live streams will show up here.";
+"NO_LIVE_SUBTITLE_OWN_PROFILE" = "When you do, your live streams will show up here.";
 "NO_PHOTOS_LABEL" = "%@ hasn’t posted photos";
 "NO_PHOTOS_LABEL_OWN_PROFILE" = "Lights, camera … photos!";
 "NO_PHOTOS_SUBTITLE" = "When they do, those photos will show up here.";
@@ -1832,6 +1846,13 @@
 "PHONE_NUMBER_LABEL" = "Phone";
 "PHONE_OR_EMAIL_OR_USERNAME_LABEL" = "Phone, email or username";
 "PHOTOS_TITLE_LABEL" = "Photo library";
+"PHOTO_EDITOR_EDUCATION_TRAY_BLUR_BADGE" = "Blur";
+"PHOTO_EDITOR_EDUCATION_TRAY_BODY" = "Edit your images with Grok, add text, crop it, blur anything, and more — all without leaving the app.";
+"PHOTO_EDITOR_EDUCATION_TRAY_CROP_BADGE" = "Crop";
+"PHOTO_EDITOR_EDUCATION_TRAY_CTA" = "Try it now";
+"PHOTO_EDITOR_EDUCATION_TRAY_GROK_BADGE" = "Grok";
+"PHOTO_EDITOR_EDUCATION_TRAY_TEXT_BADGE" = "Text";
+"PHOTO_EDITOR_EDUCATION_TRAY_TITLE" = "Edit your images right on X";
 "PHOTO_LIBRARY_CAMERA_BUTTON_TITLE_LABEL" = "Camera";
 "PHOTO_LIBRARY_GO_LIVE_CAMERA_BUTTON_ACCESSIBILITY_LABEL" = "Go live";
 "PHOTO_SHARE_FROM_POST_FORMAT" = "From %1$@";
@@ -2456,7 +2477,6 @@
 "SHARE_EXTENSION_MEDIA_LOAD_FAILED_ALERT_TITLE" = "Couldn’t attach media";
 "SHARE_EXTENSION_UNSUPPORTED_FILE_ALERT_MESSAGE" = "Shared files of this type can’t be attached to a post.";
 "SHARE_EXTENSION_UNSUPPORTED_FILE_ALERT_TITLE" = "File type not supported";
-"SHARE_PROFILE_BUTTON_LABEL" = "Share Profile";
 "SHARE_PROFILE_VIA_ACTION_FORMAT" = "Share %@ via…";
 "SHARE_TWEET_TOOLTIP_LABEL" = "Share this post with anyone, even if they aren’t on X yet";
 "SHARE_WITH_COMMUNITY_ACTION_LABEL" = "Community";
@@ -2706,8 +2726,6 @@
 "TOAST_REPLY_MESSAGE_FORMAT" = "%@ replied to you";
 "TOAST_RETWEET_MESSAGE_REPLY_FORMAT" = "%@ reposted your reply";
 "TOAST_RETWEET_MESSAGE_TWEET_FORMAT" = "%@ reposted your post";
-"TOAST_XCHAT_GROUP_CUSTOM_TITLE_MESSAGE_FORMAT" = "%1$@ sent a message to %2$@";
-"TOAST_XCHAT_GROUP_MESSAGE_FORMAT" = "%@ sent a message to your group";
 "TOGGLE_CLOSED_CAPTIONS" = "Toggle closed captions";
 "TOPICS_LABEL" = "Topics";
 "TOP_ARTICLES_TIMELINE_EMPTY_BUTTON_LABEL" = "Find people to follow";
@@ -2886,6 +2904,8 @@
 "USER_PROFILE_HIGHLIGHTS_LABEL" = "Highlights";
 "USER_PROFILE_HIGHLIGHTS_TOAST_TITLE_ADD" = "Successfully added to Highlights.";
 "USER_PROFILE_HIGHLIGHTS_TOAST_TITLE_REMOVE" = "Successfully removed from Highlights.";
+"USER_PROFILE_LIVE_LABEL" = "Live";
+"USER_PROFILE_LIVE_MENU_LABEL" = "Livestreams";
 "USER_PROFILE_LOCATION_EDITING_HINT_TEXT" = "Add your location";
 "USER_PROFILE_LOCATION_EDITING_LABEL" = "Location";
 "USER_PROFILE_NAME_EDITING_HINT_TEXT" = "Add your name";
@@ -2960,6 +2980,7 @@
 "VIDEOEDITOR_CAPTIONS_TIMESTAMPS_ADD_TO_POST_BUTTON_TITLE" = "Add to post";
 "VIDEOEDITOR_CAPTIONS_TIMESTAMPS_FAILED_LABEL" = "Grok couldn’t generate timestamps for this video.";
 "VIDEOEDITOR_CAPTIONS_TIMESTAMPS_SHEET_TITLE" = "Timestamps";
+"VIDEOEDITOR_COLOR_EYEDROPPER_LABEL" = "Pick a color from the video";
 "VIDEOEDITOR_COVER_DISCARD_ALERT_MESSAGE" = "The selected cover will be removed.";
 "VIDEOEDITOR_COVER_TOOLBAR_GROK_LABEL" = "Grok";
 "VIDEOEDITOR_DISCARD_CHANGES_ALERT_MESSAGE" = "All video edits will be discarded.";
@@ -2987,6 +3008,7 @@
 "VIDEOEDITOR_TRIM_BUTTON" = "Trim";
 "VIDEO_ATTRIBUTION_LABEL_TITLE" = "From";
 "VIDEO_ATTRIBUTION_LABEL_TITLE_FORMAT" = "From %@";
+"VIDEO_CLIP_MAX_DURATION_LABEL" = "Max length of clip reached";
 "VIDEO_CTA_APP_GET_FORMAT" = "Get the %@ app";
 "VIDEO_CTA_APP_OPEN_FORMAT" = "Open the %@ app";
 "VIDEO_CTA_GO_TO_FORMAT" = "Go to %@";
@@ -2997,11 +3019,12 @@
 "VIDEO_CTA_SHOP_FORMAT" = "Shop %@";
 "VIDEO_CTA_WATCH_IN_FULLSCREEN" = "Keep watching";
 "VIDEO_CTA_WATCH_NOW_AT_URL_FORMAT" = "Watch now at %@";
-"VIDEO_DOCK_REMAINING_AND_HANDLE_FORMAT" = "%1$@ · %2$@";
+"VIDEO_DOCK_REMAINING_AND_HANDLE_FORMAT" = "-%1$@ · %2$@";
+"VIDEO_DOCK_REMAINING_FORMAT" = "-%1$@";
 "VIDEO_DOWNLOAD_ONBOARDING_MESSAGE" = "Go offline, or go remix! Subscribers now have the power to download and reimagine your content. If you’d rather your videos weren’t downloadable, tap “Edit” on your video. Your content, your rules.";
 "VIDEO_DOWNLOAD_ONBOARDING_TITLE" = "Introducing Downloadable Videos";
-"VIDEO_EDITOR_EDUCATION_TRAY_BODY" = "Add captions, text overlays, custom thumbnails, and more, all without leaving the app.";
-"VIDEO_EDITOR_EDUCATION_TRAY_CTA" = "Try Video Editor";
+"VIDEO_EDITOR_EDUCATION_TRAY_BODY" = "Enhance your videos with captions, text overlays, custom thumbnails, and more — all without leaving the app.";
+"VIDEO_EDITOR_EDUCATION_TRAY_CTA" = "Try it now";
 "VIDEO_EDITOR_EDUCATION_TRAY_TITLE" = "Edit your videos right on X";
 "VIDEO_END_SCREEN_DISCOVER_MORE_VIDEOS_LABEL" = "Discover more videos";
 "VIDEO_END_SCREEN_WATCH_AGAIN_LABEL" = "Watch again";
@@ -3019,6 +3042,8 @@
 "VIDEO_TRIM_CONTROL_ACCESSIBILITY_VALUE_FORMAT" = "%ld seconds";
 "VIDEO_TRIM_CONTROL_END_OF_SELECTION_ACCESSIBILITY_LABEL" = "End of selection";
 "VIDEO_TRIM_CONTROL_START_OF_SELECTION_ACCESSIBILITY_LABEL" = "Start of selection";
+"VIDEO_TRIM_SELECTED_DURATION_LABEL" = "%@ selected";
+"VIDEO_TRIM_SELECTED_RANGE_LABEL" = "(%1$@ - %2$@)";
 "VIEW_ACTION_LABEL" = "View";
 "VIEW_ACTIVITY_LABEL" = "View activity";
 "VIEW_COUNT_INFO_BODY_DISABLED" = "View counts are not available for this post. To learn more, visit the %@.";

@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ has been blocked";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Notifications muted for this conversation";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Notifications unmuted for this conversation";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ has been muted";
-"TOASTS_GENERAL_UNDO_LABEL" = "Undo";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ has been unblocked";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "%@ has been unmuted";

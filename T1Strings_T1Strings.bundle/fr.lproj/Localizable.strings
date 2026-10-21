@@ -16,8 +16,8 @@
 "ACCOUNT_DEACTIVATE_DATA_RETENTION_PERIOD_ONE_MONTH_LABEL" = "30 jours";
 "ACCOUNT_DEACTIVATE_DETAIL_POINT_1_ONE_MONTH" = "Vous pouvez restaurer votre compte X jusqu'à 30 jours après sa désactivation s'il a été désactivé accidentellement ou par erreur.";
 "ACCOUNT_DEACTIVATE_DETAIL_POINT_2" = "Si vous disposez d'abonnements payants actifs achetés via l'application X (exemple : Premium), ils resteront actifs. Vous pouvez gérer ces abonnements via la plateforme sur laquelle vous les aviez souscrits. Les abonnements achetés sur twitter.com s'annuleront automatiquement après la désactivation de votre compte. <a href=\"https://help.twitter.com/managing-your-account/how-to-deactivate-twitter-account#deactivate-subscription\">En savoir plus sur les abonnements</a>";
-"ACCOUNT_DEACTIVATE_DETAIL_POINT_3" = "Certaines informations de compte peuvent encore être disponibles dans les moteurs de recherche tels que Google ou Bing. <a href=\"https://help.twitter.com/safety-and-security/remove-twitter-profile-from-google-search\">En savoir plus</a>";
-"ACCOUNT_DEACTIVATE_DETAIL_POINT_4" = "Si vous voulez simplement modifier votre @nomdutilisateur, il n'est pas nécessaire de désactiver votre compte. Il suffit de l'éditer dans vos <a href=\"https://mobile.twitter.com/settings/account\">réglages</a>.";
+"ACCOUNT_DEACTIVATE_DETAIL_POINT_3" = "Certaines informations de compte peuvent encore être disponibles dans les moteurs de recherche, tels que Google ou Bing. <a href=\"https://help.x.com/safety-and-security/remove-twitter-profile-from-google-search\">En savoir plus</a>";
+"ACCOUNT_DEACTIVATE_DETAIL_POINT_4" = "Si vous souhaitez uniquement modifier votre @username, vous n’avez pas besoin de désactiver votre compte — modifiez-le dans vos <a href=\"https://x.com/settings/account\">paramètres</a>.";
 "ACCOUNT_DEACTIVATE_DETAIL_POINT_5" = "Pour utiliser votre @nomdutilisateur ou adresse email actuels avec un autre compte X, <a href=\"https://mobile.x.com/settings/account\">modifiez‑les</a> avant de désactiver ce compte.";
 "ACCOUNT_DEACTIVATE_DETAIL_POINT_6_FORMAT" = "Pour télécharger <a href=\"%@\">vos données X</a>, vous devez en faire la demande et procéder au téléchargement avant de désactiver votre compte. En effet, les liens permettant de télécharger les données ne peuvent pas être envoyés pour des comptes désactivés.";
 "ACCOUNT_DEACTIVATE_DETAIL_SECTION_HEADER" = "Ce que vous devez aussi savoir";
@@ -177,6 +177,8 @@
 "ATTACHMENT_VIDEO_REMOVE_ACTION_ACCESSIBILITY_LABEL" = "Supprimer la vidéo";
 "ATTACHMENT_VOICE_REMOVE_ACTION_ACCESSIBILITY_HINT" = "Supprime l'enregistrement vocal de votre post";
 "ATTACHMENT_VOICE_REMOVE_ACTION_ACCESSIBILITY_LABEL" = "Supprimer l'enregistrement vocal";
+"AUDIO_ARTICLE_DOCK_REMAINING_AND_AUTHOR_FORMAT" = "%1$@ restantes · %2$@";
+"AUDIO_ARTICLE_DOCK_REMAINING_FORMAT" = "%1$@ restant";
 "AUTHORIZATION_ACTION_TAKEN_MESSAGE" = "Jeton d'action.";
 "AUTHORIZATION_PREVIOUSLY_GRANTED_MESSAGE" = "L'accès a été accordé précédemment.";
 "AUTOCOMPLETE_ITEM_ACCESSIBILITY_HINT" = "Auto-compléter l'élément";
@@ -271,7 +273,7 @@
 "BOOKMARKS_TOAST_NOTIFICATION_TWEET_REMOVED_SHORT_MESSAGE" = "Supprimé des signets";
 "BOOKMARKS_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Signets avec %@";
 "BOOKMARK_FOLDERS_ADD_REMOVE_TO_FOLDER_LABEL" = "Ajouter au/retirer du dossier";
-"BOOKMARK_FOLDERS_ADD_REMOVE_TO_FOLDER_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Ajouter au dossier/supprimer du dossier avec %@";
+"BOOKMARK_FOLDERS_ADD_REMOVE_TO_FOLDER_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Ajouter/supprimer d’un dossier avec %@";
 "BOOKMARK_FOLDERS_ADD_TO_FOLDER_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Ajouter au dossier avec %@";
 "BOOKMARK_FOLDERS_ARE_NOT_LOADING_LABEL" = "Les dossiers ne se chargent pas pour le moment.";
 "BOOKMARK_FOLDERS_CREATE_ACCESSIBILITY_LABEL" = "Créer un dossier de signets";
@@ -304,9 +306,14 @@
 "BOOST_BOOSTED_EMPTY_SUBTITLE" = "Booster quelques posts pour les voir ici";
 "BOOST_BOOSTED_EMPTY_TITLE" = "Aucun post boosté";
 "BOOST_BOOSTED_TAB_TITLE" = "Boosté";
+"BOOST_CTA_ACTION_TEXT_BOOK_TODAY" = "Réservez aujourd’hui";
+"BOOST_CTA_ACTION_TEXT_BUY_TICKETS" = "Acheter des billets";
 "BOOST_CTA_ACTION_TEXT_DOWNLOAD" = "Télécharger";
+"BOOST_CTA_ACTION_TEXT_GET_TICKETS" = "Obtenir des billets";
 "BOOST_CTA_ACTION_TEXT_LEARN_MORE" = "En savoir plus";
+"BOOST_CTA_ACTION_TEXT_ORDER_NOW" = "Commander maintenant";
 "BOOST_CTA_ACTION_TEXT_SHOP_NOW" = "Acheter";
+"BOOST_CTA_ACTION_TEXT_TRY_NOW" = "Essayer maintenant";
 "BOOST_CTA_ACTION_TEXT_VISIT_NOW" = "Visiter";
 "BOOST_FILTER_EMPTY_SUBTITLE" = "Les posts que vous pouvez booster seront affichés ici";
 "BOOST_FILTER_EMPTY_TITLE" = "Aucun post boostable";
@@ -338,6 +345,7 @@
 "BROADCAST_NOTIFICATION_PROMPT_TITLE_FORMAT" = "Obtenez une notification lorsque %@ passe en direct";
 "BROADCAST_NOTIFICATION_PROMPT_TURN_ON_BUTTON_TITLE" = "Activer";
 "BROADCAST_REPLAY_BADGE_LABEL" = "Rediffusion";
+"BROADCAST_SCHEDULED_BADGE_LABEL" = "Programmé";
 "BROADCAST_SCHEDULED_BROADCAST_ALERT_MESSAGE" = "Cette diffusion est programmée pour le %1$@. Revenez à ce moment‑là.";
 "BROADCAST_SCHEDULED_BROADCAST_STARTING_SOON" = "Début imminent";
 "BROADCAST_SCHEDULED_BROADCAST_TITLE" = "Diffusion programmée ";
@@ -409,6 +417,7 @@
 "CASHTAG_INFO_COMING_SOON" = "Bientôt disponible";
 "CASHTAG_INFO_LATEST_TAB_TITLE" = "Récents";
 "CASHTAG_INFO_LIVE_PRICE_NOW_AT" = "Maintenant à";
+"CASHTAG_INFO_PERCENT_CHANGE_BRACKET_FORMAT" = "CASHTAG_INFO_PERCENT_CHANGE_BRACKET_FORMAT";
 "CASHTAG_INFO_PRE_MARKET_LABEL" = "Pré‑ouverture";
 "CASHTAG_INFO_TIMEFRAME_1D_LABEL" = "1 jour";
 "CASHTAG_INFO_TIMEFRAME_1M_LABEL" = "1 mois";
@@ -434,6 +443,9 @@
 "CHANGE_PASSWORD_LABEL_UPDATING" = "Mise à jour…";
 "CHANGE_PASSWORD_SETTINGS_LABEL" = "Mot de passe";
 "CHANGE_PASSWORD_TITLE_LABEL" = "Mettre le mot de passe à jour";
+"CLIPPED_FROM_ATTRIBUTION_LABEL_TITLE" = "Clip de";
+"CLIP_LABEL" = "clip";
+"CLIP_VIDEO_ACTION_LABEL" = "Clip vidéo";
 "CLOCK_SKEW_ERROR_MESSAGE" = "Veuillez vous rendre dans l'application Réglages et mettre à jour la date et l'heure dans le menu \"Général\".";
 "CLOCK_SKEW_ERROR_TITLE" = "La date et l'heure de votre appareil sont incorrects.";
 "COMMUNITIES_PROFILE_MODULE_HEADER_TITLE" = "Communautés";
@@ -486,9 +498,6 @@
 "COMPOSE_ADD_ANOTHER_TWEET_TOOLTIP_TEXT" = "Ajoutez un autre post.";
 "COMPOSE_CANCEL_POST_ALERT_KEEP_EDITING_ACTION_LABEL" = "Poursuivre les modifications";
 "COMPOSE_CANCEL_POST_ALERT_SAVE_TO_DRAFTS_ACTION_LABEL" = "Enregistrer dans les brouillons";
-"COMPOSE_CANCEL_POST_TRAY_MESSAGE" = "Vous n’avez encore rien posté. Enregistrez votre post comme brouillon pour le terminer plus tard ou supprimez-le.";
-"COMPOSE_CANCEL_POST_TRAY_SAVE_DRAFT_ACTION_LABEL" = "Enregistrer";
-"COMPOSE_CANCEL_POST_TRAY_TITLE" = "Enregistrer comme brouillon ?";
 "COMPOSE_CARD_REMOVE_CARD_ACCESSIBILITY_ACTION" = "Supprimez la carte de votre post.";
 "COMPOSE_CONVERSATION_CONTROL_TOOLTIP_TEXT" = "Choisissez qui peut répondre à votre post.";
 "COMPOSE_CONVERSATION_CONTROL_TOOLTIP_TEXT_V2" = "Nous nous souviendrons de votre choix sur cet appareil.";
@@ -521,6 +530,7 @@
 "COMPOSE_POLL_REMOVE_ALERT_MESSAGE" = "Ceci supprimera vos choix.";
 "COMPOSE_POLL_REMOVE_ALERT_TITLE" = "Retirer la question ?";
 "COMPOSE_REORDERING_TOOLTIP_TEXT" = "Maintenez appuyé sur la photo pour modifier la disposition.";
+"COMPOSE_REPLY_BAR_ACCOUNT_ACCESSIBILITY_LABEL" = "%1$@, @%2$@";
 "COMPOSE_TEXT_VIEW_POLL_PLACEHOLDER" = "Posez une question...";
 "COMPOSE_TOOLBAR_ADD_LOCATION_LABEL" = "Ajouter un lieu";
 "COMPOSE_TOOLBAR_GENERATE_IMAGE_LABEL" = "Générer une image";
@@ -562,6 +572,7 @@
 "COMPOSE_VIEW_LIVE_MENU_SHEET_START_A_VIDEO_BROADCAST" = "Lancer une diffusion en direct";
 "COMPOSE_VIEW_OPEN_HASHTAG_PICKER_ACCESSIBILITY_HINT" = "Choisissez un hashtag dans une liste.";
 "COMPOSE_VIEW_OPEN_HASHTAG_PICKER_ACCESSIBILITY_LABEL" = "Sélecteur de hashtag";
+"COMPOSE_VIEW_PROMOTE_BUTTON_LABEL" = "Sponsoriser";
 "COMPOSE_VIEW_PROMPT_ACCESSIBILITY_HINT" = "Identifie des personnes sur cette photo";
 "COMPOSE_VIEW_PROMPT_ACCESSIBILITY_HINT_MEDIA" = "Identifie les personnes dans ce post";
 "COMPOSE_VIEW_PROMPT_TAP_TO_START_TAGGING" = "Qui figure sur cette photo ?";
@@ -590,6 +601,7 @@
 "COMPOSE_VIEW_UPLOAD_VIDEO_ACCESSIBILITY_LABEL" = "Télécharger une vidéo";
 "COMPOSE_VIEW_UPLOAD_VIDEO_AUTO_REDUCED_QUALITY_TOOLTIP" = "La qualité de la vidéo téléchargée est réduite automatiquement.";
 "COMPOSE_VIEW_UPLOAD_VIDEO_LOW_RESOLUTION_QUALITY_TOOLTIP" = "Attention : la résolution de cette vidéo semble faible. Son téléchargement en 720 p ou plus pourrait lui permettre de sortir du lot.";
+"COMPOSE_VIEW_VIDEO_TOO_SHORT_TOAST" = "Cette vidéo est trop courte pour être postée";
 "COMPOSITION_COMPLETE_EDITING_TWEET_PLURAL_MINUTES_EDITABLE_TOAST_NOTIFICATION_MESSAGE" = "Votre post a été édité.";
 "COMPOSITION_COMPLETE_SENDING_TWEET_PLURAL_MINUTES_EDITABLE_TOAST_NOTIFICATION_MESSAGE_FORMAT" = "Votre post a été publié. Vous avez %@ minutes pour y apporter des modifications.";
 "COMPOSITION_COMPLETE_SENDING_TWEET_SINGLE_MINUTE_EDITABLE_TOAST_NOTIFICATION_MESSAGE" = "Votre post a été publié. Vous pouvez le modifier dans la minute qui vient.";
@@ -624,6 +636,8 @@
 "CONVERSATIONS_OTHER_PEOPLE_IN_CONVERSATION_TOGGLE_TITLE" = "Autres participants à cette conversation";
 "CONVERSATIONS_PEOPLE_IN_CONVERSATION_EDIT_TITLE" = "En réponse à";
 "CONVERSATIONS_PEOPLE_IN_CONVERSATION_READ_ONLY_TITLE" = "Participants à cette conversation";
+"CONVERSATION_CONTINUATION_FOR_YOU_HEADER_SUBTITLE" = "Plus de posts de partout sur X";
+"CONVERSATION_CONTINUATION_FOR_YOU_HEADER_TITLE" = "Pour vous";
 "CONVERSATION_CONTROL_BUTTON_ALL_TITLE" = "Tout le monde peut répondre";
 "CONVERSATION_CONTROL_BUTTON_BY_INVITATION_TITLE" = "Seuls les comptes que vous mentionnez peuvent répondre";
 "CONVERSATION_CONTROL_BUTTON_CHECKMARK_TITLE" = "Seuls les comptes certifiés peuvent répondre";
@@ -654,7 +668,7 @@
 "CONVERSATION_CONTROL_CHANGE_TO_PREMIUM_TOAST_CONFIRMATION_TITLE_HTML" = "<p>Les abonnés <span id=\"boldedText\">Premium</span> peuvent maintenant répondre</p>";
 "CONVERSATION_CONTROL_CHANGE_TO_SUBSCRIBERS_TOAST_CONFIRMATION_TITLE_HTML" = "<p><span id=\"boldedText\">Seuls les abonnés</span> peuvent répondre pour le moment</p>";
 "CONVERSATION_CONTROL_CHANGE_TO_VERIFIED_TOAST_CONFIRMATION_TITLE_HTML" = "<p><span id=\"boldedText\">Seuls les comptes certifiés</span> peuvent désormais répondre.</p>";
-"CONVERSATION_CONTROL_CHANGE_TO_X_SUBSCRIBERS_TOAST_CONFIRMATION_TITLE_HTML" = "<p>Les <span id=\"boldedText\">abonnés X</span> peuvent maintenant répondre</p>";
+"CONVERSATION_CONTROL_CHANGE_TO_X_SUBSCRIBERS_TOAST_CONFIRMATION_TITLE_HTML" = "<p><span id=\"boldedText\">Abonnés X</span> peuvent désormais répondre</p>";
 "CONVERSATION_CONTROL_CHANGE_VERIFIED_PICKER" = "Les comptes certifiés";
 "CONVERSATION_CONTROL_CHANGE_WHO_CAN_REPLY_ACTION_LABEL" = "Modifier qui peut répondre";
 "CONVERSATION_CONTROL_CHANGE_X_SUBSCRIBERS_PICKER" = "Abonnés X";
@@ -890,6 +904,7 @@
 "DRAFTS_ANIMATED_GIF_DEFAULT_TITLE" = "GIF animé";
 "DRAFTS_DELETE_ACTION_LABEL" = "Supprimer";
 "DRAFTS_LABEL" = "Brouillons";
+"DRAFTS_LIST_REPLYING_TO_FORMAT" = "Réponse à %@";
 "DRAFTS_LIST_SCHEDULED_EMPTY_LABEL" = "Vous n'avez aucun post programmé";
 "DRAFTS_LIST_SCHEDULED_ERROR_LABEL" = "Une erreur est survenue. Veuillez réessayer.";
 "DRAFTS_LIST_SCHEDULED_TAB_LABEL" = "Programmé";
@@ -909,6 +924,7 @@
 "DURATION_PICKER_MINUTES" = "min";
 "DURATION_PILL_FORMAT_MINUTES_SECONDS" = "%1$d:%2$02d";
 "DURATION_PILL_FORMAT_SECONDS" = "%ds";
+"EDIT_CLIP_ACTION_LABEL" = "Modifier le clip";
 "EDIT_PHOTOS_TITLE" = "Éditer la photo";
 "EDIT_PROFILE_BIRTHDAY_HINT_TEXT" = "Ajoutez votre date.";
 "EDIT_PROFILE_BIRTHDAY_LABEL" = "Date de naissance";
@@ -1062,6 +1078,9 @@
 "FLEETS_FLEETLINE_UPDATED_ACCESSIBILITY_LABEL" = "Barre d'Espaces mise à jour";
 "FLEETS_PROFILE_MENU_VIEW_PROFILE_PHOTO" = "Voir la photo de profil";
 "FLEETS_PROFILE_OPENING_OPTIONS_ACCESSIBILITY_ANNOUNCEMENT_LABEL" = "Ouverture des options";
+"FOCAL_AVATAR_LIVE_GAME_RING_ACCESSIBILITY_HINT" = "Ouvre le match";
+"FOCAL_AVATAR_LIVE_RING_ACCESSIBILITY_HINT" = "Ouvre la vidéo en direct";
+"FOCAL_AVATAR_SPACES_RING_ACCESSIBILITY_HINT" = "Ouvre l’Espace";
 "FOCUSED_TIMELINE_ACTIONS_COMPLETION_TOAST_DETAIL_LABEL" = "Plus vous utilisez la fonction J\\'aime, plus ce sera le cas. Continuez à aimer ce qui vous plaît.";
 "FOCUSED_TIMELINE_ACTIONS_COMPLETION_TOAST_MESSAGE_LABEL" = "Bien joué ! Votre fil s\\'améliore.";
 "FOCUSED_TIMELINE_ACTIONS_LIKES_TOAST_DETAIL_LABEL" = "Plus vous aimerez de posts, meilleur sera votre fil.";
@@ -1190,11 +1209,11 @@
 "IDENTITY_VERIFICATION_INTRO_USER_CONSENT_AGE_ASSURANCE" = "J'accepte que X et Persona utilisent des photos de ma pièce d'identité et ma photo pour confirmer mon âge. Votre photo ne sera pas stockée. X et xAI pourront conserver les informations relatives à votre âge. %@";
 "IDENTITY_VERIFICATION_INTRO_USER_CONSENT_CREATOR" = "J'accepte que X et Au10tix utilisent des photos de ma pièce d'identité et mon selfie, notamment les données biométriques extraites, pour confirmer mon identité et à des fins de sécurité et de protection, de prévention des fraudes et de paiement. Au10tix est susceptible de stocker ces données pendant 30 jours maximum. X peut stocker mon nom et mon prénom, mon adresse et une version hachée du numéro de ma pièce d'identité pour toute la durée de ma participation au programme %1$@ ou %2$@. %3$@";
 "IDENTITY_VERIFICATION_INTRO_USER_CONSENT_PERSONA" = "J'accepte que X et Persona utilisent des photos de ma pièce d'identité et mon selfie, notamment les données biométriques extraites, pour confirmer mon identité et à des fins de sécurité et de protection, de prévention des fraudes et de paiement. Persona est susceptible de stocker ces données pendant 30 jours maximum. X peut stocker mon nom et mon prénom, mon adresse et une version hachée du numéro de ma pièce d'identité pour toute la durée de mon abonnement au %1$@. %2$@";
-"IDENTITY_VERIFICATION_SETTINGS_DESCRIPTION" = "Vérifiez votre pièce d'identité officielle pour confirmer votre identité et profiter des fonctionnalités %@.";
+"IDENTITY_VERIFICATION_SETTINGS_DESCRIPTION" = "Certifier votre pièce d'identité délivrée par le gouvernement pour confirmer votre identité et déverrouiller des fonctionnalités en tant qu'abonné %@.";
 "IDENTITY_VERIFICATION_SETTINGS_HIDE_VERIFIED_LABEL_DESCRIPTION" = "Masquez votre libellé Identité vérifiée pour que les utilisateurs ne le voient pas quand ils appuient sur la coche figurant sur votre profil.";
 "IDENTITY_VERIFICATION_SETTINGS_HIDE_VERIFIED_LABEL_TITLE" = "Masquez votre libellé Identité vérifiée";
 "IDENTITY_VERIFICATION_SETTINGS_LOCKED_REQUEST_DESCRIPTION" = "Vous avez dépassé la limite du nombre de demandes de vérification. Veuillez attendre 24 heures avant de réessayer.";
-"IDENTITY_VERIFICATION_SETTINGS_NON_VERIFIABLE_DESCRIPTION" = "Ce compte ne peut pas profiter de la vérification d'identité. Seuls les abonnés individuels à %@ peuvent le faire pour le moment.";
+"IDENTITY_VERIFICATION_SETTINGS_NON_VERIFIABLE_DESCRIPTION" = "Ce compte n’est pas éligible à la certification d’identité. Seuls les abonnés individuels %@ sont actuellement éligibles à la certification d’identité.";
 "IDENTITY_VERIFICATION_SETTINGS_PENDING_DESCRIPTION" = "Nous passons en revue votre pièce d'identité officielle. Nous vous informerons via les notifications.\n\nQuand elle sera approuvée, un libellé Identité vérifiée sera apposé sur votre profil. Il permettra aux utilisateurs de savoir que votre identité a été vérifiée.";
 "IDENTITY_VERIFICATION_SETTINGS_SUBSCRIBE_TO_PREMIUM_CALLOUT_TEXT" = "Vous voulez qu'un libellé Identité vérifiée figure sur votre profil ?";
 "IDENTITY_VERIFICATION_SETTINGS_TITLE" = "Vérification d'identité";
@@ -1622,6 +1641,10 @@
 "NO_LIKES_LABEL_OWN_PROFILE" = "Aimez des posts";
 "NO_LIKES_SUBTITLE" = "Quand il le fera, ses posts apparaîtront ici.";
 "NO_LIKES_SUBTITLE_OWN_PROFILE" = "Appuyez sur le cœur figurant sous un post pour montrer que vous l'aimez. Il apparaîtra ensuite ici.";
+"NO_LIVE_LABEL" = "%@ n’est pas encore passé en direct";
+"NO_LIVE_LABEL_OWN_PROFILE" = "Vous n’avez pas encore diffusé en Direct";
+"NO_LIVE_SUBTITLE" = "Quand ils le feront, leurs streams en direct apparaîtront ici.";
+"NO_LIVE_SUBTITLE_OWN_PROFILE" = "Quand vous le ferez, vos streams en direct apparaîtront ici.";
 "NO_PHOTOS_LABEL" = "%@ n'a pas posté de photos.";
 "NO_PHOTOS_LABEL_OWN_PROFILE" = "Lumière, caméra… photos !";
 "NO_PHOTOS_SUBTITLE" = "Quand il le fera, ces photos apparaîtront ici.";
@@ -1704,6 +1727,7 @@
 "OAUTH_CONSENT_UNTRUSTED_DEVELOPER_ACKNOWLEDGEMENT" = "Je fais confiance à ce développeur";
 "OAUTH_CONSENT_UNTRUSTED_DEVELOPER_DETAIL" = "Ce développeur n’est pas certifié. Faites preuve de prudence lors de l’authentification dans cette application.";
 "OAUTH_CONSENT_UNTRUSTED_DEVELOPER_DETAIL_CALLBACK_FORMAT" = "Ce développeur a été signalé comme suspect et cette application n’est pas affiliée à X. Accordez votre autorisation uniquement si vous faites confiance à %1$@.";
+"OAUTH_CONSENT_UNTRUSTED_DEVELOPER_FLAGGED_DETAIL" = "Ce développeur a été signalé comme suspect et cette application n’est pas affiliée à X. N’autorisez que si vous faites confiance à ce développeur.";
 "OAUTH_CONSENT_UNTRUSTED_DEVELOPER_TITLE" = "Développeur non certifié";
 "OAUTH_CONSENT_WILL_SECTION_TITLE" = "Cette application pourra :";
 "OAUTH_CONSENT_WONT_FOLLOW_OR_UNFOLLOW" = "Suivre ou se désabonner des comptes à votre place.";
@@ -1804,6 +1828,13 @@
 "PHONE_NUMBER_LABEL" = "Téléphone";
 "PHONE_OR_EMAIL_OR_USERNAME_LABEL" = "Téléphone, email ou nom d'utilisateur";
 "PHOTOS_TITLE_LABEL" = "Galerie de photos";
+"PHOTO_EDITOR_EDUCATION_TRAY_BLUR_BADGE" = "Flou";
+"PHOTO_EDITOR_EDUCATION_TRAY_BODY" = "Modifiez vos images avec Grok, ajoutez du texte, recadrez-les, floutez n'importe quoi et plus encore — tout sans quitter l'Application.";
+"PHOTO_EDITOR_EDUCATION_TRAY_CROP_BADGE" = "Recadrer";
+"PHOTO_EDITOR_EDUCATION_TRAY_CTA" = "Essayer maintenant";
+"PHOTO_EDITOR_EDUCATION_TRAY_GROK_BADGE" = "Grok";
+"PHOTO_EDITOR_EDUCATION_TRAY_TEXT_BADGE" = "Texte";
+"PHOTO_EDITOR_EDUCATION_TRAY_TITLE" = "Modifiez vos images directement sur X";
 "PHOTO_LIBRARY_CAMERA_BUTTON_TITLE_LABEL" = "Caméra";
 "PHOTO_LIBRARY_GO_LIVE_CAMERA_BUTTON_ACCESSIBILITY_LABEL" = "Passer en direct";
 "PHOTO_SHARE_FROM_POST_FORMAT" = "De %1$@";
@@ -1973,7 +2004,7 @@
 "PREMIUM_BILLING_ISSUE_MESSAGE" = "Il semble que votre paiement n'a pas été effectué ou qu'il est sur le point d'expirer. Mettez à jour vos informations de paiement Apple pour conserver votre abonnement à Premium.";
 "PREMIUM_BILLING_ISSUE_MESSAGE_GOOGLE" = "Il semble que votre paiement n'a pas été effectué ou qu'il est sur le point d'expirer. Mettez à jour vos informations de paiement Google pour conserver votre abonnement à Premium.";
 "PREMIUM_SETTINGS_TITLE" = "Réglages Premium";
-"PREMIUM_SETTINGS_TITLE_SUBSCRIPTIONS_FORMAT" = "Réglages %@";
+"PREMIUM_SETTINGS_TITLE_SUBSCRIPTIONS_FORMAT" = "%@ paramètres";
 "PREROLL_AD_COUNTDOWN_FORMAT" = "Publicité · %1$d:%2$02d";
 "PREROLL_CTA_BUTTON_LABEL_GO_FORMAT" = "Accéder à %@";
 "PREROLL_CTA_BUTTON_LABEL_GO_GENERIC" = "Accéder au site Web";
@@ -2067,8 +2098,8 @@
 "PROFILE_TIMELINE_SORT_BY" = "Trier par";
 "PROFILE_UPGRADE_UPSELL_CARD_CTA_FINISH_VERIFICATION" = "Terminer la certification";
 "PROFILE_UPGRADE_UPSELL_CARD_CTA_UPGRADE_NOW" = "Mettre à niveau maintenant";
-"PROFILE_UPGRADE_UPSELL_CARD_INTRO_OFFER_TITLE_PREMIUM" = "Vous êtes éligible pour %@";
-"PROFILE_UPGRADE_UPSELL_CARD_INTRO_OFFER_TITLE_PREMIUM_PLUS" = "Vous êtes éligible pour %@";
+"PROFILE_UPGRADE_UPSELL_CARD_INTRO_OFFER_TITLE_PREMIUM" = "Vous êtes éligible à %@";
+"PROFILE_UPGRADE_UPSELL_CARD_INTRO_OFFER_TITLE_PREMIUM_PLUS" = "Vous êtes éligible à %@";
 "PROFILE_UPGRADE_UPSELL_CARD_SUBTITLE" = "Obtenez le statut Certifié pour augmenter la crédibilité de votre compte et vous développer plus rapidement.";
 "PROFILE_UPGRADE_UPSELL_CARD_TITLE" = "Vous n’avez pas encore le statut Certifié";
 "PROFILE_WEBSITE_ACCESSIBILITY_LABEL_FORMAT" = "Site Web %@";
@@ -2112,6 +2143,7 @@
 "REMOVE_EMAIL_LABEL" = "supprimer l'email";
 "REMOVE_ME_MENTIONS_LABEL" = "Quitter cette conversation";
 "REMOVE_PHONE_ERROR" = "Désolé, mais nous ne pouvons pas supprimer votre téléphone. Veuillez réessayer plus tard.";
+"REMOVE_PHONE_REQUIRES_EMAIL_MESSAGE" = "Pour supprimer votre numéro de téléphone, ajoutez une adresse e-mail à votre Compte. Vous en aurez besoin pour vous connecter et récupérer votre Compte.";
 "REMOVE_PHONE_WRONG_PASSWORD_ERROR" = "Le mot de passe que vous avez entré ne correspond pas à celui présent dans nos fichiers. Veuillez vérifier et réessayer.";
 "REPLAY_CAROUSEL_CELL_LABEL" = "REDIFFUSION";
 "REPLAY_VIDEO_ACCESSIBILITY_LABEL" = "Relire la dernière vidéo";
@@ -2403,6 +2435,7 @@
 "SETTINGS_SECURITY_2FA_ITEM_TITLE" = "Sécurité";
 "SETTINGS_SECURITY_ITEM_DETAIL" = "Gérez la sécurité de votre compte et assurez le suivi de son utilisation, notamment des applications qui y sont connectées.";
 "SETTINGS_SECURITY_ITEM_TITLE" = "Sécurité et accès au compte";
+"SETTINGS_SECURITY_KEY_BROWSER_PROMPT_DESCRIPTION" = "Vous devez vous connecter à x.com sur votre navigateur pour ajouter une clé de sécurité.";
 "SETTINGS_SENSITIVE_CONTENT_WEB_ROW_SUBTITLE" = "Les préférences relatives au contenu sensible sont uniquement disponibles sur le Web. Connectez-vous à x.com pour continuer.";
 "SETTINGS_SENSITIVE_CONTENT_WEB_ROW_TITLE" = "Mettre à jour les préférences concernant les contenus sensibles";
 "SETTINGS_SMS_NOTIFICATIONS_LABEL" = "Notifications SMS";
@@ -2425,7 +2458,6 @@
 "SHARE_EXTENSION_MEDIA_LOAD_FAILED_ALERT_TITLE" = "Impossible de joindre un fichier multimédia";
 "SHARE_EXTENSION_UNSUPPORTED_FILE_ALERT_MESSAGE" = "Les fichiers partagés de ce type ne peuvent pas être joints à une publication.";
 "SHARE_EXTENSION_UNSUPPORTED_FILE_ALERT_TITLE" = "Type de fichier non pris en charge";
-"SHARE_PROFILE_BUTTON_LABEL" = "Partager le profil";
 "SHARE_PROFILE_VIA_ACTION_FORMAT" = "Partager %@ via…";
 "SHARE_TWEET_TOOLTIP_LABEL" = "Partagez ce post avec la personne de votre choix, même si elle n'est pas encore sur X.";
 "SHARE_WITH_COMMUNITY_ACTION_LABEL" = "Communauté";
@@ -2456,6 +2488,8 @@
 "SOCIAL_CONTEXT_USER_FOLLOWS" = "%@ suit";
 "SOMETHING_WRONG_RETRY_LABEL" = "Il semble qu'une erreur est survenue. Veuillez réessayer.";
 "STATUS_AI_GENERATED_LABEL" = "Fabriqué avec l'IA";
+"STATUS_EDITED_ON_X_LABEL" = "Modifié sur %1$@";
+"STATUS_INLINE_EXPANSION_SHOW_LESS_LABEL" = "Voir moins";
 "STATUS_MADE_WITH_GROK_IMAGINE_LABEL" = "Créé avec Grok Imagine";
 "STATUS_PAID_PARTNERSHIP_LABEL" = "Partenariat rémunéré";
 "STAY_ACTION_LABEL" = "Rester";
@@ -2477,12 +2511,12 @@
 "STORAGE_OTHER_LABEL" = "Autre";
 "STORAGE_SETTINGS_ITEM_DETAIL" = "Gérez l'utilisation de l'espace de stockage par X sur cet appareil. Vérifiez et effacez les fichiers multimédias, les vidéos et autres données mises en cache.";
 "STORAGE_SUMMARY_DESCRIPTION" = "X utilise %1$@ d'espace de stockage sur cet appareil (%2$@ au total).";
-"SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_FEATURE_SWITCH_OFF_SUBSCRIPTIONS_FORMAT" = "Une icône d'application que vous utilisiez a été supprimée. Veuillez en choisir une nouvelle dans %@.";
+"SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_FEATURE_SWITCH_OFF_SUBSCRIPTIONS_FORMAT" = "L’icône d’application que vous utilisiez a été abandonnée. Veuillez en choisir une nouvelle dans %@.";
 "SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_FEATURE_SWITCH_OFF_TEXT" = "Une icône d'application que vous utilisiez a été supprimée. Veuillez en choisir une nouvelle dans Premium Hub.";
-"SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_LOGGED_OUT_SUBSCRIPTIONS_TEXT" = "Reconnectez‑vous à votre compte abonné pour choisir une nouvelle icône d'application personnalisée.";
+"SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_LOGGED_OUT_SUBSCRIPTIONS_TEXT" = "Reconnectez-vous à votre compte abonné pour choisir une nouvelle icône d'application personnalisée.";
 "SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_LOGGED_OUT_TEXT" = "Reconnectez‑vous à votre compte abonné à Premium pour choisir une nouvelle icône d'application personnalisée.";
 "SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_NO_SUBSCRIPTION_TOAST_TEXT" = "Suite à votre désabonnement de Premium, l'icône de votre application sera de nouveau l'icône par défaut.";
-"SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_UNAVAILABLE_SUBSCRIPTIONS_FORMAT" = "Une icône d'application que vous utilisiez a été supprimée. Veuillez en choisir une nouvelle dans %@.";
+"SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_UNAVAILABLE_SUBSCRIPTIONS_FORMAT" = "L’icône d’Application que vous utilisiez a été abandonnée. Veuillez en choisir une nouvelle dans %@.";
 "SUBSCRIPTION_APP_ICON_FORCE_REVERT_ICON_UNAVAILABLE_TEXT" = "Une icône d'application que vous utilisiez a été supprimée. Veuillez en choisir une nouvelle dans Premium Hub.";
 "SUBSCRIPTION_APP_ICON_SETTINGS_DETAIL" = "Choisissez une icône d\\'application personnalisée pour l\\'écran d\\'accueil de votre appareil. Modifiez-la à tout moment.";
 "SUBSCRIPTION_APP_ICON_SETTINGS_TITLE" = "Icône de l'application";
@@ -2540,14 +2574,14 @@
 "SUBSCRIPTION_MANAGE_SUBSCRIPTION_VIA_OTHER_PLATFORM" = "Il semble que vous avez acheté cet abonnement sur un autre appareil. Vous devrez gérer ou annuler votre abonnement depuis cette plateforme.";
 "SUBSCRIPTION_MANAGE_SUBSCRIPTION_VIA_STRIPE_DETAILS" = "Il semble que vous avez acheté cet abonnement sur le site Web de X. Vous devrez le gérer ou l'annuler sur cette plateforme.";
 "SUBSCRIPTION_MANAGE_SUPERGROK_HEAVY_BADGE" = "Inclus";
-"SUBSCRIPTION_MANAGE_SUPERGROK_HEAVY_COMPLIMENTARY" = "Inclus avec %@.";
+"SUBSCRIPTION_MANAGE_SUPERGROK_HEAVY_COMPLIMENTARY" = "Offert avec %@.";
 "SUBSCRIPTION_MANAGE_SUPERGROK_HEAVY_MANAGE" = "Gérez cet abonnement depuis l'application Grok ou sur Grok.com";
 "SUBSCRIPTION_MANAGE_YOUR_GIFTED_SUBSCRIPTION" = "Gérer l'abonnement offert";
 "SUBSCRIPTION_MANAGE_YOUR_GIFTED_SUBSCRIPTION_WITH_SUPPORT" = "Un abonnement a été offert à ce compte. Pour l'annuler, contactez l'assistance.";
 "SUBSCRIPTION_MANAGE_YOUR_SUBSCRIPTION_FROM_TWITTER" = "Pour annuler votre abonnement gratuit à Premium, contactez l'Assistance.";
 "SUBSCRIPTION_MANAGE_YUOR_CURRENT_SUBSCRIPTION" = "Gérer votre abonnement actuel";
 "SUBSCRIPTION_MANAGE_YUOR_SUBSCRIPTION_FROM_APPLE_ITUNES" = "Consultez les conditions ou gérez votre abonnement depuis votre compte Apple iTunes.";
-"SUBSCRIPTION_MARKETING_EDIT_TWEET_UPSELL_ACTION_LABEL" = "Éditer avec %@";
+"SUBSCRIPTION_MARKETING_EDIT_TWEET_UPSELL_ACTION_LABEL" = "Modifier avec %@";
 "SUBSCRIPTION_PREMIUM_HIDE_SUBSCRIPTIONS_SETTING_DETAIL" = "Vous serez la seule personne à voir la liste de vos Souscriptions dans votre profil.";
 "SUBSCRIPTION_PREMIUM_HIDE_SUBSCRIPTIONS_SETTING_TITLE" = "Masquer mes Souscriptions de créateur";
 "SUBSCRIPTION_PREMIUM_PROFILE_CUSTOMIZATION_SETTING_DETAIL" = "Gérez l'apparence de votre profil public.";
@@ -2587,7 +2621,7 @@
 "SUBSCRIPTION_UNDO_SEND_UNDO_ACTION_LABEL" = "Annuler";
 "SUBSCRIPTION_UNDO_SEND_UPLOADING_TWEET_TITLE" = "Téléchargement en cours…";
 "SUBSCRIPTION_UNDO_SEND_VIEW_TWEET_ACTION_TITLE" = "Voir le post";
-"SUBSCRIPTION_UPGRADE_BUTTON_TEXT" = "Mettre à niveau vers %@";
+"SUBSCRIPTION_UPGRADE_BUTTON_TEXT" = "Passer à %@";
 "SUBSCRIPTION_UPSELL_CTA_BUTTON_TITLE" = "Souscrire";
 "SUBSCRIPTION_UPSELL_CTA_FOOTER_TEXT_WITH_PREFIX_PRICE_AND_PERIOD" = "Offre à durée limitée : %1$@/%2$@";
 "SUBSCRIPTION_UPSELL_CTA_FOOTER_TEXT_WITH_PRICE_AND_PERIOD" = "%1$@/%2$@";
@@ -2673,8 +2707,6 @@
 "TOAST_REPLY_MESSAGE_FORMAT" = "%@ vous a répondu.";
 "TOAST_RETWEET_MESSAGE_REPLY_FORMAT" = "%@ a reposté votre réponse";
 "TOAST_RETWEET_MESSAGE_TWEET_FORMAT" = "%@ a reposté votre post";
-"TOAST_XCHAT_GROUP_CUSTOM_TITLE_MESSAGE_FORMAT" = "%1$@ a envoyé un message à %2$@.";
-"TOAST_XCHAT_GROUP_MESSAGE_FORMAT" = "%@ a envoyé un message à votre groupe.";
 "TOGGLE_CLOSED_CAPTIONS" = "Activer et désactiver les sous-titres";
 "TOPICS_LABEL" = "Sujets";
 "TOP_ARTICLES_TIMELINE_EMPTY_BUTTON_LABEL" = "Trouver des personnes à suivre";
@@ -2820,9 +2852,9 @@
 "USER_MY_FOLLOWING_COUNT_LABEL" = "Abonnement";
 "USER_NAME_INSTRUCTION_LABEL" = "Votre nom d'utilisateur doit faire 15 caractères ou moins et ne contenir que des lettres, des chiffres, des tirets bas et aucun espace.";
 "USER_PROFILE_ALL_TAB_LABEL" = "Tous";
-"USER_PROFILE_ARTICLES_EMPTY_STATE_BUTTON_NONVERIFIED" = "S'abonner à %@";
+"USER_PROFILE_ARTICLES_EMPTY_STATE_BUTTON_NONVERIFIED" = "S’abonner à %@";
 "USER_PROFILE_ARTICLES_EMPTY_STATE_SUBTITLE" = "Quand vous publiez un Article sur x.com, il apparaît ici.";
-"USER_PROFILE_ARTICLES_EMPTY_STATE_SUBTITLE_NONVERIFIED" = "Vous devez avoir un abonnement à %@ pour écrire des Articles sur X.";
+"USER_PROFILE_ARTICLES_EMPTY_STATE_SUBTITLE_NONVERIFIED" = "Vous devez être abonné à %@ pour écrire des Articles sur X.";
 "USER_PROFILE_ARTICLES_EMPTY_STATE_TITLE" = "Écrivez un Article";
 "USER_PROFILE_ARTICLES_EMPTY_STATE_TITLE_NONVERIFIED" = "Écrivez des Articles sur X";
 "USER_PROFILE_ARTICLES_LABEL" = "Articles";
@@ -2847,12 +2879,14 @@
 "USER_PROFILE_HIGHLIGHTS_BUTTON_TITLE_REMOVE" = "Supprimer";
 "USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_BUTTON_NONVERIFIED" = "S'abonner à %@";
 "USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_SUBTITLE" = "Pour ajouter des Posts marquants à votre profil :\n\n 1. Trouvez une publication que vous avez créée.\n 2. Appuyez sur le bouton du menu …\n 3. Appuyez sur Ajouter aux/supprimer des Posts marquants.";
-"USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_SUBTITLE_NONVERIFIED" = "Vous devez avoir un abonnement à %@ pour pouvoir mettre des posts en avant sur votre profil.";
+"USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_SUBTITLE_NONVERIFIED" = "Vous devez être abonné à %@ pour mettre en surbrillance des posts sur votre profil.";
 "USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_TITLE" = "Mettez vos meilleures publications à l'honneur !";
 "USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_TITLE_NONVERIFIED" = "Mettre en avant sur votre profil";
 "USER_PROFILE_HIGHLIGHTS_LABEL" = "Posts marquants";
 "USER_PROFILE_HIGHLIGHTS_TOAST_TITLE_ADD" = "Ajout aux posts marquants effectué.";
 "USER_PROFILE_HIGHLIGHTS_TOAST_TITLE_REMOVE" = "Suppression des posts marquants effectuée.";
+"USER_PROFILE_LIVE_LABEL" = "Direct";
+"USER_PROFILE_LIVE_MENU_LABEL" = "Lives";
 "USER_PROFILE_LOCATION_EDITING_HINT_TEXT" = "Ajoutez votre position.";
 "USER_PROFILE_LOCATION_EDITING_LABEL" = "Localisation";
 "USER_PROFILE_NAME_EDITING_HINT_TEXT" = "Ajoutez votre nom.";
@@ -2879,6 +2913,7 @@
 "VERIFIED_FOLLOWERS_LABEL" = "Abonnés certifiés";
 "VERSION_LABEL" = "Version";
 "VERSION_LABEL_BUILD" = "Version";
+"VERSION_LABEL_SDK" = "SDK";
 "VIDEOEDITOR_CAPTIONS_CORRECTING_TOAST_LABEL" = "Correction des sous-titres";
 "VIDEOEDITOR_CAPTIONS_EDIT_BACK_BUTTON_TITLE" = "Retour";
 "VIDEOEDITOR_CAPTIONS_EDIT_DELETE_ACCESSIBILITY_LABEL" = "Supprimer la légende";
@@ -2926,6 +2961,7 @@
 "VIDEOEDITOR_CAPTIONS_TIMESTAMPS_ADD_TO_POST_BUTTON_TITLE" = "Ajouter au post";
 "VIDEOEDITOR_CAPTIONS_TIMESTAMPS_FAILED_LABEL" = "Grok n’a pas pu générer d'horodatages pour cette vidéo.";
 "VIDEOEDITOR_CAPTIONS_TIMESTAMPS_SHEET_TITLE" = "Horodatages";
+"VIDEOEDITOR_COLOR_EYEDROPPER_LABEL" = "Choisissez une couleur dans la vidéo";
 "VIDEOEDITOR_COVER_DISCARD_ALERT_MESSAGE" = "La couverture sélectionnée sera supprimée.";
 "VIDEOEDITOR_COVER_TOOLBAR_GROK_LABEL" = "Grok";
 "VIDEOEDITOR_DISCARD_CHANGES_ALERT_MESSAGE" = "Tous les montages vidéo seront supprimés.";
@@ -2953,6 +2989,7 @@
 "VIDEOEDITOR_TRIM_BUTTON" = "Couper";
 "VIDEO_ATTRIBUTION_LABEL_TITLE" = "Par";
 "VIDEO_ATTRIBUTION_LABEL_TITLE_FORMAT" = "Par %@";
+"VIDEO_CLIP_MAX_DURATION_LABEL" = "Longueur max du clip atteinte";
 "VIDEO_CTA_APP_GET_FORMAT" = "Télécharger l'application %@";
 "VIDEO_CTA_APP_OPEN_FORMAT" = "Ouvrir l'application %@";
 "VIDEO_CTA_GO_TO_FORMAT" = "Accéder à %@";
@@ -2963,8 +3000,13 @@
 "VIDEO_CTA_SHOP_FORMAT" = "Acheter sur %@";
 "VIDEO_CTA_WATCH_IN_FULLSCREEN" = "Continuer à regarder";
 "VIDEO_CTA_WATCH_NOW_AT_URL_FORMAT" = "Regarder maintenant sur %@";
+"VIDEO_DOCK_REMAINING_AND_HANDLE_FORMAT" = "-%1$@ · %2$@";
+"VIDEO_DOCK_REMAINING_FORMAT" = "-%1$@";
 "VIDEO_DOWNLOAD_ONBOARDING_MESSAGE" = "Place au remix hors ligne ! Les Souscripteurs ont maintenant la possibilité de télécharger et de réimaginer votre contenu. Si vous préférez que vos vidéos ne soient pas téléchargeables, appuyez sur leur bouton d'édition. C'est vous qui définissez vos règles en ce qui concerne votre contenu.";
 "VIDEO_DOWNLOAD_ONBOARDING_TITLE" = "Présentation des vidéos téléchargeables";
+"VIDEO_EDITOR_EDUCATION_TRAY_BODY" = "Améliorez vos vidéos avec des sous-titres, des superpositions de texte, des vignettes personnalisées et plus encore — le tout sans quitter l’Application";
+"VIDEO_EDITOR_EDUCATION_TRAY_CTA" = "Essayez maintenant";
+"VIDEO_EDITOR_EDUCATION_TRAY_TITLE" = "Modifiez vos vidéos directement sur X";
 "VIDEO_END_SCREEN_DISCOVER_MORE_VIDEOS_LABEL" = "Découvrez plus de vidéos";
 "VIDEO_END_SCREEN_WATCH_AGAIN_LABEL" = "Revoir";
 "VIDEO_PLAYING_IN_DOCK" = "Ancré";
@@ -2981,6 +3023,8 @@
 "VIDEO_TRIM_CONTROL_ACCESSIBILITY_VALUE_FORMAT" = "%ld secondes";
 "VIDEO_TRIM_CONTROL_END_OF_SELECTION_ACCESSIBILITY_LABEL" = "Fin de la sélection";
 "VIDEO_TRIM_CONTROL_START_OF_SELECTION_ACCESSIBILITY_LABEL" = "Début de la sélection";
+"VIDEO_TRIM_SELECTED_DURATION_LABEL" = "%@ sélectionné";
+"VIDEO_TRIM_SELECTED_RANGE_LABEL" = "(%1$@ - %2$@)";
 "VIEW_ACTION_LABEL" = "Voir";
 "VIEW_ACTIVITY_LABEL" = "Afficher l'activité";
 "VIEW_COUNT_INFO_BODY_DISABLED" = "Les décomptes de vues ne sont pas disponibles pour ce post. Pour en savoir plus, consultez le %@.";

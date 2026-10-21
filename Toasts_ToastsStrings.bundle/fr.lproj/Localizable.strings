@@ -1,7 +1,0 @@
-"BLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Le compte %@ a été bloqué.";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_MUTED_LABEL" = "Notifications masquées pour cette conversation";
-"MUTE_CONVERSATION_TOAST_NOTIFICATION_UNMUTED_LABEL" = "Notifications réaffichées pour cette conversation";
-"MUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Le compte %@ a été masqué.";
-"TOASTS_GENERAL_UNDO_LABEL" = "Annuler";
-"UNBLOCK_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Le compte %@ a été débloqué.";
-"UNMUTE_USER_TOAST_NOTIFICATION_LABEL_FORMAT" = "Le compte %@ a été réaffiché.";

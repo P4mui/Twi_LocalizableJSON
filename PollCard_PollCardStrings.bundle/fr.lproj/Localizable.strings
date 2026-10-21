@@ -1,5 +1,0 @@
-"POLL_CARD_DISPLAY_FINAL_RESULTS" = "Résultats définitifs";
-"POLL_CARD_DISPLAY_POLL_ENDING" = "Fin de la question…";
-"POLL_CARD_DISPLAY_TIME_LEFT_FORMAT" = "Il reste %@";
-"POLL_CARD_DISPLAY_VOTE_COUNT_REMAINING_TIME_FORMAT" = "%1$@ · %2$@";
-"POLL_CARD_VOTE_SUBMISSION_FAILED" = "Échec de la soumission du vote. Veuillez réessayer.";
