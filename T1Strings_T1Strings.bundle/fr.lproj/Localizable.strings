@@ -1804,7 +1804,7 @@
 "PERSONALIZATION_SETTINGS_LOGGED_OUT_DEVICES_PERSONALIZATION_TITLE" = "Personnaliser en fonction de votre identité déduite";
 "PERSONALIZATION_SETTINGS_PERSONALIZATION_HEADER" = "Personnalisation";
 "PERSONALIZATION_SETTINGS_SHARING_DATA_WITH_GROK_DETAILS_FORMAT" = "X peut partager avec xAI vos données publiques X ainsi que vos interactions et vos saisies dans Grok et les résultats associés à des fins d'entraînement et d'ajustement de Grok et d'autres modèles d'IA développés par xAI. Cela nous permet d'améliorer continuellement votre expérience. %@";
-"PERSONALIZATION_SETTINGS_SHARING_DATA_WITH_GROK_PERSONALIZATION_DETAILS_FORMAT" = "Autorisez l'utilisation de vos données X ainsi que de vos interactions et saisies dans Grok et des résultats associés pour personnaliser votre expérience Grok. X peut partager avec xAI vos données X ainsi que vos interactions et saisies dans Grok et les résultats associés pour personnaliser votre expérience avec Grok et d'autres modèles d'IA développés par xAI. Cela nous permet d'améliorer continuellement votre expérience utilisateur. %@";
+"PERSONALIZATION_SETTINGS_SHARING_DATA_WITH_GROK_PERSONALIZATION_DETAILS_FORMAT" = "Autorisez l'utilisation de vos données X ainsi que de vos Interaction, inputs et Results avec Grok pour personnaliser votre expérience Grok. X peut partager avec xAI vos données X ainsi que vos User Interaction, inputs et Results avec Grok pour personnaliser votre expérience avec Grok et d'autres modèles d'IA développés par xAI. Cela nous aide à améliorer continuellement votre expérience utilisateur. %@";
 "PERSONALIZATION_SETTINGS_SHARING_DATA_WITH_PARTNERS_PERSONALIZATION_DETAILS_FORMAT" = "X partage toujours des informations avec ses partenaires commerciaux afin de proposer et d'améliorer ses produits. Lorsque cette option est activée, elle permet à X de partager des informations supplémentaires avec ces partenaires pour faciliter son exploitation, et notamment pour rendre ses activités marketing sur d'autres sites et applications plus pertinentes pour vous. %@";
 "PERSONALIZATION_SETTINGS_SHARING_DATA_WITH_PARTNERS_PERSONALIZATION_TITLE" = "Autoriser le partage d'informations supplémentaires avec nos partenaires commerciaux";
 "PERSONALIZATION_SETTINGS_TITLE" = "Personnalisation et données";
@@ -2488,7 +2488,7 @@
 "SOCIAL_CONTEXT_USER_FOLLOWS" = "%@ suit";
 "SOMETHING_WRONG_RETRY_LABEL" = "Il semble qu'une erreur est survenue. Veuillez réessayer.";
 "STATUS_AI_GENERATED_LABEL" = "Fabriqué avec l'IA";
-"STATUS_EDITED_ON_X_LABEL" = "Modifié sur %1$@";
+"STATUS_EDITED_ON_X_LABEL" = "Créé sur %1$@";
 "STATUS_INLINE_EXPANSION_SHOW_LESS_LABEL" = "Voir moins";
 "STATUS_MADE_WITH_GROK_IMAGINE_LABEL" = "Créé avec Grok Imagine";
 "STATUS_PAID_PARTNERSHIP_LABEL" = "Partenariat rémunéré";
@@ -2964,6 +2964,8 @@
 "VIDEOEDITOR_COLOR_EYEDROPPER_LABEL" = "Choisissez une couleur dans la vidéo";
 "VIDEOEDITOR_COVER_DISCARD_ALERT_MESSAGE" = "La couverture sélectionnée sera supprimée.";
 "VIDEOEDITOR_COVER_TOOLBAR_GROK_LABEL" = "Grok";
+"VIDEOEDITOR_CROP_TOOLBAR_ORIGINAL_LABEL" = "Original";
+"VIDEOEDITOR_CROP_TOOLBAR_VERTICAL_LABEL" = "9:16";
 "VIDEOEDITOR_DISCARD_CHANGES_ALERT_MESSAGE" = "Tous les montages vidéo seront supprimés.";
 "VIDEOEDITOR_DISCARD_CHANGES_ALERT_TITLE" = "Supprimer les modifications";
 "VIDEOEDITOR_EXPORT_BUTTON_TITLE" = "Exporter";
