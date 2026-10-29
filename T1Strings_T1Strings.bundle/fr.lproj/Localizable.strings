@@ -177,8 +177,6 @@
 "ATTACHMENT_VIDEO_REMOVE_ACTION_ACCESSIBILITY_LABEL" = "Supprimer la vidéo";
 "ATTACHMENT_VOICE_REMOVE_ACTION_ACCESSIBILITY_HINT" = "Supprime l'enregistrement vocal de votre post";
 "ATTACHMENT_VOICE_REMOVE_ACTION_ACCESSIBILITY_LABEL" = "Supprimer l'enregistrement vocal";
-"AUDIO_ARTICLE_DOCK_REMAINING_AND_AUTHOR_FORMAT" = "%1$@ restantes · %2$@";
-"AUDIO_ARTICLE_DOCK_REMAINING_FORMAT" = "%1$@ restant";
 "AUTHORIZATION_ACTION_TAKEN_MESSAGE" = "Jeton d'action.";
 "AUTHORIZATION_PREVIOUSLY_GRANTED_MESSAGE" = "L'accès a été accordé précédemment.";
 "AUTOCOMPLETE_ITEM_ACCESSIBILITY_HINT" = "Auto-compléter l'élément";
@@ -403,6 +401,7 @@
 "CASHTAG_INFO_CANDLE_SIZE_1M_LABEL" = "1 M";
 "CASHTAG_INFO_CANDLE_SIZE_1W_LABEL" = "1 sem.";
 "CASHTAG_INFO_CANDLE_SIZE_1Y_LABEL" = "1 an";
+"CASHTAG_INFO_CANDLE_SIZE_2W_LABEL" = "2 sem.";
 "CASHTAG_INFO_CANDLE_SIZE_30M_LABEL" = "30 m";
 "CASHTAG_INFO_CANDLE_SIZE_4H_LABEL" = "4 h";
 "CASHTAG_INFO_CANDLE_SIZE_5M_LABEL" = "5 m";
@@ -525,6 +524,7 @@
 "COMPOSE_POLL_REMOVE_ALERT_CONFIRM_BUTTON" = "Supprimer";
 "COMPOSE_POLL_REMOVE_ALERT_MESSAGE" = "Ceci supprimera vos choix.";
 "COMPOSE_POLL_REMOVE_ALERT_TITLE" = "Retirer la question ?";
+"COMPOSE_POST_FAILURE_VIDEO_FRAME_RATE_TOO_HIGH_DETAIL_FORMAT" = "COMPOSE_POST_FAILURE_VIDEO_FRAME_RATE_TOO_HIGH_DETAIL_FORMAT";
 "COMPOSE_REORDERING_TOOLTIP_TEXT" = "Maintenez appuyé sur la photo pour modifier la disposition.";
 "COMPOSE_REPLY_BAR_ACCOUNT_ACCESSIBILITY_LABEL" = "%1$@, @%2$@";
 "COMPOSE_TEXT_VIEW_POLL_PLACEHOLDER" = "Posez une question...";
@@ -535,6 +535,11 @@
 "COMPOSE_TOOLTIP_FOR_SEARCH_TEXT_FORMAT" = "Postez sur %@";
 "COMPOSE_TOOLTIP_MEDIA_QUOTE_TWEET" = "Repostez avec un GIF, une vidéo ou des photos";
 "COMPOSE_TWEET_WITH_HASHTAG_FORMAT" = "Poster %@";
+"COMPOSE_VIDEO_UNAVAILABLE_ALERT_MESSAGE" = "Cette vidéo n’est plus disponible. Choisissez-la à nouveau.";
+"COMPOSE_VIDEO_UNAVAILABLE_ALERT_NOT_NOW_BUTTON" = "Pas maintenant";
+"COMPOSE_VIDEO_UNAVAILABLE_ALERT_PICK_AGAIN_BUTTON" = "Choisir à nouveau";
+"COMPOSE_VIDEO_UNAVAILABLE_ALERT_REMOVE_BUTTON" = "Retirer";
+"COMPOSE_VIDEO_UNAVAILABLE_ALERT_TITLE" = "Vidéo indisponible";
 "COMPOSE_VIEW_ADD_POLL_ACCESSIBILITY_HINT" = "Ajoute une question à votre post";
 "COMPOSE_VIEW_ADD_POLL_ACCESSIBILITY_LABEL" = "Question";
 "COMPOSE_VIEW_ADD_REPLY_ACCESSIBILITY_HINT" = "Ajoute une autre réponse à cette discussion";
@@ -1078,10 +1083,6 @@
 "FOCAL_AVATAR_LIVE_GAME_RING_ACCESSIBILITY_HINT" = "Ouvre le match";
 "FOCAL_AVATAR_LIVE_RING_ACCESSIBILITY_HINT" = "Ouvre la vidéo en direct";
 "FOCAL_AVATAR_SPACES_RING_ACCESSIBILITY_HINT" = "Ouvre l’Espace";
-"FOCUSED_TIMELINE_ACTIONS_COMPLETION_TOAST_DETAIL_LABEL" = "Plus vous utilisez la fonction J\\'aime, plus ce sera le cas. Continuez à aimer ce qui vous plaît.";
-"FOCUSED_TIMELINE_ACTIONS_COMPLETION_TOAST_MESSAGE_LABEL" = "Bien joué ! Votre fil s\\'améliore.";
-"FOCUSED_TIMELINE_ACTIONS_LIKES_TOAST_DETAIL_LABEL" = "Plus vous aimerez de posts, meilleur sera votre fil.";
-"FOCUSED_TIMELINE_ACTIONS_LIKES_TOAST_MESSAGE_LABEL" = "Continuez comme ça";
 "FOLLOWED_BY_TITLE" = "Suivi par";
 "FOLLOWED_BY_USER_AND_COUNT_FORMAT" = "Suivi par %1$@ et %2$@ autres";
 "FOLLOWED_BY_USER_AND_USER_FORMAT" = "Suivi par %1$@ et %2$@";
@@ -1221,7 +1222,7 @@
 "IMMERSIVE_EXPLORE_NETWORK_NO_CONNECTION_SUBHEADER" = "Votre réseau est indisponible. Connectez-vous et réessayez.";
 "IMMERSIVE_EXPLORE_SWITCH_TO_FULLSCREEN_BUTTON" = "Plein écran";
 "IMMERSIVE_PLAYLIST_TIMELINE_ACCESSIBILITY_LABEL" = "Fil du match";
-"IMMERSIVE_RESUME_SESSION_PILL_ACCESSIBILITY_LABEL" = "IMMERSIVE_RESUME_SESSION_PILL_ACCESSIBILITY_LABEL";
+"IMMERSIVE_RESUME_SESSION_PILL_ACCESSIBILITY_LABEL" = "Reprendre la lecture de %@";
 "INLINE_COMPOSE_EVENT_PLACEHOLDER_FORMAT" = "Postez sur %@";
 "INVALID_EMAIL_ERROR_LABEL" = "Veuillez entrer une adresse email valide.";
 "INVALID_PHONE_NUMBER_ERROR_LABEL" = "Veuillez entrer un numéro de téléphone valide.";
@@ -1398,7 +1399,7 @@
 "LOGIN_VERIFICATION_CONFIRM_LABEL" = "Confirmer";
 "LOGIN_VERIFICATION_CURRENTLY_UNAVAILABLE_LABEL" = "La fonction de vérification de connexion est actuellement indisponible, veuillez réessayer plus tard.";
 "LOGIN_VERIFICATION_DONT_GET_LOCKED_OUT_LABEL" = "Ne restez pas bloqué dehors !";
-"LOGIN_VERIFICATION_DONT_GET_LOCKED_OUT_MESSAGE" = "%@\nVeuillez utiliser ce code de secours pour désactiver la vérification de connexion sur x.com. Vous ne verrez plus ce code de secours. Si vous n'avez pas ce code quand vous vous reconnecterez, vous ne pourrez pas accéder à votre compte.";
+"LOGIN_VERIFICATION_DONT_GET_LOCKED_OUT_MESSAGE" = "%@\nVeuillez utiliser ce code de secours pour désactiver la vérification de connexion sur x.com. Vous ne verrez plus ce code de secours. Si vous n'avez pas ce code lorsque vous vous reconnecterez, vous ne pourrez plus accéder à votre compte.";
 "LOGIN_VERIFICATION_ENROLL_WARNING" = "Si vous activez la vérification de connexion, vous aurez besoin de votre téléphone pour vous connecter à X.";
 "LOGIN_VERIFICATION_ERROR_FORMAT" = "%1$@ (%2$@)";
 "LOGIN_VERIFICATION_EXPIRED_LABEL" = "Désolé, cette demande de connexion a expiré, veuillez réessayer de vous connecter.";
@@ -1600,7 +1601,7 @@
 "NEWSCAMERA_MUTE_BUTTON_UMUTE_ACCESSIBILITY_VALUE" = "Réactiver le son";
 "NEWSCAMERA_REMOVE_LOCATION_ACCESSIBILITY_VALUE" = "Supprimer la localisation";
 "NEWSCAMERA_SERVICE_AUTHORIZATION_CAMERA_TITLE" = "Autoriser X à accéder à votre appareil photo";
-"NEWSCAMERA_SERVICE_AUTHORIZATION_DESCRIPTION_REGRANT_CAMERA_AND_MICROPHONE_AUTHORIZATION" = "L'accès à l'appareil photo vous permet de prendre des photos et d'enregistrer des vidéos. L'accès au micro vous permet d'enregistrer des vidéos et d'utiliser les fonctionnalités audio telles que Spaces et les posts vocaux.\n\nVous pouvez modifier cet accès ultérieurement dans vos réglages système.";
+"NEWSCAMERA_SERVICE_AUTHORIZATION_DESCRIPTION_REGRANT_CAMERA_AND_MICROPHONE_AUTHORIZATION" = "L'accès à l'appareil photo vous permet de prendre des photos et d'enregistrer des vidéos. L'accès au micro vous permet d'enregistrer des vidéos et d'utiliser les fonctionnalités audio telles que les Espaces et les posts vocaux.\n\nVous pouvez modifier cet accès ultérieurement dans vos réglages système.";
 "NEWSCAMERA_SERVICE_AUTHORIZATION_DESCRIPTION_REGRANT_CAMERA_AUTHORIZATION" = "L\\'accès à l\\'appareil photo vous permet de prendre des photos et d\\'enregistrer des vidéos.\n\nVous pouvez modifier cet accès ultérieurement dans vos réglages système.";
 "NEWSCAMERA_SERVICE_AUTHORIZATION_DESCRIPTION_REGRANT_MICROPHONE_AUTHORIZATION" = "L'accès au micro vous permet d'enregistrer des vidéos et d'utiliser les fonctionnalités audio telles que les Espaces et les posts vocaux.\n\nVous pouvez modifier cet accès ultérieurement dans vos réglages système.";
 "NEWSCAMERA_SERVICE_AUTHORIZATION_GO_TO_SETTINGS_BUTTON" = "Accéder aux réglages";
@@ -2707,13 +2708,7 @@
 "TOAST_REPLY_MESSAGE_FORMAT" = "%@ vous a répondu.";
 "TOAST_RETWEET_MESSAGE_REPLY_FORMAT" = "%@ a reposté votre réponse";
 "TOAST_RETWEET_MESSAGE_TWEET_FORMAT" = "%@ a reposté votre post";
-"TOGGLE_CLOSED_CAPTIONS" = "Activer et désactiver les sous-titres";
 "TOPICS_LABEL" = "Sujets";
-"TOP_ARTICLES_TIMELINE_EMPTY_BUTTON_LABEL" = "Trouver des personnes à suivre";
-"TOP_ARTICLES_TIMELINE_EMPTY_SUBTITLE_LABEL" = "Essayez de suivre plus de comptes pour profiter au mieux des articles populaires.";
-"TOP_ARTICLES_TIMELINE_EMPTY_TITLE_LABEL" = "Aucun article n\\'a été partagé dans votre réseau.";
-"TOP_ARTICLES_TIMELINE_TITLE_FOLLOWERS_ONLY_LABEL" = "Les personnes que vous suivez";
-"TOP_ARTICLES_TIMELINE_TITLE_FRIENDS_OF_FRIENDS_LABEL" = "Personnes qu\\'elles suivent";
 "TOP_ARTICLES_TIMESTAMP_NOW" = "Maintenant";
 "TOP_ARTICLES_TWEETS_TIMELINE_TITLE_LABEL" = "Conversation";
 "TRANSLATED_BUTTON_TITLE_FORMAT" = "À l'origine en %1$@ et traduit par %2$@";
@@ -2953,6 +2948,8 @@
 "VIDEOEDITOR_TOOLTIP_CAPTIONS_TITLE" = "Les légendes retiennent l’attention des spectateurs";
 "VIDEOEDITOR_TOOLTIP_COVER_DETAIL" = "Choisissez le moment qui capte l’attention";
 "VIDEOEDITOR_TOOLTIP_COVER_TITLE" = "La couverture sert à donner envie de regarder la vidéo";
+"VIDEOEDITOR_TOOLTIP_CROP_DETAIL" = "Les vidéos courtes donnent les meilleurs résultats lorsqu’elles sont verticales";
+"VIDEOEDITOR_TOOLTIP_CROP_TITLE" = "Recadrez en 9:16 pour une meilleure expérience";
 "VIDEOEDITOR_TOOLTIP_QUALITY_DETAIL" = "Les vidéos de meilleure qualité obtiennent de meilleurs résultats";
 "VIDEOEDITOR_TOOLTIP_QUALITY_TITLE" = "Améliorez la qualité de votre vidéo";
 "VIDEOEDITOR_TOOLTIP_TEXT_DETAIL" = "Expliquez en quelques mots de quoi il s’agit";
@@ -2980,7 +2977,6 @@
 "VIDEO_EDITOR_EDUCATION_TRAY_TITLE" = "Modifiez vos vidéos directement sur X";
 "VIDEO_END_SCREEN_DISCOVER_MORE_VIDEOS_LABEL" = "Découvrez plus de vidéos";
 "VIDEO_END_SCREEN_WATCH_AGAIN_LABEL" = "Revoir";
-"VIDEO_PLAYING_IN_DOCK" = "Ancré";
 "VIDEO_SETTINGS_AIRPLAY_AND_BLUETOOTH" = "AirPlay et Bluetooth";
 "VIDEO_SETTINGS_AUTO_ADVANCE_TITLE" = "Avance automatique";
 "VIDEO_SETTINGS_CAPTIONS_TITLE" = "Sous‑titres";
@@ -3255,7 +3251,6 @@
 "VOICE_ROOM_SCHEDULED_EDIT_VIEW_TITLE" = "Modifiez l'Espace";
 "VOICE_ROOM_SCHEDULED_ERROR_CONFIRMATION_TOAST" = "L'Espace n'a pas pu être programmé. Veuillez réessayer.";
 "VOICE_ROOM_SCHEDULED_SHARE_ACTION" = "Partager";
-"VOICE_ROOM_SCHEDULED_TITLE" = "Votre Espace programmé";
 "VOICE_ROOM_SCHEDULE_ACTION" = "Programmer";
 "VOICE_ROOM_SCHEDULE_CALENDAR_ACTION" = "Ajouté au calendrier";
 "VOICE_ROOM_SCHEDULE_CALENDAR_ADDED_MESSAGE" = "L'Espace à venir a été ajouté à votre calendrier.";
