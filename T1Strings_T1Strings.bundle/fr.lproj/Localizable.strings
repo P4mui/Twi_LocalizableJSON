@@ -8,8 +8,6 @@
 "ACCOUNT_CREEPER_FOLLOW_ERROR_MESSAGE" = "Afin de protéger nos utilisateurs contre les spams et d'autres activités malveillantes, il est temporairement interdit à ce compte de s'abonner à de nouveaux comptes. Veuillez vous assurer de comprendre nos Règles.";
 "ACCOUNT_CREEPER_TWEET_ERROR_MESSAGE" = "Afin de protéger nos utilisateurs contre les spams et d'autres activités malveillantes, il est temporairement interdit à ce compte d'envoyer des posts. Veuillez vous assurer de comprendre nos Règles.";
 "ACCOUNT_DEACTIVATE_BUTTON_LABEL" = "Désactiver";
-"ACCOUNT_DEACTIVATE_CONFIRMATION_DEACTIVATE_BUTTON_TITLE" = "Désactiver";
-"ACCOUNT_DEACTIVATE_CONFIRMATION_GO_BACK_BUTTON_TITLE" = "Retour";
 "ACCOUNT_DEACTIVATE_CONFIRMATION_MESSAGE" = "Votre compte sera désactivé.";
 "ACCOUNT_DEACTIVATE_CONFIRMATION_TITLE" = "Désactiver votre compte ?";
 "ACCOUNT_DEACTIVATE_CONFIRMATION_YES_BUTTON_TITLE" = "Oui, désactiver";
@@ -26,9 +24,6 @@
 "ACCOUNT_DEACTIVATE_EXPLANATION_BODY" = "Vous vous apprêtez à lancer la procédure de désactivation de votre compte. Votre nom d'affichage, votre @nomdutilisateur et votre profil public ne seront plus visibles sur x.com, X pour iOS et X pour Android.";
 "ACCOUNT_DEACTIVATE_EXPLANATION_HEADER" = "Ceci désactivera votre compte";
 "ACCOUNT_DEACTIVATE_LABEL" = "Désactiver votre compte";
-"ACCOUNT_DEACTIVATE_PASSWORD_DESCRIPTION_TEXT" = "Finalisez votre demande de désactivation en saisissant le mot de passe associé à votre compte.";
-"ACCOUNT_DEACTIVATE_PASSWORD_FIELD_LABEL" = "Mot de passe";
-"ACCOUNT_DEACTIVATE_PASSWORD_HEADER_TITLE" = "Confirmez votre mot de passe";
 "ACCOUNT_DEACTIVATE_SUCCESS_SUBTITLE" = "Nous sommes désolés de vous voir partir. #AuRevoir";
 "ACCOUNT_DEACTIVATE_SUCCESS_TITLE" = "Votre compte est désactivé.";
 "ACCOUNT_DEACTIVATE_TITLE" = "Désactiver votre compte";
@@ -439,7 +434,7 @@
 "CHANGE_PASSWORD_SETTINGS_LABEL" = "Mot de passe";
 "CHANGE_PASSWORD_TITLE_LABEL" = "Mettre le mot de passe à jour";
 "CLIPPED_FROM_ATTRIBUTION_LABEL_TITLE" = "Clip de";
-"CLIP_LABEL" = "clip";
+"CLIP_LABEL" = "Clip";
 "CLIP_VIDEO_ACTION_LABEL" = "Clip vidéo";
 "CLOCK_SKEW_ERROR_MESSAGE" = "Veuillez vous rendre dans l'application Réglages et mettre à jour la date et l'heure dans le menu \"Général\".";
 "CLOCK_SKEW_ERROR_TITLE" = "La date et l'heure de votre appareil sont incorrects.";
@@ -649,7 +644,7 @@
 "CONVERSATION_CONTROL_BUTTON_SUBSCRIBERS_TITLE" = "Seuls les Abonnés peuvent répondre";
 "CONVERSATION_CONTROL_BUTTON_SUPER_FOLLOWERS_TITLE" = "Seuls les Souscripteurs peuvent répondre";
 "CONVERSATION_CONTROL_BUTTON_VERIFIED_TITLE" = "Seuls les comptes certifiés peuvent répondre";
-"CONVERSATION_CONTROL_BUTTON_X_SUBSCRIBERS_TITLE" = "Abonnés X";
+"CONVERSATION_CONTROL_BUTTON_X_SUBSCRIBERS_TITLE" = "Souscripteurs X";
 "CONVERSATION_CONTROL_CHANGE_BY_INVITATION_PICKER_OPTION" = "Seuls les comptes que vous avez mentionnés";
 "CONVERSATION_CONTROL_CHANGE_CHECKMARK_PICKER" = "Comptes certifiés";
 "CONVERSATION_CONTROL_CHANGE_FAILURE_TOAST_NOTIFICATION_TITLE" = "Erreur lors de la modification des personnes qui peuvent répondre";
@@ -669,10 +664,10 @@
 "CONVERSATION_CONTROL_CHANGE_TO_PREMIUM_TOAST_CONFIRMATION_TITLE_HTML" = "<p>Les abonnés <span id=\"boldedText\">Premium</span> peuvent maintenant répondre</p>";
 "CONVERSATION_CONTROL_CHANGE_TO_SUBSCRIBERS_TOAST_CONFIRMATION_TITLE_HTML" = "<p><span id=\"boldedText\">Seuls les abonnés</span> peuvent répondre pour le moment</p>";
 "CONVERSATION_CONTROL_CHANGE_TO_VERIFIED_TOAST_CONFIRMATION_TITLE_HTML" = "<p><span id=\"boldedText\">Seuls les comptes certifiés</span> peuvent désormais répondre.</p>";
-"CONVERSATION_CONTROL_CHANGE_TO_X_SUBSCRIBERS_TOAST_CONFIRMATION_TITLE_HTML" = "<p><span id=\"boldedText\">Abonnés X</span> peuvent désormais répondre</p>";
+"CONVERSATION_CONTROL_CHANGE_TO_X_SUBSCRIBERS_TOAST_CONFIRMATION_TITLE_HTML" = "<p><span id=\"boldedText\">Les Souscripteurs X</span> peuvent désormais répondre</p>";
 "CONVERSATION_CONTROL_CHANGE_VERIFIED_PICKER" = "Les comptes certifiés";
 "CONVERSATION_CONTROL_CHANGE_WHO_CAN_REPLY_ACTION_LABEL" = "Modifier qui peut répondre";
-"CONVERSATION_CONTROL_CHANGE_X_SUBSCRIBERS_PICKER" = "Abonnés X";
+"CONVERSATION_CONTROL_CHANGE_X_SUBSCRIBERS_PICKER" = "Souscripteurs de X";
 "CONVERSATION_CONTROL_CHANGE_YOUR_SUBSCRIBERS_PICKER" = "Vos Abonnés";
 "CONVERSATION_CONTROL_CREATION_SHEET_ACCESSIBILITY_LABEL_ALL" = "Tout le monde peut répondre.";
 "CONVERSATION_CONTROL_CREATION_SHEET_ACCESSIBILITY_LABEL_BY_INVITATION" = "Les comptes qui peuvent répondre sont uniquement ceux que vous mentionnez.";
@@ -1725,7 +1720,7 @@
 "OAUTH_CONSENT_UNTRUSTED_DEVELOPER_ACKNOWLEDGEMENT" = "Je fais confiance à ce développeur";
 "OAUTH_CONSENT_UNTRUSTED_DEVELOPER_DETAIL" = "Ce développeur n’est pas certifié. Faites preuve de prudence lors de l’authentification dans cette application.";
 "OAUTH_CONSENT_UNTRUSTED_DEVELOPER_DETAIL_CALLBACK_FORMAT" = "Ce développeur a été signalé comme suspect et cette application n’est pas affiliée à X. Accordez votre autorisation uniquement si vous faites confiance à %1$@.";
-"OAUTH_CONSENT_UNTRUSTED_DEVELOPER_FLAGGED_DETAIL" = "Ce développeur a été signalé comme suspect et cette application n’est pas affiliée à X. N’autorisez que si vous faites confiance à ce développeur.";
+"OAUTH_CONSENT_UNTRUSTED_DEVELOPER_FLAGGED_DETAIL" = "Ce développeur a été signalé comme suspect et cette application n'est pas affiliée à X. N'autorisez l'accès que si vous faites confiance à ce développeur.";
 "OAUTH_CONSENT_UNTRUSTED_DEVELOPER_TITLE" = "Développeur non certifié";
 "OAUTH_CONSENT_WILL_SECTION_TITLE" = "Cette application pourra :";
 "OAUTH_CONSENT_WONT_FOLLOW_OR_UNFOLLOW" = "Suivre ou se désabonner des comptes à votre place.";
@@ -1746,7 +1741,6 @@
 "ONE_FACTOR_AUTHORIZATION_SENDING_CODE_HUD_LABEL" = "Envoi en cours...";
 "ONE_FACTOR_AUTHORIZATION_SENT_CODE_BY_VOICE_HUD_LABEL" = "Appel initié";
 "OPEN_GROK_LABEL" = "Ouvrir Grok";
-"OPEN_GROK_NEW_UPDATES_PILL_LABEL" = "Nouvelles mises à jour";
 "OPEN_IN_BROWSER_ACTION_LABEL" = "Ouvrir dans le navigateur";
 "OPEN_IN_SAFARI_ACTION_LABEL" = "Ouvrir dans Safari";
 "OPTIONS_LABEL" = "Options";
@@ -1802,7 +1796,7 @@
 "PERSONALIZATION_SETTINGS_LOGGED_OUT_DEVICES_PERSONALIZATION_TITLE" = "Personnaliser en fonction de votre identité déduite";
 "PERSONALIZATION_SETTINGS_PERSONALIZATION_HEADER" = "Personnalisation";
 "PERSONALIZATION_SETTINGS_SHARING_DATA_WITH_GROK_DETAILS_FORMAT" = "X peut partager avec xAI vos données publiques X ainsi que vos interactions et vos saisies dans Grok et les résultats associés à des fins d'entraînement et d'ajustement de Grok et d'autres modèles d'IA développés par xAI. Cela nous permet d'améliorer continuellement votre expérience. %@";
-"PERSONALIZATION_SETTINGS_SHARING_DATA_WITH_GROK_PERSONALIZATION_DETAILS_FORMAT" = "Autorisez l'utilisation de vos données X ainsi que de vos Interaction, inputs et Results avec Grok pour personnaliser votre expérience Grok. X peut partager avec xAI vos données X ainsi que vos User Interaction, inputs et Results avec Grok pour personnaliser votre expérience avec Grok et d'autres modèles d'IA développés par xAI. Cela nous aide à améliorer continuellement votre expérience utilisateur. %@";
+"PERSONALIZATION_SETTINGS_SHARING_DATA_WITH_GROK_PERSONALIZATION_DETAILS_FORMAT" = "Autorisez l'utilisation de vos données X, de vos interactions, saisies et résultats avec Grok pour personnaliser votre expérience. X peut les partager avec xAI afin de personnaliser votre expérience avec Grok et d’autres modèles d'IA développés par xAI. Cela nous permet d’améliorer continuellement votre expérience utilisateur. %@";
 "PERSONALIZATION_SETTINGS_SHARING_DATA_WITH_PARTNERS_PERSONALIZATION_DETAILS_FORMAT" = "X partage toujours des informations avec ses partenaires commerciaux afin de proposer et d'améliorer ses produits. Lorsque cette option est activée, elle permet à X de partager des informations supplémentaires avec ces partenaires pour faciliter son exploitation, et notamment pour rendre ses activités marketing sur d'autres sites et applications plus pertinentes pour vous. %@";
 "PERSONALIZATION_SETTINGS_SHARING_DATA_WITH_PARTNERS_PERSONALIZATION_TITLE" = "Autoriser le partage d'informations supplémentaires avec nos partenaires commerciaux";
 "PERSONALIZATION_SETTINGS_TITLE" = "Personnalisation et données";
@@ -2142,7 +2136,7 @@
 "REMOVE_EMAIL_LABEL" = "supprimer l'email";
 "REMOVE_ME_MENTIONS_LABEL" = "Quitter cette conversation";
 "REMOVE_PHONE_ERROR" = "Désolé, mais nous ne pouvons pas supprimer votre téléphone. Veuillez réessayer plus tard.";
-"REMOVE_PHONE_REQUIRES_EMAIL_MESSAGE" = "Pour supprimer votre numéro de téléphone, ajoutez une adresse e-mail à votre Compte. Vous en aurez besoin pour vous connecter et récupérer votre Compte.";
+"REMOVE_PHONE_REQUIRES_EMAIL_MESSAGE" = "Pour supprimer votre numéro de téléphone, ajoutez une adresse e-mail à votre compte. Vous en aurez besoin pour vous connecter et récupérer votre compte.";
 "REMOVE_PHONE_WRONG_PASSWORD_ERROR" = "Le mot de passe que vous avez entré ne correspond pas à celui présent dans nos fichiers. Veuillez vérifier et réessayer.";
 "REPLAY_CAROUSEL_CELL_LABEL" = "REDIFFUSION";
 "REPLAY_VIDEO_ACCESSIBILITY_LABEL" = "Relire la dernière vidéo";
@@ -2870,7 +2864,7 @@
 "USER_PROFILE_HIGHLIGHTS_BUTTON_TITLE_REMOVE" = "Supprimer";
 "USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_BUTTON_NONVERIFIED" = "S'abonner à %@";
 "USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_SUBTITLE" = "Pour ajouter des Posts marquants à votre profil :\n\n 1. Trouvez une publication que vous avez créée\n 2. Appuyez sur le bouton de menu “…”\n 3. Appuyez sur “Ajouter aux/supprimer des Posts marquants”";
-"USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_SUBTITLE_NONVERIFIED" = "Vous devez être abonné à %@ pour mettre en surbrillance des posts sur votre profil.";
+"USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_SUBTITLE_NONVERIFIED" = "Vous devez être abonné à %@ pour mettre en avant des posts sur votre profil.";
 "USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_TITLE" = "Mettez vos meilleures publications à l'honneur !";
 "USER_PROFILE_HIGHLIGHTS_EMPTY_STATE_TITLE_NONVERIFIED" = "Mettre en avant sur votre profil";
 "USER_PROFILE_HIGHLIGHTS_LABEL" = "Posts marquants";
@@ -2938,7 +2932,7 @@
 "VIDEOEDITOR_TAB_TAG_TITLE" = "Réglages du contenu";
 "VIDEOEDITOR_TAB_THUMBNAIL_TITLE" = "Miniature";
 "VIDEOEDITOR_TEXT_OVERLAY_TITLE" = "Texte superposé";
-"VIDEOEDITOR_THUMBNAIL_SELECT_FRAME_BUTTON_TITLE" = "Sélectionner un cadre";
+"VIDEOEDITOR_THUMBNAIL_SELECT_FRAME_BUTTON_TITLE" = "Sélectionner une image";
 "VIDEOEDITOR_THUMBNAIL_UPLOAD_BUTTON_TITLE" = "Charger une nouvelle image";
 "VIDEOEDITOR_TITLE" = "Éditer la vidéo";
 "VIDEOEDITOR_TOOLBAR_COVER_LABEL" = "Couverture";
@@ -2972,7 +2966,7 @@
 "VIDEO_DOCK_REMAINING_FORMAT" = "-%1$@";
 "VIDEO_DOWNLOAD_ONBOARDING_MESSAGE" = "Place au remix hors ligne ! Les Souscripteurs ont maintenant la possibilité de télécharger et de réimaginer votre contenu. Si vous préférez que vos vidéos ne soient pas téléchargeables, appuyez sur leur bouton d'édition. C'est vous qui définissez vos règles en ce qui concerne votre contenu.";
 "VIDEO_DOWNLOAD_ONBOARDING_TITLE" = "Présentation des vidéos téléchargeables";
-"VIDEO_EDITOR_EDUCATION_TRAY_BODY" = "Améliorez vos vidéos avec des sous-titres, des superpositions de texte, des vignettes personnalisées et plus encore — le tout sans quitter l’Application";
+"VIDEO_EDITOR_EDUCATION_TRAY_BODY" = "Améliorez vos vidéos avec des sous-titres, des incrustations de texte, des miniatures personnalisées et bien plus encore, le tout sans quitter l'application.";
 "VIDEO_EDITOR_EDUCATION_TRAY_CTA" = "Essayez maintenant";
 "VIDEO_EDITOR_EDUCATION_TRAY_TITLE" = "Modifiez vos vidéos directement sur X";
 "VIDEO_END_SCREEN_DISCOVER_MORE_VIDEOS_LABEL" = "Découvrez plus de vidéos";
@@ -2990,7 +2984,7 @@
 "VIDEO_TRIM_CONTROL_ACCESSIBILITY_VALUE_FORMAT" = "%ld secondes";
 "VIDEO_TRIM_CONTROL_END_OF_SELECTION_ACCESSIBILITY_LABEL" = "Fin de la sélection";
 "VIDEO_TRIM_CONTROL_START_OF_SELECTION_ACCESSIBILITY_LABEL" = "Début de la sélection";
-"VIDEO_TRIM_SELECTED_DURATION_LABEL" = "%@ sélectionné";
+"VIDEO_TRIM_SELECTED_DURATION_LABEL" = "%@ sélectionné";
 "VIDEO_TRIM_SELECTED_RANGE_LABEL" = "(%1$@ - %2$@)";
 "VIEW_ACTION_LABEL" = "Voir";
 "VIEW_ACTIVITY_LABEL" = "Afficher l'activité";
