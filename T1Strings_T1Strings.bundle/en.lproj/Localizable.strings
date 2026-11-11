@@ -937,8 +937,6 @@
 "DOWNVOTE_SHEET_SPAM_LABEL" = "Spam";
 "DOWNVOTE_SHEET_TITLE" = "Reply feedback";
 "DOWNVOTE_TOOLTIP_LABEL" = "Don’t like this? Tap to share feedback";
-"DRAFTS_ANIMATED_GIF_DEFAULT_TITLE" = "Animated GIF";
-"DRAFTS_DELETE_ACTION_LABEL" = "Delete";
 "DRAFTS_LABEL" = "Drafts";
 "DRAFTS_LIST_MORE_ACTIONS_ACCESSIBILITY_LABEL" = "More options";
 "DRAFTS_LIST_REMOVE_ACTION_LABEL" = "Remove";
@@ -952,13 +950,7 @@
 "DRAFTS_LIST_SCHEDULED_TAB_LABEL" = "Scheduled";
 "DRAFTS_LIST_SCHEDULED_TODAY_FORMAT" = "Will send today at %@";
 "DRAFTS_LIST_SCHEDULED_TOMORROW_FORMAT" = "Will send tomorrow at %@";
-"DRAFTS_LIVE_PHOTO_DEFAULT_TITLE" = "Live Photo";
-"DRAFTS_NEW_TWEET_ACTION_LABEL" = "New post";
 "DRAFTS_NO_TEXT_DEFAULT_TITLE" = "No text";
-"DRAFTS_PHOTO_DEFAULT_TITLE" = "Photo";
-"DRAFTS_SELECTALL_ACTION_LABEL" = "Select all";
-"DRAFTS_UNSELECTALL_ACTION_LABEL" = "Unselect all";
-"DRAFTS_VIDEO_DEFAULT_TITLE" = "Video";
 "DRAFT_FAILED_TO_SEND" = "Failed to send";
 "DRAFT_SHOW_SELF_THREAD_TWEETS_WITH_COUNT_LABEL" = "Show %@ posts";
 "DRAFT_TWEET_ID_ACTION_LABEL" = "Draft ID: %@";
@@ -1720,7 +1712,6 @@
 "NUDGES_FEEDBACK_REQUEST_PRIMARY_BUTTON_LABEL" = "Give feedback";
 "NUDGES_FEEDBACK_REQUEST_SUBTITLE_LABEL" = "How did you feel about us asking if you want to revise your reply? We’ll use your feedback to build a better experience.";
 "NUDGES_FEEDBACK_REQUEST_TITLE_LABEL" = "Share your feedback";
-"NUDGES_GET_MORE_INFO_ACCESSIBILITY_LABEL" = "Get more info";
 "NUDGES_SOFT_INTERVENTION_CONDENSED_TITLE" = "Thanks for learning more.";
 "NUDGES_SOFT_INTERVENTION_CTA_BUTTON_LABEL" = "Find out more";
 "NUDGES_SOFT_INTERVENTION_CTA_TOAST_MESSAGE" = "Thanks for learning more";
@@ -1744,9 +1735,6 @@
 "NUDGES_TOXIC_REPLY_TWEET_TITLE_LABEL_EXP_3" = "Help make X better for everyone";
 "NUDGES_TOXIC_REPLY_TWEET_TITLE_LABEL_EXP_4" = "Treat others the way you want to be treated";
 "NUDGES_TOXIC_REPLY_TWEET_TITLE_LABEL_EXP_5" = "Want more people to see your post?";
-"NUDGES_TOXIC_TWEET_MORE_INFO_PROMPT_SUBTITLE" = "We want to keep X a place for meaningful conversations. So when we detect potentially harmful or offensive language in a reply — like insults, strong language, or hateful remarks — we sometimes ask people if they want to review it before sending.";
-"NUDGES_TOXIC_TWEET_MORE_INFO_WRONG_SUBTITILE" = "We’re working to better understand and predict when people might want to review their replies. Your feedback helps with this.";
-"NUDGES_TOXIC_TWEET_MORE_INFO_WRONG_TITLE" = "Did we get this wrong?";
 "NUDGES_TOXIC_TWEET_QUOTE_STATUS_ACCESSIBILITY_LABEL" = "You wrote";
 "NUDGES_UNDO_TWEET_SENT_UNDO" = "Undo";
 "OAUTH_CONSENT_APP_WANTS_ACCESS_TITLE_FORMAT" = "%1$@ wants to access permissions on your account";
@@ -2179,6 +2167,8 @@
 "PROTECT_VIDEOS_SETTING_TITLE" = "Protect your videos";
 "QUICK_COMPOSER_ADD_MEDIA_ACCESSIBILITY_LABEL" = "Add photos or videos";
 "QUICK_COMPOSER_ATTACHMENT_POSITION_ACCESSIBILITY_VALUE" = "%1$lld of %2$lld";
+"QUICK_COMPOSER_PLUS_BUTTON_ACCESSIBILITY_LABEL" = "Add media";
+"QUICK_COMPOSER_PLUS_MENU_GIFS_ACTION_TITLE" = "GIFs";
 "QUOTE_POST_PICKER_TITLE" = "Choose a post to quote";
 "QUOTE_POST_PICKER_YOUR_POSTS_TAB" = "Your posts";
 "QUOTE_TIMELINE_TITLE" = "Quotes";
@@ -3107,7 +3097,6 @@
 "VOICE_ROOM_CARD_STATE_ENDED_OPTIONS_TUTORIAL_TITLE" = "Tap to edit your Recording.";
 "VOICE_ROOM_CARD_STATE_ENDED_PARTICIPATION_TITLE" = "%1$@ replays • %2$@ joined";
 "VOICE_ROOM_CARD_STATE_SCHEDULED" = "Upcoming";
-"VOICE_ROOM_CLIP_CREATE_CANCEL_ACTION" = "Cancel";
 "VOICE_ROOM_CLIP_CREATE_INFORMATION_ACCESSIBILITY_LABEL" = "Learn about Clips";
 "VOICE_ROOM_CLIP_CREATE_NEXT_ACTION" = "Next";
 "VOICE_ROOM_CLIP_CREATE_TITLE" = "Share Clip";
@@ -3159,9 +3148,7 @@
 "VOICE_ROOM_CREATION_LEARN_MORE_BUTTON_TITLE" = "Get to know Spaces";
 "VOICE_ROOM_CREATION_NEXT_ACTION_LABEL" = "Next";
 "VOICE_ROOM_CREATION_SCHEDULE_ACCESSIBILITY_LABEL" = "Schedule Space";
-"VOICE_ROOM_CREATION_SCHEDULE_ACTION_LABEL" = "Schedule for later";
 "VOICE_ROOM_CREATION_SCHEDULE_EXISTS_ACTION_ACCESSIBILITY_HINT" = "Views the details of your upcoming Space";
-"VOICE_ROOM_CREATION_SCHEDULE_EXISTS_ACTION_LABEL" = "Scheduled: %@";
 "VOICE_ROOM_CREATION_TITLE_COMMUNITY_LABEL" = "Create Community Space";
 "VOICE_ROOM_CREATION_TITLE_LABEL" = "Create your Space";
 "VOICE_ROOM_DESTROY_SPACE_MESSAGE" = "This will end the conversation for everyone.";

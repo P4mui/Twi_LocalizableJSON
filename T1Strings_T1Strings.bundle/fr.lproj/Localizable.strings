@@ -929,8 +929,6 @@
 "DOWNVOTE_SHEET_NOT_INTERESTED_LABEL" = "Ce post ne m'intéresse pas";
 "DOWNVOTE_SHEET_TITLE" = "Avis sur la réponse";
 "DOWNVOTE_TOOLTIP_LABEL" = "Vous n'avez pas aimé ceci ? Appuyez pour partager vos commentaires";
-"DRAFTS_ANIMATED_GIF_DEFAULT_TITLE" = "GIF animé";
-"DRAFTS_DELETE_ACTION_LABEL" = "Supprimer";
 "DRAFTS_LABEL" = "Brouillons";
 "DRAFTS_LIST_MORE_ACTIONS_ACCESSIBILITY_LABEL" = "Plus d'options";
 "DRAFTS_LIST_REPLYING_TO_FORMAT" = "Réponse à %@";
@@ -940,13 +938,7 @@
 "DRAFTS_LIST_SCHEDULED_TAB_LABEL" = "Programmé";
 "DRAFTS_LIST_SCHEDULED_TODAY_FORMAT" = "Sera envoyé aujourd’hui à %@";
 "DRAFTS_LIST_SCHEDULED_TOMORROW_FORMAT" = "Sera envoyé demain à %@";
-"DRAFTS_LIVE_PHOTO_DEFAULT_TITLE" = "Live Photo";
-"DRAFTS_NEW_TWEET_ACTION_LABEL" = "Nouveau post";
 "DRAFTS_NO_TEXT_DEFAULT_TITLE" = "Pas de texte";
-"DRAFTS_PHOTO_DEFAULT_TITLE" = "Photo";
-"DRAFTS_SELECTALL_ACTION_LABEL" = "Tout sélectionner";
-"DRAFTS_UNSELECTALL_ACTION_LABEL" = "Tout désélectionner";
-"DRAFTS_VIDEO_DEFAULT_TITLE" = "Vidéo";
 "DRAFT_FAILED_TO_SEND" = "Échec de l'envoi";
 "DRAFT_SHOW_SELF_THREAD_TWEETS_WITH_COUNT_LABEL" = "Afficher %@ posts";
 "DRAFT_TWEET_ID_ACTION_LABEL" = "ID de brouillon : %@";
@@ -1691,7 +1683,6 @@
 "NUDGES_FEEDBACK_REQUEST_PRIMARY_BUTTON_LABEL" = "Donner votre avis";
 "NUDGES_FEEDBACK_REQUEST_SUBTITLE_LABEL" = "Qu'avez-vous pensé quand nous vous avons demandé si vous souhaitiez réviser votre réponse ? Votre avis nous permettra d'améliorer l'expérience des utilisateurs.";
 "NUDGES_FEEDBACK_REQUEST_TITLE_LABEL" = "Partagez votre avis";
-"NUDGES_GET_MORE_INFO_ACCESSIBILITY_LABEL" = "Obtenir plus d'informations";
 "NUDGES_SOFT_INTERVENTION_CONDENSED_TITLE" = "Merci d'avoir lu plus d'informations.";
 "NUDGES_SOFT_INTERVENTION_CTA_BUTTON_LABEL" = "En savoir plus";
 "NUDGES_SOFT_INTERVENTION_CTA_TOAST_MESSAGE" = "Merci d'avoir lu plus de détails.";
@@ -1715,9 +1706,6 @@
 "NUDGES_TOXIC_REPLY_TWEET_TITLE_LABEL_EXP_3" = "Aidez‑nous à améliorer X au bénéfice de tous";
 "NUDGES_TOXIC_REPLY_TWEET_TITLE_LABEL_EXP_4" = "Comportez‑vous avec les autres comme vous voudriez que les autres se comportent avec vous";
 "NUDGES_TOXIC_REPLY_TWEET_TITLE_LABEL_EXP_5" = "Vous voulez que plus de monde voie votre post ?";
-"NUDGES_TOXIC_TWEET_MORE_INFO_PROMPT_SUBTITLE" = "Nous souhaitons que les conversations restent pertinentes sur X. Si nous détectons du langage potentiellement dangereux ou choquant dans une réponse, notamment des insultes, des grossièretés ou des remarques haineuses, nous pouvons demander à son auteur s'il veut la réviser avant de la publier.";
-"NUDGES_TOXIC_TWEET_MORE_INFO_WRONG_SUBTITILE" = "Nous nous efforçons de mieux comprendre et d'anticiper les cas où les utilisateurs sont susceptibles de vouloir réviser leurs réponses. Vos commentaires nous aident dans cette démarche.";
-"NUDGES_TOXIC_TWEET_MORE_INFO_WRONG_TITLE" = "Avons-nous fait erreur ?";
 "NUDGES_TOXIC_TWEET_QUOTE_STATUS_ACCESSIBILITY_LABEL" = "Vous avez écrit";
 "NUDGES_UNDO_TWEET_SENT_UNDO" = "Annuler";
 "OAUTH_CONSENT_APP_WANTS_ACCESS_TITLE_FORMAT" = "%1$@  ouhaite accéder aux autorisations de votre compte";
@@ -3073,7 +3061,6 @@
 "VOICE_ROOM_CARD_STATE_ENDED_OPTIONS_TUTORIAL_TITLE" = "Appuyez pour éditer votre enregistrement.";
 "VOICE_ROOM_CARD_STATE_ENDED_PARTICIPATION_TITLE" = "%1$@ rediffusions • %2$@ participants";
 "VOICE_ROOM_CARD_STATE_SCHEDULED" = "À venir";
-"VOICE_ROOM_CLIP_CREATE_CANCEL_ACTION" = "Annuler";
 "VOICE_ROOM_CLIP_CREATE_INFORMATION_ACCESSIBILITY_LABEL" = "Découvrir les clips";
 "VOICE_ROOM_CLIP_CREATE_NEXT_ACTION" = "Suivant";
 "VOICE_ROOM_CLIP_CREATE_TITLE" = "Partager un clip";
@@ -3125,9 +3112,7 @@
 "VOICE_ROOM_CREATION_LEARN_MORE_BUTTON_TITLE" = "Découvrir Spaces";
 "VOICE_ROOM_CREATION_NEXT_ACTION_LABEL" = "Suivant";
 "VOICE_ROOM_CREATION_SCHEDULE_ACCESSIBILITY_LABEL" = "Programmer un Espace";
-"VOICE_ROOM_CREATION_SCHEDULE_ACTION_LABEL" = "Programmer pour plus tard";
 "VOICE_ROOM_CREATION_SCHEDULE_EXISTS_ACTION_ACCESSIBILITY_HINT" = "Affiche les détails de votre Espace à venir";
-"VOICE_ROOM_CREATION_SCHEDULE_EXISTS_ACTION_LABEL" = "Programmé : %@";
 "VOICE_ROOM_CREATION_TITLE_COMMUNITY_LABEL" = "Créer un Espace de la Communauté";
 "VOICE_ROOM_CREATION_TITLE_LABEL" = "Créer votre Espace";
 "VOICE_ROOM_DESTROY_SPACE_MESSAGE" = "Cela mettra un terme à la conversation pour tout le monde.";
