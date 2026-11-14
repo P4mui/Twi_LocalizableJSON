@@ -3,6 +3,7 @@
 "ABOUT_PROFILE_MODULE_OPEN_IN_APPLE_MAPS_TEXT" = "Open in Apple Maps";
 "ABOUT_PROFILE_MODULE_OPEN_IN_GOOGLE_MAPS_TEXT" = "Open in Google Maps";
 "ABOUT_TITLE" = "About X";
+"ACCESSIBILITY_LABEL_IMMERSIVE_VIDEO_CARD_CAMERA_BUTTON" = "Camera";
 "ACCOUNTS_LIST_TITLE" = "Accounts";
 "ACCOUNT_AUTHENTICATION_2FA_TITLE" = "Two-factor authentication";
 "ACCOUNT_CREEPER_FOLLOW_ERROR_MESSAGE" = "To protect our users from spam and other malicious activity, this account is temporarily blocked from following additional accounts. Please make sure you understand our Rules.";
@@ -278,14 +279,9 @@
 "BOOKMARKS_TOAST_NOTIFICATION_TWEET_REMOVED_MESSAGE" = "Post removed from your Bookmarks";
 "BOOKMARKS_TOAST_NOTIFICATION_TWEET_REMOVED_SHORT_MESSAGE" = "Removed from Bookmarks";
 "BOOKMARKS_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Bookmarks with %@";
-"BOOKMARK_FOLDERS_ADD_REMOVE_TO_FOLDER_LABEL" = "Add/Remove from Folder";
-"BOOKMARK_FOLDERS_ADD_REMOVE_TO_FOLDER_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Add/Remove from Folder with %@";
-"BOOKMARK_FOLDERS_ADD_TO_FOLDER_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Add to Folder with %@";
 "BOOKMARK_FOLDERS_ARE_NOT_LOADING_LABEL" = "Folders aren’t loading right now";
 "BOOKMARK_FOLDERS_CREATE_ACCESSIBILITY_LABEL" = "Create Bookmark Folder";
 "BOOKMARK_FOLDERS_CREATE_FOLDER_TITLE" = "Create Folder";
-"BOOKMARK_FOLDERS_CREATE_NAME_SUBTITLE" = "Enter a name";
-"BOOKMARK_FOLDERS_CREATE_NAME_TITLE" = "Name";
 "BOOKMARK_FOLDERS_CREATE_NEW_FOLDER_SUBTITLE" = "Organize your bookmarks";
 "BOOKMARK_FOLDERS_CREATE_NEW_FOLDER_TITLE" = "Create new folder";
 "BOOKMARK_FOLDERS_DELETE_FOLDER_CONFIRMATION_SUBTITLE" = "Your posts will still be saved in the “All Bookmarks” folder";
@@ -514,8 +510,6 @@
 "COMPOSE_FONT_SETTINGS_ITALIC_ACCESSIBILITY_HINT" = "Add italic style to the text";
 "COMPOSE_FONT_SETTINGS_ITALIC_ACCESSIBILITY_LABEL" = "Italic font style";
 "COMPOSE_FOUND_MEDIA_TOOLTIP_DEFAULT_TEXT" = "Find awesome GIFs";
-"COMPOSE_GEO_TOOLTIP_DEFAULT_TEXT" = "Add your location";
-"COMPOSE_GEO_TOOLTIP_PHOTO_TEXT" = "Add a location for this photo";
 "COMPOSE_HASHTAG_VIDEO_ATTRIBUTION_CALLOUT_TEXT_FORMAT" = "This video has been added because you used %@ in your post. Watch it, post it, or remove it by tapping the ‘X.’";
 "COMPOSE_HIT_TWEET_THREAD_LIMIT_TOOLTIP_TEXT" = "You can add more posts to this\nthread after sending these.";
 "COMPOSE_LIVE_PHOTO_TOGGLE_TOOLTIP_TEXT" = "Now you can turn this into a GIF";
@@ -1093,6 +1087,7 @@
 "FLAGGED_TWEETS_APPEAL_LABEL_TEXT_FORMAT" = "We put a warning on this post because it might have sensitive content. %@";
 "FLAGGED_TWEETS_APPEAL_WARNING_ACTION_LABEL" = "Appeal this warning";
 "FLAGGED_TWEETS_APPEAL_WARNING_WEBVIEW_TITLE" = "Appeal this warning";
+"FLEETS_ACTION_CONFIGURE_SPORTS_LABEL" = "Configure";
 "FLEETS_ACTION_HIDE_EVENT_LABEL" = "Hide this event";
 "FLEETS_ACTION_HIDE_GAME_LABEL" = "Hide this game";
 "FLEETS_ACTION_HIDE_LIVE_VIDEO_LABEL" = "Hide this Live Video";
@@ -1538,7 +1533,6 @@
 "MENU_BAR_MESSAGE_MENU_TITLE" = "Message";
 "MENU_BAR_TWEET_MENU_TITLE" = "Post";
 "MESSAGE_TOO_LONG_ERROR_LABEL" = "Post needs to be a bit shorter.";
-"MGM_BETTING_ODDS_GAMBLING_PROBLEMS" = "Gambling Problem? Call 1-800-GAMBLER";
 "MGM_BETTING_ODDS_MONEY" = "Money";
 "MGM_BETTING_ODDS_SPREAD" = "Spread";
 "MGM_BETTING_ODDS_TOTAL" = "Total";
@@ -1605,7 +1599,6 @@
 "NEWSCAMERA_ADD_LOCATION_ACTION_LABEL" = "Add location";
 "NEWSCAMERA_ADD_LOCATION_NO_LOCATIONS_ACTION_LABEL" = "Try again";
 "NEWSCAMERA_ADD_LOCATION_NO_LOCATIONS_LABEL" = "Locations aren’t loading right now";
-"NEWSCAMERA_ADD_LOCATION_SELECT_PLACE_ACTION_LABEL" = "Select a place";
 "NEWSCAMERA_ADD_LOCATION_SHARE_PRECISE_ACTION_LABEL" = "Share precise location";
 "NEWSCAMERA_ADD_LOCATION_SHARING_PRECISE_ACTION_LABEL" = "Sharing precise location";
 "NEWSCAMERA_ADD_LOCATION_TAG_LOCATION_LABEL" = "Add location";
@@ -2292,7 +2285,6 @@
 "SECURITY_SETTINGS_TWO_FACTOR_AUTHENTICATION_SERVER_ERROR_TITLE" = "Something went wrong";
 "SECURITY_SETTINGS_TWO_FACTOR_AUTHENTICATION_SUSPENDED_ACCOUNT_MESSAGE" = "Your account is currently suspended. You can’t turn on two-factor authentication or make changes to your two-factor authentication methods at this time.";
 "SECURITY_SETTINGS_UNABLE_TO_SAVE_ACCOUNT_CHANGES_MESSAGE" = "Unable to save account changes.";
-"SELECT_A_POST_FROM_BOOKMARKS_LABEL" = "Select a post from bookmarks";
 "SELECT_VIDEO_QUALITY" = "Select video quality";
 "SELECT_VIDEO_QUALITY_ACCESSIBILITY_LABEL" = "Select quality for video upload";
 "SELECT_VIDEO_QUALITY_TOOLTIP_LABEL" = "Select quality of uploaded video";
@@ -2690,9 +2682,6 @@
 "SUPER_FOLLOW_CONNECTION_ISSUE_DETAILS_TEXT" = "To avoid future charges, go to Apple settings to cancel your Subscription.";
 "SUPER_FOLLOW_CONNECTION_ISSUE_TITLE_FORMAT" = "You can no longer access %@’s content";
 "SUPER_FOLLOW_EDUCATION_PROMPT_CANCEL_BUTTON" = "Got it";
-"SUPER_FOLLOW_EDUCATION_PROMPT_LEARN_MORE_BUTTON" = "Tell me more";
-"SUPER_FOLLOW_EDUCATION_PROMPT_SUBTITLE" = "When you subscribe to your favorite creators, you get exclusive content — and they earn a little money. No cape required.";
-"SUPER_FOLLOW_EDUCATION_PROMPT_TITLE" = "What’s a Subscription?";
 "SUPER_FOLLOW_MANAGE_SUBSCRIPTION_BADGE_PRIVACY_DISCLAIMER" = "When you turn this off, %1$@ and their Subscribers will still see your badge when you reply to %1$@’s Subscriber-only posts. %1$@ will always see your badge.";
 "SUPER_FOLLOW_MANAGE_SUBSCRIPTION_BADGE_PRIVACY_SUBTITLE" = "Allow anyone to see your Subscriber badge when you reply to %@’s posts";
 "SUPER_FOLLOW_MANAGE_SUBSCRIPTION_BADGE_PRIVACY_TITLE" = "Subscriber badge";
@@ -2816,13 +2805,6 @@
 "TWEET_PLACE_FROM_LINE_FORMAT" = "From %@";
 "TWEET_PROMOTE_ACTION_LABEL" = "Boost";
 "TWEET_PROMOTE_AGAIN_ACTION_LABEL" = "Boost again";
-"TWEET_PROMOTE_ANALYTICS_ACTION_LABEL" = "Analytics";
-"TWEET_PROMOTE_ANALYTICS_RESULTS_ACTION_LABEL" = "Analytics";
-"TWEET_PROMOTE_BOOSTED_IMPRESSIONS_LABEL" = "•|•%@•|• Boosted views";
-"TWEET_PROMOTE_BOOST_ACTIVE_PILL_LABEL" = "Boost in progress";
-"TWEET_PROMOTE_BOOST_FINISHED_PILL_LABEL" = "Boost completed";
-"TWEET_PROMOTE_BOOST_STARTING_LABEL" = "🚀 Your Boost is underway";
-"TWEET_PROMOTE_BOOST_STARTING_PILL_LABEL" = "Boost starting";
 "TWEET_PROMOTE_OPTIONS_WYSTP_LINK_LABEL" = "Why this post?";
 "TWEET_PROMOTE_SENT_TWEET_ACTION_LABEL" = "Boost";
 "TWEET_PROMOTE_UNAVAILABLE_MESSAGE" = "Oops. Boosting is not available, please try later.";
@@ -3051,6 +3033,7 @@
 "VIDEO_SETTINGS_DOWNLOAD_VIDEO" = "Download video";
 "VIDEO_SETTINGS_GO_TO_POST" = "Go to Post";
 "VIDEO_SETTINGS_OPEN_IN_YOUTUBE" = "Open in YouTube";
+"VIDEO_SETTINGS_PICTURE_IN_PICTURE" = "Picture in picture";
 "VIDEO_SETTINGS_QUALITY_AUTO_TITLE" = "Auto";
 "VIDEO_SETTINGS_QUALITY_TITLE" = "Quality";
 "VIDEO_TRIM_CONTROL_ACCESSIBILITY_HINT" = "Trims video";

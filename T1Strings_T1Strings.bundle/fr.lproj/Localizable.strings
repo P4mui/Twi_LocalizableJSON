@@ -3,6 +3,7 @@
 "ABOUT_PROFILE_MODULE_OPEN_IN_APPLE_MAPS_TEXT" = "Ouvrir dans Apple Plans";
 "ABOUT_PROFILE_MODULE_OPEN_IN_GOOGLE_MAPS_TEXT" = "Ouvrir dans Google Maps";
 "ABOUT_TITLE" = "À propos de X";
+"ACCESSIBILITY_LABEL_IMMERSIVE_VIDEO_CARD_CAMERA_BUTTON" = "Caméra";
 "ACCOUNTS_LIST_TITLE" = "Comptes";
 "ACCOUNT_AUTHENTICATION_2FA_TITLE" = "Authentification à deux facteurs";
 "ACCOUNT_CREEPER_FOLLOW_ERROR_MESSAGE" = "Afin de protéger nos utilisateurs contre les spams et d'autres activités malveillantes, il est temporairement interdit à ce compte de s'abonner à de nouveaux comptes. Veuillez vous assurer de comprendre nos Règles.";
@@ -277,14 +278,9 @@
 "BOOKMARKS_TOAST_NOTIFICATION_TWEET_REMOVED_MESSAGE" = "Post supprimé de vos signets";
 "BOOKMARKS_TOAST_NOTIFICATION_TWEET_REMOVED_SHORT_MESSAGE" = "Supprimé des signets";
 "BOOKMARKS_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Signets avec %@";
-"BOOKMARK_FOLDERS_ADD_REMOVE_TO_FOLDER_LABEL" = "Ajouter au/retirer du dossier";
-"BOOKMARK_FOLDERS_ADD_REMOVE_TO_FOLDER_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Ajouter/supprimer du dossier avec %@";
-"BOOKMARK_FOLDERS_ADD_TO_FOLDER_WITH_PREMIUM_ACCESSIBILITY_LABEL" = "Ajouter au dossier avec %@";
 "BOOKMARK_FOLDERS_ARE_NOT_LOADING_LABEL" = "Les dossiers ne se chargent pas pour le moment.";
 "BOOKMARK_FOLDERS_CREATE_ACCESSIBILITY_LABEL" = "Créer un dossier de signets";
 "BOOKMARK_FOLDERS_CREATE_FOLDER_TITLE" = "Créer un dossier";
-"BOOKMARK_FOLDERS_CREATE_NAME_SUBTITLE" = "Entrez un nom.";
-"BOOKMARK_FOLDERS_CREATE_NAME_TITLE" = "Nom";
 "BOOKMARK_FOLDERS_CREATE_NEW_FOLDER_SUBTITLE" = "Organisez vos signets";
 "BOOKMARK_FOLDERS_CREATE_NEW_FOLDER_TITLE" = "Créer un dossier";
 "BOOKMARK_FOLDERS_DELETE_FOLDER_CONFIRMATION_SUBTITLE" = "Vos posts seront toujours enregistrés dans le dossier Tous les signets.";
@@ -512,8 +508,6 @@
 "COMPOSE_FONT_SETTINGS_ITALIC_ACCESSIBILITY_HINT" = "Mettre le texte en italique";
 "COMPOSE_FONT_SETTINGS_ITALIC_ACCESSIBILITY_LABEL" = "Police en italique";
 "COMPOSE_FOUND_MEDIA_TOOLTIP_DEFAULT_TEXT" = "Trouver des GIF fantastiques";
-"COMPOSE_GEO_TOOLTIP_DEFAULT_TEXT" = "Ajouter votre position";
-"COMPOSE_GEO_TOOLTIP_PHOTO_TEXT" = "Ajoutez une localisation pour cette photo.";
 "COMPOSE_HASHTAG_VIDEO_ATTRIBUTION_CALLOUT_TEXT_FORMAT" = "Cette vidéo a été ajoutée car vous avez utilisé %@ dans votre post. Regardez‑la, postez‑la ou supprimez‑la en appuyant sur la croix.";
 "COMPOSE_HIT_TWEET_THREAD_LIMIT_TOOLTIP_TEXT" = "Vous pouvez ajouter d'autres posts à cette\ndiscussion après avoir envoyé ceux‑ci.";
 "COMPOSE_LIVE_PHOTO_TOGGLE_TOOLTIP_TEXT" = "Vous pouvez maintenant faire de cette photo un GIF.";
@@ -1243,6 +1237,9 @@
 "IMMERSIVE_EXPLORE_NETWORK_NO_CONNECTION_RETRY_BUTTON" = "Réessayer";
 "IMMERSIVE_EXPLORE_NETWORK_NO_CONNECTION_SUBHEADER" = "Votre réseau est indisponible. Connectez-vous et réessayez.";
 "IMMERSIVE_EXPLORE_SWITCH_TO_FULLSCREEN_BUTTON" = "Plein écran";
+"IMMERSIVE_PLAYBACK_RATE_LOCKED_LABEL" = "Verrouillé";
+"IMMERSIVE_PLAYBACK_RATE_NORMAL_SPEED_LABEL" = "Vitesse normale";
+"IMMERSIVE_PLAYBACK_RATE_SWIPE_DOWN_FOR_NORMAL_SPEED" = "Glissez vers le bas pour une vitesse normale";
 "IMMERSIVE_PLAYLIST_TIMELINE_ACCESSIBILITY_LABEL" = "Fil du match";
 "IMMERSIVE_RESUME_SESSION_PILL_ACCESSIBILITY_LABEL" = "Reprendre la lecture de %@";
 "INLINE_COMPOSE_EVENT_PLACEHOLDER_FORMAT" = "Postez sur %@";
@@ -1509,7 +1506,6 @@
 "MENU_BAR_MESSAGE_MENU_TITLE" = "Message";
 "MENU_BAR_TWEET_MENU_TITLE" = "Poster";
 "MESSAGE_TOO_LONG_ERROR_LABEL" = "Le post doit être un peu plus court.";
-"MGM_BETTING_ODDS_GAMBLING_PROBLEMS" = "Un problème avec le jeu ? Appelez 1-800-GAMBLER";
 "MGM_BETTING_ODDS_MONEY" = "Argent";
 "MGM_BETTING_ODDS_SPREAD" = "Spread";
 "MGM_BETTING_ODDS_TOTAL" = "Total";
@@ -1576,7 +1572,6 @@
 "NEWSCAMERA_ADD_LOCATION_ACTION_LABEL" = "Ajouter une localisation";
 "NEWSCAMERA_ADD_LOCATION_NO_LOCATIONS_ACTION_LABEL" = "Réessayer";
 "NEWSCAMERA_ADD_LOCATION_NO_LOCATIONS_LABEL" = "Les localisations ne se chargent pas pour l'instant.";
-"NEWSCAMERA_ADD_LOCATION_SELECT_PLACE_ACTION_LABEL" = "Sélectionnez un lieu";
 "NEWSCAMERA_ADD_LOCATION_SHARE_PRECISE_ACTION_LABEL" = "Partager la localisation exacte";
 "NEWSCAMERA_ADD_LOCATION_SHARING_PRECISE_ACTION_LABEL" = "Partage de la localisation exacte";
 "NEWSCAMERA_ADD_LOCATION_TAG_LOCATION_LABEL" = "Ajouter une localisation";
@@ -2117,7 +2112,7 @@
 "PROFILE_UPGRADE_UPSELL_CARD_TITLE" = "Vous n'avez pas encore le statut Certifié";
 "PROFILE_WEBSITE_ACCESSIBILITY_LABEL_FORMAT" = "Site Web %@";
 "PROMOTABLE_TWEETS_TIMELINE_TITLE" = "Sélectionnez un poster pour booster";
-"PROMOTED_AD_FROM_DOMAIN_FORMAT" = "PROMOTED_AD_FROM_DOMAIN_FORMAT";
+"PROMOTED_AD_FROM_DOMAIN_FORMAT" = "Annonce de %@";
 "PROMOTED_OPTIONS_WYSTA_LINK_LABEL" = "Pourquoi cette publicité ?";
 "PROMOTED_TWEET_HEADER_LINE_LABEL" = "Post sponsorisé";
 "PROMOTE_MODE_LABEL" = "Mode sponsorisation";
@@ -2138,6 +2133,8 @@
 "PROTECT_VIDEOS_SETTING_TITLE" = "Protéger mes vidéos";
 "QUICK_COMPOSER_ADD_MEDIA_ACCESSIBILITY_LABEL" = "Ajouter des photos ou des vidéos";
 "QUICK_COMPOSER_ATTACHMENT_POSITION_ACCESSIBILITY_VALUE" = "%1$lld sur %2$lld";
+"QUICK_COMPOSER_PLUS_BUTTON_ACCESSIBILITY_LABEL" = "Ajouter un média";
+"QUICK_COMPOSER_PLUS_MENU_GIFS_ACTION_TITLE" = "GIF";
 "QUOTE_POST_PICKER_TITLE" = "Choisissez un message à citer";
 "QUOTE_POST_PICKER_YOUR_POSTS_TAB" = "Vos posts";
 "QUOTE_TIMELINE_TITLE" = "Citations";
@@ -2261,7 +2258,6 @@
 "SECURITY_SETTINGS_TWO_FACTOR_AUTHENTICATION_SERVER_ERROR_TITLE" = "Un problème est survenu.";
 "SECURITY_SETTINGS_TWO_FACTOR_AUTHENTICATION_SUSPENDED_ACCOUNT_MESSAGE" = "Votre compte est actuellement suspendu. Vous ne pouvez pas activer l'authentification à deux facteurs ni modifier vos méthodes d'authentification à deux facteurs pour le moment.";
 "SECURITY_SETTINGS_UNABLE_TO_SAVE_ACCOUNT_CHANGES_MESSAGE" = "Impossible d'enregistrer les modifications apportées au compte.";
-"SELECT_A_POST_FROM_BOOKMARKS_LABEL" = "Sélectionnez un post dans les signets";
 "SELECT_VIDEO_QUALITY" = "Sélectionner la qualité de la vidéo";
 "SELECT_VIDEO_QUALITY_ACCESSIBILITY_LABEL" = "Sélectionner la qualité pour le téléchargement d'une vidéo";
 "SELECT_VIDEO_QUALITY_TOOLTIP_LABEL" = "Sélectionner la qualité de la vidéo téléchargée";
@@ -2643,7 +2639,7 @@
 "SUBSCRIPTION_UPSELL_CTA_FOOTER_TEXT_WITH_PREFIX_PRICE_AND_PERIOD" = "Offre à durée limitée : %1$@/%2$@";
 "SUBSCRIPTION_UPSELL_CTA_FOOTER_TEXT_WITH_PRICE_AND_PERIOD" = "%1$@/%2$@";
 "SUBSCRIPTION_UPSELL_FEATURES_MEDIA_UPLOAD_TOAST_TITLE" = "Abonnez‑vous à X Premium pour poster des vidéos plus longues.";
-"SUBSCRIPTION_UPSELL_LONG_FORM_INLINE_MESSAGE" = "SUBSCRIPTION_UPSELL_LONG_FORM_INLINE_MESSAGE";
+"SUBSCRIPTION_UPSELL_LONG_FORM_INLINE_MESSAGE" = "Passez à %@ pour écrire des posts plus longs.";
 "SUBSCRIPTION_VERIFIED_EXPIRING_SUBTITLE" = "Votre abonnement est actif. Vos fonctionnalités seront disponibles pour le restant de votre période de facturation.";
 "SUBSCRIPTION_VERIFIED_IN_REVIEW_DESCRIPTION" = "Nous vérifions votre compte.";
 "SUGGESTED_FOLLOWS_LABEL" = "Abonnements suggérés";
@@ -2658,9 +2654,6 @@
 "SUPER_FOLLOW_CONNECTION_ISSUE_DETAILS_TEXT" = "Afin d'éviter de futurs frais, accédez aux réglages Apple pour annuler votre Souscription.";
 "SUPER_FOLLOW_CONNECTION_ISSUE_TITLE_FORMAT" = "Vous n'avez plus accès au contenu de %@";
 "SUPER_FOLLOW_EDUCATION_PROMPT_CANCEL_BUTTON" = "J\\'ai compris";
-"SUPER_FOLLOW_EDUCATION_PROMPT_LEARN_MORE_BUTTON" = "Plus d\\'informations";
-"SUPER_FOLLOW_EDUCATION_PROMPT_SUBTITLE" = "Quand vous achetez une Souscription à vos créateurs préférés, vous profitez de contenus exclusifs et eux gagnent un peu d'argent. C'est tout simple.";
-"SUPER_FOLLOW_EDUCATION_PROMPT_TITLE" = "Qu'est‑ce qu'une Souscription ?";
 "SUPER_FOLLOW_MANAGE_SUBSCRIPTION_BADGE_PRIVACY_DISCLAIMER" = "Si vous désactivez cette fonction, %1$@ et ses Souscripteurs verront toujours votre badge lorsque vous répondez aux posts réservés aux Souscripteurs de %1$@. %1$@ verra votre badge quoi qu'il en soit.";
 "SUPER_FOLLOW_MANAGE_SUBSCRIPTION_BADGE_PRIVACY_SUBTITLE" = "Permettez à tout le monde de voir votre badge Souscripteur lorsque vous répondez aux posts de %@.";
 "SUPER_FOLLOW_MANAGE_SUBSCRIPTION_BADGE_PRIVACY_TITLE" = "Badge Souscripteur";
@@ -2784,13 +2777,6 @@
 "TWEET_PLACE_FROM_LINE_FORMAT" = "Depuis %@";
 "TWEET_PROMOTE_ACTION_LABEL" = "Booster";
 "TWEET_PROMOTE_AGAIN_ACTION_LABEL" = "Booster de nouveau";
-"TWEET_PROMOTE_ANALYTICS_ACTION_LABEL" = "Statistiques";
-"TWEET_PROMOTE_ANALYTICS_RESULTS_ACTION_LABEL" = "Statistiques";
-"TWEET_PROMOTE_BOOSTED_IMPRESSIONS_LABEL" = "•|•%@•|• vues boostées";
-"TWEET_PROMOTE_BOOST_ACTIVE_PILL_LABEL" = "Boostage en cours";
-"TWEET_PROMOTE_BOOST_FINISHED_PILL_LABEL" = "Boostage effectué";
-"TWEET_PROMOTE_BOOST_STARTING_LABEL" = "🚀 Votre boostage est en cours.";
-"TWEET_PROMOTE_BOOST_STARTING_PILL_LABEL" = "Lancement du boostage";
 "TWEET_PROMOTE_OPTIONS_WYSTP_LINK_LABEL" = "Pourquoi est-ce que je vois ce post ?";
 "TWEET_PROMOTE_SENT_TWEET_ACTION_LABEL" = "Booster";
 "TWEET_PROMOTE_UNAVAILABLE_MESSAGE" = "Oups. Le boostage n'est pas disponible. Veuillez essayer plus tard.";
@@ -3015,6 +3001,7 @@
 "VIDEO_SETTINGS_DOWNLOAD_VIDEO" = "Télécharger la vidéo";
 "VIDEO_SETTINGS_GO_TO_POST" = "Aller au post";
 "VIDEO_SETTINGS_OPEN_IN_YOUTUBE" = "Ouvrir dans YouTube";
+"VIDEO_SETTINGS_PICTURE_IN_PICTURE" = "Image dans l'image";
 "VIDEO_SETTINGS_QUALITY_AUTO_TITLE" = "Automatique";
 "VIDEO_SETTINGS_QUALITY_TITLE" = "Qualité";
 "VIDEO_TRIM_CONTROL_ACCESSIBILITY_HINT" = "Coupe la vidéo";
