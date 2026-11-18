@@ -96,7 +96,6 @@
 "AFFILIATE_LABEL_MODAL_VIEW_TITLE" = "Étiquettes des élections américaines";
 "AGE_ASSURANCE_BUTTON_TAKE_QUICK_SELFIE_LABEL" = "Confirmer avec un selfie";
 "AGE_ASSURANCE_BUTTON_USE_SELFIE_AND_ID_LABEL" = "Utiliser selfie et pièce d'identité";
-"AGE_ASSURANCE_OR_LABEL" = "ou";
 "AGE_ASSURANCE_PHOTO_SHARING_CONSENT" = "En poursuivant, vous acceptez que X et xAI utilisent votre photo pour vérifier votre âge et à des fins de sécurité, de protection et de prévention des fraudes sur X. Votre photo ne sera pas stockée. X et xAI pourront conserver les informations relatives à votre âge.";
 "AGE_ASSURANCE_PHOTO_UPLOAD_FAILED_LABEL" = "Échec du téléchargement de l'image. Appuyez sur Continuer pour réessayer.";
 "AGE_ASSURANCE_SELFIE_PROCESSING_LABEL" = "Analyse du selfie avec Grok…";
@@ -424,7 +423,6 @@
 "CASHTAG_INFO_TRADE_BUTTON_TITLE_FORMAT" = "Effectuer des opérations sur %@";
 "CASHTAG_INFO_TRADE_OPEN_FAILED_FORMAT" = "Impossible d'ouvrir %@";
 "CASHTAG_INFO_TRADE_TICKER_FORMAT" = "Effectuer des opérations sur %@";
-"CASHTAG_TRADE_DISCLAIMER_BODY" = "X n'est pas un courtier ou un conseiller en investissement et ne propose pas de titres ou de cryptomonnaies à la vente ni ne facilite les transactions. Nos partenaires peuvent nous rémunérer pour certaines activités de trading de cryptomonnaies éligibles générées via ce lien.";
 "CASHTAG_TRADE_DISCLAIMER_TITLE" = "Avertissement concernant le trading";
 "CHANGE_PASSWORD_ERROR_CANNOT_CHANGE_PASSWORD" = "Veuillez utiliser le lien \"Mot de passe oublié ?\" pour réinitialiser votre mot de passe et déverrouiller votre compte.";
 "CHANGE_PASSWORD_ERROR_INVALID_CREDENTIALS" = "Authentification impossible";
@@ -958,7 +956,6 @@
 "EDIT_PROFILE_BIRTHDAY_PICKER_VISIBILITY_FIELD_DATE_LABEL" = "Mois et jour";
 "EDIT_PROFILE_BIRTHDAY_PICKER_VISIBILITY_FIELD_YEAR_LABEL" = "Année";
 "EDIT_PROFILE_BIRTHDAY_PICKER_VISIBILITY_PICKER_DATE_TITLE" = "Mois et jour de naissance";
-"EDIT_PROFILE_BIRTHDAY_PICKER_VISIBILITY_PICKER_HELP_LINK" = "En savoir plus sur ces paramètres";
 "EDIT_PROFILE_BIRTHDAY_PICKER_VISIBILITY_PICKER_YEAR_TITLE" = "Année de naissance";
 "EDIT_PROFILE_BIRTHDAY_PICKER_VISIBILITY_SECTION_FOOTER" = "Vous pouvez contrôler qui voit votre date de naissance sur X. %@";
 "EDIT_PROFILE_BIRTHDAY_PICKER_VISIBILITY_SECTION_HEADER" = "Qui voit ceci ?";
@@ -971,11 +968,6 @@
 "EDIT_PROFILE_SWITCH_PROFESSIONAL_LABEL" = "Passer en mode Professionnel";
 "EDIT_PROFILE_TAKE_HEADER_PHOTO_ACCESSIBILITY_LABEL" = "Prendre une photo de bannière";
 "EDIT_PROFILE_TAKE_PROFILE_PHOTO_ACCESSIBILITY_LABEL" = "Prendre une photo de profil";
-"EDIT_PROFILE_VISIBILITY_FOLLOWERS_LABEL" = "Vos abonnés";
-"EDIT_PROFILE_VISIBILITY_FOLLOWING_LABEL" = "Les personnes que vous suivez";
-"EDIT_PROFILE_VISIBILITY_MUTUAL_LABEL" = "Les comptes auxquels vous êtes abonné qui vous suivent";
-"EDIT_PROFILE_VISIBILITY_PUBLIC_LABEL" = "Tout le monde";
-"EDIT_PROFILE_VISIBILITY_SELF_LABEL" = "Vous uniquement";
 "EDIT_PROFILE_WEBSITE_INVALID_URL_ERROR" = "Votre site Web doit avoir une URL valide.";
 "EDIT_TWEET_ACTION_LABEL" = "Éditer le post";
 "EDIT_TWEET_DELETE_TWEET_ALERT_CONFIRMATION_MESSAGE" = "Cela supprimera toutes les versions de ce post de votre profil, du fil des comptes qui vous suivent et des résultats de recherche X. Il n'est pas possible d'annuler cette opération.";
@@ -1075,6 +1067,7 @@
 "FLAGGED_TWEETS_APPEAL_LABEL_TEXT_FORMAT" = "Nous avons placé un avertissement sur ce post, car il pourrait comporter du contenu sensible. %@";
 "FLAGGED_TWEETS_APPEAL_WARNING_ACTION_LABEL" = "Faire appel de cet avertissement";
 "FLAGGED_TWEETS_APPEAL_WARNING_WEBVIEW_TITLE" = "Faire appel de cet avertissement";
+"FLEETS_ACTION_CONFIGURE_SPORTS_LABEL" = "Configurer";
 "FLEETS_ACTION_HIDE_EVENT_LABEL" = "Masquer cet événement";
 "FLEETS_ACTION_HIDE_GAME_LABEL" = "Masquer ce match";
 "FLEETS_ACTION_HIDE_LIVE_VIDEO_LABEL" = "Masquer cette vidéo en direct";
@@ -1219,9 +1212,7 @@
 "IDENTITY_VERIFICATION_INTRO_TERMS_ADS_REVENUE_SHARE" = "Partage des revenus publicitaires";
 "IDENTITY_VERIFICATION_INTRO_TERMS_CREATOR_SUBSCRIPTION" = "Souscription de créateur";
 "IDENTITY_VERIFICATION_INTRO_TITLE" = "Vérification d'identité";
-"IDENTITY_VERIFICATION_INTRO_TITLE_OPTIONAL" = "Vérification d'identité (Facultatif)";
 "IDENTITY_VERIFICATION_INTRO_USER_CONSENT" = "J'accepte que X et Au10tix utilisent des photos de ma pièce d'identité, notamment les données biométriques extraites, ainsi que mon selfie, pour confirmer mon identité et à des fins de sécurité et de protection, notamment pour prévenir l'usurpation d'identité. Au10tix est susceptible de stocker ces données pendant 30 jours maximum. %@";
-"IDENTITY_VERIFICATION_INTRO_USER_CONSENT_AGE_ASSURANCE" = "J'accepte que X et Persona utilisent des photos de ma pièce d'identité et ma photo pour confirmer mon âge. Votre photo ne sera pas stockée. X et xAI pourront conserver les informations relatives à votre âge. %@";
 "IDENTITY_VERIFICATION_INTRO_USER_CONSENT_CREATOR" = "J'accepte que X et Au10tix utilisent des photos de ma pièce d'identité et mon selfie, notamment les données biométriques extraites, pour confirmer mon identité et à des fins de sécurité et de protection, de prévention des fraudes et de paiement. Au10tix est susceptible de stocker ces données pendant 30 jours maximum. X peut stocker mon nom et mon prénom, mon adresse et une version hachée du numéro de ma pièce d'identité pour toute la durée de ma participation au programme %1$@ ou %2$@. %3$@";
 "IDENTITY_VERIFICATION_INTRO_USER_CONSENT_PERSONA" = "J'accepte que X et Persona utilisent des photos de ma pièce d'identité et mon selfie, notamment les données biométriques extraites, pour confirmer mon identité et à des fins de sécurité et de protection, de prévention des fraudes et de paiement. Persona est susceptible de stocker ces données pendant 30 jours maximum. X peut stocker mon nom et mon prénom, mon adresse et une version hachée du numéro de ma pièce d'identité pour toute la durée de mon abonnement au %1$@. %2$@";
 "IDENTITY_VERIFICATION_SETTINGS_DESCRIPTION" = "Vérifiez votre pièce d'identité officielle pour confirmer votre identité et débloquer les fonctionnalités en tant qu'abonné %@.";
@@ -1239,7 +1230,7 @@
 "IMMERSIVE_EXPLORE_SWITCH_TO_FULLSCREEN_BUTTON" = "Plein écran";
 "IMMERSIVE_PLAYBACK_RATE_LOCKED_LABEL" = "Verrouillé";
 "IMMERSIVE_PLAYBACK_RATE_NORMAL_SPEED_LABEL" = "Vitesse normale";
-"IMMERSIVE_PLAYBACK_RATE_SWIPE_DOWN_FOR_NORMAL_SPEED" = "Glissez vers le bas pour une vitesse normale";
+"IMMERSIVE_PLAYBACK_RATE_SWIPE_DOWN_FOR_NORMAL_SPEED" = "Balayez vers le bas pour revenir à la vitesse normale";
 "IMMERSIVE_PLAYLIST_TIMELINE_ACCESSIBILITY_LABEL" = "Fil du match";
 "IMMERSIVE_RESUME_SESSION_PILL_ACCESSIBILITY_LABEL" = "Reprendre la lecture de %@";
 "INLINE_COMPOSE_EVENT_PLACEHOLDER_FORMAT" = "Postez sur %@";
@@ -2030,6 +2021,7 @@
 "PREROLL_CTA_BUTTON_LABEL_WATCH_FORMAT" = "Regarder %@";
 "PREROLL_CTA_BUTTON_LABEL_WATCH_GENERIC" = "Regarder";
 "PREROLL_INTRO_LABEL" = "La vidéo sera lue après la publicité.";
+"PRINT_ACTION_ACCESSIBILITY_LABEL" = "Imprimer";
 "PRIORITY_LABEL" = "Priorité";
 "PRIVACY_POLICY" = "Politique de confidentialité";
 "PRIVATE_LIKES_CALLOUT" = "Vos J'aime sont privés. Vous êtes la seule personne qui les voit.";
@@ -2757,6 +2749,7 @@
 "TWEET_DEAMPLIFICATION_TRANSPARENCY_SECOND_REPLIES_SECTION_CURSOR_TITLE_TEXT" = "Autres réponses";
 "TWEET_DEAMPLIFICATION_TRANSPARENCY_THIRD_REPLIES_SECTION_CURSOR_TITLE_TEXT" = "Voir plus de réponses";
 "TWEET_DETAIL_EDIT_HISTORY_ACCESSIBILITY_HINT" = "Ouvre l'historique des modifications";
+"TWEET_DETAIL_REPLY_VIEW_TITLE" = "Répondre";
 "TWEET_DETAIL_SELF_THREAD_VIEW_TITLE" = "Discussion";
 "TWEET_DETAIL_SELF_THREAD_VIEW_TITLE_ACCESSIBILITY_LABEL_FORMAT_WITH_AUTHOR" = "Discussion de %@";
 "TWEET_DETAIL_VIEW_COUNT_ACCESSIBILITY_HINT" = "Ouvre les statistiques";
@@ -2824,8 +2817,6 @@
 "UPDATE_USERNAME_ALERT_TITLE" = "Voulez-vous vraiment modifier votre nom d'utilisateur ?";
 "UPDATE_USERNAME_ALERT_VIT_MESSAGE" = "En modifiant votre @nomdutilisateur, vous perdrez votre statut certifié.";
 "UPDATE_USERNAME_ALERT_VIT_TITLE" = "Voulez-vous vraiment effectuer cette opération ?";
-"UPDATE_USERNAME_EXPLANATION" = "Les autres utilisateurs vous connaîtront sous ce nom.";
-"UPDATE_USERNAME_HEADING" = "Mettez votre @nomdutilisateur à jour";
 "UPDATE_USERNAME_TITLE" = "Mettre à jour";
 "USERNAME_LABEL" = "Nom d'utilisateur";
 "USER_AFFILIATES_COUNT_ACCESSIBILITY_HINT" = "Affiche la liste des affiliés";
@@ -3117,7 +3108,6 @@
 "VOICE_ROOM_EMOJI_REACTION_SHEET_BUTTON_ACCESSIBILITY_HINT" = "Affiche brièvement cette réaction par émoji au-dessus de votre avatar";
 "VOICE_ROOM_ERROR_DETAILS_USER_BANNED" = "Votre compte a été exclu. Veuillez contacter l'assistance.";
 "VOICE_ROOM_ERROR_DEVICE_UNAVAILABLE_MESSAGE" = "Spaces n'est pas encore disponible sur cet appareil, mais nous y travaillons ! Consultez le compte @XSpaces pour vous tenir au courant.";
-"VOICE_ROOM_ERROR_DEVICE_UNAVAILABLE_MESSAGE_IPAD" = "Spaces n'est pas encore disponible sur iPad, mais nous y travaillons ! Consultez le compte @XSpaces pour vous tenir au courant.";
 "VOICE_ROOM_ERROR_DEVICE_UNAVAILABLE_MESSAGE_MAC" = "Spaces n'est pas encore disponible sur Mac, mais nous y travaillons ! Consultez le compte @XSpaces pour vous tenir au courant.";
 "VOICE_ROOM_ERROR_DEVICE_UNAVAILABLE_TITLE" = "Impossible de rejoindre cet Espace";
 "VOICE_ROOM_FAB_ACCESSIBILITY_LABEL" = "Créer un Espace";
